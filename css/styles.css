@@ -84,9 +84,9 @@ header::after {
     max-width: 240px;
     height: auto;
     /* drop-shadow follows the circular silhouette; box-shadow would draw a
-       square behind a round seal. */
-    filter: drop-shadow(0 8px 20px rgba(0, 0, 0, 0.45))
-            drop-shadow(0 0 1px rgba(255, 255, 255, 0.35));
+       square behind a round seal. Kept dark only - a light outer glow would
+       read as the white ring we just removed. */
+    filter: drop-shadow(0 8px 22px rgba(0, 0, 0, 0.5));
 }
 
 header h1 {
