@@ -83,9 +83,10 @@ header::after {
 .logo {
     max-width: 240px;
     height: auto;
-    background: white;
-    padding: 10px;
-    border-radius: 8px;
+    /* drop-shadow follows the circular silhouette; box-shadow would draw a
+       square behind a round seal. */
+    filter: drop-shadow(0 8px 20px rgba(0, 0, 0, 0.45))
+            drop-shadow(0 0 1px rgba(255, 255, 255, 0.35));
 }
 
 header h1 {
