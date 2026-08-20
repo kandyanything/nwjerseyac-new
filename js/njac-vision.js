@@ -31,13 +31,23 @@ document.addEventListener('DOMContentLoaded', function() {
         btn.setAttribute('aria-label', 'Play video: ' + (v.title || 'NJAC game'));
 
         const img = document.createElement('img');
-        // maxresdefault is not generated for every upload; fall back to hqdefault,
-        // which YouTube always produces.
-        img.src = 'https://i.ytimg.com/vi/' + v.id + '/maxresdefault.jpg';
-        img.onerror = function() {
-            this.onerror = null;
-            this.src = 'https://i.ytimg.com/vi/' + v.id + '/hqdefault.jpg';
-        };
+        // "thumb" picks the preview frame:
+        //   omitted        -> the uploader's own thumbnail (the matchup graphic)
+        //   "hq1|hq2|hq3"  -> YouTube's auto-captured frame from 25/50/75% in
+        //   a full URL     -> that image, e.g. a screenshot stored in images/
+        // maxresdefault is not generated for every upload, so fall back to
+        // hqdefault, which YouTube always produces.
+        if (v.thumb && /^https?:\/\//i.test(v.thumb)) {
+            img.src = v.thumb;
+        } else if (v.thumb) {
+            img.src = 'https://i.ytimg.com/vi/' + v.id + '/' + v.thumb + '.jpg';
+        } else {
+            img.src = 'https://i.ytimg.com/vi/' + v.id + '/maxresdefault.jpg';
+            img.onerror = function() {
+                this.onerror = null;
+                this.src = 'https://i.ytimg.com/vi/' + v.id + '/hqdefault.jpg';
+            };
+        }
         img.alt = v.title || 'NJAC game video';
         img.loading = 'lazy';
         btn.appendChild(img);

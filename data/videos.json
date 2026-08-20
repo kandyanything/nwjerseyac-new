@@ -1,7 +1,6 @@
 {
-  "_comment": "NJAC Vision. Only entries in 'videos' are rendered on the site. 'pending' is a staging list that the page ignores - videos collected and verified but not yet published. Move entries from 'pending' to 'videos' to make them go live. 'id' is the YouTube video id: the part after youtube.com/watch?v= , /live/ or /embed/ . Thumbnail and player are derived from it, so no image files are needed. Order is the order shown on the page.",
-  "videos": [],
-  "pending": [
+  "_comment": "NJAC Vision. Only entries in 'videos' are rendered. 'id' is the YouTube video id - the part after youtube.com/watch?v= , /live/ or /embed/ . Optional 'thumb' picks the preview image: omit it for the uploader's matchup graphic, use 'hq1' / 'hq2' / 'hq3' for YouTube's auto-captured frame from 25% / 50% / 75% into the stream, or give a full image URL for your own screenshot. Order here is the order shown on the page.",
+  "videos": [
     {
       "id": "kecYtDLOQT0",
       "title": "Boys Basketball: Pequannock vs Roxbury",
@@ -10,9 +9,57 @@
     },
     {
       "id": "zl0yIPvuOAU",
-      "title": "MCT Softball Finals: 2 Morris Catholic vs 1 Morris Knolls",
+      "title": "MCT Softball Final: Morris Catholic vs Morris Knolls",
       "date": "2026-05-09",
       "sport": "Softball"
+    },
+    {
+      "id": "h0vxOGcQJUc",
+      "title": "MCT Girls Soccer Final: Chatham vs Randolph",
+      "date": "2025-10-26",
+      "sport": "Girls Soccer"
+    },
+    {
+      "id": "cw2RvQbDSu4",
+      "title": "Swimming: Kinnelon vs Mountain Lakes",
+      "date": "2026-01-21",
+      "sport": "Swimming"
+    },
+    {
+      "id": "pRMzR4aLNvY",
+      "title": "MCT Girls Basketball Semi-Final: Madison vs Morristown",
+      "date": "2026-02-14",
+      "sport": "Girls Basketball"
+    },
+    {
+      "id": "br2mSh3uCgg",
+      "title": "Football: Morris Hills vs Parsippany Hills",
+      "date": "2025-10-18",
+      "sport": "Football"
+    },
+    {
+      "id": "MwnaGldoVeA",
+      "title": "MCT Baseball Final: Delbarton vs Mount Olive",
+      "date": "2026-05-15",
+      "sport": "Baseball"
+    },
+    {
+      "id": "wUmw4LPnJpw",
+      "title": "Girls Basketball: Villa Walsh vs West Morris Central",
+      "date": "2026-01-14",
+      "sport": "Girls Basketball"
+    },
+    {
+      "id": "cEVCdgh84ho",
+      "title": "Girls Lacrosse: Park Regional vs Vernon",
+      "date": "2026-05-20",
+      "sport": "Girls Lacrosse"
+    },
+    {
+      "id": "aoP120mfSF0",
+      "title": "NJSIAA Girls Lacrosse North Group 2 Final: Sparta vs Mendham",
+      "date": "2026-06-09",
+      "sport": "Girls Lacrosse"
     }
   ]
 }
