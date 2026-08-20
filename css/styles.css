@@ -433,3 +433,263 @@ footer a:hover {
     margin: 0;
     color: #92400e;
 }
+
+/* ============================================================
+   NJAC Vision + NJAC News - red / white / blue feature sections
+   ============================================================ */
+
+/* Override the global white `section` background for these two. */
+.njac-vision,
+.njac-news {
+    position: relative;
+    background: linear-gradient(135deg, #1e3a8a 0%, #1d4ed8 55%, #1e40af 100%);
+    color: white;
+    border: none;
+    overflow: hidden;
+}
+
+/* Stars-and-stripes accent along the top edge */
+.njac-vision::before,
+.njac-news::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 6px;
+    background: linear-gradient(90deg,
+        #dc2626 0 33.33%,
+        #ffffff 33.33% 66.66%,
+        #dc2626 66.66% 100%);
+}
+
+.njac-vision h2,
+.njac-news h2 {
+    color: white;
+    border-bottom: 3px solid #dc2626;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.35);
+}
+
+.section-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 15px;
+}
+
+.section-head h2 {
+    margin: 0;
+    flex: 1;
+}
+
+/* ---------- carousel arrows ---------- */
+.vision-nav {
+    display: flex;
+    gap: 8px;
+    flex-shrink: 0;
+}
+
+.vision-nav button {
+    width: 38px;
+    height: 38px;
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.12);
+    color: white;
+    border-radius: 50%;
+    font-size: 1.4em;
+    line-height: 1;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.vision-nav button:hover {
+    background: #dc2626;
+    border-color: #dc2626;
+    transform: scale(1.08);
+}
+
+/* ---------- video strip ---------- */
+.vision-track {
+    display: flex;
+    gap: 16px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding-bottom: 12px;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-color: rgba(255, 255, 255, 0.5) transparent;
+}
+
+.vision-track::-webkit-scrollbar { height: 8px; }
+.vision-track::-webkit-scrollbar-track { background: rgba(255, 255, 255, 0.15); border-radius: 4px; }
+.vision-track::-webkit-scrollbar-thumb { background: rgba(255, 255, 255, 0.55); border-radius: 4px; }
+.vision-track::-webkit-scrollbar-thumb:hover { background: #dc2626; }
+
+.vision-item {
+    flex: 0 0 300px;
+    scroll-snap-align: start;
+    background: white;
+    border: 3px solid transparent;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.28);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.vision-item:hover {
+    transform: translateY(-6px);
+    border-color: #dc2626;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.4);
+}
+
+/* thumbnail button and the iframe that replaces it share one 16:9 box */
+.vision-thumb,
+.vision-item iframe {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border: 0;
+    padding: 0;
+    background: #000;
+}
+
+.vision-thumb {
+    position: relative;
+    cursor: pointer;
+}
+
+.vision-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.4s ease;
+}
+
+.vision-thumb:hover img {
+    transform: scale(1.05);
+}
+
+.vision-play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    background: #dc2626;
+    border: 3px solid white;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.45);
+    transition: all 0.3s ease;
+}
+
+.vision-play::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    border-style: solid;
+    border-width: 10px 0 10px 17px;
+    border-color: transparent transparent transparent white;
+}
+
+.vision-thumb:hover .vision-play {
+    transform: translate(-50%, -50%) scale(1.12);
+    background: #b91c1c;
+}
+
+.vision-meta {
+    padding: 12px 14px 14px;
+    border-top: 3px solid #dc2626;
+}
+
+.vision-meta h3 {
+    color: #1e3a8a;
+    font-size: 1em;
+    margin: 0 0 4px;
+    line-height: 1.35;
+}
+
+.vision-sub {
+    margin: 0;
+    color: #64748b;
+    font-size: 0.85em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+/* ---------- news ---------- */
+.news-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.news-item {
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+    background: white;
+    border-left: 6px solid #dc2626;
+    border-radius: 8px;
+    padding: 14px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.news-item:hover {
+    transform: translateX(4px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+}
+
+.news-thumb {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 6px;
+    flex-shrink: 0;
+}
+
+.news-body {
+    flex: 1;
+    min-width: 0;
+}
+
+.news-body h3 {
+    color: #1e3a8a;
+    font-size: 1.05em;
+    margin: 0 0 4px;
+}
+
+.news-body h3 a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.news-body h3 a:hover {
+    color: #dc2626;
+    text-decoration: underline;
+}
+
+.news-date {
+    margin: 0 0 6px;
+    color: #dc2626;
+    font-size: 0.82em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+.news-excerpt {
+    margin: 0;
+    color: #475569;
+}
+
+@media (max-width: 600px) {
+    .vision-item { flex-basis: 260px; }
+    .news-item { flex-direction: column; }
+    .news-thumb { width: 100%; height: 160px; }
+}
