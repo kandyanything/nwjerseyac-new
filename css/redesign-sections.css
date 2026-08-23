@@ -32,19 +32,21 @@
 .vision-feature .vision-play { width: 76px; height: 76px; }
 .vision-feature .vision-play::after { border-width: 13px 0 13px 22px; }
 
+/* Fixed three across, so the six tiles below the feature form two even rows
+   rather than an auto-fill run that leaves a stranded single tile. */
 .vision-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(232px, 1fr));
-    gap: 18px;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
 }
 
 /* the grid tiles are plain blocks, not flex children of a scroller */
 .vision-grid .vision-item { flex: none; width: 100%; }
-.vision-grid .vision-meta { padding: 13px 15px 15px; }
-.vision-grid .vision-meta h3 { font-size: 1.02rem; }
-.vision-grid .vision-sub { font-size: .72rem; }
-.vision-grid .vision-play { width: 46px; height: 46px; }
-.vision-grid .vision-play::after { border-width: 8px 0 8px 13px; }
+.vision-grid .vision-meta { padding: 15px 18px 17px; }
+.vision-grid .vision-meta h3 { font-size: 1.14rem; }
+.vision-grid .vision-sub { font-size: .75rem; }
+.vision-grid .vision-play { width: 56px; height: 56px; }
+.vision-grid .vision-play::after { border-width: 10px 0 10px 16px; }
 
 /* ---------- NJAC News: slider ---------- */
 .news-nav { display: flex; gap: 8px; flex-shrink: 0; }
@@ -182,6 +184,7 @@
 .school-tile img { background: transparent; }
 
 @media (max-width: 900px) {
+    .vision-grid { grid-template-columns: 1fr; }
     .vision-feature .vision-item { grid-template-columns: 1fr; }
     .vision-feature .vision-meta { border-left: 0; border-top: 4px solid var(--red); padding: 18px 20px; }
     .vision-feature .vision-meta h3 { font-size: 1.35rem; }
@@ -191,6 +194,7 @@
 
 @media (min-width: 901px) and (max-width: 1180px) {
     .news-track { grid-auto-columns: calc((100% - 26px) / 2); }
+    .vision-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 
 /* ---------- athletic director directory ---------- */

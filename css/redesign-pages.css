@@ -1,0 +1,316 @@
+/* ==========================================================================
+   NJAC redesign - interior pages
+   The inner pages keep their existing content markup; this restyles those
+   classes in the new design language so they match the home page without
+   rewriting several hundred lines of school cards and sport lists.
+   ========================================================================== */
+
+main { padding: 0 0 56px; }
+
+/* the old .container behaves like the new .wrap */
+main .container {
+    max-width: var(--wrap);
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+/* each content block becomes a white card on the page background */
+main .container > section {
+    background: var(--white);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-sm);
+    padding: 34px 36px;
+    margin-bottom: 26px;
+}
+
+main .container > section > h2:first-child { margin-top: 0; }
+
+main h2 {
+    font-family: var(--font-display);
+    color: var(--navy-800);
+    font-size: clamp(1.7rem, 2.6vw, 2.15rem);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .01em;
+    position: relative;
+    padding-bottom: 12px;
+    margin: 0 0 20px;
+}
+
+main h2::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 58px;
+    height: 4px;
+    background: var(--red);
+}
+
+main h3 {
+    font-family: var(--font-display);
+    color: var(--navy-800);
+    font-size: 1.4rem;
+    margin: 0 0 12px;
+}
+
+main p { margin: 0 0 1rem; }
+main ul { margin: 16px 0; padding-left: 26px; }
+main li { margin-bottom: 8px; }
+
+/* ---------- page title band ---------- */
+.page-head {
+    position: relative;
+    background:
+        radial-gradient(46rem 20rem at 14% -30%, rgba(59, 130, 246, .34), transparent 62%),
+        linear-gradient(140deg, var(--navy-900), var(--navy-800) 60%, var(--navy-700));
+    color: var(--white);
+    padding: 46px 0 44px;
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+
+.page-head::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 5px;
+    background: linear-gradient(90deg, var(--red) 0 33.33%, #fff 33.33% 66.66%, var(--red) 66.66%);
+}
+
+.page-head .eyebrow {
+    font-size: .78rem;
+    font-weight: 700;
+    letter-spacing: .18em;
+    text-transform: uppercase;
+    color: #ff9aa6;
+    margin-bottom: 6px;
+}
+
+.page-head h1 {
+    font-family: var(--font-display);
+    font-size: clamp(2.1rem, 4.4vw, 3.2rem);
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.page-head p { margin: 10px 0 0; color: #cfdcf5; max-width: 70ch; }
+
+/* ---------- member school cards ---------- */
+main .school-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+    gap: 20px;
+    margin-top: 22px;
+}
+
+main .school-card {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    background: var(--white);
+    border: 1px solid var(--line);
+    border-left: 5px solid var(--navy-700);
+    border-radius: var(--radius);
+    padding: 16px 18px;
+    box-shadow: var(--shadow-sm);
+    transition: transform .2s, box-shadow .2s, border-color .2s;
+}
+
+main .school-card:hover {
+    transform: translateY(-4px);
+    border-left-color: var(--red);
+    box-shadow: var(--shadow-md);
+}
+
+main .school-logo {
+    width: 78px;
+    height: 78px;
+    object-fit: contain;
+    flex-shrink: 0;
+    background: none;
+    padding: 0;
+}
+
+main .school-info { flex: 1; min-width: 0; }
+
+main .school-card h3 {
+    font-size: 1.2rem;
+    line-height: 1.2;
+    margin-bottom: 12px;
+}
+
+main .school-links { display: flex; flex-direction: column; gap: 8px; }
+
+main .school-links a {
+    display: block;
+    padding: 10px 14px;
+    border-radius: 7px;
+    text-align: center;
+    text-decoration: none;
+    font-family: var(--font-display);
+    font-size: .95rem;
+    font-weight: 500;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    background: var(--navy-700);
+    color: #fff;
+    transition: all .2s;
+}
+
+main .school-links a:hover { background: var(--red); }
+
+main .school-links a.website {
+    background: transparent;
+    color: var(--navy-700);
+    border: 2px solid var(--line);
+    padding: 8px 14px;
+}
+
+main .school-links a.website:hover {
+    background: var(--navy-800);
+    color: #fff;
+    border-color: var(--navy-800);
+}
+
+/* ---------- sport categories (conference calendar) ---------- */
+main .sport-category {
+    background: linear-gradient(135deg, #f7faff 0%, #eaf1ff 100%);
+    border: 1px solid var(--line);
+    border-left: 6px solid var(--red);
+    border-radius: var(--radius);
+    padding: 26px 28px;
+    margin-bottom: 22px;
+    box-shadow: var(--shadow-sm);
+}
+
+main .sport-category h3 {
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    letter-spacing: .03em;
+    margin-bottom: 16px;
+}
+
+main .sport-schools {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+    gap: 9px;
+}
+
+main .sport-schools a {
+    display: block;
+    padding: 11px 13px;
+    background: var(--white);
+    color: var(--navy-700);
+    border: 1px solid #dae4f5;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: .95rem;
+    font-weight: 500;
+    transition: all .2s;
+}
+
+main .sport-schools a:hover {
+    background: var(--red);
+    color: #fff;
+    border-color: var(--red);
+    transform: translateY(-2px);
+}
+
+/* ---------- tables (school websites) ---------- */
+main table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 22px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: var(--shadow-sm);
+}
+
+main th {
+    background: linear-gradient(135deg, var(--navy-900), var(--navy-700));
+    color: #fff;
+    font-family: var(--font-display);
+    font-size: 1.15rem;
+    font-weight: 600;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    text-align: left;
+    padding: 15px 18px;
+}
+
+main td {
+    padding: 14px 18px;
+    border-bottom: 1px solid var(--line);
+    text-align: left;
+}
+
+main tbody tr:hover { background: #eef4ff; }
+main td a { color: var(--navy-700); text-decoration: none; word-break: break-word; }
+main td a:hover { color: var(--red); text-decoration: underline; }
+
+/* ---------- link cards (external links) ---------- */
+main .link-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 22px;
+    margin-top: 22px;
+}
+
+main .link-card {
+    display: block;
+    background: linear-gradient(140deg, #ffffff 0%, #f2f7ff 100%);
+    border: 1px solid var(--line);
+    border-top: 4px solid var(--red);
+    border-radius: var(--radius);
+    padding: 26px 28px;
+    text-decoration: none;
+    color: inherit;
+    box-shadow: var(--shadow-sm);
+    transition: transform .2s, box-shadow .2s;
+}
+
+main .link-card:hover { transform: translateY(-5px); box-shadow: var(--shadow-md); }
+main .link-card h3 { margin-bottom: 8px; }
+main .link-card p { color: var(--muted); font-size: .96rem; margin: 0; }
+
+/* ---------- notes ---------- */
+main .note {
+    background: #fff8e6;
+    border: 1px solid #f3e0b0;
+    border-left: 6px solid #f59e0b;
+    border-radius: 10px;
+    padding: 18px 22px;
+    margin: 22px 0;
+}
+
+main .note p { margin: 0; color: #7c5310; }
+
+@media (max-width: 900px) {
+    main .container > section { padding: 24px 22px; }
+    main .school-grid { grid-template-columns: 1fr; }
+    main .sport-schools { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); }
+    main th, main td { padding: 12px 14px; }
+}
+
+/* ---------- clickable masthead brand ---------- */
+.masthead-brand {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    flex: 1;
+    min-width: 0;
+    text-decoration: none;
+    color: inherit;
+}
+
+.masthead-brand .masthead-text .name,
+.masthead-brand .masthead-text .sub { display: block; }
+
+.masthead-brand:hover .name { color: var(--red); }
+.masthead-brand .name,
+.masthead-brand .sub { transition: color .2s; }
