@@ -490,3 +490,48 @@
     .hero--photo { min-height: 320px; }
     .directory-card { flex-direction: column; }
 }
+
+/* ---------- NJAC leadership ---------- */
+.leadership-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.leader-card {
+    background: var(--white);
+    border: 1px solid var(--line);
+    border-top: 4px solid var(--red);
+    border-radius: var(--radius);
+    padding: 22px 24px;
+    box-shadow: var(--shadow-sm);
+    transition: transform .2s, box-shadow .2s;
+}
+
+.leader-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-md); }
+
+.leader-role {
+    margin: 0 0 6px;
+    font-size: .74rem;
+    font-weight: 700;
+    letter-spacing: .13em;
+    text-transform: uppercase;
+    color: var(--red);
+}
+
+.leader-card h3 { color: var(--navy-800); font-size: 1.32rem; margin: 0 0 4px; }
+
+.leader-school {
+    margin: 0 0 10px;
+    font-size: .92rem;
+    color: var(--muted);
+    font-weight: 600;
+}
+
+.leader-contact { margin: 0; font-size: .89rem; line-height: 1.6; }
+.leader-contact a { color: var(--muted); text-decoration: none; word-break: break-word; }
+.leader-contact a:hover { color: var(--red); text-decoration: underline; }
+
+@media (max-width: 600px) {
+    .leadership-grid { grid-template-columns: 1fr; }
+}
