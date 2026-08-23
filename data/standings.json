@@ -1,0 +1,39 @@
+{
+  "_comment": "Conference standings are published by NJ.com, not by us - each entry links out to their NJAC table for that sport. 'slug' is NJ.com's sport path and 'season' the school year in their URL format. Only sports that actually carry an NJAC table are listed; NJ.com serves a page for every sport, but most return an empty table because the conference does not field a grouping there. Bump 'defaultSeason' each year.",
+  "defaultSeason": "2025-2026",
+  "baseUrl": "https://highschoolsports.nj.com",
+  "seasons": [
+    {
+      "name": "Fall",
+      "sports": [
+        { "label": "Boys Soccer", "slug": "boyssoccer" },
+        { "label": "Girls Soccer", "slug": "girlssoccer" },
+        { "label": "Field Hockey", "slug": "fieldhockey" },
+        { "label": "Girls Tennis", "slug": "girlstennis" },
+        { "label": "Girls Volleyball", "slug": "girlsvolleyball" }
+      ]
+    },
+    {
+      "name": "Winter",
+      "sports": [
+        { "label": "Boys Basketball", "slug": "boysbasketball" },
+        { "label": "Girls Basketball", "slug": "girlsbasketball" },
+        { "label": "Wrestling", "slug": "wrestling" },
+        { "label": "Boys Swimming", "slug": "boysswimming" },
+        { "label": "Girls Swimming", "slug": "girlsswimming" },
+        { "label": "Boys Bowling", "slug": "boysbowling" }
+      ]
+    },
+    {
+      "name": "Spring",
+      "sports": [
+        { "label": "Baseball", "slug": "baseball" },
+        { "label": "Softball", "slug": "softball" },
+        { "label": "Boys Golf", "slug": "boysgolf" },
+        { "label": "Girls Golf", "slug": "girlsgolf" },
+        { "label": "Boys Tennis", "slug": "boystennis" },
+        { "label": "Boys Volleyball", "slug": "boysvolleyball" }
+      ]
+    }
+  ]
+}
