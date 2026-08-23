@@ -44,12 +44,12 @@
             <button class="nav-toggle" aria-expanded="false" aria-controls="primary-menu">Menu</button>
             <ul class="navlist" id="primary-menu">
                 <li><a href="redesign.html" aria-current="page">Home</a></li>
-                <li><a href="schools.html">Member Schools</a></li>
                 <li class="has-sub">
-                    <a href="calendar.html">Schedules</a>
+                    <a href="#member-schools">Member Schools</a>
                     <ul class="subnav">
+                        <li><a href="#member-schools">Schedules by School</a></li>
                         <li><a href="calendar.html">Conference Calendar</a></li>
-                        <li><a href="schools.html">Schedules by School</a></li>
+                        <li><a href="websites.html">School Websites</a></li>
                     </ul>
                 </li>
                 <li class="has-sub">
@@ -64,6 +64,7 @@
                     <a href="#njac-vision">Media</a>
                     <ul class="subnav">
                         <li><a href="#njac-vision">NJAC Vision</a></li>
+                        <li><a href="videos.html">All Videos</a></li>
                         <li><a href="#njac-news">NJAC News</a></li>
                     </ul>
                 </li>
@@ -99,13 +100,14 @@
         </div>
     </section>
 
-    <section class="band band--navy njac-vision" id="njac-vision">
+    <section class="band band--navy njac-vision" id="njac-vision" data-limit="7">
         <div class="wrap">
             <div class="band-head">
                 <div>
                     <div class="eyebrow">Game Video</div>
                     <h2>NJAC Vision</h2>
                 </div>
+                <a class="vision-more" href="videos.html">All Videos</a>
             </div>
             <div class="vision-feature"></div>
             <div class="vision-grid"></div>
@@ -129,7 +131,7 @@
         </div>
     </section>
 
-    <section class="band" id="member-schools">
+    <section class="band band--sky" id="member-schools">
         <div class="wrap">
             <div class="band-head">
                 <div>
@@ -401,6 +403,7 @@
         </div>
     </footer>
 
+    <script src="js/redesign-hero.js"></script>
     <script src="js/redesign-vision.js"></script>
     <script src="js/redesign-news.js"></script>
     <script src="js/redesign-standings.js"></script>

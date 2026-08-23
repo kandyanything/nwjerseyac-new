@@ -17,8 +17,17 @@ document.addEventListener('DOMContentLoaded', function () {
         .then(function (data) {
             var videos = (data.videos || []).filter(function (v) { return v && v.id; });
             if (!videos.length) { section.style.display = 'none'; return; }
-            feature.appendChild(buildTile(videos[0], true));
-            videos.slice(1).forEach(function (v) { grid.appendChild(buildTile(v, false)); });
+
+            // data-limit caps how many appear here; the rest live on the all-videos
+            // page, so newer games push older ones off the front without any edit.
+            var limit = parseInt(section.dataset.limit, 10);
+            var shown = limit > 0 ? videos.slice(0, limit) : videos;
+
+            feature.appendChild(buildTile(shown[0], true));
+            shown.slice(1).forEach(function (v) { grid.appendChild(buildTile(v, false)); });
+
+            var more = section.querySelector('.vision-more');
+            if (more && videos.length <= shown.length) more.hidden = true;
         })
         .catch(function () { section.style.display = 'none'; });
 
