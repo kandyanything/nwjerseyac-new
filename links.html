@@ -7,37 +7,90 @@
     <title>External Links | NJAC</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/redesign.css">
+    <link rel="stylesheet" href="css/redesign-components.css">
+    <link rel="stylesheet" href="css/redesign-sections.css">
+    <link rel="stylesheet" href="css/redesign-pages.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div class="logo-container">
-                <img src="images/njac-logo.png" alt="Northwest Jersey Athletic Conference Logo" class="logo">
+    <div class="topbar">
+        <div class="wrap">
+            <span><strong>NJAC</strong> &nbsp;A Tradition of Excellence</span>
+            <nav class="topbar-links" aria-label="Utility">
+                <a href="info.html">Conference Info</a>
+                <a href="links.html">External Links</a>
+                <a href="websites.html">School Websites</a>
+            </nav>
+        </div>
+    </div>
+
+    <header class="masthead">
+        <div class="wrap">
+            <a class="masthead-brand" href="index.html" aria-label="NJAC home">
+                <img class="masthead-logo" src="images/njac-logo.png" alt="Northwest Jersey Athletic Conference logo">
+                <span class="masthead-text">
+                    <span class="name">Northwest Jersey Athletic Conference</span>
+                    <span class="sub">Morris &middot; Sussex &middot; Warren Counties</span>
+                </span>
+            </a>
+            <div class="masthead-stat">
+                <b>39</b>
+                Member Schools
             </div>
-            <h1>Northwest Jersey Athletic Conference</h1>
-            <p class="tagline">A Tradition of Excellence!</p>
         </div>
     </header>
 
-    <nav>
-        <div class="container">
-            <ul class="nav-menu">
+    <nav class="mainnav" aria-label="Primary">
+        <div class="wrap">
+            <button class="nav-toggle" aria-expanded="false" aria-controls="primary-menu">Menu</button>
+            <ul class="navlist" id="primary-menu">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="schools.html">Member Schools</a></li>
-                <li><a href="calendar.html">Conference Calendar</a></li>
-                <li><a href="websites.html">School Websites</a></li>
-                <li><a href="links.html" class="active">External Links</a></li>
-                <li><a href="info.html">Conference Information</a></li>
+                <li><a href="index.html#member-schools">Schedules by School</a></li>
+                <li class="has-sub">
+                    <a href="index.html#member-schools">Member Schools</a>
+                    <ul class="subnav">
+                        <li><a href="index.html#member-schools">Schedules by School</a></li>
+                        <li><a href="calendar.html">Conference Calendar</a></li>
+                        <li><a href="websites.html">School Websites</a></li>
+                    </ul>
+                </li>
+                <li class="has-sub">
+                    <a href="index.html#standings">Standings</a>
+                    <ul class="subnav">
+                        <li><a href="index.html#standings">All Sports</a></li>
+                        <li><a href="index.html#honors">Honors</a></li>
+                        <li><a href="index.html#directory">Athletic Directors</a></li>
+                    </ul>
+                </li>
+                <li class="has-sub">
+                    <a href="index.html#njac-vision">Media</a>
+                    <ul class="subnav">
+                        <li><a href="index.html#njac-vision">NJAC Vision</a></li>
+                        <li><a href="videos.html">All Videos</a></li>
+                        <li><a href="index.html#njac-news">NJAC News</a></li>
+                    </ul>
+                </li>
+                <li class="has-sub">
+                    <a href="info.html" aria-current="page">Conference</a>
+                    <ul class="subnav">
+                        <li><a href="info.html">About the NJAC</a></li>
+                        <li><a href="info.html">Sports Offered</a></li>
+                        <li><a href="websites.html">School Websites</a></li>
+                        <li><a href="links.html">External Links</a></li>
+                    </ul>
+                </li>
             </ul>
-            <button class="mobile-menu-toggle" aria-label="Toggle navigation menu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
         </div>
     </nav>
+
+    <section class="page-head">
+        <div class="wrap">
+            <div class="eyebrow">Resources</div>
+            <h1>External Links</h1>
+            <p>NJSIAA, DAANJ, NFHS and other athletic associations.</p>
+        </div>
+    </section>
 
     <main>
         <div class="container">
@@ -90,12 +143,42 @@
         </div>
     </main>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2026 Northwest Jersey Athletic Conference. All rights reserved.</p>
+    <footer class="site-footer">
+        <div class="wrap">
+            <div class="footer-cols">
+                <div class="footer-brand">
+                    <img src="images/njac-logo.png" alt="">
+                    <div>
+                        <h4>Northwest Jersey Athletic Conference</h4>
+                        <p style="margin:0;font-size:.93rem;">A Tradition of Excellence. Serving 39 member high schools across Morris, Sussex and Warren counties, New Jersey.</p>
+                    </div>
+                </div>
+                <div>
+                    <h4>Explore</h4>
+                    <ul>
+                        <li><a href="index.html#member-schools">Schedules by School</a></li>
+                        <li><a href="calendar.html">Conference Calendar</a></li>
+                        <li><a href="websites.html">School Websites</a></li>
+                        <li><a href="info.html">Conference Information</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="links.html">External Links</a></li>
+                        <li><a href="https://www.njsiaa.org/" target="_blank" rel="noopener">NJSIAA</a></li>
+                        <li><a href="videos.html">All Videos</a></li>
+                        <li><a href="index.html#njac-news">NJAC News</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>&copy; 2026 Northwest Jersey Athletic Conference. All rights reserved.</span>
+                <span>Morris &middot; Sussex &middot; Warren</span>
+            </div>
         </div>
     </footer>
 
-    <script src="js/main.js"></script>
+    <script src="js/redesign-nav.js"></script>
 </body>
 </html>
