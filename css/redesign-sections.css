@@ -1,0 +1,194 @@
+/* ==========================================================================
+   NJAC redesign - feature video, news slider, standings, honors
+   Loaded after redesign-components.css and overrides the pieces that changed.
+   ========================================================================== */
+
+/* ---------- NJAC Vision: one feature, then a grid ---------- */
+.vision-feature { margin-bottom: 22px; }
+
+.vision-feature .vision-item {
+    flex: none;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1.55fr 1fr;
+    align-items: stretch;
+}
+
+.vision-feature .vision-thumb,
+.vision-feature .vision-item iframe { height: 100%; aspect-ratio: 16 / 9; }
+
+.vision-feature .vision-meta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top: 0;
+    border-left: 4px solid var(--red);
+    padding: 26px 30px;
+}
+
+.vision-feature .vision-meta h3 { font-size: 1.9rem; line-height: 1.12; margin-bottom: 10px; }
+.vision-feature .vision-sub { font-size: .84rem; }
+
+.vision-feature .vision-play { width: 76px; height: 76px; }
+.vision-feature .vision-play::after { border-width: 13px 0 13px 22px; }
+
+.vision-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(232px, 1fr));
+    gap: 18px;
+}
+
+/* the grid tiles are plain blocks, not flex children of a scroller */
+.vision-grid .vision-item { flex: none; width: 100%; }
+.vision-grid .vision-meta { padding: 13px 15px 15px; }
+.vision-grid .vision-meta h3 { font-size: 1.02rem; }
+.vision-grid .vision-sub { font-size: .72rem; }
+.vision-grid .vision-play { width: 46px; height: 46px; }
+.vision-grid .vision-play::after { border-width: 8px 0 8px 13px; }
+
+/* ---------- NJAC News: slider ---------- */
+.news-nav { display: flex; gap: 8px; flex-shrink: 0; }
+
+.news-nav button {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: var(--white);
+    border: 2px solid var(--line);
+    color: var(--navy-800);
+    font-size: 1.3rem;
+    line-height: 1;
+    transition: all .2s;
+}
+
+.news-nav button:hover:not(:disabled) { background: var(--red); border-color: var(--red); color: #fff; }
+.news-nav button:disabled { opacity: .35; cursor: default; }
+
+.news-track {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: calc((100% - 2 * 26px) / 3);
+    gap: 26px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding-bottom: 6px;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+}
+
+.news-track::-webkit-scrollbar { display: none; }
+.news-track .news-item { scroll-snap-align: start; }
+
+.news-dots { display: flex; justify-content: center; gap: 9px; margin-top: 22px; }
+
+.news-dot {
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    border-radius: 50%;
+    border: 0;
+    cursor: pointer;
+    background: #c6cfe0;
+    transition: all .2s;
+}
+
+.news-dot.is-active { background: var(--red); transform: scale(1.25); }
+
+/* ---------- standings ---------- */
+.standings-season {
+    font-family: var(--font-display);
+    font-size: 1.05rem;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: #b9c8e8;
+    white-space: nowrap;
+}
+
+.standings-intro { color: #cfdcf5; max-width: 70ch; margin-bottom: 26px; }
+
+.standings-groups {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 22px;
+}
+
+.standings-group {
+    background: rgba(255, 255, 255, .07);
+    border: 1px solid rgba(255, 255, 255, .16);
+    border-top: 4px solid var(--red);
+    border-radius: var(--radius);
+    padding: 22px 24px 24px;
+}
+
+.standings-group h3 {
+    color: #fff;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: .06em;
+    margin-bottom: 14px;
+}
+
+.standings-links { display: flex; flex-direction: column; gap: 8px; }
+
+.standings-link {
+    display: block;
+    padding: 10px 14px;
+    border-radius: 7px;
+    background: rgba(255, 255, 255, .08);
+    color: #eaf0ff;
+    text-decoration: none;
+    font-size: .96rem;
+    transition: all .18s;
+}
+
+.standings-link::after { content: " \2197"; opacity: .55; font-size: .9em; }
+.standings-link:hover { background: var(--red); color: #fff; transform: translateX(3px); }
+
+/* ---------- honors ---------- */
+.honors-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 22px;
+}
+
+.honor-card {
+    background: var(--white);
+    border: 1px solid var(--line);
+    border-left: 5px solid var(--red);
+    border-radius: var(--radius);
+    padding: 22px 24px;
+    box-shadow: var(--shadow-sm);
+}
+
+.honor-tag {
+    margin: 0 0 6px;
+    font-size: .75rem;
+    font-weight: 700;
+    letter-spacing: .11em;
+    text-transform: uppercase;
+    color: var(--red);
+}
+
+.honor-card h3 { color: var(--navy-800); font-size: 1.3rem; margin-bottom: 8px; }
+.honor-card h3 a { color: inherit; text-decoration: none; }
+.honor-card h3 a:hover { color: var(--red); }
+.honor-desc { color: var(--muted); font-size: .95rem; margin: 0; }
+
+.honor-list { margin: 12px 0 0; padding-left: 18px; color: var(--muted); font-size: .93rem; }
+.honor-list li { margin-bottom: 4px; }
+
+/* ---------- school tiles: transparent logos, no white plate ---------- */
+.school-tile img { background: transparent; }
+
+@media (max-width: 900px) {
+    .vision-feature .vision-item { grid-template-columns: 1fr; }
+    .vision-feature .vision-meta { border-left: 0; border-top: 4px solid var(--red); padding: 18px 20px; }
+    .vision-feature .vision-meta h3 { font-size: 1.35rem; }
+    .news-track { grid-auto-columns: 88%; }
+    .standings-season { display: none; }
+}
+
+@media (min-width: 901px) and (max-width: 1180px) {
+    .news-track { grid-auto-columns: calc((100% - 26px) / 2); }
+}

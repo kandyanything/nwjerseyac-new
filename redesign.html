@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/redesign.css">
     <link rel="stylesheet" href="css/redesign-components.css">
+    <link rel="stylesheet" href="css/redesign-sections.css">
 </head>
 <body>
 
@@ -49,6 +50,13 @@
                     <ul class="subnav">
                         <li><a href="calendar.html">Conference Calendar</a></li>
                         <li><a href="schools.html">Schedules by School</a></li>
+                    </ul>
+                </li>
+                <li class="has-sub">
+                    <a href="#standings">Standings</a>
+                    <ul class="subnav">
+                        <li><a href="#standings">All Sports</a></li>
+                        <li><a href="#honors">Honors</a></li>
                     </ul>
                 </li>
                 <li class="has-sub">
@@ -97,12 +105,9 @@
                     <div class="eyebrow">Game Video</div>
                     <h2>NJAC Vision</h2>
                 </div>
-                <div class="vision-nav">
-                    <button type="button" class="vision-prev" aria-label="Scroll videos left" hidden>&#8249;</button>
-                    <button type="button" class="vision-next" aria-label="Scroll videos right" hidden>&#8250;</button>
-                </div>
             </div>
-            <div class="vision-track"></div>
+            <div class="vision-feature"></div>
+            <div class="vision-grid"></div>
         </div>
     </section>
 
@@ -113,8 +118,13 @@
                     <div class="eyebrow">Around the Conference</div>
                     <h2>NJAC News</h2>
                 </div>
+                <div class="news-nav">
+                    <button type="button" class="news-prev" aria-label="Previous news" hidden>&#8249;</button>
+                    <button type="button" class="news-next" aria-label="Next news" hidden>&#8250;</button>
+                </div>
             </div>
-            <div class="news-list"></div>
+            <div class="news-track"></div>
+            <div class="news-dots" hidden></div>
         </div>
     </section>
 
@@ -123,7 +133,7 @@
             <div class="band-head">
                 <div>
                     <div class="eyebrow">Athletics</div>
-                    <h2>Member Schools</h2>
+                    <h2>Individual School Schedules</h2>
                 </div>
                 <a class="btn" href="schools.html">All Schools &amp; Links</a>
             </div>
@@ -288,6 +298,32 @@
         </div>
     </section>
 
+    <section class="band band--navy njac-standings" id="standings">
+        <div class="wrap">
+            <div class="band-head">
+                <div>
+                    <div class="eyebrow">Conference Standings</div>
+                    <h2>Standings</h2>
+                </div>
+                <span class="standings-season"></span>
+            </div>
+            <p class="standings-intro">Conference standings are published by NJ.com. Choose a sport to open its current NJAC table.</p>
+            <div class="standings-groups"></div>
+        </div>
+    </section>
+
+    <section class="band njac-honors" id="honors">
+        <div class="wrap">
+            <div class="band-head">
+                <div>
+                    <div class="eyebrow">Recognition</div>
+                    <h2>Honors</h2>
+                </div>
+            </div>
+            <div class="honors-grid"></div>
+        </div>
+    </section>
+
     <section class="band band--tint" id="about">
         <div class="wrap split">
             <div>
@@ -348,8 +384,10 @@
         </div>
     </footer>
 
-    <script src="js/njac-vision.js"></script>
-    <script src="js/njac-news.js"></script>
+    <script src="js/redesign-vision.js"></script>
+    <script src="js/redesign-news.js"></script>
+    <script src="js/redesign-standings.js"></script>
+    <script src="js/redesign-honors.js"></script>
     <script src="js/redesign-nav.js"></script>
 </body>
 </html>
