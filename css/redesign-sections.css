@@ -477,3 +477,16 @@
 .standings-link.is-pending::after { content: none; }
 .standings-link.is-pending:hover { background: rgba(255, 255, 255, .04); color: #a9bce0; transform: none; }
 .standings-link.is-pending em { font-size: .78rem; font-style: normal; opacity: .7; white-space: nowrap; }
+
+/* ---------- small screens ---------- */
+@media (max-width: 600px) {
+    .honors-grid,
+    .directory-grid,
+    .standings-groups { grid-template-columns: 1fr; }
+    .schools-grid { grid-template-columns: repeat(auto-fill, minmax(104px, 1fr)); }
+    .band--sky .schools-grid { grid-template-columns: repeat(auto-fill, minmax(104px, 1fr)); gap: 22px 10px; }
+    .band--sky .school-tile img { width: 62px; height: 62px; }
+    .band--sky .school-tile .nm { font-size: .74rem; }
+    .hero--photo { min-height: 320px; }
+    .directory-card { flex-direction: column; }
+}

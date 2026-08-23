@@ -297,3 +297,26 @@ main .note p { margin: 0; color: #7c5310; }
     main th, main td { padding: 12px 14px; }
 }
 
+
+/* ==========================================================================
+   Small screens
+   The websites table is two columns of long URLs; below ~700px it cannot fit,
+   so it scrolls inside its own box rather than widening the page.
+   ========================================================================== */
+main .container > section { overflow-x: auto; }
+
+@media (max-width: 700px) {
+    main table { display: block; overflow-x: auto; white-space: nowrap; }
+    main td a { word-break: normal; }
+}
+
+@media (max-width: 600px) {
+    main .container { padding: 0 16px; }
+    main .container > section { padding: 20px 18px; }
+    main .link-grid { grid-template-columns: 1fr; }
+    main .sport-schools { grid-template-columns: 1fr 1fr; }
+    main .sport-category { padding: 20px 18px; }
+    main .school-card { flex-direction: column; align-items: flex-start; }
+    main .school-logo { width: 64px; height: 64px; }
+    .page-head { padding: 32px 0 30px; margin-bottom: 28px; }
+}
