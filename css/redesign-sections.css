@@ -535,3 +535,6 @@
 @media (max-width: 600px) {
     .leadership-grid { grid-template-columns: 1fr; }
 }
+
+/* a school with no athletic director on file yet */
+.directory-ad.is-blank { color: var(--muted); font-weight: 500; font-style: italic; }

@@ -14,13 +14,14 @@ document.addEventListener('DOMContentLoaded', function () {
     fetch('data/directory.json')
         .then(function (r) { return r.ok ? r.json() : Promise.reject(r.status); })
         .then(function (data) {
+            // Every member school gets a card, whether or not an AD is on file -
+            // a school missing from the list reads as an oversight, where a card
+            // with a blank AD reads as a gap in the source, which is the truth.
             var all = (data.directory || []).filter(function (d) { return d && d.school; });
-            var filled = all.filter(function (d) { return d.ad && d.ad.trim(); });
+            if (!all.length) { section.style.display = 'none'; return; }
 
-            if (!filled.length) { section.style.display = 'none'; return; }
-
-            filled.forEach(function (d) { grid.appendChild(buildCard(d)); });
-            report(filled.length, all.length);
+            all.forEach(function (d) { grid.appendChild(buildCard(d)); });
+            if (count) count.textContent = all.length + ' schools';
 
             if (filter) {
                 filter.addEventListener('input', function () {
@@ -33,23 +34,13 @@ document.addEventListener('DOMContentLoaded', function () {
                     });
                     if (count) {
                         count.textContent = q
-                            ? shown + ' of ' + filled.length + ' schools'
-                            : baseLabel(filled.length, all.length);
+                            ? shown + ' of ' + all.length + ' schools'
+                            : all.length + ' schools';
                     }
                 });
             }
         })
         .catch(function () { section.style.display = 'none'; });
-
-    function baseLabel(filled, total) {
-        return filled === total
-            ? total + ' schools'
-            : filled + ' of ' + total + ' schools listed';
-    }
-
-    function report(filled, total) {
-        if (count) count.textContent = baseLabel(filled, total);
-    }
 
     function buildCard(d) {
         var card = document.createElement('article');
@@ -83,8 +74,8 @@ document.addEventListener('DOMContentLoaded', function () {
         body.appendChild(h3);
 
         var ad = document.createElement('p');
-        ad.className = 'directory-ad';
-        ad.textContent = d.ad;
+        ad.className = 'directory-ad' + (d.ad ? '' : ' is-blank');
+        ad.textContent = d.ad || 'Athletic Director TBA';
         body.appendChild(ad);
 
         var lines = document.createElement('p');
