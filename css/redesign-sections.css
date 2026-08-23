@@ -522,15 +522,12 @@
 .leader-card h3 { color: var(--navy-800); font-size: 1.32rem; margin: 0 0 4px; }
 
 .leader-school {
-    margin: 0 0 10px;
+    margin: 0;
     font-size: .92rem;
     color: var(--muted);
     font-weight: 600;
 }
 
-.leader-contact { margin: 0; font-size: .89rem; line-height: 1.6; }
-.leader-contact a { color: var(--muted); text-decoration: none; word-break: break-word; }
-.leader-contact a:hover { color: var(--red); text-decoration: underline; }
 
 @media (max-width: 600px) {
     .leadership-grid { grid-template-columns: 1fr; }

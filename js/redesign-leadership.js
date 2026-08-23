@@ -36,24 +36,10 @@ document.addEventListener('DOMContentLoaded', function () {
             card.appendChild(sch);
         }
 
-        if (p.email || p.phone) {
-            var contact = document.createElement('p');
-            contact.className = 'leader-contact';
-            if (p.email) {
-                var mail = document.createElement('a');
-                mail.href = 'mailto:' + p.email;
-                mail.textContent = p.email;
-                contact.appendChild(mail);
-            }
-            if (p.email && p.phone) contact.appendChild(document.createElement('br'));
-            if (p.phone) {
-                var tel = document.createElement('a');
-                tel.href = 'tel:' + p.phone.replace(/[^0-9+]/g, '');
-                tel.textContent = p.phone;
-                contact.appendChild(tel);
-            }
-            card.appendChild(contact);
-        }
+        // Name and position only. Officer contact details are deliberately
+        // absent from leadership.json rather than merely unrendered - the file
+        // is fetched by the browser, so hiding them here would not keep them
+        // off the public site.
         return card;
     }
 });
