@@ -1,5 +1,5 @@
 {
-  "_comment": "Conference standings are published by NJ.com, not by us - each entry links out to their NJAC table for that sport. 'slug' is NJ.com's sport path and 'season' the school year in their URL format; a sport may carry its own 'season' to override defaultSeason. Only sports that actually carry an NJAC table are listed: NJ.com serves a page for every sport it covers, but most return an empty table because no conference grouping is published there. Cross country, fencing, lacrosse and football are omitted for that reason - their pages exist but contain no NJAC standings. Bump defaultSeason each year.",
+  "_comment": "Conference standings are published by NJ.com, not by us - each entry with a 'slug' links out to their NJAC table for that sport, using 'season' or defaultSeason. An entry may instead carry a full 'url' to point anywhere. An entry with neither is listed but not clickable: NJ.com serves a page for cross country, fencing, lacrosse and football but none carries an NJAC standings table, so those wait for a link. Bump defaultSeason each year.",
   "defaultSeason": "2026-2027",
   "baseUrl": "https://highschoolsports.nj.com",
   "seasons": [
@@ -11,12 +11,16 @@
           "slug": "boyssoccer"
         },
         {
-          "label": "Girls Soccer",
-          "slug": "girlssoccer"
+          "label": "Cross Country",
+          "url": "https://mctrack.org/MCTCAXC/PMCXC.html"
         },
         {
           "label": "Field Hockey",
           "slug": "fieldhockey"
+        },
+        {
+          "label": "Girls Soccer",
+          "slug": "girlssoccer"
         },
         {
           "label": "Girls Tennis",
@@ -36,24 +40,27 @@
           "slug": "boysbasketball"
         },
         {
-          "label": "Girls Basketball",
-          "slug": "girlsbasketball"
-        },
-        {
-          "label": "Wrestling",
-          "slug": "wrestling"
+          "label": "Boys Bowling",
+          "slug": "boysbowling"
         },
         {
           "label": "Boys Swimming",
           "slug": "boysswimming"
         },
         {
+          "label": "Fencing"
+        },
+        {
+          "label": "Girls Basketball",
+          "slug": "girlsbasketball"
+        },
+        {
           "label": "Girls Swimming",
           "slug": "girlsswimming"
         },
         {
-          "label": "Boys Bowling",
-          "slug": "boysbowling"
+          "label": "Wrestling",
+          "slug": "wrestling"
         }
       ]
     },
@@ -65,16 +72,11 @@
           "slug": "baseball"
         },
         {
-          "label": "Softball",
-          "slug": "softball"
-        },
-        {
           "label": "Boys Golf",
           "slug": "boysgolf"
         },
         {
-          "label": "Girls Golf",
-          "slug": "girlsgolf"
+          "label": "Boys Lacrosse"
         },
         {
           "label": "Boys Tennis",
@@ -83,6 +85,17 @@
         {
           "label": "Boys Volleyball",
           "slug": "boysvolleyball"
+        },
+        {
+          "label": "Girls Golf",
+          "slug": "girlsgolf"
+        },
+        {
+          "label": "Girls Lacrosse"
+        },
+        {
+          "label": "Softball",
+          "slug": "softball"
         }
       ]
     }

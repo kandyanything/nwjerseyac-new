@@ -461,3 +461,19 @@
 }
 
 .vision-more:hover { background: #fff; color: var(--navy-800); border-color: #fff; }
+
+/* a sport with no standings link yet: listed, but not clickable */
+.standings-link.is-pending {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 12px;
+    background: rgba(255, 255, 255, .04);
+    color: #a9bce0;
+    cursor: default;
+    border: 1px dashed rgba(255, 255, 255, .22);
+}
+
+.standings-link.is-pending::after { content: none; }
+.standings-link.is-pending:hover { background: rgba(255, 255, 255, .04); color: #a9bce0; transform: none; }
+.standings-link.is-pending em { font-size: .78rem; font-style: normal; opacity: .7; white-space: nowrap; }

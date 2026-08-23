@@ -26,10 +26,22 @@ document.addEventListener('DOMContentLoaded', function () {
                 var list = document.createElement('div');
                 list.className = 'standings-links';
                 s.sports.forEach(function (sp) {
+                    // A sport with neither a slug nor a url is listed but not
+                    // clickable - no NJAC table is published for it yet.
+                    if (!sp.slug && !sp.url) {
+                        var pending = document.createElement('span');
+                        pending.className = 'standings-link is-pending';
+                        pending.textContent = sp.label;
+                        var note = document.createElement('em');
+                        note.textContent = 'Link coming soon';
+                        pending.appendChild(note);
+                        list.appendChild(pending);
+                        return;
+                    }
                     var a = document.createElement('a');
                     a.className = 'standings-link';
-                    a.href = data.baseUrl + '/' + sp.slug + '/standings/season/' +
-                             (sp.season || data.defaultSeason) + '?conference=NJAC';
+                    a.href = sp.url || (data.baseUrl + '/' + sp.slug + '/standings/season/' +
+                             (sp.season || data.defaultSeason) + '?conference=NJAC');
                     a.target = '_blank';
                     a.rel = 'noopener';
                     a.textContent = sp.label;
