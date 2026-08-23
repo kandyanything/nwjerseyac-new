@@ -1,13 +1,12 @@
-// Athletic director directory. Renders a card per school that has an AD filled
-// in, with a live filter box. Schools with no AD yet are skipped, and the whole
-// section stays hidden until at least one is entered, so the directory can be
-// completed a few schools at a time without leaving gaps on the page.
+// Athletic director directory. Renders a card for every member school,
+// including any that has no AD on file yet - that shows as a placeholder
+// rather than the school vanishing from the list. The section hides itself
+// only if the directory is empty altogether.
 document.addEventListener('DOMContentLoaded', function () {
     var section = document.querySelector('.njac-directory');
     if (!section) return;
 
     var grid = section.querySelector('.directory-grid');
-    var filter = section.querySelector('.directory-filter');
     var count = section.querySelector('.directory-count');
     if (!grid) return;
 
@@ -22,30 +21,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
             all.forEach(function (d) { grid.appendChild(buildCard(d)); });
             if (count) count.textContent = all.length + ' schools';
-
-            if (filter) {
-                filter.addEventListener('input', function () {
-                    var q = filter.value.trim().toLowerCase();
-                    var shown = 0;
-                    Array.prototype.forEach.call(grid.children, function (card) {
-                        var hit = !q || card.dataset.search.indexOf(q) !== -1;
-                        card.hidden = !hit;
-                        if (hit) shown++;
-                    });
-                    if (count) {
-                        count.textContent = q
-                            ? shown + ' of ' + all.length + ' schools'
-                            : all.length + ' schools';
-                    }
-                });
-            }
         })
         .catch(function () { section.style.display = 'none'; });
 
     function buildCard(d) {
         var card = document.createElement('article');
         card.className = 'directory-card';
-        card.dataset.search = [d.school, d.ad, d.email].join(' ').toLowerCase();
 
         if (d.logo) {
             var img = document.createElement('img');
