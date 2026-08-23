@@ -41,7 +41,8 @@ document.addEventListener('DOMContentLoaded', function () {
                     var a = document.createElement('a');
                     a.className = 'standings-link';
                     a.href = sp.url || (data.baseUrl + '/' + sp.slug + '/standings/season/' +
-                             (sp.season || data.defaultSeason) + '?conference=NJAC');
+                             (sp.season || data.defaultSeason) + '?conference=' +
+                             (sp.conference || data.defaultConference || 'NJAC'));
                     a.target = '_blank';
                     a.rel = 'noopener';
                     a.textContent = sp.label;
