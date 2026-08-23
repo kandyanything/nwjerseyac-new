@@ -297,20 +297,3 @@ main .note p { margin: 0; color: #7c5310; }
     main th, main td { padding: 12px 14px; }
 }
 
-/* ---------- clickable masthead brand ---------- */
-.masthead-brand {
-    display: flex;
-    align-items: center;
-    gap: 22px;
-    flex: 1;
-    min-width: 0;
-    text-decoration: none;
-    color: inherit;
-}
-
-.masthead-brand .masthead-text .name,
-.masthead-brand .masthead-text .sub { display: block; }
-
-.masthead-brand:hover .name { color: var(--red); }
-.masthead-brand .name,
-.masthead-brand .sub { transition: color .2s; }
