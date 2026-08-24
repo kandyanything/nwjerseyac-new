@@ -79,7 +79,7 @@ p { margin: 0 0 1rem; }
     object-fit: contain;
     flex-shrink: 0;
 }
-.masthead-text { flex: 1; min-width: 0; }
+.masthead-text { flex: 0 1 auto; min-width: 0; }
 .masthead-text .name {
     font-family: var(--font-display);
     font-size: clamp(1.55rem, 3.4vw, 2.5rem);
@@ -94,7 +94,9 @@ p { margin: 0 0 1rem; }
     flex-wrap: nowrap;
     align-items: center;
     gap: clamp(14px, 2vw, 26px);
-    flex: 1;
+    /* sized to its content, not stretched - the logo strip measures this
+       element to find where Conference actually ends */
+    flex: 0 1 auto;
     min-width: 0;
     text-decoration: none;
     color: inherit;

@@ -54,40 +54,60 @@ document.addEventListener('DOMContentLoaded', function () {
         })
         .catch(function () { /* no strip - the masthead is fine without it */ });
 
+    // Where the wordmark truly ends. The brand element is sized to its content,
+    // but the text node is the authority - a Range measures the glyphs
+    // themselves, so the fade lands on the final "e" of "Conference" rather
+    // than on a box that may be wider.
+    function brandBox() {
+        var b = brand.getBoundingClientRect();
+        var name = brand.querySelector('.name');
+        if (name && name.firstChild && document.createRange) {
+            try {
+                var r = document.createRange();
+                r.selectNodeContents(name);
+                var t = r.getBoundingClientRect();
+                if (t.width > 0) return { left: b.left, right: Math.max(b.right, t.right) };
+            } catch (e) { /* fall through to the element box */ }
+        }
+        return { left: b.left, right: b.right };
+    }
+
     function measure() {
         var head = masthead.getBoundingClientRect();
-        var b = brand.getBoundingClientRect();
+        var b = brandBox();
+        if (!head.width) return;
 
-        // where the brand sits, as a percentage of the header width
-        var left = ((b.left - head.left) / head.width) * 100;
-        var right = ((b.right - head.left) / head.width) * 100;
+        var pct = function (px) { return (px / head.width) * 100; };
+        var left = pct(b.left - head.left);
+        var right = pct(b.right - head.left);
 
-        // How far the fade runs on either side of the brand. Kept in percent so
-        // it scales, but clamped so it never eats the whole gap on a narrow
-        // screen or stretches absurdly on a wide one.
-        var fade = Math.max(3, Math.min(9, (head.width * 0.05 / head.width) * 100 + 4));
+        // The fade is a real distance, not a share of the viewport, so it looks
+        // the same on any screen. Roughly a logo and a half.
+        var FADE = 90;
+        var fade = pct(FADE);
 
-        // The reappearing sliver to the left of the seal only exists if there is
-        // room for it. Below roughly 90px it reads as a flicker rather than a
-        // logo passing through, so the strip simply starts at the brand instead.
-        var hasLeftGap = (b.left - head.left) > 90;
-
+        // The sliver where a logo re-emerges left of the seal only exists if
+        // there is room for it; under ~110px it reads as a flicker.
+        var leftGapPx = b.left - head.left;
         var stops;
-        if (hasLeftGap) {
+
+        if (leftGapPx > 110) {
             stops = [
                 'transparent 0%',
-                'rgba(0,0,0,1) ' + Math.max(2, left - fade * 1.6).toFixed(2) + '%',
+                'black ' + Math.max(1, pct(Math.min(FADE, leftGapPx * 0.45))).toFixed(2) + '%',
+                'black ' + Math.max(2, left - fade * 0.55).toFixed(2) + '%',
                 'transparent ' + left.toFixed(2) + '%',
                 'transparent ' + right.toFixed(2) + '%',
-                'rgba(0,0,0,1) ' + Math.min(99, right + fade).toFixed(2) + '%',
-                'rgba(0,0,0,1) 100%',
+                'black ' + Math.min(99.5, right + fade).toFixed(2) + '%',
+                'black 100%',
             ];
         } else {
+            // no room on the left - logos simply fade into the brand and stop
             stops = [
                 'transparent 0%',
                 'transparent ' + right.toFixed(2) + '%',
-                'rgba(0,0,0,1) ' + Math.min(99, right + fade).toFixed(2) + '%',
-                'rgba(0,0,0,1) 100%',
+                'black ' + Math.min(99.5, right + fade).toFixed(2) + '%',
+                'black 100%',
             ];
         }
 
