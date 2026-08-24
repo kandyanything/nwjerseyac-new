@@ -25,6 +25,7 @@ document.addEventListener('DOMContentLoaded', function () {
     var today = easternToday();
     var selected = null;
     var sport = '';         // '' means every sport
+    var crests = {};        // school name -> logo file, filled from the directory
 
     function easternToday() {
         try {
@@ -37,20 +38,29 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     }
 
-    fetch('data/schedule/upcoming.json')
-        .then(function (r) { return r.ok ? r.json() : Promise.reject(r.status); })
-        .then(function (data) {
-            (data.games || []).forEach(function (g) {
-                if (g.date < today) return;                  // the build may predate the visit
-                if (!byDate[g.date]) { byDate[g.date] = []; dates.push(g.date); }
-                byDate[g.date].push(g);
-            });
-            dates.sort();
-            if (!dates.length) { root.style.display = 'none'; return; }
+    // The window and the directory together: the directory is what turns a
+    // school name into its crest. It is small, already cached from the
+    // athletic director listing, and the schedule is perfectly readable
+    // without it - so a failure there must not take the section down.
+    Promise.all([
+        fetch('data/schedule/upcoming.json').then(function (r) { return r.ok ? r.json() : Promise.reject(r.status); }),
+        fetch('data/directory.json').then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; }),
+    ]).then(function (both) {
+        var data = both[0];
+        ((both[1] && both[1].directory) || []).forEach(function (d) {
+            if (d.school && d.logo) crests[d.school] = d.logo;
+        });
 
-            render();
-        })
-        .catch(function () { root.style.display = 'none'; });
+        (data.games || []).forEach(function (g) {
+            if (g.date < today) return;                  // the build may predate the visit
+            if (!byDate[g.date]) { byDate[g.date] = []; dates.push(g.date); }
+            byDate[g.date].push(g);
+        });
+        dates.sort();
+        if (!dates.length) { root.style.display = 'none'; return; }
+
+        render();
+    }).catch(function () { root.style.display = 'none'; });
 
     function render() {
         var shown = dates.slice(0, DAY_CHIPS);
@@ -135,10 +145,11 @@ document.addEventListener('DOMContentLoaded', function () {
         panel.appendChild(sum);
 
         var list = sport ? all.filter(function (g) { return g.sport === sport; }) : all;
+        var fixtures = group(list);
 
         var rows = document.createElement('div');
         rows.className = 'today-games';
-        list.slice(0, GAME_ROWS).forEach(function (g) { rows.appendChild(buildRow(g)); });
+        fixtures.slice(0, GAME_ROWS).forEach(function (fx) { rows.appendChild(buildRow(fx)); });
         panel.appendChild(rows);
 
         var more = document.createElement('a');
@@ -146,7 +157,7 @@ document.addEventListener('DOMContentLoaded', function () {
         // The calendar reads both parts, so a filtered view carries through
         // rather than dumping the reader into every sport on that date.
         more.href = 'calendar.html#' + selected + (sport ? '/' + encodeURIComponent(sport) : '');
-        more.textContent = list.length > GAME_ROWS
+        more.textContent = fixtures.length > GAME_ROWS
             ? 'See all ' + list.length + (sport ? ' ' + sport : '') + ' games'
             : 'Open this day in the full calendar';
         panel.appendChild(more);
@@ -172,7 +183,44 @@ document.addEventListener('DOMContentLoaded', function () {
         return b;
     }
 
-    function buildRow(g) {
+    // One fixture, however many teams play it. A school sending Freshman, JV and
+    // Varsity to the same opponent at the same hour was three near-identical
+    // rows; it is one now, with the levels as badges.
+    //
+    // The time is part of the key on purpose. Roughly one fixture in five runs
+    // its levels at different hours - JV at four, Varsity at half five - and
+    // folding those together would hide the very thing a parent came to read.
+    // Those stay as separate rows, correctly.
+    var LEVEL_SHORT = {
+        'Varsity': 'V',
+        'Junior Varsity': 'JV',
+        'Freshman': 'F',
+        'Middle School': 'MS',
+    };
+    var LEVEL_ORDER = ['Varsity', 'Junior Varsity', 'Freshman', 'Middle School'];
+
+    function group(list) {
+        var map = {}, out = [];
+        list.forEach(function (g) {
+            var k = [g.school, g.opponent, g.home, g.sport, g.gender, g.time, g.status, g.kind].join('|');
+            if (!map[k]) {
+                map[k] = { game: g, levels: [], count: 0 };
+                out.push(map[k]);
+            }
+            if (g.level && map[k].levels.indexOf(g.level) === -1) map[k].levels.push(g.level);
+            map[k].count++;
+        });
+        out.forEach(function (fx) {
+            fx.levels.sort(function (a, b) {
+                var i = LEVEL_ORDER.indexOf(a), j = LEVEL_ORDER.indexOf(b);
+                return (i === -1 ? 99 : i) - (j === -1 ? 99 : j);
+            });
+        });
+        return out;
+    }
+
+    function buildRow(fx) {
+        var g = fx.game;
         var row = document.createElement('div');
         row.className = 'today-game' + (g.status ? ' is-off' : '');
 
@@ -181,20 +229,50 @@ document.addEventListener('DOMContentLoaded', function () {
         t.textContent = g.timeLabel || 'TBA';
         row.appendChild(t);
 
+        // The crest belongs to the NJAC school. Opponents are often from outside
+        // the conference, so there is no logo to show for them and a placeholder
+        // would only add noise.
+        var file = crests[g.school];
+        if (file) {
+            var img = document.createElement('img');
+            img.className = 'today-crest';
+            img.src = 'images/logos/optimized/' + file;
+            img.alt = '';
+            img.setAttribute('aria-hidden', 'true');
+            img.loading = 'lazy';
+            img.decoding = 'async';
+            img.onerror = function () { this.remove(); };
+            row.appendChild(img);
+        }
+
         var mid = document.createElement('span');
         mid.className = 'today-match';
 
         var teams = document.createElement('strong');
         var vs = g.home === true ? ' vs ' : g.home === false ? ' at ' : ' v ';
-        teams.textContent = g.school + (g.opponent ? vs + g.opponent : '');
+        // A feed that names no opponent should say so, rather than trailing off
+        // and reading like a fault in the page.
+        teams.textContent = g.school + (g.opponent ? vs + g.opponent : ' — opponent TBA');
         mid.appendChild(teams);
 
         var meta = document.createElement('span');
         meta.className = 'today-meta';
-        meta.textContent = [g.level, g.gender, g.sport].filter(Boolean).join(' · ');
+        meta.textContent = [g.gender, g.sport].filter(Boolean).join(' · ');
         mid.appendChild(meta);
 
         row.appendChild(mid);
+
+        if (fx.levels.length) {
+            var wrap = document.createElement('span');
+            wrap.className = 'today-levels';
+            fx.levels.forEach(function (lv) {
+                var b = document.createElement('b');
+                b.textContent = LEVEL_SHORT[lv] || lv;
+                b.title = lv;
+                wrap.appendChild(b);
+            });
+            row.appendChild(wrap);
+        }
 
         if (g.status) {
             var s = document.createElement('span');

@@ -674,3 +674,50 @@
             rgba(11, 26, 58, .92) 100%);
     }
 }
+
+/* The crest is what turns a list of names into something that reads like a
+   scoreboard. Sized to the two lines of text beside it, never taller. */
+.today-crest {
+    flex: 0 0 auto;
+    width: 34px;
+    height: 34px;
+    object-fit: contain;
+    align-self: center;
+}
+
+/* Freshman, JV and Varsity against the same opponent at the same hour are one
+   fixture. The badges say who is playing it without repeating the matchup. */
+.today-levels {
+    margin-left: auto;
+    display: flex;
+    gap: 6px;
+    align-self: center;
+    flex: 0 0 auto;
+}
+
+.today-levels b {
+    font-family: var(--font-display);
+    font-size: .74rem;
+    font-weight: 500;
+    letter-spacing: .06em;
+    line-height: 1;
+    padding: 5px 8px;
+    min-width: 26px;
+    text-align: center;
+    border-radius: 5px;
+    background: var(--bg);
+    color: var(--navy-800);
+    cursor: default;
+}
+
+/* A cancelled fixture already dims the whole row; the badges should not fight
+   that by staying at full strength. */
+.today-game.is-off .today-levels b { background: rgba(200, 16, 46, .10); color: var(--red-dark); }
+
+.today-status { margin-left: 12px; }
+
+@media (max-width: 640px) {
+    .today-crest { width: 28px; height: 28px; align-self: flex-start; }
+    /* stacked rows have no right-hand column to push the badges into */
+    .today-levels { margin-left: 0; }
+}
