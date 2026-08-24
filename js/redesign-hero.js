@@ -105,10 +105,27 @@ document.addEventListener('DOMContentLoaded', function () {
             timer = setInterval(function () { go(idx + 1); }, interval);
         }
 
+        function stop() { if (timer) { clearInterval(timer); timer = null; } }
+
         prev.addEventListener('click', function () { go(idx - 1, true); });
         next.addEventListener('click', function () { go(idx + 1, true); });
-        hero.addEventListener('mouseenter', function () { if (timer) clearInterval(timer); });
-        hero.addEventListener('mouseleave', restart);
+
+        // Hovering the whole hero used to pause it, which sounds considerate and
+        // was in practice a bug: the hero fills the top of the page, so a pointer
+        // resting there - which is where a pointer rests while you read - stopped
+        // the slideshow for as long as it stayed, and it never moved at all.
+        // Only the controls pause it now, where hovering means you are lining up
+        // a click and would rather the target held still.
+        controls.addEventListener('mouseenter', stop);
+        controls.addEventListener('mouseleave', restart);
+
+        // Keyboard users tabbing into the hero get the same courtesy, so the
+        // thing they are reading or about to activate does not change underneath
+        // them. Only restart once focus has actually left the hero.
+        hero.addEventListener('focusin', stop);
+        hero.addEventListener('focusout', function (e) {
+            if (!hero.contains(e.relatedTarget)) restart();
+        });
 
         if (slides.length < 2) controls.hidden = true;
         render();
