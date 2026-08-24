@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
         {"name": "Lenape Valley High School", "logo": "lenape-valley.png", "arbiterUrl": "https://75983.digitalsports.com/pages/schedule/schedule.php"},
         {"name": "Madison High School", "logo": "madison.png", "arbiterUrl": "https://arbiterlive.com/Teams?entityId=13538"},
         {"name": "Montville High School", "logo": "montville.png", "arbiterUrl": "https://www.arbiterlive.com/School/Calendar/15106"},
-        {"name": "Morris Catholic High School", "logo": "morris-catholic.png", "arbiterUrl": "https://arbiterlive.com/Teams?entityId=15182"},
+        {"name": "Morris Catholic High School", "logo": "morris-catholic.png", "arbiterUrl": "https://51450.digitalsports.com/pages/schedule/schedule.php"},
         {"name": "Morris County School of Technology", "logo": "morris-county-school-of-technology.png", "arbiterUrl": "https://arbiterlive.com/Teams?entityId=15185"},
         {"name": "Morris Hills High School", "logo": "morris-hills.png", "arbiterUrl": "https://www.arbiterlive.com/School/15188"},
         {"name": "Morris Knolls High School", "logo": "morris-knolls.png", "arbiterUrl": "https://arbiterlive.com/Teams?entityId=15189"},

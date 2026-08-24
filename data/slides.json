@@ -1,6 +1,6 @@
 {
   "_comment": "Hero photo slider. Each slide needs 'image' (a path under images/, landscape - roughly 2000x800 or wider works best) and 'alt'. Optional 'heading', 'text' and a 'link' with 'linkLabel' draw a caption over the photo; leave them out for a photo-only slide, which is what these are - the hero already carries its own headline. While this list is empty the hero falls back to its plain gradient, so the page never shows an empty banner.",
-  "intervalMs": 6000,
+  "intervalMs": 4000,
   "slides": [
     {
       "image": "images/photos/boys-cross-country.jpg",

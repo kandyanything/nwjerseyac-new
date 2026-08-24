@@ -42,7 +42,6 @@ const ARBITER_SCHOOLS = [
     { entityId: 2189, name: 'Boonton High School' },
     { entityId: 13538, name: 'Madison High School' },
     { entityId: 15106, name: 'Montville High School' },
-    { entityId: 15182, name: 'Morris Catholic High School' },
     { entityId: 15188, name: 'Morris Hills High School' },
     { entityId: 15189, name: 'Morris Knolls High School' },
     { entityId: 17870, name: 'Pequannock High School' },
