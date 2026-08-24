@@ -229,3 +229,52 @@ p { margin: 0 0 1rem; }
     white-space: nowrap;
     border: 0;
 }
+
+/* ---------- school logos drifting behind the masthead ---------- */
+.masthead { position: relative; overflow: hidden; }
+
+.masthead-strip {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity .6s ease;
+}
+
+.masthead-strip.is-running { opacity: 1; }
+
+.strip-track {
+    display: flex;
+    align-items: center;
+    gap: clamp(38px, 5vw, 76px);
+    padding-left: clamp(38px, 5vw, 76px);
+    width: max-content;
+    /* Slow enough to read as drift rather than motion. The track holds the set
+       twice, so -50% lands exactly on the duplicate and the loop is seamless. */
+    animation: strip-drift 90s linear infinite;
+}
+
+@keyframes strip-drift {
+    from { transform: translate3d(0, 0, 0); }
+    to   { transform: translate3d(-50%, 0, 0); }
+}
+
+.strip-logo {
+    height: clamp(42px, 4.4vw, 62px);
+    width: auto;
+    flex-shrink: 0;
+    /* Subordinate to the wordmark - present, but never competing with it. */
+    opacity: .3;
+    filter: saturate(.75);
+}
+
+/* the brand sits above the drift */
+.masthead .wrap { position: relative; z-index: 1; }
+
+/* the masthead is tight on a phone; the drift only adds noise there */
+@media (max-width: 900px) {
+    .masthead-strip { display: none; }
+}
