@@ -254,14 +254,19 @@ p { margin: 0 0 1rem; }
     gap: clamp(38px, 5vw, 76px);
     padding-left: clamp(38px, 5vw, 76px);
     width: max-content;
-    /* Slow enough to read as drift rather than motion. The track holds the set
-       twice, so -50% lands exactly on the duplicate and the loop is seamless. */
+    /* A flex item shrinks by default, and this one was being squeezed from
+       10903px of content down to a 5928px box - so translate(-50%) moved it
+       barely half a lap and the strip restarted mid-alphabet. */
+    flex: none;
+    /* Slow enough to read as drift rather than motion. One lap is exactly one
+       full set, measured in pixels by the script and handed back as
+       --strip-shift, so the duplicate lands where the original was. */
     animation: strip-drift 90s linear infinite;
 }
 
 @keyframes strip-drift {
     from { transform: translate3d(0, 0, 0); }
-    to   { transform: translate3d(-50%, 0, 0); }
+    to   { transform: translate3d(calc(-1 * var(--strip-shift, 50%)), 0, 0); }
 }
 
 .strip-logo {

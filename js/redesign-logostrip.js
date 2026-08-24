@@ -51,17 +51,21 @@ document.addEventListener('DOMContentLoaded', function () {
                 img.loading = 'eager';
                 img.decoding = 'async';
                 img.fetchPriority = 'low';
-                img.onerror = function () { this.remove(); };
+                // A logo's width is unknown until it decodes, so the lap length grows as
+                // they arrive - re-measure on each one.
+                img.onload = syncShift;
+                img.onerror = function () { this.remove(); syncShift(); };
                 track.appendChild(img);
             });
 
             strip.classList.add('is-running');
+            syncShift();
             measure();
 
-            window.addEventListener('resize', measure);
+            window.addEventListener('resize', function () { syncShift(); measure(); });
             if (document.fonts && document.fonts.ready) {
                 // the wordmark's width changes when Oswald finishes loading
-                document.fonts.ready.then(measure);
+                document.fonts.ready.then(function () { syncShift(); measure(); });
             }
         })
         .catch(function () { /* no strip - the masthead is fine without it */ });
@@ -82,6 +86,19 @@ document.addEventListener('DOMContentLoaded', function () {
             } catch (e) { /* fall through to the element box */ }
         }
         return { left: b.left, right: b.right };
+    }
+
+    // How far one lap must travel: the distance from the first logo to its
+    // duplicate. Measured rather than expressed as -50% of the track, because
+    // the track is a flex item and its box does not necessarily match its
+    // content - it was being shrunk, which cut the lap in half and made the
+    // strip restart mid-alphabet.
+    function syncShift() {
+        var imgs = track.querySelectorAll('.strip-logo');
+        var n = imgs.length / 2;
+        if (!n || n % 1 || !imgs[n]) return;
+        var one = imgs[n].offsetLeft - imgs[0].offsetLeft;
+        if (one > 0) track.style.setProperty('--strip-shift', one + 'px');
     }
 
     function measure() {
