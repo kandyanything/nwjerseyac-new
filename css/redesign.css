@@ -141,6 +141,17 @@ p { margin: 0 0 1rem; }
     opacity: 0; visibility: hidden; transform: translateY(6px);
     transition: opacity .18s, transform .18s, visibility .18s;
 }
+/* A menu near the end of the bar hangs past the right edge on a narrower
+   desktop and widens the whole page - 67px of horizontal scroll at 1024px,
+   present even while closed, because a visibility: hidden box still counts
+   toward the scrollable area. The last two menus open leftwards instead. */
+.navlist > li.has-sub:nth-last-child(-n+2) .subnav { left: auto; right: 0; }
+
+/* Belt and braces at in-between widths: clip horizontally while leaving the
+   vertical overflow the dropdowns depend on. clip rather than hidden, because
+   hidden on one axis forces the other to auto and would trap them. */
+.mainnav { overflow-x: clip; }
+
 .has-sub:hover .subnav, .has-sub:focus-within .subnav { opacity: 1; visibility: visible; transform: translateY(0); }
 .subnav a {
     display: block; padding: 10px 18px;
@@ -185,6 +196,14 @@ p { margin: 0 0 1rem; }
 @media (max-width: 900px) {
     .band { padding: 48px 0; }
     .band-head { flex-direction: column; align-items: flex-start; }
+}
+
+/* The bar needs 1111px to sit on one line. Below that it used to wrap onto two
+   rows, which looks broken and threw the right-hand dropdowns off the left edge
+   of the screen. The menu therefore collapses well before the wrap, on its own
+   breakpoint rather than sharing the 900px one - that one carries band spacing,
+   which has no business changing just because the nav ran out of room. */
+@media (max-width: 1120px) {
     .nav-toggle {
         display: block; margin-left: auto; background: none; border: 0; cursor: pointer;
         color: var(--white); font-family: var(--font-display); font-size: 1rem;
@@ -198,6 +217,8 @@ p { margin: 0 0 1rem; }
         box-shadow: none; border-top: 0; background: rgba(0,0,0,.18); padding: 0;
         display: none;
     }
+    /* the collapsed menu stacks, so the desktop right-anchoring must not apply */
+    .navlist > li.has-sub:nth-last-child(-n+2) .subnav { left: auto; right: auto; }
     .has-sub.open .subnav { display: block; }
     .subnav a { color: #cfdcf5; padding-left: 22px; }
     .subnav a:hover { background: rgba(255,255,255,.08); }
