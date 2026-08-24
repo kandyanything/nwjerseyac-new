@@ -320,3 +320,188 @@ main .container > section { overflow-x: auto; }
     main .school-logo { width: 64px; height: 64px; }
     .page-head { padding: 32px 0 30px; margin-bottom: 28px; }
 }
+
+/* ==========================================================================
+   Conference Schedule - month grid + day detail
+   ========================================================================== */
+.cal-toolbar {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    flex-wrap: wrap;
+    margin-bottom: 22px;
+}
+
+.cal-nav { display: flex; align-items: center; gap: 10px; }
+
+.cal-nav button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: var(--white);
+    border: 2px solid var(--line);
+    color: var(--navy-800);
+    font-size: 1.2rem;
+    line-height: 1;
+    transition: all .2s;
+}
+
+.cal-nav button:hover:not(:disabled) { background: var(--red); border-color: var(--red); color: #fff; }
+.cal-nav button:disabled { opacity: .35; cursor: default; }
+
+.cal-title {
+    font-family: var(--font-display);
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    letter-spacing: .04em;
+    color: var(--navy-800);
+    min-width: 12ch;
+}
+
+.cal-sport {
+    font-family: var(--font-body);
+    font-size: .98rem;
+    padding: 10px 14px;
+    border: 2px solid var(--line);
+    border-radius: 8px;
+    background: var(--white);
+    color: var(--ink);
+}
+
+.cal-sport:focus { outline: none; border-color: var(--red); }
+
+.cal-updated {
+    margin-left: auto;
+    font-size: .82rem;
+    color: var(--muted);
+    white-space: nowrap;
+}
+
+/* ---------- month grid ---------- */
+.cal-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 6px;
+    margin-bottom: 28px;
+}
+
+.cal-dow {
+    font-family: var(--font-display);
+    font-size: .85rem;
+    letter-spacing: .09em;
+    text-transform: uppercase;
+    color: var(--muted);
+    text-align: center;
+    padding: 6px 0;
+}
+
+.cal-cell {
+    position: relative;
+    min-height: 74px;
+    padding: 8px;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    background: var(--white);
+    text-align: left;
+    font: inherit;
+    cursor: pointer;
+    transition: all .18s;
+}
+
+.cal-cell.is-empty { border: 0; background: none; min-height: 0; }
+.cal-cell.is-quiet { background: #f6f8fc; color: var(--muted); cursor: default; }
+
+.cal-cell:not(.is-quiet):not(.is-empty):hover {
+    border-color: var(--red);
+    box-shadow: var(--shadow-sm);
+    transform: translateY(-2px);
+}
+
+.cal-cell.is-selected {
+    border-color: var(--red);
+    border-width: 2px;
+    background: #fff5f6;
+}
+
+.cal-num { display: block; font-weight: 600; font-size: .95rem; }
+
+.cal-count {
+    position: absolute;
+    right: 8px;
+    bottom: 8px;
+    min-width: 24px;
+    padding: 2px 7px;
+    border-radius: 20px;
+    background: var(--navy-700);
+    color: #fff;
+    font-size: .76rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.cal-cell.is-selected .cal-count { background: var(--red); }
+
+/* ---------- day detail ---------- */
+.cal-day h3 {
+    font-size: 1.5rem;
+    margin-bottom: 4px;
+}
+
+.cal-daycount {
+    margin: 0 0 16px;
+    font-size: .82rem;
+    font-weight: 700;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: var(--red);
+}
+
+.cal-none, .cal-loading { color: var(--muted); margin: 0; }
+
+.cal-games { display: flex; flex-direction: column; gap: 8px; }
+
+.cal-game {
+    display: flex;
+    align-items: baseline;
+    gap: 16px;
+    padding: 12px 16px;
+    border: 1px solid var(--line);
+    border-left: 4px solid var(--navy-700);
+    border-radius: 8px;
+    background: var(--white);
+}
+
+.cal-game.is-off { border-left-color: var(--red); opacity: .72; }
+
+.cal-time {
+    font-family: var(--font-display);
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: var(--navy-800);
+    min-width: 9ch;
+    flex-shrink: 0;
+}
+
+.cal-match { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.cal-match strong { color: var(--ink); font-weight: 600; }
+.cal-meta { font-size: .85rem; color: var(--muted); }
+
+.cal-status {
+    margin-left: auto;
+    font-size: .74rem;
+    font-weight: 700;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: var(--red);
+    white-space: nowrap;
+}
+
+@media (max-width: 700px) {
+    .cal-cell { min-height: 56px; padding: 6px; }
+    .cal-count { right: 4px; bottom: 4px; min-width: 20px; padding: 1px 5px; font-size: .7rem; }
+    .cal-updated { margin-left: 0; width: 100%; }
+    .cal-game { flex-direction: column; gap: 4px; }
+    .cal-time { min-width: 0; }
+    .cal-status { margin-left: 0; }
+}

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="NJAC Conference Calendar - View athletic schedules by sport for all member schools">
+    <meta name="description" content="NJAC Conference Schedule - every game across all 39 member schools, by date.">
     <title>Conference Calendar | NJAC</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -42,6 +42,7 @@
             <ul class="navlist" id="primary-menu">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="index.html#member-schools">Schedules by School</a></li>
+                <li><a href="calendar.html" aria-current="page">Conference Schedule</a></li>
                 <li class="has-sub">
                     <a href="index.html#member-schools" aria-current="page">Member Schools</a>
                     <ul class="subnav">
@@ -82,240 +83,38 @@
     <section class="page-head">
         <div class="wrap">
             <div class="eyebrow">Schedules</div>
-            <h1>Conference Calendar</h1>
-            <p>Athletic schedules for NJAC member schools, by sport.</p>
+            <h1>Conference Schedule</h1>
+            <p>Every NJAC game, gathered nightly from all 39 member schools. Pick a date to see that day's fixtures in order of start time.</p>
         </div>
     </section>
 
     <main>
         <div class="container">
-            <section>
+            <section class="njac-schedule">
                 <h2>Conference Calendar</h2>
-                <p>Access athletic schedules for NJAC member schools by sport. Click on any school name to view their complete schedule.</p>
 
-                <div class="note">
-                    <p><strong>How to use:</strong> Select a sport below to see which schools participate. Click on a school name to view their schedule.</p>
+                <div class="cal-toolbar">
+                    <div class="cal-nav">
+                        <button type="button" class="cal-prev" aria-label="Previous month">&#8249;</button>
+                        <span class="cal-title"></span>
+                        <button type="button" class="cal-next" aria-label="Next month">&#8250;</button>
+                    </div>
+                    <label class="visually-hidden" for="cal-sport">Filter by sport</label>
+                    <select class="cal-sport" id="cal-sport">
+                        <option value="">All sports</option>
+                    </select>
+                    <span class="cal-updated"></span>
+                </div>
+
+                <div class="cal-grid"></div>
+                <div class="cal-day">
+                    <p class="cal-none">Select a date above to see that day's games.</p>
                 </div>
             </section>
 
-            <section class="sport-category">
-                <h3>Baseball</h3>
-                <div class="sport-schools">
-                    <a href="https://www.arbiterlive.com/Teams?entityId=100" target="_blank">Academy of Saint Elizabeth</a>
-                    <a href="https://www.arbiterlive.com/Teams?entityId=2189" target="_blank">Boonton</a>
-                    <a href="https://arbiterlive.com/Teams?entityId=2819" target="_blank">Butler</a>
-                    <a href="https://chathamathletics.digitalsports.com/pages/schedule/schedule.php" target="_blank">Chatham</a>
-                    <a href="https://delbartonathletics.org/calendar" target="_blank">Delbarton</a>
-                    <a href="https://65290.digitalsports.com/" target="_blank">Hackettstown</a>
-                    <a href="https://hpathletics.digitalsports.com/pages/calendar/schedule.php" target="_blank">Hanover Park</a>
-                    <a href="https://65901.digitalsports.com/pages/schedule/schedule.php" target="_blank">High Point</a>
-                    <a href="https://63574.digitalsports.com/pages/schedule/schedule.php" target="_blank">Hopatcong</a>
-                    <a href="https://64857.digitalsports.com/pages/schedule/schedule.php" target="_blank">Jefferson Township</a>
-                    <a href="https://76325.digitalsports.com/pages/schedule/schedule.php" target="_blank">Kinnelon</a>
-                    <a href="https://kittatinnyregional.digitalsports.com/" target="_blank">Kittatinny</a>
-                    <a href="https://75983.digitalsports.com/pages/schedule/schedule.php" target="_blank">Lenape Valley</a>
-                    <a href="https://arbiterlive.com/Teams?entityId=13538" target="_blank">Madison</a>
-                    <a href="https://www.arbiterlive.com/School/Calendar/15106" target="_blank">Montville</a>
-                    <a href="https://arbiterlive.com/Teams?entityId=15182" target="_blank">Morris Catholic</a>
-                    <a href="https://203891.digitalsports.com/pages/schedule/schedule.php" target="_blank">Morris County Tech</a>
-                    <a href="https://www.arbiterlive.com/School/15188" target="_blank">Morris Hills</a>
-                    <a href="https://www.arbiterlive.com/Teams?entityId=15189" target="_blank">Morris Knolls</a>
-                    <a href="https://calendar.google.com/calendar/u/0/embed?src=irm460fe1evruqaeb302f0kkksh7gmv1@import.calendar.google.com&ctz=America/New_York" target="_blank">Morristown-Beard</a>
-                    <a href="https://51460.digitalsports.com/" target="_blank">Morristown</a>
-                    <a href="https://51339.digitalsports.com/pages/schedule/schedule.php" target="_blank">Mount Olive</a>
-                    <a href="https://51599.digitalsports.com/pages/schedule/schedule.php" target="_blank">Mountain Lakes</a>
-                    <a href="https://51020.digitalsports.com/" target="_blank">Newton</a>
-                    <a href="https://52403.digitalsports.com/pages/schedule/schedule.php" target="_blank">North Warren</a>
-                    <a href="https://parsippanyathletics.digitalsports.com/pages/calendar/schedule.php" target="_blank">Parsippany</a>
-                    <a href="https://49093.digitalsports.com/pages/schedule/schedule.php" target="_blank">Parsippany Hills</a>
-                    <a href="https://www.arbiterlive.com/School/Calendar/17870" target="_blank">Pequannock</a>
-                    <a href="https://arbiterlive.com/Teams?entityId=18382" target="_blank">Pope John XXIII</a>
-                    <a href="https://randolphathletics.digitalsports.com/pages/calendar/schedule.php" target="_blank">Randolph</a>
-                    <a href="https://roxburyathletics.digitalsports.com/" target="_blank">Roxbury</a>
-                    <a href="https://spartaathletics.digitalsports.com/pages/calendar/schedule.php" target="_blank">Sparta</a>
-                    <a href="https://77996.digitalsports.com/pages/schedule/schedule.php" target="_blank">Sussex County Tech</a>
-                    <a href="https://villawalsh.digitalsports.com/pages/schedule/schedule.php" target="_blank">Villa Walsh</a>
-                    <a href="https://wvrhsrangersathletics.digitalsports.com/" target="_blank">Wallkill Valley</a>
-                    <a href="https://arbiterlive.com/Teams?entityId=25317" target="_blank">West Morris Central</a>
-                    <a href="https://www.arbiterlive.com/Teams?entityId=14434" target="_blank">West Morris Mendham</a>
-                    <a href="https://wpathletics.digitalsports.com/pages/calendar/schedule.php" target="_blank">Whippany Park</a>
-                </div>
-            </section>
-
-            <section class="sport-category">
-                <h3>Basketball</h3>
-                <div class="sport-schools">
-                    <a href="https://www.arbiterlive.com/Teams?entityId=100" target="_blank">Academy of Saint Elizabeth</a>
-                    <a href="https://www.arbiterlive.com/Teams?entityId=2189" target="_blank">Boonton</a>
-                    <a href="https://arbiterlive.com/Teams?entityId=2819" target="_blank">Butler</a>
-                    <a href="https://chathamathletics.digitalsports.com/pages/schedule/schedule.php" target="_blank">Chatham</a>
-                    <a href="https://delbartonathletics.org/calendar" target="_blank">Delbarton</a>
-                    <a href="https://65290.digitalsports.com/" target="_blank">Hackettstown</a>
-                    <a href="https://hpathletics.digitalsports.com/pages/calendar/schedule.php" target="_blank">Hanover Park</a>
-                    <a href="https://65901.digitalsports.com/pages/schedule/schedule.php" target="_blank">High Point</a>
-                    <a href="https://63574.digitalsports.com/pages/schedule/schedule.php" target="_blank">Hopatcong</a>
-                    <a href="https://64857.digitalsports.com/pages/schedule/schedule.php" target="_blank">Jefferson Township</a>
-                    <a href="https://76325.digitalsports.com/pages/schedule/schedule.php" target="_blank">Kinnelon</a>
-                    <a href="https://kittatinnyregional.digitalsports.com/" target="_blank">Kittatinny</a>
-                    <a href="https://75983.digitalsports.com/pages/schedule/schedule.php" target="_blank">Lenape Valley</a>
-                    <a href="https://arbiterlive.com/Teams?entityId=13538" target="_blank">Madison</a>
-                    <a href="https://www.arbiterlive.com/School/Calendar/15106" target="_blank">Montville</a>
-                    <a href="https://arbiterlive.com/Teams?entityId=15182" target="_blank">Morris Catholic</a>
-                    <a href="https://203891.digitalsports.com/pages/schedule/schedule.php" target="_blank">Morris County Tech</a>
-                    <a href="https://www.arbiterlive.com/School/15188" target="_blank">Morris Hills</a>
-                    <a href="https://www.arbiterlive.com/Teams?entityId=15189" target="_blank">Morris Knolls</a>
-                    <a href="https://calendar.google.com/calendar/u/0/embed?src=irm460fe1evruqaeb302f0kkksh7gmv1@import.calendar.google.com&ctz=America/New_York" target="_blank">Morristown-Beard</a>
-                    <a href="https://51460.digitalsports.com/" target="_blank">Morristown</a>
-                    <a href="https://51339.digitalsports.com/pages/schedule/schedule.php" target="_blank">Mount Olive</a>
-                    <a href="https://51599.digitalsports.com/pages/schedule/schedule.php" target="_blank">Mountain Lakes</a>
-                    <a href="https://51020.digitalsports.com/" target="_blank">Newton</a>
-                    <a href="https://52403.digitalsports.com/pages/schedule/schedule.php" target="_blank">North Warren</a>
-                    <a href="https://parsippanyathletics.digitalsports.com/pages/calendar/schedule.php" target="_blank">Parsippany</a>
-                    <a href="https://49093.digitalsports.com/pages/schedule/schedule.php" target="_blank">Parsippany Hills</a>
-                    <a href="https://www.arbiterlive.com/School/Calendar/17870" target="_blank">Pequannock</a>
-                    <a href="https://arbiterlive.com/Teams?entityId=18382" target="_blank">Pope John XXIII</a>
-                    <a href="https://randolphathletics.digitalsports.com/pages/calendar/schedule.php" target="_blank">Randolph</a>
-                    <a href="https://roxburyathletics.digitalsports.com/" target="_blank">Roxbury</a>
-                    <a href="https://spartaathletics.digitalsports.com/pages/calendar/schedule.php" target="_blank">Sparta</a>
-                    <a href="https://77996.digitalsports.com/pages/schedule/schedule.php" target="_blank">Sussex County Tech</a>
-                    <a href="https://villawalsh.digitalsports.com/pages/schedule/schedule.php" target="_blank">Villa Walsh</a>
-                    <a href="https://wvrhsrangersathletics.digitalsports.com/" target="_blank">Wallkill Valley</a>
-                    <a href="https://arbiterlive.com/Teams?entityId=25317" target="_blank">West Morris Central</a>
-                    <a href="https://www.arbiterlive.com/Teams?entityId=14434" target="_blank">West Morris Mendham</a>
-                    <a href="https://wpathletics.digitalsports.com/pages/calendar/schedule.php" target="_blank">Whippany Park</a>
-                </div>
-            </section>
-
-            <section class="sport-category">
-                <h3>Football</h3>
-                <div class="sport-schools">
-                    <a href="https://www.arbiterlive.com/Teams?entityId=2189" target="_blank">Boonton</a>
-                    <a href="https://arbiterlive.com/Teams?entityId=2819" target="_blank">Butler</a>
-                    <a href="https://chathamathletics.digitalsports.com/pages/schedule/schedule.php" target="_blank">Chatham</a>
-                    <a href="https://delbartonathletics.org/calendar" target="_blank">Delbarton</a>
-                    <a href="https://65290.digitalsports.com/" target="_blank">Hackettstown</a>
-                    <a href="https://hpathletics.digitalsports.com/pages/calendar/schedule.php" target="_blank">Hanover Park</a>
-                    <a href="https://65901.digitalsports.com/pages/schedule/schedule.php" target="_blank">High Point</a>
-                    <a href="https://63574.digitalsports.com/pages/schedule/schedule.php" target="_blank">Hopatcong</a>
-                    <a href="https://64857.digitalsports.com/pages/schedule/schedule.php" target="_blank">Jefferson Township</a>
-                    <a href="https://76325.digitalsports.com/pages/schedule/schedule.php" target="_blank">Kinnelon</a>
-                    <a href="https://kittatinnyregional.digitalsports.com/" target="_blank">Kittatinny</a>
-                    <a href="https://75983.digitalsports.com/pages/schedule/schedule.php" target="_blank">Lenape Valley</a>
-                    <a href="https://arbiterlive.com/Teams?entityId=13538" target="_blank">Madison</a>
-                    <a href="https://www.arbiterlive.com/School/Calendar/15106" target="_blank">Montville</a>
-                    <a href="https://arbiterlive.com/Teams?entityId=15182" target="_blank">Morris Catholic</a>
-                    <a href="https://www.arbiterlive.com/School/15188" target="_blank">Morris Hills</a>
-                    <a href="https://www.arbiterlive.com/Teams?entityId=15189" target="_blank">Morris Knolls</a>
-                    <a href="https://51460.digitalsports.com/" target="_blank">Morristown</a>
-                    <a href="https://51339.digitalsports.com/pages/schedule/schedule.php" target="_blank">Mount Olive</a>
-                    <a href="https://51599.digitalsports.com/pages/schedule/schedule.php" target="_blank">Mountain Lakes</a>
-                    <a href="https://51020.digitalsports.com/" target="_blank">Newton</a>
-                    <a href="https://52403.digitalsports.com/pages/schedule/schedule.php" target="_blank">North Warren</a>
-                    <a href="https://parsippanyathletics.digitalsports.com/pages/calendar/schedule.php" target="_blank">Parsippany</a>
-                    <a href="https://49093.digitalsports.com/pages/schedule/schedule.php" target="_blank">Parsippany Hills</a>
-                    <a href="https://www.arbiterlive.com/School/Calendar/17870" target="_blank">Pequannock</a>
-                    <a href="https://arbiterlive.com/Teams?entityId=18382" target="_blank">Pope John XXIII</a>
-                    <a href="https://randolphathletics.digitalsports.com/pages/calendar/schedule.php" target="_blank">Randolph</a>
-                    <a href="https://roxburyathletics.digitalsports.com/" target="_blank">Roxbury</a>
-                    <a href="https://spartaathletics.digitalsports.com/pages/calendar/schedule.php" target="_blank">Sparta</a>
-                    <a href="https://77996.digitalsports.com/pages/schedule/schedule.php" target="_blank">Sussex County Tech</a>
-                    <a href="https://wvrhsrangersathletics.digitalsports.com/" target="_blank">Wallkill Valley</a>
-                    <a href="https://arbiterlive.com/Teams?entityId=25317" target="_blank">West Morris Central</a>
-                    <a href="https://www.arbiterlive.com/Teams?entityId=14434" target="_blank">West Morris Mendham</a>
-                    <a href="https://wpathletics.digitalsports.com/pages/calendar/schedule.php" target="_blank">Whippany Park</a>
-                </div>
-            </section>
-
-            <section class="sport-category">
-                <h3>Soccer</h3>
-                <div class="sport-schools">
-                    <a href="https://www.arbiterlive.com/Teams?entityId=100" target="_blank">Academy of Saint Elizabeth</a>
-                    <a href="https://www.arbiterlive.com/Teams?entityId=2189" target="_blank">Boonton</a>
-                    <a href="https://arbiterlive.com/Teams?entityId=2819" target="_blank">Butler</a>
-                    <a href="https://chathamathletics.digitalsports.com/pages/schedule/schedule.php" target="_blank">Chatham</a>
-                    <a href="https://delbartonathletics.org/calendar" target="_blank">Delbarton</a>
-                    <a href="https://65290.digitalsports.com/" target="_blank">Hackettstown</a>
-                    <a href="https://hpathletics.digitalsports.com/pages/calendar/schedule.php" target="_blank">Hanover Park</a>
-                    <a href="https://65901.digitalsports.com/pages/schedule/schedule.php" target="_blank">High Point</a>
-                    <a href="https://63574.digitalsports.com/pages/schedule/schedule.php" target="_blank">Hopatcong</a>
-                    <a href="https://64857.digitalsports.com/pages/schedule/schedule.php" target="_blank">Jefferson Township</a>
-                    <a href="https://76325.digitalsports.com/pages/schedule/schedule.php" target="_blank">Kinnelon</a>
-                    <a href="https://kittatinnyregional.digitalsports.com/" target="_blank">Kittatinny</a>
-                    <a href="https://75983.digitalsports.com/pages/schedule/schedule.php" target="_blank">Lenape Valley</a>
-                    <a href="https://arbiterlive.com/Teams?entityId=13538" target="_blank">Madison</a>
-                    <a href="https://www.arbiterlive.com/School/Calendar/15106" target="_blank">Montville</a>
-                    <a href="https://arbiterlive.com/Teams?entityId=15182" target="_blank">Morris Catholic</a>
-                    <a href="https://203891.digitalsports.com/pages/schedule/schedule.php" target="_blank">Morris County Tech</a>
-                    <a href="https://www.arbiterlive.com/School/15188" target="_blank">Morris Hills</a>
-                    <a href="https://www.arbiterlive.com/Teams?entityId=15189" target="_blank">Morris Knolls</a>
-                    <a href="https://calendar.google.com/calendar/u/0/embed?src=irm460fe1evruqaeb302f0kkksh7gmv1@import.calendar.google.com&ctz=America/New_York" target="_blank">Morristown-Beard</a>
-                    <a href="https://51460.digitalsports.com/" target="_blank">Morristown</a>
-                    <a href="https://51339.digitalsports.com/pages/schedule/schedule.php" target="_blank">Mount Olive</a>
-                    <a href="https://51599.digitalsports.com/pages/schedule/schedule.php" target="_blank">Mountain Lakes</a>
-                    <a href="https://51020.digitalsports.com/" target="_blank">Newton</a>
-                    <a href="https://52403.digitalsports.com/pages/schedule/schedule.php" target="_blank">North Warren</a>
-                    <a href="https://parsippanyathletics.digitalsports.com/pages/calendar/schedule.php" target="_blank">Parsippany</a>
-                    <a href="https://49093.digitalsports.com/pages/schedule/schedule.php" target="_blank">Parsippany Hills</a>
-                    <a href="https://www.arbiterlive.com/School/Calendar/17870" target="_blank">Pequannock</a>
-                    <a href="https://arbiterlive.com/Teams?entityId=18382" target="_blank">Pope John XXIII</a>
-                    <a href="https://randolphathletics.digitalsports.com/pages/calendar/schedule.php" target="_blank">Randolph</a>
-                    <a href="https://roxburyathletics.digitalsports.com/" target="_blank">Roxbury</a>
-                    <a href="https://spartaathletics.digitalsports.com/pages/calendar/schedule.php" target="_blank">Sparta</a>
-                    <a href="https://77996.digitalsports.com/pages/schedule/schedule.php" target="_blank">Sussex County Tech</a>
-                    <a href="https://villawalsh.digitalsports.com/pages/schedule/schedule.php" target="_blank">Villa Walsh</a>
-                    <a href="https://wvrhsrangersathletics.digitalsports.com/" target="_blank">Wallkill Valley</a>
-                    <a href="https://arbiterlive.com/Teams?entityId=25317" target="_blank">West Morris Central</a>
-                    <a href="https://www.arbiterlive.com/Teams?entityId=14434" target="_blank">West Morris Mendham</a>
-                    <a href="https://wpathletics.digitalsports.com/pages/calendar/schedule.php" target="_blank">Whippany Park</a>
-                </div>
-            </section>
-
-            <section class="sport-category">
-                <h3>Lacrosse</h3>
-                <div class="sport-schools">
-                    <a href="https://www.arbiterlive.com/Teams?entityId=100" target="_blank">Academy of Saint Elizabeth</a>
-                    <a href="https://www.arbiterlive.com/Teams?entityId=2189" target="_blank">Boonton</a>
-                    <a href="https://arbiterlive.com/Teams?entityId=2819" target="_blank">Butler</a>
-                    <a href="https://chathamathletics.digitalsports.com/pages/schedule/schedule.php" target="_blank">Chatham</a>
-                    <a href="https://delbartonathletics.org/calendar" target="_blank">Delbarton</a>
-                    <a href="https://65290.digitalsports.com/" target="_blank">Hackettstown</a>
-                    <a href="https://hpathletics.digitalsports.com/pages/calendar/schedule.php" target="_blank">Hanover Park</a>
-                    <a href="https://65901.digitalsports.com/pages/schedule/schedule.php" target="_blank">High Point</a>
-                    <a href="https://63574.digitalsports.com/pages/schedule/schedule.php" target="_blank">Hopatcong</a>
-                    <a href="https://64857.digitalsports.com/pages/schedule/schedule.php" target="_blank">Jefferson Township</a>
-                    <a href="https://76325.digitalsports.com/pages/schedule/schedule.php" target="_blank">Kinnelon</a>
-                    <a href="https://kittatinnyregional.digitalsports.com/" target="_blank">Kittatinny</a>
-                    <a href="https://75983.digitalsports.com/pages/schedule/schedule.php" target="_blank">Lenape Valley</a>
-                    <a href="https://arbiterlive.com/Teams?entityId=13538" target="_blank">Madison</a>
-                    <a href="https://www.arbiterlive.com/School/Calendar/15106" target="_blank">Montville</a>
-                    <a href="https://arbiterlive.com/Teams?entityId=15182" target="_blank">Morris Catholic</a>
-                    <a href="https://www.arbiterlive.com/School/15188" target="_blank">Morris Hills</a>
-                    <a href="https://www.arbiterlive.com/Teams?entityId=15189" target="_blank">Morris Knolls</a>
-                    <a href="https://calendar.google.com/calendar/u/0/embed?src=irm460fe1evruqaeb302f0kkksh7gmv1@import.calendar.google.com&ctz=America/New_York" target="_blank">Morristown-Beard</a>
-                    <a href="https://51460.digitalsports.com/" target="_blank">Morristown</a>
-                    <a href="https://51339.digitalsports.com/pages/schedule/schedule.php" target="_blank">Mount Olive</a>
-                    <a href="https://51599.digitalsports.com/pages/schedule/schedule.php" target="_blank">Mountain Lakes</a>
-                    <a href="https://51020.digitalsports.com/" target="_blank">Newton</a>
-                    <a href="https://52403.digitalsports.com/pages/schedule/schedule.php" target="_blank">North Warren</a>
-                    <a href="https://parsippanyathletics.digitalsports.com/pages/calendar/schedule.php" target="_blank">Parsippany</a>
-                    <a href="https://49093.digitalsports.com/pages/schedule/schedule.php" target="_blank">Parsippany Hills</a>
-                    <a href="https://www.arbiterlive.com/School/Calendar/17870" target="_blank">Pequannock</a>
-                    <a href="https://arbiterlive.com/Teams?entityId=18382" target="_blank">Pope John XXIII</a>
-                    <a href="https://randolphathletics.digitalsports.com/pages/calendar/schedule.php" target="_blank">Randolph</a>
-                    <a href="https://roxburyathletics.digitalsports.com/" target="_blank">Roxbury</a>
-                    <a href="https://spartaathletics.digitalsports.com/pages/calendar/schedule.php" target="_blank">Sparta</a>
-                    <a href="https://villawalsh.digitalsports.com/pages/schedule/schedule.php" target="_blank">Villa Walsh</a>
-                    <a href="https://wvrhsrangersathletics.digitalsports.com/" target="_blank">Wallkill Valley</a>
-                    <a href="https://arbiterlive.com/Teams?entityId=25317" target="_blank">West Morris Central</a>
-                    <a href="https://www.arbiterlive.com/Teams?entityId=14434" target="_blank">West Morris Mendham</a>
-                    <a href="https://wpathletics.digitalsports.com/pages/calendar/schedule.php" target="_blank">Whippany Park</a>
-                </div>
-            </section>
-
-            <section class="sport-category">
-                <h3>Other Sports</h3>
-                <p>For additional sports including swimming, tennis, wrestling, volleyball, track & field, and more, please visit the individual school pages:</p>
-                <p><a href="schools.html">View All Member Schools →</a></p>
+            <section>
+                <h2>Schedules by School</h2>
+                <p>Each school also publishes its own full schedule. Open any school from the <a href="index.html#member-schools">Member Schools</a> list on the home page to go straight to it.</p>
             </section>
         </div>
     </main>
@@ -356,6 +155,7 @@
         </div>
     </footer>
 
+    <script src="js/redesign-schedule.js"></script>
     <script src="js/redesign-nav.js"></script>
 </body>
 </html>

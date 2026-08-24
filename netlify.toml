@@ -1,0 +1,10 @@
+# The combined schedule.json is a build artifact - the nightly workflow reads it
+# to compare against the previous run. Visitors only ever load data/schedule/,
+# so the 3.6 MB file does not belong in the deploy.
+[build]
+  publish = "."
+
+[[headers]]
+  for = "/data/schedule/*"
+  [headers.values]
+    Cache-Control = "public, max-age=1800"

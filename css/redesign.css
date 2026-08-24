@@ -216,3 +216,16 @@ p { margin: 0 0 1rem; }
     .wrap { padding: 0 16px; }
     .band { padding: 36px 0; }
 }
+
+/* label kept for screen readers where the control is self-evident visually */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+    border: 0;
+}

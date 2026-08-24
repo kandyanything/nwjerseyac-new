@@ -14,16 +14,30 @@ const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 ' +
 const LEVELS = { V: 'Varsity', JV: 'Junior Varsity', FR: 'Freshman', F: 'Freshman', MS: 'Middle School' };
 
 // "Girls (V) Tennis [A]"  ->  gender, level, sport, marker
-// marker: H home, A away, S scrimmage
+//
+// The trailing marker says what kind of entry this is, and it is NOT always a
+// single letter:
+//   H  home game        A  away game       S  scrimmage
+//   P  practice         T  transport       TE team event / club
+//   FE facility event   SE school event (holidays, testing, prom)
+// It has to be lifted off before anything else, because a title that does not
+// match the "(V)" shape would otherwise carry the marker into the sport name
+// and slip past the games-only filter - which is how proms and board meetings
+// ended up on the calendar.
 function parseTitle(title) {
-    const raw = String(title || '').replace(/\s+/g, ' ').trim();
-    const m = raw.match(/^(Boys|Girls|Coed|Co-Ed)?\s*\(([A-Z]{1,2})\)\s*(.*?)\s*(?:\[([A-Z])\])?$/i);
-    if (!m) return { gender: '', level: '', sport: raw, marker: '' };
+    let raw = String(title || '').replace(/\s+/g, ' ').trim();
+
+    let marker = '';
+    const mk = raw.match(/\[([A-Za-z]{1,2})\]$/);
+    if (mk) { marker = mk[1].toUpperCase(); raw = raw.slice(0, mk.index).trim(); }
+
+    const m = raw.match(/^(Boys|Girls|Coed|Co-Ed|Mixed|Boys and girls)?\s*\(([A-Za-z/-]{1,12})\)\s*(.*)$/i);
+    if (!m) return { gender: '', level: '', sport: raw, marker };
     return {
-        gender: m[1] ? (/^co/i.test(m[1]) ? 'Coed' : m[1]) : '',
+        gender: m[1] ? (/^(co|mixed|boys and)/i.test(m[1]) ? 'Coed' : m[1]) : '',
         level: LEVELS[(m[2] || '').toUpperCase()] || m[2] || '',
         sport: (m[3] || '').trim(),
-        marker: (m[4] || '').toUpperCase(),
+        marker,
     };
 }
 
@@ -118,7 +132,11 @@ async function fetchSchool(school, startDate, endDate, opts = {}) {
 
         for (const e of rows) {
             const t = parseTitle(e.title);
-            if (t.marker === 'S') continue;              // scrimmage, not a game
+            // Allow-list rather than deny-list: only home and away fixtures are
+            // games. Everything else the feed carries - practices, scrimmages,
+            // transport, club meetings, facility bookings, school holidays -
+            // is excluded, including any marker not seen before.
+            if (t.marker !== 'H' && t.marker !== 'A') continue;
             const when = parseStamp(e.start);
             if (!when) continue;
             const d = parseDescription(e.description);
