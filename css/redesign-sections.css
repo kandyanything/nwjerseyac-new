@@ -575,16 +575,32 @@
     margin-bottom: 18px;
 }
 
+/* Each count is the filter for its sport, so it has to read as a control:
+   a real button, with a pressed state and a hit area worth aiming at. */
 .today-sport {
     display: inline-flex;
     align-items: center;
     gap: 7px;
-    padding: 5px 12px;
+    padding: 7px 14px;
+    border: 1px solid transparent;
     border-radius: 999px;
     background: var(--bg);
     color: var(--muted);
+    font-family: var(--font-body);
     font-size: .85rem;
+    cursor: pointer;
+    transition: background .2s ease, color .2s ease, border-color .2s ease;
 }
+
+.today-sport:hover { border-color: var(--navy-600); color: var(--navy-800); }
+
+.today-sport.is-on {
+    background: var(--navy-800);
+    border-color: var(--navy-800);
+    color: var(--white);
+}
+
+.today-sport.is-on b { color: var(--white); }
 
 .today-sport b { color: var(--navy-800); font-family: var(--font-display); }
 

@@ -49,33 +49,44 @@ document.addEventListener('DOMContentLoaded', function () {
                 });
             }
 
-            // "Today at a Glance" links here as calendar.html#2026-08-24, so honour a
-            // date in the URL rather than always opening on the current month.
-            var wanted = dateFromHash();
-            if (wanted && index.dateCounts[wanted]) {
-                viewMonth = wanted.slice(0, 7);
-                renderMonth();
-                showDay(wanted);
-                root.scrollIntoView({ block: 'start' });
-            } else {
+            // "Today at a Glance" links here as calendar.html#2026-08-24, and as
+            // calendar.html#2026-08-24/Soccer when a sport is being filtered, so
+            // honour both rather than always opening on the current month.
+            if (!applyHash(true)) {
                 viewMonth = defaultMonth();
                 renderMonth();
             }
         })
         .catch(function () { root.style.display = 'none'; });
 
-    function dateFromHash() {
-        var m = String(location.hash || '').match(/^#(\d{4}-\d{2}-\d{2})$/);
-        return m ? m[1] : null;
+    // "#2026-08-24" or "#2026-08-24/Field%20Hockey"
+    function fromHash() {
+        var m = String(location.hash || '').match(/^#(\d{4}-\d{2}-\d{2})(?:\/(.+))?$/);
+        if (!m) return null;
+        var s = '';
+        if (m[2]) { try { s = decodeURIComponent(m[2]); } catch (e) { s = m[2]; } }
+        return { date: m[1], sport: s };
     }
 
-    window.addEventListener('hashchange', function () {
-        var d = dateFromHash();
-        if (!d || !index || !index.dateCounts[d]) return;
-        viewMonth = d.slice(0, 7);
+    function applyHash(scroll) {
+        var want = fromHash();
+        if (!want || !index || !index.dateCounts[want.date]) return false;
+
+        // Only honour a sport the select actually offers, so a stale or hand-typed
+        // link cannot leave the list filtered to something that is never matched.
+        if (want.sport && sportSel && index.sports && index.sports.indexOf(want.sport) !== -1) {
+            sportFilter = want.sport;
+            sportSel.value = want.sport;
+        }
+
+        viewMonth = want.date.slice(0, 7);
         renderMonth();
-        showDay(d);
-    });
+        showDay(want.date);
+        if (scroll) root.scrollIntoView({ block: 'start' });
+        return true;
+    }
+
+    window.addEventListener('hashchange', function () { applyHash(false); });
 
     // open on the current month if it has games, otherwise the first month that does
     function defaultMonth() {

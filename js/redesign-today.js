@@ -24,6 +24,7 @@ document.addEventListener('DOMContentLoaded', function () {
     var dates = [];
     var today = easternToday();
     var selected = null;
+    var sport = '';         // '' means every sport
 
     function easternToday() {
         try {
@@ -86,6 +87,12 @@ document.addEventListener('DOMContentLoaded', function () {
             b.appendChild(n);
             b.addEventListener('click', function () {
                 selected = this.dataset.date;
+
+                // Someone following one sport should keep following it as they
+                // move through the week - but only where that sport is actually
+                // playing, or the panel would come up empty with no explanation.
+                if (sport && !byDate[selected].some(function (g) { return g.sport === sport; })) sport = '';
+
                 [].forEach.call(days.children, function (c) {
                     var on = c.dataset.date === selected;
                     c.classList.toggle('is-on', on);
@@ -109,32 +116,25 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     function showDay() {
-        var list = byDate[selected] || [];
+        var all = byDate[selected] || [];
         panel.innerHTML = '';
 
         // A count per sport reads faster than sixty rows, and tells a parent in
-        // one glance whether their sport is even playing today.
+        // one glance whether their sport is even playing today. Each one is also
+        // the filter for it.
         var counts = {};
-        list.forEach(function (g) { counts[g.sport] = (counts[g.sport] || 0) + 1; });
+        all.forEach(function (g) { counts[g.sport] = (counts[g.sport] || 0) + 1; });
         var sports = Object.keys(counts).sort(function (a, b) {
             return counts[b] - counts[a] || a.localeCompare(b);
         });
 
-        if (sports.length) {
-            var sum = document.createElement('div');
-            sum.className = 'today-sports';
-            sports.forEach(function (s) {
-                var pill = document.createElement('span');
-                pill.className = 'today-sport';
-                pill.innerHTML = '';
-                pill.appendChild(document.createTextNode(s));
-                var c = document.createElement('b');
-                c.textContent = counts[s];
-                pill.appendChild(c);
-                sum.appendChild(pill);
-            });
-            panel.appendChild(sum);
-        }
+        var sum = document.createElement('div');
+        sum.className = 'today-sports';
+        sum.appendChild(sportPill('All sports', '', all.length));
+        sports.forEach(function (s) { sum.appendChild(sportPill(s, s, counts[s])); });
+        panel.appendChild(sum);
+
+        var list = sport ? all.filter(function (g) { return g.sport === sport; }) : all;
 
         var rows = document.createElement('div');
         rows.className = 'today-games';
@@ -143,11 +143,33 @@ document.addEventListener('DOMContentLoaded', function () {
 
         var more = document.createElement('a');
         more.className = 'today-all';
-        more.href = 'calendar.html#' + selected;
+        // The calendar reads both parts, so a filtered view carries through
+        // rather than dumping the reader into every sport on that date.
+        more.href = 'calendar.html#' + selected + (sport ? '/' + encodeURIComponent(sport) : '');
         more.textContent = list.length > GAME_ROWS
-            ? 'See all ' + list.length + ' games'
+            ? 'See all ' + list.length + (sport ? ' ' + sport : '') + ' games'
             : 'Open this day in the full calendar';
         panel.appendChild(more);
+    }
+
+    function sportPill(label, value, count) {
+        var b = document.createElement('button');
+        b.type = 'button';
+        b.className = 'today-sport' + (sport === value ? ' is-on' : '');
+        b.setAttribute('aria-pressed', sport === value ? 'true' : 'false');
+        b.appendChild(document.createTextNode(label));
+
+        var c = document.createElement('b');
+        c.textContent = count;
+        b.appendChild(c);
+
+        b.addEventListener('click', function () {
+            // Clicking the sport already showing turns the filter off, so the
+            // pill works as a toggle and there is always a way back.
+            sport = (sport === value) ? '' : value;
+            showDay();
+        });
+        return b;
     }
 
     function buildRow(g) {

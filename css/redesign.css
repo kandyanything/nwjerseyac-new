@@ -162,6 +162,26 @@ p { margin: 0 0 1rem; }
 
 /* ---------- section shell ---------- */
 .band { padding: 64px 0; }
+
+/* Weight follows darkness. The bands alternated light and dark but carried
+   identical padding, so the page read evenly rather than rhythmically - a dark
+   band needs more air around its content to feel deliberate rather than merely
+   coloured in. */
+.band--navy { padding: 88px 0; }
+
+/* Every figure on the site is data - counts, scores, dates. Tabular figures
+   keep them aligned on their stems in a column and stop numbers jittering when
+   they change. */
+.hero-fact b,
+.today-day-count,
+.today-sport b,
+.cal-num,
+.cal-count,
+.today-time,
+.cal-time {
+    font-variant-numeric: tabular-nums;
+    font-feature-settings: 'tnum' 1;
+}
 .band--tint { background: var(--white); }
 .band--navy {
     background:
@@ -195,6 +215,7 @@ p { margin: 0 0 1rem; }
 /* ---------- responsive ---------- */
 @media (max-width: 900px) {
     .band { padding: 48px 0; }
+    .band--navy { padding: 60px 0; }
     .band-head { flex-direction: column; align-items: flex-start; }
 }
 
