@@ -38,7 +38,19 @@ document.addEventListener('DOMContentLoaded', function () {
                 img.src = 'images/logos/optimized/' + file;
                 img.alt = '';
                 img.setAttribute('aria-hidden', 'true');
-                img.loading = i < logos.length ? 'eager' : 'lazy';
+                // Every copy loads eagerly. The second pass sits thousands of
+                // pixels off the right edge, so lazy loading never fires for it
+                // - and the schools at the start of the alphabet begin the cycle
+                // already behind the wordmark, so their second-pass copy is the
+                // ONLY one that ever crosses the visible zone. Marking it lazy
+                // left them permanently blank.
+                //
+                // The cost is small: the duplicate reuses the cached file, so
+                // this is 39 requests rather than 78, and low priority keeps
+                // them queued behind the hero.
+                img.loading = 'eager';
+                img.decoding = 'async';
+                img.fetchPriority = 'low';
                 img.onerror = function () { this.remove(); };
                 track.appendChild(img);
             });
