@@ -356,8 +356,8 @@
     position: absolute;
     inset: 0;
     background:
-        linear-gradient(180deg, rgba(11, 26, 58, .38) 0%, rgba(11, 26, 58, .24) 45%, rgba(11, 26, 58, .90) 100%),
-        linear-gradient(100deg, rgba(11, 26, 58, .90) 0%, rgba(11, 26, 58, .66) 34%, rgba(11, 26, 58, .22) 68%, transparent 100%);
+        linear-gradient(180deg, rgba(11, 26, 58, .30) 0%, rgba(11, 26, 58, .18) 45%, rgba(11, 26, 58, .88) 100%),
+        linear-gradient(100deg, rgba(11, 26, 58, .72) 0%, rgba(11, 26, 58, .18) 62%, transparent 100%);
 }
 
 .hero--photo .hero-inner {
@@ -658,19 +658,4 @@
     .today-game { flex-direction: column; align-items: flex-start; gap: 4px; }
     .today-time { min-width: 0; }
     .today-status { margin-left: 0; }
-}
-
-/* On a phone the hero text runs the full width, but the scrim behind it is
-   diagonal - dark down the left where the desktop text sits, clear on the
-   right. Half of every line was landing on bare photograph. Narrow screens get
-   a straight vertical scrim instead, heavy enough that the type holds up over
-   any photo while the picture still reads through it. */
-@media (max-width: 900px) {
-    .hero--photo .hero-slides::after {
-        background: linear-gradient(180deg,
-            rgba(11, 26, 58, .84) 0%,
-            rgba(11, 26, 58, .68) 40%,
-            rgba(11, 26, 58, .80) 72%,
-            rgba(11, 26, 58, .94) 100%);
-    }
 }
