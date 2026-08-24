@@ -184,6 +184,13 @@ document.addEventListener('DOMContentLoaded', function () {
         mid.appendChild(meta);
         row.appendChild(mid);
 
+        if (g.kind && g.kind !== 'Game') {
+            var k = document.createElement('span');
+            k.className = 'cal-kind';
+            k.textContent = g.kind;
+            mid.appendChild(k);
+        }
+
         if (g.status) {
             var s = document.createElement('span');
             s.className = 'cal-status';

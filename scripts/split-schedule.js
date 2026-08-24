@@ -51,6 +51,7 @@ function slim(g) {
     if (g.opponent) out.opponent = g.opponent;
     if (g.home !== null && g.home !== undefined) out.home = g.home;
     if (g.status) out.status = g.status;
+    if (g.kind && g.kind !== 'Game') out.kind = g.kind;
     return out;
 }
 

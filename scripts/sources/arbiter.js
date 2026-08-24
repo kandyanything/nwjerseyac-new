@@ -136,6 +136,10 @@ async function fetchSchool(school, startDate, endDate) {
             school: school.name,
             opponent: t.opponent,
             home: e.isAwayGame === true ? false : (t.home === null ? null : t.home),
+            // ArbiterLive types events only as Game or Practice - there is no
+            // scrimmage marker, so a scrimmage here is indistinguishable from a
+            // game and is deliberately left untagged rather than guessed at.
+            kind: 'Game',
             status: t.status || '',
             source: 'arbiterlive',
         });

@@ -72,8 +72,14 @@ function parseSummary(summary, stripPrefix) {
     const cm = rest.match(/^\s*(CANCELLED|CANCELED|POSTPONED)\s*:\s*/i);
     if (cm) { status = cm[1][0].toUpperCase() + cm[1].slice(1).toLowerCase(); rest = rest.slice(cm[0].length).trim(); }
 
-    // games only, so a scrimmage is not a fixture
-    if (/\bscrimmage\b/i.test(rest)) return null;
+    // A scrimmage is a competitive event against an opponent, so it belongs on
+    // the calendar - but tagged, and with the word taken out of the sport name
+    // so it does not become a sport called "Football Scrimmage".
+    let kind = 'Game';
+    if (/\bscrimmages?\b/i.test(rest)) {
+        kind = 'Scrimmage';
+        rest = rest.replace(/\bscrimmages?\b/gi, ' ').replace(/\s+/g, ' ').trim();
+    }
 
     // a league or event code sometimes leads the title, e.g. "SBMSB: MS Boys..."
     rest = rest.replace(/^[A-Z]{3,8}:\s*/, '').trim();
@@ -82,7 +88,11 @@ function parseSummary(summary, stripPrefix) {
     // "at" matters as much as "@" - Sidearm writes away fixtures as
     // "Junior Varsity Soccer at Randolph", and omitting it drops every away
     // game while leaving the home ones, which looks like working data.
-    const m = rest.match(/^(.*?)\s+(vs\.?|@|at|v\.?)\s+(.*)$/i);
+    // The negative lookahead matters: "Field Hockey V @ Hun" uses V for Varsity,
+    // and without it the bare "v" alternative matches there, leaving the
+    // opponent as "@ Hun". Refusing a marker that is followed by another marker
+    // makes the match fall through to the real one.
+    const m = rest.match(/^(.*?)\s+(vs\.?|@|at|v)\s+(?!@\s|at\s|vs?\.?\s)(.*)$/i);
     if (!m) return null;
 
     let head = m[1].trim();
@@ -128,7 +138,7 @@ function parseSummary(summary, stripPrefix) {
 
     if (!sport) return null;
 
-    return { sport, level, gender, opponent, home, status };
+    return { sport, level, gender, opponent, home, status, kind };
 }
 
 async function fetchSchool(school, startDate, endDate) {
@@ -165,6 +175,7 @@ async function fetchSchool(school, startDate, endDate) {
             school: school.name,
             opponent: parsed.opponent,
             home: parsed.home,
+            kind: parsed.kind || 'Game',
             status: parsed.status,
             source: 'ical',
         });

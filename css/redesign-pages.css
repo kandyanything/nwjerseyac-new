@@ -505,3 +505,19 @@ main .container > section { overflow-x: auto; }
     .cal-time { min-width: 0; }
     .cal-status { margin-left: 0; }
 }
+
+/* preseason scrimmage - a real fixture, but not a countable game */
+.cal-kind {
+    display: inline-block;
+    margin-top: 3px;
+    padding: 1px 8px;
+    border-radius: 20px;
+    background: #eef2fb;
+    border: 1px solid #d7e0f2;
+    color: var(--muted);
+    font-size: .7rem;
+    font-weight: 700;
+    letter-spacing: .09em;
+    text-transform: uppercase;
+    width: fit-content;
+}

@@ -132,11 +132,14 @@ async function fetchSchool(school, startDate, endDate, opts = {}) {
 
         for (const e of rows) {
             const t = parseTitle(e.title);
-            // Allow-list rather than deny-list: only home and away fixtures are
-            // games. Everything else the feed carries - practices, scrimmages,
-            // transport, club meetings, facility bookings, school holidays -
-            // is excluded, including any marker not seen before.
-            if (t.marker !== 'H' && t.marker !== 'A') continue;
+            // Allow-list rather than deny-list. H and A are fixtures and S is a
+            // scrimmage - all three are competitive events against an opponent
+            // and belong on the calendar. Everything else the feed carries -
+            // practices, transport, club meetings, facility bookings, school
+            // holidays - is excluded, including any marker not seen before.
+            const isGame = t.marker === 'H' || t.marker === 'A';
+            const isScrimmage = t.marker === 'S';
+            if (!isGame && !isScrimmage) continue;
             const when = parseStamp(e.start);
             if (!when) continue;
             const d = parseDescription(e.description);
@@ -151,7 +154,10 @@ async function fetchSchool(school, startDate, endDate, opts = {}) {
                 gender: t.gender,
                 school: school.name,
                 opponent: d.opponent,
+                // a scrimmage carries no H/A marker, so read the side from the
+                // "@ X" / "Vs X" in the description instead
                 home: t.marker === 'H' ? true : t.marker === 'A' ? false : d.home,
+                kind: isScrimmage ? 'Scrimmage' : 'Game',
                 status: '',
                 source: 'digitalsports',
             });
