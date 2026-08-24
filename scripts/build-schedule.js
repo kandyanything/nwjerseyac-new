@@ -107,6 +107,29 @@ function canonicalSport(e) {
     return e;
 }
 
+// Some feeds put the venue where the opponent belongs, which reads as a school
+// playing itself: "Randolph High School vs Randolph High School Main Gym".
+// Blank the opponent only when the text BOTH begins with this school's own name
+// AND ends in a venue word. Either test alone is unsafe - a co-op opponent like
+// "Hanover Park/VWA" also starts with the school's name and is perfectly real,
+// and plenty of genuine schools carry a venue-ish word (Asbury Park, Park Ridge).
+const VENUE_TAIL = /\b(gym(nasium)?|field(s| ?house)?|courts?|turf|stadium|room|pool|track|rink|lanes|arena|diamond)\s*$/i;
+
+function stripSelfVenue(e) {
+    const opp = String(e.opponent || '').trim();
+    if (!opp) return e;
+
+    // A team never plays itself. An exact name match is the feed repeating the
+    // school where the opponent belongs - compared literally, not normalised,
+    // so two genuinely different schools can never collide here.
+    if (opp.toLowerCase() === String(e.school || '').trim().toLowerCase()) return { ...e, opponent: '' };
+
+    if (!VENUE_TAIL.test(opp)) return e;
+    const mine = norm(e.school), theirs = norm(opp);
+    if (!mine || !theirs.startsWith(mine)) return e;
+    return { ...e, opponent: '' };
+}
+
 // A fixture listed by both schools is one game. Prefer the richer record -
 // the one that knows whether it is home, and names an opponent.
 function score(e) {
@@ -200,7 +223,7 @@ function dedupe(events) {
         await sleep(PAUSE_MS);
     }
 
-    const athletic = all.map(canonicalSport).filter(isAthletic);
+    const athletic = all.map(canonicalSport).map(stripSelfVenue).filter(isAthletic);
     const dropped = all.length - athletic.length;
 
     const games = dedupe(athletic).sort((a, b) =>
