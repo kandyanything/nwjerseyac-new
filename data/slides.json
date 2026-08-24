@@ -1,18 +1,38 @@
 {
-  "_comment": "Hero photo slider. Each slide needs 'image' (a path under images/, landscape - roughly 2000x800 or wider works best) and 'alt'. Optional 'heading', 'text' and a 'link' with 'linkLabel' draw a caption over the photo; leave them out for a photo-only slide, which is what these are - the hero already carries its own headline. While this list is empty the hero falls back to its plain gradient, so the page never shows an empty banner.",
-  "intervalMs": 4000,
+  "_comment": "Hero photo slider. Each slide needs 'image' (a path under images/, landscape - roughly 2000x800 or wider works best) and 'alt'. Optional 'heading', 'text' and a 'link' with 'linkLabel' draw a caption over the photo; leave them out for a photo-only slide, which is what these are - the hero already carries its own headline. The order alternates daylight and floodlit frames, and boys' and girls' sport, so no two consecutive slides look alike. While this list is empty the hero falls back to its plain gradient, so the page never shows an empty banner.",
+  "intervalMs": 5000,
   "slides": [
     {
       "image": "images/photos/boys-cross-country.jpg",
       "alt": "Runners from Dover, Kittatinny and Randolph leading a cross country race through autumn woods"
     },
     {
-      "image": "images/photos/morris-knolls-soccer.jpg",
-      "alt": "Morris Knolls players celebrating a goal under the lights"
+      "image": "images/photos/girls-soccer.jpg",
+      "alt": "A goalkeeper smothering the ball under pressure from Montville and Pope John forwards"
+    },
+    {
+      "image": "images/photos/field-hockey.jpg",
+      "alt": "A Roxbury player striking the ball past Sparta defenders"
+    },
+    {
+      "image": "images/photos/football.jpg",
+      "alt": "Lenape Valley defenders wrapping up a Morris Hills ball carrier under the lights"
+    },
+    {
+      "image": "images/photos/girls-cross-country.jpg",
+      "alt": "Pope John and Montville runners side by side across an open autumn course"
     },
     {
       "image": "images/photos/chatham-volleyball.jpg",
       "alt": "A Chatham hitter rising for a kill at the net"
+    },
+    {
+      "image": "images/photos/morris-knolls-soccer.jpg",
+      "alt": "Morris Knolls players celebrating a goal under the lights"
+    },
+    {
+      "image": "images/photos/girls-tennis.jpg",
+      "alt": "A Pope John player serving as her Montville opponent waits at the net"
     }
   ]
 }
