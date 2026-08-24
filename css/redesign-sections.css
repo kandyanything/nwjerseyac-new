@@ -517,3 +517,129 @@
 
 /* a school with no athletic director on file yet */
 .directory-ad.is-blank { color: var(--muted); font-weight: 500; font-style: italic; }
+
+/* ---- Today at a Glance ---------------------------------------------------
+   The freshest thing on the site, so it sits directly under the hero and reads
+   at a glance: which day, how much is on, then the earliest fixtures. */
+.today-lede { color: var(--muted); margin: 0 0 18px; }
+
+.today-days {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 22px;
+}
+
+.today-day {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 16px;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    background: var(--white);
+    color: var(--ink);
+    font-family: var(--font-body);
+    font-size: .95rem;
+    cursor: pointer;
+    transition: border-color .2s ease, box-shadow .2s ease, background .2s ease;
+}
+
+.today-day:hover { border-color: var(--navy-600); box-shadow: var(--shadow-sm); }
+
+.today-day.is-on {
+    background: var(--navy-800);
+    border-color: var(--navy-800);
+    color: var(--white);
+}
+
+.today-day-name { font-weight: 600; }
+
+.today-day-count {
+    font-family: var(--font-display);
+    font-size: .85rem;
+    line-height: 1;
+    padding: 4px 8px;
+    border-radius: 999px;
+    background: var(--bg);
+    color: var(--navy-800);
+}
+
+.today-day.is-on .today-day-count { background: rgba(255, 255, 255, .18); color: var(--white); }
+
+/* A count per sport answers "is my sport on today" without reading any rows. */
+.today-sports {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 18px;
+}
+
+.today-sport {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    padding: 5px 12px;
+    border-radius: 999px;
+    background: var(--bg);
+    color: var(--muted);
+    font-size: .85rem;
+}
+
+.today-sport b { color: var(--navy-800); font-family: var(--font-display); }
+
+.today-games { display: flex; flex-direction: column; gap: 8px; }
+
+.today-game {
+    display: flex;
+    align-items: baseline;
+    gap: 16px;
+    padding: 12px 16px;
+    background: var(--white);
+    border: 1px solid var(--line);
+    border-left: 3px solid var(--navy-600);
+    border-radius: var(--radius);
+    transition: box-shadow .2s ease, border-color .2s ease;
+}
+
+.today-game:hover { box-shadow: var(--shadow-sm); }
+.today-game.is-off { border-left-color: var(--red); opacity: .72; }
+
+.today-time {
+    flex: 0 0 auto;
+    min-width: 82px;
+    font-family: var(--font-display);
+    font-weight: 500;
+    color: var(--navy-800);
+}
+
+.today-match { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.today-match strong { color: var(--ink); font-weight: 600; }
+.today-meta { font-size: .85rem; color: var(--muted); }
+
+.today-status {
+    margin-left: auto;
+    font-size: .78rem;
+    text-transform: uppercase;
+    letter-spacing: .04em;
+    color: var(--red);
+}
+
+.today-all {
+    display: inline-block;
+    margin-top: 16px;
+    font-weight: 600;
+    color: var(--navy-700);
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: border-color .2s ease;
+}
+
+.today-all::after { content: ' \2192'; }
+.today-all:hover { border-bottom-color: var(--red); }
+
+@media (max-width: 640px) {
+    .today-game { flex-direction: column; align-items: flex-start; gap: 4px; }
+    .today-time { min-width: 0; }
+    .today-status { margin-left: 0; }
+}

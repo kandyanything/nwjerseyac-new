@@ -87,7 +87,34 @@ const index = {
 fs.writeFileSync(path.join(OUT, 'index.json'), JSON.stringify(index, null, 2) + '\n');
 const indexKb = fs.statSync(path.join(OUT, 'index.json')).size / 1024;
 
+// The homepage shows the next few days. Pulling a whole month for that would
+// cost up to 557 KB, so the window is written out separately.
+//
+// It is measured from the build, not from the reader's clock, so it carries
+// slack: eight days means a missed nightly run or two still leaves something to
+// show, and the page filters to the reader's own date anyway.
+const WINDOW_DAYS = 8;
+const easternDate = d => new Intl.DateTimeFormat('en-CA', {
+    timeZone: 'America/New_York', year: 'numeric', month: '2-digit', day: '2-digit',
+}).format(d);
+
+const from = easternDate(new Date(doc.generated || Date.now()));
+const end = new Date(from + 'T12:00:00Z');
+end.setUTCDate(end.getUTCDate() + WINDOW_DAYS - 1);
+const through = end.toISOString().slice(0, 10);
+
+const upcoming = games
+    .filter(g => g.date >= from && g.date <= through)
+    .sort((a, b) => (a.date === b.date
+        ? (a.time || '').localeCompare(b.time || '')
+        : a.date.localeCompare(b.date)));
+
+fs.writeFileSync(path.join(OUT, 'upcoming.json'),
+    JSON.stringify({ generated: doc.generated, from, through, games: upcoming.map(slim) }) + '\n');
+const upKb = fs.statSync(path.join(OUT, 'upcoming.json')).size / 1024;
+
 console.log(`  ${games.length} games across ${months.length} months, ${Object.keys(counts).length} dates`);
 months.forEach(m => console.log(`    ${m.month}  ${String(m.games).padStart(4)} games  ${String(m.kb).padStart(4)} KB`));
 console.log(`  index.json ${indexKb.toFixed(0)} KB   months total ${Math.round(total)} KB`);
+console.log(`  upcoming.json ${upKb.toFixed(0)} KB  ${upcoming.length} games, ${from} .. ${through}`);
 console.log(`  largest month: ${Math.max(...months.map(m => m.kb))} KB  (was ${Math.round(fs.statSync(SRC).size / 1024)} KB as one file)`);

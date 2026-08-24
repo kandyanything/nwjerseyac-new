@@ -49,10 +49,33 @@ document.addEventListener('DOMContentLoaded', function () {
                 });
             }
 
-            viewMonth = defaultMonth();
-            renderMonth();
+            // "Today at a Glance" links here as calendar.html#2026-08-24, so honour a
+            // date in the URL rather than always opening on the current month.
+            var wanted = dateFromHash();
+            if (wanted && index.dateCounts[wanted]) {
+                viewMonth = wanted.slice(0, 7);
+                renderMonth();
+                showDay(wanted);
+                root.scrollIntoView({ block: 'start' });
+            } else {
+                viewMonth = defaultMonth();
+                renderMonth();
+            }
         })
         .catch(function () { root.style.display = 'none'; });
+
+    function dateFromHash() {
+        var m = String(location.hash || '').match(/^#(\d{4}-\d{2}-\d{2})$/);
+        return m ? m[1] : null;
+    }
+
+    window.addEventListener('hashchange', function () {
+        var d = dateFromHash();
+        if (!d || !index || !index.dateCounts[d]) return;
+        viewMonth = d.slice(0, 7);
+        renderMonth();
+        showDay(d);
+    });
 
     // open on the current month if it has games, otherwise the first month that does
     function defaultMonth() {
