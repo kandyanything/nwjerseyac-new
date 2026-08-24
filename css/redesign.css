@@ -285,3 +285,36 @@ p { margin: 0 0 1rem; }
 @media (max-width: 900px) {
     .masthead-strip { display: none; }
 }
+
+/* ---- Scroll reveal -------------------------------------------------------
+   A short fade and a 22px lift as each block enters the viewport. The hidden
+   state is scoped to .js-reveal, which an inline snippet in <head> sets before
+   the first paint - so without JavaScript the page is simply a normal page,
+   and there is never a flash of content appearing and then being hidden.
+
+   The transition lives on .is-in rather than on .reveal, so the element has no
+   animation on the way in to its hidden state - only on the way out of it.
+   Scrolling back up leaves everything where it is; the reveal is one-shot. */
+.js-reveal .reveal {
+    opacity: 0;
+    transform: translateY(22px);
+}
+
+.js-reveal .reveal.is-in {
+    opacity: 1;
+    transform: none;
+    /* Decelerating almost to a stop - the movement settles rather than arrives. */
+    transition: opacity .7s cubic-bezier(.16, 1, .3, 1),
+                transform .7s cubic-bezier(.16, 1, .3, 1);
+}
+
+/* Motion is decoration. Anyone who has asked for less gets none of it, and the
+   script removes .js-reveal entirely so nothing is left mid-transition. */
+@media (prefers-reduced-motion: reduce) {
+    .js-reveal .reveal,
+    .js-reveal .reveal.is-in {
+        opacity: 1;
+        transform: none;
+        transition: none;
+    }
+}
