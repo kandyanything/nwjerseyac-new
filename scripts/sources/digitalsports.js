@@ -42,6 +42,12 @@ function parseTitle(title) {
 }
 
 // "3:00PM @ Villa Walsh Academy - VWA Tennis Courts -"  ->  opponent, venue, home
+//
+// The shape is TIME then "Vs"/"@" then opponent, then " - " and the venue, and
+// usually a trailing " -". Two variants break a naive parse: the time can be a
+// range ("6:30PM - 9:30PM @ ..."), whose separator looks like the venue
+// separator, and "TBA" appears where a time should be. Rather than assume the
+// marker is at the front, find it wherever it is and read from there.
 function parseDescription(desc) {
     const txt = String(desc || '')
         .replace(/<[^>]*>/g, ' ')
@@ -49,13 +55,18 @@ function parseDescription(desc) {
         .replace(/&amp;/gi, '&')
         .replace(/\s+/g, ' ')
         .trim();
-    // strip the leading time, then read the "@ X" / "Vs X" that follows
-    const body = txt.replace(/^\d{1,2}:\d{2}\s*(AM|PM)\s*/i, '');
-    const m = body.match(/^(@|Vs\.?)\s+(.*)$/i);
+
+    const m = txt.match(/(?:^|\s)(@|Vs\.?)\s+(.+)$/i);
     if (!m) return { opponent: '', venue: '', home: null };
+
     const home = /^vs/i.test(m[1]);
-    const parts = m[2].split(' - ').map(s => s.trim()).filter(Boolean);
-    return { opponent: parts[0] || '', venue: parts[1] || '', home };
+    const parts = m[2].split(' - ');
+    const clean = s => String(s || '')
+        .replace(/^[\s\-–—]+/, '')      // a leading dash left by a time range
+        .replace(/[\s\-–—]+$/, '')      // the trailing " -" the feed always adds
+        .trim();
+
+    return { opponent: clean(parts[0]), venue: clean(parts[1]), home };
 }
 
 // "2026-08-24 15:00:00" -> { date, time, label }
