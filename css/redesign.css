@@ -360,3 +360,12 @@ p { margin: 0 0 1rem; }
         transition: none;
     }
 }
+
+/* An anchored section must clear the sticky nav. Without this the browser
+   scrolls the heading to y=0, where the bar is already sitting, and the first
+   line of the section is hidden underneath it. */
+section[id],
+.band[id],
+.page-head[id] {
+    scroll-margin-top: 76px;
+}
