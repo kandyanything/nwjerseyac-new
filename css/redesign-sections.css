@@ -750,3 +750,49 @@
     /* stacked rows have no right-hand column to push the badges into */
     .today-levels { margin-left: 0; }
 }
+
+/* ---- Ken Burns -----------------------------------------------------------
+   Each photograph drifts slowly for as long as it is on screen, so the hero
+   reads as film rather than as a slideshow of stills.
+
+   The movement comes from scale alone, with the origin placed off-centre to
+   give it direction. Panning with translate would be the obvious way to do it
+   and is a trap: the moment the translation exceeds the overflow the scale
+   provides, a bare edge appears at the side of the frame. Moving the origin
+   cannot expose an edge at any scale.
+
+   6% over the slide's whole turn is deliberately below the threshold of
+   noticing frame to frame. You should not be able to catch it moving; you
+   should only feel that the page is alive. Faster reads as a screensaver. */
+@keyframes kb-closer {
+    from { transform: scale(1.015); }
+    to   { transform: scale(1.075); }
+}
+
+@keyframes kb-wider {
+    from { transform: scale(1.075); }
+    to   { transform: scale(1.015); }
+}
+
+/* Runs while the slide is showing and while it is fading out, never otherwise -
+   so every slide starts its drift from the beginning each time it comes round. */
+.hero-slide.is-playing img {
+    animation: kb-closer var(--kb-duration, 5900ms) linear both;
+    will-change: transform;
+}
+
+/* Four origins in rotation, alternating in and out, so consecutive photographs
+   never move the same way. */
+.hero-slide:nth-child(4n+1) img { transform-origin: 32% 38%; animation-name: kb-closer; }
+.hero-slide:nth-child(4n+2) img { transform-origin: 68% 42%; animation-name: kb-wider; }
+.hero-slide:nth-child(4n+3) img { transform-origin: 46% 66%; animation-name: kb-closer; }
+.hero-slide:nth-child(4n+4) img { transform-origin: 62% 30%; animation-name: kb-wider; }
+
+/* Motion is decoration. Anyone who has asked for less gets a still photograph,
+   which is exactly what this section is without it. */
+@media (prefers-reduced-motion: reduce) {
+    .hero-slide.is-playing img {
+        animation: none;
+        transform: scale(1.015);
+    }
+}

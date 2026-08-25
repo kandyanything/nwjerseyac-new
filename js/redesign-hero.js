@@ -24,7 +24,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
         slides.forEach(function (s, i) {
             var fig = document.createElement('div');
-            fig.className = 'hero-slide' + (i === 0 ? ' is-active' : '');
+            // Deliberately not marking the first slide active here. render()
+            // starts a slide's drift when it sees the slide become active, and
+            // pre-setting the class means the first photograph - the one
+            // everybody sees - is the only one that never moves.
+            fig.className = 'hero-slide';
             var img = document.createElement('img');
             img.src = s.image;
             img.alt = s.alt || '';
@@ -61,9 +65,58 @@ document.addEventListener('DOMContentLoaded', function () {
         var idx = 0, timer = null;
         var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
+        // The slow drift across each photograph runs for the slide's whole turn
+        // plus the cross-fade that follows it, so the outgoing frame is still
+        // moving while the incoming one arrives. Stop it at the moment the class
+        // changes and the picture snaps back to its start mid-dissolve, which is
+        // the one thing that would give the effect away.
+        var FADE_MS = 900;                 // matches the opacity transition in the stylesheet
+
+        // The drift is given twice the time a slide is ever on screen, so it can
+        // never run out partway through. Matching it to the slide length looks
+        // right on paper and is wrong in practice: reach the end early and the
+        // photograph simply stops, holding its last scale for the rest of its
+        // turn - no jump, nothing obviously broken, just a picture that quietly
+        // stopped being alive while you were looking at it.
+        //
+        // Only about half the 6% is therefore travelled while a slide is up. That
+        // is the intended speed, not a compromise: barely perceptible frame to
+        // frame is the whole idea, and it is now guaranteed to still be moving
+        // when the next photograph arrives.
+        hero.style.setProperty('--kb-duration', (interval * 2 + FADE_MS) + 'ms');
+
+        // The drift is held on its own class rather than on is-active, and that
+        // matters more than it looks. Handing over by swapping one class for
+        // another changes which rule owns the animation, and the browser treats
+        // that as a new animation and restarts it - so the outgoing photograph
+        // jumped back to its starting scale halfway through the dissolve, which
+        // is precisely the moment anyone would notice. is-playing is added when
+        // a slide comes up and removed only once it has finished fading out, so
+        // nothing changes underneath the animation while it is visible.
+        function play(fig) {
+            if (fig.kbTimer) { clearTimeout(fig.kbTimer); fig.kbTimer = null; }
+            fig.classList.remove('is-playing');
+            void fig.offsetWidth;          // let the removal land, so the drift starts over
+            fig.classList.add('is-playing');
+        }
+
+        function stopSoon(fig) {
+            if (fig.kbTimer) clearTimeout(fig.kbTimer);
+            fig.kbTimer = window.setTimeout(function () {
+                fig.classList.remove('is-playing');
+                fig.kbTimer = null;
+            }, FADE_MS);
+        }
+
         function render() {
             var figs = layer.children, ds = dots.children;
-            for (var i = 0; i < figs.length; i++) figs[i].classList.toggle('is-active', i === idx);
+            for (var i = 0; i < figs.length; i++) {
+                var on = i === idx;
+                var was = figs[i].classList.contains('is-active');
+                figs[i].classList.toggle('is-active', on);
+                if (on && !was) play(figs[i]);
+                else if (!on && was) stopSoon(figs[i]);
+            }
             for (var j = 0; j < ds.length; j++) ds[j].classList.toggle('is-active', j === idx);
 
             var s = slides[idx];
