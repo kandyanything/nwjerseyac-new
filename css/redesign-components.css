@@ -350,3 +350,52 @@
     .schools-grid { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); }
     .school-tile img { width: 64px; height: 64px; }
 }
+
+/* ---- Athlitiq credit ------------------------------------------------------
+   Lives in the stylesheet rather than in a <style> block beside the mark, so
+   the rules are not repeated seven times over. Class names keep their atq-
+   prefix so nothing here can collide with the rest of the site.
+
+   The two-tone variant, because this footer is navy-900. */
+.atq-credit {
+    display: inline-flex;
+    align-items: center;
+    gap: .55em;
+    font: 400 12px/1 var(--font-body);
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #8b959c;
+    transition: color .18s ease;
+}
+
+.atq-credit:hover,
+.atq-credit:focus-visible { color: #cfd6da; }
+
+.atq-credit:focus-visible {
+    outline: 2px solid #7BAFD4;
+    outline-offset: 4px;
+    border-radius: 2px;
+}
+
+.atq-credit svg {
+    height: 13px;
+    width: auto;
+    display: block;
+    color: #c3cbd1;
+    transition: color .18s ease;
+}
+
+.atq-credit:hover svg,
+.atq-credit:focus-visible svg { color: #e6ebee; }
+
+@media (prefers-reduced-motion: reduce) {
+    .atq-credit,
+    .atq-credit svg { transition: none; }
+}
+
+/* The counties sit between the copyright and the credit on a wide footer, and
+   the credit drops to its own line before the other two do on a narrow one. */
+@media (max-width: 600px) {
+    .footer-bottom { flex-direction: column; align-items: flex-start; gap: 12px; }
+}
