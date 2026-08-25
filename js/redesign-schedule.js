@@ -214,7 +214,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
         var meta = document.createElement('span');
         meta.className = 'cal-meta';
-        meta.textContent = [g.level, g.gender, g.sport].filter(Boolean).join(' · ');
+        // gender is carried in the sport name where the sport has more than one
+        meta.textContent = [g.level, g.sport].filter(Boolean).join(' · ');
         mid.appendChild(meta);
         row.appendChild(mid);
 

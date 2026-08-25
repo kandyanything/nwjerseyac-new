@@ -300,7 +300,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
         var meta = document.createElement('span');
         meta.className = 'today-meta';
-        meta.textContent = [g.gender, g.sport].filter(Boolean).join(' · ');
+        // The gender is part of the sport's name now where it matters, so
+        // repeating it here would read "Girls · Girls Soccer".
+        meta.textContent = g.sport;
         mid.appendChild(meta);
 
         row.appendChild(mid);

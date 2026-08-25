@@ -128,6 +128,48 @@ function blankPlaceholderTime(e) {
     return { ...e, time: '', timeLabel: '' };
 }
 
+// A single-sex school has no reason to write the gender into its own fixture
+// titles, and Delbarton does not: none of its 134 events name one. Its whole
+// programme is boys', so the gender is known even though the feed never says
+// it. This is a fact about the school rather than a guess about a fixture, so
+// it belongs in a list of one rather than in a parser.
+//
+// Morristown Beard is co-educational and names a gender in most of its titles
+// but not all. The ones it omits stay unknown, because there is nothing to
+// read them from.
+const SCHOOL_GENDER = {
+    'Delbarton School': 'Boys',
+};
+
+function schoolGender(e) {
+    if (e.gender) return e;
+    const g = SCHOOL_GENDER[e.school];
+    return g ? { ...e, gender: g } : e;
+}
+
+// Boys' and girls' soccer are two different sports to anyone looking for one
+// of them, and lumping them together made the largest entry in every filter a
+// mixture of both. A sport is split wherever the season actually has more than
+// one gender playing it - which is eleven of them - and left alone where it
+// does not, so football does not become boys' football and field hockey does
+// not become girls' field hockey.
+//
+// Worked out from the fixtures rather than from a hard-coded list, so a sport
+// that gains or loses a programme is handled without anyone remembering to
+// come back here.
+function splitByGender(games) {
+    const genders = {};
+    for (const g of games) {
+        if (!g.gender) continue;
+        (genders[g.sport] = genders[g.sport] || new Set()).add(g.gender);
+    }
+    const split = new Set(Object.keys(genders).filter(s => genders[s].size > 1));
+    const out = games.map(g => (g.gender && split.has(g.sport))
+        ? { ...g, sport: g.gender + ' ' + g.sport }
+        : g);
+    return { games: out, split: [...split].sort() };
+}
+
 function stripSelfVenue(e) {
     const opp = String(e.opponent || '').trim();
     if (!opp) return e;
@@ -236,7 +278,13 @@ function dedupe(events) {
         await sleep(PAUSE_MS);
     }
 
-    const athletic = all.map(canonicalSport).map(stripSelfVenue).map(blankPlaceholderTime).filter(isAthletic);
+    const normalised = all.map(canonicalSport).map(schoolGender)
+        .map(stripSelfVenue).map(blankPlaceholderTime).filter(isAthletic);
+
+    // Split before de-duplication, so a boys' and a girls' fixture between the
+    // same two schools at the same hour can never be mistaken for one another.
+    const { games: athletic, split } = splitByGender(normalised);
+    console.log('  split by gender: ' + split.join(', '));
     const dropped = all.length - athletic.length;
 
     // An unknown time sorts to the end of the day rather than to midnight,
