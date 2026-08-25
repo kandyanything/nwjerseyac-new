@@ -761,32 +761,39 @@
    provides, a bare edge appears at the side of the frame. Moving the origin
    cannot expose an edge at any scale.
 
-   6% over the slide's whole turn is deliberately below the threshold of
-   noticing frame to frame. You should not be able to catch it moving; you
-   should only feel that the page is alive. Faster reads as a screensaver. */
-@keyframes kb-closer {
-    from { transform: scale(1.015); }
-    to   { transform: scale(1.075); }
-}
+   The movement is deliberately below the threshold of noticing frame to
+   frame. You should not be able to catch it moving; you should only feel that
+   the page is alive. Faster reads as a screensaver.
 
-@keyframes kb-wider {
-    from { transform: scale(1.075); }
-    to   { transform: scale(1.015); }
+   A slide only ever travels part of this range, because the drift runs for
+   twice a slide's life so it can never run out mid-turn. The range is
+   therefore set well beyond what is ever reached: 13% here gives roughly 5.5%
+   while a photograph is actually up. Widening it speeds the drift without
+   cropping any further, since the far end is never arrived at - the most a
+   slide reaches is about 1.076, which still leaves the source larger than the
+   frame it fills. */
+@keyframes kb-closer {
+    from { transform: scale(1.02); }
+    to   { transform: scale(1.15); }
 }
 
 /* Runs while the slide is showing and while it is fading out, never otherwise -
    so every slide starts its drift from the beginning each time it comes round. */
 .hero-slide.is-playing img {
-    animation: kb-closer var(--kb-duration, 5900ms) linear both;
+    animation: kb-closer var(--kb-duration, 10900ms) linear both;
     will-change: transform;
 }
 
-/* Four origins in rotation, alternating in and out, so consecutive photographs
-   never move the same way. */
-.hero-slide:nth-child(4n+1) img { transform-origin: 32% 38%; animation-name: kb-closer; }
-.hero-slide:nth-child(4n+2) img { transform-origin: 68% 42%; animation-name: kb-wider; }
-.hero-slide:nth-child(4n+3) img { transform-origin: 46% 66%; animation-name: kb-closer; }
-.hero-slide:nth-child(4n+4) img { transform-origin: 62% 30%; animation-name: kb-wider; }
+/* Every photograph closes in rather than half of them pulling back. Pulling
+   back reads as the picture settling, which is very nearly the opposite of
+   the effect wanted - the cross country frame was the only one anyone
+   noticed, and it was one of the four that pushed in. Variety comes from
+   where each one closes in on instead, which is a difference in direction
+   without a difference in energy. */
+.hero-slide:nth-child(4n+1) img { transform-origin: 32% 38%; }
+.hero-slide:nth-child(4n+2) img { transform-origin: 68% 42%; }
+.hero-slide:nth-child(4n+3) img { transform-origin: 46% 68%; }
+.hero-slide:nth-child(4n+4) img { transform-origin: 60% 28%; }
 
 /* Motion is decoration. Anyone who has asked for less gets a still photograph,
    which is exactly what this section is without it. */
