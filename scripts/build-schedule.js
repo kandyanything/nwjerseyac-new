@@ -114,6 +114,20 @@ function canonicalSport(e) {
 // and plenty of genuine schools carry a venue-ish word (Asbury Park, Park Ridge).
 const VENUE_TAIL = /\b(gym(nasium)?|field(s| ?house)?|courts?|turf|stadium|room|pool|track|rink|lanes|arena|diamond)\s*$/i;
 
+// Midnight is not a kick-off time, it is a school leaving the time blank.
+// 12:00 and 12:01 AM together account for 42 of the 57 pre-dawn fixtures in
+// the feeds, across both platforms and fifteen schools - so it is a habit of
+// the people entering them, not a fault in one parser. Publishing "12:00 AM"
+// states something false; TBA states what is actually known.
+//
+// The other fifteen - 4:00 AM, 5:30 AM and so on - are most likely AM/PM slips
+// at source. They are left alone, because correcting them would mean guessing
+// at what was meant, and a wrong time is worse than an odd one.
+function blankPlaceholderTime(e) {
+    if (e.time !== '00:00' && e.time !== '00:01') return e;
+    return { ...e, time: '', timeLabel: '' };
+}
+
 function stripSelfVenue(e) {
     const opp = String(e.opponent || '').trim();
     if (!opp) return e;
@@ -222,11 +236,14 @@ function dedupe(events) {
         await sleep(PAUSE_MS);
     }
 
-    const athletic = all.map(canonicalSport).map(stripSelfVenue).filter(isAthletic);
+    const athletic = all.map(canonicalSport).map(stripSelfVenue).map(blankPlaceholderTime).filter(isAthletic);
     const dropped = all.length - athletic.length;
 
+    // An unknown time sorts to the end of the day rather than to midnight,
+    // where it would sit above every real fixture.
+    const byTime = (a, b) => (a.time || '99:99').localeCompare(b.time || '99:99');
     const games = dedupe(athletic).sort((a, b) =>
-        a.date === b.date ? (a.time || '').localeCompare(b.time || '') : a.date.localeCompare(b.date));
+        a.date === b.date ? byTime(a, b) : a.date.localeCompare(b.date));
 
     const byDate = {};
     for (const g of games) (byDate[g.date] = byDate[g.date] || []).push(g);

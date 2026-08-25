@@ -59,7 +59,7 @@ let total = 0;
 const months = [];
 for (const [month, list] of [...byMonth.entries()].sort()) {
     list.sort((a, b) => (a.date === b.date
-        ? (a.time || '').localeCompare(b.time || '')
+        ? (a.time || '99:99').localeCompare(b.time || '99:99')
         : a.date.localeCompare(b.date)));
     const file = path.join(OUT, `${month}.json`);
     fs.writeFileSync(file, JSON.stringify({ month, games: list.map(slim) }) + '\n');
@@ -106,7 +106,7 @@ const through = end.toISOString().slice(0, 10);
 const upcoming = games
     .filter(g => g.date >= from && g.date <= through)
     .sort((a, b) => (a.date === b.date
-        ? (a.time || '').localeCompare(b.time || '')
+        ? (a.time || '99:99').localeCompare(b.time || '99:99')
         : a.date.localeCompare(b.date)));
 
 fs.writeFileSync(path.join(OUT, 'upcoming.json'),
