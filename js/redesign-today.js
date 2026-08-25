@@ -48,7 +48,10 @@ document.addEventListener('DOMContentLoaded', function () {
     ]).then(function (both) {
         var data = both[0];
         ((both[1] && both[1].directory) || []).forEach(function (d) {
-            if (d.school && d.logo) crests[d.school] = d.logo;
+            if (d.school && d.logo) {
+                crests[d.school] = d.logo;
+                crests[normSchool(d.school)] = d.logo;
+            }
         });
 
         (data.games || []).forEach(function (g) {
@@ -219,6 +222,48 @@ document.addEventListener('DOMContentLoaded', function () {
         return out;
     }
 
+    // Feeds spell the same school several ways - "Montville Township High
+    // School" here, "Montville High School" there, "Hanover Park" plain. Reduce
+    // a name to its distinguishing words so an opponent can be recognised as a
+    // conference member however its own school chose to write it.
+    //
+    // Checked against the full directory: no two NJAC schools reduce to the same
+    // string, so this cannot put one school's crest on another's row.
+    function normSchool(s) {
+        return String(s || '')
+            .toLowerCase()
+            .replace(/\b(high school|high|school|township|regional|academy|hs)\b/g, '')
+            .replace(/[^a-z]/g, '');
+    }
+
+    // A team's name with its own crest in front of it. Both sides of a fixture
+    // get one when both are conference members - which is 42% of them - and the
+    // crest sits beside the name it belongs to rather than floating at the start
+    // of the row, so there is never a question which team it is for.
+    function team(name) {
+        var wrap = document.createElement('span');
+        wrap.className = 'today-team';
+
+        var file = crests[name] || crests[normSchool(name)];
+        if (file) {
+            var img = document.createElement('img');
+            img.className = 'today-crest';
+            img.src = 'images/logos/optimized/' + file;
+            img.alt = '';
+            img.setAttribute('aria-hidden', 'true');
+            img.loading = 'lazy';
+            img.decoding = 'async';
+            img.onerror = function () { this.remove(); };
+            wrap.appendChild(img);
+        }
+
+        var label = document.createElement('span');
+        label.className = 'today-name';
+        label.textContent = name;
+        wrap.appendChild(label);
+        return wrap;
+    }
+
     function buildRow(fx) {
         var g = fx.game;
         var row = document.createElement('div');
@@ -229,30 +274,28 @@ document.addEventListener('DOMContentLoaded', function () {
         t.textContent = g.timeLabel || 'TBA';
         row.appendChild(t);
 
-        // The crest belongs to the NJAC school. Opponents are often from outside
-        // the conference, so there is no logo to show for them and a placeholder
-        // would only add noise.
-        var file = crests[g.school];
-        if (file) {
-            var img = document.createElement('img');
-            img.className = 'today-crest';
-            img.src = 'images/logos/optimized/' + file;
-            img.alt = '';
-            img.setAttribute('aria-hidden', 'true');
-            img.loading = 'lazy';
-            img.decoding = 'async';
-            img.onerror = function () { this.remove(); };
-            row.appendChild(img);
-        }
 
         var mid = document.createElement('span');
         mid.className = 'today-match';
 
         var teams = document.createElement('strong');
-        var vs = g.home === true ? ' vs ' : g.home === false ? ' at ' : ' v ';
-        // A feed that names no opponent should say so, rather than trailing off
-        // and reading like a fault in the page.
-        teams.textContent = g.school + (g.opponent ? vs + g.opponent : ' — opponent TBA');
+        teams.className = 'today-teams';
+        teams.appendChild(team(g.school));
+
+        if (g.opponent) {
+            var sep = document.createElement('em');
+            sep.className = 'today-vs';
+            sep.textContent = g.home === true ? 'vs' : g.home === false ? 'at' : 'v';
+            teams.appendChild(sep);
+            teams.appendChild(team(g.opponent));
+        } else {
+            // A feed that names no opponent should say so, rather than trailing
+            // off and reading like a fault in the page.
+            var tba = document.createElement('span');
+            tba.className = 'today-tba';
+            tba.textContent = '— opponent TBA';
+            teams.appendChild(tba);
+        }
         mid.appendChild(teams);
 
         var meta = document.createElement('span');
