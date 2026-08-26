@@ -110,7 +110,7 @@
         <div class="wrap">
             <div class="eyebrow">Schedules</div>
             <h1>Conference Schedule</h1>
-            <p>Every NJAC game, gathered nightly from all 39 member schools. Pick a date to see that day's fixtures in order of start time.</p>
+            <p>Every NJAC game, gathered nightly from all 39 member schools. Pick a date to see that day's fixtures, or search across a whole season by sport, gender and level.</p>
         </div>
     </section>
 
@@ -119,22 +119,81 @@
             <section class="njac-schedule">
                 <h2>Conference Calendar</h2>
 
-                <div class="cal-toolbar">
-                    <div class="cal-nav">
-                        <button type="button" class="cal-prev" aria-label="Previous month">&#8249;</button>
-                        <span class="cal-title"></span>
-                        <button type="button" class="cal-next" aria-label="Next month">&#8250;</button>
-                    </div>
-                    <label class="visually-hidden" for="cal-sport">Filter by sport</label>
-                    <select class="cal-sport" id="cal-sport">
-                        <option value="">All sports</option>
-                    </select>
-                    <span class="cal-updated"></span>
+                <div class="cal-modes" role="tablist" aria-label="Calendar view">
+                    <button type="button" class="cal-mode is-on" data-mode="browse" role="tab" aria-selected="true">Browse by Day</button>
+                    <button type="button" class="cal-mode" data-mode="search" role="tab" aria-selected="false">Search a Season</button>
                 </div>
 
-                <div class="cal-grid"></div>
-                <div class="cal-day">
-                    <p class="cal-none">Select a date above to see that day's games.</p>
+                <div class="cal-browse">
+                    <div class="cal-toolbar">
+                        <div class="cal-nav">
+                            <button type="button" class="cal-prev" aria-label="Previous month">&#8249;</button>
+                            <span class="cal-title"></span>
+                            <button type="button" class="cal-next" aria-label="Next month">&#8250;</button>
+                        </div>
+                        <label class="visually-hidden" for="cal-sport">Filter by sport</label>
+                        <select class="cal-sport" id="cal-sport">
+                            <option value="">All sports</option>
+                        </select>
+                        <span class="cal-updated"></span>
+                    </div>
+
+                    <div class="cal-grid"></div>
+                    <div class="cal-day">
+                        <p class="cal-none">Select a date above to see that day's games.</p>
+                    </div>
+                </div>
+
+                <div class="cal-search" hidden>
+                    <div class="cal-search-filters">
+                        <div class="cal-search-field">
+                            <label for="cal-f-sport">Sport</label>
+                            <select id="cal-f-sport" class="cal-f-sport">
+                                <option value="">All Sports</option>
+                            </select>
+                        </div>
+                        <div class="cal-search-field">
+                            <label for="cal-f-gender">Gender</label>
+                            <select id="cal-f-gender" class="cal-f-gender">
+                                <option value="">All Genders</option>
+                                <option value="Boys">Boys</option>
+                                <option value="Girls">Girls</option>
+                                <option value="Coed">Coed</option>
+                            </select>
+                        </div>
+                        <div class="cal-search-field">
+                            <label for="cal-f-level">Level</label>
+                            <select id="cal-f-level" class="cal-f-level">
+                                <option value="">All Levels</option>
+                                <option value="Varsity">Varsity</option>
+                                <option value="Junior Varsity">Junior Varsity</option>
+                                <option value="Freshman">Freshman</option>
+                                <option value="Middle School">Middle School</option>
+                            </select>
+                        </div>
+                        <div class="cal-search-field">
+                            <label for="cal-f-kind">Type</label>
+                            <select id="cal-f-kind" class="cal-f-kind">
+                                <option value="">Games &amp; Scrimmages</option>
+                                <option value="Game">Games Only</option>
+                                <option value="Scrimmage">Scrimmages Only</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="cal-range-tabs" role="tablist" aria-label="Date range">
+                        <button type="button" class="cal-range is-on" data-range="today">Today</button>
+                        <button type="button" class="cal-range" data-range="week">This Week</button>
+                        <button type="button" class="cal-range" data-range="season">This Season</button>
+                        <button type="button" class="cal-range" data-range="custom">Custom Range</button>
+                    </div>
+                    <div class="cal-custom-dates" hidden>
+                        <label>From <input type="date" class="cal-from"></label>
+                        <label>To <input type="date" class="cal-to"></label>
+                    </div>
+
+                    <p class="cal-search-summary" aria-live="polite"></p>
+                    <div class="cal-search-list"></div>
                 </div>
             </section>
 
