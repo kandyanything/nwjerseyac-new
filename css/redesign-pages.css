@@ -713,31 +713,6 @@ main .container > section { overflow-x: auto; }
 
 .cal-search-tba { font-weight: 400; color: var(--muted); }
 .cal-search-meta { font-size: .85rem; color: var(--muted); }
-
-.cal-search-levels {
-    margin-left: auto;
-    display: flex;
-    gap: 6px;
-    align-self: center;
-    flex: 0 0 auto;
-}
-
-.cal-search-levels b {
-    font-family: var(--font-display);
-    font-size: .74rem;
-    font-weight: 500;
-    letter-spacing: .06em;
-    line-height: 1;
-    padding: 5px 8px;
-    min-width: 26px;
-    text-align: center;
-    border-radius: 5px;
-    background: var(--bg);
-    color: var(--navy-800);
-    cursor: default;
-}
-
-.cal-search-row.is-off .cal-search-levels b { background: rgba(200, 16, 46, .10); color: var(--red-dark); }
 .cal-search-status { margin-left: 12px; font-size: .74rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--red); white-space: nowrap; }
 
 /* A season with no sport chosen can run to several thousand rows; the cap
@@ -755,7 +730,6 @@ main .container > section { overflow-x: auto; }
     .cal-search-filters { grid-template-columns: repeat(2, 1fr); }
     .cal-search-row { flex-direction: column; align-items: flex-start; gap: 6px; }
     .cal-search-time { min-width: 0; }
-    .cal-search-levels { margin-left: 0; }
     .cal-search-status { margin-left: 0; }
 }
 

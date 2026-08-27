@@ -555,7 +555,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // three near-identical rows. Kept separate whenever the hour or the status
     // differs, since those are exactly the difference a search like this is
     // usually run to find.
-    var LEVEL_SHORT = { 'Varsity': 'V', 'Junior Varsity': 'JV', 'Freshman': 'F', 'Middle School': 'MS' };
+    var LEVEL_SHORT = { 'Varsity': 'Varsity', 'Junior Varsity': 'JV', 'Freshman': 'Freshman', 'Middle School': 'Middle School' };
     var LEVEL_ORDER = ['Varsity', 'Junior Varsity', 'Freshman', 'Middle School'];
 
     function groupFixtures(list) {
@@ -679,23 +679,13 @@ document.addEventListener('DOMContentLoaded', function () {
         }
         mid.appendChild(teams);
 
+        var levelPrefix = fx.levels.map(function (lv) { return LEVEL_SHORT[lv] || lv; }).join('/');
+
         var meta = document.createElement('span');
         meta.className = 'cal-search-meta';
-        meta.textContent = g.sport;
+        meta.textContent = levelPrefix ? levelPrefix + ' ' + g.sport : g.sport;
         mid.appendChild(meta);
         row.appendChild(mid);
-
-        if (fx.levels.length) {
-            var wrap = document.createElement('span');
-            wrap.className = 'cal-search-levels';
-            fx.levels.forEach(function (lv) {
-                var b = document.createElement('b');
-                b.textContent = LEVEL_SHORT[lv] || lv;
-                b.title = lv;
-                wrap.appendChild(b);
-            });
-            row.appendChild(wrap);
-        }
 
         if (g.kind && g.kind !== 'Game') {
             var k = document.createElement('span');
