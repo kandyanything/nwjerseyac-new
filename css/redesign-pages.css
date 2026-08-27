@@ -758,3 +758,13 @@ main .container > section { overflow-x: auto; }
     .cal-search-levels { margin-left: 0; }
     .cal-search-status { margin-left: 0; }
 }
+
+/* ---- Extra Pages (generic, board-authored) --------------------------------
+   What a visitor sees at one of these URLs before its content is published -
+   plain and honest, never a broken-looking blank page. */
+.generic-page-empty {
+    padding: 90px 24px;
+    text-align: center;
+    color: var(--muted);
+    font-size: 1.05rem;
+}

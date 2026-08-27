@@ -174,3 +174,139 @@ collections:
               - { label: "Summary (optional)", name: "excerpt", widget: "text", required: false }
               - { label: "Link (optional)", name: "url", widget: "string", required: false,
                   hint: "Where the headline links to. Leave blank for a story with no link yet." }
+
+  - name: "nav"
+    label: "Top Navigation"
+    description: "The menu bar at the top of every page. Reordering, renaming or adding a link here changes it site-wide immediately - there is no separate preview step, so double-check a change before saving. A top-level entry with sub-links becomes a dropdown; one without becomes a plain link."
+    files:
+      - file: "data/nav.json"
+        label: "Menu"
+        name: "nav"
+        fields:
+          - { label: "Internal note (do not edit)", name: "_comment", widget: "hidden",
+              default: "The site's top navigation, built fresh on every page by js/nav-render.js. href always uses the full, portable form - index.html#section rather than a bare #section - the renderer strips the index.html prefix automatically on the home page itself, which is what keeps a click on a same-page link a smooth scroll rather than a full reload." }
+          - label: "Menu items"
+            name: "items"
+            widget: "list"
+            summary: "{{fields.label}}"
+            fields:
+              - { label: "Label", name: "label", widget: "string" }
+              - { label: "Link", name: "href", widget: "string",
+                  hint: "A page on this site (calendar.html), or a section of the home page (index.html#standings). Never a bare #section on its own - that only works from the home page itself." }
+              - label: "Dropdown items (leave empty for a plain link)"
+                name: "children"
+                widget: "list"
+                required: false
+                summary: "{{fields.label}}"
+                fields:
+                  - { label: "Label", name: "label", widget: "string" }
+                  - { label: "Link", name: "href", widget: "string" }
+
+  - name: "extra-page-1"
+    label: "Extra Page 1"
+    description: "A blank page you can fill in and publish whenever it is ready. It has no nav tab and cannot be found on the site until Published is switched on below - see cms-activation/ACTIVATION.md for exactly what that guarantees and what it does not."
+    files:
+      - file: "data/pages/custom-1.json"
+        label: "Extra Page 1"
+        name: "extra-page-1"
+        fields:
+          - { label: "Internal note (do not edit)", name: "_comment", widget: "hidden",
+              default: "Extra Page 1. Nothing here shows on the site - no nav tab, no reachable content - until published is set to true. file names the physical page this content belongs to; it must stay custom-1.html." }
+          - { label: "Published (turn this on to make the page live)", name: "published", widget: "boolean", default: false,
+              hint: "Off: nobody can find this page. On: it appears in the top menu and is publicly visible. Safe to flip back off at any time." }
+          - { label: "Menu label", name: "navLabel", widget: "string", required: false,
+              hint: "What appears in the top navigation once published, e.g. Coaches. Required for the page to actually get a menu tab." }
+          - { label: "Page title", name: "pageTitle", widget: "string", required: false,
+              hint: "The big heading at the top of the page, and the browser tab title." }
+          - { label: "Eyebrow (small text above the title)", name: "eyebrow", widget: "string", required: false }
+          - { label: "Intro text", name: "intro", widget: "text", required: false }
+          - label: "Items"
+            name: "items"
+            widget: "list"
+            required: false
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description (optional)", name: "description", widget: "text", required: false }
+              - { label: "Link (optional)", name: "url", widget: "string", required: false }
+
+  - name: "extra-page-2"
+    label: "Extra Page 2"
+    description: "A blank page you can fill in and publish whenever it is ready. It has no nav tab and cannot be found on the site until Published is switched on below."
+    files:
+      - file: "data/pages/custom-2.json"
+        label: "Extra Page 2"
+        name: "extra-page-2"
+        fields:
+          - { label: "Internal note (do not edit)", name: "_comment", widget: "hidden",
+              default: "Extra Page 2. Nothing here shows on the site - no nav tab, no reachable content - until published is set to true. file names the physical page this content belongs to; it must stay custom-2.html." }
+          - { label: "Published (turn this on to make the page live)", name: "published", widget: "boolean", default: false,
+              hint: "Off: nobody can find this page. On: it appears in the top menu and is publicly visible. Safe to flip back off at any time." }
+          - { label: "Menu label", name: "navLabel", widget: "string", required: false,
+              hint: "What appears in the top navigation once published, e.g. Coaches. Required for the page to actually get a menu tab." }
+          - { label: "Page title", name: "pageTitle", widget: "string", required: false }
+          - { label: "Eyebrow (small text above the title)", name: "eyebrow", widget: "string", required: false }
+          - { label: "Intro text", name: "intro", widget: "text", required: false }
+          - label: "Items"
+            name: "items"
+            widget: "list"
+            required: false
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description (optional)", name: "description", widget: "text", required: false }
+              - { label: "Link (optional)", name: "url", widget: "string", required: false }
+
+  - name: "extra-page-3"
+    label: "Extra Page 3"
+    description: "A blank page you can fill in and publish whenever it is ready. It has no nav tab and cannot be found on the site until Published is switched on below."
+    files:
+      - file: "data/pages/custom-3.json"
+        label: "Extra Page 3"
+        name: "extra-page-3"
+        fields:
+          - { label: "Internal note (do not edit)", name: "_comment", widget: "hidden",
+              default: "Extra Page 3. Nothing here shows on the site - no nav tab, no reachable content - until published is set to true. file names the physical page this content belongs to; it must stay custom-3.html." }
+          - { label: "Published (turn this on to make the page live)", name: "published", widget: "boolean", default: false,
+              hint: "Off: nobody can find this page. On: it appears in the top menu and is publicly visible. Safe to flip back off at any time." }
+          - { label: "Menu label", name: "navLabel", widget: "string", required: false,
+              hint: "What appears in the top navigation once published, e.g. Coaches. Required for the page to actually get a menu tab." }
+          - { label: "Page title", name: "pageTitle", widget: "string", required: false }
+          - { label: "Eyebrow (small text above the title)", name: "eyebrow", widget: "string", required: false }
+          - { label: "Intro text", name: "intro", widget: "text", required: false }
+          - label: "Items"
+            name: "items"
+            widget: "list"
+            required: false
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description (optional)", name: "description", widget: "text", required: false }
+              - { label: "Link (optional)", name: "url", widget: "string", required: false }
+
+  - name: "extra-page-4"
+    label: "Extra Page 4"
+    description: "A blank page you can fill in and publish whenever it is ready. It has no nav tab and cannot be found on the site until Published is switched on below."
+    files:
+      - file: "data/pages/custom-4.json"
+        label: "Extra Page 4"
+        name: "extra-page-4"
+        fields:
+          - { label: "Internal note (do not edit)", name: "_comment", widget: "hidden",
+              default: "Extra Page 4. Nothing here shows on the site - no nav tab, no reachable content - until published is set to true. file names the physical page this content belongs to; it must stay custom-4.html." }
+          - { label: "Published (turn this on to make the page live)", name: "published", widget: "boolean", default: false,
+              hint: "Off: nobody can find this page. On: it appears in the top menu and is publicly visible. Safe to flip back off at any time." }
+          - { label: "Menu label", name: "navLabel", widget: "string", required: false,
+              hint: "What appears in the top navigation once published, e.g. Coaches. Required for the page to actually get a menu tab." }
+          - { label: "Page title", name: "pageTitle", widget: "string", required: false }
+          - { label: "Eyebrow (small text above the title)", name: "eyebrow", widget: "string", required: false }
+          - { label: "Intro text", name: "intro", widget: "text", required: false }
+          - label: "Items"
+            name: "items"
+            widget: "list"
+            required: false
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description (optional)", name: "description", widget: "text", required: false }
+              - { label: "Link (optional)", name: "url", widget: "string", required: false }
