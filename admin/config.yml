@@ -17,6 +17,16 @@ backend:
   base_url: https://nwjerseyac.org
   auth_endpoint: .netlify/functions/auth
 
+# Lets the whole editor be previewed on a real machine with zero GitHub
+# connection: when this page is opened at http://localhost - anywhere, any
+# port - Decap skips login entirely and talks to a small local proxy
+# (`npx decap-server`) instead, which reads and writes these same JSON files
+# directly on disk. The moment this is opened at the real domain, the
+# hostname is no longer "localhost" and this line does nothing - the github
+# backend above takes over exactly as configured. Both can sit in the same
+# file permanently for that reason; there is no toggle to remember to remove.
+local_backend: true
+
 # Only used as a fallback if a field below does not set its own folder.
 # Nothing currently uses the fallback - every image field names its real
 # folder explicitly, matching where that kind of file already lives.
