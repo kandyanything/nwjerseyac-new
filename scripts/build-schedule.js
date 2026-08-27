@@ -157,17 +157,24 @@ function schoolGender(e) {
 // Worked out from the fixtures rather than from a hard-coded list, so a sport
 // that gains or loses a programme is handled without anyone remembering to
 // come back here.
-function splitByGender(games) {
+function computeSplitSet(games) {
     const genders = {};
     for (const g of games) {
         if (!g.gender) continue;
         (genders[g.sport] = genders[g.sport] || new Set()).add(g.gender);
     }
-    const split = new Set(Object.keys(genders).filter(s => genders[s].size > 1));
-    const out = games.map(g => (g.gender && split.has(g.sport))
+    return new Set(Object.keys(genders).filter(s => genders[s].size > 1));
+}
+
+function applySplit(games, split) {
+    return games.map(g => (g.gender && split.has(g.sport))
         ? { ...g, sport: g.gender + ' ' + g.sport }
         : g);
-    return { games: out, split: [...split].sort() };
+}
+
+function splitByGender(games) {
+    const split = computeSplitSet(games);
+    return { games: applySplit(games, split), split: [...split].sort() };
 }
 
 function stripSelfVenue(e) {
@@ -230,12 +237,10 @@ function dedupe(events) {
     return out.concat([...byFixture.values()]);
 }
 
-(async () => {
-    const [start, end] = process.argv[2] && process.argv[3]
-        ? [process.argv[2], process.argv[3]]
-        : defaultRange();
-
-    console.log(`range ${start} .. ${end}`);
+// Fetches every school across all three sources for the given range. Shared
+// by the full nightly rebuild and the hourly lightweight refresh (see
+// scripts/update-recent.js), which just asks for a much narrower range.
+async function fetchRaw(start, end) {
     const all = [];
     const report = [];
 
@@ -278,6 +283,17 @@ function dedupe(events) {
         await sleep(PAUSE_MS);
     }
 
+    return { all, report };
+}
+
+async function main() {
+    const [start, end] = process.argv[2] && process.argv[3]
+        ? [process.argv[2], process.argv[3]]
+        : defaultRange();
+
+    console.log(`range ${start} .. ${end}`);
+    const { all, report } = await fetchRaw(start, end);
+
     const normalised = all.map(canonicalSport).map(schoolGender)
         .map(stripSelfVenue).map(blankPlaceholderTime).filter(isAthletic);
 
@@ -308,6 +324,12 @@ function dedupe(events) {
         sources: report,
         coverage: { schoolsFetched: report.length, schoolsInConference: 39, complete: report.length >= 39 },
         counts: { raw: all.length, nonAthleticDropped: dropped, deduped: games.length, dates: Object.keys(byDate).length },
+        // The sports that turned out to need a gender prefix this run, e.g.
+        // "Tennis" -> "Boys Tennis" / "Girls Tennis". Persisted so the hourly
+        // refresh (scripts/update-recent.js) can apply the same naming to a
+        // short date window without having enough data in that window alone
+        // to work out which sports need splitting.
+        splitSports: split,
         games,
     }, null, 2) + '\n');
 
@@ -318,4 +340,14 @@ function dedupe(events) {
         console.log(`\n  WARNING - ${empty.length} source(s) returned nothing:`);
         empty.forEach(r => console.log(`    ${r.school}${r.error ? ' - ' + r.error : ''}`));
     }
-})().catch(e => { console.error('FAILED:', e); process.exit(1); });
+}
+
+if (require.main === module) {
+    main().catch(e => { console.error('FAILED:', e); process.exit(1); });
+}
+
+module.exports = {
+    fetchRaw, canonicalSport, schoolGender, stripSelfVenue, blankPlaceholderTime,
+    isAthletic, dedupe, splitByGender, applySplit, computeSplitSet,
+    ARBITER_SCHOOLS, DS_SCHOOLS, ICS_SCHOOLS, defaultRange,
+};
