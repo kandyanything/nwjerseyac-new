@@ -47,7 +47,7 @@ collections:
         name: "announcement"
         fields:
           - { label: "Internal note (do not edit)", name: "_comment", widget: "hidden",
-              default: "Site-wide announcement pop-up. active shows/hides it. Change id whenever you post a NEW message so people who dismissed the last one see the new one. frequency once shows a message a single time per visitor; always shows it every visit (emergencies only)." }
+              default: "Site-wide announcement pop-up. active shows/hides it. Change id whenever you post a NEW message so people who dismissed the last one see the new one. mode controls how long it keeps showing: once = one time per visitor; acknowledge = returns each visit until they click Do not show again; untilDate = shows until endDate passes, then comes down on its own." }
           - { label: "Show the pop-up", name: "active", widget: "boolean", default: false,
               hint: "On: visitors see this message when they open the site. Off: no pop-up shows at all." }
           - { label: "Message ID", name: "id", widget: "string",
@@ -58,8 +58,10 @@ collections:
           - { label: "Button link (optional)", name: "linkUrl", widget: "string", required: false,
               hint: "Where the button goes, e.g. schedule.html or a full https:// link. Leave blank for no button." }
           - { label: "Button label (optional)", name: "linkLabel", widget: "string", required: false, default: "Learn More" }
-          - { label: "How often to show it", name: "frequency", widget: "select", default: "once",
-              options: [ { label: "Once per visitor (normal news)", value: "once" }, { label: "Every visit (emergencies only)", value: "always" } ] }
+          - { label: "How long to keep showing it", name: "mode", widget: "select", default: "once",
+              options: [ { label: "Once per visitor (shows one time, then gone for them)", value: "once" }, { label: "Until they acknowledge it (returns each visit until they click Do not show again)", value: "acknowledge" }, { label: "Until a date (comes down automatically on the date below)", value: "untilDate" } ] }
+          - { label: "Take it down on this date", name: "endDate", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, required: false,
+              hint: "Only used with the Until a date option above - the pop-up stops showing after this day. Leave blank otherwise." }
 
   - name: "directory"
     label: "Athletic Directors"
