@@ -69,6 +69,12 @@ function slim(g) {
     if (g.home !== null && g.home !== undefined) out.home = g.home;
     if (g.status) out.status = g.status;
     if (g.kind && g.kind !== 'Game') out.kind = g.kind;
+    // Crest slugs so the calendar can show team logos on each game card. The
+    // reporting school is always a conference school (has a crest); the opponent
+    // gets one only when it's also a conference school.
+    const sLogo = logoSlug(g.school);
+    if (sLogo) out.schoolLogo = sLogo;
+    if (g.opponent) { const oLogo = logoSlug(g.opponent); if (oLogo) out.oppLogo = oLogo; }
     return out;
 }
 

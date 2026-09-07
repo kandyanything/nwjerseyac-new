@@ -17,7 +17,7 @@ const SLUG = {
     'Villa Walsh Academy': 'villa-walsh',
     'Delbarton School': 'delbarton',
     'Morristown Beard School': 'morristown-beard',
-    'Butler High School': null,           // no logo on file
+    'Butler High School': 'butler',
 };
 function slugify(n) {
     return String(n).toLowerCase().replace(/&/g, ' and ').replace(/[.'’]/g, '')
