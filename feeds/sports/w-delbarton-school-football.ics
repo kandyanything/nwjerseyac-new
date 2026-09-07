@@ -1,0 +1,56 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Northwest Jersey Athletic Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Northwest Jersey Athletic Conference — [W] Delbarton School 
+ Football
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ics:DelbartonSchool:vcal_7250-delbartonathletics.org@northwest-jersey
+ -athletic-conference
+DTSTAMP:20260907T145550Z
+DTSTART;TZID=America/New_York:20260829T090000
+DTEND;TZID=America/New_York:20260829T110000
+SUMMARY:Delbarton School vs St. Peter's Prep (Freshman Boys [W] Delbarton
+  School Football)
+DESCRIPTION:Freshman Boys [W] Delbarton School Football - Home - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:DelbartonSchool:vcal_7234-delbartonathletics.org@northwest-jersey
+ -athletic-conference
+DTSTAMP:20260907T145550Z
+DTSTART;TZID=America/New_York:20260829T120000
+DTEND;TZID=America/New_York:20260829T140000
+SUMMARY:Delbarton School at Gilman (MD) (Varsity Boys [W] Delbarton Schoo
+ l Football)
+DESCRIPTION:Varsity Boys [W] Delbarton School Football - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:DelbartonSchool:vcal_7235-delbartonathletics.org@northwest-jersey
+ -athletic-conference
+DTSTAMP:20260907T145550Z
+DTSTART;TZID=America/New_York:20260904T150000
+DTEND;TZID=America/New_York:20260904T170000
+SUMMARY:Delbarton School vs Erasmus Hall (NY) (Varsity Boys [W] Delbarton
+  School Football)
+DESCRIPTION:Varsity Boys [W] Delbarton School Football - Home - 3:00 PM
+END:VEVENT
+END:VCALENDAR

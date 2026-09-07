@@ -1,0 +1,98 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Northwest Jersey Athletic Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Northwest Jersey Athletic Conference — Junior Varsity Coed C
+ heerleading
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ds:2940:7599990@northwest-jersey-athletic-conference
+DTSTAMP:20260907T145550Z
+DTSTART;TZID=America/New_York:20260905T093000
+DTEND;TZID=America/New_York:20260905T113000
+SUMMARY:Whippany Park High School vs TBD (Junior Varsity Coed Coed Cheerl
+ eading)
+DESCRIPTION:Junior Varsity Coed Coed Cheerleading - Home - 9:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2685:7521417@northwest-jersey-athletic-conference
+DTSTAMP:20260907T145550Z
+DTSTART;TZID=America/New_York:20260914T163000
+DTEND;TZID=America/New_York:20260914T183000
+SUMMARY:Kinnelon High School at Indian Hills High School (Junior Varsity 
+ Coed Coed Cheerleading)
+DESCRIPTION:Junior Varsity Coed Coed Cheerleading - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2685:7521418@northwest-jersey-athletic-conference
+DTSTAMP:20260907T145550Z
+DTSTART;TZID=America/New_York:20260919T100000
+DTEND;TZID=America/New_York:20260919T120000
+SUMMARY:Kinnelon High School vs Boonton High School (Junior Varsity Coed 
+ Coed Cheerleading)
+DESCRIPTION:Junior Varsity Coed Coed Cheerleading - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2685:7521416@northwest-jersey-athletic-conference
+DTSTAMP:20260907T145550Z
+DTSTART;TZID=America/New_York:20260928T160000
+DTEND;TZID=America/New_York:20260928T180000
+SUMMARY:Kinnelon High School at Whippany Park High School (Junior Varsity
+  Coed Coed Cheerleading)
+DESCRIPTION:Junior Varsity Coed Coed Cheerleading - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2685:7521419@northwest-jersey-athletic-conference
+DTSTAMP:20260907T145550Z
+DTSTART;TZID=America/New_York:20261003T100000
+DTEND;TZID=America/New_York:20261003T120000
+SUMMARY:Kinnelon High School vs Lenape Valley Regional High School (Junio
+ r Varsity Coed Coed Cheerleading)
+DESCRIPTION:Junior Varsity Coed Coed Cheerleading - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2685:7521420@northwest-jersey-athletic-conference
+DTSTAMP:20260907T145550Z
+DTSTART;TZID=America/New_York:20261012T160000
+DTEND;TZID=America/New_York:20261012T180000
+SUMMARY:Kinnelon High School at Pequannock Township High School (Junior V
+ arsity Coed Coed Cheerleading)
+DESCRIPTION:Junior Varsity Coed Coed Cheerleading - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2685:7521415@northwest-jersey-athletic-conference
+DTSTAMP:20260907T145550Z
+DTSTART;TZID=America/New_York:20261019T160000
+DTEND;TZID=America/New_York:20261019T180000
+SUMMARY:Kinnelon High School at Wallkill Valley Regional High School (Jun
+ ior Varsity Coed Coed Cheerleading)
+DESCRIPTION:Junior Varsity Coed Coed Cheerleading - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2661:7521421@northwest-jersey-athletic-conference
+DTSTAMP:20260907T145550Z
+DTSTART;TZID=America/New_York:20261026T183000
+DTEND;TZID=America/New_York:20261026T203000
+SUMMARY:Hopatcong High School at Kinnelon High School (Junior Varsity Coe
+ d Coed Cheerleading)
+DESCRIPTION:Junior Varsity Coed Coed Cheerleading - Away - 6:30 PM
+END:VEVENT
+END:VCALENDAR

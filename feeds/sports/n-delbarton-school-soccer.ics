@@ -1,0 +1,57 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Northwest Jersey Athletic Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Northwest Jersey Athletic Conference — [N] Delbarton School 
+ Soccer
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ics:DelbartonSchool:vcal_7289-delbartonathletics.org@northwest-jersey
+ -athletic-conference
+DTSTAMP:20260907T145550Z
+DTSTART;TZID=America/New_York:20260831T160000
+DTEND;TZID=America/New_York:20260831T180000
+SUMMARY:Delbarton School vs St Peters Prep (Freshman Boys [N] Delbarton S
+ chool Soccer)
+DESCRIPTION:Freshman Boys [N] Delbarton School Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:DelbartonSchool:vcal_7290-delbartonathletics.org@northwest-jersey
+ -athletic-conference
+DTSTAMP:20260907T145550Z
+DTSTART;TZID=America/New_York:20260831T160000
+DTEND;TZID=America/New_York:20260831T180000
+SUMMARY:Delbarton School vs St Peters Prep (Junior Varsity Boys [N] Delba
+ rton School Soccer)
+DESCRIPTION:Junior Varsity Boys [N] Delbarton School Soccer - Home - 4:00
+  PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:DelbartonSchool:vcal_7291-delbartonathletics.org@northwest-jersey
+ -athletic-conference
+DTSTAMP:20260907T145550Z
+DTSTART;TZID=America/New_York:20260831T160000
+DTEND;TZID=America/New_York:20260831T180000
+SUMMARY:Delbarton School vs St Peters Prep (Varsity Boys [N] Delbarton Sc
+ hool Soccer)
+DESCRIPTION:Varsity Boys [N] Delbarton School Soccer - Home - 4:00 PM
+END:VEVENT
+END:VCALENDAR
