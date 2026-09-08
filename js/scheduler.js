@@ -113,12 +113,12 @@
       '<div class="game-match"><div class="game-teams">' +
       teamHtml(teamA, logoA, false) +
       '<span class="vs">' + sep + '</span>' +
-      teamHtml(teamB, logoB, false) + '</div>' +
+      teamHtml(teamB, logoB, false) +
+      ticketHtml(g) + '</div>' +
       '<div class="game-meta">' +
       '<span class="pill pill--sport">' + esc(sportTag(g)) + '</span>' +
       (g.level ? '<span class="pill">' + esc(g.level) + '</span>' : '') +
       (g.status ? '<span class="pill pill--off">' + esc(g.status) + '</span>' : '') +
-      ticketHtml(g) +
       '</div></div>';
     return el;
   }
@@ -164,7 +164,7 @@
              : (g.home === false && g.opponent && GOFAN[g.opponent]) ? GOFAN[g.opponent]
              : '';
     if (!url) return '';
-    return '<a class="ticket-link" href="' + esc(url) + '" target="_blank" rel="noopener" aria-label="Buy tickets on GoFan">' + TICKET_SVG + '</a>';
+    return '<a class="ticket-link" href="' + esc(url) + '" target="_blank" rel="noopener" aria-label="Buy tickets on GoFan">' + TICKET_SVG + '<span>Tickets</span></a>';
   }
 
   // ---- subscribe / export ----
