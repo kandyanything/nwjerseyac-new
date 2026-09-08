@@ -1,0 +1,152 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Northwest Jersey Athletic Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Northwest Jersey Athletic Conference — Mount Olive High Scho
+ ol Freshman Football
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ds:2751:7584581@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260821T100000
+DTEND;TZID=America/New_York:20260821T120000
+SUMMARY:Mount Olive High School at West Essex High School (Freshman Boys 
+ Football)
+DESCRIPTION:Freshman Boys Football - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2751:7563235@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260826T163000
+DTEND;TZID=America/New_York:20260826T183000
+SUMMARY:Mount Olive High School at Saint Joseph High School (Freshman Boy
+ s Football)
+DESCRIPTION:Freshman Boys Football - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2751:7563730@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260827T163000
+DTEND;TZID=America/New_York:20260827T183000
+SUMMARY:Mount Olive High School at Saint Joseph High School (Freshman Boy
+ s Football)
+DESCRIPTION:Freshman Boys Football - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2751:7414106@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260903T160000
+DTEND;TZID=America/New_York:20260903T180000
+SUMMARY:Mount Olive High School at Randolph High School (Freshman Boys Fo
+ otball)
+DESCRIPTION:Freshman Boys Football - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100121752@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260909T163000
+DTEND;TZID=America/New_York:20260909T183000
+SUMMARY:West Morris Mendham at Mount Olive High School (Freshman Boys Foo
+ tball)
+DESCRIPTION:Freshman Boys Football - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2751:7457349@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260909T163000
+DTEND;TZID=America/New_York:20260909T183000
+SUMMARY:Mount Olive High School vs West Morris Mendham (Freshman Boys Foo
+ tball)
+DESCRIPTION:Freshman Boys Football - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2564:7439008@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T090000
+DTEND;TZID=America/New_York:20260919T110000
+SUMMARY:Chatham High School vs Mount Olive High School (Freshman Boys Foo
+ tball)
+DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:99697574@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260924T163000
+DTEND;TZID=America/New_York:20260924T183000
+SUMMARY:Morris Knolls High School at Mount Olive High School (Freshman Bo
+ ys Football)
+DESCRIPTION:Freshman Boys Football - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2751:7457404@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260924T163000
+DTEND;TZID=America/New_York:20260924T183000
+SUMMARY:Mount Olive High School vs Morris Knolls High School (Freshman Bo
+ ys Football)
+DESCRIPTION:Freshman Boys Football - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2751:7457407@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261001T163000
+DTEND;TZID=America/New_York:20261001T183000
+SUMMARY:Mount Olive High School vs Passaic County Technical Institute (Fr
+ eshman Boys Football)
+DESCRIPTION:Freshman Boys Football - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2748:7457443@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261010T090000
+DTEND;TZID=America/New_York:20261010T110000
+SUMMARY:Morristown High School vs Mount Olive High School (Freshman Boys 
+ Football)
+DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2751:7457409@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261015T163000
+DTEND;TZID=America/New_York:20261015T183000
+SUMMARY:Mount Olive High School vs Roxbury High School (Freshman Boys Foo
+ tball)
+DESCRIPTION:Freshman Boys Football - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:99666366@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261024T090000
+DTEND;TZID=America/New_York:20261024T110000
+SUMMARY:West Morris Central vs Mount Olive High School (Freshman Boys Foo
+ tball)
+DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2751:7457410@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261024T090000
+DTEND;TZID=America/New_York:20261024T110000
+SUMMARY:Mount Olive High School at West Morris Central (Freshman Boys Foo
+ tball)
+DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
+END:VEVENT
+END:VCALENDAR

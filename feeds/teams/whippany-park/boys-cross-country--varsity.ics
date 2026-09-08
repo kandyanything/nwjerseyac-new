@@ -1,0 +1,80 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Northwest Jersey Athletic Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Northwest Jersey Athletic Conference — Whippany Park High Sc
+ hool Varsity Boys Cross Country
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ds:2940:7612633@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260915T160000
+DTEND;TZID=America/New_York:20260915T180000
+SUMMARY:Whippany Park High School at Mountain Lakes High School (Varsity 
+ Boys Boys Cross Country)
+DESCRIPTION:Varsity Boys Boys Cross Country - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2754:7552315@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260915T170500
+DTEND;TZID=America/New_York:20260915T190500
+SUMMARY:Mountain Lakes High School vs Whippany Park High School (Varsity 
+ Boys Boys Cross Country)
+DESCRIPTION:Varsity Boys Boys Cross Country - Home - 5:05 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2940:7526875@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260922T162000
+DTEND;TZID=America/New_York:20260922T182000
+SUMMARY:Whippany Park High School vs Kinnelon High School (Varsity Boys B
+ oys Cross Country)
+DESCRIPTION:Varsity Boys Boys Cross Country - Home - 4:20 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2940:7497009@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260929T160000
+DTEND;TZID=America/New_York:20260929T180000
+SUMMARY:Whippany Park High School at Morris County School of Technology (
+ Varsity Boys Boys Cross Country)
+DESCRIPTION:Varsity Boys Boys Cross Country - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:42130:7527063@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260929T172500
+DTEND;TZID=America/New_York:20260929T192500
+SUMMARY:Morris County School of Technology at Whippany Park High School (
+ Varsity Boys Boys Cross Country)
+DESCRIPTION:Varsity Boys Boys Cross Country - Away - 5:25 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2940:7579256@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261013T160500
+DTEND;TZID=America/New_York:20261013T180500
+SUMMARY:Whippany Park High School vs TBA NJAC (Varsity Boys Boys Cross Co
+ untry)
+DESCRIPTION:Varsity Boys Boys Cross Country - Home - 4:05 PM
+END:VEVENT
+END:VCALENDAR
