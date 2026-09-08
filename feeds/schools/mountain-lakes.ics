@@ -876,15 +876,6 @@ SUMMARY:Kittatinny High School at Mountain Lakes High School (Varsity Gir
 DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2674:7502123@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260914T160000
-DTEND;TZID=America/New_York:20260914T180000
-SUMMARY:Jefferson Township High School vs Mountain Lakes High School (Var
- sity Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2694:7493093@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260914T160000
@@ -948,13 +939,22 @@ SUMMARY:Mountain Lakes High School at Rockaway Valley School (Middle Scho
 DESCRIPTION:Middle School Coed Coed Cross Country - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2674:7502123@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T161500
+DTEND;TZID=America/New_York:20260914T181500
+SUMMARY:Jefferson Township High School vs Mountain Lakes High School (Var
+ sity Girls Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2674:7502194@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260914T173000
-DTEND;TZID=America/New_York:20260914T193000
+DTSTART;TZID=America/New_York:20260914T180000
+DTEND;TZID=America/New_York:20260914T200000
 SUMMARY:Jefferson Township High School vs Mountain Lakes High School (Jun
  ior Varsity Girls Girls Volleyball)
-DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:30 PM
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102948099@northwest-jersey-athletic-conference
@@ -3998,6 +3998,24 @@ DTEND;TZID=America/New_York:20270220T133000
 SUMMARY:Chatham High School at Mountain Lakes High School (Varsity Girls 
  Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2754:7619894@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270320T100000
+DTEND;TZID=America/New_York:20270320T120000
+SUMMARY:Mountain Lakes High School at Northern Highlands Regional High Sc
+ hool (Varsity Girls Girls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2754:7619895@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270320T113000
+DTEND;TZID=America/New_York:20270320T133000
+SUMMARY:Mountain Lakes High School at Northern Highlands Regional High Sc
+ hool (Junior Varsity Girls Girls Lacrosse)
+DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Away - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103409658@northwest-jersey-athletic-conference
