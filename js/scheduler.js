@@ -10,6 +10,7 @@
   var ALL = [];
   var INDEX = null, FEEDMAN = null, SCHOOL_PATH = {}, SPORT_BY_SLUG = {};
   var TEAMS = null, TEAMS_BY_SLUG = {};
+  var GOFAN = {};
   var CONF = 'Conference';
   var state = { view: 'upcoming', sport: '', school: '', level: '', date: '', q: '', days: 10 };
 
@@ -40,8 +41,9 @@
       loadJSON(DATA + 'index.json').catch(function () { return null; }),
       loadJSON(FEEDS + 'index.json').catch(function () { return null; }),
       loadJSON(FEEDS + 'teams.json').catch(function () { return null; }),
+      loadJSON('data/gofan.json').catch(function () { return {}; }),
     ]).then(function (res) {
-      INDEX = res[0]; FEEDMAN = res[1]; TEAMS = res[2];
+      INDEX = res[0]; FEEDMAN = res[1]; TEAMS = res[2]; GOFAN = res[3] || {};
       if (!INDEX) { showError(); return; }
       CONF = (FEEDMAN && FEEDMAN.conference) || 'Conference';
       var months = INDEX.months || [];
@@ -116,6 +118,7 @@
       '<span class="pill pill--sport">' + esc(sportTag(g)) + '</span>' +
       (g.level ? '<span class="pill">' + esc(g.level) + '</span>' : '') +
       (g.status ? '<span class="pill pill--off">' + esc(g.status) + '</span>' : '') +
+      ticketHtml(g) +
       '</div></div>';
     return el;
   }
@@ -155,6 +158,14 @@
   function esc(s) { return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
   // Avoid "Girls Girls Soccer" — skip the gender prefix when the sport name already starts with it.
   function sportTag(g) { var sp = g.sport || '', gen = g.gender || ''; return (gen && sp.toLowerCase().indexOf(gen.toLowerCase()) === 0) ? sp : [gen, sp].filter(Boolean).join(' '); }
+  var TICKET_SVG = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 5v2m0 4v2m0 4v2M5 5a2 2 0 00-2 2v3a2 2 0 110 4v3a2 2 0 002 2h14a2 2 0 002-2v-3a2 2 0 110-4V7a2 2 0 00-2-2H5z"/></svg>';
+  function ticketHtml(g) {
+    var url = (g.home === true && GOFAN[g.school]) ? GOFAN[g.school]
+             : (g.home === false && g.opponent && GOFAN[g.opponent]) ? GOFAN[g.opponent]
+             : '';
+    if (!url) return '';
+    return '<a class="ticket-link" href="' + esc(url) + '" target="_blank" rel="noopener" aria-label="Buy tickets on GoFan">' + TICKET_SVG + '</a>';
+  }
 
   // ---- subscribe / export ----
   function absUrl(rel) { return location.origin.replace(/\/$/, '') + '/' + rel.replace(/^\//, ''); }
