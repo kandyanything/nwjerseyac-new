@@ -1,0 +1,116 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Northwest Jersey Athletic Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Northwest Jersey Athletic Conference — Morristown Beard Scho
+ ol Varsity Football
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ds:2594:7559048@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260821T160000
+DTEND;TZID=America/New_York:20260821T180000
+SUMMARY:Dover High School at Morristown Beard School (Varsity Boys Footba
+ ll)
+DESCRIPTION:Varsity Boys Football - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:MorristownBeardSchool:event_8732_20260821t210000zapi.veracross.co
+ m@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260821T170000
+DTEND;TZID=America/New_York:20260821T190000
+SUMMARY:Morristown Beard School vs Dover High School (Varsity Football)
+DESCRIPTION:Varsity Football - Home - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:MorristownBeardSchool:event_8717_20260828t203000zapi.veracross.co
+ m@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260828T163000
+DTEND;TZID=America/New_York:20260828T183000
+SUMMARY:Morristown Beard School vs Ferris High School (Varsity Football)
+DESCRIPTION:Varsity Football - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:MorristownBeardSchool:event_7605_20260904t203000zapi.veracross.co
+ m@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260904T163000
+DTEND;TZID=America/New_York:20260904T183000
+SUMMARY:Morristown Beard School vs Christ the King (Varsity Football)
+DESCRIPTION:Varsity Football - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:MorristownBeardSchool:event_8718_20260910t203000zapi.veracross.co
+ m@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260910T163000
+DTEND;TZID=America/New_York:20260910T183000
+SUMMARY:Morristown Beard School vs West Side (Varsity Football)
+DESCRIPTION:Varsity Football - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:MorristownBeardSchool:event_8719_20260925t223000zapi.veracross.co
+ m@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260925T183000
+DTEND;TZID=America/New_York:20260925T203000
+SUMMARY:Morristown Beard School vs Hopkins (Varsity Football)
+DESCRIPTION:Varsity Football - Home - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:MorristownBeardSchool:event_8720_20261003t183000zapi.veracross.co
+ m@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261003T143000
+DTEND;TZID=America/New_York:20261003T163000
+SUMMARY:Morristown Beard School at Horace Mann (Varsity Football)
+DESCRIPTION:Varsity Football - Away - 2:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:MorristownBeardSchool:event_8721_20261010t173000zapi.veracross.co
+ m@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261010T133000
+DTEND;TZID=America/New_York:20261010T153000
+SUMMARY:Morristown Beard School at MKA (Varsity Football)
+DESCRIPTION:Varsity Football - Away - 1:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:MorristownBeardSchool:event_8722_20261017t183000zapi.veracross.co
+ m@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261017T143000
+DTEND;TZID=America/New_York:20261017T163000
+SUMMARY:Morristown Beard School at Poly Prep (Varsity Football)
+DESCRIPTION:Varsity Football - Away - 2:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:MorristownBeardSchool:event_8723_20261024t170000zapi.veracross.co
+ m@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261024T130000
+DTEND;TZID=America/New_York:20261024T150000
+SUMMARY:Morristown Beard School vs Pingry (Varsity Football)
+DESCRIPTION:Varsity Football - Home - 1:00 PM
+END:VEVENT
+END:VCALENDAR

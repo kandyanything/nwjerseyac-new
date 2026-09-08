@@ -1,0 +1,79 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Northwest Jersey Athletic Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Northwest Jersey Athletic Conference — Whippany Park High Sc
+ hool Baseball
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:arb:103409916@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270503T160000
+DTEND;TZID=America/New_York:20270503T180000
+SUMMARY:Madison High School at Whippany Park High School (Varsity Boys Ba
+ seball)
+DESCRIPTION:Varsity Boys Baseball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103409762@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270505T160000
+DTEND;TZID=America/New_York:20270505T180000
+SUMMARY:Madison High School vs Whippany Park High School (Varsity Boys Ba
+ seball)
+DESCRIPTION:Varsity Boys Baseball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2940:7567152@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270514T163000
+DTEND;TZID=America/New_York:20270514T183000
+SUMMARY:Whippany Park High School vs TBD (Junior Varsity Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2686:7567151@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270514T163000
+DTEND;TZID=America/New_York:20270514T183000
+SUMMARY:Kittatinny High School vs Whippany Park High School (Varsity Boys
+  Baseball)
+DESCRIPTION:Varsity Boys Baseball - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2686:7567194@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270514T163000
+DTEND;TZID=America/New_York:20270514T183000
+SUMMARY:Kittatinny High School vs Whippany Park High School (Junior Varsi
+ ty Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2940:7554599@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270515T110000
+DTEND;TZID=America/New_York:20270515T130000
+SUMMARY:Whippany Park High School vs Manville High School (Varsity Boys B
+ aseball)
+DESCRIPTION:Varsity Boys Baseball - Home - 11:00 AM
+END:VEVENT
+END:VCALENDAR

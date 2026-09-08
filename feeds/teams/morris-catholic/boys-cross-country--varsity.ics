@@ -1,0 +1,98 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Northwest Jersey Athletic Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Northwest Jersey Athletic Conference — Morris Catholic High 
+ School Varsity Boys Cross Country
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ds:2745:7563870@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260904T170000
+DTEND;TZID=America/New_York:20260904T190000
+SUMMARY:Morris Catholic High School vs TBD (Varsity Boys Boys Cross Count
+ ry)
+DESCRIPTION:Varsity Boys Boys Cross Country - Home - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2745:7564109@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260911T153000
+DTEND;TZID=America/New_York:20260911T173000
+SUMMARY:Morris Catholic High School vs TBD (Varsity Boys Boys Cross Count
+ ry)
+DESCRIPTION:Varsity Boys Boys Cross Country - Home - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2745:7563815@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260915T172500
+DTEND;TZID=America/New_York:20260915T192500
+SUMMARY:Morris Catholic High School vs Morristown Beard School (Varsity B
+ oys Boys Cross Country)
+DESCRIPTION:Varsity Boys Boys Cross Country - Home - 5:25 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2745:7563831@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260922T160000
+DTEND;TZID=America/New_York:20260922T180000
+SUMMARY:Morris Catholic High School at Pequannock High School (Varsity Bo
+ ys Boys Cross Country)
+DESCRIPTION:Varsity Boys Boys Cross Country - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103619039@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260929T170000
+DTEND;TZID=America/New_York:20260929T190000
+SUMMARY:Boonton High School at Morris Catholic High School (Varsity Boys 
+ Boys Cross Country)
+DESCRIPTION:Varsity Boys Boys Cross Country - Away - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2745:7563860@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260929T170500
+DTEND;TZID=America/New_York:20260929T190500
+SUMMARY:Morris Catholic High School vs TBD (Varsity Boys Boys Cross Count
+ ry)
+DESCRIPTION:Varsity Boys Boys Cross Country - Home - 5:05 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2745:7564111@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261020T141500
+DTEND;TZID=America/New_York:20261020T161500
+SUMMARY:Morris Catholic High School vs TBD (Varsity Boys Boys Cross Count
+ ry)
+DESCRIPTION:Varsity Boys Boys Cross Country - Home - 2:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2745:7564891@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261031T161500
+DTEND;TZID=America/New_York:20261031T181500
+SUMMARY:Morris Catholic High School vs TBD (Varsity Boys Boys Cross Count
+ ry)
+DESCRIPTION:Varsity Boys Boys Cross Country - Home - 4:15 PM
+END:VEVENT
+END:VCALENDAR
