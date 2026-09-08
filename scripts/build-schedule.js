@@ -25,7 +25,7 @@ const ICS_SCHOOLS = [
     {
         name: 'Delbarton School',
         ics: 'https://delbartonathletics.org/calendar.ashx/calendar.ics',
-        stripPrefix: 'Delbarton School',
+        stripPrefix: 'Delbarton',
     },
     {
         name: 'Morristown Beard School',
