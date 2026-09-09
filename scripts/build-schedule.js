@@ -203,7 +203,7 @@ function score(e) {
 function norm(s) {
     return String(s || '')
         .toLowerCase()
-        .replace(/\b(high school|high|school|township|regional|academy|hs)\b/g, '')
+        .replace(/\b(high school|high|school|township|regional|academy|hs|district)\b/g, '')
         .replace(/[^a-z]/g, '');
 }
 
