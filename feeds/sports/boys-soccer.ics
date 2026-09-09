@@ -1025,15 +1025,6 @@ SUMMARY:Newton High School at Phillipsburg High School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:DelbartonSchool:vcal_7159-delbartonathletics.org@northwest-jersey
- -athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260827T160000
-DTEND;TZID=America/New_York:20260827T180000
-SUMMARY:Delbarton School vs Gill St. Bernard's (Varsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:101683181@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260827T163000
@@ -1664,15 +1655,6 @@ SUMMARY:Morris County School of Technology vs Morristown Beard School (Va
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 3:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:MorristownBeardSchool:event_8076_20260901t194500zapi.veracross.co
- m@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260901T154500
-DTEND;TZID=America/New_York:20260901T174500
-SUMMARY:Morristown Beard School at MCVT (Varsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 3:45 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ics:MorristownBeardSchool:event_8744_20260901t194500zapi.veracross.co
  m@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
@@ -1682,6 +1664,15 @@ SUMMARY:[Cancelled] Morristown Beard School at MCVT (Junior Varsity Boys
  Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 3:45 PM
 STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:MorristownBeardSchool:event_8076_20260901t194500zapi.veracross.co
+ m@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260901T154500
+DTEND;TZID=America/New_York:20260901T174500
+SUMMARY:Morristown Beard School at MCVT (Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 3:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102053370@northwest-jersey-athletic-conference
@@ -2636,8 +2627,8 @@ UID:arb:102333064@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260908T160000
 DTEND;TZID=America/New_York:20260908T180000
-SUMMARY:West Morris Central vs TBD (Freshman Boys Boys Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
+SUMMARY:West Morris Mendham at TBD (Freshman Boys Boys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102332584@northwest-jersey-athletic-conference
@@ -2704,15 +2695,6 @@ SUMMARY:Dover High School at Hackettstown High School (Junior Varsity Boy
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2594:7451495@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260908T160000
-DTEND;TZID=America/New_York:20260908T180000
-SUMMARY:Dover High School at Hackettstown High School (Freshman Boys Boys
-  Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2649:7523671@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260908T160000
@@ -2765,15 +2747,6 @@ DTEND;TZID=America/New_York:20260908T180000
 SUMMARY:Lenape Valley High School vs Warren Hills Regional School Distric
  t (Varsity Boys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2694:7519211@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260908T160000
-DTEND;TZID=America/New_York:20260908T180000
-SUMMARY:Lenape Valley High School vs Warren Hills Regional School Distric
- t (Junior Varsity Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:42130:7496786@northwest-jersey-athletic-conference
@@ -3024,6 +2997,15 @@ DTEND;TZID=America/New_York:20260909T180000
 SUMMARY:Chatham High School vs Delbarton School (Junior Varsity Boys Boys
   Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2594:7621410@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260909T160000
+DTEND;TZID=America/New_York:20260909T180000
+SUMMARY:Dover High School at Hackettstown High School (Freshman Boys Boys
+  Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2634:7462329@northwest-jersey-athletic-conference
@@ -3303,15 +3285,6 @@ SUMMARY:Sussex County Tech High School vs Lenape Valley High School (Juni
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:DelbartonSchool:vcal_7270-delbartonathletics.org@northwest-jersey
- -athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260910T161500
-DTEND;TZID=America/New_York:20260910T181500
-SUMMARY:Delbarton School vs Bergen Catholic (Freshman Boys Boys Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:100866998@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260911T160000
@@ -3393,15 +3366,6 @@ SUMMARY:Morris County School of Technology at Essex County West Caldwell
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:DelbartonSchool:vcal_7163-delbartonathletics.org@northwest-jersey
- -athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260911T160000
-DTEND;TZID=America/New_York:20260911T180000
-SUMMARY:Delbarton School vs St. Augustine Prep (Varsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:102667929@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260912T100000
@@ -3447,13 +3411,13 @@ SUMMARY:Hackettstown High School at North Plainfield Public Schools (Juni
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2649:7511762@northwest-jersey-athletic-conference
+UID:ds:2649:7515087@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260912T100000
 DTEND;TZID=America/New_York:20260912T120000
-SUMMARY:High Point High School at Vernon Township High School (Junior Var
- sity Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 10:00 AM
+SUMMARY:High Point High School at Vernon Township High School (Freshman B
+ oys Boys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2649:7511832@northwest-jersey-athletic-conference
@@ -3465,13 +3429,13 @@ SUMMARY:High Point High School at Vernon Township High School (Varsity Bo
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2649:7515087@northwest-jersey-athletic-conference
+UID:ds:2649:7511762@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260912T100000
 DTEND;TZID=America/New_York:20260912T120000
-SUMMARY:High Point High School at Vernon Township High School (Freshman B
- oys Boys Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Away - 10:00 AM
+SUMMARY:High Point High School at Vernon Township High School (Junior Var
+ sity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2751:7477612@northwest-jersey-athletic-conference
@@ -3490,24 +3454,6 @@ DTEND;TZID=America/New_York:20260912T120000
 SUMMARY:Mount Olive High School at Roxbury High School (Junior Varsity Bo
  ys Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ics:DelbartonSchool:vcal_7202-delbartonathletics.org@northwest-jersey
- -athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260912T110000
-DTEND;TZID=America/New_York:20260912T130000
-SUMMARY:Delbarton School vs Chaminade (Freshman Boys Boys Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Home - 11:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ics:DelbartonSchool:vcal_7182-delbartonathletics.org@northwest-jersey
- -athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260912T110000
-DTEND;TZID=America/New_York:20260912T130000
-SUMMARY:Delbarton School vs Chaminade (Junior Varsity Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102332195@northwest-jersey-athletic-conference
@@ -3552,15 +3498,6 @@ DTSTART;TZID=America/New_York:20260912T180000
 DTEND;TZID=America/New_York:20260912T200000
 SUMMARY:Newton High School at Blair Academy (Varsity Boys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ics:DelbartonSchool:vcal_7164-delbartonathletics.org@northwest-jersey
- -athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260913T133000
-DTEND;TZID=America/New_York:20260913T153000
-SUMMARY:Delbarton School vs Chaminade (Varsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 1:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2642:7444753@northwest-jersey-athletic-conference
@@ -3688,21 +3625,21 @@ SUMMARY:Kittatinny High School at Lenape Valley High School (Junior Varsi
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2754:7549676@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260914T160000
-DTEND;TZID=America/New_York:20260914T180000
-SUMMARY:Mountain Lakes High School at Briarcliff MS (Middle School Boys B
- oys Soccer)
-DESCRIPTION:Middle School Boys Boys Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2754:7545262@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260914T160000
 DTEND;TZID=America/New_York:20260914T180000
 SUMMARY:Mountain Lakes High School at TBA NJ (Middle School Boys Boys Soc
  cer)
+DESCRIPTION:Middle School Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2754:7549676@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T160000
+DTEND;TZID=America/New_York:20260914T180000
+SUMMARY:Mountain Lakes High School at Briarcliff MS (Middle School Boys B
+ oys Soccer)
 DESCRIPTION:Middle School Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -3724,50 +3661,14 @@ SUMMARY:North Warren vs Wallkill Valley High School (Junior Varsity Boys
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2887:7502918@northwest-jersey-athletic-conference
+UID:ics:MorristownBeardSchool:event_8750_20260914t200000zapi.veracross.co
+ m@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260914T160000
 DTEND;TZID=America/New_York:20260914T180000
-SUMMARY:Sussex County Tech High School vs Vernon Township High School (Va
+SUMMARY:Morristown Beard School vs Morris Catholic High School (Junior Va
  rsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2887:7504270@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260914T160000
-DTEND;TZID=America/New_York:20260914T180000
-SUMMARY:Sussex County Tech High School vs Vernon Township High School (Ju
- nior Varsity Boys Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2909:7502918@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260914T160000
-DTEND;TZID=America/New_York:20260914T180000
-SUMMARY:Vernon Township High School at Sussex County Technical High Schoo
- l (Varsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2909:7504270@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260914T160000
-DTEND;TZID=America/New_York:20260914T180000
-SUMMARY:Vernon Township High School at Sussex County Technical High Schoo
- l (Junior Varsity Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ics:DelbartonSchool:vcal_7220-delbartonathletics.org@northwest-jersey
- -athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260914T160000
-DTEND;TZID=America/New_York:20260914T180000
-SUMMARY:Delbarton School at Mendham Township (Middle School Boys Boys Soc
- cer)
-DESCRIPTION:Middle School Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ics:MorristownBeardSchool:event_8748_20260914t200000zapi.veracross.co
@@ -3780,14 +3681,22 @@ SUMMARY:Morristown Beard School vs Morris Catholic High School (Varsity B
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:MorristownBeardSchool:event_8750_20260914t200000zapi.veracross.co
- m@northwest-jersey-athletic-conference
+UID:ds:2887:7504270@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260914T160000
-DTEND;TZID=America/New_York:20260914T180000
-SUMMARY:Morristown Beard School vs Morris Catholic High School (Junior Va
- rsity Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
+DTSTART;TZID=America/New_York:20260914T170000
+DTEND;TZID=America/New_York:20260914T190000
+SUMMARY:Sussex County Tech High School vs Vernon Township High School (Ju
+ nior Varsity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2909:7504270@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T170000
+DTEND;TZID=America/New_York:20260914T190000
+SUMMARY:Vernon Township High School at Sussex County Technical High Schoo
+ l (Junior Varsity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2686:7469815@northwest-jersey-athletic-conference
@@ -3797,6 +3706,24 @@ DTEND;TZID=America/New_York:20260914T203000
 SUMMARY:Kittatinny High School at Lenape Valley High School (Varsity Boys
   Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2887:7502918@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T190000
+DTEND;TZID=America/New_York:20260914T210000
+SUMMARY:Sussex County Tech High School vs Vernon Township High School (Va
+ rsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2909:7502918@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T190000
+DTEND;TZID=America/New_York:20260914T210000
+SUMMARY:Vernon Township High School at Sussex County Technical High Schoo
+ l (Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103453423@northwest-jersey-athletic-conference
@@ -4002,33 +3929,6 @@ DTEND;TZID=America/New_York:20260915T180000
 SUMMARY:Mount Olive High School at Sparta High School (Freshman Boys Boys
   Soccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ics:DelbartonSchool:vcal_7183-delbartonathletics.org@northwest-jersey
- -athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260915T160000
-DTEND;TZID=America/New_York:20260915T180000
-SUMMARY:Delbarton School vs Mendham (Junior Varsity Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ics:DelbartonSchool:vcal_7165-delbartonathletics.org@northwest-jersey
- -athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260915T160000
-DTEND;TZID=America/New_York:20260915T180000
-SUMMARY:Delbarton School vs Mendham (Varsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ics:DelbartonSchool:vcal_7203-delbartonathletics.org@northwest-jersey
- -athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260915T160000
-DTEND;TZID=America/New_York:20260915T180000
-SUMMARY:Delbarton School vs Mendham (Freshman Boys Boys Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:100818627@northwest-jersey-athletic-conference
@@ -4696,15 +4596,6 @@ SUMMARY:Lenape Valley High School vs Parsippany High School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:DelbartonSchool:vcal_7205-delbartonathletics.org@northwest-jersey
- -athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260919T090000
-DTEND;TZID=America/New_York:20260919T110000
-SUMMARY:Delbarton School at Don Bosco Prep (Freshman Boys Boys Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Away - 9:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:102096319@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260919T100000
@@ -4849,16 +4740,6 @@ SUMMARY:Whippany Park High School vs Pompton Lakes High School (Junior Va
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:DelbartonSchool:vcal_7185-delbartonathletics.org@northwest-jersey
- -athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260919T103000
-DTEND;TZID=America/New_York:20260919T123000
-SUMMARY:Delbarton School at Don Bosco Prep (Junior Varsity Boys Boys Socc
- er)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 10:30 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:101319201@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260919T110000
@@ -4975,15 +4856,6 @@ SUMMARY:Randolph High School vs West Morris Mendham (Freshman Boys Boys S
 DESCRIPTION:Freshman Boys Boys Soccer - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:DelbartonSchool:vcal_7292-delbartonathletics.org@northwest-jersey
- -athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260920T145000
-DTEND;TZID=America/New_York:20260920T165000
-SUMMARY:Delbarton School at Episcopal Academy (Varsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 2:50 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:102933002@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260921T160000
@@ -5000,25 +4872,6 @@ DTEND;TZID=America/New_York:20260921T180000
 SUMMARY:Pope John XXIII High School vs Sparta High School (Varsity Boys B
  oys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ics:DelbartonSchool:vcal_7266-delbartonathletics.org@northwest-jersey
- -athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260921T160000
-DTEND;TZID=America/New_York:20260921T180000
-SUMMARY:Delbarton School at Seton Hall Prep (Freshman Boys Boys Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ics:DelbartonSchool:vcal_7268-delbartonathletics.org@northwest-jersey
- -athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260921T160000
-DTEND;TZID=America/New_York:20260921T180000
-SUMMARY:Delbarton School vs Seton Hall Prep (Junior Varsity Boys Boys Soc
- cer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2686:7495322@northwest-jersey-athletic-conference
@@ -5257,15 +5110,6 @@ SUMMARY:Hackettstown High School vs North Warren (Varsity Boys Boys Socce
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2649:7511765@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260922T160000
-DTEND;TZID=America/New_York:20260922T180000
-SUMMARY:High Point High School at Newton High School (Junior Varsity Boys
-  Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2649:7514764@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260922T160000
@@ -5273,6 +5117,15 @@ DTEND;TZID=America/New_York:20260922T180000
 SUMMARY:High Point High School at Newton High School (Freshman Boys Boys 
  Soccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2649:7511765@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260922T160000
+DTEND;TZID=America/New_York:20260922T180000
+SUMMARY:High Point High School at Newton High School (Junior Varsity Boys
+  Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2661:7494590@northwest-jersey-athletic-conference
@@ -5383,15 +5236,6 @@ SUMMARY:Mount Olive High School at Heritage Middle School (Middle School
 DESCRIPTION:Middle School Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2754:7541643@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260922T160000
-DTEND;TZID=America/New_York:20260922T180000
-SUMMARY:Mountain Lakes High School at Parsippany High School (Varsity Boy
- s Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2754:7541682@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260922T160000
@@ -5399,6 +5243,15 @@ DTEND;TZID=America/New_York:20260922T180000
 SUMMARY:Mountain Lakes High School at Parsippany High School (Junior Vars
  ity Boys Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2754:7541643@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260922T160000
+DTEND;TZID=America/New_York:20260922T180000
+SUMMARY:Mountain Lakes High School at Parsippany High School (Varsity Boy
+ s Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2754:7541687@northwest-jersey-athletic-conference
@@ -5499,15 +5352,6 @@ SUMMARY:Vernon Township High School at Whippany Park High School (Freshma
 DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:DelbartonSchool:vcal_7222-delbartonathletics.org@northwest-jersey
- -athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260922T160000
-DTEND;TZID=America/New_York:20260922T180000
-SUMMARY:Delbarton School at Black River (Middle School Boys Boys Soccer)
-DESCRIPTION:Middle School Boys Boys Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:103750028@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260922T161500
@@ -5543,15 +5387,6 @@ DTEND;TZID=America/New_York:20260923T180000
 SUMMARY:High Point High School at Wallkill Valley High School (Freshman B
  oys Boys Soccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ics:DelbartonSchool:vcal_7223-delbartonathletics.org@northwest-jersey
- -athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260923T160000
-DTEND;TZID=America/New_York:20260923T180000
-SUMMARY:Delbarton School at Frelinghuysen (Middle School Boys Boys Soccer)
-DESCRIPTION:Middle School Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101380542@northwest-jersey-athletic-conference
@@ -5939,15 +5774,6 @@ SUMMARY:Mount Olive High School vs Frelinghuysen Middle School (Middle Sc
 DESCRIPTION:Middle School Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:DelbartonSchool:vcal_7224-delbartonathletics.org@northwest-jersey
- -athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260925T160000
-DTEND;TZID=America/New_York:20260925T180000
-SUMMARY:Delbarton School at Morris Plains (Middle School Boys Boys Soccer)
-DESCRIPTION:Middle School Boys Boys Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2564:7439249@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260925T193000
@@ -6227,15 +6053,6 @@ SUMMARY:Vernon Township High School vs Warren Hills Regional School Distr
 DESCRIPTION:Freshman Boys Boys Soccer - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:99010480@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260926T110000
-DTEND;TZID=America/New_York:20260926T130000
-SUMMARY:Pope John XXIII High School at Gill St. Bernard's School (Varsity
-  Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 11:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2751:7458093@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260926T110000
@@ -6447,27 +6264,27 @@ UID:ds:2564:7439254@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260928T160000
 DTEND;TZID=America/New_York:20260928T180000
-SUMMARY:Chatham High School at Sparta High School (Freshman Boys Boys Soc
+SUMMARY:Chatham High School vs Sparta High School (Freshman Boys Boys Soc
  cer)
-DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
+DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2564:7439257@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260928T160000
 DTEND;TZID=America/New_York:20260928T180000
-SUMMARY:Chatham High School at Sparta High School (Varsity Boys Boys Socc
+SUMMARY:Chatham High School vs Sparta High School (Varsity Boys Boys Socc
  er)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2564:7439258@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260928T160000
 DTEND;TZID=America/New_York:20260928T180000
-SUMMARY:Chatham High School at Sparta High School (Junior Varsity Boys Bo
+SUMMARY:Chatham High School vs Sparta High School (Junior Varsity Boys Bo
  ys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2594:7568388@northwest-jersey-athletic-conference
@@ -6596,16 +6413,6 @@ DTEND;TZID=America/New_York:20260929T174500
 SUMMARY:Boonton High School at Morris County School of Technology (Varsit
  y Boys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 3:45 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ics:DelbartonSchool:vcal_7226-delbartonathletics.org@northwest-jersey
- -athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260929T154500
-DTEND;TZID=America/New_York:20260929T174500
-SUMMARY:Delbarton School vs Gill St. Bernard's (Middle School Boys Boys S
- occer)
-DESCRIPTION:Middle School Boys Boys Soccer - Home - 3:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102740003@northwest-jersey-athletic-conference
@@ -7093,7 +6900,7 @@ SUMMARY:West Morris Mendham vs Sparta High School (Varsity Boys Boys Socc
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:MorristownBeardSchool:event_8486_20261001t193000zapi.veracross.co
+UID:ics:MorristownBeardSchool:event_8484_20261001t193000zapi.veracross.co
  m@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261001T153000
@@ -7290,16 +7097,6 @@ SUMMARY:Newton High School at Roxbury High School (Junior Varsity Boys Bo
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:DelbartonSchool:vcal_7227-delbartonathletics.org@northwest-jersey
- -athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261001T160000
-DTEND;TZID=America/New_York:20261001T180000
-SUMMARY:Delbarton School vs St. David's (NY) (Middle School Boys Boys Soc
- cer)
-DESCRIPTION:Middle School Boys Boys Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2940:7467055@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261001T163000
@@ -7444,6 +7241,33 @@ SUMMARY:Sussex County Tech High School vs Passaic Charter (Varsity Boys B
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2564:7621292@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261003T090000
+DTEND;TZID=America/New_York:20261003T110000
+SUMMARY:Chatham High School at Sparta High School (Varsity Boys Boys Socc
+ er)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2564:7621293@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261003T090000
+DTEND;TZID=America/New_York:20261003T110000
+SUMMARY:Chatham High School at Sparta High School (Junior Varsity Boys Bo
+ ys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2564:7621297@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261003T090000
+DTEND;TZID=America/New_York:20261003T110000
+SUMMARY:Chatham High School at Sparta High School (Freshman Boys Boys Soc
+ cer)
+DESCRIPTION:Freshman Boys Boys Soccer - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2594:7530884@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261003T100000
@@ -7457,15 +7281,6 @@ DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261003T100000
 DTEND;TZID=America/New_York:20261003T120000
 SUMMARY:Hopatcong High School vs TBD (Varsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ics:DelbartonSchool:vcal_7170-delbartonathletics.org@northwest-jersey
- -athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261003T100000
-DTEND;TZID=America/New_York:20261003T120000
-SUMMARY:Delbarton School vs Regis (NY) (Varsity Boys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
@@ -7530,16 +7345,6 @@ DTSTART;TZID=America/New_York:20261005T160000
 DTEND;TZID=America/New_York:20261005T180000
 SUMMARY:Newton High School at Blair Academy (Freshman Boys Boys Soccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ics:DelbartonSchool:vcal_7228-delbartonathletics.org@northwest-jersey
- -athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261005T160000
-DTEND;TZID=America/New_York:20261005T180000
-SUMMARY:Delbarton School at Heritage Middle School (Middle School Boys Bo
- ys Soccer)
-DESCRIPTION:Middle School Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ics:MorristownBeardSchool:event_8537_20261005t204500zapi.veracross.co
@@ -7700,25 +7505,6 @@ DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261006T160000
 DTEND;TZID=America/New_York:20261006T180000
 SUMMARY:North Warren vs Briarcliff MS (Middle School Boys Boys Soccer)
-DESCRIPTION:Middle School Boys Boys Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ics:DelbartonSchool:vcal_7171-delbartonathletics.org@northwest-jersey
- -athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261006T160000
-DTEND;TZID=America/New_York:20261006T180000
-SUMMARY:Delbarton School at Morris County First Round (Varsity Boys Boys 
- Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ics:DelbartonSchool:vcal_7229-delbartonathletics.org@northwest-jersey
- -athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261006T160000
-DTEND;TZID=America/New_York:20261006T180000
-SUMMARY:Delbarton School vs Pingry (Middle School Boys Boys Soccer)
 DESCRIPTION:Middle School Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -8632,6 +8418,15 @@ SUMMARY:Chatham High School vs Hackettstown High School (Junior Varsity B
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2642:7547929@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261013T160000
+DTEND;TZID=America/New_York:20261013T180000
+SUMMARY:Hanover Park High School at Mountain Lakes High School (Freshman 
+ Boys Boys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2642:7499925@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261013T160000
@@ -8648,15 +8443,6 @@ DTEND;TZID=America/New_York:20261013T180000
 SUMMARY:Hanover Park High School at Mountain Lakes High School (Junior Va
  rsity Boys Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2642:7547929@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261013T160000
-DTEND;TZID=America/New_York:20261013T180000
-SUMMARY:Hanover Park High School at Mountain Lakes High School (Freshman 
- Boys Boys Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2649:7494487@northwest-jersey-athletic-conference
@@ -8758,15 +8544,6 @@ SUMMARY:Sparta High School at Wallkill Valley High School (Junior Varsity
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:DelbartonSchool:vcal_7294-delbartonathletics.org@northwest-jersey
- -athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261013T160000
-DTEND;TZID=America/New_York:20261013T180000
-SUMMARY:Delbarton School vs Briarcliff (Middle School Boys Boys Soccer)
-DESCRIPTION:Middle School Boys Boys Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2685:7500232@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261013T163000
@@ -8774,24 +8551,6 @@ DTEND;TZID=America/New_York:20261013T183000
 SUMMARY:Kinnelon High School vs New Providence High School (Varsity Boys 
  Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ics:DelbartonSchool:vcal_7191-delbartonathletics.org@northwest-jersey
- -athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261013T163000
-DTEND;TZID=America/New_York:20261013T183000
-SUMMARY:Delbarton School vs Montclair (Junior Varsity Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ics:DelbartonSchool:vcal_7211-delbartonathletics.org@northwest-jersey
- -athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261013T163000
-DTEND;TZID=America/New_York:20261013T183000
-SUMMARY:Delbarton School at Montclair (Freshman Boys Boys Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2768:7462728@northwest-jersey-athletic-conference
@@ -8893,25 +8652,6 @@ SUMMARY:Parsippany High School vs Parsippany Hills High School (Freshman
 DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:DelbartonSchool:vcal_7212-delbartonathletics.org@northwest-jersey
- -athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261014T161500
-DTEND;TZID=America/New_York:20261014T181500
-SUMMARY:Delbarton School vs Lawrenceville (Freshman Boys Boys Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ics:DelbartonSchool:vcal_7192-delbartonathletics.org@northwest-jersey
- -athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261014T161500
-DTEND;TZID=America/New_York:20261014T181500
-SUMMARY:Delbarton School vs Lawrenceville (Junior Varsity Boys Boys Socce
- r)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2790:7504821@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261014T183000
@@ -8946,15 +8686,6 @@ DTEND;TZID=America/New_York:20261015T174500
 SUMMARY:Hanover Park High School at Morris County School of Technology (V
  arsity Boys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 3:45 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ics:DelbartonSchool:vcal_7230-delbartonathletics.org@northwest-jersey
- -athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261015T154500
-DTEND;TZID=America/New_York:20261015T174500
-SUMMARY:Delbarton School at Peck School (Middle School Boys Boys Soccer)
-DESCRIPTION:Middle School Boys Boys Soccer - Away - 3:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102525206@northwest-jersey-athletic-conference
@@ -9143,31 +8874,14 @@ SUMMARY:Vernon Township High School vs Sussex County Technical High Schoo
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:DelbartonSchool:vcal_7193-delbartonathletics.org@northwest-jersey
- -athletic-conference
+UID:ics:MorristownBeardSchool:event_8760_20261015t200000zapi.veracross.co
+ m@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261015T160000
 DTEND;TZID=America/New_York:20261015T180000
-SUMMARY:Delbarton School at Mendham (Junior Varsity Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ics:DelbartonSchool:vcal_7174-delbartonathletics.org@northwest-jersey
- -athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261015T160000
-DTEND;TZID=America/New_York:20261015T180000
-SUMMARY:Delbarton School at Mendham (Varsity Boys Boys Soccer)
+SUMMARY:Morristown Beard School at Morris Catholic High School (Varsity B
+ oys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ics:DelbartonSchool:vcal_7213-delbartonathletics.org@northwest-jersey
- -athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261015T160000
-DTEND;TZID=America/New_York:20261015T180000
-SUMMARY:Delbarton School at Mendham (Freshman Boys Boys Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ics:MorristownBeardSchool:event_8761_20261015t200000zapi.veracross.co
@@ -9178,16 +8892,6 @@ DTEND;TZID=America/New_York:20261015T180000
 SUMMARY:Morristown Beard School at Morris Catholic High School (Junior Va
  rsity Boys Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ics:MorristownBeardSchool:event_8760_20261015t200000zapi.veracross.co
- m@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261015T160000
-DTEND;TZID=America/New_York:20261015T180000
-SUMMARY:Morristown Beard School at Morris Catholic High School (Varsity B
- oys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2661:7498134@northwest-jersey-athletic-conference
@@ -9441,25 +9145,6 @@ SUMMARY:Mountain Lakes High School at Briarcliff MS (Middle School Boys B
 DESCRIPTION:Middle School Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2768:7591099@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261016T160000
-DTEND;TZID=America/New_York:20261016T180000
-SUMMARY:North Warren at Bernardsville Middle School (Middle School Boys B
- oys Soccer)
-DESCRIPTION:Middle School Boys Boys Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ics:DelbartonSchool:vcal_7231-delbartonathletics.org@northwest-jersey
- -athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261016T160000
-DTEND;TZID=America/New_York:20261016T180000
-SUMMARY:Delbarton School vs Montclair Kimberley Academy (Middle School Bo
- ys Boys Soccer)
-DESCRIPTION:Middle School Boys Boys Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:100866983@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261016T163000
@@ -9559,15 +9244,6 @@ SUMMARY:Wallkill Valley High School at Whippany Park High School (Freshma
 DESCRIPTION:Freshman Boys Boys Soccer - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:DelbartonSchool:vcal_7194-delbartonathletics.org@northwest-jersey
- -athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261017T110000
-DTEND;TZID=America/New_York:20261017T130000
-SUMMARY:Delbarton School at CBA (Junior Varsity Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 11:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2909:7450202@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261017T140000
@@ -9595,16 +9271,6 @@ SUMMARY:Morris Catholic High School at Morris Knolls High School (Varsity
 DESCRIPTION:Varsity Boys Boys Soccer - Away
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:MorristownBeardSchool:event_8538_20261019t194500zapi.veracross.co
- m@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261019T154500
-DTEND;TZID=America/New_York:20261019T174500
-SUMMARY:Morristown Beard School at Montclair Kimberle (Middle School Boys
-  Boys Soccer)
-DESCRIPTION:Middle School Boys Boys Soccer - Away - 3:45 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ics:MorristownBeardSchool:event_8536_20261019t194500zapi.veracross.co
  m@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
@@ -9612,6 +9278,16 @@ DTSTART;TZID=America/New_York:20261019T154500
 DTEND;TZID=America/New_York:20261019T174500
 SUMMARY:Morristown Beard School at Montclair Kimberl (Middle School Boys 
  Boys Soccer)
+DESCRIPTION:Middle School Boys Boys Soccer - Away - 3:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:MorristownBeardSchool:event_8538_20261019t194500zapi.veracross.co
+ m@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261019T154500
+DTEND;TZID=America/New_York:20261019T174500
+SUMMARY:Morristown Beard School at Montclair Kimberle (Middle School Boys
+  Boys Soccer)
 DESCRIPTION:Middle School Boys Boys Soccer - Away - 3:45 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -9694,25 +9370,6 @@ DTEND;TZID=America/New_York:20261019T180000
 SUMMARY:Randolph High School at Hunterdon Central Regional High (Varsity 
  Boys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ics:DelbartonSchool:vcal_7269-delbartonathletics.org@northwest-jersey
- -athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261019T160000
-DTEND;TZID=America/New_York:20261019T180000
-SUMMARY:Delbarton School at Seton Hall Prep (Junior Varsity Boys Boys Soc
- cer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ics:DelbartonSchool:vcal_7267-delbartonathletics.org@northwest-jersey
- -athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261019T160000
-DTEND;TZID=America/New_York:20261019T180000
-SUMMARY:Delbarton School vs Seton Hall Prep (Freshman Boys Boys Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101950375@northwest-jersey-athletic-conference
@@ -9858,15 +9515,6 @@ SUMMARY:High Point High School vs Wallkill Valley High School (Junior Var
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2661:7530265@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261020T160000
-DTEND;TZID=America/New_York:20261020T180000
-SUMMARY:Hopatcong High School vs Vernon Township High School (Varsity Boy
- s Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2661:7549736@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261020T160000
@@ -9874,6 +9522,15 @@ DTEND;TZID=America/New_York:20261020T180000
 SUMMARY:Hopatcong High School vs Vernon Township High School (Junior Vars
  ity Boys Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2661:7530265@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261020T160000
+DTEND;TZID=America/New_York:20261020T180000
+SUMMARY:Hopatcong High School vs Vernon Township High School (Varsity Boy
+ s Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2674:7494493@northwest-jersey-athletic-conference
@@ -10227,14 +9884,14 @@ SUMMARY:Boonton High School at West Essex High School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:MorristownBeardSchool:event_8485_20261022t193000zapi.veracross.co
+UID:ics:MorristownBeardSchool:event_8487_20261022t193000zapi.veracross.co
  m@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261022T153000
 DTEND;TZID=America/New_York:20261022T173000
-SUMMARY:Morristown Beard School vs Far Hills Country (Middle School Boys 
+SUMMARY:Morristown Beard School at Far Hills Country (Middle School Boys 
  Boys Soccer)
-DESCRIPTION:Middle School Boys Boys Soccer - Home - 3:30 PM
+DESCRIPTION:Middle School Boys Boys Soccer - Away - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102336699@northwest-jersey-athletic-conference
@@ -10595,24 +10252,6 @@ SUMMARY:Sussex County Tech High School vs Central Jersey College Prep Cha
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:DelbartonSchool:vcal_7216-delbartonathletics.org@northwest-jersey
- -athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261023T160000
-DTEND;TZID=America/New_York:20261023T180000
-SUMMARY:Delbarton School vs Columbia (Freshman Boys Boys Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ics:DelbartonSchool:vcal_7196-delbartonathletics.org@northwest-jersey
- -athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261023T160000
-DTEND;TZID=America/New_York:20261023T180000
-SUMMARY:Delbarton School vs Columbia (Junior Varsity Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2940:7613151@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261023T183000
@@ -10702,6 +10341,15 @@ SUMMARY:Randolph High School at Montclair Kimberley Academy (Junior Varsi
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:ics:MorristownBeardSchool:event_8766_20261024t140000zapi.veracross.co
+ m@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261024T100000
+DTEND;TZID=America/New_York:20261024T120000
+SUMMARY:Morristown Beard School at Butler (Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ics:MorristownBeardSchool:event_8767_20261024t140000zapi.veracross.co
  m@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
@@ -10710,15 +10358,6 @@ DTEND;TZID=America/New_York:20261024T120000
 SUMMARY:Morristown Beard School at Butler (Junior Varsity Boys Boys Socce
  r)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ics:MorristownBeardSchool:event_8766_20261024t140000zapi.veracross.co
- m@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261024T100000
-DTEND;TZID=America/New_York:20261024T120000
-SUMMARY:Morristown Beard School at Butler (Varsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:100867007@northwest-jersey-athletic-conference
@@ -10943,26 +10582,6 @@ DTEND;TZID=America/New_York:20261026T180000
 SUMMARY:Sussex County Tech High School vs Jefferson Township High School 
  (Junior Varsity Boys Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ics:DelbartonSchool:vcal_7197-delbartonathletics.org@northwest-jersey
- -athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261026T160000
-DTEND;TZID=America/New_York:20261026T180000
-SUMMARY:Delbarton School vs St. Benedict's Prep (Junior Varsity Boys Boys
-  Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ics:DelbartonSchool:vcal_7217-delbartonathletics.org@northwest-jersey
- -athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261026T160000
-DTEND;TZID=America/New_York:20261026T180000
-SUMMARY:Delbarton School vs St. Benedict's Prep (Freshman Boys Boys Socce
- r)
-DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:100819040@northwest-jersey-athletic-conference
@@ -11199,15 +10818,6 @@ SUMMARY:Hackettstown High School vs North Hunterdon High School (Junior V
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2642:7547952@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261028T160000
-DTEND;TZID=America/New_York:20261028T180000
-SUMMARY:Hanover Park High School at Parsippany High School (Junior Varsit
- y Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2642:7570835@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261028T160000
@@ -11215,6 +10825,15 @@ DTEND;TZID=America/New_York:20261028T180000
 SUMMARY:Hanover Park High School at Parsippany High School (Freshman Boys
   Boys Soccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2642:7547952@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261028T160000
+DTEND;TZID=America/New_York:20261028T180000
+SUMMARY:Hanover Park High School at Parsippany High School (Junior Varsit
+ y Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2649:7496779@northwest-jersey-athletic-conference

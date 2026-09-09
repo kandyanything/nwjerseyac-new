@@ -1,0 +1,104 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Northwest Jersey Athletic Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Northwest Jersey Athletic Conference — Freshman School Footb
+ all
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ics:DelbartonSchool:vcal_7249-delbartonathletics.org@northwest-jersey
+ -athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260821T163000
+DTEND;TZID=America/New_York:20260821T183000
+SUMMARY:Delbarton School vs Irvington (Freshman Boys School Football)
+DESCRIPTION:Freshman Boys School Football - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:DelbartonSchool:vcal_7251-delbartonathletics.org@northwest-jersey
+ -athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260912T093000
+DTEND;TZID=America/New_York:20260912T113000
+SUMMARY:Delbarton School at St. Joseph Regional (Freshman Boys School Foo
+ tball)
+DESCRIPTION:Freshman Boys School Football - Away - 9:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:DelbartonSchool:vcal_7252-delbartonathletics.org@northwest-jersey
+ -athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T090000
+DTEND;TZID=America/New_York:20260919T110000
+SUMMARY:Delbarton School vs Seton Hall Prep (Freshman Boys School Footbal
+ l)
+DESCRIPTION:Freshman Boys School Football - Home - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:DelbartonSchool:vcal_7253-delbartonathletics.org@northwest-jersey
+ -athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260926T093000
+DTEND;TZID=America/New_York:20260926T113000
+SUMMARY:Delbarton School vs DePaul Catholic (Freshman Boys School Footbal
+ l)
+DESCRIPTION:Freshman Boys School Football - Home - 9:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:DelbartonSchool:vcal_7254-delbartonathletics.org@northwest-jersey
+ -athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261003T090000
+DTEND;TZID=America/New_York:20261003T110000
+SUMMARY:Delbarton School at St. Joseph Metuchen (Freshman Boys School Foo
+ tball)
+DESCRIPTION:Freshman Boys School Football - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:DelbartonSchool:vcal_7255-delbartonathletics.org@northwest-jersey
+ -athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261017T093000
+DTEND;TZID=America/New_York:20261017T113000
+SUMMARY:Delbarton School at Bergen Catholic (Freshman Boys School Footbal
+ l)
+DESCRIPTION:Freshman Boys School Football - Away - 9:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:DelbartonSchool:vcal_7256-delbartonathletics.org@northwest-jersey
+ -athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261024T090000
+DTEND;TZID=America/New_York:20261024T110000
+SUMMARY:Delbarton School at Pope John XXIII High School (Freshman Boys Sc
+ hool Football)
+DESCRIPTION:Freshman Boys School Football - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:DelbartonSchool:vcal_7257-delbartonathletics.org@northwest-jersey
+ -athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261031T093000
+DTEND;TZID=America/New_York:20261031T113000
+SUMMARY:Delbarton School vs Don Bosco Prep (Freshman Boys School Football)
+DESCRIPTION:Freshman Boys School Football - Home - 9:30 AM
+END:VEVENT
+END:VCALENDAR

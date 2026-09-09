@@ -1,0 +1,96 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Northwest Jersey Athletic Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Northwest Jersey Athletic Conference — Junior Varsity School
+  Football
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ics:DelbartonSchool:vcal_7259-delbartonathletics.org@northwest-jersey
+ -athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T163000
+DTEND;TZID=America/New_York:20260914T183000
+SUMMARY:Delbarton School at St. Joseph Regional (Junior Varsity Boys Scho
+ ol Football)
+DESCRIPTION:Junior Varsity Boys School Football - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:DelbartonSchool:vcal_7260-delbartonathletics.org@northwest-jersey
+ -athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260921T161500
+DTEND;TZID=America/New_York:20260921T181500
+SUMMARY:Delbarton School vs Seton Hall Prep (Junior Varsity Boys School F
+ ootball)
+DESCRIPTION:Junior Varsity Boys School Football - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:DelbartonSchool:vcal_7261-delbartonathletics.org@northwest-jersey
+ -athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260928T163000
+DTEND;TZID=America/New_York:20260928T183000
+SUMMARY:Delbarton School vs DePaul Catholic (Junior Varsity Boys School F
+ ootball)
+DESCRIPTION:Junior Varsity Boys School Football - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:DelbartonSchool:vcal_7262-delbartonathletics.org@northwest-jersey
+ -athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261005T160000
+DTEND;TZID=America/New_York:20261005T180000
+SUMMARY:Delbarton School at St. Joseph Metuchen (Junior Varsity Boys Scho
+ ol Football)
+DESCRIPTION:Junior Varsity Boys School Football - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:DelbartonSchool:vcal_7263-delbartonathletics.org@northwest-jersey
+ -athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261019T160000
+DTEND;TZID=America/New_York:20261019T180000
+SUMMARY:Delbarton School at Bergen Catholic (Junior Varsity Boys School F
+ ootball)
+DESCRIPTION:Junior Varsity Boys School Football - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:DelbartonSchool:vcal_7264-delbartonathletics.org@northwest-jersey
+ -athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261026T160000
+DTEND;TZID=America/New_York:20261026T180000
+SUMMARY:Delbarton School at Pope John XXIII High School (Junior Varsity B
+ oys School Football)
+DESCRIPTION:Junior Varsity Boys School Football - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:DelbartonSchool:vcal_7265-delbartonathletics.org@northwest-jersey
+ -athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261102T160000
+DTEND;TZID=America/New_York:20261102T180000
+SUMMARY:Delbarton School vs Don Bosco Prep (Junior Varsity Boys School Fo
+ otball)
+DESCRIPTION:Junior Varsity Boys School Football - Home - 4:00 PM
+END:VEVENT
+END:VCALENDAR
