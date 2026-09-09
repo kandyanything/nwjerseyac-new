@@ -699,15 +699,6 @@ SUMMARY:Morristown High School at Elizabeth High School (Junior Varsity B
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2748:7602785@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260905T110000
-DTEND;TZID=America/New_York:20260905T130000
-SUMMARY:Morristown High School vs Elizabeth High School (Freshman Boys Bo
- ys Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Home - 11:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2748:7568410@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260905T110000
@@ -715,6 +706,15 @@ DTEND;TZID=America/New_York:20260905T130000
 SUMMARY:Morristown High School at Elizabeth High School (Varsity Boys Boy
  s Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2748:7602785@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260905T110000
+DTEND;TZID=America/New_York:20260905T130000
+SUMMARY:Morristown High School vs Elizabeth High School (Freshman Boys Bo
+ ys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Home - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102568109@northwest-jersey-athletic-conference
@@ -1245,15 +1245,6 @@ DTEND;TZID=America/New_York:20260918T180000
 SUMMARY:Morristown High School vs Sparta High School (Junior Varsity Girl
  s Girls Tennis)
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2748:7595331@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260918T160000
-DTEND;TZID=America/New_York:20260918T180000
-SUMMARY:Morristown High School vs Sparta High School (Freshman Girls Girl
- s Tennis)
-DESCRIPTION:Freshman Girls Girls Tennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:100193706@northwest-jersey-athletic-conference
@@ -1914,6 +1905,15 @@ DTEND;TZID=America/New_York:20260930T200000
 SUMMARY:West Morris Central vs Morristown High School (Varsity Boys Boys 
  Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2748:7533761@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260930T183000
+DTEND;TZID=America/New_York:20260930T203000
+SUMMARY:Morristown High School at West Morris Central (Varsity Boys Boys 
+ Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2748:7486684@northwest-jersey-athletic-conference
@@ -3124,6 +3124,15 @@ SUMMARY:Morristown Beard School at Morristown High School (Varsity Boys B
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 8:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2748:7570483@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261215T160000
+DTEND;TZID=America/New_York:20261215T180000
+SUMMARY:Morristown High School at Delbarton School (Freshman Boys Boys Ba
+ sketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2748:7580584@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261215T160000
@@ -3162,6 +3171,15 @@ SUMMARY:Morristown High School vs Morristown Beard School (Junior Varsity
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2748:7568087@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261215T173000
+DTEND;TZID=America/New_York:20261215T193000
+SUMMARY:Morristown High School at Delbarton School (Junior Varsity Boys B
+ oys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2748:7580582@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261215T173000
@@ -3169,6 +3187,15 @@ DTEND;TZID=America/New_York:20261215T193000
 SUMMARY:Morristown High School vs Villa Walsh Academy (Junior Varsity Gir
  ls Girls Basketball)
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2748:7567198@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261215T190000
+DTEND;TZID=America/New_York:20261215T210000
+SUMMARY:Morristown High School at Delbarton School (Varsity Boys Boys Bas
+ ketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2748:7580581@northwest-jersey-athletic-conference
@@ -3820,16 +3847,7 @@ SUMMARY:Morristown High School at Morris Knolls High School (Var-JV Coed
 DESCRIPTION:Var-JV Coed Coed Fencing - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2748:7570483@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270111T160000
-DTEND;TZID=America/New_York:20270111T180000
-SUMMARY:Morristown High School at Delbarton School (Freshman Boys Boys Ba
- sketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2748:7568087@northwest-jersey-athletic-conference
+UID:ds:2748:7594123@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270111T173000
 DTEND;TZID=America/New_York:20270111T193000
@@ -3863,15 +3881,6 @@ DTEND;TZID=America/New_York:20270111T200000
 SUMMARY:Morristown High School vs West Morris Mendham (Varsity Girls Girl
  s Wrestling)
 DESCRIPTION:Varsity Girls Girls Wrestling - Home - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2748:7567198@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270111T190000
-DTEND;TZID=America/New_York:20270111T210000
-SUMMARY:Morristown High School at Delbarton School (Varsity Boys Boys Bas
- ketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2564:7587306@northwest-jersey-athletic-conference

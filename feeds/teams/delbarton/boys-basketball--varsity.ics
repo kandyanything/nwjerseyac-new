@@ -24,6 +24,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2748:7567198@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261215T190000
+DTEND;TZID=America/New_York:20261215T210000
+SUMMARY:Morristown High School at Delbarton School (Varsity Boys Boys Bas
+ ketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2564:7457303@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261217T190000
@@ -48,15 +57,6 @@ DTSTART;TZID=America/New_York:20270106T190000
 DTEND;TZID=America/New_York:20270106T210000
 SUMMARY:West Morris Mendham at Delbarton School (Varsity Boys Boys Basket
  ball)
-DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2748:7567198@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270111T190000
-DTEND;TZID=America/New_York:20270111T210000
-SUMMARY:Morristown High School at Delbarton School (Varsity Boys Boys Bas
- ketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT

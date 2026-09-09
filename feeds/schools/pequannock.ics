@@ -1581,9 +1581,10 @@ UID:arb:101347211@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260924T173000
 DTEND;TZID=America/New_York:20260924T193000
-SUMMARY:Academy of Saint Elizabeth vs Pequannock High School (Junior Vars
- ity Girls Field Hockey)
-DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 5:30 PM
+SUMMARY:[Canceled] Academy of Saint Elizabeth at Pequannock High School (
+ Junior Varsity Girls Field Hockey)
+DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:30 PM
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102905600@northwest-jersey-athletic-conference
@@ -2136,6 +2137,15 @@ DTEND;TZID=America/New_York:20261006T173000
 SUMMARY:Dover High School at Pequannock High School (Unified Coed Coed So
  ccer)
 DESCRIPTION:Unified Coed Coed Soccer - Away - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103882280@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261006T160000
+DTEND;TZID=America/New_York:20261006T180000
+SUMMARY:Pequannock High School vs Morris Catholic High School (Varsity Gi
+ rls Girls Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103489842@northwest-jersey-athletic-conference
@@ -2806,58 +2816,49 @@ SUMMARY:Pequannock High School at Vernon Township High School (Junior Var
 DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:101826120@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261022T154500
-DTEND;TZID=America/New_York:20261022T174500
-SUMMARY:Pequannock High School vs West Essex High School (Junior Varsity 
- Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 3:45 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:arb:102988568@northwest-jersey-athletic-conference
+UID:ds:2674:7498255@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261022T160000
 DTEND;TZID=America/New_York:20261022T180000
-SUMMARY:Pequannock High School at Jefferson Township High School (Freshma
- n Boys Boys Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:arb:100184324@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261022T160000
-DTEND;TZID=America/New_York:20261022T180000
-SUMMARY:Pequannock High School at Jefferson Township High School (Junior 
- Varsity Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:arb:100177851@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261022T160000
-DTEND;TZID=America/New_York:20261022T180000
-SUMMARY:Pequannock High School at Jefferson Township High School (Varsity
+SUMMARY:Jefferson Township High School vs Pequannock High School (Varsity
   Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2649:7475483@northwest-jersey-athletic-conference
+UID:ds:2674:7501263@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261022T163000
-DTEND;TZID=America/New_York:20261022T183000
-SUMMARY:High Point High School vs Pequannock High School (Varsity Girls G
- irls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:30 PM
+DTSTART;TZID=America/New_York:20261022T160000
+DTEND;TZID=America/New_York:20261022T180000
+SUMMARY:Jefferson Township High School vs Pequannock High School (Junior 
+ Varsity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2674:7567321@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261022T160000
+DTEND;TZID=America/New_York:20261022T180000
+SUMMARY:Jefferson Township High School vs Pequannock High School (Freshma
+ n Boys Boys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2649:7475963@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261022T174500
-DTEND;TZID=America/New_York:20261022T194500
+DTSTART;TZID=America/New_York:20261022T163000
+DTEND;TZID=America/New_York:20261022T183000
 SUMMARY:High Point High School vs Pequannock High School (Junior Varsity 
  Girls Girls Volleyball)
-DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:45 PM
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103871437@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261022T180000
+DTEND;TZID=America/New_York:20261022T200000
+SUMMARY:Pequannock High School at High Point High School (Varsity Girls G
+ irls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2594:7585557@northwest-jersey-athletic-conference
@@ -3147,6 +3148,24 @@ DTEND;TZID=America/New_York:20261222T210000
 SUMMARY:Randolph High School vs Pequannock High School (Varsity Boys Boys
   Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2838:7623023@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261223T180000
+DTEND;TZID=America/New_York:20261223T200000
+SUMMARY:Roxbury High School vs Pequannock High School (Junior Varsity Boy
+ s Boys Wrestling)
+DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2838:7623022@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261223T190000
+DTEND;TZID=America/New_York:20261223T210000
+SUMMARY:Roxbury High School vs Pequannock High School (Varsity Boys Boys 
+ Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2694:7509504@northwest-jersey-athletic-conference
@@ -3788,6 +3807,15 @@ SUMMARY:Madison High School vs Pequannock High School (Varsity Boys Baseb
 DESCRIPTION:Varsity Boys Baseball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2686:7624239@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270329T163000
+DTEND;TZID=America/New_York:20270329T183000
+SUMMARY:Kittatinny High School at Pequannock High School (Varsity Girls G
+ irls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:103409895@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270331T160000
@@ -3867,5 +3895,23 @@ DTEND;TZID=America/New_York:20270521T180000
 SUMMARY:Sparta High School at Pequannock High School (Varsity Girls Girls
   Lacrosse)
 DESCRIPTION:Varsity Girls Girls Lacrosse - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2686:7624236@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270524T163000
+DTEND;TZID=America/New_York:20270524T183000
+SUMMARY:Kittatinny High School vs Pequannock High School (Varsity Girls G
+ irls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2686:7624237@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270524T180000
+DTEND;TZID=America/New_York:20270524T200000
+SUMMARY:Kittatinny High School vs Pequannock High School (Junior Varsity 
+ Girls Girls Lacrosse)
+DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Home - 6:00 PM
 END:VEVENT
 END:VCALENDAR

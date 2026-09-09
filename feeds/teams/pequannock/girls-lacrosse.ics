@@ -24,6 +24,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2686:7624239@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270329T163000
+DTEND;TZID=America/New_York:20270329T183000
+SUMMARY:Kittatinny High School at Pequannock High School (Varsity Girls G
+ irls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2674:7613519@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270412T160000
@@ -40,5 +49,23 @@ DTEND;TZID=America/New_York:20270521T180000
 SUMMARY:Sparta High School at Pequannock High School (Varsity Girls Girls
   Lacrosse)
 DESCRIPTION:Varsity Girls Girls Lacrosse - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2686:7624236@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270524T163000
+DTEND;TZID=America/New_York:20270524T183000
+SUMMARY:Kittatinny High School vs Pequannock High School (Varsity Girls G
+ irls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2686:7624237@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270524T180000
+DTEND;TZID=America/New_York:20270524T200000
+SUMMARY:Kittatinny High School vs Pequannock High School (Junior Varsity 
+ Girls Girls Lacrosse)
+DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Home - 6:00 PM
 END:VEVENT
 END:VCALENDAR
