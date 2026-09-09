@@ -157,6 +157,8 @@
 /* ---------- responsive ---------- */
 @media (max-width: 640px) {
     .njsched .view-toggle { grid-template-columns: 1fr; gap: 8px; }
+    .njsched .filters { flex-direction: column; width: 100%; }
+    .njsched .filter, .njsched .filter--school { width: 100%; min-width: unset; flex: none; box-sizing: border-box; }
     .njsched .controls-right { margin-left: 0; width: 100%; }
     .njsched .controls-right .btn { flex: 1; }
     .njsched .game { grid-template-columns: 72px 1fr; }
