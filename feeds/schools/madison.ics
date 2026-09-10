@@ -1433,16 +1433,6 @@ SUMMARY:Madison High School at Heritage Middle School (Middle School Girl
 DESCRIPTION:Middle School Girls Field Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:MorristownBeardSchool:event_10243_20260923t200000zapi.veracross.c
- om@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260923T160000
-DTEND;TZID=America/New_York:20260923T180000
-SUMMARY:Morristown Beard School vs Madison High School (Varsity Girls Gir
- ls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ics:MorristownBeardSchool:event_10244_20260923t200000zapi.veracross.c
  om@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
@@ -1451,6 +1441,16 @@ DTEND;TZID=America/New_York:20260923T180000
 SUMMARY:Morristown Beard School at Madison High School (Junior Varsity Gi
  rls Girls Tennis)
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:MorristownBeardSchool:event_10243_20260923t200000zapi.veracross.c
+ om@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260923T160000
+DTEND;TZID=America/New_York:20260923T180000
+SUMMARY:Morristown Beard School vs Madison High School (Varsity Girls Gir
+ ls Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101944875@northwest-jersey-athletic-conference
@@ -2106,13 +2106,13 @@ SUMMARY:Boonton High School vs Madison High School (Varsity Girls Field H
 DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:102658126@northwest-jersey-athletic-conference
+UID:ds:42130:7496947@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261008T160000
 DTEND;TZID=America/New_York:20261008T180000
-SUMMARY:Madison High School at Morris County School of Technology (Varsit
+SUMMARY:Morris County School of Technology vs Madison High School (Varsit
  y Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:00 PM
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101413324@northwest-jersey-athletic-conference
@@ -2160,13 +2160,13 @@ SUMMARY:Madison High School vs Lenape Valley High School (Freshman Boys F
 DESCRIPTION:Freshman Boys Football - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:102658120@northwest-jersey-athletic-conference
+UID:ds:42130:7496971@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261008T171500
 DTEND;TZID=America/New_York:20261008T191500
-SUMMARY:Madison High School at Morris County School of Technology (Junior
+SUMMARY:Morris County School of Technology vs Madison High School (Junior
   Varsity Girls Girls Volleyball)
-DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 5:15 PM
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102667844@northwest-jersey-athletic-conference
@@ -2258,22 +2258,22 @@ SUMMARY:Madison High School at Livingston High School (Freshman Girls Gir
 DESCRIPTION:Freshman Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:101967767@northwest-jersey-athletic-conference
+UID:ds:2751:7494232@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261012T160000
 DTEND;TZID=America/New_York:20261012T180000
-SUMMARY:Madison High School at Mount Olive High School (Varsity Girls Gir
+SUMMARY:Mount Olive High School vs Madison High School (Varsity Girls Gir
  ls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:00 PM
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:101597388@northwest-jersey-athletic-conference
+UID:ds:2751:7494478@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261012T160000
 DTEND;TZID=America/New_York:20261012T180000
-SUMMARY:Madison High School vs Mount Olive High School (Freshman Girls Gi
+SUMMARY:Mount Olive High School at Madison High School (Freshman Girls Gi
  rls Volleyball)
-DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:00 PM
+DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:99189553@northwest-jersey-athletic-conference
@@ -2422,31 +2422,31 @@ SUMMARY:Academy of Saint Elizabeth at Madison High School (Varsity Girls
 DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:101170474@northwest-jersey-athletic-conference
+UID:ds:2751:7506845@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261019T160000
 DTEND;TZID=America/New_York:20261019T180000
-SUMMARY:Madison High School at Mount Olive High School (Freshman Boys Boy
+SUMMARY:Mount Olive High School vs Madison High School (Freshman Boys Boy
  s Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
+DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:101170430@northwest-jersey-athletic-conference
+UID:ds:2751:7491264@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261019T160000
 DTEND;TZID=America/New_York:20261019T180000
-SUMMARY:Madison High School at Mount Olive High School (Junior Varsity Bo
+SUMMARY:Mount Olive High School vs Madison High School (Junior Varsity Bo
  ys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:101170391@northwest-jersey-athletic-conference
+UID:ds:2751:7458104@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261019T160000
 DTEND;TZID=America/New_York:20261019T180000
-SUMMARY:Madison High School at Mount Olive High School (Varsity Boys Boys
+SUMMARY:Mount Olive High School vs Madison High School (Varsity Boys Boys
   Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:100195389@northwest-jersey-athletic-conference
@@ -2674,13 +2674,13 @@ SUMMARY:Madison High School at Morris Hills High School (Junior Varsity B
 DESCRIPTION:Junior Varsity Boys Football - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:102399521@northwest-jersey-athletic-conference
+UID:ds:2913:7500246@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261028T160000
 DTEND;TZID=America/New_York:20261028T180000
-SUMMARY:Madison High School at Villa Walsh Academy (Junior Varsity Girls 
+SUMMARY:Villa Walsh Academy vs Madison High School (Junior Varsity Girls 
  Girls Volleyball)
-DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 4:00 PM
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2913:7512204@northwest-jersey-athletic-conference
@@ -2710,13 +2710,13 @@ SUMMARY:Madison High School at Waldwick High School (Varsity Girls Girls
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:102399525@northwest-jersey-athletic-conference
+UID:ds:2913:7500243@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261028T171500
 DTEND;TZID=America/New_York:20261028T191500
-SUMMARY:Madison High School at Villa Walsh Academy (Varsity Girls Girls V
+SUMMARY:Villa Walsh Academy vs Madison High School (Varsity Girls Girls V
  olleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Away - 5:15 PM
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 5:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101887003@northwest-jersey-athletic-conference
@@ -2773,13 +2773,13 @@ SUMMARY:Madison High School at Morris Knolls High School (Varsity Boys Bo
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 5:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:102581075@northwest-jersey-athletic-conference
+UID:ds:2790:7578041@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261207T160000
 DTEND;TZID=America/New_York:20261207T180000
-SUMMARY:Madison High School vs Parsippany High School (Varsity Girls Girl
+SUMMARY:Parsippany High School at Madison High School (Varsity Girls Girl
  s Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:00 PM
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2791:7578041@northwest-jersey-athletic-conference
@@ -2818,13 +2818,13 @@ SUMMARY:Madison High School vs Montville High School (Freshman Boys Boys
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:103182107@northwest-jersey-athletic-conference
+UID:ds:2790:7577311@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261209T194500
 DTEND;TZID=America/New_York:20261209T214500
-SUMMARY:Madison High School vs Parsippany High School (Varsity Boys Boys 
+SUMMARY:Parsippany High School at Madison High School (Varsity Boys Boys 
  Ice Hockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 7:45 PM
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 7:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2791:7577311@northwest-jersey-athletic-conference
@@ -3286,13 +3286,13 @@ SUMMARY:Madison High School at Oak Knoll School of the Holy Child (Varsit
 DESCRIPTION:Varsity Girls Girls Ice Hockey - Away - 4:10 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:101979039@northwest-jersey-athletic-conference
+UID:ds:2913:7582490@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T173000
 DTEND;TZID=America/New_York:20270112T193000
-SUMMARY:Madison High School at Villa Walsh Academy (Junior Varsity Girls 
+SUMMARY:Villa Walsh Academy vs Madison High School (Junior Varsity Girls 
  Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101646248@northwest-jersey-athletic-conference
@@ -3304,13 +3304,13 @@ SUMMARY:Madison High School vs Morris Catholic High School (Junior Varsit
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:101979050@northwest-jersey-athletic-conference
+UID:ds:2913:7457810@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T190000
 DTEND;TZID=America/New_York:20270112T210000
-SUMMARY:Madison High School at Villa Walsh Academy (Varsity Girls Girls B
+SUMMARY:Villa Walsh Academy vs Madison High School (Varsity Girls Girls B
  asketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101978701@northwest-jersey-athletic-conference
@@ -3889,7 +3889,7 @@ SUMMARY:Parsippany Hills High School vs Madison High School (Junior Varsi
 DESCRIPTION:Junior Varsity Girls Softball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:MorristownBeardSchool:event_9959_20270330t200000zapi.veracross.co
+UID:ics:MorristownBeardSchool:event_9960_20270330t200000zapi.veracross.co
  m@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270330T160000
