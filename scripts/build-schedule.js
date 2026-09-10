@@ -194,8 +194,11 @@ function stripSelfVenue(e) {
 
 // A fixture listed by both schools is one game. Prefer the richer record -
 // the one that knows whether it is home, and names an opponent.
+// Tiebreaker: prefer records whose opponent contains "High School" (DS names)
+// over district-style names like "Mount Olive Township School District" (Arbiter).
 function score(e) {
-    return (e.home !== null ? 2 : 0) + (e.opponent ? 1 : 0) + (e.time ? 1 : 0);
+    const niceOpp = /high school|hs\b/i.test(e.opponent || '') ? 1 : 0;
+    return (e.home !== null ? 2 : 0) + (e.opponent ? 1 : 0) + (e.time ? 1 : 0) + niceOpp;
 }
 
 // Reduce a school name to its distinguishing word so "Morris Hills High School"
