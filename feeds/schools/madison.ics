@@ -852,9 +852,10 @@ UID:arb:102627958@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260911T160000
 DTEND;TZID=America/New_York:20260911T180000
-SUMMARY:Madison High School vs Assumption of the BVM School (Middle Schoo
- l Girls Girls Soccer)
+SUMMARY:[Canceled] Madison High School vs Assumption of the BVM School (M
+ iddle School Girls Girls Soccer)
 DESCRIPTION:Middle School Girls Girls Soccer - Home - 4:00 PM
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101602153@northwest-jersey-athletic-conference
@@ -874,22 +875,22 @@ SUMMARY:Madison High School vs Sparta High School (Freshman Boys Football)
 DESCRIPTION:Freshman Boys Football - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2940:7504445@northwest-jersey-athletic-conference
+UID:arb:103933347@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260911T161500
 DTEND;TZID=America/New_York:20260911T181500
-SUMMARY:Whippany Park High School at Madison High School (Varsity Girls G
+SUMMARY:Madison High School vs Whippany Park High School (Varsity Girls G
  irls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:15 PM
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2940:7505219@northwest-jersey-athletic-conference
+UID:arb:103933360@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260911T173000
 DTEND;TZID=America/New_York:20260911T193000
-SUMMARY:Whippany Park High School at Madison High School (Junior Varsity 
+SUMMARY:Madison High School vs Whippany Park High School (Junior Varsity 
  Girls Girls Volleyball)
-DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 5:30 PM
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102332195@northwest-jersey-athletic-conference
@@ -950,10 +951,9 @@ UID:arb:99189546@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260914T160000
 DTEND;TZID=America/New_York:20260914T180000
-SUMMARY:[Canceled] Madison High School vs Sparta High School (Junior Vars
- ity Boys Football)
+SUMMARY:Madison High School vs Millburn High School (Junior Varsity Boys 
+ Football)
 DESCRIPTION:Junior Varsity Boys Football - Home - 4:00 PM
-STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2754:7509683@northwest-jersey-athletic-conference
@@ -972,6 +972,15 @@ DTEND;TZID=America/New_York:20260914T180000
 SUMMARY:Mountain Lakes High School at Madison High School (Varsity Girls 
  Girls Tennis)
 DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2881:7463040@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T160000
+DTEND;TZID=America/New_York:20260914T180000
+SUMMARY:Sparta High School at Madison High School (Junior Varsity Boys Fo
+ otball)
+DESCRIPTION:Junior Varsity Boys Football - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103706818@northwest-jersey-athletic-conference
@@ -1215,6 +1224,15 @@ SUMMARY:Madison High School vs Scotch Plains-Fanwood High School (Varsity
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2745:7485390@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T090000
+DTEND;TZID=America/New_York:20260919T110000
+SUMMARY:Morris Catholic High School at Madison High School (Varsity Girls
+  Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2745:7485586@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260919T091500
@@ -1258,15 +1276,6 @@ DTEND;TZID=America/New_York:20260919T150000
 SUMMARY:Madison High School at West Side High School (Varsity Boys Footba
  ll)
 DESCRIPTION:Varsity Boys Football - Away - 1:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2745:7485390@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260919T160000
-DTEND;TZID=America/New_York:20260919T180000
-SUMMARY:Morris Catholic High School at Madison High School (Varsity Girls
-  Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:99189550@northwest-jersey-athletic-conference
@@ -1442,16 +1451,6 @@ SUMMARY:Madison High School at Heritage Middle School (Middle School Girl
 DESCRIPTION:Middle School Girls Field Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:MorristownBeardSchool:event_10244_20260923t200000zapi.veracross.c
- om@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260923T160000
-DTEND;TZID=America/New_York:20260923T180000
-SUMMARY:Morristown Beard School at Madison High School (Junior Varsity Gi
- rls Girls Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ics:MorristownBeardSchool:event_10243_20260923t200000zapi.veracross.c
  om@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
@@ -1460,6 +1459,16 @@ DTEND;TZID=America/New_York:20260923T180000
 SUMMARY:Morristown Beard School vs Madison High School (Varsity Girls Gir
  ls Tennis)
 DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:MorristownBeardSchool:event_10244_20260923t200000zapi.veracross.c
+ om@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260923T160000
+DTEND;TZID=America/New_York:20260923T180000
+SUMMARY:Morristown Beard School at Madison High School (Junior Varsity Gi
+ rls Girls Tennis)
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101944875@northwest-jersey-athletic-conference
@@ -3259,6 +3268,15 @@ SUMMARY:Madison High School at Parsippany High School (Junior Varsity Boy
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:arb:103929145@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270108T183000
+DTEND;TZID=America/New_York:20270108T203000
+SUMMARY:Madison High School at Westfield High School (Varsity Girls Girls
+  Ice Hockey)
+DESCRIPTION:Varsity Girls Girls Ice Hockey - Away - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:101646121@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270108T190000
@@ -3655,6 +3673,24 @@ SUMMARY:Madison High School at Randolph High School (Varsity Boys Boys Wr
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:arb:103928096@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270204T160000
+DTEND;TZID=America/New_York:20270204T180000
+SUMMARY:Madison High School at Millburn High School (Freshman Boys Boys B
+ asketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103928087@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270204T160000
+DTEND;TZID=America/New_York:20270204T180000
+SUMMARY:Madison High School at Millburn High School (Varsity Boys Boys Ba
+ sketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:103156113@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270204T161500
@@ -3662,6 +3698,15 @@ DTEND;TZID=America/New_York:20270204T181500
 SUMMARY:Madison High School at The Pingry School (Varsity Girls Girls Bas
  ketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103928110@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270204T173000
+DTEND;TZID=America/New_York:20270204T193000
+SUMMARY:Madison High School at Millburn High School (Junior Varsity Boys 
+ Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101646273@northwest-jersey-athletic-conference
