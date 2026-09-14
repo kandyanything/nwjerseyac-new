@@ -396,10 +396,10 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2748:7536299@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20260919
-DTEND;VALUE=DATE:20260920
+DTSTART;TZID=America/New_York:20260919T113500
+DTEND;TZID=America/New_York:20260919T133500
 SUMMARY:Morristown High School vs TBD (Var-JV Girls Girls Cross Country)
-DESCRIPTION:Var-JV Girls Girls Cross Country - Home
+DESCRIPTION:Var-JV Girls Girls Cross Country - Home - 11:35 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2748:7536300@northwest-jersey-athletic-conference
@@ -515,15 +515,6 @@ DTEND;TZID=America/New_York:20260922T192500
 SUMMARY:Whippany Park High School vs TBD (Varsity Girls Girls Cross Count
  ry)
 DESCRIPTION:Varsity Girls Girls Cross Country - Home - 5:25 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2913:7536161@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260924T160000
-DTEND;TZID=America/New_York:20260924T180000
-SUMMARY:Villa Walsh Academy vs Delbarton School (Middle School Girls Girl
- s Cross Country)
-DESCRIPTION:Middle School Girls Girls Cross Country - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2881:7594845@northwest-jersey-athletic-conference

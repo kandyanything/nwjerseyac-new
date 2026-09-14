@@ -2196,14 +2196,6 @@ SUMMARY:Chatham High School vs Morristown High School (Junior Varsity Boy
 DESCRIPTION:Junior Varsity Boys Football - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2594:7536676@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260914T160000
-DTEND;TZID=America/New_York:20260914T180000
-SUMMARY:Dover High School vs TBD (Junior Varsity Boys Football)
-DESCRIPTION:Junior Varsity Boys Football - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2634:7465518@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260914T160000
@@ -2757,15 +2749,6 @@ DTEND;TZID=America/New_York:20260922T180000
 SUMMARY:West Morris Mendham at Randolph High School (Junior Varsity Boys 
  Football)
 DESCRIPTION:Junior Varsity Boys Football - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2594:7572257@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260923T160000
-DTEND;TZID=America/New_York:20260923T180000
-SUMMARY:Dover High School at Delbarton School (Middle School Boys Footbal
- l)
-DESCRIPTION:Middle School Boys Football - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:99192094@northwest-jersey-athletic-conference
@@ -3384,15 +3367,6 @@ SUMMARY:Mount Olive High School vs Passaic County Technical Institute (Fr
 DESCRIPTION:Freshman Boys Football - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:100156064@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261002T180000
-DTEND;TZID=America/New_York:20261002T200000
-SUMMARY:West Morris Mendham at Warren Hills Regional High School (Varsity
-  Boys Football)
-DESCRIPTION:Varsity Boys Football - Away - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2751:7457075@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261002T180000
@@ -3471,6 +3445,15 @@ DTSTART;TZID=America/New_York:20261002T190000
 DTEND;TZID=America/New_York:20261002T210000
 SUMMARY:Morris Hills High School at Randolph High School (Varsity Boys Fo
  otball)
+DESCRIPTION:Varsity Boys Football - Away - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100156064@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261002T190000
+DTEND;TZID=America/New_York:20261002T210000
+SUMMARY:West Morris Mendham at Warren Hills Regional High School (Varsity
+  Boys Football)
 DESCRIPTION:Varsity Boys Football - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -4006,12 +3989,12 @@ SUMMARY:Pequannock High School at Kinnelon High School (Varsity Boys Foot
 DESCRIPTION:Varsity Boys Football - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2564:7438975@northwest-jersey-athletic-conference
+UID:arb:98864922@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261009T190000
 DTEND;TZID=America/New_York:20261009T210000
-SUMMARY:Chatham High School at West Morris Mendham (Varsity Boys Football)
-DESCRIPTION:Varsity Boys Football - Away - 7:00 PM
+SUMMARY:West Morris Mendham vs Chatham High School (Varsity Boys Football)
+DESCRIPTION:Varsity Boys Football - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2594:7431939@northwest-jersey-athletic-conference
@@ -4273,15 +4256,6 @@ SUMMARY:Hackettstown High School vs Vernon Township High School (Junior V
 DESCRIPTION:Junior Varsity Boys Football - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2642:7460305@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261012T160000
-DTEND;TZID=America/New_York:20261012T180000
-SUMMARY:Hanover Park High School vs Mahwah High School (Junior Varsity Bo
- ys Football)
-DESCRIPTION:Junior Varsity Boys Football - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2649:7474634@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261012T160000
@@ -4388,6 +4362,15 @@ DTEND;TZID=America/New_York:20261012T183000
 SUMMARY:Montville High School at West Milford Township High School (Junio
  r Varsity Boys Football)
 DESCRIPTION:Junior Varsity Boys Football - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2642:7460305@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261012T163000
+DTEND;TZID=America/New_York:20261012T183000
+SUMMARY:Hanover Park High School vs Mahwah High School (Junior Varsity Bo
+ ys Football)
+DESCRIPTION:Junior Varsity Boys Football - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2594:7572305@northwest-jersey-athletic-conference
@@ -5197,6 +5180,15 @@ SUMMARY:Chatham High School at Morris Knolls High School (Freshman Boys F
 DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2642:7440984@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261024T090000
+DTEND;TZID=America/New_York:20261024T110000
+SUMMARY:Hanover Park High School vs Pequannock High School (Freshman Boys
+  Football)
+DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2748:7414113@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261024T090000
@@ -5319,6 +5311,15 @@ DTSTART;TZID=America/New_York:20261026T160000
 DTEND;TZID=America/New_York:20261026T180000
 SUMMARY:Hackettstown High School vs Warren Hills Regional School District
   (Junior Varsity Boys Football)
+DESCRIPTION:Junior Varsity Boys Football - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2642:7437643@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261026T160000
+DTEND;TZID=America/New_York:20261026T180000
+SUMMARY:Hanover Park High School vs Pequannock High School (Junior Varsit
+ y Boys Football)
 DESCRIPTION:Junior Varsity Boys Football - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT

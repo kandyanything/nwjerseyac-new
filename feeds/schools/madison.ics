@@ -1159,9 +1159,10 @@ UID:arb:101886950@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260917T173000
 DTEND;TZID=America/New_York:20260917T193000
-SUMMARY:Madison High School vs Pequannock High School (Junior Varsity Gir
- ls Field Hockey)
+SUMMARY:[Canceled] Madison High School vs Pequannock High School (Junior 
+ Varsity Girls Field Hockey)
 DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 5:30 PM
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102627815@northwest-jersey-athletic-conference
@@ -1444,16 +1445,6 @@ SUMMARY:Madison High School at Heritage Middle School (Middle School Girl
 DESCRIPTION:Middle School Girls Field Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:MorristownBeardSchool:event_10243_20260923t200000zapi.veracross.c
- om@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260923T160000
-DTEND;TZID=America/New_York:20260923T180000
-SUMMARY:Morristown Beard School vs Madison High School (Varsity Girls Gir
- ls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ics:MorristownBeardSchool:event_10244_20260923t200000zapi.veracross.c
  om@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
@@ -1462,6 +1453,16 @@ DTEND;TZID=America/New_York:20260923T180000
 SUMMARY:Morristown Beard School at Madison High School (Junior Varsity Gi
  rls Girls Tennis)
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:MorristownBeardSchool:event_10243_20260923t200000zapi.veracross.c
+ om@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260923T160000
+DTEND;TZID=America/New_York:20260923T180000
+SUMMARY:Morristown Beard School vs Madison High School (Varsity Girls Gir
+ ls Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101944875@northwest-jersey-athletic-conference
@@ -3738,22 +3739,13 @@ SUMMARY:Parsippany High School at Madison High School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2913:7626825@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270210T113000
-DTEND;TZID=America/New_York:20270210T133000
-SUMMARY:Villa Walsh Academy at Madison High School (Junior Varsity Girls 
- Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 11:30 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:arb:101978760@northwest-jersey-athletic-conference
+UID:ds:2913:7631436@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270210T160000
 DTEND;TZID=America/New_York:20270210T180000
-SUMMARY:Madison High School vs Villa Walsh Academy (Varsity Girls Girls B
+SUMMARY:Villa Walsh Academy at Madison High School (Varsity Girls Girls B
  asketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:00 PM
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2913:7626796@northwest-jersey-athletic-conference
@@ -3790,15 +3782,6 @@ DTEND;TZID=America/New_York:20270211T210000
 SUMMARY:Madison High School at Morris Catholic High School (Varsity Boys 
  Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2913:7457823@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270211T190000
-DTEND;TZID=America/New_York:20270211T210000
-SUMMARY:Villa Walsh Academy at Madison High School (Varsity Girls Girls B
- asketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102581250@northwest-jersey-athletic-conference
@@ -3963,7 +3946,7 @@ SUMMARY:Parsippany Hills High School vs Madison High School (Junior Varsi
 DESCRIPTION:Junior Varsity Girls Softball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:MorristownBeardSchool:event_9959_20270330t200000zapi.veracross.co
+UID:ics:MorristownBeardSchool:event_9960_20270330t200000zapi.veracross.co
  m@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270330T160000

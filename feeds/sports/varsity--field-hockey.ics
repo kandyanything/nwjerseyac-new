@@ -1110,15 +1110,6 @@ SUMMARY:North Warren vs Passaic Valley High School (Varsity Girls Field H
 DESCRIPTION:Varsity Girls Field Hockey - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:100590888@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260914T160000
-DTEND;TZID=America/New_York:20260914T180000
-SUMMARY:Montville High School vs Morris Knolls High School (Varsity Girls
-  Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:102147703@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260914T160000
@@ -1162,6 +1153,15 @@ DTEND;TZID=America/New_York:20260914T180000
 SUMMARY:Parsippany Hills High School vs Sparta High School (Varsity Girls
   Field Hockey)
 DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100590888@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T163000
+DTEND;TZID=America/New_York:20260914T183000
+SUMMARY:Montville High School vs Morris Knolls High School (Varsity Girls
+  Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101110424@northwest-jersey-athletic-conference
@@ -1458,9 +1458,10 @@ UID:arb:100591102@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260919T100000
 DTEND;TZID=America/New_York:20260919T120000
-SUMMARY:Montville High School vs Somerville High School (Varsity Girls Fi
- eld Hockey)
+SUMMARY:[Canceled] Montville High School vs Somerville High School (Varsi
+ ty Girls Field Hockey)
 DESCRIPTION:Varsity Girls Field Hockey - Home - 10:00 AM
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2634:7485251@northwest-jersey-athletic-conference
@@ -2679,6 +2680,15 @@ DTSTART;TZID=America/New_York:20261012T160000
 DTEND;TZID=America/New_York:20261012T180000
 SUMMARY:Hackettstown High School at Phillipsburg High School (Varsity Gir
  ls Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2768:7630863@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261012T160000
+DTEND;TZID=America/New_York:20261012T180000
+SUMMARY:North Warren at Piscataway High School (Varsity Girls Field Hocke
+ y)
 DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
