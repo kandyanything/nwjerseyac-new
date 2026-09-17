@@ -1,0 +1,97 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Northwest Jersey Athletic Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Northwest Jersey Athletic Conference — Chatham High School V
+ arsity Girls Swimming
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ds:2564:7643223@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261203T163000
+DTEND;TZID=America/New_York:20261203T183000
+SUMMARY:Chatham High School at Morris Hills High School (Varsity Girls Gi
+ rls Swimming)
+DESCRIPTION:Varsity Girls Girls Swimming - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2564:7643225@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261207T193000
+DTEND;TZID=America/New_York:20261207T213000
+SUMMARY:Chatham High School vs Morris Knolls High School (Varsity Girls G
+ irls Swimming)
+DESCRIPTION:Varsity Girls Girls Swimming - Home - 7:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2564:7643230@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261210T143000
+DTEND;TZID=America/New_York:20261210T163000
+SUMMARY:Chatham High School at Randolph High School (Varsity Girls Girls 
+ Swimming)
+DESCRIPTION:Varsity Girls Girls Swimming - Away - 2:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2564:7643233@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261214T193000
+DTEND;TZID=America/New_York:20261214T213000
+SUMMARY:Chatham High School vs Mountain Lakes High School (Varsity Girls 
+ Girls Swimming)
+DESCRIPTION:Varsity Girls Girls Swimming - Home - 7:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2564:7643244@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261222T193000
+DTEND;TZID=America/New_York:20261222T213000
+SUMMARY:Chatham High School vs Trinity Hall (Varsity Girls Girls Swimming)
+DESCRIPTION:Varsity Girls Girls Swimming - Home - 7:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2564:7643238@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270112T193000
+DTEND;TZID=America/New_York:20270112T213000
+SUMMARY:Chatham High School vs Morristown High School (Varsity Girls Girl
+ s Swimming)
+DESCRIPTION:Varsity Girls Girls Swimming - Home - 7:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2564:7643240@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270114T193000
+DTEND;TZID=America/New_York:20270114T213000
+SUMMARY:Chatham High School vs Roxbury High School (Varsity Girls Girls S
+ wimming)
+DESCRIPTION:Varsity Girls Girls Swimming - Home - 7:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2564:7643239@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270120T193000
+DTEND;TZID=America/New_York:20270120T213000
+SUMMARY:Chatham High School vs West Morris Central (Varsity Girls Girls S
+ wimming)
+DESCRIPTION:Varsity Girls Girls Swimming - Home - 7:30 PM
+END:VEVENT
+END:VCALENDAR
