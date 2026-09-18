@@ -24,6 +24,24 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2761:7644981@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261208T180000
+DTEND;TZID=America/New_York:20261208T200000
+SUMMARY:Newton High School vs Pope John XXIII High School (Varsity Boys B
+ oys Swimming)
+DESCRIPTION:Varsity Boys Boys Swimming - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2761:7645010@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261215T180000
+DTEND;TZID=America/New_York:20261215T200000
+SUMMARY:Newton High School at Hackettstown High School (Varsity Boys Boys
+  Swimming)
+DESCRIPTION:Varsity Boys Boys Swimming - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2761:7569315@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261221T160000
@@ -49,5 +67,23 @@ DTEND;TZID=America/New_York:20270112T180000
 SUMMARY:Newton High School at Sparta High School (Varsity Boys Boys Swimm
  ing)
 DESCRIPTION:Varsity Boys Boys Swimming - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2761:7645048@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270114T183000
+DTEND;TZID=America/New_York:20270114T203000
+SUMMARY:Newton High School vs Vernon Township High School (Varsity Boys B
+ oys Swimming)
+DESCRIPTION:Varsity Boys Boys Swimming - Home - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2761:7645057@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270121T160000
+DTEND;TZID=America/New_York:20270121T180000
+SUMMARY:Newton High School vs Parsippany Hills High School (Varsity Boys 
+ Boys Swimming)
+DESCRIPTION:Varsity Boys Boys Swimming - Home - 4:00 PM
 END:VEVENT
 END:VCALENDAR
