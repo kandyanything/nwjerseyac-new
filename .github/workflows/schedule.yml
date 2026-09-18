@@ -1,4 +1,4 @@
-name: Rebuild conference schedule
+﻿name: Rebuild conference schedule
 
 # A FULL rebuild re-fetches every school from source, so it is self-correcting:
 # it can never erode existing games the way the incremental "next few days"
@@ -48,11 +48,15 @@ jobs:
           node scripts/split-schedule.js
           node scripts/build-feeds.js
 
+      - name: Build news feed
+        continue-on-error: true
+        run: node scripts/build-news.js
+
       - name: Commit if anything changed
         run: |
           git config user.name  "njac-schedule-bot"
           git config user.email "actions@github.com"
-          git add data/schedule.json data/schedule/ feeds
+          git add data/schedule.json data/schedule/ feeds data/news.json
           if git diff --cached --quiet; then
             echo "no change - nothing to publish"
             exit 0
