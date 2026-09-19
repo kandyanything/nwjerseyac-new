@@ -6,6 +6,26 @@
 /* ---------- NJAC Vision: one feature, then a grid ---------- */
 .vision-feature { margin-bottom: 22px; }
 
+/* NFHS Network placeholder when no custom thumbnail is provided */
+.vision-thumb--nfhs {
+    background: #0b1929;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    position: relative;
+}
+.vision-thumb--nfhs::before {
+    content: 'NFHS Network';
+    color: rgba(195,201,209,.55);
+    font-size: .8rem;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+}
+
 .vision-feature .vision-item {
     flex: none;
     width: 100%;

@@ -1,65 +1,53 @@
-{
-  "_comment": "NJAC Vision. Only entries in 'videos' are rendered. 'id' is the YouTube video id - the part after youtube.com/watch?v= , /live/ or /embed/ . Optional 'thumb' picks the preview image: omit it for the uploader's matchup graphic, use 'hq1' / 'hq2' / 'hq3' for YouTube's auto-captured frame from 25% / 50% / 75% into the stream, or give a full image URL for your own screenshot. Order here is the order shown on the page.",
+﻿{
+  "_comment": "NJAC Vision. 'type' can be 'youtube' (default) or 'nfhs'. For youtube, 'id' is the YouTube video id. For nfhs, 'id' is the game id and 'url' is the full NFHS Network event URL. Optional 'thumb' is a full URL or local images/... path for the thumbnail. First entry runs large as the feature; rest fill the grid.",
   "videos": [
     {
-      "id": "zl0yIPvuOAU",
-      "title": "MCT Softball Final: Morris Catholic vs Morris Knolls",
-      "date": "2026-05-09",
-      "sport": "Softball"
-    },
-    {
-      "id": "h0vxOGcQJUc",
-      "title": "MCT Girls Soccer Final: Chatham vs Randolph",
-      "date": "2025-10-26",
+      "id": "gamefcae01de9",
+      "type": "nfhs",
+      "url": "https://www.nfhsnetwork.com/events/kinnelon-high-school-kinnelon-nj/gamefcae01de9",
+      "title": "Kinnelon vs. Villa Walsh",
+      "date": "2026-09-18",
       "sport": "Girls Soccer"
     },
     {
-      "id": "cw2RvQbDSu4",
-      "title": "Swimming: Kinnelon vs Mountain Lakes",
-      "date": "2026-01-21",
-      "sport": "Swimming"
+      "id": "gamd9ba432896",
+      "type": "nfhs",
+      "url": "https://www.nfhsnetwork.com/events/west-morris-mendham-high-school-mendham-nj/gamd9ba432896",
+      "title": "Mendham vs. Morris Hills",
+      "date": "2026-09-18",
+      "sport": "Girls Volleyball"
     },
     {
-      "id": "pRMzR4aLNvY",
-      "title": "MCT Girls Basketball Semi-Final: Madison vs Morristown",
-      "date": "2026-02-14",
-      "sport": "Girls Basketball"
+      "id": "gam418dd04bbb",
+      "type": "nfhs",
+      "url": "https://www.nfhsnetwork.com/events/roxbury-high-school-succasunna-nj/gam418dd04bbb",
+      "title": "Parsippany Hills vs. Roxbury",
+      "date": "2026-09-18",
+      "sport": "Field Hockey"
     },
     {
-      "id": "br2mSh3uCgg",
-      "title": "Football: Morris Hills vs Parsippany Hills",
-      "date": "2025-10-18",
+      "id": "gam7f06d60581",
+      "type": "nfhs",
+      "url": "https://www.nfhsnetwork.com/events/morris-knolls-high-school-rockaway-nj/gam7f06d60581",
+      "title": "Vernon vs. Morris Knolls",
+      "date": "2026-09-18",
+      "sport": "Girls Volleyball"
+    },
+    {
+      "id": "gam7c06318750",
+      "type": "nfhs",
+      "url": "https://www.nfhsnetwork.com/events/mahwah-high-school-mahwah-nj/gam7c06318750",
+      "title": "Pequannock vs. Mahwah",
+      "date": "2026-09-18",
       "sport": "Football"
     },
     {
-      "id": "MwnaGldoVeA",
-      "title": "MCT Baseball Final: Delbarton vs Mount Olive",
-      "date": "2026-05-15",
-      "sport": "Baseball"
-    },
-    {
-      "id": "wUmw4LPnJpw",
-      "title": "Girls Basketball: Villa Walsh vs West Morris Central",
-      "date": "2026-01-14",
-      "sport": "Girls Basketball"
-    },
-    {
-      "id": "cEVCdgh84ho",
-      "title": "Girls Lacrosse: Park Regional vs Vernon",
-      "date": "2026-05-20",
-      "sport": "Girls Lacrosse"
-    },
-    {
-      "id": "aoP120mfSF0",
-      "title": "NJSIAA Girls Lacrosse North Group 2 Final: Sparta vs Mendham",
-      "date": "2026-06-09",
-      "sport": "Girls Lacrosse"
-    },
-    {
-      "id": "kecYtDLOQT0",
-      "title": "Boys Basketball: Pequannock vs Roxbury",
-      "date": "2026-01-03",
-      "sport": "Boys Basketball"
+      "id": "gam5164205e74",
+      "type": "nfhs",
+      "url": "https://www.nfhsnetwork.com/events/jefferson-township-high-school-oak-ridge-nj/gam5164205e74",
+      "title": "Wallkill Valley vs. Jefferson",
+      "date": "2026-09-18",
+      "sport": "Football"
     }
   ]
 }
