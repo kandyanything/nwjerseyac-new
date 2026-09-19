@@ -1,58 +1,51 @@
 ﻿{
-  "_comment": "NJAC Vision. 'type' can be 'youtube' (default) or 'nfhs'. For youtube, 'id' is the YouTube video id. For nfhs, 'id' is the game id and 'url' is the full NFHS Network event URL. Optional 'thumb' is a full URL or local images/... path for the thumbnail. First entry runs large as the feature; rest fill the grid.",
+  "_comment": "NJAC Vision. Two formats: YouTube (set 'id' = the watch?v= part, plays inline) or NFHS Network (set 'url' = full NFHS event URL and 'source':'nfhs', opens in new tab — NFHS blocks iframe embedding). Optional 'thumb': full URL or local images/... path. First entry runs large as the feature.",
   "videos": [
     {
-      "id": "gamefcae01de9",
-      "type": "nfhs",
       "url": "https://www.nfhsnetwork.com/events/kinnelon-high-school-kinnelon-nj/gamefcae01de9",
+      "source": "nfhs",
       "title": "Kinnelon vs. Villa Walsh",
       "date": "2026-09-18",
       "sport": "Girls Soccer"
     },
     {
-      "id": "gamd9ba432896",
-      "type": "nfhs",
       "url": "https://www.nfhsnetwork.com/events/west-morris-mendham-high-school-mendham-nj/gamd9ba432896",
+      "source": "nfhs",
       "title": "Mendham vs. Morris Hills",
       "date": "2026-09-18",
       "sport": "Girls Volleyball"
     },
     {
-      "id": "gam418dd04bbb",
-      "type": "nfhs",
       "url": "https://www.nfhsnetwork.com/events/roxbury-high-school-succasunna-nj/gam418dd04bbb",
+      "source": "nfhs",
       "title": "Parsippany Hills vs. Roxbury",
       "date": "2026-09-18",
       "sport": "Field Hockey"
     },
     {
-      "id": "gam7f06d60581",
-      "type": "nfhs",
       "url": "https://www.nfhsnetwork.com/events/morris-knolls-high-school-rockaway-nj/gam7f06d60581",
+      "source": "nfhs",
       "title": "Vernon vs. Morris Knolls",
       "date": "2026-09-18",
       "sport": "Girls Volleyball"
     },
     {
-      "id": "gam7c06318750",
-      "type": "nfhs",
       "url": "https://www.nfhsnetwork.com/events/mahwah-high-school-mahwah-nj/gam7c06318750",
+      "source": "nfhs",
       "title": "Pequannock vs. Mahwah",
       "date": "2026-09-18",
       "sport": "Football"
     },
     {
-      "id": "gam5164205e74",
-      "type": "nfhs",
       "url": "https://www.nfhsnetwork.com/events/jefferson-township-high-school-oak-ridge-nj/gam5164205e74",
+      "source": "nfhs",
       "title": "Wallkill Valley vs. Jefferson",
       "date": "2026-09-18",
       "sport": "Football"
     },
     {
-      "id": "gamb0f48c500e",
-      "type": "nfhs",
       "url": "https://www.nfhsnetwork.com/events/chatham-high-school-chatham-nj/gamb0f48c500e",
+      "source": "nfhs",
       "title": "Sparta vs. Chatham",
       "date": "2026-09-18",
       "sport": "Boys Soccer"
