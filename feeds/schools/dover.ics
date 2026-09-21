@@ -399,15 +399,6 @@ SUMMARY:Dover High School at Essex County West Caldwell Tech (Junior Vars
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2594:7537223@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260909T160000
-DTEND;TZID=America/New_York:20260909T180000
-SUMMARY:Dover High School at Kinnelon High School (Freshman Girls Girls V
- olleyball)
-DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2594:7621410@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260909T160000
@@ -424,6 +415,15 @@ DTEND;TZID=America/New_York:20260909T180000
 SUMMARY:Dover High School at Kinnelon High School (Varsity Girls Girls Vo
  lleyball)
 DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2594:7528789@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260909T160000
+DTEND;TZID=America/New_York:20260909T180000
+SUMMARY:Dover High School at Kinnelon High School (Freshman Girls Girls V
+ olleyball)
+DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2594:7528788@northwest-jersey-athletic-conference
@@ -801,24 +801,6 @@ SUMMARY:Dover High School at John F Kennedy High School (Junior Varsity B
 DESCRIPTION:Junior Varsity Boys Football - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2594:7568487@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260922T100000
-DTEND;TZID=America/New_York:20260922T120000
-SUMMARY:Dover High School at Boonton Middle School (Middle School Girls G
- irls Soccer)
-DESCRIPTION:Middle School Girls Girls Soccer - Away - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2594:7568382@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260922T100000
-DTEND;TZID=America/New_York:20260922T120000
-SUMMARY:Dover High School at Dover Middle School (Middle School Boys Boys
-  Soccer)
-DESCRIPTION:Middle School Boys Boys Soccer - Away - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2594:7536756@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260922T160000
@@ -880,6 +862,24 @@ DTEND;TZID=America/New_York:20260922T180000
 SUMMARY:Dover High School vs Wallkill Valley High School (Varsity Girls G
  irls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2594:7568487@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260922T160000
+DTEND;TZID=America/New_York:20260922T180000
+SUMMARY:Dover High School at Boonton Middle School (Middle School Girls G
+ irls Soccer)
+DESCRIPTION:Middle School Girls Girls Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2594:7568382@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260922T160000
+DTEND;TZID=America/New_York:20260922T180000
+SUMMARY:Dover High School at Dover Middle School (Middle School Boys Boys
+  Soccer)
+DESCRIPTION:Middle School Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2649:7476033@northwest-jersey-athletic-conference
@@ -963,15 +963,6 @@ SUMMARY:Dover High School at North Warren (Middle School Girls Girls Socc
 DESCRIPTION:Middle School Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2594:7568488@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260924T160000
-DTEND;TZID=America/New_York:20260924T180000
-SUMMARY:Dover High School at North Warren Regional Middle Sch (Middle Sch
- ool Girls Girls Soccer)
-DESCRIPTION:Middle School Girls Girls Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2594:7475962@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260924T160000
@@ -979,22 +970,6 @@ DTEND;TZID=America/New_York:20260924T180000
 SUMMARY:Dover High School at High Point High School (Junior Varsity Girls
   Girls Volleyball)
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2594:7536736@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260924T160000
-DTEND;TZID=America/New_York:20260924T180000
-SUMMARY:Dover High School vs TBD (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2594:7536768@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260924T160000
-DTEND;TZID=America/New_York:20260924T180000
-SUMMARY:Dover High School vs TBD (Junior Varsity Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2594:7475426@northwest-jersey-athletic-conference
@@ -1050,14 +1025,13 @@ SUMMARY:Dover High School at Jefferson Township High School (Varsity Girl
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:MorristownBeardSchool:event_10839_20260926t153000zapi.veracross.c
- om@northwest-jersey-athletic-conference
+UID:ds:2594:7543601@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260926T113000
 DTEND;TZID=America/New_York:20260926T133000
-SUMMARY:Morristown Beard School vs Dover High School (Junior Varsity Girl
+SUMMARY:Dover High School at Morristown Beard School (Junior Varsity Girl
  s Girls Volleyball)
-DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 11:30 AM
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ics:MorristownBeardSchool:event_9869_20260926t170000zapi.veracross.co
@@ -1067,6 +1041,24 @@ DTSTART;TZID=America/New_York:20260926T130000
 DTEND;TZID=America/New_York:20260926T150000
 SUMMARY:Morristown Beard School vs Dover High School (Varsity Volleyball)
 DESCRIPTION:Varsity Volleyball - Home - 1:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2594:7568489@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260928T160000
+DTEND;TZID=America/New_York:20260928T180000
+SUMMARY:Dover High School at Bernardsville Middle School (Middle School G
+ irls Girls Soccer)
+DESCRIPTION:Middle School Girls Girls Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2594:7568388@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260928T160000
+DTEND;TZID=America/New_York:20260928T180000
+SUMMARY:Dover High School at Dover Middle School (Middle School Boys Boys
+  Soccer)
+DESCRIPTION:Middle School Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2913:7502470@northwest-jersey-athletic-conference
@@ -1093,24 +1085,6 @@ DTSTART;TZID=America/New_York:20260928T160000
 DTEND;TZID=America/New_York:20260928T180000
 SUMMARY:Dover High School vs TBD (Junior Varsity Boys Football)
 DESCRIPTION:Junior Varsity Boys Football - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2594:7568388@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260928T160000
-DTEND;TZID=America/New_York:20260928T180000
-SUMMARY:Dover High School at Dover Middle School (Middle School Boys Boys
-  Soccer)
-DESCRIPTION:Middle School Boys Boys Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2594:7568489@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260928T160000
-DTEND;TZID=America/New_York:20260928T180000
-SUMMARY:Dover High School at Bernardsville Middle School (Middle School G
- irls Girls Soccer)
-DESCRIPTION:Middle School Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2913:7498246@northwest-jersey-athletic-conference
@@ -1185,6 +1159,15 @@ SUMMARY:Dover High School vs High Point High School (Junior Varsity Boys
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2594:7537225@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260930T160000
+DTEND;TZID=America/New_York:20260930T180000
+SUMMARY:Dover High School at Kinnelon High School (Freshman Girls Girls V
+ olleyball)
+DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2594:7491625@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260930T160000
@@ -1192,15 +1175,6 @@ DTEND;TZID=America/New_York:20260930T180000
 SUMMARY:Dover High School vs Kinnelon High School (Varsity Girls Girls Vo
  lleyball)
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2594:7568492@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260930T160000
-DTEND;TZID=America/New_York:20260930T180000
-SUMMARY:Dover High School at Dover Middle School (Middle School Girls Gir
- ls Soccer)
-DESCRIPTION:Middle School Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2594:7572280@northwest-jersey-athletic-conference
@@ -1221,13 +1195,13 @@ SUMMARY:Dover High School at Kittatinny High School (Middle School Boys B
 DESCRIPTION:Middle School Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2594:7537225@northwest-jersey-athletic-conference
+UID:ds:2594:7568492@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260930T160000
 DTEND;TZID=America/New_York:20260930T180000
-SUMMARY:Dover High School at Kinnelon High School (Freshman Girls Girls V
- olleyball)
-DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:00 PM
+SUMMARY:Dover High School at Dover Middle School (Middle School Girls Gir
+ ls Soccer)
+DESCRIPTION:Middle School Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2594:7537275@northwest-jersey-athletic-conference

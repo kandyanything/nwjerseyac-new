@@ -24,6 +24,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2748:7646050@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261212T090000
+DTEND;TZID=America/New_York:20261212T110000
+SUMMARY:Morristown High School vs Whippany Park High School (Varsity Boys
+  Boys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Home - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:103011940@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261216T173000
@@ -31,6 +40,15 @@ DTEND;TZID=America/New_York:20261216T193000
 SUMMARY:Boonton High School vs Whippany Park High School (Varsity Boys Bo
  ys Wrestling)
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2940:7646051@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261216
+DTEND;VALUE=DATE:20261217
+SUMMARY:Whippany Park High School at Boonton High School (Varsity Boys Bo
+ ys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2685:7539781@northwest-jersey-athletic-conference
