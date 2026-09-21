@@ -618,13 +618,13 @@ SUMMARY:Villa Walsh Academy vs Chatham High School (Freshman Girls Girls
 DESCRIPTION:Freshman Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2745:7562828@northwest-jersey-athletic-conference
+UID:ds:2745:7646773@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261209
-DTEND;VALUE=DATE:20261210
-SUMMARY:Morris Catholic High School vs Newark Vocational High School (Jun
- ior Varsity Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Home
+DTSTART;TZID=America/New_York:20261209T173000
+DTEND;TZID=America/New_York:20261209T193000
+SUMMARY:Morris Catholic High School at West Orange High School (Junior Va
+ rsity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2686:7468510@northwest-jersey-athletic-conference
@@ -2981,24 +2981,6 @@ SUMMARY:Hanover Park High School vs Pequannock High School (Varsity Girls
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2745:7457802@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270104T160000
-DTEND;TZID=America/New_York:20270104T180000
-SUMMARY:Morris Catholic High School at Mountain Lakes High School (Varsit
- y Girls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2745:7562824@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270104T160000
-DTEND;TZID=America/New_York:20270104T180000
-SUMMARY:Morris Catholic High School at Mountain Lakes High School (Junior
-  Varsity Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2748:7534554@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270104T160000
@@ -3144,6 +3126,15 @@ SUMMARY:Hopatcong High School vs Kittatinny High School (Junior Varsity G
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2745:7562824@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270104T173000
+DTEND;TZID=America/New_York:20270104T193000
+SUMMARY:Morris Catholic High School at Mountain Lakes High School (Junior
+  Varsity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2748:7534532@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270104T173000
@@ -3224,6 +3215,15 @@ DTEND;TZID=America/New_York:20270104T210000
 SUMMARY:Hopatcong High School vs Kittatinny High School (Varsity Girls Gi
  rls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2745:7457802@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270104T190000
+DTEND;TZID=America/New_York:20270104T210000
+SUMMARY:Morris Catholic High School at Mountain Lakes High School (Varsit
+ y Girls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:42130:7457745@northwest-jersey-athletic-conference
@@ -4173,6 +4173,15 @@ DTEND;TZID=America/New_York:20270110T140000
 SUMMARY:Morris Hills High School vs Mendham High School (Varsity Girls Gi
  rls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2745:7646784@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270110T130000
+DTEND;TZID=America/New_York:20270110T150000
+SUMMARY:Morris Catholic High School vs Saint John Vianney High School (Ju
+ nior Varsity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2745:7582039@northwest-jersey-athletic-conference
@@ -7441,11 +7450,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2745:7562604@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270202
-DTEND;VALUE=DATE:20270203
+DTSTART;TZID=America/New_York:20270202T190000
+DTEND;TZID=America/New_York:20270202T210000
 SUMMARY:Morris Catholic High School vs TBD (Varsity Girls Girls Basketbal
  l)
-DESCRIPTION:Varsity Girls Girls Basketball - Home
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2751:7515337@northwest-jersey-athletic-conference
@@ -7474,6 +7483,15 @@ DTEND;TZID=America/New_York:20270203T180000
 SUMMARY:Morristown Beard School at Mt. Olive (Varsity Girls Girls Basketb
  all)
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2745:7562842@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270203T173000
+DTEND;TZID=America/New_York:20270203T193000
+SUMMARY:Morris Catholic High School vs Bayonne High School (Junior Varsit
+ y Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2751:7515390@northwest-jersey-athletic-conference
@@ -7511,15 +7529,6 @@ DTEND;TZID=America/New_York:20270203T210000
 SUMMARY:Morris Catholic High School vs Bayonne High School (Varsity Girls
   Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2745:7562842@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270203
-DTEND;VALUE=DATE:20270204
-SUMMARY:Morris Catholic High School vs Bayonne High School (Junior Varsit
- y Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Home
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103337950@northwest-jersey-athletic-conference
@@ -7781,6 +7790,15 @@ DTEND;TZID=America/New_York:20270205T183000
 SUMMARY:Dover High School at Hawthorne High School (Varsity Girls Girls B
  asketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2745:7646804@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270205T173000
+DTEND;TZID=America/New_York:20270205T193000
+SUMMARY:Morris Catholic High School at Pequannock High School (Junior Var
+ sity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2790:7538953@northwest-jersey-athletic-conference
@@ -8594,15 +8612,6 @@ SUMMARY:Pope John XXIII High School at Chatham High School (Varsity Girls
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2745:7562826@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270211T190000
-DTEND;TZID=America/New_York:20270211T210000
-SUMMARY:Morris Catholic High School at Pequannock High School (Junior Var
- sity Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:42130:7457766@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270211T190000
@@ -8928,6 +8937,15 @@ SUMMARY:Jefferson Township High School at North Warren (Freshman Girls Gi
 DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:42130:7457767@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270216T160000
+DTEND;TZID=America/New_York:20270216T180000
+SUMMARY:Morris County School of Technology vs Whippany Park High School (
+ Varsity Girls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2790:7578729@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270216T160000
@@ -8961,15 +8979,6 @@ DTSTART;TZID=America/New_York:20270216T160000
 DTEND;TZID=America/New_York:20270216T180000
 SUMMARY:Wallkill Valley High School at Sussex County Technical High Schoo
  l (Varsity Girls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2940:7457767@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270216T160000
-DTEND;TZID=America/New_York:20270216T180000
-SUMMARY:Whippany Park High School at Morris County School of Technology (
- Varsity Girls Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -9083,6 +9092,24 @@ SUMMARY:Kittatinny High School vs Lenape Valley High School (Junior Varsi
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2745:7646818@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270216T173000
+DTEND;TZID=America/New_York:20270216T193000
+SUMMARY:Morris Catholic High School vs Rutgers Prep School (Junior Varsit
+ y Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:42130:7646386@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270216T173000
+DTEND;TZID=America/New_York:20270216T193000
+SUMMARY:Morris County School of Technology vs Whippany Park High School (
+ Junior Varsity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2751:7515382@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270216T173000
@@ -9125,15 +9152,6 @@ DTSTART;TZID=America/New_York:20270216T173000
 DTEND;TZID=America/New_York:20270216T193000
 SUMMARY:Wallkill Valley High School at Sussex County Technical High Schoo
  l (Junior Varsity Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2940:7646386@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270216T173000
-DTEND;TZID=America/New_York:20270216T193000
-SUMMARY:Whippany Park High School at Morris County School of Technology (
- Junior Varsity Girls Girls Basketball)
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -9224,15 +9242,6 @@ DTSTART;TZID=America/New_York:20270216T190000
 DTEND;TZID=America/New_York:20270216T210000
 SUMMARY:Morris Catholic High School vs Rutgers Prep School (Varsity Girls
   Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:42130:7457767@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270216T190000
-DTEND;TZID=America/New_York:20270216T210000
-SUMMARY:Morris County School of Technology vs Whippany Park High School (
- Varsity Girls Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -9786,6 +9795,15 @@ DTEND;TZID=America/New_York:20270222T193000
 SUMMARY:Academy of Saint Elizabeth vs Neptune High School (Junior Varsity
   Girls Girls Basketball)
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2745:7646904@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270223T173000
+DTEND;TZID=America/New_York:20270223T193000
+SUMMARY:Morris Catholic High School at Gill Saint Bernards School (Junior
+  Varsity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2745:7583016@northwest-jersey-athletic-conference
