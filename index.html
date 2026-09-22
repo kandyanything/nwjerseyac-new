@@ -1,493 +1,202 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Northwest Jersey Athletic Conference - 39 member high schools across Morris, Sussex and Warren counties. Schedules, video, news and conference information.">
-    <title>Northwest Jersey Athletic Conference</title>
-    <link rel="canonical" href="https://nwjerseyac.org/">
-
-    <link rel="icon" href="/favicon.ico" sizes="any">
-    <link rel="icon" type="image/png" sizes="32x32" href="/images/icons/favicon-32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/images/icons/favicon-16.png">
-    <link rel="apple-touch-icon" href="/images/icons/apple-touch-icon.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <meta name="theme-color" content="#12275a">
-
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Northwest Jersey Athletic Conference">
-    <meta property="og:title" content="Northwest Jersey Athletic Conference">
-    <meta property="og:description" content="Northwest Jersey Athletic Conference - 39 member high schools across Morris, Sussex and Warren counties. Schedules, video, news and conference information.">
-    <meta property="og:url" content="https://nwjerseyac.org/">
-    <meta property="og:image" content="https://nwjerseyac.org/images/social-card.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="Northwest Jersey Athletic Conference">
-
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Northwest Jersey Athletic Conference">
-    <meta name="twitter:description" content="Northwest Jersey Athletic Conference - 39 member high schools across Morris, Sussex and Warren counties. Schedules, video, news and conference information.">
-    <meta name="twitter:image" content="https://nwjerseyac.org/images/social-card.png">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/redesign.css">
-    <link rel="stylesheet" href="css/redesign-components.css">
-    <link rel="stylesheet" href="css/redesign-sections.css">
-    <script>document.documentElement.className += ' js-reveal';</script>
-    <script src="js/redesign-intro.js"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>NJAC · Northwest Jersey Athletic Conference</title>
+<meta name="description" content="Northwest Jersey Athletic Conference — 39 member high schools across Morris, Sussex and Warren counties. Scores, schedules, NJAC Vision video and news.">
+<meta name="theme-color" content="#06070a">
+<link rel="icon" href="favicon.ico">
+<link rel="apple-touch-icon" href="images/icons/apple-touch-icon.png">
+<meta property="og:title" content="NJAC · A Tradition of Excellence">
+<meta property="og:image" content="images/social-card.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:wght@500;600;700;800&family=Barlow:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="css/platinum.css">
 </head>
 <body>
 
-    <div class="topbar">
-        <div class="wrap">
-            <span><strong>NJAC</strong> &nbsp;A Tradition of Excellence</span>
-            <nav class="topbar-links" aria-label="Utility">
-                <a href="info.html">Conference Info</a>
-                <a href="links.html">External Links</a>
-                <a href="websites.html">School Websites</a>
-            </nav>
-        </div>
+<!-- Hero -->
+<section class="hero" aria-label="Welcome">
+  <div class="slides"></div>
+  <div class="veil"></div>
+  <div class="blade" aria-hidden="true"></div>
+  <div class="wrap">
+    <div class="hero-copy">
+      <span class="eyebrow">Northwest Jersey Athletic Conference</span>
+      <h1 class="display hero-title"><span class="line chrome-text">A Tradition</span><span class="line">of <span class="line--accent" style="display:inline">Excellence</span></span></h1>
+      <p class="hero-sub">Thirty-nine public and private high schools across Morris, Sussex and Warren counties, competing with a shared commitment to sportsmanship and education-based athletics.</p>
+      <div class="hero-ctas">
+        <a class="btn btn--chrome" href="schedule.html">This Week's Schedule <span class="arrow">→</span></a>
+        <a class="btn btn--ghost" href="videos.html">Watch NJAC Vision</a>
+      </div>
+      <div class="hero-progress" role="tablist" aria-label="Hero photos"></div>
     </div>
+    <aside class="nextup" aria-label="Next up">
+      <div class="nextup-head"><h3><i class="live-dot" aria-hidden="true"></i> Next Up</h3><a href="schedule.html">Full week →</a></div>
+      <ul></ul>
+    </aside>
+  </div>
+</section>
 
-    <header class="masthead">
-        <div class="masthead-strip" aria-hidden="true"></div>
-        <div class="wrap">
-            <a class="masthead-brand" href="index.html" aria-label="NJAC home">
-                <img class="masthead-logo" src="images/njac-logo.png" alt="Northwest Jersey Athletic Conference logo">
-                <span class="masthead-text">
-                    <span class="name">Northwest Jersey Athletic Conference</span>
-                </span>
-            </a>
-        </div>
-    </header>
+<!-- Stat band -->
+<section class="statband" aria-label="Conference at a glance">
+  <div class="wrap">
+    <div class="stat"><span class="num chrome-text" data-stat="schools">39</span><span class="lbl">Member Schools</span></div>
+    <div class="stat"><span class="num chrome-text" data-stat="counties">3</span><span class="lbl">Counties</span></div>
+    <div class="stat"><span class="num chrome-text" data-stat="sports" data-suffix="+">20+</span><span class="lbl">Sports Sponsored</span></div>
+    <div class="stat"><span class="num chrome-text" data-stat="games">9,800</span><span class="lbl">Games Scheduled This Year</span></div>
+  </div>
+</section>
 
-    <nav class="mainnav" aria-label="Primary">
-        <div class="wrap">
-            <button class="nav-toggle" aria-expanded="false" aria-controls="primary-menu">Menu</button>
-            <ul class="navlist" id="primary-menu">
-                <li><a href="index.html" aria-current="page">Home</a></li>
-                <li><a href="#member-schools">Schedules by School</a></li>
-                <li><a href="calendar.html">Conference Schedule</a></li>
-                <li class="has-sub">
-                    <a href="#member-schools">Member Schools</a>
-                    <ul class="subnav">
-                        <li><a href="#member-schools">Schedules by School</a></li>
-                        <li><a href="calendar.html">Conference Calendar</a></li>
-                        <li><a href="websites.html">School Websites</a></li>
-                    </ul>
-                </li>
-                <li class="has-sub">
-                    <a href="#standings">Standings</a>
-                    <ul class="subnav">
-                        <li><a href="#standings">All Sports</a></li>
-                        <li><a href="#honors">Honors</a></li>
-                        <li><a href="#leadership">NJAC Leadership</a></li>
-                    </ul>
-                </li>
-                <li class="has-sub">
-                    <a href="#njac-vision">Media</a>
-                    <ul class="subnav">
-                        <li><a href="#njac-vision">NJAC Vision</a></li>
-                        <li><a href="videos.html">All Videos</a></li>
-                        <li><a href="#njac-news">NJAC News</a></li>
-                    </ul>
-                </li>
-                <li class="has-sub">
-                    <a href="info.html">Conference</a>
-                    <ul class="subnav">
-                        <li><a href="#directory">Athletic Directors</a></li>
-                        <li><a href="info.html">About the NJAC</a></li>
-                        <li><a href="info.html">Sports Offered</a></li>
-                        <li><a href="websites.html">School Websites</a></li>
-                        <li><a href="links.html">External Links</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-    </nav>
+<!-- Member schools -->
+<section class="section section--tight" id="schools" aria-labelledby="schools-h">
+  <div class="wrap">
+    <div class="section-head">
+      <div><span class="eyebrow">Member Schools</span><h2 class="display" id="schools-h"><span class="school-count">Thirty-Nine</span> <span class="chrome-text">Strong</span></h2></div>
+      <a class="btn btn--ghost more" href="schools.html">All schools &amp; ADs <span class="arrow">→</span></a>
+    </div>
+  </div>
+  <div class="crest-marquee-wrap"></div>
+</section>
 
-    <section class="hero">
-        <div class="wrap hero-inner">
-            <div>
-                <div class="eyebrow">Northwest Jersey Athletic Conference</div>
-                <h1>A Tradition of Excellence</h1>
-                <p>Thirty-nine public and private high schools across Morris, Sussex and Warren counties, competing with a shared commitment to sportsmanship and education-based athletics.</p>
-                <div class="hero-actions">
-                    <a class="btn" href="schools.html">View Schedules</a>
-                    <a class="btn btn--ghost" href="#njac-vision">Watch NJAC Vision</a>
-                </div>
-            </div>
-            <div class="hero-facts">
-                <div class="hero-fact"><b>39</b><span>Member Schools</span></div>
-                <div class="hero-fact"><b>3</b><span>Counties</span></div>
-                <div class="hero-fact"><b>20+</b><span>Sports</span></div>
-            </div>
-        </div>
-    </section>
+<!-- Schedule -->
+<section class="section" id="schedule" aria-labelledby="sched-h">
+  <div class="wrap">
+    <div class="section-head">
+      <div><span class="eyebrow">Conference Schedule</span><h2 class="display" id="sched-h">This <span class="chrome-text">Week</span></h2></div>
+      <a class="btn btn--ghost more" href="schedule.html">Seven-day view <span class="arrow">→</span></a>
+    </div>
+    <div class="sched-days" role="tablist"></div>
+    <div class="sched-filters"></div>
+    <div class="game-list"></div>
 
-    <section class="band band--sky" id="member-schools">
-        <div class="wrap">
-            <div class="band-head">
-                <div>
-                    <div class="eyebrow">Athletics</div>
-                    <h2>Individual School Schedules</h2>
-                </div>
-                <a class="btn" href="schools.html">All Schools &amp; Links</a>
-            </div>
-            <div class="schools-grid">
-                    <a class="school-tile" href="https://www.arbiterlive.com/Teams?entityId=100" target="_blank" rel="noopener">
-                        <img src="images/logos/optimized/academy-saint-elizabeth.png" alt="Academy of Saint Elizabeth logo" onerror="this.style.display='none'">
-                        <span class="nm">Academy of Saint Elizabeth</span>
-                    </a>
-                    <a class="school-tile" href="https://www.arbiterlive.com/Teams?entityId=2189" target="_blank" rel="noopener">
-                        <img src="images/logos/optimized/boonton.png" alt="Boonton High School logo" onerror="this.style.display='none'">
-                        <span class="nm">Boonton High School</span>
-                    </a>
-                    <a class="school-tile" href="https://chathamathletics.digitalsports.com/pages/schedule/schedule.php" target="_blank" rel="noopener">
-                        <img src="images/logos/optimized/chatham.png" alt="Chatham High School logo" onerror="this.style.display='none'">
-                        <span class="nm">Chatham High School</span>
-                    </a>
-                    <a class="school-tile" href="https://delbartonathletics.org/calendar" target="_blank" rel="noopener">
-                        <img src="images/logos/optimized/delbarton.png" alt="Delbarton School logo" onerror="this.style.display='none'">
-                        <span class="nm">Delbarton School</span>
-                    </a>
-                    <a class="school-tile" href="https://72334.digitalsports.com/" target="_blank" rel="noopener">
-                        <img src="images/logos/optimized/dover.png" alt="Dover High School logo" onerror="this.style.display='none'">
-                        <span class="nm">Dover High School</span>
-                    </a>
-                    <a class="school-tile" href="https://65290.digitalsports.com/" target="_blank" rel="noopener">
-                        <img src="images/logos/optimized/hackettstown.png" alt="Hackettstown High School logo" onerror="this.style.display='none'">
-                        <span class="nm">Hackettstown High School</span>
-                    </a>
-                    <a class="school-tile" href="https://hpathletics.digitalsports.com/pages/calendar/schedule.php" target="_blank" rel="noopener">
-                        <img src="images/logos/optimized/hanover-park.png" alt="Hanover Park High School logo" onerror="this.style.display='none'">
-                        <span class="nm">Hanover Park High School</span>
-                    </a>
-                    <a class="school-tile" href="https://65901.digitalsports.com/pages/schedule/schedule.php" target="_blank" rel="noopener">
-                        <img src="images/logos/optimized/high-point.png" alt="High Point High School logo" onerror="this.style.display='none'">
-                        <span class="nm">High Point High School</span>
-                    </a>
-                    <a class="school-tile" href="https://63574.digitalsports.com/pages/schedule/schedule.php" target="_blank" rel="noopener">
-                        <img src="images/logos/optimized/hopatcong.png" alt="Hopatcong High School logo" onerror="this.style.display='none'">
-                        <span class="nm">Hopatcong High School</span>
-                    </a>
-                    <a class="school-tile" href="https://64857.digitalsports.com/pages/schedule/schedule.php" target="_blank" rel="noopener">
-                        <img src="images/logos/optimized/jefferson.png" alt="Jefferson Township High School logo" onerror="this.style.display='none'">
-                        <span class="nm">Jefferson Township High School</span>
-                    </a>
-                    <a class="school-tile" href="https://76325.digitalsports.com/pages/schedule/schedule.php" target="_blank" rel="noopener">
-                        <img src="images/logos/optimized/kinnelon.png" alt="Kinnelon High School logo" onerror="this.style.display='none'">
-                        <span class="nm">Kinnelon High School</span>
-                    </a>
-                    <a class="school-tile" href="https://kittatinnyregional.digitalsports.com/" target="_blank" rel="noopener">
-                        <img src="images/logos/optimized/kittatinny.png" alt="Kittatinny High School logo" onerror="this.style.display='none'">
-                        <span class="nm">Kittatinny High School</span>
-                    </a>
-                    <a class="school-tile" href="https://75983.digitalsports.com/pages/schedule/schedule.php" target="_blank" rel="noopener">
-                        <img src="images/logos/optimized/lenape-valley.png" alt="Lenape Valley High School logo" onerror="this.style.display='none'">
-                        <span class="nm">Lenape Valley High School</span>
-                    </a>
-                    <a class="school-tile" href="https://arbiterlive.com/Teams?entityId=13538" target="_blank" rel="noopener">
-                        <img src="images/logos/optimized/madison.png" alt="Madison High School logo" onerror="this.style.display='none'">
-                        <span class="nm">Madison High School</span>
-                    </a>
-                    <a class="school-tile" href="https://www.arbiterlive.com/School/Calendar/15106" target="_blank" rel="noopener">
-                        <img src="images/logos/optimized/montville.png" alt="Montville High School logo" onerror="this.style.display='none'">
-                        <span class="nm">Montville High School</span>
-                    </a>
-                    <a class="school-tile" href="https://51450.digitalsports.com/pages/schedule/schedule.php" target="_blank" rel="noopener">
-                        <img src="images/logos/optimized/morris-catholic.png" alt="Morris Catholic High School logo" onerror="this.style.display='none'">
-                        <span class="nm">Morris Catholic High School</span>
-                    </a>
-                    <a class="school-tile" href="https://203891.digitalsports.com/pages/schedule/schedule.php" target="_blank" rel="noopener">
-                        <img src="images/logos/optimized/morris-county-school-of-technology.png" alt="Morris County School of Technology logo" onerror="this.style.display='none'">
-                        <span class="nm">Morris County School of Technology</span>
-                    </a>
-                    <a class="school-tile" href="https://www.arbiterlive.com/School/15188" target="_blank" rel="noopener">
-                        <img src="images/logos/optimized/morris-hills.png" alt="Morris Hills High School logo" onerror="this.style.display='none'">
-                        <span class="nm">Morris Hills High School</span>
-                    </a>
-                    <a class="school-tile" href="https://www.arbiterlive.com/Teams?entityId=15189" target="_blank" rel="noopener">
-                        <img src="images/logos/optimized/morris-knolls.png" alt="Morris Knolls High School logo" onerror="this.style.display='none'">
-                        <span class="nm">Morris Knolls High School</span>
-                    </a>
-                    <a class="school-tile" href="https://calendar.google.com/calendar/u/0/embed?src=irm460fe1evruqaeb302f0kkksh7gmv1@import.calendar.google.com&amp;ctz=America/New_York" target="_blank" rel="noopener">
-                        <img src="images/logos/optimized/morristown-beard.png" alt="Morristown Beard School logo" onerror="this.style.display='none'">
-                        <span class="nm">Morristown Beard School</span>
-                    </a>
-                    <a class="school-tile" href="https://51460.digitalsports.com/" target="_blank" rel="noopener">
-                        <img src="images/logos/optimized/morristown.png" alt="Morristown High School logo" onerror="this.style.display='none'">
-                        <span class="nm">Morristown High School</span>
-                    </a>
-                    <a class="school-tile" href="https://51339.digitalsports.com/pages/schedule/schedule.php" target="_blank" rel="noopener">
-                        <img src="images/logos/optimized/mount-olive.png" alt="Mount Olive High School logo" onerror="this.style.display='none'">
-                        <span class="nm">Mount Olive High School</span>
-                    </a>
-                    <a class="school-tile" href="https://51599.digitalsports.com/pages/schedule/schedule.php" target="_blank" rel="noopener">
-                        <img src="images/logos/optimized/mountain-lakes.png" alt="Mountain Lakes High School logo" onerror="this.style.display='none'">
-                        <span class="nm">Mountain Lakes High School</span>
-                    </a>
-                    <a class="school-tile" href="https://51020.digitalsports.com/" target="_blank" rel="noopener">
-                        <img src="images/logos/optimized/newton.png" alt="Newton High School logo" onerror="this.style.display='none'">
-                        <span class="nm">Newton High School</span>
-                    </a>
-                    <a class="school-tile" href="https://52403.digitalsports.com/pages/schedule/schedule.php" target="_blank" rel="noopener">
-                        <img src="images/logos/optimized/north-warren.png" alt="North Warren logo" onerror="this.style.display='none'">
-                        <span class="nm">North Warren</span>
-                    </a>
-                    <a class="school-tile" href="https://parsippanyathletics.digitalsports.com/pages/calendar/schedule.php" target="_blank" rel="noopener">
-                        <img src="images/logos/optimized/parsippany.png" alt="Parsippany High School logo" onerror="this.style.display='none'">
-                        <span class="nm">Parsippany High School</span>
-                    </a>
-                    <a class="school-tile" href="https://49093.digitalsports.com/pages/schedule/schedule.php" target="_blank" rel="noopener">
-                        <img src="images/logos/optimized/parsippany-hills.png" alt="Parsippany Hills High School logo" onerror="this.style.display='none'">
-                        <span class="nm">Parsippany Hills High School</span>
-                    </a>
-                    <a class="school-tile" href="https://www.arbiterlive.com/School/Calendar/17870" target="_blank" rel="noopener">
-                        <img src="images/logos/optimized/pequannock.png" alt="Pequannock High School logo" onerror="this.style.display='none'">
-                        <span class="nm">Pequannock High School</span>
-                    </a>
-                    <a class="school-tile" href="https://arbiterlive.com/Teams?entityId=18382" target="_blank" rel="noopener">
-                        <img src="images/logos/optimized/pope-john.png" alt="Pope John XXIII High School logo" onerror="this.style.display='none'">
-                        <span class="nm">Pope John XXIII High School</span>
-                    </a>
-                    <a class="school-tile" href="https://randolphathletics.digitalsports.com/pages/calendar/schedule.php" target="_blank" rel="noopener">
-                        <img src="images/logos/optimized/randolph.png" alt="Randolph High School logo" onerror="this.style.display='none'">
-                        <span class="nm">Randolph High School</span>
-                    </a>
-                    <a class="school-tile" href="https://roxburyathletics.digitalsports.com/" target="_blank" rel="noopener">
-                        <img src="images/logos/optimized/roxbury.png" alt="Roxbury High School logo" onerror="this.style.display='none'">
-                        <span class="nm">Roxbury High School</span>
-                    </a>
-                    <a class="school-tile" href="https://spartaathletics.digitalsports.com/pages/calendar/schedule.php" target="_blank" rel="noopener">
-                        <img src="images/logos/optimized/sparta.png" alt="Sparta High School logo" onerror="this.style.display='none'">
-                        <span class="nm">Sparta High School</span>
-                    </a>
-                    <a class="school-tile" href="https://sussextechsports.digitalsports.com/" target="_blank" rel="noopener">
-                        <img src="images/logos/optimized/sussex-county-school-of-technology.png" alt="Sussex County Tech High School logo" onerror="this.style.display='none'">
-                        <span class="nm">Sussex County Tech High School</span>
-                    </a>
-                    <a class="school-tile" href="https://56295.digitalsports.com/" target="_blank" rel="noopener">
-                        <img src="images/logos/optimized/vernon.png" alt="Vernon Township High School logo" onerror="this.style.display='none'">
-                        <span class="nm">Vernon Township High School</span>
-                    </a>
-                    <a class="school-tile" href="https://villawalsh.digitalsports.com/pages/schedule/schedule.php" target="_blank" rel="noopener">
-                        <img src="images/logos/optimized/villa-walsh.png" alt="Villa Walsh Academy logo" onerror="this.style.display='none'">
-                        <span class="nm">Villa Walsh Academy</span>
-                    </a>
-                    <a class="school-tile" href="https://wvrhsrangersathletics.digitalsports.com/" target="_blank" rel="noopener">
-                        <img src="images/logos/optimized/wallkill-valley.png" alt="Wallkill Valley High School logo" onerror="this.style.display='none'">
-                        <span class="nm">Wallkill Valley High School</span>
-                    </a>
-                    <a class="school-tile" href="https://arbiterlive.com/Teams?entityId=25317" target="_blank" rel="noopener">
-                        <img src="images/logos/optimized/west-morris-central.png" alt="West Morris Central logo" onerror="this.style.display='none'">
-                        <span class="nm">West Morris Central</span>
-                    </a>
-                    <a class="school-tile" href="https://www.arbiterlive.com/Teams?entityId=14434" target="_blank" rel="noopener">
-                        <img src="images/logos/optimized/west-morris-mendham.png" alt="West Morris Mendham logo" onerror="this.style.display='none'">
-                        <span class="nm">West Morris Mendham</span>
-                    </a>
-                    <a class="school-tile" href="https://wpathletics.digitalsports.com/pages/calendar/schedule.php" target="_blank" rel="noopener">
-                        <img src="images/logos/optimized/whippany-park.png" alt="Whippany Park High School logo" onerror="this.style.display='none'">
-                        <span class="nm">Whippany Park High School</span>
-                    </a>
-            </div>
+    <div class="season-gate">
+      <div class="sg-copy">
+        <span class="eyebrow">This is only the next seven days</span>
+        <h3>The Full <span class="chrome-text">Season</span></h3>
+        <p>Every NJAC contest from August through May, in one searchable calendar — then print it or subscribe so it lands in your own calendar automatically.</p>
+        <div class="sg-stats">
+          <div><b data-gate="games">10,118</b><span>Games</span></div>
+          <div><b data-gate="schools">39</b><span>Schools</span></div>
+          <div><b data-gate="sports">60</b><span>Sports</span></div>
+          <div><b data-gate="months">10</b><span>Months</span></div>
         </div>
-    </section>
+        <div class="sg-actions">
+          <a class="btn btn--chrome" href="calendar.html">Open the full schedule <span class="arrow">→</span></a>
+          <a class="btn btn--ghost" href="feeds/all.ics">Subscribe (.ics)</a>
+        </div>
+      </div>
+      <div class="sg-filters">
+        <span class="sg-label">Filter it by</span>
+        <ul>
+          <li>Sport <b data-gate="sports">60</b></li>
+          <li>School <b data-gate="schools">39</b></li>
+          <li>Level <em>Varsity · JV · Fr · MS</em></li>
+          <li>Month <b data-gate="months">10</b></li>
+          <li>Any date <em>Jump to a day</em></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <section class="band njac-today" id="today">
-        <div class="wrap">
-            <div class="band-head">
-                <div>
-                    <div class="eyebrow">Conference Schedule</div>
-                    <h2>Today at a Glance</h2>
-                </div>
-                <a class="today-more" href="calendar.html">Full Calendar</a>
-            </div>
-            <p class="today-lede"></p>
-            <div class="today-days" role="tablist" aria-label="Upcoming days"></div>
-            <div class="today-panel"></div>
-        </div>
-    </section>
-    <section class="band band--navy njac-vision" id="njac-vision" data-limit="7">
-        <div class="wrap">
-            <div class="band-head">
-                <div>
-                    <div class="eyebrow">Game Video</div>
-                    <h2>NJAC Vision</h2>
-                </div>
-                <a class="vision-more" href="videos.html">All Videos</a>
-            </div>
-            <div class="vision-feature"></div>
-            <div class="vision-grid"></div>
-        </div>
-    </section>
+<!-- News -->
+<section class="section section--panel" id="news" aria-labelledby="news-h">
+  <div class="wrap">
+    <div class="section-head">
+      <div><span class="eyebrow">Around the Conference</span><h2 class="display" id="news-h">NJAC <span class="chrome-text">News</span></h2></div>
+      <a class="btn btn--ghost more" href="news.html">All stories <span class="arrow">→</span></a>
+    </div>
+    <div class="news-grid"></div>
+  </div>
+</section>
 
-    <section class="band band--tint njac-news" id="njac-news">
-        <div class="wrap">
-            <div class="band-head">
-                <div>
-                    <div class="eyebrow">Around the Conference</div>
-                    <h2>NJAC News</h2>
-                </div>
-                <div class="news-nav">
-                    <button type="button" class="news-prev" aria-label="Previous news" hidden>&#8249;</button>
-                    <button type="button" class="news-next" aria-label="Next news" hidden>&#8250;</button>
-                </div>
-            </div>
-            <div class="news-track"></div>
-            <div class="news-dots" hidden></div>
-        </div>
-    </section>
+<!-- NJAC Vision -->
+<section class="section" id="vision" aria-labelledby="vision-h">
+  <div class="wrap">
+    <div class="section-head">
+      <div><span class="eyebrow">Game Film</span><h2 class="display" id="vision-h">NJAC <span class="chrome-text">Vision</span></h2></div>
+      <a class="btn btn--ghost more" href="videos.html">All broadcasts <span class="arrow">→</span></a>
+    </div>
+    <div class="vision-grid"></div>
+  </div>
+</section>
 
-    <section class="band band--navy njac-standings" id="standings">
-        <div class="wrap">
-            <div class="band-head">
-                <div>
-                    <div class="eyebrow">Conference Standings</div>
-                    <h2>Standings</h2>
-                </div>
-                <span class="standings-season"></span>
-            </div>
-            <p class="standings-intro">Conference standings are published by NJ.com. Choose a sport to open its current NJAC table.</p>
-            <div class="standings-groups"></div>
-        </div>
-    </section>
+<!-- Standings -->
+<section class="section section--panel" id="standings" aria-labelledby="standings-h">
+  <div class="wrap">
+    <div class="section-head">
+      <div><span class="eyebrow">By Season</span><h2 class="display" id="standings-h"><span class="chrome-text">Standings</span></h2></div>
+      <a class="btn btn--ghost more" href="scores.html">All standings <span class="arrow">→</span></a>
+    </div>
+    <div class="seasons seasons--standings"></div>
+  </div>
+</section>
 
-    <section class="band njac-leadership" id="leadership">
-        <div class="wrap">
-            <div class="band-head">
-                <div>
-                    <div class="eyebrow">Conference</div>
-                    <h2>NJAC Leadership</h2>
-                </div>
-            </div>
-            <div class="leadership-grid"></div>
-        </div>
-    </section>
+<!-- Scores -->
+<section class="section" id="scores" aria-labelledby="scores-h">
+  <div class="wrap">
+    <div class="section-head">
+      <div><span class="eyebrow">By Season · NJ.com</span><h2 class="display" id="scores-h"><span class="chrome-text">Scores</span></h2></div>
+      <a class="btn btn--ghost more" href="scores.html">All scores <span class="arrow">→</span></a>
+    </div>
+    <div class="seasons seasons--scores"></div>
+  </div>
+</section>
 
-    <section class="band band--tint njac-directory" id="directory">
-        <div class="wrap">
-            <div class="band-head">
-                <div>
-                    <div class="eyebrow">Contacts</div>
-                    <h2>Athletic Directors</h2>
-                </div>
-            </div>
-            <div class="directory-head">
-                <span class="directory-count"></span>
-            </div>
-            <div class="directory-grid"></div>
-        </div>
-    </section>
+<!-- Leadership -->
+<section class="section section--panel" id="leadership" aria-labelledby="lead-h">
+  <div class="wrap">
+    <div class="section-head">
+      <div><span class="eyebrow">Conference Office</span><h2 class="display" id="lead-h">NJAC <span class="chrome-text">Leadership</span></h2></div>
+      <a class="btn btn--ghost more" href="schools.html#directory">Athletic Directors <span class="arrow">→</span></a>
+    </div>
+    <div class="leaders"></div>
+  </div>
+</section>
 
-    <section class="band njac-honors" id="honors">
-        <div class="wrap">
-            <div class="band-head">
-                <div>
-                    <div class="eyebrow">Recognition</div>
-                    <h2>Honors</h2>
-                </div>
-            </div>
-            <div class="honors-grid"></div>
-        </div>
-    </section>
+<!-- Athletic Directors -->
+<section class="section" id="directory" aria-labelledby="dir-h">
+  <div class="wrap">
+    <div class="section-head">
+      <div><span class="eyebrow">Conference Directory</span><h2 class="display" id="dir-h">Athletic <span class="chrome-text">Directors</span></h2></div>
+      <a class="btn btn--ghost more" href="schools.html#directory">Search &amp; filter <span class="arrow">→</span></a>
+    </div>
+    <div class="school-grid"></div>
+  </div>
+</section>
 
-    <section class="band band--tint" id="about">
-        <div class="wrap split">
-            <div>
-                <div class="eyebrow" style="color:var(--red);font-size:.78rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;margin-bottom:6px;">About Us</div>
-                <h2 style="padding-bottom:12px;position:relative;">Our Mission</h2>
-                <p>The Northwest Jersey Athletic Conference is comprised of 39 public and private high schools located in Morris, Sussex, and Warren counties in New Jersey. Our member schools are dedicated to promoting excellence in athletics and sportsmanship.</p>
-                <p>The conference strives to promote fair competition among member schools, provide opportunities for student-athletes to develop their skills, foster positive relationships between schools and communities, and maintain high standards of integrity in all athletic programs.</p>
-                <p>All NJAC member schools belong to the New Jersey State Interscholastic Athletic Association (NJSIAA) and compete in accordance with NJSIAA rules and regulations.</p>
-            </div>
-            <aside class="factcard">
-                <h3>Conference at a Glance</h3>
-                <dl>
-                    <dt>Schools</dt><dd>39 public and private</dd>
-                    <dt>Counties</dt><dd>Morris, Sussex, Warren</dd>
-                    <dt>Morris</dt><dd>27 schools</dd>
-                    <dt>Sussex</dt><dd>10 schools</dd>
-                    <dt>Warren</dt><dd>2 schools</dd>
-                    <dt>Affiliation</dt><dd>NJSIAA</dd>
-                </dl>
-                <p style="margin-top:18px;margin-bottom:0;font-size:.93rem;color:var(--muted);">For conference information, contact your school&rsquo;s athletic director.</p>
-            </aside>
-        </div>
-    </section>
+<!-- Partners -->
+<section class="section section--tight section--panel" aria-label="Conference partners">
+  <div class="wrap">
+    <div class="partners">
+      <img src="images/sponsors/nike-logo.png" alt="Nike">
+      <img src="images/sponsors/adidas-logo.png" alt="Adidas">
+      <img src="images/sponsors/under-armour-logo.png" alt="Under Armour">
+    </div>
+    <p class="partners-note">Partner placements — sample logos</p>
+  </div>
+</section>
 
-    <footer class="site-footer">
-        <div class="wrap">
-            <div class="footer-cols">
-                <div class="footer-brand">
-                    <img src="images/njac-logo.png" alt="">
-                    <div>
-                        <h4>Northwest Jersey Athletic Conference</h4>
-                        <p style="margin:0;font-size:.93rem;">A Tradition of Excellence. Serving 39 member high schools across Morris, Sussex and Warren counties, New Jersey.</p>
-                    </div>
-                </div>
-                <div>
-                    <h4>Explore</h4>
-                    <ul>
-                        <li><a href="schools.html">Member Schools</a></li>
-                        <li><a href="calendar.html">Conference Calendar</a></li>
-                        <li><a href="websites.html">School Websites</a></li>
-                        <li><a href="info.html">Conference Information</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h4>Resources</h4>
-                    <ul>
-                        <li><a href="links.html">External Links</a></li>
-                        <li><a href="https://www.njsiaa.org/" target="_blank" rel="noopener">NJSIAA</a></li>
-                        <li><a href="#njac-vision">NJAC Vision</a></li>
-                        <li><a href="#njac-news">NJAC News</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <span>&copy; 2026 Northwest Jersey Athletic Conference. All rights reserved.</span>
-                <span>Morris &middot; Sussex &middot; Warren</span>
-                <a class="atq-credit" href="https://athlitiq.com" target="_blank" rel="noopener">
-                    <span>Built by</span>
-                    <img class="atq-logo" src="images/athlitiq-lockup.svg" alt="AthlitIQ" width="91" height="20">
-                </a>
-            </div>
-        </div>
-    </footer>
+<!-- CTA -->
+<section class="section">
+  <div class="wrap">
+    <div class="slab">
+      <div><span class="eyebrow">Never miss a game</span><h2 class="display">Every team.<br>Every level. <span class="chrome-text">One feed.</span></h2><p>Subscribe once and every NJAC contest lands on your calendar automatically — updated every three hours, straight from the schools.</p></div>
+      <div class="actions"><a class="btn btn--chrome" href="feeds/all.ics">Add to calendar</a><a class="btn btn--ghost" href="feeds/rss.xml">RSS</a></div>
+    </div>
+  </div>
+</section>
 
-    <script src="js/redesign-hero.js"></script>
-    <script src="js/redesign-announce.js"></script>
-    <script src="js/redesign-today.js"></script>
-    <script src="js/redesign-vision.js"></script>
-    <script src="js/redesign-news.js"></script>
-    <script src="js/redesign-standings.js"></script>
-    <script src="js/redesign-honors.js"></script>
-    <script src="js/redesign-leadership.js"></script>
-    <script src="js/redesign-directory.js"></script>
-    <script src="js/redesign-logostrip.js"></script>
-    <script src="js/redesign-nav.js"></script>
-    <script src="js/redesign-reveal.js"></script>
-    <script>
-    /* Pink October intro — October only, once per session */
-    (function(){
-      if(new Date().getMonth()!==9)return;
-      try{if(sessionStorage.getItem('po_oct_2026'))return;}catch(e){}
-      var w=document.createElement('div');
-      w.style.cssText='position:fixed;inset:0;z-index:99999;';
-      var f=document.createElement('iframe');
-      f.src='pink-october.html';f.allow='autoplay';
-      f.style.cssText='width:100%;height:100%;border:none;display:block;';
-      w.appendChild(f);document.documentElement.appendChild(w);
-      window.addEventListener('message',function(e){
-        if(e.data==='po-done')w.remove();
-      },{once:true});
-    })();
-    </script>
-    <script>window.poConf={logo:'images/njac-logo.png'};</script>
-    <script src="js/pink-october.js"></script>
+<script src="js/platinum.js"></script>
+<script>
+  PT.init('index', [PT.hero, PT.stats, PT.marquee,
+    function () { PT.news({ limit: 5 }); },
+    function () { PT.schedule({ limit: 8 }); }, PT.seasonGate,
+    function () { PT.videos({ limit: 5 }); },
+    PT.scoreSeasons, PT.seasons, PT.leaders, PT.schools]);
+</script>
 </body>
 </html>
