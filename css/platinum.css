@@ -51,7 +51,31 @@
   --glow-red: 0 0 24px rgba(255, 43, 72, .45);
   --ease: cubic-bezier(.2, .7, .2, 1);
   --ease-pop: cubic-bezier(.34, 1.56, .64, 1);
+
+  /* redesign-announce.js reads these names and falls back to a light theme.
+     Aliasing them here lets the CMS-driven pop-up inherit the site's type and
+     accent without touching that script. */
+  --red: var(--crimson);
+  --font-body: var(--f-body);
+  --font-display: var(--f-display);
 }
+
+/* The pop-up injects its own stylesheet at runtime, so it lands after this file
+   and wins on equal specificity - these selectors are deliberately one level
+   heavier to re-skin a white card for a dark site. Behaviour is untouched. */
+body .ann-backdrop { background: rgba(5, 7, 10, .78); backdrop-filter: blur(4px); }
+body .ann-card { background: linear-gradient(160deg, var(--g800), var(--g900)); border: 1px solid var(--line-strong); box-shadow: var(--shadow); }
+body .ann-bar { background: var(--chrome); height: 3px; }
+body .ann-eyebrow { color: var(--pt-3); letter-spacing: .2em; }
+body .ann-title { color: var(--ink); font-family: var(--f-display); font-weight: 400; font-size: 2rem; letter-spacing: .02em; }
+body .ann-body { color: var(--ink-2); }
+body .ann-x { color: var(--muted); }
+body .ann-x:hover { color: var(--ink); background: rgba(255, 255, 255, .08); }
+body .ann-btn { font-family: var(--f-cond); font-weight: 700; letter-spacing: .14em; text-transform: uppercase; border-radius: var(--r); }
+body .ann-btn--primary { background: var(--chrome); background-size: 220% 100%; color: #0a0c11; border-color: transparent; }
+body .ann-btn--primary:hover { filter: none; background-position: 100% 0; }
+body .ann-btn--ghost { color: var(--ink-2); border-color: var(--line-strong); background: transparent; }
+body .ann-btn--ghost:hover { background: rgba(255, 255, 255, .07); color: var(--ink); }
 
 *, *::before, *::after { box-sizing: border-box; }
 html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
