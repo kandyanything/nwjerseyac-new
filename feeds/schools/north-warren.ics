@@ -590,15 +590,6 @@ SUMMARY:Mountain Lakes High School at North Warren (Middle School Girls G
 DESCRIPTION:Middle School Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2768:7568759@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260922T160000
-DTEND;TZID=America/New_York:20260922T180000
-SUMMARY:North Warren at Jefferson Township High School (Varsity Coed Coed
-  Cross Country)
-DESCRIPTION:Varsity Coed Coed Cross Country - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2768:7591127@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260922T160000
@@ -608,12 +599,13 @@ SUMMARY:North Warren vs Briarcliff Middle School (Middle School Girls Gir
 DESCRIPTION:Middle School Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2768:7585944@northwest-jersey-athletic-conference
+UID:ds:2768:7568759@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260922T160000
 DTEND;TZID=America/New_York:20260922T180000
-SUMMARY:North Warren at Briarcliff MS (Middle School Boys Boys Soccer)
-DESCRIPTION:Middle School Boys Boys Soccer - Away - 4:00 PM
+SUMMARY:North Warren at Jefferson Township High School (Varsity Coed Coed
+  Cross Country)
+DESCRIPTION:Varsity Coed Coed Cross Country - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2768:7562513@northwest-jersey-athletic-conference
@@ -625,24 +617,6 @@ SUMMARY:North Warren at Boonton Middle School (Middle School Girls Field
 DESCRIPTION:Middle School Girls Field Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2594:7591128@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260924T160000
-DTEND;TZID=America/New_York:20260924T180000
-SUMMARY:Dover High School at North Warren (Middle School Girls Girls Socc
- er)
-DESCRIPTION:Middle School Girls Girls Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2768:7585947@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260924T160000
-DTEND;TZID=America/New_York:20260924T180000
-SUMMARY:North Warren at Dover Middle School (Middle School Boys Boys Socc
- er)
-DESCRIPTION:Middle School Boys Boys Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2768:7598225@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260924T160000
@@ -650,15 +624,6 @@ DTEND;TZID=America/New_York:20260924T180000
 SUMMARY:North Warren vs Boonton Middle School (Middle School Coed Coed Cr
  oss Country)
 DESCRIPTION:Middle School Coed Coed Cross Country - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2768:7591128@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260924T160000
-DTEND;TZID=America/New_York:20260924T180000
-SUMMARY:North Warren vs Dover Middle School (Middle School Girls Girls So
- ccer)
-DESCRIPTION:Middle School Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103976507@northwest-jersey-athletic-conference
@@ -703,15 +668,6 @@ DTEND;TZID=America/New_York:20260925T210000
 SUMMARY:North Warren at Lenape Valley High School (Varsity Coed Coed Chee
  rleading)
 DESCRIPTION:Varsity Coed Coed Cheerleading - Away - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2649:7548112@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260926T100000
-DTEND;TZID=America/New_York:20260926T120000
-SUMMARY:High Point High School vs North Warren (Junior Varsity Girls Girl
- s Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2649:7511766@northwest-jersey-athletic-conference
@@ -776,7 +732,7 @@ SUMMARY:North Warren vs Boonton Middle School (Middle School Boys Boys So
 DESCRIPTION:Middle School Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2649:7568773@northwest-jersey-athletic-conference
+UID:ds:2649:7535143@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260929T160000
 DTEND;TZID=America/New_York:20260929T180000
@@ -1366,6 +1322,15 @@ SUMMARY:North Warren vs Phillipsburg High School (Varsity Boys Boys Socce
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2594:7591128@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261019T160000
+DTEND;TZID=America/New_York:20261019T180000
+SUMMARY:Dover High School at North Warren (Middle School Girls Girls Socc
+ er)
+DESCRIPTION:Middle School Girls Girls Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2768:7548031@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261019T160000
@@ -1373,6 +1338,24 @@ DTEND;TZID=America/New_York:20261019T180000
 SUMMARY:North Warren at Belvidere High School (Junior Varsity Boys Footba
  ll)
 DESCRIPTION:Junior Varsity Boys Football - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2768:7585947@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261019T160000
+DTEND;TZID=America/New_York:20261019T180000
+SUMMARY:North Warren at Dover Middle School (Middle School Boys Boys Socc
+ er)
+DESCRIPTION:Middle School Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2768:7591128@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261019T160000
+DTEND;TZID=America/New_York:20261019T180000
+SUMMARY:North Warren vs Dover Middle School (Middle School Girls Girls So
+ ccer)
+DESCRIPTION:Middle School Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2768:7598281@northwest-jersey-athletic-conference
