@@ -324,7 +324,7 @@
         // a schedule site, so the crest is a shortcut to that school's games.
         var html = row.map(function (s) {
           var href = s.schedule || s.website;
-          return '<a class="crest-tile" href="' + esc(href) + '" target="_blank" rel="noopener" aria-label="' + esc(s.short) + ' schedule"><img src="' + s.logo + '" alt="" loading="lazy"><span class="tip">' + esc(s.short) + '</span></a>';
+          return '<a class="crest-tile" href="' + esc(href) + '" target="_blank" rel="noopener" aria-label="' + esc(s.short) + ' schedule"><img src="' + s.logo + '" alt="" loading="lazy"><span class="crest-name">' + esc(s.short) + '</span></a>';
         }).join('');
         rail.innerHTML = html + html;
         var wrap = el('<div class="crest-marquee"></div>'); wrap.appendChild(rail); root.appendChild(wrap);
