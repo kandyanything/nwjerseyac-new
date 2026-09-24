@@ -1622,15 +1622,6 @@ SUMMARY:Pequannock High School vs Hanover Park High School (Junior Varsit
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:101825876@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261020T160000
-DTEND;TZID=America/New_York:20261020T180000
-SUMMARY:Pequannock High School vs Hanover Park High School (Varsity Girls
-  Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2594:7452202@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261020T160000
@@ -1665,6 +1656,15 @@ DTEND;TZID=America/New_York:20261020T180000
 SUMMARY:Hanover Park High School vs Morristown Beard School (Varsity Boys
   Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2642:7446617@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261020T160000
+DTEND;TZID=America/New_York:20261020T180000
+SUMMARY:Hanover Park High School at Pequannock High School (Varsity Girls
+  Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2594:7452074@northwest-jersey-athletic-conference
@@ -1890,6 +1890,33 @@ DTEND;TZID=America/New_York:20261208T180000
 SUMMARY:Hanover Park High School at Wallington High School (Varsity Boys 
  Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2642:7652852@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261209T163000
+DTEND;TZID=America/New_York:20261209T183000
+SUMMARY:Hanover Park High School at Parsippany Hills High School (Var-JV 
+ Boys Boys Swimming)
+DESCRIPTION:Var-JV Boys Boys Swimming - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2642:7652877@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261209T163000
+DTEND;TZID=America/New_York:20261209T183000
+SUMMARY:Hanover Park High School at Parsippany Hills High School (Var-JV 
+ Girls Girls Swimming)
+DESCRIPTION:Var-JV Girls Girls Swimming - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2791:7652852@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261209T163000
+DTEND;TZID=America/New_York:20261209T183000
+SUMMARY:Parsippany Hills High School vs Hanover Park High School (Varsity
+  Coed Coed Swimming)
+DESCRIPTION:Varsity Coed Coed Swimming - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2642:7469454@northwest-jersey-athletic-conference
@@ -3502,8 +3529,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2642:7511443@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270421T160000
-DTEND;TZID=America/New_York:20270421T180000
+DTSTART;TZID=America/New_York:20270420T160000
+DTEND;TZID=America/New_York:20270420T180000
 SUMMARY:Hanover Park High School at Morristown Beard School (Varsity Boys
   Boys Lacrosse)
 DESCRIPTION:Varsity Boys Boys Lacrosse - Away - 4:00 PM
@@ -3511,8 +3538,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2642:7511531@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270421T173000
-DTEND;TZID=America/New_York:20270421T193000
+DTSTART;TZID=America/New_York:20270420T173000
+DTEND;TZID=America/New_York:20270420T193000
 SUMMARY:Hanover Park High School at Morristown Beard School (Junior Varsi
  ty Boys Boys Lacrosse)
 DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Away - 5:30 PM
