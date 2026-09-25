@@ -1106,15 +1106,6 @@ SUMMARY:Chatham High School vs Hackettstown High School (Freshman Girls G
 DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2634:7462343@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260925T160000
-DTEND;TZID=America/New_York:20260925T180000
-SUMMARY:Hackettstown High School vs KIPP Newark Collegiate Academy (Varsi
- ty Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2634:7471859@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260925T160000
@@ -1122,6 +1113,15 @@ DTEND;TZID=America/New_York:20260925T180000
 SUMMARY:Hackettstown High School at Belvidere High School (Varsity Girls 
  Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2634:7462343@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260925T163000
+DTEND;TZID=America/New_York:20260925T183000
+SUMMARY:Hackettstown High School vs KIPP Newark Collegiate Academy (Varsi
+ ty Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2594:7531002@northwest-jersey-athletic-conference
@@ -1739,6 +1739,15 @@ SUMMARY:Hackettstown High School vs Hanover Park High School (Varsity Gir
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:arb:99461989@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261013T160000
+DTEND;TZID=America/New_York:20261013T180000
+SUMMARY:Madison High School at Hackettstown High School (Freshman Girls G
+ irls Volleyball)
+DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2564:7467834@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261013T160000
@@ -1860,9 +1869,10 @@ UID:arb:101606269@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261020T160000
 DTEND;TZID=America/New_York:20261020T180000
-SUMMARY:Madison High School at Hackettstown High School (Freshman Girls G
- irls Volleyball)
+SUMMARY:[Canceled] Madison High School at Hackettstown High School (Fresh
+ man Girls Girls Volleyball)
 DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:00 PM
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:99457472@northwest-jersey-athletic-conference
