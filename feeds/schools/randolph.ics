@@ -622,15 +622,6 @@ SUMMARY:Randolph High School at Mount Olive High School (Varsity Girls Gi
 DESCRIPTION:Varsity Girls Girls Tennis - Away
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2748:7538858@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260903T160000
-DTEND;TZID=America/New_York:20260903T180000
-SUMMARY:Morristown High School vs Randolph High School (Junior Varsity Gi
- rls Girls Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2748:7538742@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260903T160000
@@ -638,6 +629,15 @@ DTEND;TZID=America/New_York:20260903T180000
 SUMMARY:Morristown High School at Randolph High School (Varsity Girls Gir
  ls Tennis)
 DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2748:7538858@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260903T160000
+DTEND;TZID=America/New_York:20260903T180000
+SUMMARY:Morristown High School vs Randolph High School (Junior Varsity Gi
+ rls Girls Tennis)
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2751:7417437@northwest-jersey-athletic-conference
@@ -1707,15 +1707,6 @@ SUMMARY:Randolph High School at West Essex High School (Junior Varsity Gi
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2825:7585475@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260925T160000
-DTEND;TZID=America/New_York:20260925T180000
-SUMMARY:Randolph High School vs Vernon Township High School (Freshman Gir
- ls Field Hockey)
-DESCRIPTION:Freshman Girls Field Hockey - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2825:7654518@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260925T160000
@@ -1723,6 +1714,15 @@ DTEND;TZID=America/New_York:20260925T180000
 SUMMARY:Randolph High School vs Hillsborough Athletics (Freshman Boys Boy
  s Soccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2825:7585475@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260925T160000
+DTEND;TZID=America/New_York:20260925T180000
+SUMMARY:Randolph High School vs Vernon Township High School (Freshman Gir
+ ls Field Hockey)
+DESCRIPTION:Freshman Girls Field Hockey - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2825:7402858@northwest-jersey-athletic-conference
@@ -1756,9 +1756,10 @@ UID:arb:102490221@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260926T100000
 DTEND;TZID=America/New_York:20260926T120000
-SUMMARY:Morris Knolls High School vs Randolph High School (Junior Varsity
-  Girls Girls Soccer)
+SUMMARY:[Canceled] Morris Knolls High School vs Randolph High School (Jun
+ ior Varsity Girls Girls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 10:00 AM
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103246359@northwest-jersey-athletic-conference
@@ -1779,15 +1780,6 @@ SUMMARY:[Canceled] West Morris Mendham at Randolph High School (Freshman
  Girls Girls Volleyball)
 DESCRIPTION:Freshman Girls Girls Volleyball - Away - 10:00 AM
 STATUS:CANCELLED
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2825:7527532@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260926T100000
-DTEND;TZID=America/New_York:20260926T120000
-SUMMARY:Randolph High School at Morris Knolls High School (Freshman Girls
-  Girls Soccer)
-DESCRIPTION:Freshman Girls Girls Soccer - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103246377@northwest-jersey-athletic-conference
@@ -2595,6 +2587,15 @@ SUMMARY:Morristown High School at Randolph High School (Freshman Girls Gi
 DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2825:7414112@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261014T160000
+DTEND;TZID=America/New_York:20261014T180000
+SUMMARY:Randolph High School at Warren Hills Regional School District (Fr
+ eshman Boys Football)
+DESCRIPTION:Freshman Boys Football - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2748:7422571@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261014T171500
@@ -2710,15 +2711,6 @@ DTEND;TZID=America/New_York:20261016T210000
 SUMMARY:Randolph High School vs Warren Hills Regional School District (Va
  rsity Boys Football)
 DESCRIPTION:Varsity Boys Football - Home - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2825:7414112@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261017T090000
-DTEND;TZID=America/New_York:20261017T110000
-SUMMARY:Randolph High School at Warren Hills Regional School District (Fr
- eshman Boys Football)
-DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102359108@northwest-jersey-athletic-conference
