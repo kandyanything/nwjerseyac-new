@@ -24,14 +24,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2825:7579834@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260813T173000
-DTEND;TZID=America/New_York:20260813T193000
-SUMMARY:Randolph High School vs TBD (Junior Varsity Boys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2748:7568083@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261207T154500
@@ -94,15 +86,6 @@ DTEND;TZID=America/New_York:20261208T180000
 SUMMARY:Hopatcong High School vs Roxbury High School (Junior Varsity Boys
   Boys Basketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2825:7546910@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261208T161500
-DTEND;TZID=America/New_York:20261208T181500
-SUMMARY:Randolph High School vs James Caldwell High School (Junior Varsit
- y Boys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102336020@northwest-jersey-athletic-conference
@@ -340,15 +323,6 @@ SUMMARY:Hackettstown High School vs Morristown High School (Junior Varsit
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2825:7546899@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261212T113000
-DTEND;TZID=America/New_York:20261212T133000
-SUMMARY:Randolph High School vs Warren Hills Regional School District (Ju
- nior Varsity Boys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 11:30 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2642:7512503@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261212T123000
@@ -503,13 +477,13 @@ SUMMARY:North Warren vs Sussex County Technical High School (Junior Varsi
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2825:7546879@northwest-jersey-athletic-conference
+UID:ds:2838:7546879@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261215T173000
 DTEND;TZID=America/New_York:20261215T193000
-SUMMARY:Randolph High School at Roxbury High School (Junior Varsity Boys 
+SUMMARY:Roxbury High School vs Randolph High School (Junior Varsity Boys 
  Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2887:7535682@northwest-jersey-athletic-conference
@@ -846,15 +820,6 @@ SUMMARY:North Warren vs Belvidere High School (Junior Varsity Boys Boys B
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2825:7553150@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261221T173000
-DTEND;TZID=America/New_York:20261221T193000
-SUMMARY:Randolph High School at Passaic Valley High School (Junior Varsit
- y Boys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2909:7611852@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261222T160000
@@ -909,15 +874,6 @@ SUMMARY:Parsippany Hills High School vs Sparta High School (Junior Varsit
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2825:7546912@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261222T173000
-DTEND;TZID=America/New_York:20261222T193000
-SUMMARY:Randolph High School vs Pequannock High School (Junior Varsity Bo
- ys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2594:7491122@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261222T173200
@@ -935,15 +891,6 @@ DTEND;TZID=America/New_York:20261223T123000
 SUMMARY:Morristown Beard School vs Abundant Life Academy (Junior Varsity 
  Boys Boys Basketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 10:30 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2825:7546913@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261223T130000
-DTEND;TZID=America/New_York:20261223T150000
-SUMMARY:Randolph High School at Warren Hills Regional School District (Ju
- nior Varsity Boys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102622584@northwest-jersey-athletic-conference
@@ -1495,13 +1442,13 @@ SUMMARY:Newton High School at North Warren (Junior Varsity Boys Boys Bask
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2825:7534322@northwest-jersey-athletic-conference
+UID:ds:2881:7534322@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270108T173000
 DTEND;TZID=America/New_York:20270108T193000
-SUMMARY:Randolph High School at Sparta High School (Junior Varsity Boys B
+SUMMARY:Sparta High School vs Randolph High School (Junior Varsity Boys B
  oys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ics:MorristownBeardSchool:event_10119_20270108t223000zapi.veracross.c
@@ -2498,13 +2445,13 @@ SUMMARY:Lenape Valley High School vs Mountain Lakes High School (Junior V
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2825:7546915@northwest-jersey-athletic-conference
+UID:ds:2940:7546915@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270123T113000
 DTEND;TZID=America/New_York:20270123T133000
-SUMMARY:Randolph High School at Whippany Park High School (Junior Varsity
+SUMMARY:Whippany Park High School vs Randolph High School (Junior Varsity
   Boys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 11:30 AM
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102513904@northwest-jersey-athletic-conference
@@ -2786,13 +2733,13 @@ SUMMARY:Morristown High School vs Delbarton School (Junior Varsity Boys B
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2825:7546909@northwest-jersey-athletic-conference
+UID:ds:2838:7546909@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270128T173000
 DTEND;TZID=America/New_York:20270128T193000
-SUMMARY:Randolph High School vs Roxbury High School (Junior Varsity Boys 
+SUMMARY:Roxbury High School at Randolph High School (Junior Varsity Boys 
  Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2919:7568393@northwest-jersey-athletic-conference
