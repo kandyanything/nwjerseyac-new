@@ -612,17 +612,6 @@ SUMMARY:Villa Walsh Academy vs Academy of Saint Elizabeth (Junior Varsity
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:MorristownBeardSchool:event_8990_20260922t190000zapi.veracross.co
- m@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260922T150000
-DTEND;TZID=America/New_York:20260922T170000
-SUMMARY:[Postponed] Morristown Beard School vs Villa Walsh Academy (Varsi
- ty Girls Girls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Home - 3:00 PM
-STATUS:CANCELLED
-END:VEVENT
-BEGIN:VEVENT
 UID:ics:MorristownBeardSchool:event_8991_20260922t190000zapi.veracross.co
  m@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
@@ -631,6 +620,17 @@ DTEND;TZID=America/New_York:20260922T170000
 SUMMARY:[Postponed] Morristown Beard School at Villa Walsh Academy (Junio
  r Varsity Girls Girls Tennis)
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 3:00 PM
+STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:MorristownBeardSchool:event_8990_20260922t190000zapi.veracross.co
+ m@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260922T150000
+DTEND;TZID=America/New_York:20260922T170000
+SUMMARY:[Postponed] Morristown Beard School vs Villa Walsh Academy (Varsi
+ ty Girls Girls Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Home - 3:00 PM
 STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
@@ -1436,6 +1436,15 @@ SUMMARY:Villa Walsh Academy at TBA NJAC (Varsity Girls Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:arb:101979020@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270106T173000
+DTEND;TZID=America/New_York:20270106T193000
+SUMMARY:Pequannock High School at Villa Walsh Academy (Junior Varsity Gir
+ ls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2913:7457806@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270106T190000
@@ -1553,6 +1562,24 @@ SUMMARY:Villa Walsh Academy at Hanover Park High School (Junior Varsity G
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:arb:101852213@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270126T160000
+DTEND;TZID=America/New_York:20270126T180000
+SUMMARY:Pequannock High School vs Villa Walsh Academy (Varsity Girls Girl
+ s Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101852223@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270126T173000
+DTEND;TZID=America/New_York:20270126T193000
+SUMMARY:Pequannock High School vs Villa Walsh Academy (Junior Varsity Gir
+ ls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2913:7457821@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270126T190000
@@ -1569,6 +1596,15 @@ DTEND;TZID=America/New_York:20270128T180000
 SUMMARY:Villa Walsh Academy vs Wilberforce MS (Middle School Girls Girls 
  Basketball)
 DESCRIPTION:Middle School Girls Girls Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:104270219@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270205T160000
+DTEND;TZID=America/New_York:20270205T180000
+SUMMARY:Montville High School at Villa Walsh Academy (Freshman Girls Girl
+ s Basketball)
+DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2913:7649822@northwest-jersey-athletic-conference

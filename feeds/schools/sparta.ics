@@ -3235,6 +3235,15 @@ SUMMARY:Sparta High School at TBD (Varsity Girls Girls Cross Country)
 DESCRIPTION:Varsity Girls Girls Cross Country - Away - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:arb:102657872@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261208T160000
+DTEND;TZID=America/New_York:20261208T180000
+SUMMARY:Montville High School vs Sparta High School (Varsity Girls Girls 
+ Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2881:7534558@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261208T160000
@@ -3316,6 +3325,15 @@ SUMMARY:Sparta High School vs West Morris Central (Varsity Boys Boys Wres
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:arb:102924870@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261211T160000
+DTEND;TZID=America/New_York:20261211T180000
+SUMMARY:Pequannock High School vs Sparta High School (Freshman Boys Boys 
+ Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2685:7636439@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261211T160000
@@ -3334,31 +3352,22 @@ SUMMARY:Kinnelon High School at Sparta High School (Middle School Girls G
 DESCRIPTION:Middle School Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2881:7534605@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261211T160000
-DTEND;TZID=America/New_York:20261211T180000
-SUMMARY:Sparta High School at Pequannock High School (Freshman Boys Boys 
- Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2881:7534489@northwest-jersey-athletic-conference
+UID:arb:102924876@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261211T173000
 DTEND;TZID=America/New_York:20261211T193000
-SUMMARY:Sparta High School at Pequannock High School (Junior Varsity Boys
+SUMMARY:Pequannock High School vs Sparta High School (Junior Varsity Boys
   Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2881:7534295@northwest-jersey-athletic-conference
+UID:arb:102924881@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261211T190000
 DTEND;TZID=America/New_York:20261211T210000
-SUMMARY:Sparta High School at Pequannock High School (Varsity Boys Boys B
+SUMMARY:Pequannock High School vs Sparta High School (Varsity Boys Boys B
  asketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2881:7594190@northwest-jersey-athletic-conference
@@ -3890,13 +3899,22 @@ SUMMARY:Sparta High School at Jefferson-Sparta (Varsity Boys Boys Wrestli
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2881:7534595@northwest-jersey-athletic-conference
+UID:arb:101182143@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270106T160000
 DTEND;TZID=America/New_York:20270106T180000
-SUMMARY:Sparta High School vs Montville High School (Freshman Boys Boys B
+SUMMARY:Montville High School at Sparta High School (Freshman Boys Boys B
  asketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
+DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101182146@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270106T173000
+DTEND;TZID=America/New_York:20270106T193000
+SUMMARY:Montville High School at Sparta High School (Junior Varsity Boys 
+ Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101647962@northwest-jersey-athletic-conference
@@ -3918,13 +3936,13 @@ SUMMARY:Sparta High School at Pope John XXIII High School (Varsity Girls
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2881:7534479@northwest-jersey-athletic-conference
+UID:arb:101182154@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270106T173000
-DTEND;TZID=America/New_York:20270106T193000
-SUMMARY:Sparta High School vs Montville High School (Junior Varsity Boys 
- Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
+DTSTART;TZID=America/New_York:20270106T190000
+DTEND;TZID=America/New_York:20270106T210000
+SUMMARY:Montville High School at Sparta High School (Varsity Boys Boys Ba
+ sketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101647963@northwest-jersey-athletic-conference
@@ -3934,15 +3952,6 @@ DTEND;TZID=America/New_York:20270106T210000
 SUMMARY:Pope John XXIII High School vs Sparta High School (Varsity Girls 
  Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2881:7457311@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270106T190000
-DTEND;TZID=America/New_York:20270106T210000
-SUMMARY:Sparta High School vs Montville High School (Varsity Boys Boys Ba
- sketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2881:7534506@northwest-jersey-athletic-conference
@@ -4557,22 +4566,31 @@ SUMMARY:Morristown High School at Sparta High School (Freshman Girls Girl
 DESCRIPTION:Freshman Girls Girls Basketball - Away - 10:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2881:7534601@northwest-jersey-athletic-conference
+UID:arb:101182093@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270126T160000
 DTEND;TZID=America/New_York:20270126T180000
-SUMMARY:Sparta High School at Montville High School (Freshman Boys Boys B
+SUMMARY:Montville High School vs Sparta High School (Freshman Boys Boys B
  asketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
+DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2881:7534485@northwest-jersey-athletic-conference
+UID:arb:101182096@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270126T173000
 DTEND;TZID=America/New_York:20270126T193000
-SUMMARY:Sparta High School at Montville High School (Junior Varsity Boys 
+SUMMARY:Montville High School vs Sparta High School (Junior Varsity Boys 
  Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101182098@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270126T190000
+DTEND;TZID=America/New_York:20270126T210000
+SUMMARY:Montville High School vs Sparta High School (Varsity Boys Boys Ba
+ sketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101647838@northwest-jersey-athletic-conference
@@ -4582,15 +4600,6 @@ DTEND;TZID=America/New_York:20270126T210000
 SUMMARY:Pope John XXIII High School at Sparta High School (Varsity Girls 
  Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2881:7457332@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270126T190000
-DTEND;TZID=America/New_York:20270126T210000
-SUMMARY:Sparta High School at Montville High School (Varsity Boys Boys Ba
- sketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2881:7534512@northwest-jersey-athletic-conference
@@ -5180,6 +5189,15 @@ SUMMARY:Parsippany Hills High School vs Sparta High School (Varsity Boys
 DESCRIPTION:Varsity Boys Baseball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:arb:103569235@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270408T160000
+DTEND;TZID=America/New_York:20270408T180000
+SUMMARY:Montville High School at Sparta High School (Varsity Girls Softba
+ ll)
+DESCRIPTION:Varsity Girls Softball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2881:7641041@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270408T160000
@@ -5187,15 +5205,6 @@ DTEND;TZID=America/New_York:20270408T180000
 SUMMARY:Sparta High School at Bernards High School (Varsity Boys Boys Lac
  rosse)
 DESCRIPTION:Varsity Boys Boys Lacrosse - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2881:7641213@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270408T160000
-DTEND;TZID=America/New_York:20270408T180000
-SUMMARY:Sparta High School vs Montville High School (Varsity Girls Softba
- ll)
-DESCRIPTION:Varsity Girls Softball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2881:7644286@northwest-jersey-athletic-conference
@@ -5443,6 +5452,15 @@ SUMMARY:Sparta High School at The Pingry School (Varsity Boys Baseball)
 DESCRIPTION:Varsity Boys Baseball - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:arb:103486746@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270426T160000
+DTEND;TZID=America/New_York:20270426T180000
+SUMMARY:Montville High School vs Sparta High School (Varsity Girls Softba
+ ll)
+DESCRIPTION:Varsity Girls Softball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2649:7634897@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270426T160000
@@ -5450,15 +5468,6 @@ DTEND;TZID=America/New_York:20270426T180000
 SUMMARY:High Point High School at Sparta High School (Varsity Boys Baseba
  ll)
 DESCRIPTION:Varsity Boys Baseball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2881:7641229@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270426T160000
-DTEND;TZID=America/New_York:20270426T180000
-SUMMARY:Sparta High School at Montville High School (Varsity Girls Softba
- ll)
-DESCRIPTION:Varsity Girls Softball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2881:7608102@northwest-jersey-athletic-conference

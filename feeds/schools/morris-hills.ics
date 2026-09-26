@@ -2500,6 +2500,24 @@ SUMMARY:Morris Hills High School at TBD (Varsity Coed Coed Cross Country)
 DESCRIPTION:Varsity Coed Coed Cross Country - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:arb:100866930@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261027T160000
+DTEND;TZID=America/New_York:20261027T180000
+SUMMARY:Montville High School at Morris Hills High School (Junior Varsity
+  Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100866916@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261027T160000
+DTEND;TZID=America/New_York:20261027T180000
+SUMMARY:Montville High School at Morris Hills High School (Varsity Girls 
+ Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:102096434@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261027T160000
@@ -2525,24 +2543,6 @@ DTEND;TZID=America/New_York:20261027T180000
 SUMMARY:Morris Hills High School at Morris Knolls High School (Varsity Bo
  ys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:arb:100866930@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261027T160000
-DTEND;TZID=America/New_York:20261027T180000
-SUMMARY:Morris Hills High School vs Montville High School (Junior Varsity
-  Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:arb:100866916@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261027T160000
-DTEND;TZID=America/New_York:20261027T180000
-SUMMARY:Morris Hills High School vs Montville High School (Varsity Girls 
- Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102935050@northwest-jersey-athletic-conference
@@ -3422,9 +3422,9 @@ UID:arb:101659315@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T160000
 DTEND;TZID=America/New_York:20270114T180000
-SUMMARY:Morris Hills High School vs Montville High School (Freshman Girls
+SUMMARY:Montville High School at Morris Hills High School (Freshman Girls
   Girls Basketball)
-DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:00 PM
+DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101182835@northwest-jersey-athletic-conference
@@ -3449,9 +3449,9 @@ UID:arb:101659311@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T173000
 DTEND;TZID=America/New_York:20270114T193000
-SUMMARY:Morris Hills High School vs Montville High School (Junior Varsity
+SUMMARY:Montville High School at Morris Hills High School (Junior Varsity
   Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101182839@northwest-jersey-athletic-conference
@@ -3467,9 +3467,9 @@ UID:arb:101659303@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T190000
 DTEND;TZID=America/New_York:20270114T210000
-SUMMARY:Morris Hills High School vs Montville High School (Varsity Girls 
+SUMMARY:Montville High School at Morris Hills High School (Varsity Girls 
  Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home - 7:00 PM
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101182842@northwest-jersey-athletic-conference
@@ -3804,6 +3804,15 @@ SUMMARY:Morris Hills High School at Morris Knolls High School (Freshman G
 DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:arb:102342025@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270128T173000
+DTEND;TZID=America/New_York:20270128T193000
+SUMMARY:Montville High School at Morris Hills High School (Varsity Boys B
+ oys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:102946968@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270128T173000
@@ -3811,15 +3820,6 @@ DTEND;TZID=America/New_York:20270128T193000
 SUMMARY:Morris Hills High School at Morris Knolls High School (Junior Var
  sity Girls Girls Basketball)
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:arb:102342025@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270128T173000
-DTEND;TZID=America/New_York:20270128T193000
-SUMMARY:Morris Hills High School vs Montville High School (Varsity Boys B
- oys Wrestling)
-DESCRIPTION:Varsity Boys Boys Wrestling - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102946975@northwest-jersey-athletic-conference
@@ -4069,9 +4069,9 @@ UID:arb:101659986@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270216T160000
 DTEND;TZID=America/New_York:20270216T180000
-SUMMARY:Morris Hills High School at Montville High School (Freshman Girls
+SUMMARY:Montville High School vs Morris Hills High School (Freshman Girls
   Girls Basketball)
-DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:00 PM
+DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101182578@northwest-jersey-athletic-conference
@@ -4087,9 +4087,9 @@ UID:arb:101659997@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270216T173000
 DTEND;TZID=America/New_York:20270216T193000
-SUMMARY:Morris Hills High School at Montville High School (Junior Varsity
+SUMMARY:Montville High School vs Morris Hills High School (Junior Varsity
   Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101182582@northwest-jersey-athletic-conference
@@ -4105,9 +4105,9 @@ UID:arb:101660006@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270216T190000
 DTEND;TZID=America/New_York:20270216T210000
-SUMMARY:Morris Hills High School at Montville High School (Varsity Girls 
+SUMMARY:Montville High School vs Morris Hills High School (Varsity Girls 
  Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101182586@northwest-jersey-athletic-conference
