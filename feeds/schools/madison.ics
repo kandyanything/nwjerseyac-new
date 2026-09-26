@@ -50,6 +50,24 @@ SUMMARY:Madison High School vs Saint Mary High School (Varsity Boys Footb
 DESCRIPTION:Varsity Boys Football - Home - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2825:7533455@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260824T100000
+DTEND;TZID=America/New_York:20260824T120000
+SUMMARY:Randolph High School vs Madison High School (Varsity Girls Girls 
+ Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2825:7533468@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260824T100000
+DTEND;TZID=America/New_York:20260824T120000
+SUMMARY:Randolph High School at Madison High School (Junior Varsity Girls
+  Girls Tennis)
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:101192104@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260825T090000
@@ -1442,16 +1460,6 @@ DESCRIPTION:Middle School Girls Field Hockey - Away - 4:00 PM
 STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:MorristownBeardSchool:event_10244_20260923t200000zapi.veracross.c
- om@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260923T160000
-DTEND;TZID=America/New_York:20260923T180000
-SUMMARY:Morristown Beard School at Madison High School (Junior Varsity Gi
- rls Girls Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ics:MorristownBeardSchool:event_10243_20260923t200000zapi.veracross.c
  om@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
@@ -1460,6 +1468,16 @@ DTEND;TZID=America/New_York:20260923T180000
 SUMMARY:Morristown Beard School vs Madison High School (Varsity Girls Gir
  ls Tennis)
 DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:MorristownBeardSchool:event_10244_20260923t200000zapi.veracross.c
+ om@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260923T160000
+DTEND;TZID=America/New_York:20260923T180000
+SUMMARY:Morristown Beard School at Madison High School (Junior Varsity Gi
+ rls Girls Tennis)
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101944875@northwest-jersey-athletic-conference
@@ -1598,9 +1616,10 @@ UID:arb:101729395@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260926T100000
 DTEND;TZID=America/New_York:20260926T120000
-SUMMARY:Madison High School vs Morris Catholic High School (Varsity Girls
-  Girls Volleyball)
+SUMMARY:[Canceled] Madison High School vs Morris Catholic High School (Va
+ rsity Girls Girls Volleyball)
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 10:00 AM
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:99189519@northwest-jersey-athletic-conference
@@ -1625,18 +1644,20 @@ UID:arb:101729436@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260926T141500
 DTEND;TZID=America/New_York:20260926T161500
-SUMMARY:Madison High School vs Jonathan Dayton High School (Varsity Girls
-  Girls Volleyball)
+SUMMARY:[Canceled] Madison High School vs Jonathan Dayton High School (Va
+ rsity Girls Girls Volleyball)
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 2:15 PM
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101729470@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260926T153000
 DTEND;TZID=America/New_York:20260926T173000
-SUMMARY:Madison High School vs Jonathan Dayton High School (Varsity Girls
-  Girls Volleyball)
+SUMMARY:[Canceled] Madison High School vs Jonathan Dayton High School (Va
+ rsity Girls Girls Volleyball)
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 3:30 PM
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:104288874@northwest-jersey-athletic-conference
@@ -3045,6 +3066,16 @@ SUMMARY:Madison High School at Mountain Lakes High School (Freshman Boys
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ics:MorristownBeardSchool:event_11010_20261215t210000zapi.veracross.c
+ om@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261215T160000
+DTEND;TZID=America/New_York:20261215T180000
+SUMMARY:Morristown Beard School vs Madison High School (Varsity Boys Swim
+ ming and Girls)
+DESCRIPTION:Varsity Boys Swimming and Girls - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:101978667@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261215T173000
@@ -4152,7 +4183,7 @@ SUMMARY:Parsippany Hills High School vs Madison High School (Junior Varsi
 DESCRIPTION:Junior Varsity Girls Softball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:MorristownBeardSchool:event_9960_20270330t200000zapi.veracross.co
+UID:ics:MorristownBeardSchool:event_9959_20270330t200000zapi.veracross.co
  m@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270330T160000

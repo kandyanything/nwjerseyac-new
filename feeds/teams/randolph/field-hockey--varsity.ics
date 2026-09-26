@@ -24,22 +24,49 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2881:7416891@northwest-jersey-athletic-conference
+UID:ds:2825:7525387@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260824T100000
+DTEND;TZID=America/New_York:20260824T120000
+SUMMARY:Randolph High School at Hillsborough Athletics (Varsity Girls Fie
+ ld Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2825:7416891@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260827T160000
 DTEND;TZID=America/New_York:20260827T180000
-SUMMARY:Sparta High School at Randolph High School (Varsity Girls Field H
+SUMMARY:Randolph High School vs Sparta High School (Varsity Girls Field H
  ockey)
-DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
+DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2881:7596784@northwest-jersey-athletic-conference
+UID:ds:2825:7596784@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260828T100000
 DTEND;TZID=America/New_York:20260828T120000
-SUMMARY:Sparta High School at Randolph High School (Varsity Girls Field H
+SUMMARY:Randolph High School vs Sparta High School (Varsity Girls Field H
  ockey)
-DESCRIPTION:Varsity Girls Field Hockey - Away - 10:00 AM
+DESCRIPTION:Varsity Girls Field Hockey - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2825:7537571@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260829T090000
+DTEND;TZID=America/New_York:20260829T110000
+SUMMARY:Randolph High School at Lakeland Regional High School (Varsity Gi
+ rls Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2825:7525407@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260831T150000
+DTEND;TZID=America/New_York:20260831T170000
+SUMMARY:Randolph High School at West Milford High School (Varsity Girls F
+ ield Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Away - 3:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2751:7416903@northwest-jersey-athletic-conference
@@ -78,13 +105,13 @@ SUMMARY:Chatham High School vs Randolph High School (Varsity Girls Field
 DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2838:7417193@northwest-jersey-athletic-conference
+UID:ds:2825:7417193@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260917T160000
 DTEND;TZID=America/New_York:20260917T180000
-SUMMARY:Roxbury High School at Randolph High School (Varsity Girls Field 
+SUMMARY:Randolph High School vs Roxbury High School (Varsity Girls Field 
  Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
+DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2649:7475952@northwest-jersey-athletic-conference
