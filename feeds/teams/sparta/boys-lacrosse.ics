@@ -24,6 +24,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2881:7659576@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270320T100000
+DTEND;TZID=America/New_York:20270320T120000
+SUMMARY:Sparta High School vs Pequannock High School (Varsity Boys Boys L
+ acrosse)
+DESCRIPTION:Varsity Boys Boys Lacrosse - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2881:7555262@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270325T150000
@@ -40,6 +49,24 @@ DTEND;TZID=America/New_York:20270401T180000
 SUMMARY:Sparta High School vs James Caldwell High School (Varsity Boys Bo
  ys Lacrosse)
 DESCRIPTION:Varsity Boys Boys Lacrosse - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2761:7660014@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270403T100000
+DTEND;TZID=America/New_York:20270403T120000
+SUMMARY:Newton High School vs Sparta High School (Varsity Boys Boys Lacro
+ sse)
+DESCRIPTION:Varsity Boys Boys Lacrosse - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2761:7660026@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270403T113000
+DTEND;TZID=America/New_York:20270403T133000
+SUMMARY:Newton High School vs Sparta High School (Junior Varsity Boys Boy
+ s Lacrosse)
+DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Home - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2881:7641041@northwest-jersey-athletic-conference
