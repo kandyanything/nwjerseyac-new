@@ -24,12 +24,21 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2940:7646134@northwest-jersey-athletic-conference
+UID:ds:2816:7646134@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270318T160000
 DTEND;TZID=America/New_York:20270318T180000
-SUMMARY:Whippany Park High School vs Pope John XXIII High School (Varsity
+SUMMARY:Pope John XXIII High School at Whippany Park High School (Varsity
   Girls Girls Lacrosse)
-DESCRIPTION:Varsity Girls Girls Lacrosse - Home - 4:00 PM
+DESCRIPTION:Varsity Girls Girls Lacrosse - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2816:7626718@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270329T163000
+DTEND;TZID=America/New_York:20270329T183000
+SUMMARY:Pope John XXIII High School vs Cranford High School (Varsity Girl
+ s Girls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Home - 4:30 PM
 END:VEVENT
 END:VCALENDAR

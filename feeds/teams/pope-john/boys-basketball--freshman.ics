@@ -24,16 +24,25 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2816:7651732@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261212T100000
+DTEND;TZID=America/New_York:20261212T120000
+SUMMARY:Pope John XXIII High School at New Providence High School (Freshm
+ an Boys Boys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:101182616@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261217T160000
 DTEND;TZID=America/New_York:20261217T180000
-SUMMARY:Pope John XXIII High School at West Morris Central (Freshman Boys
+SUMMARY:West Morris Central vs Pope John XXIII High School (Freshman Boys
   Boys Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
+DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:101182810@northwest-jersey-athletic-conference
+UID:ds:2816:7634840@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270104T160000
 DTEND;TZID=America/New_York:20270104T180000
@@ -42,7 +51,7 @@ SUMMARY:Pope John XXIII High School vs Roxbury High School (Freshman Boys
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:101187826@northwest-jersey-athletic-conference
+UID:ds:2816:7547363@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270106T160000
 DTEND;TZID=America/New_York:20270106T180000
@@ -51,13 +60,13 @@ SUMMARY:Pope John XXIII High School at Randolph High School (Freshman Boy
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:101182823@northwest-jersey-athletic-conference
+UID:ds:2791:7634849@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270108T160000
 DTEND;TZID=America/New_York:20270108T180000
-SUMMARY:Pope John XXIII High School vs Parsippany Hills High School (Fres
+SUMMARY:Parsippany Hills High School at Pope John XXIII High School (Fres
  hman Boys Boys Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
+DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2751:7514864@northwest-jersey-athletic-conference
@@ -82,30 +91,21 @@ UID:arb:101182846@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270120T160000
 DTEND;TZID=America/New_York:20270120T180000
-SUMMARY:Pope John XXIII High School vs West Morris Central (Freshman Boys
-  Boys Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2838:7554785@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270122T040000
-DTEND;TZID=America/New_York:20270122T060000
-SUMMARY:Roxbury High School vs Pope John XXIII High School (Freshman Boys
-  Boys Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:arb:101182765@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270122T160000
-DTEND;TZID=America/New_York:20270122T180000
-SUMMARY:Pope John XXIII High School at Roxbury High School (Freshman Boys
+SUMMARY:West Morris Central at Pope John XXIII High School (Freshman Boys
   Boys Basketball)
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:101182858@northwest-jersey-athletic-conference
+UID:ds:2816:7554785@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270122T040000
+DTEND;TZID=America/New_York:20270122T060000
+SUMMARY:Pope John XXIII High School at Roxbury High School (Freshman Boys
+  Boys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2816:7547368@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270126T160000
 DTEND;TZID=America/New_York:20270126T180000
@@ -114,22 +114,13 @@ SUMMARY:Pope John XXIII High School vs Randolph High School (Freshman Boy
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:104087510@northwest-jersey-athletic-conference
+UID:ds:2816:7634523@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270204T160000
-DTEND;TZID=America/New_York:20270204T180000
+DTSTART;TZID=America/New_York:20270204T161500
+DTEND;TZID=America/New_York:20270204T181500
 SUMMARY:Pope John XXIII High School at Ramsey High School (Freshman Boys 
  Boys Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:arb:101188733@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270209T160000
-DTEND;TZID=America/New_York:20270209T180000
-SUMMARY:Pope John XXIII High School at Parsippany Hills High School (Fres
- hman Boys Boys Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
+DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2751:7514870@northwest-jersey-athletic-conference

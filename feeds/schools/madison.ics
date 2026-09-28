@@ -1664,9 +1664,10 @@ UID:arb:104288874@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260928T160000
 DTEND;TZID=America/New_York:20260928T180000
-SUMMARY:Madison High School vs Parsippany High School (Varsity Girls Girl
- s Tennis)
+SUMMARY:[Postponed] Madison High School vs Parsippany High School (Varsit
+ y Girls Girls Tennis)
 DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102627830@northwest-jersey-athletic-conference
@@ -2315,6 +2316,33 @@ SUMMARY:Madison High School vs TBD (Freshman Girls Girls Volleyball)
 DESCRIPTION:Freshman Girls Girls Volleyball - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2940:7525911@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261010T093000
+DTEND;TZID=America/New_York:20261010T113000
+SUMMARY:Whippany Park High School at Madison High School (Varsity Boys Bo
+ ys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 9:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2940:7626876@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261010T093000
+DTEND;TZID=America/New_York:20261010T113000
+SUMMARY:Whippany Park High School at Madison High School (Junior Varsity 
+ Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 9:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2940:7639726@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261010T093000
+DTEND;TZID=America/New_York:20261010T113000
+SUMMARY:Whippany Park High School at Madison High School (Freshman Boys B
+ oys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Away - 9:30 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:101413657@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261010T100000
@@ -2376,6 +2404,24 @@ DTEND;TZID=America/New_York:20261012T180000
 SUMMARY:Madison High School vs Lenape Valley High School (Junior Varsity 
  Boys Football)
 DESCRIPTION:Junior Varsity Boys Football - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2940:7658742@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261012T160000
+DTEND;TZID=America/New_York:20261012T180000
+SUMMARY:Whippany Park High School vs Madison High School (Varsity Girls G
+ irls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2940:7658748@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261012T160000
+DTEND;TZID=America/New_York:20261012T180000
+SUMMARY:Whippany Park High School vs Madison High School (Junior Varsity 
+ Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102252317@northwest-jersey-athletic-conference
@@ -2974,6 +3020,15 @@ DTEND;TZID=America/New_York:20261208T180000
 SUMMARY:Madison High School vs Montville High School (Freshman Boys Boys 
  Basketball)
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2816:7634900@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261208T163000
+DTEND;TZID=America/New_York:20261208T183000
+SUMMARY:Pope John XXIII High School vs Madison High School (Varsity Girls
+  Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2791:7626726@northwest-jersey-athletic-conference
@@ -4225,7 +4280,7 @@ SUMMARY:Parsippany Hills High School vs Madison High School (Junior Varsi
 DESCRIPTION:Junior Varsity Girls Softball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:MorristownBeardSchool:event_9959_20270330t200000zapi.veracross.co
+UID:ics:MorristownBeardSchool:event_9960_20270330t200000zapi.veracross.co
  m@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270330T160000

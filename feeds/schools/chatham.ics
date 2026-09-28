@@ -1581,15 +1581,6 @@ SUMMARY:West Morris Mendham at Chatham High School (Varsity Girls Girls T
 DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:101005111@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260924T160000
-DTEND;TZID=America/New_York:20260924T180000
-SUMMARY:Pope John XXIII High School at Chatham High School (Varsity Girls
-  Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2564:7424179@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260924T160000
@@ -1606,15 +1597,6 @@ DTEND;TZID=America/New_York:20260924T190000
 SUMMARY:Chatham High School vs Morristown High School (Junior Varsity Gir
  ls Field Hockey)
 DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 5:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:arb:101005114@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260924T171500
-DTEND;TZID=America/New_York:20260924T191500
-SUMMARY:Pope John XXIII High School at Chatham High School (Junior Varsit
- y Girls Girls Volleyball)
-DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 5:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2564:7424106@northwest-jersey-athletic-conference
@@ -1974,15 +1956,6 @@ DTEND;TZID=America/New_York:20260930T180000
 SUMMARY:Morris Knolls High School vs Chatham High School (Varsity Girls G
  irls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2564:7503254@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260930T160000
-DTEND;TZID=America/New_York:20260930T180000
-SUMMARY:Chatham High School vs Westfield High School (Varsity Girls Girls
-  Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2564:7503259@northwest-jersey-athletic-conference
@@ -2439,16 +2412,6 @@ SUMMARY:Chatham High School vs Livingston High School (Varsity Girls Girl
 DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:DelbartonSchool:vcal_7190-delbartonathletics.org@northwest-jersey
- -athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261008T160000
-DTEND;TZID=America/New_York:20261008T180000
-SUMMARY:Delbarton School vs Chatham High School (Junior Varsity Boys Scho
- ol Soccer)
-DESCRIPTION:Junior Varsity Boys School Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ics:DelbartonSchool:vcal_7172-delbartonathletics.org@northwest-jersey
  -athletic-conference
 DTSTAMP:20250801T000000Z
@@ -2457,6 +2420,16 @@ DTEND;TZID=America/New_York:20261008T180000
 SUMMARY:Delbarton School vs Chatham High School (Varsity Boys School Socc
  er)
 DESCRIPTION:Varsity Boys School Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:DelbartonSchool:vcal_7190-delbartonathletics.org@northwest-jersey
+ -athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261008T160000
+DTEND;TZID=America/New_York:20261008T180000
+SUMMARY:Delbarton School vs Chatham High School (Junior Varsity Boys Scho
+ ol Soccer)
+DESCRIPTION:Junior Varsity Boys School Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ics:DelbartonSchool:vcal_7209-delbartonathletics.org@northwest-jersey
@@ -2591,15 +2564,6 @@ DTEND;TZID=America/New_York:20261012T180000
 SUMMARY:West Morris Mendham at Chatham High School (Junior Varsity Boys F
  ootball)
 DESCRIPTION:Junior Varsity Boys Football - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2564:7555998@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261012T160000
-DTEND;TZID=America/New_York:20261012T180000
-SUMMARY:Chatham High School vs Whippany Park High School (Junior Varsity 
- Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2564:7543740@northwest-jersey-athletic-conference
@@ -3022,15 +2986,6 @@ SUMMARY:Chatham High School vs Mount Olive High School (Junior Varsity Gi
 DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:102577641@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261022T160000
-DTEND;TZID=America/New_York:20261022T180000
-SUMMARY:Pope John XXIII High School vs Chatham High School (Varsity Girls
-  Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2564:7424127@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261022T160000
@@ -3049,13 +3004,22 @@ SUMMARY:Chatham High School vs Livingston High School (Freshman Girls Gir
 DESCRIPTION:Freshman Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:102577642@northwest-jersey-athletic-conference
+UID:ds:2564:7536152@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261022T160000
+DTEND;TZID=America/New_York:20261022T180000
+SUMMARY:Chatham High School at Pope John XXIII High School (Varsity Girls
+  Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2564:7536215@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261022T171500
 DTEND;TZID=America/New_York:20261022T191500
-SUMMARY:Pope John XXIII High School vs Chatham High School (Junior Varsit
+SUMMARY:Chatham High School at Pope John XXIII High School (Junior Varsit
  y Girls Girls Volleyball)
-DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:15 PM
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 5:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2564:7578707@northwest-jersey-athletic-conference
@@ -4316,16 +4280,6 @@ SUMMARY:Montville High School at Chatham High School (Junior Varsity Boys
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:101647968@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270112T173000
-DTEND;TZID=America/New_York:20270112T193000
-SUMMARY:[Canceled] Pope John XXIII High School vs Chatham High School (Ju
- nior Varsity Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
-STATUS:CANCELLED
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2564:7457552@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T173000
@@ -4342,15 +4296,6 @@ DTEND;TZID=America/New_York:20270112T210000
 SUMMARY:Montville High School at Chatham High School (Varsity Boys Boys B
  asketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:arb:101647971@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270112T190000
-DTEND;TZID=America/New_York:20270112T210000
-SUMMARY:Pope John XXIII High School vs Chatham High School (Varsity Girls
-  Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2564:7643185@northwest-jersey-athletic-conference
@@ -4387,15 +4332,6 @@ DTEND;TZID=America/New_York:20270113T180000
 SUMMARY:Chatham High School vs Morris Catholic High School (Varsity Coed 
  Coed Fencing)
 DESCRIPTION:Varsity Coed Coed Fencing - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:arb:103557786@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270113T183000
-DTEND;TZID=America/New_York:20270113T203000
-SUMMARY:Pope John XXIII High School vs Chatham High School (Varsity Boys 
- Boys Ice Hockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2564:7593431@northwest-jersey-athletic-conference
@@ -4519,6 +4455,15 @@ DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270115T160000
 DTEND;TZID=America/New_York:20270115T180000
 SUMMARY:Morris Catholic High School at Chatham High School (Varsity Coed 
+ Coed Fencing)
+DESCRIPTION:Varsity Coed Coed Fencing - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2816:7457941@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270115T160000
+DTEND;TZID=America/New_York:20270115T180000
+SUMMARY:Pope John XXIII High School at Chatham High School (Varsity Coed 
  Coed Fencing)
 DESCRIPTION:Varsity Coed Coed Fencing - Away - 4:00 PM
 END:VEVENT
@@ -5208,13 +5153,13 @@ SUMMARY:Montville High School vs Chatham High School (Varsity Boys Boys B
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:101647272@northwest-jersey-athletic-conference
+UID:ds:2564:7457567@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270211T190000
 DTEND;TZID=America/New_York:20270211T210000
-SUMMARY:Pope John XXIII High School at Chatham High School (Varsity Girls
+SUMMARY:Chatham High School vs Pope John XXIII High School (Varsity Girls
   Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2564:7550812@northwest-jersey-athletic-conference
@@ -5475,15 +5420,6 @@ SUMMARY:Chatham High School vs Glen Ridge High School (Varsity Girls Girl
 DESCRIPTION:Varsity Girls Girls Lacrosse - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:103355053@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270329T163000
-DTEND;TZID=America/New_York:20270329T183000
-SUMMARY:Pope John XXIII High School vs Chatham High School (Varsity Boys 
- Baseball)
-DESCRIPTION:Varsity Boys Baseball - Home - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2564:7651501@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270330T160000
@@ -5491,15 +5427,6 @@ DTEND;TZID=America/New_York:20270330T180000
 SUMMARY:Chatham High School vs Mountain Lakes High School (Varsity Girls 
  Girls Lacrosse)
 DESCRIPTION:Varsity Girls Girls Lacrosse - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:arb:103384844@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270331T160000
-DTEND;TZID=America/New_York:20270331T180000
-SUMMARY:Pope John XXIII High School at Chatham High School (Varsity Boys 
- Baseball)
-DESCRIPTION:Varsity Boys Baseball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103569249@northwest-jersey-athletic-conference

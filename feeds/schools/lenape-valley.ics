@@ -51,13 +51,13 @@ SUMMARY:Pequannock High School at Lenape Valley High School (Varsity Boys
 DESCRIPTION:Varsity Boys Football - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:102932962@northwest-jersey-athletic-conference
+UID:ds:2694:7564927@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260824T170000
 DTEND;TZID=America/New_York:20260824T190000
-SUMMARY:Pope John XXIII High School vs Lenape Valley High School (Junior 
+SUMMARY:Lenape Valley High School at Pope John XXIII High School (Junior 
  Varsity Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 5:00 PM
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102336631@northwest-jersey-athletic-conference
@@ -69,13 +69,13 @@ SUMMARY:West Morris Mendham vs Lenape Valley High School (Varsity Girls F
 DESCRIPTION:Varsity Girls Field Hockey - Home - 3:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:102078683@northwest-jersey-athletic-conference
+UID:ds:2694:7522450@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260825T160000
 DTEND;TZID=America/New_York:20260825T180000
-SUMMARY:Pope John XXIII High School vs Lenape Valley High School (Varsity
+SUMMARY:Lenape Valley High School at Pope John XXIII High School (Varsity
   Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2694:7494976@northwest-jersey-athletic-conference
@@ -96,13 +96,13 @@ SUMMARY:Lenape Valley High School at Wallkill Valley High School (Junior
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 3:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:102231272@northwest-jersey-athletic-conference
+UID:ds:2694:7512276@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260826T160000
 DTEND;TZID=America/New_York:20260826T180000
-SUMMARY:Pope John XXIII High School at Lenape Valley High School (Varsity
+SUMMARY:Lenape Valley High School vs Pope John XXIII High School (Varsity
   Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102147475@northwest-jersey-athletic-conference
@@ -620,15 +620,6 @@ SUMMARY:Kittatinny High School at Lenape Valley High School (Junior Varsi
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2686:7470571@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260914T160000
-DTEND;TZID=America/New_York:20260914T180000
-SUMMARY:Kittatinny High School vs Lenape Valley High School (Varsity Girl
- s Girls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2686:7470581@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260914T160000
@@ -636,6 +627,15 @@ DTEND;TZID=America/New_York:20260914T180000
 SUMMARY:Kittatinny High School at Lenape Valley High School (Junior Varsi
  ty Girls Girls Tennis)
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2686:7470571@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T160000
+DTEND;TZID=America/New_York:20260914T180000
+SUMMARY:Kittatinny High School vs Lenape Valley High School (Varsity Girl
+ s Girls Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2686:7469815@northwest-jersey-athletic-conference
@@ -1195,6 +1195,15 @@ SUMMARY:Newton High School at Lenape Valley High School (Varsity Girls Gi
 DESCRIPTION:Varsity Girls Girls Cross Country - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2909:7601455@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260930T160000
+DTEND;TZID=America/New_York:20260930T180000
+SUMMARY:Vernon Township High School at Lenape Valley High School (Varsity
+  Girls Girls Cross Country)
+DESCRIPTION:Varsity Girls Girls Cross Country - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2909:7494972@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260930T160000
@@ -1202,15 +1211,6 @@ DTEND;TZID=America/New_York:20260930T180000
 SUMMARY:Vernon Township High School at Lenape Valley High School (Varsity
   Boys Boys Cross Country)
 DESCRIPTION:Varsity Boys Boys Cross Country - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2909:7506489@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260930T160000
-DTEND;TZID=America/New_York:20260930T180000
-SUMMARY:Vernon Township High School at Lenape Valley High School (Varsity
-  Girls Girls Cross Country)
-DESCRIPTION:Varsity Girls Girls Cross Country - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101884970@northwest-jersey-athletic-conference
@@ -1338,6 +1338,24 @@ DTEND;TZID=America/New_York:20261005T180000
 SUMMARY:Lenape Valley High School at Sparta High School (Junior Varsity G
  irls Girls Tennis)
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2694:7658507@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261005T160000
+DTEND;TZID=America/New_York:20261005T180000
+SUMMARY:Lenape Valley High School at Roxbury High School (Varsity Girls F
+ ield Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2694:7658509@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261005T173000
+DTEND;TZID=America/New_York:20261005T193000
+SUMMARY:Lenape Valley High School at Roxbury High School (Junior Varsity 
+ Girls Field Hockey)
+DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2694:7568371@northwest-jersey-athletic-conference

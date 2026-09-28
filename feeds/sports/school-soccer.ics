@@ -23,16 +23,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ics:DelbartonSchool:vcal_7224-delbartonathletics.org@northwest-jersey
- -athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260925T160000
-DTEND;TZID=America/New_York:20260925T180000
-SUMMARY:Delbarton School at Morris Plains (Middle School Boys School Socc
- er)
-DESCRIPTION:Middle School Boys School Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ics:DelbartonSchool:vcal_7225-delbartonathletics.org@northwest-jersey
  -athletic-conference
 DTSTAMP:20250801T000000Z
@@ -102,6 +92,16 @@ SUMMARY:Delbarton School vs Regis (NY) (Varsity Boys School Soccer)
 DESCRIPTION:Varsity Boys School Soccer - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:ics:DelbartonSchool:vcal_7189-delbartonathletics.org@northwest-jersey
+ -athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261003T100000
+DTEND;TZID=America/New_York:20261003T120000
+SUMMARY:Delbarton School at St. Benedict's Prep (Junior Varsity Boys Scho
+ ol Soccer)
+DESCRIPTION:Junior Varsity Boys School Soccer - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ics:DelbartonSchool:vcal_7228-delbartonathletics.org@northwest-jersey
  -athletic-conference
 DTSTAMP:20250801T000000Z
@@ -110,6 +110,15 @@ DTEND;TZID=America/New_York:20261005T180000
 SUMMARY:Delbarton School at Heritage Middle School (Middle School Boys Sc
  hool Soccer)
 DESCRIPTION:Middle School Boys School Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:DelbartonSchool:vcal_7229-delbartonathletics.org@northwest-jersey
+ -athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261006T160000
+DTEND;TZID=America/New_York:20261006T180000
+SUMMARY:Delbarton School vs Pingry (Middle School Boys School Soccer)
+DESCRIPTION:Middle School Boys School Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ics:DelbartonSchool:vcal_7171-delbartonathletics.org@northwest-jersey
@@ -122,13 +131,14 @@ SUMMARY:Delbarton School at Morris County First Round (Varsity Boys Schoo
 DESCRIPTION:Varsity Boys School Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:DelbartonSchool:vcal_7229-delbartonathletics.org@northwest-jersey
+UID:ics:DelbartonSchool:vcal_7172-delbartonathletics.org@northwest-jersey
  -athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261006T160000
-DTEND;TZID=America/New_York:20261006T180000
-SUMMARY:Delbarton School vs Pingry (Middle School Boys School Soccer)
-DESCRIPTION:Middle School Boys School Soccer - Home - 4:00 PM
+DTSTART;TZID=America/New_York:20261008T160000
+DTEND;TZID=America/New_York:20261008T180000
+SUMMARY:Delbarton School vs Chatham High School (Varsity Boys School Socc
+ er)
+DESCRIPTION:Varsity Boys School Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ics:DelbartonSchool:vcal_7190-delbartonathletics.org@northwest-jersey
@@ -139,16 +149,6 @@ DTEND;TZID=America/New_York:20261008T180000
 SUMMARY:Delbarton School vs Chatham High School (Junior Varsity Boys Scho
  ol Soccer)
 DESCRIPTION:Junior Varsity Boys School Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ics:DelbartonSchool:vcal_7172-delbartonathletics.org@northwest-jersey
- -athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261008T160000
-DTEND;TZID=America/New_York:20261008T180000
-SUMMARY:Delbarton School vs Chatham High School (Varsity Boys School Socc
- er)
-DESCRIPTION:Varsity Boys School Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ics:DelbartonSchool:vcal_7209-delbartonathletics.org@northwest-jersey
@@ -260,6 +260,15 @@ DTSTART;TZID=America/New_York:20261017T110000
 DTEND;TZID=America/New_York:20261017T130000
 SUMMARY:Delbarton School at CBA (Junior Varsity Boys School Soccer)
 DESCRIPTION:Junior Varsity Boys School Soccer - Away - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:DelbartonSchool:vcal_7214-delbartonathletics.org@northwest-jersey
+ -athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261017T123000
+DTEND;TZID=America/New_York:20261017T143000
+SUMMARY:Delbarton School at CBA (Freshman Boys School Soccer)
+DESCRIPTION:Freshman Boys School Soccer - Away - 12:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ics:DelbartonSchool:vcal_7269-delbartonathletics.org@northwest-jersey
