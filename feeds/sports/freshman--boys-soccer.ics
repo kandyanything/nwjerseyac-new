@@ -585,8 +585,8 @@ UID:arb:102333064@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260908T160000
 DTEND;TZID=America/New_York:20260908T180000
-SUMMARY:West Morris Mendham vs TBD (Freshman Boys Boys Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
+SUMMARY:West Morris Mendham at TBD (Freshman Boys Boys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2649:7523671@northwest-jersey-athletic-conference
@@ -1329,9 +1329,10 @@ UID:arb:102740003@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260929T160000
 DTEND;TZID=America/New_York:20260929T180000
-SUMMARY:Madison High School at Mountain Lakes High School (Freshman Boys 
- Boys Soccer)
+SUMMARY:[Canceled] Madison High School at Mountain Lakes High School (Fre
+ shman Boys Boys Soccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101944884@northwest-jersey-athletic-conference
@@ -1533,6 +1534,15 @@ SUMMARY:Montville High School vs TBD (Freshman Boys Boys Soccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Home - 8:00 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:arb:102732888@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261003T100000
+DTEND;TZID=America/New_York:20261003T120000
+SUMMARY:Morris Hills High School at High Point High School (Freshman Boys
+  Boys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2594:7647802@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261003T100000
@@ -1540,15 +1550,6 @@ DTEND;TZID=America/New_York:20261003T120000
 SUMMARY:Dover High School vs Whippany Park High School (Freshman Boys Boy
  s Soccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Home - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:arb:102732888@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261003T110000
-DTEND;TZID=America/New_York:20261003T130000
-SUMMARY:Morris Hills High School at High Point High School (Freshman Boys
-  Boys Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Away - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2642:7511489@northwest-jersey-athletic-conference
@@ -1578,12 +1579,21 @@ SUMMARY:Hanover Park High School vs Bernards High School (Freshman Boys B
 DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2761:7532536@northwest-jersey-athletic-conference
+UID:ds:2754:7506846@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261005T160000
 DTEND;TZID=America/New_York:20261005T180000
-SUMMARY:Newton High School at Blair Academy (Freshman Boys Boys Soccer)
+SUMMARY:Mountain Lakes High School at Madison High School (Freshman Boys 
+ Boys Soccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2761:7532536@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261005T163000
+DTEND;TZID=America/New_York:20261005T183000
+SUMMARY:Newton High School at Blair Academy (Freshman Boys Boys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103871392@northwest-jersey-athletic-conference

@@ -1460,16 +1460,6 @@ DESCRIPTION:Middle School Girls Field Hockey - Away - 4:00 PM
 STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:MorristownBeardSchool:event_10243_20260923t200000zapi.veracross.c
- om@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260923T160000
-DTEND;TZID=America/New_York:20260923T180000
-SUMMARY:Morristown Beard School vs Madison High School (Varsity Girls Gir
- ls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ics:MorristownBeardSchool:event_10244_20260923t200000zapi.veracross.c
  om@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
@@ -1478,6 +1468,16 @@ DTEND;TZID=America/New_York:20260923T180000
 SUMMARY:Morristown Beard School at Madison High School (Junior Varsity Gi
  rls Girls Tennis)
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:MorristownBeardSchool:event_10243_20260923t200000zapi.veracross.c
+ om@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260923T160000
+DTEND;TZID=America/New_York:20260923T180000
+SUMMARY:Morristown Beard School vs Madison High School (Varsity Girls Gir
+ ls Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101944875@northwest-jersey-athletic-conference
@@ -1738,18 +1738,20 @@ UID:arb:102740003@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260929T160000
 DTEND;TZID=America/New_York:20260929T180000
-SUMMARY:Madison High School at Mountain Lakes High School (Freshman Boys 
- Boys Soccer)
+SUMMARY:[Canceled] Madison High School at Mountain Lakes High School (Fre
+ shman Boys Boys Soccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101413308@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260929T160000
 DTEND;TZID=America/New_York:20260929T180000
-SUMMARY:Madison High School vs Mountain Lakes High School (Junior Varsity
-  Girls Girls Soccer)
+SUMMARY:[Canceled] Madison High School vs Mountain Lakes High School (Jun
+ ior Varsity Girls Girls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101413181@northwest-jersey-athletic-conference
@@ -1765,9 +1767,10 @@ UID:arb:101285856@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260929T160000
 DTEND;TZID=America/New_York:20260929T180000
-SUMMARY:Madison High School at Mountain Lakes High School (Junior Varsity
-  Boys Boys Soccer)
+SUMMARY:[Canceled] Madison High School at Mountain Lakes High School (Jun
+ ior Varsity Boys Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101285839@northwest-jersey-athletic-conference
@@ -1998,6 +2001,15 @@ SUMMARY:Madison High School vs Oak Knoll School of the Holy Child (Junior
 DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:arb:104380243@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261003T140000
+DTEND;TZID=America/New_York:20261003T160000
+SUMMARY:Madison High School vs Butler High School (Varsity Boys Boys Socc
+ er)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 2:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:102627840@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261005T160000
@@ -2069,6 +2081,15 @@ DTEND;TZID=America/New_York:20261005T180000
 SUMMARY:Morristown High School at Madison High School (Junior Varsity Gir
  ls Girls Tennis)
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2754:7506846@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261005T160000
+DTEND;TZID=America/New_York:20261005T180000
+SUMMARY:Mountain Lakes High School at Madison High School (Freshman Boys 
+ Boys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ics:MorristownBeardSchool:event_8680_20261005t200000zapi.veracross.co
@@ -4280,7 +4301,7 @@ SUMMARY:Parsippany Hills High School vs Madison High School (Junior Varsi
 DESCRIPTION:Junior Varsity Girls Softball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:MorristownBeardSchool:event_9960_20270330t200000zapi.veracross.co
+UID:ics:MorristownBeardSchool:event_9959_20270330t200000zapi.veracross.co
  m@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270330T160000
