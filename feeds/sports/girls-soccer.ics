@@ -2458,17 +2458,6 @@ SUMMARY:Wallkill Valley High School vs Sussex County Technical High Schoo
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:MorristownBeardSchool:event_8783_20260914t200000zapi.veracross.co
- m@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260914T160000
-DTEND;TZID=America/New_York:20260914T180000
-SUMMARY:[Cancelled] Morristown Beard School at Morris Catholic High Schoo
- l (Junior Varsity Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:00 PM
-STATUS:CANCELLED
-END:VEVENT
-BEGIN:VEVENT
 UID:ics:MorristownBeardSchool:event_8782_20260914t200000zapi.veracross.co
  m@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
@@ -2477,6 +2466,17 @@ DTEND;TZID=America/New_York:20260914T180000
 SUMMARY:[Cancelled] Morristown Beard School at Morris Catholic High Schoo
  l (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
+STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:MorristownBeardSchool:event_8783_20260914t200000zapi.veracross.co
+ m@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T160000
+DTEND;TZID=America/New_York:20260914T180000
+SUMMARY:[Cancelled] Morristown Beard School at Morris Catholic High Schoo
+ l (Junior Varsity Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:00 PM
 STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
@@ -5176,6 +5176,15 @@ SUMMARY:Kittatinny High School at North Warren (Middle School Girls Girls
 DESCRIPTION:Middle School Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:42130:7664497@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261002T160000
+DTEND;TZID=America/New_York:20261002T180000
+SUMMARY:Morris County School of Technology at Parsippany Hills High Schoo
+ l (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2751:7596936@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261002T160000
@@ -5192,15 +5201,6 @@ DTEND;TZID=America/New_York:20261002T180000
 SUMMARY:Mountain Lakes High School at Briarcliff MS (Middle School Girls 
  Girls Soccer)
 DESCRIPTION:Middle School Girls Girls Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2791:7664497@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261002T160000
-DTEND;TZID=America/New_York:20261002T180000
-SUMMARY:Parsippany Hills High School vs Morris County School of Technolog
- y (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:104189788@northwest-jersey-athletic-conference
@@ -5544,16 +5544,6 @@ SUMMARY:Pope John XXIII High School at Pope John XXIII Middle School (Mid
 DESCRIPTION:Middle School Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:MorristownBeardSchool:event_7655_20261006t200000zapi.veracross.co
- m@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261006T160000
-DTEND;TZID=America/New_York:20261006T180000
-SUMMARY:Morristown Beard School vs New Providence (Varsity Girls Girls So
- ccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ics:MorristownBeardSchool:event_7656_20261006t200000zapi.veracross.co
  m@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
@@ -5562,6 +5552,16 @@ DTEND;TZID=America/New_York:20261006T180000
 SUMMARY:Morristown Beard School vs New Providence (Junior Varsity Girls G
  irls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:MorristownBeardSchool:event_7655_20261006t200000zapi.veracross.co
+ m@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261006T160000
+DTEND;TZID=America/New_York:20261006T180000
+SUMMARY:Morristown Beard School vs New Providence (Varsity Girls Girls So
+ ccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2791:7507979@northwest-jersey-athletic-conference
@@ -5958,6 +5958,24 @@ DTEND;TZID=America/New_York:20261008T203000
 SUMMARY:Hanover Park High School vs Morristown Beard School (Varsity Girl
  s Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:42130:7664498@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261009T154500
+DTEND;TZID=America/New_York:20261009T174500
+SUMMARY:Morris County School of Technology vs Morris Hills High School (V
+ arsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 3:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:42130:7664499@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261009T154500
+DTEND;TZID=America/New_York:20261009T174500
+SUMMARY:Morris County School of Technology vs Morris Hills High School (J
+ unior Varsity Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 3:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101413327@northwest-jersey-athletic-conference
@@ -6538,6 +6556,15 @@ SUMMARY:Morris County School of Technology vs Veritas Christian Academy (
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 3:45 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:42130:7664501@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261014T154500
+DTEND;TZID=America/New_York:20261014T174500
+SUMMARY:Morris County School of Technology vs Lyndhurst High School (Juni
+ or Varsity Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 3:45 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2564:7536142@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261014T160000
@@ -6635,15 +6662,6 @@ DTEND;TZID=America/New_York:20261014T180000
 SUMMARY:Pope John XXIII High School at Kinnelon High School (Middle Schoo
  l Girls Girls Soccer)
 DESCRIPTION:Middle School Girls Girls Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:42130:7572177@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261014T161500
-DTEND;TZID=America/New_York:20261014T181500
-SUMMARY:Morris County School of Technology vs Lyndhurst High School (Juni
- or Varsity Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102442960@northwest-jersey-athletic-conference
@@ -6857,12 +6875,21 @@ DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
 STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:42130:7600116@northwest-jersey-athletic-conference
+UID:arb:103556217@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261016T154500
 DTEND;TZID=America/New_York:20261016T174500
-SUMMARY:Morris County School of Technology vs West Morris Mendham (Junior
+SUMMARY:West Morris Mendham at Morris County School of Technology (Junior
   Varsity Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 3:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:42130:7664502@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261016T154500
+DTEND;TZID=America/New_York:20261016T174500
+SUMMARY:Morris County School of Technology vs Pequannock High School (Jun
+ ior Varsity Girls Girls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 3:45 PM
 END:VEVENT
 BEGIN:VEVENT
