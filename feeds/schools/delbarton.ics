@@ -23,48 +23,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ics:DelbartonSchool:vcal_7289-delbartonathletics.org@northwest-jersey
- -athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260831T160000
-DTEND;TZID=America/New_York:20260831T180000
-SUMMARY:Delbarton School vs St Peters Prep (Freshman Boys [N] Delbarton S
- chool Soccer)
-DESCRIPTION:Freshman Boys [N] Delbarton School Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ics:DelbartonSchool:vcal_7290-delbartonathletics.org@northwest-jersey
- -athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260831T160000
-DTEND;TZID=America/New_York:20260831T180000
-SUMMARY:Delbarton School vs St Peters Prep (Junior Varsity Boys [N] Delba
- rton School Soccer)
-DESCRIPTION:Junior Varsity Boys [N] Delbarton School Soccer - Home - 4:00
-  PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ics:DelbartonSchool:vcal_7291-delbartonathletics.org@northwest-jersey
- -athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260831T160000
-DTEND;TZID=America/New_York:20260831T180000
-SUMMARY:Delbarton School vs St Peters Prep (Varsity Boys [N] Delbarton Sc
- hool Soccer)
-DESCRIPTION:Varsity Boys [N] Delbarton School Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ics:DelbartonSchool:vcal_7258-delbartonathletics.org@northwest-jersey
- -athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260831T160000
-DTEND;TZID=America/New_York:20260831T180000
-SUMMARY:Delbarton School vs St. Peter's Prep (Junior Varsity Boys [L] Del
- barton School Football)
-DESCRIPTION:Junior Varsity Boys [L] Delbarton School Football - Home - 4:
- 00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2825:7430076@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260903T160000
@@ -92,16 +50,6 @@ SUMMARY:Randolph High School vs Delbarton School (Freshman Boys Boys Socc
 DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:DelbartonSchool:vcal_7161-delbartonathletics.org@northwest-jersey
- -athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260903T160000
-DTEND;TZID=America/New_York:20260903T180000
-SUMMARY:Delbarton School at Randolph High School (Varsity Boys [L] Delbar
- ton School Soccer)
-DESCRIPTION:Varsity Boys [L] Delbarton School Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ics:DelbartonSchool:vcal_7200-delbartonathletics.org@northwest-jersey
  -athletic-conference
 DTSTAMP:20250801T000000Z
@@ -121,6 +69,16 @@ SUMMARY:Delbarton School at Randolph High School (Junior Varsity Boys [W]
   Delbarton School Soccer)
 DESCRIPTION:Junior Varsity Boys [W] Delbarton School Soccer - Away - 4:00
   PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:DelbartonSchool:vcal_7161-delbartonathletics.org@northwest-jersey
+ -athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260903T160000
+DTEND;TZID=America/New_York:20260903T180000
+SUMMARY:Delbarton School at Randolph High School (Varsity Boys [L] Delbar
+ ton School Soccer)
+DESCRIPTION:Varsity Boys [L] Delbarton School Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ics:DelbartonSchool:vcal_7235-delbartonathletics.org@northwest-jersey
@@ -1188,6 +1146,15 @@ SUMMARY:Delbarton School at Bergen Catholic (Junior Varsity Boys School F
 DESCRIPTION:Junior Varsity Boys School Football - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ics:DelbartonSchool:vcal_7267-delbartonathletics.org@northwest-jersey
+ -athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261019T160000
+DTEND;TZID=America/New_York:20261019T180000
+SUMMARY:Delbarton School vs Seton Hall Prep (Freshman Boys School Soccer)
+DESCRIPTION:Freshman Boys School Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ics:DelbartonSchool:vcal_7269-delbartonathletics.org@northwest-jersey
  -athletic-conference
 DTSTAMP:20250801T000000Z
@@ -1196,15 +1163,6 @@ DTEND;TZID=America/New_York:20261019T180000
 SUMMARY:Delbarton School at Seton Hall Prep (Junior Varsity Boys School S
  occer)
 DESCRIPTION:Junior Varsity Boys School Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ics:DelbartonSchool:vcal_7267-delbartonathletics.org@northwest-jersey
- -athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261019T160000
-DTEND;TZID=America/New_York:20261019T180000
-SUMMARY:Delbarton School vs Seton Hall Prep (Freshman Boys School Soccer)
-DESCRIPTION:Freshman Boys School Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:100920713@northwest-jersey-athletic-conference
