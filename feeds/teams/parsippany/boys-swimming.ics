@@ -24,6 +24,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2790:7672693@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261207T163000
+DTEND;TZID=America/New_York:20261207T183000
+SUMMARY:Parsippany High School vs Pequannock High School (Varsity Boys Bo
+ ys Swimming)
+DESCRIPTION:Varsity Boys Boys Swimming - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2790:7666705@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261211T163000
@@ -31,15 +40,6 @@ DTEND;TZID=America/New_York:20261211T183000
 SUMMARY:Parsippany High School vs Madison High School (Varsity Boys Boys 
  Swimming)
 DESCRIPTION:Varsity Boys Boys Swimming - Home - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2790:7641941@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261212T160000
-DTEND;TZID=America/New_York:20261212T180000
-SUMMARY:Parsippany High School at Morristown Beard School (Varsity Boys B
- oys Swimming)
-DESCRIPTION:Varsity Boys Boys Swimming - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2642:7624598@northwest-jersey-athletic-conference
@@ -60,6 +60,15 @@ SUMMARY:Parsippany High School at Hanover Park High School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Swimming - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2790:7672696@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270112T160000
+DTEND;TZID=America/New_York:20270112T180000
+SUMMARY:Parsippany High School at Morristown Beard School (Varsity Boys B
+ oys Swimming)
+DESCRIPTION:Varsity Boys Boys Swimming - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2686:7599272@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T163000
@@ -76,5 +85,14 @@ DTEND;TZID=America/New_York:20270125T183000
 SUMMARY:Parsippany High School vs High Point High School (Varsity Boys Bo
  ys Swimming)
 DESCRIPTION:Varsity Boys Boys Swimming - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2790:7672705@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270127T163000
+DTEND;TZID=America/New_York:20270127T183000
+SUMMARY:Parsippany High School at Parsippany Hills High School (Varsity B
+ oys Boys Swimming)
+DESCRIPTION:Varsity Boys Boys Swimming - Away - 4:30 PM
 END:VEVENT
 END:VCALENDAR
