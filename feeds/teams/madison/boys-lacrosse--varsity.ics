@@ -1,0 +1,80 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Northwest Jersey Athletic Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Northwest Jersey Athletic Conference — Madison High School V
+ arsity Boys Lacrosse
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:arb:104292163@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270403T100000
+DTEND;TZID=America/New_York:20270403T120000
+SUMMARY:Madison High School vs Randolph High School (Varsity Boys Boys La
+ crosse)
+DESCRIPTION:Varsity Boys Boys Lacrosse - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:104292173@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270412
+DTEND;VALUE=DATE:20270413
+SUMMARY:Madison High School vs Roxbury High School (Varsity Boys Boys Lac
+ rosse)
+DESCRIPTION:Varsity Boys Boys Lacrosse - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:104292190@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270417T100000
+DTEND;TZID=America/New_York:20270417T120000
+SUMMARY:Madison High School vs Jefferson Township High School (Varsity Bo
+ ys Boys Lacrosse)
+DESCRIPTION:Varsity Boys Boys Lacrosse - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:104292229@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270420T100000
+DTEND;TZID=America/New_York:20270420T120000
+SUMMARY:Madison High School vs Northern Highlands Regional High School (V
+ arsity Boys Boys Lacrosse)
+DESCRIPTION:Varsity Boys Boys Lacrosse - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:104292246@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270426
+DTEND;VALUE=DATE:20270427
+SUMMARY:Madison High School vs Pequannock High School (Varsity Boys Boys 
+ Lacrosse)
+DESCRIPTION:Varsity Boys Boys Lacrosse - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:104292260@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270507
+DTEND;VALUE=DATE:20270508
+SUMMARY:Madison High School vs Hanover Park High School (Varsity Boys Boy
+ s Lacrosse)
+DESCRIPTION:Varsity Boys Boys Lacrosse - Home
+END:VEVENT
+END:VCALENDAR

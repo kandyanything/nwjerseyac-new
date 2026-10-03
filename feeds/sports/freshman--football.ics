@@ -121,15 +121,6 @@ SUMMARY:Randolph High School vs Rahway High School (Freshman Boys Footbal
 DESCRIPTION:Freshman Boys Football - Home - 10:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:100261267@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260820T160000
-DTEND;TZID=America/New_York:20260820T180000
-SUMMARY:Pope John XXIII High School at Ramapo High School (Freshman Boys 
- Football)
-DESCRIPTION:Freshman Boys Football - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2748:7477536@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20260820
@@ -190,15 +181,6 @@ DTEND;TZID=America/New_York:20260821T130000
 SUMMARY:Morris Hills High School vs Chatham High School (Freshman Boys Fo
  otball)
 DESCRIPTION:Freshman Boys Football - Home - 11:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:arb:99697825@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260824T100000
-DTEND;TZID=America/New_York:20260824T120000
-SUMMARY:Pope John XXIII High School vs Montclair High School (Freshman Bo
- ys Football)
-DESCRIPTION:Freshman Boys Football - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103310298@northwest-jersey-athletic-conference
@@ -384,15 +366,6 @@ DESCRIPTION:Freshman Boys Football - Home - 4:30 PM
 STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:99697833@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260903T163000
-DTEND;TZID=America/New_York:20260903T183000
-SUMMARY:Pope John XXIII High School vs Saint Peter's Prep High School (Fr
- eshman Boys Football)
-DESCRIPTION:Freshman Boys Football - Home - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2754:7507175@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260903T183000
@@ -565,15 +538,6 @@ SUMMARY:Pequannock High School at Clifton High School (Freshman Boys Foot
 DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:99665700@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260912T090000
-DTEND;TZID=America/New_York:20260912T110000
-SUMMARY:Pope John XXIII High School at Don Bosco Preparatory High School 
- (Freshman Boys Football)
-DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:103905888@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260914T160000
@@ -587,17 +551,20 @@ UID:arb:99189538@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260917T160000
 DTEND;TZID=America/New_York:20260917T180000
-SUMMARY:Madison High School vs Newton High School (Freshman Boys Football)
+SUMMARY:[Canceled] Madison High School vs Newton High School (Freshman Bo
+ ys Football)
 DESCRIPTION:Freshman Boys Football - Home - 4:00 PM
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:99231381@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260917T160000
 DTEND;TZID=America/New_York:20260917T180000
-SUMMARY:Montville High School at Parsippany Hills High School (Freshman B
- oys Football)
+SUMMARY:[Canceled] Montville High School at Parsippany Hills High School 
+ (Freshman Boys Football)
 DESCRIPTION:Freshman Boys Football - Away - 4:00 PM
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:99664551@northwest-jersey-athletic-conference
@@ -609,31 +576,13 @@ SUMMARY:Morris Hills High School vs Pequannock High School (Freshman Boys
 DESCRIPTION:Freshman Boys Football - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:102938578@northwest-jersey-athletic-conference
+UID:arb:101845875@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260917T160000
 DTEND;TZID=America/New_York:20260917T180000
-SUMMARY:Pope John XXIII High School vs Immaculata High School (Freshman B
- oys Football)
-DESCRIPTION:Freshman Boys Football - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2634:7589553@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260917T160000
-DTEND;TZID=America/New_York:20260917T180000
-SUMMARY:Hackettstown High School at High Point High School (Freshman Boys
-  Football)
-DESCRIPTION:Freshman Boys Football - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2838:7491242@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260917T160000
-DTEND;TZID=America/New_York:20260917T180000
-SUMMARY:Roxbury High School vs West Morris Central (Freshman Boys Footbal
+SUMMARY:West Morris Central at Roxbury High School (Freshman Boys Footbal
  l)
-DESCRIPTION:Freshman Boys Football - Home - 4:00 PM
+DESCRIPTION:Freshman Boys Football - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2694:7621052@northwest-jersey-athletic-conference
@@ -699,31 +648,42 @@ SUMMARY:Sparta High School vs West Essex High School (Freshman Boys Footb
 DESCRIPTION:Freshman Boys Football - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2909:7639871@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260921T160000
+DTEND;TZID=America/New_York:20260921T180000
+SUMMARY:Vernon Township High School at Morris Catholic High School (Fresh
+ man Boys Football)
+DESCRIPTION:Freshman Boys Football - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:99192094@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260924T160000
 DTEND;TZID=America/New_York:20260924T180000
-SUMMARY:Madison High School at Pequannock High School (Freshman Boys Foot
- ball)
+SUMMARY:[Canceled] Madison High School at Pequannock High School (Freshma
+ n Boys Football)
 DESCRIPTION:Freshman Boys Football - Away - 4:00 PM
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:98770649@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260924T160000
 DTEND;TZID=America/New_York:20260924T180000
-SUMMARY:Montville High School vs Vernon Township High School (Freshman Bo
- ys Football)
+SUMMARY:[Canceled] Montville High School vs Vernon Township High School (
+ Freshman Boys Football)
 DESCRIPTION:Freshman Boys Football - Home - 4:00 PM
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:99697840@northwest-jersey-athletic-conference
+UID:arb:104185036@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260924T160000
-DTEND;TZID=America/New_York:20260924T180000
-SUMMARY:Pope John XXIII High School vs Seton Hall Preparatory School (Fre
- shman Boys Football)
-DESCRIPTION:Freshman Boys Football - Home - 4:00 PM
+DTSTART;TZID=America/New_York:20260924T163000
+DTEND;TZID=America/New_York:20260924T183000
+SUMMARY:Madison High School vs Vernon Township High School (Freshman Boys
+  Football)
+DESCRIPTION:Freshman Boys Football - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2751:7457404@northwest-jersey-athletic-conference
@@ -735,22 +695,23 @@ SUMMARY:Mount Olive High School vs Morris Knolls High School (Freshman Bo
 DESCRIPTION:Freshman Boys Football - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:arb:98865814@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260926T090000
+DTEND;TZID=America/New_York:20260926T110000
+SUMMARY:West Morris Central vs Chatham High School (Freshman Boys Footbal
+ l)
+DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:100156275@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260926T090000
 DTEND;TZID=America/New_York:20260926T110000
-SUMMARY:West Morris Mendham vs Immaculata High School (Freshman Boys Foot
- ball)
+SUMMARY:[Canceled] West Morris Mendham vs Immaculata High School (Freshma
+ n Boys Football)
 DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2564:7481359@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260926T090000
-DTEND;TZID=America/New_York:20260926T110000
-SUMMARY:Chatham High School at West Morris Central (Freshman Boys Footbal
- l)
-DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2642:7539360@northwest-jersey-athletic-conference
@@ -759,24 +720,6 @@ DTSTART;TZID=America/New_York:20260926T090000
 DTEND;TZID=America/New_York:20260926T110000
 SUMMARY:Hanover Park High School at Westwood Regional Senior High School 
  (Freshman Boys Football)
-DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2748:7525736@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260926T090000
-DTEND;TZID=America/New_York:20260926T110000
-SUMMARY:Morristown High School at Livingston High School (Freshman Boys F
- ootball)
-DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2754:7549730@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260926T090000
-DTEND;TZID=America/New_York:20260926T110000
-SUMMARY:Mountain Lakes High School at Arthur L Johnson High School (Fresh
- man Boys Football)
 DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
@@ -789,6 +732,15 @@ SUMMARY:Randolph High School vs Roxbury High School (Freshman Boys Footba
 DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2791:7547985@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260926T093000
+DTEND;TZID=America/New_York:20260926T113000
+SUMMARY:Parsippany Hills High School at Sparta High School (Freshman Boys
+  Football)
+DESCRIPTION:Freshman Boys Football - Away - 9:30 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2694:7602899@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260926T100000
@@ -796,15 +748,6 @@ DTEND;TZID=America/New_York:20260926T120000
 SUMMARY:Lenape Valley High School vs Butler High School (Freshman Boys Fo
  otball)
 DESCRIPTION:Freshman Boys Football - Home - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2791:7547985@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260926T100000
-DTEND;TZID=America/New_York:20260926T120000
-SUMMARY:Parsippany Hills High School at Sparta High School (Freshman Boys
-  Football)
-DESCRIPTION:Freshman Boys Football - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2754:7502771@northwest-jersey-athletic-conference
@@ -838,9 +781,10 @@ UID:arb:98764397@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261001T160000
 DTEND;TZID=America/New_York:20261001T180000
-SUMMARY:Montville High School vs Sparta High School (Freshman Boys Footba
- ll)
+SUMMARY:[Canceled] Montville High School vs Sparta High School (Freshman 
+ Boys Football)
 DESCRIPTION:Freshman Boys Football - Home - 4:00 PM
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:99666701@northwest-jersey-athletic-conference
@@ -897,15 +841,6 @@ SUMMARY:Morris Knolls High School vs West Morris Central (Freshman Boys F
 DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:103223614@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261003T090000
-DTEND;TZID=America/New_York:20261003T110000
-SUMMARY:Pope John XXIII High School vs Ridgewood High School (Freshman Bo
- ys Football)
-DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:100156278@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261003T090000
@@ -913,16 +848,6 @@ DTEND;TZID=America/New_York:20261003T110000
 SUMMARY:West Morris Mendham vs Warren Hills Regional High School (Freshma
  n Boys Football)
 DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:arb:99968959@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261003T093000
-DTEND;TZID=America/New_York:20261003T113000
-SUMMARY:[Canceled] Pope John XXIII High School at Paramus Catholic High S
- chool (Freshman Boys Football)
-DESCRIPTION:Freshman Boys Football - Away - 9:30 AM
-STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2748:7477577@northwest-jersey-athletic-conference
@@ -958,15 +883,6 @@ DTSTART;TZID=America/New_York:20261008T160000
 DTEND;TZID=America/New_York:20261008T180000
 SUMMARY:Pequannock High School vs Vernon Township High School (Freshman B
  oys Football)
-DESCRIPTION:Freshman Boys Football - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:arb:99697842@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261008T160000
-DTEND;TZID=America/New_York:20261008T180000
-SUMMARY:Pope John XXIII High School vs De Paul Catholic High School (Fres
- hman Boys Football)
 DESCRIPTION:Freshman Boys Football - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -1067,6 +983,15 @@ DTEND;TZID=America/New_York:20261010T143000
 SUMMARY:West Morris Central vs Immaculata High School (Freshman Boys Foot
  ball)
 DESCRIPTION:Freshman Boys Football - Home - 12:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2825:7414112@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261014T160000
+DTEND;TZID=America/New_York:20261014T180000
+SUMMARY:Randolph High School at Warren Hills Regional School District (Fr
+ eshman Boys Football)
+DESCRIPTION:Freshman Boys Football - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102825240@northwest-jersey-athletic-conference
@@ -1186,15 +1111,6 @@ SUMMARY:Morristown High School at Montville High School (Freshman Boys Fo
 DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2825:7414112@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261017T090000
-DTEND;TZID=America/New_York:20261017T110000
-SUMMARY:Randolph High School at Warren Hills Regional School District (Fr
- eshman Boys Football)
-DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2881:7495819@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261017T100000
@@ -1211,15 +1127,6 @@ DTEND;TZID=America/New_York:20261019T180000
 SUMMARY:Madison High School at James Caldwell High School (Freshman Boys 
  Football)
 DESCRIPTION:Freshman Boys Football - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:arb:99697849@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261022T160000
-DTEND;TZID=America/New_York:20261022T180000
-SUMMARY:Pope John XXIII High School vs Delbarton School (Freshman Boys Fo
- otball)
-DESCRIPTION:Freshman Boys Football - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2791:7547991@northwest-jersey-athletic-conference
@@ -1267,6 +1174,15 @@ SUMMARY:Montville High School at Old Tappan High School (Freshman Boys Fo
 DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:arb:99191906@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261024T090000
+DTEND;TZID=America/New_York:20261024T110000
+SUMMARY:Pequannock High School at Hanover Park High School (Freshman Boys
+  Football)
+DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2751:7457410@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261024T090000
@@ -1294,15 +1210,6 @@ SUMMARY:Chatham High School at Morris Knolls High School (Freshman Boys F
 DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2642:7440984@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261024T090000
-DTEND;TZID=America/New_York:20261024T110000
-SUMMARY:Hanover Park High School vs Pequannock High School (Freshman Boys
-  Football)
-DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2748:7414113@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261024T090000
@@ -1319,14 +1226,5 @@ DTEND;TZID=America/New_York:20261024T113000
 SUMMARY:Lenape Valley High School vs East Orange Campus High School (Fres
  hman Boys Football)
 DESCRIPTION:Freshman Boys Football - Home - 9:30 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:arb:100122415@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261029T154500
-DTEND;TZID=America/New_York:20261029T174500
-SUMMARY:Pope John XXIII High School at Saint John Vianney High School (Fr
- eshman Boys Football)
-DESCRIPTION:Freshman Boys Football - Away - 3:45 PM
 END:VEVENT
 END:VCALENDAR

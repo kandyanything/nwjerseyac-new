@@ -24,21 +24,30 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:arb:104025507@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270317T164500
-DTEND;TZID=America/New_York:20270317T184500
-SUMMARY:Pope John XXIII High School at Hillsborough High School (Varsity 
- Boys Boys Lacrosse)
-DESCRIPTION:Varsity Boys Boys Lacrosse - Away - 4:45 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:arb:103953626@northwest-jersey-athletic-conference
+UID:ds:2754:7643687@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270410T110000
 DTEND;TZID=America/New_York:20270410T130000
-SUMMARY:Pope John XXIII High School at Mountain Lakes High School (Varsit
+SUMMARY:Mountain Lakes High School vs Pope John XXIII High School (Varsit
  y Boys Boys Lacrosse)
-DESCRIPTION:Varsity Boys Boys Lacrosse - Away - 11:00 AM
+DESCRIPTION:Varsity Boys Boys Lacrosse - Home - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:104243937@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270415T160000
+DTEND;TZID=America/New_York:20270415T180000
+SUMMARY:Montville High School vs Pope John XXIII High School (Varsity Boy
+ s Boys Lacrosse)
+DESCRIPTION:Varsity Boys Boys Lacrosse - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2816:7647472@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270501T100000
+DTEND;TZID=America/New_York:20270501T120000
+SUMMARY:Pope John XXIII High School at River Dell Regional High School (V
+ arsity Boys Boys Lacrosse)
+DESCRIPTION:Varsity Boys Boys Lacrosse - Away - 10:00 AM
 END:VEVENT
 END:VCALENDAR
