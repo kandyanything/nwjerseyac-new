@@ -1,54 +1,425 @@
-﻿{
-  "_comment": "NJAC Vision. Two formats: YouTube (set 'id' = the watch?v= part, plays inline) or NFHS Network (set 'url' = full NFHS event URL and 'source':'nfhs', opens in new tab — NFHS blocks iframe embedding). Optional 'thumb': full URL or local images/... path. First entry runs large as the feature.",
+{
+  "_comment": "NJAC Vision. NFHS Network broadcasts of member schools, newest first. No \"thumb\" is stored: the renderer derives the broadcast frame from the game id (social.nfhsnetwork.com/thumbnails/<id>_nfhs_net.jpg), and every entry here was checked to have one. Rebuild with scripts/build-nfhs-videos.js.",
   "videos": [
     {
-      "url": "https://www.nfhsnetwork.com/events/kinnelon-high-school-kinnelon-nj/gamefcae01de9",
+      "url": "https://www.nfhsnetwork.com/events/lakeland-regional-high-school-wanaque-nj/gam617d3f046a",
       "source": "nfhs",
-      "title": "Kinnelon vs. Villa Walsh",
-      "date": "2026-09-18",
-      "sport": "Girls Soccer"
+      "title": "Boonton vs. Lakeland Reg.",
+      "date": "2026-10-03",
+      "sport": "Varsity Girls Field Hockey"
     },
     {
-      "url": "https://www.nfhsnetwork.com/events/west-morris-mendham-high-school-mendham-nj/gamd9ba432896",
+      "url": "https://www.nfhsnetwork.com/events/chatham-high-school-chatham-nj/gamd46a710bb1",
       "source": "nfhs",
-      "title": "Mendham vs. Morris Hills",
-      "date": "2026-09-18",
-      "sport": "Girls Volleyball"
+      "title": "Phillipsburg vs. Chatham",
+      "date": "2026-10-03",
+      "sport": "Varsity Girls Field Hockey"
     },
     {
-      "url": "https://www.nfhsnetwork.com/events/roxbury-high-school-succasunna-nj/gam418dd04bbb",
+      "url": "https://www.nfhsnetwork.com/events/chatham-high-school-chatham-nj/gam9d7f56319a",
       "source": "nfhs",
-      "title": "Parsippany Hills vs. Roxbury",
-      "date": "2026-09-18",
-      "sport": "Field Hockey"
+      "title": "Bernards vs. Chatham",
+      "date": "2026-10-03",
+      "sport": "Freshman Girls Field Hockey"
     },
     {
-      "url": "https://www.nfhsnetwork.com/events/morris-knolls-high-school-rockaway-nj/gam7f06d60581",
+      "url": "https://www.nfhsnetwork.com/events/west-morris-mendham-high-school-mendham-nj/gam117a6538af",
       "source": "nfhs",
-      "title": "Vernon vs. Morris Knolls",
-      "date": "2026-09-18",
-      "sport": "Girls Volleyball"
+      "title": "Chatham vs. Mendham",
+      "date": "2026-10-03",
+      "sport": "Junior Varsity Girls Volleyball"
     },
     {
-      "url": "https://www.nfhsnetwork.com/events/mahwah-high-school-mahwah-nj/gam7c06318750",
+      "url": "https://www.nfhsnetwork.com/events/jefferson-township-high-school-oak-ridge-nj/gamc23ee38f0c",
       "source": "nfhs",
-      "title": "Pequannock vs. Mahwah",
-      "date": "2026-09-18",
-      "sport": "Football"
+      "title": "Vernon Township vs. Jefferson Twp.",
+      "date": "2026-10-03",
+      "sport": "Varsity Boys Football"
     },
     {
-      "url": "https://www.nfhsnetwork.com/events/jefferson-township-high-school-oak-ridge-nj/gam5164205e74",
+      "url": "https://www.nfhsnetwork.com/events/kinnelon-high-school-kinnelon-nj/gamac80314f10",
       "source": "nfhs",
-      "title": "Wallkill Valley vs. Jefferson",
-      "date": "2026-09-18",
-      "sport": "Football"
+      "title": "Mount Olive vs. Kinnelon",
+      "date": "2026-10-03",
+      "sport": "Varsity Girls Soccer"
     },
     {
-      "url": "https://www.nfhsnetwork.com/events/chatham-high-school-chatham-nj/gamb0f48c500e",
+      "url": "https://www.nfhsnetwork.com/events/garden-state-athletic-network/gam3a170d8595",
       "source": "nfhs",
-      "title": "Sparta vs. Chatham",
-      "date": "2026-09-18",
-      "sport": "Boys Soccer"
+      "title": "Whippany Park vs. LVHS",
+      "date": "2026-10-03",
+      "sport": "Varsity Boys Football"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/morris-hills-high-school-rockaway-nj/gamd11d6c7fba",
+      "source": "nfhs",
+      "title": "PHHS vs. Morris Hills",
+      "date": "2026-10-03",
+      "sport": "Junior Varsity Girls Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/morris-knolls-high-school-rockaway-nj/gam906b662127",
+      "source": "nfhs",
+      "title": "Ridge vs. Morris Knolls",
+      "date": "2026-10-03",
+      "sport": "Junior Varsity Girls Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/morristown-high-school-morristown-nj/game03da40ac8",
+      "source": "nfhs",
+      "title": "Mendham vs. Morristown",
+      "date": "2026-10-03",
+      "sport": "Varsity Girls Soccer"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/west-morris-mendham-high-school-mendham-nj/gamc62195c29c",
+      "source": "nfhs",
+      "title": "Pequannock Twp. vs. Mendham",
+      "date": "2026-10-03",
+      "sport": "Junior Varsity Boys Soccer"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/montville-high-school-montville-nj/gam22a29ac5ce",
+      "source": "nfhs",
+      "title": "Pope John xxIII vs. Montville",
+      "date": "2026-10-03",
+      "sport": "Junior Varsity Girls Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/chatham-high-school-chatham-nj/gam2cb068b778",
+      "source": "nfhs",
+      "title": "Roxbury vs. Chatham",
+      "date": "2026-10-03",
+      "sport": "Varsity Boys Football"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/roxbury-high-school-succasunna-nj/gamd12ceb47ef",
+      "source": "nfhs",
+      "title": "Whippany Park vs. Roxbury",
+      "date": "2026-10-03",
+      "sport": "Junior Varsity Boys Soccer"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/villa-walsh-academy-morristown-nj/gam9bea7ba287",
+      "source": "nfhs",
+      "title": "2026 NJSIAA Girls Soccer Prelim — Whippany Park vs. Villa Walsh",
+      "date": "2026-10-03",
+      "sport": "Varsity Girls Soccer"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/west-morris-mendham-high-school-mendham-nj/gam2f0b5a6e48",
+      "source": "nfhs",
+      "title": "Chatham vs. Mendham",
+      "date": "2026-10-02",
+      "sport": "Varsity Girls Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/chatham-high-school-chatham-nj/gam68754b92de",
+      "source": "nfhs",
+      "title": "M&#39;town-Beard vs. Chatham",
+      "date": "2026-10-02",
+      "sport": "Varsity Boys Soccer"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/chatham-high-school-chatham-nj/gam8eb7e404df",
+      "source": "nfhs",
+      "title": "Morris Hills vs. Chatham",
+      "date": "2026-10-02",
+      "sport": "Junior Varsity Girls Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/jefferson-township-high-school-oak-ridge-nj/gamfcfd5f7016",
+      "source": "nfhs",
+      "title": "Morris Catholic vs. Jefferson Twp.",
+      "date": "2026-10-02",
+      "sport": "Varsity Girls Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/jefferson-township-high-school-oak-ridge-nj/gam479980f3b0",
+      "source": "nfhs",
+      "title": "MCST vs. Jefferson Twp.",
+      "date": "2026-10-02",
+      "sport": "Varsity Boys Soccer"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/montville-high-school-montville-nj/gamccb53f2d3e",
+      "source": "nfhs",
+      "title": "Pope John xxIII vs. Montville",
+      "date": "2026-10-02",
+      "sport": "Varsity Girls Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/hanover-park-high-school-east-hanover-nj/gam40e8e4ddf1",
+      "source": "nfhs",
+      "title": "Morris Catholic vs. Hanover Park",
+      "date": "2026-10-02",
+      "sport": "Varsity Boys Soccer"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/morris-hills-high-school-rockaway-nj/gam6eb7ac681a",
+      "source": "nfhs",
+      "title": "MCST vs. Morris Hills",
+      "date": "2026-10-02",
+      "sport": "Varsity Boys Soccer"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/morris-hills-high-school-rockaway-nj/gamcf1301d650",
+      "source": "nfhs",
+      "title": "PHHS vs. Morris Hills",
+      "date": "2026-10-02",
+      "sport": "Varsity Girls Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/morris-hills-high-school-rockaway-nj/gam92795ae18c",
+      "source": "nfhs",
+      "title": "PHHS vs. Morris Hills",
+      "date": "2026-10-02",
+      "sport": "Varsity Girls Soccer"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/morris-knolls-high-school-rockaway-nj/gam92994e6d96",
+      "source": "nfhs",
+      "title": "Ridge vs. Morris Knolls",
+      "date": "2026-10-02",
+      "sport": "Varsity Girls Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/morris-knolls-high-school-rockaway-nj/gam3d9838acd8",
+      "source": "nfhs",
+      "title": "Mount Olive vs. Morris Knolls",
+      "date": "2026-10-02",
+      "sport": "Varsity Boys Soccer"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/mount-olive-high-school-flanders-nj/gam909b33b9bd",
+      "source": "nfhs",
+      "title": "Away vs. Mount Olive",
+      "date": "2026-10-02",
+      "sport": "Varsity Girls Field Hockey"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/mount-olive-high-school-flanders-nj/gam5796075a2a",
+      "source": "nfhs",
+      "title": "Randolph vs. Mount Olive",
+      "date": "2026-10-02",
+      "sport": "Junior Varsity Girls Field Hockey"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/whippany-park-high-school-whippany-nj/gam6e28531513",
+      "source": "nfhs",
+      "title": "Pequannock Twp. vs. Whippany Park",
+      "date": "2026-10-02",
+      "sport": "Varsity Girls Field Hockey"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/villa-walsh-academy-morristown-nj/gam23bddaf291",
+      "source": "nfhs",
+      "title": "Vernon Township vs. Villa Walsh",
+      "date": "2026-10-02",
+      "sport": "Varsity Girls Soccer"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/west-morris-mendham-high-school-mendham-nj/gam06731f0cef",
+      "source": "nfhs",
+      "title": "Millburn vs. Mendham",
+      "date": "2026-10-02",
+      "sport": "Varsity Girls Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/whippany-park-high-school-whippany-nj/gam863e770f2a",
+      "source": "nfhs",
+      "title": "James Caldwell vs. Whippany Park",
+      "date": "2026-10-02",
+      "sport": "Junior Varsity Girls Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/whippany-park-high-school-whippany-nj/gam74579de311",
+      "source": "nfhs",
+      "title": "James Caldwell vs. Whippany Park",
+      "date": "2026-10-02",
+      "sport": "Varsity Girls Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/hanover-park-high-school-east-hanover-nj/gam6fb6a72705",
+      "source": "nfhs",
+      "title": "Mountain Lakes vs. Hanover Park",
+      "date": "2026-10-01",
+      "sport": "Varsity Girls Soccer"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/whippany-park-high-school-whippany-nj/gamf804bcb863",
+      "source": "nfhs",
+      "title": "Hanover Park vs. Whippany Park",
+      "date": "2026-10-01",
+      "sport": "Varsity Girls Soccer"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/hanover-park-high-school-east-hanover-nj/gam2040ab3286",
+      "source": "nfhs",
+      "title": "Kinnelon vs. Hanover Park",
+      "date": "2026-10-01",
+      "sport": "Varsity Boys Soccer"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/jefferson-township-high-school-oak-ridge-nj/gamb10b3774b5",
+      "source": "nfhs",
+      "title": "Jefferson Twp.",
+      "date": "2026-10-01",
+      "sport": "Varsity Boys Soccer"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/whippany-park-high-school-whippany-nj/gam1f99abb352",
+      "source": "nfhs",
+      "title": "Morris Catholic vs. Whippany Park",
+      "date": "2026-10-01",
+      "sport": "Varsity Girls Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/pope-john-xxiii-high-school-sparta-nj/gam5ec01e3791",
+      "source": "nfhs",
+      "title": "Morris Knolls vs. Pope John xxIII",
+      "date": "2026-10-01",
+      "sport": "Junior Varsity Girls Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/mount-olive-high-school-flanders-nj/gam754a391dc0",
+      "source": "nfhs",
+      "title": "PCT vs. Mount Olive",
+      "date": "2026-10-01",
+      "sport": "Freshman Boys Football"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/mount-olive-high-school-flanders-nj/game94c9106df",
+      "source": "nfhs",
+      "title": "Roxbury vs. Mount Olive",
+      "date": "2026-10-01",
+      "sport": "Varsity Girls Soccer"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/whippany-park-high-school-whippany-nj/gamfc8249142f",
+      "source": "nfhs",
+      "title": "Mountain Lakes vs. Whippany Park",
+      "date": "2026-10-01",
+      "sport": "Varsity Girls Soccer"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/roxbury-high-school-succasunna-nj/gama33a931b53",
+      "source": "nfhs",
+      "title": "Randolph vs. Roxbury",
+      "date": "2026-10-01",
+      "sport": "Varsity Boys Football"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/whippany-park-high-school-whippany-nj/gamf8b7033671",
+      "source": "nfhs",
+      "title": "High Point Reg. vs. Whippany Park",
+      "date": "2026-10-01",
+      "sport": "Junior Varsity Girls Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/chatham-high-school-chatham-nj/gam0991aa226a",
+      "source": "nfhs",
+      "title": "Morris Hills vs. Chatham",
+      "date": "2026-09-30",
+      "sport": "Varsity Girls Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/chatham-high-school-chatham-nj/gam3fbd533aef",
+      "source": "nfhs",
+      "title": "Montville vs. Chatham",
+      "date": "2026-09-30",
+      "sport": "Varsity Boys Soccer"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/morris-hills-high-school-rockaway-nj/gam46ee45cf4f",
+      "source": "nfhs",
+      "title": "Chatham vs. Morris Hills",
+      "date": "2026-09-30",
+      "sport": "Freshman Girls Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/villa-walsh-academy-morristown-nj/gam72604cfd35",
+      "source": "nfhs",
+      "title": "Dover vs. Villa Walsh",
+      "date": "2026-09-30",
+      "sport": "Varsity Girls Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/hanover-park-high-school-east-hanover-nj/gamd27fc6699a",
+      "source": "nfhs",
+      "title": "Villa Walsh vs. Hanover Park",
+      "date": "2026-09-30",
+      "sport": "Varsity Girls Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/villa-walsh-academy-morristown-nj/game9af8298a8",
+      "source": "nfhs",
+      "title": "Hanover Park vs. Villa Walsh",
+      "date": "2026-09-30",
+      "sport": "Freshman Girls Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/hanover-park-high-school-east-hanover-nj/gam7d75cf42ad",
+      "source": "nfhs",
+      "title": "Livingston vs. Hanover Park",
+      "date": "2026-09-30",
+      "sport": "Varsity Boys Soccer"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/whippany-park-high-school-whippany-nj/gam93d61ec03a",
+      "source": "nfhs",
+      "title": "High Point Reg. vs. Whippany Park",
+      "date": "2026-09-30",
+      "sport": "Varsity Girls Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/pope-john-xxiii-high-school-sparta-nj/gam2e7c33fe2a",
+      "source": "nfhs",
+      "title": "High Point Reg. vs. Pope John xxIII",
+      "date": "2026-09-30",
+      "sport": "Junior Varsity Girls Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/kinnelon-high-school-kinnelon-nj/gamfdf05d388e",
+      "source": "nfhs",
+      "title": "Dover vs. Kinnelon",
+      "date": "2026-09-30",
+      "sport": "Freshman Girls Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/kinnelon-high-school-kinnelon-nj/gam7147fbe5e7",
+      "source": "nfhs",
+      "title": "M&#39;town-Beard vs. Kinnelon",
+      "date": "2026-09-30",
+      "sport": "Varsity Boys Soccer"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/mount-olive-high-school-flanders-nj/gam655c39b62f",
+      "source": "nfhs",
+      "title": "Montville vs. Mount Olive",
+      "date": "2026-09-30",
+      "sport": "Varsity Girls Field Hockey"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/whippany-park-high-school-whippany-nj/gam5ea53d8e8c",
+      "source": "nfhs",
+      "title": "Morris Hills vs. Whippany Park",
+      "date": "2026-09-30",
+      "sport": "Varsity Girls Field Hockey"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/pope-john-xxiii-high-school-sparta-nj/gam427c6743da",
+      "source": "nfhs",
+      "title": "Morris Knolls vs. Pope John xxIII",
+      "date": "2026-09-30",
+      "sport": "Varsity Girls Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/morris-knolls-high-school-rockaway-nj/gam98d06633f0",
+      "source": "nfhs",
+      "title": "Morristown vs. Morris Knolls",
+      "date": "2026-09-30",
+      "sport": "Junior Varsity Girls Field Hockey"
     }
   ]
 }
