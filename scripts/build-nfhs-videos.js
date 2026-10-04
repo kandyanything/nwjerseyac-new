@@ -34,39 +34,28 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
 const arg = (f, d) => process.argv.includes(f) ? process.argv[process.argv.indexOf(f) + 1] : d;
 const WEEKS = Number(arg('--weeks', 6));
 const MAX = Number(arg('--max', 24));
+const MAP_ONLY = process.argv.includes('--map-only');   // map schools to slugs, then stop
 
-/* Schools whose NFHS name genuinely differs from the conference's. */
-const OVERRIDE = {
-    /* Each was refused by the strict matcher and resolved against the sitemap.
-       Morristown hosts FIVE member schools and Sparta THREE, so "ambiguous" here
-       usually means two NJAC schools are competing for one slug — exactly the
-       case where a similarity match would publish another member's video. */
+/* Per-site configuration. The only thing that differs between conferences is
+   which school names NFHS files under a different slug, so that lives in
+   scripts/nfhs-overrides.json and this script is identical on every site.
 
-    // NFHS abbreviates Saint; shows up in Morristown's candidate list
-    'Academy of Saint Elizabeth':          'academy-of-st-elizabeth-morristown-nj',
+     { "conference": "Big North",
+       "overrides": { "Don Bosco Prep": "don-bosco-preparatory-high-school-ramsey-nj",
+                      "Mater Dei High School": null } }
 
-    // "high point" also matches three Point Pleasant / Penns Grove schools
-    'High Point High School':              'high-point-regional-high-school-sussex-nj',
-
-    // NFHS files it as a vocational school, in DENVILLE not Morris Plains
-    'Morris County School of Technology':  'morris-county-vocational-school-denville-nj',
-
-    // NFHS runs the name together, no hyphen between Morristown and Beard
-    'Morristown Beard School':             'morristownbeard-high-school-morristown-nj',
-
-    // competes with Villa Walsh, St Elizabeth, Delbarton and Morristown-Beard
-    'Morristown High School':              'morristown-high-school-morristown-nj',
-
-    // Kittatinny is also in Newton, and is also an NJAC member
-    'Newton High School':                  'newton-high-school-newton-nj',
-
-    // Parsippany Hills is a SEPARATE NJAC member in the same town
-    'Parsippany High School':              'parsippany-high-school-parsippany-nj',
-
-    // Sussex Tech and Pope John are both in Sparta, and both NJAC members
-    'Sparta High School':                  'sparta-high-school-sparta-nj',
-    'Sussex County Tech High School':      'sussex-technical-high-school-sparta-nj',
-};
+   null means the school is genuinely not on NFHS Network, which is different
+   from being absent (absent = the strict matcher resolves it unaided). */
+const CFG_PATH = path.join(__dirname, 'nfhs-overrides.json');
+let CFG = { conference: '', overrides: {} };
+try {
+    CFG = JSON.parse(fs.readFileSync(CFG_PATH, 'utf8'));
+} catch (e) {
+    if (fs.existsSync(CFG_PATH)) { console.error('  nfhs-overrides.json is unreadable: ' + e.message); process.exit(1); }
+    console.log('  no scripts/nfhs-overrides.json - relying on the strict matcher alone');
+}
+const OVERRIDE = CFG.overrides || {};
+const CONF = CFG.conference || 'Conference';
 
 /* The level/gender/sport shown on an event card, e.g. "Varsity Girls Soccer".
    It sits between the end of the card anchor and the broadcast run time. Two
@@ -149,6 +138,7 @@ const words = s => String(s).toLowerCase().replace(/[^a-z0-9]+/g, ' ').split(' '
     }
     console.log(`  mapped ${map.length}/${schools.length}`);
     unmapped.forEach(u => console.log(`    unmapped: ${u}`));
+    if (MAP_ONLY) return;
 
     /* ---- 3. harvest recent games ---- */
     const cutoff = new Date(Date.now() - WEEKS * 7 * 864e5);
@@ -193,7 +183,7 @@ const words = s => String(s).toLowerCase().replace(/[^a-z0-9]+/g, ' ').split(' '
     console.log(`  ${kept.length} have an aired broadcast frame`);
 
     fs.writeFileSync(path.join(ROOT, 'data', 'videos.json'), JSON.stringify({
-        _comment: 'NJAC Vision. NFHS Network broadcasts of member schools, newest first. '
+        _comment: CONF + ' Vision. NFHS Network broadcasts of member schools, newest first. '
             + 'No "thumb" is stored: the renderer derives the broadcast frame from the game id '
             + '(social.nfhsnetwork.com/thumbnails/<id>_nfhs_net.jpg), and every entry here was '
             + 'checked to have one. Rebuild with scripts/build-nfhs-videos.js.',

@@ -1,0 +1,15 @@
+{
+  "_comment": "Schools whose NFHS Network slug cannot be derived from the name. The harvester matches strictly - every distinctive word of the school name must appear as a whole hyphen-separated word in the slug, and no slug may serve two schools - so it refuses rather than guessing, and what it refuses is listed here. Resolve each against the sitemap and pick by event-card count when two records compete. null means the school is genuinely not on NFHS Network.",
+  "conference": "NJAC",
+  "overrides": {
+    "Academy of Saint Elizabeth": "academy-of-st-elizabeth-morristown-nj",
+    "High Point High School": "high-point-regional-high-school-sussex-nj",
+    "Morris County School of Technology": "morris-county-vocational-school-denville-nj",
+    "Morristown Beard School": "morristownbeard-high-school-morristown-nj",
+    "Morristown High School": "morristown-high-school-morristown-nj",
+    "Newton High School": "newton-high-school-newton-nj",
+    "Parsippany High School": "parsippany-high-school-parsippany-nj",
+    "Sparta High School": "sparta-high-school-sparta-nj",
+    "Sussex County Tech High School": "sussex-technical-high-school-sparta-nj"
+  }
+}
