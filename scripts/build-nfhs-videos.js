@@ -197,6 +197,7 @@ const words = s => String(s).toLowerCase().replace(/[^a-z0-9]+/g, ' ').split(' '
             + 'No "thumb" is stored: the renderer derives the broadcast frame from the game id '
             + '(social.nfhsnetwork.com/thumbnails/<id>_nfhs_net.jpg), and every entry here was '
             + 'checked to have one. Rebuild with scripts/build-nfhs-videos.js.',
+        generated: new Date().toISOString(),
         videos: kept,
     }, null, 2) + '\n', 'utf8');
     console.log(`  wrote data/videos.json`);
