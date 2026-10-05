@@ -1,0 +1,98 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Northwest Jersey Athletic Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Northwest Jersey Athletic Conference — Kinnelon High School 
+ Varsity Girls Swimming
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ds:2685:7677323@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261202T200000
+DTEND;TZID=America/New_York:20261202T220000
+SUMMARY:Kinnelon High School at Roxbury High School (Varsity Girls Girls 
+ Swimming)
+DESCRIPTION:Varsity Girls Girls Swimming - Away - 8:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2685:7677326@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261204T144500
+DTEND;TZID=America/New_York:20261204T164500
+SUMMARY:Kinnelon High School at Somerville High School (Varsity Girls Gir
+ ls Swimming)
+DESCRIPTION:Varsity Girls Girls Swimming - Away - 2:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2685:7677324@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261209T143000
+DTEND;TZID=America/New_York:20261209T163000
+SUMMARY:Kinnelon High School vs Mountain Lakes High School (Varsity Girls
+  Girls Swimming)
+DESCRIPTION:Varsity Girls Girls Swimming - Home - 2:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2685:7677325@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261215T170000
+DTEND;TZID=America/New_York:20261215T190000
+SUMMARY:Kinnelon High School at Mount Olive High School (Varsity Girls Gi
+ rls Swimming)
+DESCRIPTION:Varsity Girls Girls Swimming - Away - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2685:7677327@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270105T143000
+DTEND;TZID=America/New_York:20270105T163000
+SUMMARY:Kinnelon High School vs Montville High School (Varsity Girls Girl
+ s Swimming)
+DESCRIPTION:Varsity Girls Girls Swimming - Home - 2:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2685:7677328@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270112T143000
+DTEND;TZID=America/New_York:20270112T163000
+SUMMARY:Kinnelon High School vs West Morris Central (Varsity Girls Girls 
+ Swimming)
+DESCRIPTION:Varsity Girls Girls Swimming - Home - 2:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2685:7677331@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270114T160000
+DTEND;TZID=America/New_York:20270114T180000
+SUMMARY:Kinnelon High School at Morristown High School (Varsity Girls Gir
+ ls Swimming)
+DESCRIPTION:Varsity Girls Girls Swimming - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2685:7677329@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270119T143000
+DTEND;TZID=America/New_York:20270119T163000
+SUMMARY:Kinnelon High School vs Morris Hills High School (Varsity Girls G
+ irls Swimming)
+DESCRIPTION:Varsity Girls Girls Swimming - Home - 2:30 PM
+END:VEVENT
+END:VCALENDAR
