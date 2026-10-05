@@ -150,6 +150,15 @@ SUMMARY:Villa Walsh Academy at Morris Catholic High School (Varsity Girls
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2745:7582039@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270110T130000
+DTEND;TZID=America/New_York:20270110T150000
+SUMMARY:Morris Catholic High School vs Saint John Vianney High School (Va
+ rsity Girls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 1:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2745:7646784@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270110T130000
@@ -157,15 +166,6 @@ DTEND;TZID=America/New_York:20270110T150000
 SUMMARY:Morris Catholic High School vs Saint John Vianney High School (Ju
  nior Varsity Girls Girls Basketball)
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 1:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2745:7582039@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270110T143000
-DTEND;TZID=America/New_York:20270110T163000
-SUMMARY:Morris Catholic High School vs Saint John Vianney High School (Va
- rsity Girls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home - 2:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2913:7457809@northwest-jersey-athletic-conference
@@ -197,11 +197,29 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2745:7562283@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270117
-DTEND;VALUE=DATE:20270118
+DTSTART;TZID=America/New_York:20270117T130000
+DTEND;TZID=America/New_York:20270117T150000
+SUMMARY:Morris Catholic High School vs TBD (Varsity Girls Girls Basketbal
+ l)
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 1:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2745:7676155@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270121
+DTEND;VALUE=DATE:20270122
 SUMMARY:Morris Catholic High School vs TBD (Varsity Girls Girls Basketbal
  l)
 DESCRIPTION:Varsity Girls Girls Basketball - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2745:7676164@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270124T150000
+DTEND;TZID=America/New_York:20270124T170000
+SUMMARY:Morris Catholic High School at Rutgers Prep School (Varsity Girls
+  Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 3:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101851920@northwest-jersey-athletic-conference
@@ -267,15 +285,6 @@ SUMMARY:Pequannock High School vs Morris Catholic High School (Junior Var
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2745:7457824@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270205T190000
-DTEND;TZID=America/New_York:20270205T210000
-SUMMARY:Morris Catholic High School at Pequannock High School (Varsity Gi
- rls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2745:7562618@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270206
@@ -283,6 +292,15 @@ DTEND;VALUE=DATE:20270207
 SUMMARY:Morris Catholic High School vs TBD (Varsity Girls Girls Basketbal
  l)
 DESCRIPTION:Varsity Girls Girls Basketball - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2745:7562620@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270208
+DTEND;VALUE=DATE:20270209
+SUMMARY:Morris Catholic High School at Franklin High School (Varsity Girl
+ s Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2745:7562844@northwest-jersey-athletic-conference
@@ -303,12 +321,12 @@ SUMMARY:Morris Catholic High School vs Rutgers Prep School (Junior Varsit
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2745:7659945@northwest-jersey-athletic-conference
+UID:ds:2745:7676259@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270216T190000
-DTEND;TZID=America/New_York:20270216T210000
-SUMMARY:Morris Catholic High School vs Northern Valley Regional High (Var
- sity Girls Girls Basketball)
+DTSTART;TZID=America/New_York:20270222T190000
+DTEND;TZID=America/New_York:20270222T210000
+SUMMARY:Morris Catholic High School vs Immaculate Heart Academy (Varsity 
+ Girls Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -332,8 +350,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2745:7562729@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270226
-DTEND;VALUE=DATE:20270227
+DTSTART;VALUE=DATE:20270225
+DTEND;VALUE=DATE:20270226
 SUMMARY:Morris Catholic High School vs TBD (Varsity Girls Girls Basketbal
  l)
 DESCRIPTION:Varsity Girls Girls Basketball - Home

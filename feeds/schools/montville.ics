@@ -2339,14 +2339,6 @@ SUMMARY:Sparta High School vs Montville High School (Varsity Girls Girls
 DESCRIPTION:Varsity Girls Girls Tennis - Home - 3:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:104397971@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261006T160000
-DTEND;TZID=America/New_York:20261006T180000
-SUMMARY:Montville High School vs TBD (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:101982469@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261006T160000
@@ -2363,6 +2355,15 @@ DTEND;TZID=America/New_York:20261006T180000
 SUMMARY:Madison High School vs Montville High School (Varsity Girls Girls
   Volleyball)
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:104397971@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261006T160000
+DTEND;TZID=America/New_York:20261006T180000
+SUMMARY:Montville High School vs Mountain Lakes High School (Varsity Girl
+ s Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103871392@northwest-jersey-athletic-conference
@@ -2384,15 +2385,6 @@ DESCRIPTION:Freshman Girls Girls Soccer - Home - 4:00 PM
 STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2754:7673780@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261006T160000
-DTEND;TZID=America/New_York:20261006T180000
-SUMMARY:Mountain Lakes High School at Montville High School (Varsity Girl
- s Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:101597297@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261006T171500
@@ -2406,17 +2398,9 @@ UID:arb:104397999@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261006T180000
 DTEND;TZID=America/New_York:20261006T200000
-SUMMARY:Montville High School vs TBD (Varsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2564:7674566@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261006T180000
-DTEND;TZID=America/New_York:20261006T200000
-SUMMARY:Chatham High School at Montville High School (Varsity Boys Boys S
+SUMMARY:Montville High School vs Chatham High School (Varsity Boys Boys S
  occer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 6:00 PM
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:104424556@northwest-jersey-athletic-conference
@@ -2587,9 +2571,10 @@ UID:arb:103347087@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261010T090000
 DTEND;TZID=America/New_York:20261010T110000
-SUMMARY:Montville High School at West Milford Township High School (Fresh
- man Boys Football)
+SUMMARY:[Canceled] Montville High School at West Milford Township High Sc
+ hool (Freshman Boys Football)
 DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101413657@northwest-jersey-athletic-conference

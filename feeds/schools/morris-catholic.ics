@@ -448,14 +448,14 @@ SUMMARY:Morris Catholic High School at Academy of Saint Elizabeth (Varsit
 DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:MorristownBeardSchool:event_8783_20260914t200000zapi.veracross.co
+UID:ics:MorristownBeardSchool:event_8782_20260914t200000zapi.veracross.co
  m@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260914T160000
 DTEND;TZID=America/New_York:20260914T180000
 SUMMARY:[Cancelled] Morristown Beard School at Morris Catholic High Schoo
- l (Junior Varsity Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:00 PM
+ l (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
 STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
@@ -469,6 +469,17 @@ SUMMARY:Morristown Beard School vs Morris Catholic High School (Varsity B
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ics:MorristownBeardSchool:event_8783_20260914t200000zapi.veracross.co
+ m@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T160000
+DTEND;TZID=America/New_York:20260914T180000
+SUMMARY:[Cancelled] Morristown Beard School at Morris Catholic High Schoo
+ l (Junior Varsity Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:00 PM
+STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
 UID:ics:MorristownBeardSchool:event_8750_20260914t200000zapi.veracross.co
  m@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
@@ -477,17 +488,6 @@ DTEND;TZID=America/New_York:20260914T180000
 SUMMARY:[Cancelled] Morristown Beard School vs Morris Catholic High Schoo
  l (Junior Varsity Boys Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
-STATUS:CANCELLED
-END:VEVENT
-BEGIN:VEVENT
-UID:ics:MorristownBeardSchool:event_8782_20260914t200000zapi.veracross.co
- m@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260914T160000
-DTEND;TZID=America/New_York:20260914T180000
-SUMMARY:[Cancelled] Morristown Beard School at Morris Catholic High Schoo
- l (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
 STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
@@ -1316,17 +1316,6 @@ SUMMARY:Morristown Beard School at Morris Catholic High School (Varsity B
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:MorristownBeardSchool:event_8761_20261015t200000zapi.veracross.co
- m@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261015T160000
-DTEND;TZID=America/New_York:20261015T180000
-SUMMARY:[Cancelled] Morristown Beard School at Morris Catholic High Schoo
- l (Junior Varsity Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
-STATUS:CANCELLED
-END:VEVENT
-BEGIN:VEVENT
 UID:ics:MorristownBeardSchool:event_8799_20261015t200000zapi.veracross.co
  m@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
@@ -1335,6 +1324,17 @@ DTEND;TZID=America/New_York:20261015T180000
 SUMMARY:[Cancelled] Morristown Beard School vs Morris Catholic High Schoo
  l (Junior Varsity Girls Girls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
+STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:MorristownBeardSchool:event_8761_20261015t200000zapi.veracross.co
+ m@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261015T160000
+DTEND;TZID=America/New_York:20261015T180000
+SUMMARY:[Cancelled] Morristown Beard School at Morris Catholic High Schoo
+ l (Junior Varsity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
 STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
@@ -2219,6 +2219,15 @@ SUMMARY:Morris Catholic High School at Vernon Township High School (Varsi
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2745:7582039@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270110T130000
+DTEND;TZID=America/New_York:20270110T150000
+SUMMARY:Morris Catholic High School vs Saint John Vianney High School (Va
+ rsity Girls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 1:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2745:7646784@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270110T130000
@@ -2226,15 +2235,6 @@ DTEND;TZID=America/New_York:20270110T150000
 SUMMARY:Morris Catholic High School vs Saint John Vianney High School (Ju
  nior Varsity Girls Girls Basketball)
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 1:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2745:7582039@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270110T143000
-DTEND;TZID=America/New_York:20270110T163000
-SUMMARY:Morris Catholic High School vs Saint John Vianney High School (Va
- rsity Girls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home - 2:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:104140200@northwest-jersey-athletic-conference
@@ -2328,11 +2328,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2564:7636930@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270113T160000
-DTEND;TZID=America/New_York:20270113T180000
+DTSTART;TZID=America/New_York:20270113T183000
+DTEND;TZID=America/New_York:20270113T203000
 SUMMARY:Chatham High School vs Morris Catholic High School (Varsity Coed 
  Coed Fencing)
-DESCRIPTION:Varsity Coed Coed Fencing - Home - 4:00 PM
+DESCRIPTION:Varsity Coed Coed Fencing - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2745:7580097@northwest-jersey-athletic-conference
@@ -2362,15 +2362,6 @@ SUMMARY:Morris Catholic High School vs Mountain Lakes High School (Varsit
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2745:7457941@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270115T160000
-DTEND;TZID=America/New_York:20270115T180000
-SUMMARY:Morris Catholic High School at Chatham High School (Varsity Coed 
- Coed Fencing)
-DESCRIPTION:Varsity Coed Coed Fencing - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2745:7562277@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270115
@@ -2389,6 +2380,15 @@ SUMMARY:High Point High School vs Morris Catholic High School (Varsity Bo
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 8:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2745:7562283@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270117T130000
+DTEND;TZID=America/New_York:20270117T150000
+SUMMARY:Morris Catholic High School vs TBD (Varsity Girls Girls Basketbal
+ l)
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 1:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2745:7522474@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270117T181500
@@ -2396,15 +2396,6 @@ DTEND;TZID=America/New_York:20270117T201500
 SUMMARY:Morris Catholic High School vs Nutley High School (Varsity Boys B
  oys Ice Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 6:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2745:7562283@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270117
-DTEND;VALUE=DATE:20270118
-SUMMARY:Morris Catholic High School vs TBD (Varsity Girls Girls Basketbal
- l)
-DESCRIPTION:Varsity Girls Girls Basketball - Home
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2745:7457946@northwest-jersey-athletic-conference
@@ -2452,6 +2443,15 @@ SUMMARY:Morris Catholic High School vs Morristown Beard School (Varsity B
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2745:7676155@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270121
+DTEND;VALUE=DATE:20270122
+SUMMARY:Morris Catholic High School vs TBD (Varsity Girls Girls Basketbal
+ l)
+DESCRIPTION:Varsity Girls Girls Basketball - Home
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2745:7646634@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270122T160000
@@ -2486,6 +2486,15 @@ DTEND;TZID=America/New_York:20270123T150000
 SUMMARY:Morris Catholic High School at Essex County West Caldwell Tech (V
  arsity Boys Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 1:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2745:7676164@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270124T150000
+DTEND;TZID=America/New_York:20270124T170000
+SUMMARY:Morris Catholic High School at Rutgers Prep School (Varsity Girls
+  Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 3:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2745:7626713@northwest-jersey-athletic-conference
@@ -2704,15 +2713,6 @@ SUMMARY:Pequannock High School vs Morris Catholic High School (Junior Var
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2745:7457824@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270205T190000
-DTEND;TZID=America/New_York:20270205T210000
-SUMMARY:Morris Catholic High School at Pequannock High School (Varsity Gi
- rls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2745:7562618@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270206
@@ -2738,6 +2738,15 @@ DTEND;TZID=America/New_York:20270208T193000
 SUMMARY:Morris Catholic High School at Saint Peters Prep (Junior Varsity 
  Boys Boys Basketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2745:7562620@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270208
+DTEND;VALUE=DATE:20270209
+SUMMARY:Morris Catholic High School at Franklin High School (Varsity Girl
+ s Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2745:7562844@northwest-jersey-athletic-conference
@@ -2830,15 +2839,6 @@ SUMMARY:Morris Catholic High School at Mountain Lakes High School (Varsit
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2745:7659945@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270216T190000
-DTEND;TZID=America/New_York:20270216T210000
-SUMMARY:Morris Catholic High School vs Northern Valley Regional High (Var
- sity Girls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2745:7564322@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270218T160000
@@ -2855,6 +2855,15 @@ DTEND;TZID=America/New_York:20270218T193000
 SUMMARY:Morris Catholic High School at Montgomery High School (Varsity Bo
  ys Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2745:7676259@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270222T190000
+DTEND;TZID=America/New_York:20270222T210000
+SUMMARY:Morris Catholic High School vs Immaculate Heart Academy (Varsity 
+ Girls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2745:7646904@northwest-jersey-athletic-conference
@@ -2877,8 +2886,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2745:7562729@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270226
-DTEND;VALUE=DATE:20270227
+DTSTART;VALUE=DATE:20270225
+DTEND;VALUE=DATE:20270226
 SUMMARY:Morris Catholic High School vs TBD (Varsity Girls Girls Basketbal
  l)
 DESCRIPTION:Varsity Girls Girls Basketball - Home
