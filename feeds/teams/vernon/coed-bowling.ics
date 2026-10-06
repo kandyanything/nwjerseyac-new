@@ -24,12 +24,21 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2909:7680088@northwest-jersey-athletic-conference
+UID:ds:2649:7680088@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261216T153000
 DTEND;TZID=America/New_York:20261216T173000
-SUMMARY:Vernon Township High School at High Point High School (Varsity Co
+SUMMARY:High Point High School vs Vernon Township High School (Varsity Co
  ed Coed Bowling)
-DESCRIPTION:Varsity Coed Coed Bowling - Away - 3:30 PM
+DESCRIPTION:Varsity Coed Coed Bowling - Home - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2649:7680298@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270125T153000
+DTEND;TZID=America/New_York:20270125T173000
+SUMMARY:High Point High School vs Vernon Township High School (Varsity Co
+ ed Coed Bowling)
+DESCRIPTION:Varsity Coed Coed Bowling - Home - 3:30 PM
 END:VEVENT
 END:VCALENDAR
