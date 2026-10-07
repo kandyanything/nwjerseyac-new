@@ -5671,17 +5671,6 @@ SUMMARY:Pope John XXIII High School at Hunterdon Central Regional High (V
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:MorristownBeardSchool:event_7655_20261006t200000zapi.veracross.co
- m@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261006T160000
-DTEND;TZID=America/New_York:20261006T180000
-SUMMARY:[Postponed] Morristown Beard School vs New Providence (Varsity Gi
- rls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
-STATUS:CANCELLED
-END:VEVENT
-BEGIN:VEVENT
 UID:ics:MorristownBeardSchool:event_7656_20261006t200000zapi.veracross.co
  m@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
@@ -5690,6 +5679,17 @@ DTEND;TZID=America/New_York:20261006T180000
 SUMMARY:[Postponed] Morristown Beard School vs New Providence (Junior Var
  sity Girls Girls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
+STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:MorristownBeardSchool:event_7655_20261006t200000zapi.veracross.co
+ m@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261006T160000
+DTEND;TZID=America/New_York:20261006T180000
+SUMMARY:[Postponed] Morristown Beard School vs New Providence (Varsity Gi
+ rls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
 STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
@@ -6498,6 +6498,15 @@ SUMMARY:Parsippany Hills High School vs James Caldwell High School (Varsi
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2761:7546746@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261013T150000
+DTEND;TZID=America/New_York:20261013T170000
+SUMMARY:Newton High School vs Hunterdon Central Regional High (Varsity Gi
+ rls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 3:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ics:MorristownBeardSchool:event_8495_20261013t193000zapi.veracross.co
  m@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
@@ -6530,18 +6539,20 @@ UID:arb:102734449@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261013T160000
 DTEND;TZID=America/New_York:20261013T180000
-SUMMARY:Morris Hills High School at Lenape Valley High School (Junior Var
- sity Girls Girls Soccer)
+SUMMARY:[Canceled] Morris Hills High School at Lenape Valley High School 
+ (Junior Varsity Girls Girls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:00 PM
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102734438@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261013T160000
 DTEND;TZID=America/New_York:20261013T180000
-SUMMARY:Morris Hills High School at Lenape Valley High School (Varsity Gi
- rls Girls Soccer)
+SUMMARY:[Canceled] Morris Hills High School at Lenape Valley High School 
+ (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102535334@northwest-jersey-athletic-conference
@@ -6598,15 +6609,6 @@ SUMMARY:Morristown High School vs New Providence High School (Freshman Gi
 DESCRIPTION:Freshman Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2751:7606566@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261013T160000
-DTEND;TZID=America/New_York:20261013T180000
-SUMMARY:Mount Olive High School at Pope John XXIII Middle School (Middle 
- School Girls Girls Soccer)
-DESCRIPTION:Middle School Girls Girls Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2913:7496098@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261013T160000
@@ -6642,15 +6644,6 @@ SUMMARY:North Warren vs Belvidere High School (Junior Varsity Girls Girls
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2816:7606566@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261013T160000
-DTEND;TZID=America/New_York:20261013T180000
-SUMMARY:Pope John XXIII High School at Pope John XXIII Middle School (Mid
- dle School Girls Girls Soccer)
-DESCRIPTION:Middle School Girls Girls Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2825:7434553@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261013T160000
@@ -6658,6 +6651,15 @@ DTEND;TZID=America/New_York:20261013T180000
 SUMMARY:Randolph High School at West Morris Central (Junior Varsity Girls
   Girls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2881:7682580@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261013T160000
+DTEND;TZID=America/New_York:20261013T180000
+SUMMARY:Sparta High School vs Voorhees High School (Varsity Girls Girls S
+ occer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101619835@northwest-jersey-athletic-conference
@@ -8507,6 +8509,15 @@ SUMMARY:Villa Walsh Academy at Pequannock High School (Varsity Girls Girl
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2816:7569382@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261028T183000
+DTEND;TZID=America/New_York:20261028T203000
+SUMMARY:Pope John XXIII High School at Sparta High School (Varsity Girls 
+ Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:102442998@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261029T160000
@@ -8667,15 +8678,6 @@ DTEND;TZID=America/New_York:20261029T183000
 SUMMARY:Morris Knolls High School at West Morris Central (Varsity Girls G
  irls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2816:7569382@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261030T160000
-DTEND;TZID=America/New_York:20261030T180000
-SUMMARY:Pope John XXIII High School at Sparta High School (Varsity Girls 
- Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2745:7547248@northwest-jersey-athletic-conference
