@@ -24,34 +24,43 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:arb:102938618@northwest-jersey-athletic-conference
+UID:ds:2816:7529328@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260820T100000
+DTEND;TZID=America/New_York:20260820T120000
+SUMMARY:Pope John XXIII High School vs Ramapo High School (Junior Varsity
+  Boys Football)
+DESCRIPTION:Junior Varsity Boys Football - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2816:7564570@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260831T160000
 DTEND;TZID=America/New_York:20260831T180000
-SUMMARY:Pope John XXIII High School vs Saint Thomas Aquinas High School (
- Junior Varsity Boys Football)
+SUMMARY:Pope John XXIII High School vs St Thomas Aquinas High School (Jun
+ ior Varsity Boys Football)
 DESCRIPTION:Junior Varsity Boys Football - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:100606712@northwest-jersey-athletic-conference
+UID:ds:2816:7529338@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260907T163000
 DTEND;TZID=America/New_York:20260907T183000
-SUMMARY:Pope John XXIII High School at Saint Peter's Prep High School (Ju
- nior Varsity Boys Football)
+SUMMARY:Pope John XXIII High School at Saint PeterS High School (Junior V
+ arsity Boys Football)
 DESCRIPTION:Junior Varsity Boys Football - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:99665691@northwest-jersey-athletic-conference
+UID:ds:2816:7529341@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260914T160000
 DTEND;TZID=America/New_York:20260914T180000
-SUMMARY:Pope John XXIII High School at Don Bosco Preparatory High School 
- (Junior Varsity Boys Football)
+SUMMARY:Pope John XXIII High School at Don Bosco Prep (Junior Varsity Boy
+ s Football)
 DESCRIPTION:Junior Varsity Boys Football - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:99666818@northwest-jersey-athletic-conference
+UID:ds:2816:7500020@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260921T160000
 DTEND;TZID=America/New_York:20260921T180000
@@ -60,16 +69,7 @@ SUMMARY:Pope John XXIII High School at Immaculata High School (Junior Var
 DESCRIPTION:Junior Varsity Boys Football - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:99697808@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260928T160000
-DTEND;TZID=America/New_York:20260928T180000
-SUMMARY:Pope John XXIII High School vs Seton Hall Preparatory School (Jun
- ior Varsity Boys Football)
-DESCRIPTION:Junior Varsity Boys Football - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:arb:99968940@northwest-jersey-athletic-conference
+UID:ds:2816:7515577@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261005T161500
 DTEND;TZID=America/New_York:20261005T181500
@@ -78,16 +78,16 @@ SUMMARY:Pope John XXIII High School at Paramus Catholic High School (Juni
 DESCRIPTION:Junior Varsity Boys Football - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:99697812@northwest-jersey-athletic-conference
+UID:ds:2816:7506309@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261012T160000
-DTEND;TZID=America/New_York:20261012T180000
-SUMMARY:Pope John XXIII High School vs De Paul Catholic High School (Juni
- or Varsity Boys Football)
-DESCRIPTION:Junior Varsity Boys Football - Home - 4:00 PM
+DTSTART;TZID=America/New_York:20261012T161500
+DTEND;TZID=America/New_York:20261012T181500
+SUMMARY:Pope John XXIII High School vs DePaul Catholic High School (Junio
+ r Varsity Boys Football)
+DESCRIPTION:Junior Varsity Boys Football - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:99697815@northwest-jersey-athletic-conference
+UID:ds:2816:7529348@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261026T160000
 DTEND;TZID=America/New_York:20261026T180000
@@ -96,12 +96,12 @@ SUMMARY:Pope John XXIII High School vs Delbarton School (Junior Varsity B
 DESCRIPTION:Junior Varsity Boys Football - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:100122352@northwest-jersey-athletic-conference
+UID:ds:2816:7529353@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261102T154500
-DTEND;TZID=America/New_York:20261102T174500
+DTSTART;TZID=America/New_York:20261102T160000
+DTEND;TZID=America/New_York:20261102T180000
 SUMMARY:Pope John XXIII High School at Saint John Vianney High School (Ju
  nior Varsity Boys Football)
-DESCRIPTION:Junior Varsity Boys Football - Away - 3:45 PM
+DESCRIPTION:Junior Varsity Boys Football - Away - 4:00 PM
 END:VEVENT
 END:VCALENDAR
