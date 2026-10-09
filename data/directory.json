@@ -47,7 +47,8 @@
       "colors": [
         "#167d3c",
         "#ffffff"
-      ]
+      ],
+      "colorsSource": "supplied"
     },
     {
       "school": "Dover High School",
@@ -478,5 +479,6 @@
         "#dadada"
       ]
     }
-  ]
+  ],
+  "_colorsNote": "Entries marked \"colorsSource\": \"supplied\" had their colours given by the conference because their crest could not provide them. logo-colours-extract.js skips those, so re-running it cannot overwrite them."
 }
