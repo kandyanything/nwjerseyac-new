@@ -24,6 +24,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2748:7688845@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261202T163000
+DTEND;TZID=America/New_York:20261202T183000
+SUMMARY:Morristown High School at East Side High School (Varsity Girls Gi
+ rls Ice Hockey)
+DESCRIPTION:Varsity Girls Girls Ice Hockey - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ics:MorristownBeardSchool:event_11195_20261203t210000zapi.veracross.c
  om@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
@@ -97,15 +106,6 @@ SUMMARY:Chatham High School at Madison High School (Varsity Girls Girls I
 DESCRIPTION:Varsity Girls Girls Ice Hockey - Away - 8:35 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2825:7682049@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261209T163000
-DTEND;TZID=America/New_York:20261209T183000
-SUMMARY:Randolph High School at East Side High School (Varsity Girls Girl
- s Ice Hockey)
-DESCRIPTION:Varsity Girls Girls Ice Hockey - Away - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ics:MorristownBeardSchool:event_9896_20261209t213000zapi.veracross.co
  m@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
@@ -168,6 +168,16 @@ DTEND;TZID=America/New_York:20261215T220000
 SUMMARY:Randolph High School vs Cranford High School (Varsity Girls Girls
   Ice Hockey)
 DESCRIPTION:Varsity Girls Girls Ice Hockey - Home - 8:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:MorristownBeardSchool:event_11298_20261216t203000zapi.veracross.c
+ om@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261216T153000
+DTEND;TZID=America/New_York:20261216T173000
+SUMMARY:Morristown Beard School vs Greenwich Academy (Varsity Girls Girls
+  Ice Hockey)
+DESCRIPTION:Varsity Girls Girls Ice Hockey - Home - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2825:7668839@northwest-jersey-athletic-conference
@@ -268,6 +278,15 @@ DTEND;TZID=America/New_York:20270108T203000
 SUMMARY:Madison High School at Westfield High School (Varsity Girls Girls
   Ice Hockey)
 DESCRIPTION:Varsity Girls Girls Ice Hockey - Away - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2748:7688906@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270110T174000
+DTEND;TZID=America/New_York:20270110T194000
+SUMMARY:Morristown High School vs East Side High School (Varsity Girls Gi
+ rls Ice Hockey)
+DESCRIPTION:Varsity Girls Girls Ice Hockey - Home - 5:40 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2825:7625391@northwest-jersey-athletic-conference
@@ -464,11 +483,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2825:7669334@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270203T161500
-DTEND;TZID=America/New_York:20270203T181500
+DTSTART;TZID=America/New_York:20270203T163000
+DTEND;TZID=America/New_York:20270203T183000
 SUMMARY:Randolph High School at East Side High School (Varsity Girls Girl
  s Ice Hockey)
-DESCRIPTION:Varsity Girls Girls Ice Hockey - Away - 4:15 PM
+DESCRIPTION:Varsity Girls Girls Ice Hockey - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ics:MorristownBeardSchool:event_11150_20270204t214500zapi.veracross.c

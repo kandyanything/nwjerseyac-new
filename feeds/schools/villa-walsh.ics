@@ -847,16 +847,6 @@ SUMMARY:Villa Walsh Academy vs Morristown Beard School (Junior Varsity Gi
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:MorristownBeardSchool:event_8990_20260930t200000zapi.veracross.co
- m@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260930T160000
-DTEND;TZID=America/New_York:20260930T180000
-SUMMARY:Morristown Beard School vs Villa Walsh Academy (Varsity Girls Res
- cheduled from 9/22: ennis)
-DESCRIPTION:Varsity Girls Rescheduled from 9/22: ennis - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ics:MorristownBeardSchool:event_8991_20260930t200000zapi.veracross.co
  m@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
@@ -866,6 +856,16 @@ SUMMARY:Morristown Beard School at Villa Walsh Academy (Junior Varsity Gi
  rls Rescheduled from 9/22: Tennis)
 DESCRIPTION:Junior Varsity Girls Rescheduled from 9/22: Tennis - Away - 4
  :00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:MorristownBeardSchool:event_8990_20260930t200000zapi.veracross.co
+ m@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260930T160000
+DTEND;TZID=America/New_York:20260930T180000
+SUMMARY:Morristown Beard School vs Villa Walsh Academy (Varsity Girls Res
+ cheduled from 9/22: ennis)
+DESCRIPTION:Varsity Girls Rescheduled from 9/22: ennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2913:7452061@northwest-jersey-athletic-conference
@@ -1064,6 +1064,15 @@ DTEND;TZID=America/New_York:20261014T180000
 SUMMARY:Villa Walsh Academy vs Morris Catholic High School (Freshman Girl
  s Girls Volleyball)
 DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2913:7688925@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261014T160000
+DTEND;TZID=America/New_York:20261014T180000
+SUMMARY:Villa Walsh Academy vs Morris Knolls High School (Varsity Girls G
+ irls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2913:7502477@northwest-jersey-athletic-conference
@@ -1813,5 +1822,14 @@ DTEND;TZID=America/New_York:20270220T150000
 SUMMARY:Villa Walsh Academy at Immaculata High School (Varsity Girls Girl
  s Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 1:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2913:7688918@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270331T160000
+DTEND;TZID=America/New_York:20270331T180000
+SUMMARY:Villa Walsh Academy at Mountain Lakes High School (Varsity Girls 
+ Girls Track and Field)
+DESCRIPTION:Varsity Girls Girls Track and Field - Away - 4:00 PM
 END:VEVENT
 END:VCALENDAR
