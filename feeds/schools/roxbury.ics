@@ -2236,15 +2236,6 @@ SUMMARY:Roxbury High School vs TBA NJAC (Varsity Coed Coed Cross Country)
 DESCRIPTION:Varsity Coed Coed Cross Country - Home - 2:20 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:100915082@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261013T160000
-DTEND;TZID=America/New_York:20261013T180000
-SUMMARY:Boonton High School vs Roxbury High School (Varsity Girls Field H
- ockey)
-DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2838:7597102@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261013T160000
@@ -2253,22 +2244,41 @@ SUMMARY:Roxbury High School at Delbarton School (Varsity Boys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2838:7513321@northwest-jersey-athletic-conference
+UID:ics:DelbartonSchool:vcal_7173-delbartonathletics.org@northwest-jersey
+ -athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261013T160000
+DTEND;TZID=America/New_York:20261013T180000
+SUMMARY:Delbarton School vs Roxbury High School (Varsity Boys School Socc
+ er)
+DESCRIPTION:Varsity Boys School Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100915082@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261013T163000
 DTEND;TZID=America/New_York:20261013T183000
-SUMMARY:Roxbury High School at Boonton High School (Varsity Girls Field H
+SUMMARY:Boonton High School vs Roxbury High School (Varsity Girls Field H
  ockey)
-DESCRIPTION:Varsity Girls Field Hockey - Away - 4:30 PM
+DESCRIPTION:Varsity Girls Field Hockey - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2838:7513366@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261013T173000
+DTEND;TZID=America/New_York:20261013T193000
+SUMMARY:Roxbury High School at Boonton High School (Junior Varsity Girls 
+ Field Hockey)
+DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:100915179@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261013T173000
-DTEND;TZID=America/New_York:20261013T193000
+DTSTART;TZID=America/New_York:20261013T180000
+DTEND;TZID=America/New_York:20261013T200000
 SUMMARY:Boonton High School vs Roxbury High School (Junior Varsity Girls 
  Field Hockey)
-DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 5:30 PM
+DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:100866962@northwest-jersey-athletic-conference
@@ -3360,6 +3370,15 @@ DTEND;TZID=America/New_York:20270102T200000
 SUMMARY:Newton High School vs Roxbury High School (Varsity Boys Boys Ice 
  Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2685:7689505@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270104T090000
+DTEND;TZID=America/New_York:20270104T110000
+SUMMARY:Kinnelon High School vs Roxbury High School (Varsity Coed Coed Bo
+ wling)
+DESCRIPTION:Varsity Coed Coed Bowling - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101659566@northwest-jersey-athletic-conference
