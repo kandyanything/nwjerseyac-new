@@ -790,6 +790,15 @@ SUMMARY:Pope John XXIII High School vs Wallkill Valley High School (Varsi
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:ics:MorristownBeardSchool:event_8770_20260828t140000zapi.veracross.co
+ m@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260828T100000
+DTEND;TZID=America/New_York:20260828T120000
+SUMMARY:Morristown Beard School at Oak Knoll (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ics:MorristownBeardSchool:event_8771_20260828t140000zapi.veracross.co
  m@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
@@ -798,15 +807,6 @@ DTEND;TZID=America/New_York:20260828T120000
 SUMMARY:Morristown Beard School at Oak Knoll (Junior Varsity Girls Girls 
  Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ics:MorristownBeardSchool:event_8770_20260828t140000zapi.veracross.co
- m@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260828T100000
-DTEND;TZID=America/New_York:20260828T120000
-SUMMARY:Morristown Beard School at Oak Knoll (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2686:7469919@northwest-jersey-athletic-conference
@@ -5671,17 +5671,6 @@ SUMMARY:Pope John XXIII High School at Hunterdon Central Regional High (V
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:MorristownBeardSchool:event_7655_20261006t200000zapi.veracross.co
- m@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261006T160000
-DTEND;TZID=America/New_York:20261006T180000
-SUMMARY:[Postponed] Morristown Beard School vs New Providence (Varsity Gi
- rls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
-STATUS:CANCELLED
-END:VEVENT
-BEGIN:VEVENT
 UID:ics:MorristownBeardSchool:event_7656_20261006t200000zapi.veracross.co
  m@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
@@ -5690,6 +5679,17 @@ DTEND;TZID=America/New_York:20261006T180000
 SUMMARY:[Postponed] Morristown Beard School vs New Providence (Junior Var
  sity Girls Girls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
+STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:MorristownBeardSchool:event_7655_20261006t200000zapi.veracross.co
+ m@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261006T160000
+DTEND;TZID=America/New_York:20261006T180000
+SUMMARY:[Postponed] Morristown Beard School vs New Providence (Varsity Gi
+ rls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
 STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
@@ -6499,9 +6499,10 @@ UID:arb:100867403@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261013T160000
 DTEND;TZID=America/New_York:20261013T180000
-SUMMARY:Boonton High School vs Dover High School (Junior Varsity Girls Gi
- rls Soccer)
+SUMMARY:[Canceled] Boonton High School vs Dover High School (Junior Varsi
+ ty Girls Girls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102734449@northwest-jersey-athletic-conference
@@ -6567,15 +6568,6 @@ DTEND;TZID=America/New_York:20261013T180000
 SUMMARY:Lenape Valley High School at Vernon Township High School (Varsity
   Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2754:7549712@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261013T160000
-DTEND;TZID=America/New_York:20261013T180000
-SUMMARY:Mountain Lakes High School at Pearl R Miller Middle School (Middl
- e School Girls Girls Soccer)
-DESCRIPTION:Middle School Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2754:7690160@northwest-jersey-athletic-conference
@@ -6904,6 +6896,15 @@ SUMMARY:Madison High School vs Summit High School (Freshman Girls Girls S
 DESCRIPTION:Freshman Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:arb:104725904@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261015T160000
+DTEND;TZID=America/New_York:20261015T180000
+SUMMARY:Montville High School vs Morris Knolls High School (Junior Varsit
+ y Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:102535420@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261015T160000
@@ -7048,17 +7049,6 @@ SUMMARY:Wallkill Valley High School at Sussex County Technical High Schoo
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:MorristownBeardSchool:event_8798_20261015t200000zapi.veracross.co
- m@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261015T160000
-DTEND;TZID=America/New_York:20261015T180000
-SUMMARY:[Cancelled] Morristown Beard School vs Morris Catholi (Varsity Gi
- rls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
-STATUS:CANCELLED
-END:VEVENT
-BEGIN:VEVENT
 UID:ics:MorristownBeardSchool:event_8799_20261015t200000zapi.veracross.co
  m@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
@@ -7067,6 +7057,17 @@ DTEND;TZID=America/New_York:20261015T180000
 SUMMARY:[Cancelled] Morristown Beard School vs Morris Catholic High Schoo
  l (Junior Varsity Girls Girls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
+STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:MorristownBeardSchool:event_8798_20261015t200000zapi.veracross.co
+ m@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261015T160000
+DTEND;TZID=America/New_York:20261015T180000
+SUMMARY:[Cancelled] Morristown Beard School vs Morris Catholi (Varsity Gi
+ rls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
 STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
@@ -7346,6 +7347,15 @@ DTEND;TZID=America/New_York:20261018T130000
 SUMMARY:Hanover Park High School vs Morris Knolls High School (Junior Var
  sity Girls Girls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:104730379@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261019T160000
+DTEND;TZID=America/New_York:20261019T180000
+SUMMARY:Pequannock High School at Nutley High School (Varsity Girls Girls
+  Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:104555289@northwest-jersey-athletic-conference
