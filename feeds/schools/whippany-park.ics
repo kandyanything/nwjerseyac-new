@@ -914,24 +914,6 @@ SUMMARY:North Warren at Whippany Park High School (Junior Varsity Girls F
 DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:102652893@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260918T160000
-DTEND;TZID=America/New_York:20260918T180000
-SUMMARY:Morris Hills High School at Whippany Park High School (Freshman G
- irls Girls Volleyball)
-DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:arb:102078741@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260918T160000
-DTEND;TZID=America/New_York:20260918T180000
-SUMMARY:Morris Hills High School vs Whippany Park High School (Varsity Gi
- rls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2761:7517331@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260918T160000
@@ -959,13 +941,31 @@ SUMMARY:Villa Walsh Academy vs Whippany Park High School (Varsity Girls G
 DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:102078734@northwest-jersey-athletic-conference
+UID:ds:2940:7520855@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260918T160000
+DTEND;TZID=America/New_York:20260918T180000
+SUMMARY:Whippany Park High School vs Morris Hills High School (Freshman G
+ irls Girls Volleyball)
+DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2940:7520856@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260918T160000
+DTEND;TZID=America/New_York:20260918T180000
+SUMMARY:Whippany Park High School at Morris Hills High School (Varsity Gi
+ rls Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2940:7520857@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260918T171500
 DTEND;TZID=America/New_York:20260918T191500
-SUMMARY:Morris Hills High School vs Whippany Park High School (Junior Var
+SUMMARY:Whippany Park High School at Morris Hills High School (Junior Var
  sity Girls Girls Volleyball)
-DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:15 PM
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 5:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2790:7601670@northwest-jersey-athletic-conference
@@ -1353,15 +1353,6 @@ SUMMARY:Morris Catholic High School vs Whippany Park High School (Junior
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:101110507@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260929T160000
-DTEND;TZID=America/New_York:20260929T180000
-SUMMARY:Morris Hills High School at Whippany Park High School (Varsity Gi
- rls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2791:7527061@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260929T160000
@@ -1369,6 +1360,15 @@ DTEND;TZID=America/New_York:20260929T180000
 SUMMARY:Parsippany Hills High School at Whippany Park High School (Var-JV
   Coed Coed Cross Country)
 DESCRIPTION:Var-JV Coed Coed Cross Country - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2940:7514562@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260929T160000
+DTEND;TZID=America/New_York:20260929T180000
+SUMMARY:Whippany Park High School vs Morris Hills High School (Varsity Gi
+ rls Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2940:7497009@northwest-jersey-athletic-conference
@@ -1398,13 +1398,13 @@ SUMMARY:Morris County School of Technology at Whippany Park High School (
 DESCRIPTION:Varsity Boys Boys Cross Country - Away - 5:25 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:102313782@northwest-jersey-athletic-conference
+UID:ds:2940:7658095@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260929T173000
 DTEND;TZID=America/New_York:20260929T193000
-SUMMARY:Morris Hills High School at Whippany Park High School (Junior Var
+SUMMARY:Whippany Park High School vs Morris Hills High School (Junior Var
  sity Girls Field Hockey)
-DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:30 PM
+DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2649:7512230@northwest-jersey-athletic-conference
@@ -3957,16 +3957,6 @@ SUMMARY:Whippany Park High School vs Livingston High School (Varsity Girl
 DESCRIPTION:Varsity Girls Girls Lacrosse - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:MorristownBeardSchool:event_11085_20270329t200000zapi.veracross.c
- om@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270329T160000
-DTEND;TZID=America/New_York:20270329T180000
-SUMMARY:Morristown Beard School at Whippany Park High School (Junior Vars
- ity Baseball)
-DESCRIPTION:Junior Varsity Baseball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ics:MorristownBeardSchool:event_11039_20270329t200000zapi.veracross.c
  om@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
@@ -3975,6 +3965,16 @@ DTEND;TZID=America/New_York:20270329T180000
 SUMMARY:Morristown Beard School vs Whippany Park High School (Varsity Bas
  eball)
 DESCRIPTION:Varsity Baseball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:MorristownBeardSchool:event_11085_20270329t200000zapi.veracross.c
+ om@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270329T160000
+DTEND;TZID=America/New_York:20270329T180000
+SUMMARY:Morristown Beard School at Whippany Park High School (Junior Vars
+ ity Baseball)
+DESCRIPTION:Junior Varsity Baseball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103486678@northwest-jersey-athletic-conference
@@ -3995,16 +3995,6 @@ SUMMARY:Whippany Park High School at Park Regional (WP/HP) (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Lacrosse - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:MorristownBeardSchool:event_11042_20270331t200000zapi.veracross.c
- om@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270331T160000
-DTEND;TZID=America/New_York:20270331T180000
-SUMMARY:Morristown Beard School at Whippany Park High School (Varsity Bas
- eball)
-DESCRIPTION:Varsity Baseball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ics:MorristownBeardSchool:event_11086_20270331t200000zapi.veracross.c
  om@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
@@ -4013,6 +4003,16 @@ DTEND;TZID=America/New_York:20270331T180000
 SUMMARY:Morristown Beard School vs Whippany Park High School (Junior Vars
  ity Baseball)
 DESCRIPTION:Junior Varsity Baseball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:MorristownBeardSchool:event_11042_20270331t200000zapi.veracross.c
+ om@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270331T160000
+DTEND;TZID=America/New_York:20270331T180000
+SUMMARY:Morristown Beard School at Whippany Park High School (Varsity Bas
+ eball)
+DESCRIPTION:Varsity Baseball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2940:7596599@northwest-jersey-athletic-conference
