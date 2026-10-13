@@ -24,17 +24,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ics:DelbartonSchool:vcal_7182-delbartonathletics.org@northwest-jersey
- -athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260912T110000
-DTEND;TZID=America/New_York:20260912T130000
-SUMMARY:Delbarton School vs Chaminade (Junior Varsity Boys [L] Delbarton 
- School Soccer)
-DESCRIPTION:Junior Varsity Boys [L] Delbarton School Soccer - Home - 11:0
- 0 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ics:DelbartonSchool:vcal_7220-delbartonathletics.org@northwest-jersey
  -athletic-conference
 DTSTAMP:20250801T000000Z
@@ -57,6 +46,16 @@ DESCRIPTION:Junior Varsity Boys [L] Delbarton School Soccer - Home - 4:00
   PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ics:DelbartonSchool:vcal_7266-delbartonathletics.org@northwest-jersey
+ -athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260921T160000
+DTEND;TZID=America/New_York:20260921T180000
+SUMMARY:Delbarton School at Seton Hall Prep (Freshman Boys [L] Delbarton 
+ School Soccer)
+DESCRIPTION:Freshman Boys [L] Delbarton School Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ics:DelbartonSchool:vcal_7268-delbartonathletics.org@northwest-jersey
  -athletic-conference
 DTSTAMP:20250801T000000Z
@@ -66,16 +65,6 @@ SUMMARY:Delbarton School vs Seton Hall Prep (Junior Varsity Boys [L] Delb
  arton School Soccer)
 DESCRIPTION:Junior Varsity Boys [L] Delbarton School Soccer - Home - 4:00
   PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ics:DelbartonSchool:vcal_7266-delbartonathletics.org@northwest-jersey
- -athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260921T160000
-DTEND;TZID=America/New_York:20260921T180000
-SUMMARY:Delbarton School at Seton Hall Prep (Freshman Boys [L] Delbarton 
- School Soccer)
-DESCRIPTION:Freshman Boys [L] Delbarton School Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ics:DelbartonSchool:vcal_7223-delbartonathletics.org@northwest-jersey
