@@ -23,16 +23,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ics:DelbartonSchool:vcal_7173-delbartonathletics.org@northwest-jersey
- -athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261013T160000
-DTEND;TZID=America/New_York:20261013T180000
-SUMMARY:Delbarton School vs Roxbury High School (Varsity Boys School Socc
- er)
-DESCRIPTION:Varsity Boys School Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ics:DelbartonSchool:vcal_7294-delbartonathletics.org@northwest-jersey
  -athletic-conference
 DTSTAMP:20250801T000000Z
@@ -42,13 +32,14 @@ SUMMARY:Delbarton School vs Briarcliff (Middle School Boys School Soccer)
 DESCRIPTION:Middle School Boys School Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:DelbartonSchool:vcal_7191-delbartonathletics.org@northwest-jersey
+UID:ics:DelbartonSchool:vcal_7173-delbartonathletics.org@northwest-jersey
  -athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261013T163000
-DTEND;TZID=America/New_York:20261013T183000
-SUMMARY:Delbarton School vs Montclair (Junior Varsity Boys School Soccer)
-DESCRIPTION:Junior Varsity Boys School Soccer - Home - 4:30 PM
+DTSTART;TZID=America/New_York:20261013T160000
+DTEND;TZID=America/New_York:20261013T180000
+SUMMARY:Delbarton School vs Roxbury High School (Varsity Boys School Socc
+ er)
+DESCRIPTION:Varsity Boys School Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ics:DelbartonSchool:vcal_7211-delbartonathletics.org@northwest-jersey
@@ -60,13 +51,13 @@ SUMMARY:Delbarton School at Montclair (Freshman Boys School Soccer)
 DESCRIPTION:Freshman Boys School Soccer - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:DelbartonSchool:vcal_7212-delbartonathletics.org@northwest-jersey
+UID:ics:DelbartonSchool:vcal_7191-delbartonathletics.org@northwest-jersey
  -athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261014T161500
-DTEND;TZID=America/New_York:20261014T181500
-SUMMARY:Delbarton School vs Lawrenceville (Freshman Boys School Soccer)
-DESCRIPTION:Freshman Boys School Soccer - Home - 4:15 PM
+DTSTART;TZID=America/New_York:20261013T163000
+DTEND;TZID=America/New_York:20261013T183000
+SUMMARY:Delbarton School vs Montclair (Junior Varsity Boys School Soccer)
+DESCRIPTION:Junior Varsity Boys School Soccer - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ics:DelbartonSchool:vcal_7192-delbartonathletics.org@northwest-jersey
@@ -77,6 +68,15 @@ DTEND;TZID=America/New_York:20261014T181500
 SUMMARY:Delbarton School vs Lawrenceville (Junior Varsity Boys School Soc
  cer)
 DESCRIPTION:Junior Varsity Boys School Soccer - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:DelbartonSchool:vcal_7212-delbartonathletics.org@northwest-jersey
+ -athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261014T161500
+DTEND;TZID=America/New_York:20261014T181500
+SUMMARY:Delbarton School vs Lawrenceville (Freshman Boys School Soccer)
+DESCRIPTION:Freshman Boys School Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ics:DelbartonSchool:vcal_7230-delbartonathletics.org@northwest-jersey
@@ -97,15 +97,6 @@ SUMMARY:Delbarton School at Mendham (Junior Varsity Boys School Soccer)
 DESCRIPTION:Junior Varsity Boys School Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:DelbartonSchool:vcal_7174-delbartonathletics.org@northwest-jersey
- -athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261015T160000
-DTEND;TZID=America/New_York:20261015T180000
-SUMMARY:Delbarton School at Mendham (Varsity Boys School Soccer)
-DESCRIPTION:Varsity Boys School Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ics:DelbartonSchool:vcal_7213-delbartonathletics.org@northwest-jersey
  -athletic-conference
 DTSTAMP:20250801T000000Z
@@ -113,6 +104,15 @@ DTSTART;TZID=America/New_York:20261015T160000
 DTEND;TZID=America/New_York:20261015T180000
 SUMMARY:Delbarton School at Mendham (Freshman Boys School Soccer)
 DESCRIPTION:Freshman Boys School Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:DelbartonSchool:vcal_7174-delbartonathletics.org@northwest-jersey
+ -athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261015T160000
+DTEND;TZID=America/New_York:20261015T180000
+SUMMARY:Delbarton School at Mendham (Varsity Boys School Soccer)
+DESCRIPTION:Varsity Boys School Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ics:DelbartonSchool:vcal_7231-delbartonathletics.org@northwest-jersey
@@ -172,16 +172,6 @@ SUMMARY:Delbarton School vs Montville High School (Junior Varsity Boys Sc
 DESCRIPTION:Junior Varsity Boys School Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:DelbartonSchool:vcal_7176-delbartonathletics.org@northwest-jersey
- -athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261021T160000
-DTEND;TZID=America/New_York:20261021T180000
-SUMMARY:Delbarton School vs Montville High School (Varsity Boys School So
- ccer)
-DESCRIPTION:Varsity Boys School Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ics:DelbartonSchool:vcal_7215-delbartonathletics.org@northwest-jersey
  -athletic-conference
 DTSTAMP:20250801T000000Z
@@ -190,6 +180,16 @@ DTEND;TZID=America/New_York:20261021T180000
 SUMMARY:Delbarton School vs Montville High School (Freshman Boys School S
  occer)
 DESCRIPTION:Freshman Boys School Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:DelbartonSchool:vcal_7176-delbartonathletics.org@northwest-jersey
+ -athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261021T160000
+DTEND;TZID=America/New_York:20261021T180000
+SUMMARY:Delbarton School vs Montville High School (Varsity Boys School So
+ ccer)
+DESCRIPTION:Varsity Boys School Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ics:DelbartonSchool:vcal_7216-delbartonathletics.org@northwest-jersey
