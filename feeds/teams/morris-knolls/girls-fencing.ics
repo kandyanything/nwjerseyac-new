@@ -53,11 +53,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:arb:104778943@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270104
-DTEND;VALUE=DATE:20270105
+DTSTART;TZID=America/New_York:20270104T160000
+DTEND;TZID=America/New_York:20270104T180000
 SUMMARY:Morris Knolls High School vs Morris Catholic High School (Varsity
   Girls Girls Fencing)
-DESCRIPTION:Varsity Girls Girls Fencing - Home
+DESCRIPTION:Varsity Girls Girls Fencing - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:104313316@northwest-jersey-athletic-conference
