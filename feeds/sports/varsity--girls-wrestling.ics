@@ -166,11 +166,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2748:7695533@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261220
-DTEND;VALUE=DATE:20261221
+DTSTART;TZID=America/New_York:20261220T090000
+DTEND;TZID=America/New_York:20261220T110000
 SUMMARY:Morristown High School at Bloomfield High School (Varsity Girls G
  irls Wrestling)
-DESCRIPTION:Varsity Girls Girls Wrestling - Away
+DESCRIPTION:Varsity Girls Girls Wrestling - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2649:7554528@northwest-jersey-athletic-conference
@@ -218,6 +218,15 @@ SUMMARY:Boonton High School vs Morris Knolls High School (Varsity Girls G
 DESCRIPTION:Varsity Girls Girls Wrestling - Home - 1:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2790:7699975@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261228T090000
+DTEND;TZID=America/New_York:20261228T110000
+SUMMARY:Parsippany High School at Parsippany High School (Varsity Girls G
+ irls Wrestling)
+DESCRIPTION:Varsity Girls Girls Wrestling - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2791:7570272@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261228T090000
@@ -225,6 +234,15 @@ DTEND;TZID=America/New_York:20261228T110000
 SUMMARY:Parsippany Hills High School vs Wallkill Valley High School (Vars
  ity Girls Girls Wrestling)
 DESCRIPTION:Varsity Girls Girls Wrestling - Home - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2791:7699975@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261228T090000
+DTEND;TZID=America/New_York:20261228T110000
+SUMMARY:Parsippany Hills High School at Parsippany High School (Varsity G
+ irls Girls Wrestling)
+DESCRIPTION:Varsity Girls Girls Wrestling - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2674:7569831@northwest-jersey-athletic-conference
