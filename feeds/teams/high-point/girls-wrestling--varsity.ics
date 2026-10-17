@@ -24,6 +24,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2649:7655144@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261212T093000
+DTEND;TZID=America/New_York:20261212T113000
+SUMMARY:High Point High School at Old Bridge High School (Varsity Girls G
+ irls Wrestling)
+DESCRIPTION:Varsity Girls Girls Wrestling - Away - 9:30 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2649:7569355@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261214T170000
@@ -31,15 +40,6 @@ DTEND;TZID=America/New_York:20261214T190000
 SUMMARY:High Point High School at Lenape Valley High School (Varsity Girl
  s Girls Wrestling)
 DESCRIPTION:Varsity Girls Girls Wrestling - Away - 5:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2649:7569437@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261218T180000
-DTEND;TZID=America/New_York:20261218T200000
-SUMMARY:High Point High School vs Wallkill Valley High School (Varsity Gi
- rls Girls Wrestling)
-DESCRIPTION:Varsity Girls Girls Wrestling - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2649:7554528@northwest-jersey-athletic-conference
@@ -58,6 +58,15 @@ DTEND;TZID=America/New_York:20270102T110000
 SUMMARY:High Point High School at Wayne Highlands Middle School (Varsity 
  Girls Girls Wrestling)
 DESCRIPTION:Varsity Girls Girls Wrestling - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2649:7569437@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270107T180000
+DTEND;TZID=America/New_York:20270107T200000
+SUMMARY:High Point High School vs Wallkill Valley High School (Varsity Gi
+ rls Girls Wrestling)
+DESCRIPTION:Varsity Girls Girls Wrestling - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2649:7569407@northwest-jersey-athletic-conference

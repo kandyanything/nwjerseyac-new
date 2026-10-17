@@ -24,13 +24,40 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:arb:103889631@northwest-jersey-athletic-conference
+UID:ds:2816:7634898@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261207T190000
+DTEND;TZID=America/New_York:20261207T210000
+SUMMARY:Pope John XXIII High School at West Orange High School (Varsity G
+ irls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2816:7634900@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261208T163000
+DTEND;TZID=America/New_York:20261208T183000
+SUMMARY:Pope John XXIII High School vs Madison High School (Varsity Girls
+  Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2816:7634904@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261210T160000
 DTEND;TZID=America/New_York:20261210T180000
 SUMMARY:Pope John XXIII High School at Phillipsburg High School (Varsity 
  Girls Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2816:7634917@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261214T120000
+DTEND;TZID=America/New_York:20261214T140000
+SUMMARY:Pope John XXIII High School at Pequannock High School (Varsity Gi
+ rls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2748:7457545@northwest-jersey-athletic-conference
@@ -42,40 +69,49 @@ SUMMARY:Morristown High School at Pope John XXIII High School (Varsity Gi
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:101647958@northwest-jersey-athletic-conference
+UID:ds:2816:7635082@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261217T190000
-DTEND;TZID=America/New_York:20261217T210000
-SUMMARY:Pope John XXIII High School vs Morristown High School (Varsity Gi
- rls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home - 7:00 PM
+DTSTART;TZID=America/New_York:20261219T120000
+DTEND;TZID=America/New_York:20261219T140000
+SUMMARY:Pope John XXIII High School at TBA NJAC (Varsity Girls Girls Bask
+ etball)
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2816:7637837@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261222T173000
+DTEND;TZID=America/New_York:20261222T193000
+SUMMARY:Pope John XXIII High School vs Mount Saint Mary Academy (Varsity 
+ Girls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2816:7637839@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261223T150000
+DTEND;TZID=America/New_York:20261223T170000
+SUMMARY:Pope John XXIII High School at Colonia High School (Varsity Girls
+  Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 3:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101647490@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270104T190000
 DTEND;TZID=America/New_York:20270104T210000
-SUMMARY:Pope John XXIII High School at Mendham High School (Varsity Girls
+SUMMARY:West Morris Mendham vs Pope John XXIII High School (Varsity Girls
   Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2881:7457549@northwest-jersey-athletic-conference
+UID:ds:2816:7457549@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270106T173000
 DTEND;TZID=America/New_York:20270106T193000
-SUMMARY:Sparta High School at Pope John XXIII High School (Varsity Girls 
- Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:arb:101647963@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270106T190000
-DTEND;TZID=America/New_York:20270106T210000
 SUMMARY:Pope John XXIII High School vs Sparta High School (Varsity Girls 
  Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home - 7:00 PM
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2564:7457552@northwest-jersey-athletic-conference
@@ -87,43 +123,43 @@ SUMMARY:Chatham High School at Pope John XXIII High School (Varsity Girls
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:101647971@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270112T190000
-DTEND;TZID=America/New_York:20270112T210000
-SUMMARY:Pope John XXIII High School vs Chatham High School (Varsity Girls
-  Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:101647306@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270114T173000
-DTEND;TZID=America/New_York:20270114T193000
+DTSTART;TZID=America/New_York:20270114T160000
+DTEND;TZID=America/New_York:20270114T180000
 SUMMARY:Morris Knolls High School vs Pope John XXIII High School (Varsity
   Girls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home - 5:30 PM
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:101647448@northwest-jersey-athletic-conference
+UID:ds:2816:7457555@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270120T190000
-DTEND;TZID=America/New_York:20270120T210000
-SUMMARY:Pope John XXIII High School at Morristown High School (Varsity Gi
- rls Girls Basketball)
+DTSTART;TZID=America/New_York:20270114T190000
+DTEND;TZID=America/New_York:20270114T210000
+SUMMARY:Pope John XXIII High School at Morris Knolls High School (Varsity
+  Girls Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2748:7457560@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270120T160000
+DTEND;TZID=America/New_York:20270120T180000
+SUMMARY:Morristown High School vs Pope John XXIII High School (Varsity Gi
+ rls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101647978@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270122T173000
 DTEND;TZID=America/New_York:20270122T193000
-SUMMARY:Pope John XXIII High School vs Mendham High School (Varsity Girls
+SUMMARY:West Morris Mendham at Pope John XXIII High School (Varsity Girls
   Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home - 5:30 PM
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:101647838@northwest-jersey-athletic-conference
+UID:ds:2816:7457564@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270126T190000
 DTEND;TZID=America/New_York:20270126T210000
@@ -132,22 +168,49 @@ SUMMARY:Pope John XXIII High School at Sparta High School (Varsity Girls
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:103431130@northwest-jersey-athletic-conference
+UID:ds:2649:7637851@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270128T160000
-DTEND;TZID=America/New_York:20270128T180000
-SUMMARY:Pope John XXIII High School at High Point High School (Varsity Gi
+DTSTART;TZID=America/New_York:20270128T190000
+DTEND;TZID=America/New_York:20270128T210000
+SUMMARY:High Point High School vs Pope John XXIII High School (Varsity Gi
  rls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2816:7624366@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270130T120000
+DTEND;TZID=America/New_York:20270130T140000
+SUMMARY:Pope John XXIII High School vs River Dell Regional High School (V
+ arsity Girls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2816:7637796@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270203T160000
+DTEND;TZID=America/New_York:20270203T180000
+SUMMARY:Pope John XXIII High School at Paramus Catholic High School (Vars
+ ity Girls Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:101647272@northwest-jersey-athletic-conference
+UID:ds:2564:7457567@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270211T190000
 DTEND;TZID=America/New_York:20270211T210000
-SUMMARY:Pope John XXIII High School at Chatham High School (Varsity Girls
+SUMMARY:Chatham High School vs Pope John XXIII High School (Varsity Girls
   Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2816:7457570@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270216T173000
+DTEND;TZID=America/New_York:20270216T193000
+SUMMARY:Pope John XXIII High School vs Morris Knolls High School (Varsity
+  Girls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101647987@northwest-jersey-athletic-conference

@@ -45,7 +45,6 @@ const ARBITER_SCHOOLS = [
     { entityId: 15188, name: 'Morris Hills High School' },
     { entityId: 15189, name: 'Morris Knolls High School' },
     { entityId: 17870, name: 'Pequannock High School' },
-    { entityId: 18382, name: 'Pope John XXIII High School' },
     { entityId: 25317, name: 'West Morris Central' },
     { entityId: 14434, name: 'West Morris Mendham' },
 ];

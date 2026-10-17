@@ -24,6 +24,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:arb:102657872@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261208T160000
+DTEND;TZID=America/New_York:20261208T180000
+SUMMARY:Montville High School vs Sparta High School (Varsity Girls Girls 
+ Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2881:7534390@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261208T190000
@@ -35,11 +44,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2881:7608110@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261210T190000
-DTEND;TZID=America/New_York:20261210T210000
+DTSTART;TZID=America/New_York:20261210T163000
+DTEND;TZID=America/New_York:20261210T183000
 SUMMARY:Sparta High School at Hunterdon Central Regional High (Varsity Gi
  rls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2881:7457544@northwest-jersey-athletic-conference
@@ -114,22 +123,13 @@ SUMMARY:Morristown High School vs Sparta High School (Varsity Girls Girls
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2881:7457549@northwest-jersey-athletic-conference
+UID:ds:2816:7457549@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270106T173000
 DTEND;TZID=America/New_York:20270106T193000
-SUMMARY:Sparta High School at Pope John XXIII High School (Varsity Girls 
- Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:arb:101647963@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270106T190000
-DTEND;TZID=America/New_York:20270106T210000
 SUMMARY:Pope John XXIII High School vs Sparta High School (Varsity Girls 
  Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home - 7:00 PM
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2881:7538402@northwest-jersey-athletic-conference
@@ -186,7 +186,7 @@ SUMMARY:Morristown High School at Sparta High School (Varsity Girls Girls
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:101647838@northwest-jersey-athletic-conference
+UID:ds:2816:7457564@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270126T190000
 DTEND;TZID=America/New_York:20270126T210000
@@ -219,15 +219,6 @@ DTSTART;TZID=America/New_York:20270216T190000
 DTEND;TZID=America/New_York:20270216T210000
 SUMMARY:Chatham High School at Sparta High School (Varsity Girls Girls Ba
  sketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2881:7612823@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270218T190000
-DTEND;TZID=America/New_York:20270218T210000
-SUMMARY:Sparta High School at Northern Highlands Regional High School (Va
- rsity Girls Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
 END:VEVENT
 END:VCALENDAR

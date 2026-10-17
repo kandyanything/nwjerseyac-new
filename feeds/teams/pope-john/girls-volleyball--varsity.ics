@@ -24,16 +24,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:arb:102577578@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260827T160000
-DTEND;TZID=America/New_York:20260827T180000
-SUMMARY:[Canceled] Pope John XXIII High School vs High Point High School 
- (Varsity Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
-STATUS:CANCELLED
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:99587879@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260903T160000
@@ -52,40 +42,49 @@ SUMMARY:Montville High School at Pope John XXIII High School (Varsity Gir
 DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:99599595@northwest-jersey-athletic-conference
+UID:ds:2791:7508752@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260914T160000
 DTEND;TZID=America/New_York:20260914T180000
-SUMMARY:Pope John XXIII High School vs Parsippany Hills High School (Vars
+SUMMARY:Parsippany Hills High School at Pope John XXIII High School (Vars
  ity Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
+DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:102577585@northwest-jersey-athletic-conference
+UID:ds:2649:7475424@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260917T160000
 DTEND;TZID=America/New_York:20260917T180000
-SUMMARY:Pope John XXIII High School vs High Point High School (Varsity Gi
+SUMMARY:High Point High School at Pope John XXIII High School (Varsity Gi
  rls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
+DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:99599600@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260922T160000
 DTEND;TZID=America/New_York:20260922T180000
-SUMMARY:Pope John XXIII High School vs Mendham High School (Varsity Girls
-  Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:arb:101005111@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260924T160000
-DTEND;TZID=America/New_York:20260924T180000
-SUMMARY:Pope John XXIII High School at Chatham High School (Varsity Girls
+SUMMARY:West Morris Mendham at Pope John XXIII High School (Varsity Girls
   Girls Volleyball)
 DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2816:7536137@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260922T161500
+DTEND;TZID=America/New_York:20260922T181500
+SUMMARY:Pope John XXIII High School vs West Morris Mendham (Varsity Girls
+  Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2564:7424106@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260924T173000
+DTEND;TZID=America/New_York:20260924T193000
+SUMMARY:Chatham High School vs Pope John XXIII High School (Varsity Girls
+  Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:99554348@northwest-jersey-athletic-conference
@@ -115,16 +114,16 @@ SUMMARY:Montville High School vs Pope John XXIII High School (Varsity Gir
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:102577589@northwest-jersey-athletic-conference
+UID:ds:2745:7536145@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261005T160000
 DTEND;TZID=America/New_York:20261005T180000
-SUMMARY:Pope John XXIII High School vs Morris Catholic High School (Varsi
+SUMMARY:Morris Catholic High School at Pope John XXIII High School (Varsi
  ty Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
+DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:102577597@northwest-jersey-athletic-conference
+UID:ds:2816:7461962@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261008T160000
 DTEND;TZID=America/New_York:20261008T180000
@@ -142,7 +141,16 @@ SUMMARY:Parsippany Hills High School vs Pope John XXIII High School (Vars
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:102759660@northwest-jersey-athletic-conference
+UID:ds:2816:7536148@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261015T160000
+DTEND;TZID=America/New_York:20261015T180000
+SUMMARY:Pope John XXIII High School at DePaul Catholic High School (Varsi
+ ty Girls Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2816:7549475@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261016T161500
 DTEND;TZID=America/New_York:20261016T181500
@@ -164,36 +172,27 @@ UID:arb:99599812@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261020T160000
 DTEND;TZID=America/New_York:20261020T180000
-SUMMARY:Pope John XXIII High School at Mendham High School (Varsity Girls
-  Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:arb:102577641@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261022T160000
-DTEND;TZID=America/New_York:20261022T180000
-SUMMARY:Pope John XXIII High School vs Chatham High School (Varsity Girls
+SUMMARY:West Morris Mendham vs Pope John XXIII High School (Varsity Girls
   Girls Volleyball)
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:104031986@northwest-jersey-athletic-conference
+UID:ds:2564:7536152@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261024T103000
-DTEND;TZID=America/New_York:20261024T123000
-SUMMARY:Pope John XXIII High School vs Nutley High School (Varsity Girls 
- Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Home - 10:30 AM
+DTSTART;TZID=America/New_York:20261022T160000
+DTEND;TZID=America/New_York:20261022T180000
+SUMMARY:Chatham High School at Pope John XXIII High School (Varsity Girls
+  Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:104031992@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261024T113000
 DTEND;TZID=America/New_York:20261024T133000
-SUMMARY:Pope John XXIII High School at Pequannock High School (Varsity Gi
+SUMMARY:Pequannock High School vs Pope John XXIII High School (Varsity Gi
  rls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Away - 11:30 AM
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102577644@northwest-jersey-athletic-conference
@@ -205,12 +204,30 @@ SUMMARY:Morris Hills High School at Pope John XXIII High School (Varsity
 DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:102577650@northwest-jersey-athletic-conference
+UID:ds:2816:7536156@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261028T171500
-DTEND;TZID=America/New_York:20261028T191500
+DTSTART;TZID=America/New_York:20261028T173000
+DTEND;TZID=America/New_York:20261028T193000
 SUMMARY:Pope John XXIII High School vs Blair Academy (Varsity Girls Girls
   Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Home - 5:15 PM
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2816:7649649@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270409T160000
+DTEND;TZID=America/New_York:20270409T180000
+SUMMARY:Pope John XXIII High School at Dover High School (Varsity Girls G
+ irls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2816:7649657@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270507T160000
+DTEND;TZID=America/New_York:20270507T180000
+SUMMARY:Pope John XXIII High School vs Dover High School (Varsity Girls G
+ irls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
 END:VEVENT
 END:VCALENDAR

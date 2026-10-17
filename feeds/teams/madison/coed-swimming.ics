@@ -24,6 +24,31 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:arb:104318227@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261215T160000
+DTEND;TZID=America/New_York:20261215T180000
+SUMMARY:Madison High School at Morristown Beard School (Varsity Coed Coed
+  Swimming)
+DESCRIPTION:Varsity Coed Coed Swimming - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:104319435@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261215T183000
+DTEND;TZID=America/New_York:20261215T203000
+SUMMARY:Madison High School vs TBD (Varsity Coed Coed Swimming)
+DESCRIPTION:Varsity Coed Coed Swimming - Home - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:104319438@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270105T183000
+DTEND;TZID=America/New_York:20270105T203000
+SUMMARY:Madison High School vs TBD (Varsity Coed Coed Swimming)
+DESCRIPTION:Varsity Coed Coed Swimming - Home - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2649:7570972@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270120T180000
@@ -31,5 +56,13 @@ DTEND;TZID=America/New_York:20270120T200000
 SUMMARY:High Point High School vs Madison High School (Varsity Coed Coed 
  Swimming)
 DESCRIPTION:Varsity Coed Coed Swimming - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:104319442@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270121T183000
+DTEND;TZID=America/New_York:20270121T203000
+SUMMARY:Madison High School vs TBD (Varsity Coed Coed Swimming)
+DESCRIPTION:Varsity Coed Coed Swimming - Home - 6:30 PM
 END:VEVENT
 END:VCALENDAR
