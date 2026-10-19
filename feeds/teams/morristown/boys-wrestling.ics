@@ -26,28 +26,19 @@ END:VTIMEZONE
 BEGIN:VEVENT
 UID:ds:2748:7646050@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261212T080000
-DTEND;TZID=America/New_York:20261212T100000
+DTSTART;TZID=America/New_York:20261212T090000
+DTEND;TZID=America/New_York:20261212T110000
 SUMMARY:Morristown High School vs Whippany Park High School (Varsity Boys
   Boys Wrestling)
-DESCRIPTION:Varsity Boys Boys Wrestling - Home - 8:00 AM
+DESCRIPTION:Varsity Boys Boys Wrestling - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2748:7695466@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261212T080000
-DTEND;TZID=America/New_York:20261212T100000
-SUMMARY:Morristown High School vs TBD (Junior Varsity Boys Boys Wrestling)
-DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 8:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2940:7646050@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261212T090000
 DTEND;TZID=America/New_York:20261212T110000
-SUMMARY:Whippany Park High School at Morristown High School (Varsity Boys
-  Boys Wrestling)
-DESCRIPTION:Varsity Boys Boys Wrestling - Away - 9:00 AM
+SUMMARY:Morristown High School vs TBD (Junior Varsity Boys Boys Wrestling)
+DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2748:7570069@northwest-jersey-athletic-conference
@@ -131,24 +122,6 @@ SUMMARY:Morristown High School at Union City High School (Junior Varsity
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2748:7695419@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270116
-DTEND;VALUE=DATE:20270117
-SUMMARY:Morristown High School at Nutley High School (Varsity Boys Boys W
- restling)
-DESCRIPTION:Varsity Boys Boys Wrestling - Away
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2748:7695479@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270116
-DTEND;VALUE=DATE:20270117
-SUMMARY:Morristown High School at Nutley High School (Junior Varsity Boys
-  Boys Wrestling)
-DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2748:7695512@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270117T090000
@@ -178,10 +151,18 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2748:7698303@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270122T163100
-DTEND;TZID=America/New_York:20270122T183100
+DTSTART;TZID=America/New_York:20270122T160000
+DTEND;TZID=America/New_York:20270122T180000
+SUMMARY:Morristown High School at TBD (Varsity Boys Boys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2748:7695421@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270123T090000
+DTEND;TZID=America/New_York:20270123T110000
 SUMMARY:Morristown High School vs TBD (Varsity Boys Boys Wrestling)
-DESCRIPTION:Varsity Boys Boys Wrestling - Home - 4:31 PM
+DESCRIPTION:Varsity Boys Boys Wrestling - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:104871153@northwest-jersey-athletic-conference
