@@ -23,15 +23,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ics:DelbartonSchool:vcal_7175-delbartonathletics.org@northwest-jersey
- -athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261017T160000
-DTEND;TZID=America/New_York:20261017T180000
-SUMMARY:Delbarton School vs Dover High School (Varsity Boys School Soccer)
-DESCRIPTION:Varsity Boys School Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ics:DelbartonSchool:vcal_7176-delbartonathletics.org@northwest-jersey
  -athletic-conference
 DTSTAMP:20250801T000000Z
@@ -40,6 +31,16 @@ DTEND;TZID=America/New_York:20261021T180000
 SUMMARY:Delbarton School vs Montville High School (Varsity Boys School So
  ccer)
 DESCRIPTION:Varsity Boys School Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:DelbartonSchool:vcal_7177-delbartonathletics.org@northwest-jersey
+ -athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261024T170000
+DTEND;TZID=America/New_York:20261024T190000
+SUMMARY:Delbarton School vs Randolph High School (Varsity Boys School Soc
+ cer)
+DESCRIPTION:Varsity Boys School Soccer - Home - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ics:DelbartonSchool:vcal_7178-delbartonathletics.org@northwest-jersey
