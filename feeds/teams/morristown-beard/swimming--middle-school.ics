@@ -24,6 +24,16 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ics:MorristownBeardSchool:event_11488_20261210t204500zapi.veracross.c
+ om@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261210T154500
+DTEND;TZID=America/New_York:20261210T174500
+SUMMARY:Morristown Beard School at MKA Middle School (Middle School Swimm
+ ing)
+DESCRIPTION:Middle School Swimming - Away - 3:45 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ics:MorristownBeardSchool:event_11049_20270113t203000zapi.veracross.c
  om@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
@@ -31,5 +41,15 @@ DTSTART;TZID=America/New_York:20270113T153000
 DTEND;TZID=America/New_York:20270113T173000
 SUMMARY:Morristown Beard School at Newark Academy (Middle School Swimming)
 DESCRIPTION:Middle School Swimming - Away - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:MorristownBeardSchool:event_11489_20270127t203000zapi.veracross.c
+ om@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270127T153000
+DTEND;TZID=America/New_York:20270127T173000
+SUMMARY:Morristown Beard School vs MKA Middle School (Middle School Swimm
+ ing)
+DESCRIPTION:Middle School Swimming - Home - 3:30 PM
 END:VEVENT
 END:VCALENDAR
