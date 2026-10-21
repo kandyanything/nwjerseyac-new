@@ -23,12 +23,30 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2694:7706898@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261207T111100
+DTEND;TZID=America/New_York:20261207T131100
+SUMMARY:Lenape Valley High School vs Sparta High School (Varsity Boys Boy
+ s Bowling)
+DESCRIPTION:Varsity Boys Boys Bowling - Home - 11:11 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2761:7679795@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261207T153000
 DTEND;TZID=America/New_York:20261207T173000
 SUMMARY:Newton High School at High Point High School (Varsity Boys Boys B
  owling)
+DESCRIPTION:Varsity Boys Boys Bowling - Away - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2881:7706898@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261207T153000
+DTEND;TZID=America/New_York:20261207T173000
+SUMMARY:Sparta High School at Lenape Valley High School (Varsity Boys Boy
+ s Bowling)
 DESCRIPTION:Varsity Boys Boys Bowling - Away - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
