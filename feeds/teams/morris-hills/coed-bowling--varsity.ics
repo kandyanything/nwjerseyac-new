@@ -24,6 +24,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2838:7707152@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261201T150000
+DTEND;TZID=America/New_York:20261201T170000
+SUMMARY:Roxbury High School vs Morris Hills High School (Varsity Coed Coe
+ d Bowling)
+DESCRIPTION:Varsity Coed Coed Bowling - Home - 3:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2685:7689471@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261207T153000
@@ -31,5 +40,23 @@ DTEND;TZID=America/New_York:20261207T173000
 SUMMARY:Kinnelon High School at Morris Hills High School (Varsity Coed Co
  ed Bowling)
 DESCRIPTION:Varsity Coed Coed Bowling - Away - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2838:7707171@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270112T150000
+DTEND;TZID=America/New_York:20270112T170000
+SUMMARY:Roxbury High School vs Morris Hills High School (Varsity Coed Coe
+ d Bowling)
+DESCRIPTION:Varsity Coed Coed Bowling - Home - 3:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2838:7707179@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270120T150000
+DTEND;TZID=America/New_York:20270120T170000
+SUMMARY:Roxbury High School vs Morris Hills High School (Varsity Coed Coe
+ d Bowling)
+DESCRIPTION:Varsity Coed Coed Bowling - Home - 3:00 PM
 END:VEVENT
 END:VCALENDAR

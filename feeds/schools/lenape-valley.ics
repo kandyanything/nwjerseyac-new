@@ -1822,11 +1822,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2694:7706898@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261207T111100
-DTEND;TZID=America/New_York:20261207T131100
-SUMMARY:Lenape Valley High School vs Sparta High School (Varsity Boys Boy
- s Bowling)
-DESCRIPTION:Varsity Boys Boys Bowling - Home - 11:11 AM
+DTSTART;TZID=America/New_York:20261207T153000
+DTEND;TZID=America/New_York:20261207T173000
+SUMMARY:Lenape Valley High School vs Sparta High School (Varsity Coed Coe
+ d Bowling)
+DESCRIPTION:Varsity Coed Coed Bowling - Home - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2881:7706898@northwest-jersey-athletic-conference
@@ -1845,15 +1845,6 @@ DTEND;TZID=America/New_York:20261208T173000
 SUMMARY:High Point High School vs Lenape Valley High School (Varsity Coed
   Coed Bowling)
 DESCRIPTION:Varsity Coed Coed Bowling - Home - 3:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2694:7679800@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261208T153000
-DTEND;TZID=America/New_York:20261208T173000
-SUMMARY:Lenape Valley High School at High Point High School (Varsity Boys
-  Boys Bowling)
-DESCRIPTION:Varsity Boys Boys Bowling - Away - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2694:7609879@northwest-jersey-athletic-conference
@@ -1928,15 +1919,6 @@ SUMMARY:Hopatcong High School vs Lenape Valley High School (Varsity Coed
 DESCRIPTION:Varsity Coed Coed Bowling - Home - 3:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2694:7702676@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261214T150000
-DTEND;TZID=America/New_York:20261214T170000
-SUMMARY:Lenape Valley High School at Hopatcong High School (Varsity Boys 
- Boys Bowling)
-DESCRIPTION:Varsity Boys Boys Bowling - Away - 3:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2649:7569355@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261214T170000
@@ -1995,9 +1977,18 @@ UID:ds:2694:7702094@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261216T153000
 DTEND;TZID=America/New_York:20261216T173000
-SUMMARY:Lenape Valley High School vs Newton High School (Varsity Boys Boy
+SUMMARY:Lenape Valley High School vs Newton High School (Varsity Coed Coe
+ d Bowling)
+DESCRIPTION:Varsity Coed Coed Bowling - Home - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2761:7702094@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261216T153000
+DTEND;TZID=America/New_York:20261216T173000
+SUMMARY:Newton High School at Lenape Valley High School (Varsity Boys Boy
  s Bowling)
-DESCRIPTION:Varsity Boys Boys Bowling - Home - 3:30 PM
+DESCRIPTION:Varsity Boys Boys Bowling - Away - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2674:7690982@northwest-jersey-athletic-conference
@@ -2007,15 +1998,6 @@ DTEND;TZID=America/New_York:20261217T171500
 SUMMARY:Jefferson Township High School vs Lenape Valley High School (Vars
  ity Coed Coed Bowling)
 DESCRIPTION:Varsity Coed Coed Bowling - Home - 3:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2694:7690982@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261217T151500
-DTEND;TZID=America/New_York:20261217T171500
-SUMMARY:Lenape Valley High School at Jefferson Township High School (Vars
- ity Boys Boys Bowling)
-DESCRIPTION:Varsity Boys Boys Bowling - Away - 3:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2634:7503251@northwest-jersey-athletic-conference
@@ -2288,13 +2270,13 @@ SUMMARY:Lenape Valley High School at Jefferson-Sparta (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2919:7706985@northwest-jersey-athletic-conference
+UID:ds:2694:7706985@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270106T153000
 DTEND;TZID=America/New_York:20270106T173000
-SUMMARY:Wallkill Valley High School at Lenape Valley High School (Varsity
+SUMMARY:Lenape Valley High School vs Wallkill Valley High School (Varsity
   Coed Coed Bowling)
-DESCRIPTION:Varsity Coed Coed Bowling - Away - 3:30 PM
+DESCRIPTION:Varsity Coed Coed Bowling - Home - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2694:7543350@northwest-jersey-athletic-conference
@@ -2324,13 +2306,13 @@ SUMMARY:Lenape Valley High School vs North Warren (Varsity Boys Boys Bask
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2909:7706988@northwest-jersey-athletic-conference
+UID:ds:2694:7706988@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T153000
 DTEND;TZID=America/New_York:20270107T173000
-SUMMARY:Vernon Township High School at Lenape Valley High School (Varsity
+SUMMARY:Lenape Valley High School vs Vernon Township High School (Varsity
   Coed Coed Bowling)
-DESCRIPTION:Varsity Coed Coed Bowling - Away - 3:30 PM
+DESCRIPTION:Varsity Coed Coed Bowling - Home - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ics:MorristownBeardSchool:event_10248_20270107t220000zapi.veracross.c
@@ -2641,15 +2623,6 @@ SUMMARY:High Point High School vs Lenape Valley High School (Varsity Coed
 DESCRIPTION:Varsity Coed Coed Bowling - Home - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2694:7680297@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270120T153000
-DTEND;TZID=America/New_York:20270120T173000
-SUMMARY:Lenape Valley High School at High Point High School (Varsity Boys
-  Boys Bowling)
-DESCRIPTION:Varsity Boys Boys Bowling - Away - 3:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2634:7611979@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270120T160000
@@ -2758,13 +2731,13 @@ SUMMARY:Hopatcong High School at Lenape Valley High School (Varsity Coed
 DESCRIPTION:Varsity Coed Coed Bowling - Away - 3:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2694:7702690@northwest-jersey-athletic-conference
+UID:ds:2694:7707020@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270122T150000
-DTEND;TZID=America/New_York:20270122T170000
-SUMMARY:Lenape Valley High School vs Hopatcong High School (Varsity Boys 
- Boys Bowling)
-DESCRIPTION:Varsity Boys Boys Bowling - Home - 3:00 PM
+DTSTART;TZID=America/New_York:20270123T100000
+DTEND;TZID=America/New_York:20270123T120000
+SUMMARY:Lenape Valley High School vs Mountain Lakes High School (Freshman
+  Boys Boys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2694:7507662@northwest-jersey-athletic-conference
@@ -2789,9 +2762,18 @@ UID:ds:2694:7702129@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270125T153000
 DTEND;TZID=America/New_York:20270125T173000
-SUMMARY:Lenape Valley High School at Newton High School (Varsity Boys Boy
+SUMMARY:Lenape Valley High School at Newton High School (Varsity Coed Coe
+ d Bowling)
+DESCRIPTION:Varsity Coed Coed Bowling - Away - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2761:7702129@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270125T153000
+DTEND;TZID=America/New_York:20270125T173000
+SUMMARY:Newton High School vs Lenape Valley High School (Varsity Boys Boy
  s Bowling)
-DESCRIPTION:Varsity Boys Boys Bowling - Away - 3:30 PM
+DESCRIPTION:Varsity Boys Boys Bowling - Home - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2694:7534934@northwest-jersey-athletic-conference
@@ -2884,15 +2866,6 @@ SUMMARY:Jefferson Township High School at Lenape Valley High School (Vars
 DESCRIPTION:Varsity Coed Coed Bowling - Away - 3:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2694:7691679@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270127T151500
-DTEND;TZID=America/New_York:20270127T171500
-SUMMARY:Lenape Valley High School vs Jefferson Township High School (Vars
- ity Boys Boys Bowling)
-DESCRIPTION:Varsity Boys Boys Bowling - Home - 3:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2694:7601462@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270127T163000
@@ -2936,6 +2909,15 @@ DTEND;TZID=America/New_York:20270128T193000
 SUMMARY:Lenape Valley High School vs Mount Olive High School (Junior Vars
  ity Girls Girls Basketball)
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2694:7707000@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270201T153000
+DTEND;TZID=America/New_York:20270201T173000
+SUMMARY:Lenape Valley High School vs Sussex County Technical High School 
+ (Varsity Coed Coed Bowling)
+DESCRIPTION:Varsity Coed Coed Bowling - Home - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2887:7707000@northwest-jersey-athletic-conference
