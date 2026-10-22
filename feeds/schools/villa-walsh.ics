@@ -847,16 +847,6 @@ SUMMARY:Villa Walsh Academy vs Morristown Beard School (Junior Varsity Gi
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:MorristownBeardSchool:event_8990_20260930t200000zapi.veracross.co
- m@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260930T160000
-DTEND;TZID=America/New_York:20260930T180000
-SUMMARY:Morristown Beard School vs Villa Walsh Academy (Varsity Girls Res
- cheduled from 9/22: ennis)
-DESCRIPTION:Varsity Girls Rescheduled from 9/22: ennis - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ics:MorristownBeardSchool:event_8991_20260930t200000zapi.veracross.co
  m@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
@@ -866,6 +856,16 @@ SUMMARY:Morristown Beard School at Villa Walsh Academy (Junior Varsity Gi
  rls Rescheduled from 9/22: Tennis)
 DESCRIPTION:Junior Varsity Girls Rescheduled from 9/22: Tennis - Away - 4
  :00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:MorristownBeardSchool:event_8990_20260930t200000zapi.veracross.co
+ m@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260930T160000
+DTEND;TZID=America/New_York:20260930T180000
+SUMMARY:Morristown Beard School vs Villa Walsh Academy (Varsity Girls Res
+ cheduled from 9/22: ennis)
+DESCRIPTION:Varsity Girls Rescheduled from 9/22: ennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2913:7452061@northwest-jersey-athletic-conference
@@ -1509,6 +1509,15 @@ SUMMARY:Villa Walsh Academy at Morristown High School (Freshman Girls Gir
 DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2913:7710102@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261215T160000
+DTEND;TZID=America/New_York:20261215T180000
+SUMMARY:Villa Walsh Academy vs Morristown Beard School (Varsity Girls Gir
+ ls Swimming)
+DESCRIPTION:Varsity Girls Girls Swimming - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2913:7580582@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261215T173000
@@ -1846,11 +1855,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2913:7684250@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270208T170000
-DTEND;TZID=America/New_York:20270208T190000
+DTSTART;TZID=America/New_York:20270208T173000
+DTEND;TZID=America/New_York:20270208T193000
 SUMMARY:Villa Walsh Academy vs Oak Knoll High School (Varsity Girls Girls
   Swimming)
-DESCRIPTION:Varsity Girls Girls Swimming - Home - 5:00 PM
+DESCRIPTION:Varsity Girls Girls Swimming - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2913:7631436@northwest-jersey-athletic-conference
