@@ -24,25 +24,43 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2816:7651760@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261212T100000
+DTEND;TZID=America/New_York:20261212T120000
+SUMMARY:Pope John XXIII High School at New Providence High School (Varsit
+ y Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:101182621@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261217T190000
 DTEND;TZID=America/New_York:20261217T210000
-SUMMARY:Pope John XXIII High School at West Morris Central (Varsity Boys 
+SUMMARY:West Morris Central vs Pope John XXIII High School (Varsity Boys 
  Boys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:102823091@northwest-jersey-athletic-conference
+UID:ds:2816:7634436@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261219T113000
+DTEND;TZID=America/New_York:20261219T133000
+SUMMARY:Pope John XXIII High School vs Oratory Prep School (Varsity Boys 
+ Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2686:7558166@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261226T133000
 DTEND;TZID=America/New_York:20261226T153000
-SUMMARY:Pope John XXIII High School vs Kittatinny High School (Varsity Bo
+SUMMARY:Kittatinny High School vs Pope John XXIII High School (Varsity Bo
  ys Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 1:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:101182819@northwest-jersey-athletic-conference
+UID:ds:2816:7457370@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270104T190000
 DTEND;TZID=America/New_York:20270104T210000
@@ -51,7 +69,7 @@ SUMMARY:Pope John XXIII High School vs Roxbury High School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:101187834@northwest-jersey-athletic-conference
+UID:ds:2816:7457373@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270106T190000
 DTEND;TZID=America/New_York:20270106T210000
@@ -60,13 +78,13 @@ SUMMARY:Pope John XXIII High School at Randolph High School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:101182829@northwest-jersey-athletic-conference
+UID:ds:2791:7457376@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270108T190000
 DTEND;TZID=America/New_York:20270108T210000
-SUMMARY:Pope John XXIII High School vs Parsippany Hills High School (Vars
+SUMMARY:Parsippany Hills High School at Pope John XXIII High School (Vars
  ity Boys Boys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2751:7457377@northwest-jersey-athletic-conference
@@ -91,12 +109,12 @@ UID:arb:101182852@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270120T190000
 DTEND;TZID=America/New_York:20270120T210000
-SUMMARY:Pope John XXIII High School vs West Morris Central (Varsity Boys 
+SUMMARY:West Morris Central at Pope John XXIII High School (Varsity Boys 
  Boys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:101182768@northwest-jersey-athletic-conference
+UID:ds:2816:7457391@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270122T190000
 DTEND;TZID=America/New_York:20270122T210000
@@ -105,7 +123,7 @@ SUMMARY:Pope John XXIII High School at Roxbury High School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:101182864@northwest-jersey-athletic-conference
+UID:ds:2816:7457394@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270126T190000
 DTEND;TZID=America/New_York:20270126T210000
@@ -114,22 +132,31 @@ SUMMARY:Pope John XXIII High School vs Randolph High School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:101188749@northwest-jersey-athletic-conference
+UID:ds:2816:7634509@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270209T190000
-DTEND;TZID=America/New_York:20270209T210000
-SUMMARY:Pope John XXIII High School at Parsippany Hills High School (Vars
- ity Boys Boys Basketball)
+DTSTART;TZID=America/New_York:20270204T190000
+DTEND;TZID=America/New_York:20270204T210000
+SUMMARY:Pope John XXIII High School at Ramsey High School (Varsity Boys B
+ oys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2881:7634902@northwest-jersey-athletic-conference
+UID:ds:2791:7457397@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270209T190000
 DTEND;TZID=America/New_York:20270209T210000
-SUMMARY:Sparta High School vs Pope John XXIII High School (Varsity Boys B
- oys Basketball)
+SUMMARY:Parsippany Hills High School vs Pope John XXIII High School (Vars
+ ity Boys Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2816:7634902@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270209T190000
+DTEND;TZID=America/New_York:20270209T210000
+SUMMARY:Pope John XXIII High School at Sparta High School (Varsity Boys B
+ oys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2751:7457398@northwest-jersey-athletic-conference
@@ -148,5 +175,14 @@ DTEND;TZID=America/New_York:20270216T210000
 SUMMARY:Morris Hills High School vs Pope John XXIII High School (Varsity 
  Boys Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2816:7651776@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270218T190000
+DTEND;TZID=America/New_York:20270218T210000
+SUMMARY:Pope John XXIII High School at Glen Ridge High School (Varsity Bo
+ ys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 END:VCALENDAR

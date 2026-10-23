@@ -24,50 +24,31 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:arb:102775849@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260824T160000
-DTEND;TZID=America/New_York:20260824T180000
-SUMMARY:Pope John XXIII High School at Vernon Township High School (Varsi
- ty Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2909:7550241@northwest-jersey-athletic-conference
+UID:ds:2816:7550241@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260825T130000
 DTEND;TZID=America/New_York:20260825T150000
-SUMMARY:Vernon Township High School vs Pope John XXIII High School (Varsi
+SUMMARY:Pope John XXIII High School at Vernon Township High School (Varsi
  ty Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 1:00 PM
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:102231272@northwest-jersey-athletic-conference
+UID:ds:2694:7512276@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260826T160000
 DTEND;TZID=America/New_York:20260826T180000
-SUMMARY:Pope John XXIII High School at Lenape Valley High School (Varsity
+SUMMARY:Lenape Valley High School vs Pope John XXIII High School (Varsity
   Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:102988527@northwest-jersey-athletic-conference
+UID:ds:2816:7553340@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260828T100000
 DTEND;TZID=America/New_York:20260828T120000
 SUMMARY:Pope John XXIII High School vs Wallkill Valley High School (Varsi
  ty Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:arb:102327763@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260901T160000
-DTEND;TZID=America/New_York:20260901T180000
-SUMMARY:[Canceled] Pope John XXIII High School at Morristown High School 
- (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
-STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2748:7487095@northwest-jersey-athletic-conference
@@ -97,22 +78,22 @@ SUMMARY:Montville High School at Pope John XXIII High School (Varsity Gir
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:100759538@northwest-jersey-athletic-conference
+UID:ds:2791:7504336@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260909T160000
 DTEND;TZID=America/New_York:20260909T180000
-SUMMARY:Pope John XXIII High School at Parsippany Hills High School (Vars
+SUMMARY:Parsippany Hills High School vs Pope John XXIII High School (Vars
  ity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:103910631@northwest-jersey-athletic-conference
+UID:ds:2748:7486649@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260911T160000
 DTEND;TZID=America/New_York:20260911T180000
-SUMMARY:Pope John XXIII High School at Morristown High School (Varsity Gi
+SUMMARY:Morristown High School vs Pope John XXIII High School (Varsity Gi
  rls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102443789@northwest-jersey-athletic-conference
@@ -124,12 +105,12 @@ SUMMARY:Morris Hills High School at Pope John XXIII High School (Varsity
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:103921918@northwest-jersey-athletic-conference
+UID:ds:2816:7631753@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260918T160000
 DTEND;TZID=America/New_York:20260918T180000
-SUMMARY:Pope John XXIII High School at Thomas Jefferson School - Rockaway
-  Borough (Middle School Girls Girls Soccer)
+SUMMARY:Pope John XXIII High School at Thomas Jefferson Middle School (Mi
+ ddle School Girls Girls Soccer)
 DESCRIPTION:Middle School Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -137,12 +118,21 @@ UID:arb:102302260@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260919T090000
 DTEND;TZID=America/New_York:20260919T110000
-SUMMARY:Pope John XXIII High School vs Mendham High School (Varsity Girls
+SUMMARY:West Morris Mendham at Pope John XXIII High School (Varsity Girls
   Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 9:00 AM
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:103989498@northwest-jersey-athletic-conference
+UID:ds:2816:7522082@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T100000
+DTEND;TZID=America/New_York:20260919T120000
+SUMMARY:Pope John XXIII High School vs West Morris Mendham (Varsity Girls
+  Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2816:7632359@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260921T163000
 DTEND;TZID=America/New_York:20260921T183000
@@ -151,30 +141,12 @@ SUMMARY:Pope John XXIII High School at Paramus Catholic High School (Vars
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:100901280@northwest-jersey-athletic-conference
+UID:ds:2816:7544107@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260922T160000
-DTEND;TZID=America/New_York:20260922T180000
-SUMMARY:Pope John XXIII High School at TBD (Middle School Girls Girls Soc
- cer)
-DESCRIPTION:Middle School Girls Girls Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:arb:102518399@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260922T160000
-DTEND;TZID=America/New_York:20260922T180000
-SUMMARY:Pope John XXIII High School at West Essex High School (Middle Sch
- ool Girls Girls Soccer)
-DESCRIPTION:Middle School Girls Girls Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:arb:102657364@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260924T160000
-DTEND;TZID=America/New_York:20260924T180000
-SUMMARY:Pequannock High School at Pope John XXIII High School (Middle Sch
- ool Girls Girls Soccer)
+DTSTART;TZID=America/New_York:20260923T160000
+DTEND;TZID=America/New_York:20260923T180000
+SUMMARY:Pope John XXIII High School at Pope John XXIII Middle School (Mid
+ dle School Girls Girls Soccer)
 DESCRIPTION:Middle School Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -187,30 +159,39 @@ SUMMARY:Mount Olive High School vs Pope John XXIII High School (Varsity G
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:103038508@northwest-jersey-athletic-conference
+UID:arb:102657364@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260928T160000
-DTEND;TZID=America/New_York:20260928T180000
-SUMMARY:Pope John XXIII High School vs Pearl R Miller Middle School (Midd
- le School Girls Girls Soccer)
-DESCRIPTION:Middle School Girls Girls Soccer - Home - 4:00 PM
+DTSTART;TZID=America/New_York:20260925T163000
+DTEND;TZID=America/New_York:20260925T183000
+SUMMARY:Pequannock High School at Pope John XXIII High School (Middle Sch
+ ool Girls Girls Soccer)
+DESCRIPTION:Middle School Girls Girls Soccer - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:102288429@northwest-jersey-athletic-conference
+UID:ds:2816:7544109@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260925T163000
+DTEND;TZID=America/New_York:20260925T183000
+SUMMARY:Pope John XXIII High School at Pope John XXIII Middle School (Mid
+ dle School Girls Girls Soccer)
+DESCRIPTION:Middle School Girls Girls Soccer - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2748:7522086@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260928T160000
 DTEND;TZID=America/New_York:20260928T180000
-SUMMARY:Pope John XXIII High School vs Morristown High School (Varsity Gi
+SUMMARY:Morristown High School at Pope John XXIII High School (Varsity Gi
  rls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2685:7523699@northwest-jersey-athletic-conference
+UID:ds:2816:7653183@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260928T160000
 DTEND;TZID=America/New_York:20260928T180000
-SUMMARY:Kinnelon High School at Pope John XXIII High School (Middle Schoo
- l Girls Girls Soccer)
+SUMMARY:Pope John XXIII High School at Pope John XXIII Middle School (Mid
+ dle School Girls Girls Soccer)
 DESCRIPTION:Middle School Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -223,7 +204,7 @@ SUMMARY:Montville High School vs Pope John XXIII High School (Varsity Gir
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:102048577@northwest-jersey-athletic-conference
+UID:ds:2816:7596935@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260930T160000
 DTEND;TZID=America/New_York:20260930T180000
@@ -232,25 +213,16 @@ SUMMARY:Pope John XXIII High School at Mount Olive High School (Middle Sc
 DESCRIPTION:Middle School Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:100902554@northwest-jersey-athletic-conference
+UID:ds:2816:7544118@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261006T160000
 DTEND;TZID=America/New_York:20261006T180000
-SUMMARY:Pope John XXIII High School vs TBD (Middle School Girls Girls Soc
- cer)
-DESCRIPTION:Middle School Girls Girls Soccer - Home - 4:00 PM
+SUMMARY:Pope John XXIII High School at Pope John XXIII Middle School (Mid
+ dle School Girls Girls Soccer)
+DESCRIPTION:Middle School Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:103038514@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261006T160000
-DTEND;TZID=America/New_York:20261006T180000
-SUMMARY:Pope John XXIII High School vs West Essex High School (Middle Sch
- ool Girls Girls Soccer)
-DESCRIPTION:Middle School Girls Girls Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:arb:102985364@northwest-jersey-athletic-conference
+UID:ds:2816:7492657@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261006T160000
 DTEND;TZID=America/New_York:20261006T180000
@@ -268,25 +240,34 @@ SUMMARY:Pequannock High School vs Pope John XXIII High School (Middle Sch
 DESCRIPTION:Middle School Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:102302248@northwest-jersey-athletic-conference
+UID:ds:2791:7505934@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261008T160000
 DTEND;TZID=America/New_York:20261008T180000
-SUMMARY:Pope John XXIII High School vs Parsippany Hills High School (Vars
+SUMMARY:Parsippany Hills High School at Pope John XXIII High School (Vars
  ity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:103489955@northwest-jersey-athletic-conference
+UID:ds:2816:7544121@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261014T160000
-DTEND;TZID=America/New_York:20261014T180000
-SUMMARY:Pope John XXIII High School at Pearl R Miller Middle School (Midd
- le School Girls Girls Soccer)
+DTSTART;TZID=America/New_York:20261008T160000
+DTEND;TZID=America/New_York:20261008T180000
+SUMMARY:Pope John XXIII High School at Pequannock Valley MS (Middle Schoo
+ l Girls Girls Soccer)
 DESCRIPTION:Middle School Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:103149801@northwest-jersey-athletic-conference
+UID:ds:2816:7651163@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261014T160000
+DTEND;TZID=America/New_York:20261014T180000
+SUMMARY:Pope John XXIII High School at Kinnelon High School (Middle Schoo
+ l Girls Girls Soccer)
+DESCRIPTION:Middle School Girls Girls Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2816:7575447@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261015T160000
 DTEND;TZID=America/New_York:20261015T180000
@@ -295,13 +276,13 @@ SUMMARY:Pope John XXIII High School vs Phillipsburg High School (Varsity
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:103038520@northwest-jersey-athletic-conference
+UID:ds:2816:7606566@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261016T160000
 DTEND;TZID=America/New_York:20261016T180000
-SUMMARY:Pope John XXIII High School vs Mount Olive High School (Middle Sc
- hool Girls Girls Soccer)
-DESCRIPTION:Middle School Girls Girls Soccer - Home - 4:00 PM
+SUMMARY:Pope John XXIII High School at Pope John XXIII Middle School (Mid
+ dle School Girls Girls Soccer)
+DESCRIPTION:Middle School Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2913:7518415@northwest-jersey-athletic-conference
@@ -317,9 +298,18 @@ UID:arb:102338840@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261027T160000
 DTEND;TZID=America/New_York:20261027T180000
-SUMMARY:Pope John XXIII High School at Mendham High School (Varsity Girls
+SUMMARY:West Morris Mendham vs Pope John XXIII High School (Varsity Girls
   Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2816:7522094@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261027T183000
+DTEND;TZID=America/New_York:20261027T203000
+SUMMARY:Pope John XXIII High School at West Morris Mendham (Varsity Girls
+  Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2751:7495652@northwest-jersey-athletic-conference
@@ -331,7 +321,7 @@ SUMMARY:Mount Olive High School at Pope John XXIII High School (Varsity G
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:103033403@northwest-jersey-athletic-conference
+UID:ds:2816:7569382@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261030T160000
 DTEND;TZID=America/New_York:20261030T180000

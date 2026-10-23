@@ -126,11 +126,12 @@ END:VEVENT
 BEGIN:VEVENT
 UID:arb:101285873@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260926T110000
-DTEND;TZID=America/New_York:20260926T130000
-SUMMARY:Pequannock High School at Mountain Lakes High School (Varsity Gir
- ls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 11:00 AM
+DTSTART;TZID=America/New_York:20260926T100000
+DTEND;TZID=America/New_York:20260926T120000
+SUMMARY:[Canceled] Pequannock High School at Mountain Lakes High School (
+ Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 10:00 AM
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101825845@northwest-jersey-athletic-conference
@@ -185,6 +186,24 @@ DTEND;TZID=America/New_York:20261020T180000
 SUMMARY:Pequannock High School vs Hanover Park High School (Varsity Girls
   Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:98490840@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261022T173000
+DTEND;TZID=America/New_York:20261022T193000
+SUMMARY:Pequannock High School vs West Essex High School (Varsity Girls G
+ irls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102126755@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261024T100000
+DTEND;TZID=America/New_York:20261024T120000
+SUMMARY:Pequannock High School at Lakeland Regional High School (Varsity 
+ Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2913:7527645@northwest-jersey-athletic-conference
