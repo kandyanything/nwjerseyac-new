@@ -24,6 +24,33 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2909:7576972@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261210T160000
+DTEND;TZID=America/New_York:20261210T180000
+SUMMARY:Vernon Township High School vs Sparta High School (Varsity Coed C
+ oed Swimming)
+DESCRIPTION:Varsity Coed Coed Swimming - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2909:7576835@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261210T180000
+DTEND;TZID=America/New_York:20261210T200000
+SUMMARY:Vernon Township High School vs Sparta High School (Varsity Coed C
+ oed Swimming)
+DESCRIPTION:Varsity Coed Coed Swimming - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2909:7599246@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261222T160000
+DTEND;TZID=America/New_York:20261222T180000
+SUMMARY:Vernon Township High School vs Kittatinny High School (Varsity Co
+ ed Coed Swimming)
+DESCRIPTION:Varsity Coed Coed Swimming - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2649:7570905@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T160000
@@ -33,13 +60,22 @@ SUMMARY:High Point High School vs Vernon Township High School (Varsity Co
 DESCRIPTION:Varsity Coed Coed Swimming - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2919:7706133@northwest-jersey-athletic-conference
+UID:ds:2909:7706133@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T160000
 DTEND;TZID=America/New_York:20270107T180000
-SUMMARY:Wallkill Valley High School vs Vernon Township High School (Varsi
+SUMMARY:Vernon Township High School at Wallkill Valley High School (Varsi
  ty Coed Coed Swimming)
-DESCRIPTION:Varsity Coed Coed Swimming - Home - 4:00 PM
+DESCRIPTION:Varsity Coed Coed Swimming - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2909:7610074@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270114T183000
+DTEND;TZID=America/New_York:20270114T203000
+SUMMARY:Vernon Township High School at Lenape Valley High School (Junior 
+ Varsity Coed Coed Swimming)
+DESCRIPTION:Junior Varsity Coed Coed Swimming - Away - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:104628861@northwest-jersey-athletic-conference

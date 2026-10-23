@@ -1734,15 +1734,6 @@ DESCRIPTION:Junior Varsity Boys Football - Away - 4:00 PM
 STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2790:7632345@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261019T160000
-DTEND;TZID=America/New_York:20261019T180000
-SUMMARY:Parsippany High School vs Parsippany Hills High School (Freshman 
- Girls Girls Volleyball)
-DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2790:7632303@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261019T160000
@@ -1750,6 +1741,15 @@ DTEND;TZID=America/New_York:20261019T180000
 SUMMARY:Parsippany High School at Parsippany Hills High School (Varsity G
  irls Girls Volleyball)
 DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2790:7632345@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261019T160000
+DTEND;TZID=America/New_York:20261019T180000
+SUMMARY:Parsippany High School vs Parsippany Hills High School (Freshman 
+ Girls Girls Volleyball)
+DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2790:7632315@northwest-jersey-athletic-conference
@@ -2551,6 +2551,15 @@ DTEND;VALUE=DATE:20261222
 SUMMARY:Parsippany High School at Vernon Township High School (Varsity Bo
  ys Boys Wrestling)
 DESCRIPTION:Varsity Boys Boys Wrestling - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2909:7637811@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261221
+DTEND;VALUE=DATE:20261222
+SUMMARY:Vernon Township High School vs Parsippany High School (Varsity Bo
+ ys Boys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Home
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2761:7578199@northwest-jersey-athletic-conference
@@ -4049,6 +4058,15 @@ SUMMARY:Parsippany Hills High School at Parsippany High School (Varsity G
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2909:7578757@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270220T113000
+DTEND;TZID=America/New_York:20270220T133000
+SUMMARY:Vernon Township High School at Parsippany High School (Varsity Gi
+ rls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2790:7573784@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270325T153000
@@ -4139,7 +4157,7 @@ SUMMARY:Boonton High School vs Parsippany High School (Varsity Girls Soft
 DESCRIPTION:Varsity Girls Softball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:MorristownBeardSchool:event_9964_20270413t200000zapi.veracross.co
+UID:ics:MorristownBeardSchool:event_9963_20270413t200000zapi.veracross.co
  m@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270413T160000
