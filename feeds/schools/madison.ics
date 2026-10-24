@@ -1460,16 +1460,6 @@ DESCRIPTION:Middle School Girls Field Hockey - Away - 4:00 PM
 STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:MorristownBeardSchool:event_10243_20260923t200000zapi.veracross.c
- om@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260923T160000
-DTEND;TZID=America/New_York:20260923T180000
-SUMMARY:Morristown Beard School vs Madison High School (Varsity Girls Gir
- ls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ics:MorristownBeardSchool:event_10244_20260923t200000zapi.veracross.c
  om@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
@@ -1478,6 +1468,16 @@ DTEND;TZID=America/New_York:20260923T180000
 SUMMARY:Morristown Beard School at Madison High School (Junior Varsity Gi
  rls Girls Tennis)
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:MorristownBeardSchool:event_10243_20260923t200000zapi.veracross.c
+ om@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260923T160000
+DTEND;TZID=America/New_York:20260923T180000
+SUMMARY:Morristown Beard School vs Madison High School (Varsity Girls Gir
+ ls Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101944875@northwest-jersey-athletic-conference
@@ -3263,6 +3263,15 @@ SUMMARY:Madison High School vs Mountain Lakes High School (Junior Varsity
 DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:arb:105038602@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261030T160000
+DTEND;TZID=America/New_York:20261030T180000
+SUMMARY:Madison High School at Summit High School (Junior Varsity Girls G
+ irls Volleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:101847555@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261030T160000
@@ -3270,16 +3279,6 @@ DTEND;TZID=America/New_York:20261030T180000
 SUMMARY:Madison High School vs Summit High School (Freshman Girls Girls V
  olleyball)
 DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:arb:101847538@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261030T160000
-DTEND;TZID=America/New_York:20261030T180000
-SUMMARY:[Canceled] Madison High School vs Summit High School (Junior Vars
- ity Girls Girls Volleyball)
-DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 4:00 PM
-STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101699230@northwest-jersey-athletic-conference
@@ -5030,7 +5029,7 @@ SUMMARY:Parsippany Hills High School vs Madison High School (Junior Varsi
 DESCRIPTION:Junior Varsity Girls Softball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:MorristownBeardSchool:event_9960_20270330t200000zapi.veracross.co
+UID:ics:MorristownBeardSchool:event_9959_20270330t200000zapi.veracross.co
  m@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270330T160000
@@ -5218,13 +5217,13 @@ SUMMARY:Madison High School vs Morristown Beard School (Varsity Boys Base
 DESCRIPTION:Varsity Boys Baseball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:MorristownBeardSchool:event_11054_20270419t200000zapi.veracross.c
+UID:ics:MorristownBeardSchool:event_11055_20270419t200000zapi.veracross.c
  om@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270419T160000
 DTEND;TZID=America/New_York:20270419T180000
-SUMMARY:Morristown Beard School at Madison High School (Varsity Baseball)
-DESCRIPTION:Varsity Baseball - Away - 4:00 PM
+SUMMARY:Morristown Beard School vs Madison High School (Varsity Baseball)
+DESCRIPTION:Varsity Baseball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:104292229@northwest-jersey-athletic-conference
