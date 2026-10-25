@@ -9,6 +9,14 @@
 //                   then comes down on its own; a close hides it for the session.
 // "id" keys the memory, so posting a new message (new id) re-shows it to
 // everyone. Add ?announce to the URL to preview. Fully editable from the CMS.
+//
+// Running one message for a set time, then going back to another:
+//   "until": "YYYY-MM-DD"  - after the end of that day this message is skipped...
+//   "then":  { ... }       - ...and this one (a whole announcement) is used instead.
+// So a 10-day message can sit in front of the usual welcome and step aside by itself.
+//
+// Champions: "champions": [{ "label": "Boys", "items": [{ "school", "division", "logo" }] }]
+// shows the winners' logos in groups; "icon": "xc" puts a cross-country runner badge on top.
 (function () {
     'use strict';
 
@@ -16,6 +24,7 @@
         fetch('data/announcement.json', { cache: 'no-store' })
             .then(function (r) { return r.ok ? r.json() : Promise.reject(); })
             .then(function (a) {
+                a = current(a);
                 if (!a || !a.active || !a.title) return;
                 var id = a.id || 'announcement';
                 var mode = a.mode || (a.frequency === 'always' ? 'always' : 'once');
@@ -25,6 +34,16 @@
             })
             .catch(function () { /* no announcement, no problem */ });
     });
+
+    // The message in force today: skip any whose "until" date has passed.
+    function current(a) {
+        for (var i = 0; a && a.until && i < 10; i++) {
+            var e = endOfDay(a.until);
+            if (isNaN(e) || Date.now() <= e) break;
+            a = a.then || null;
+        }
+        return a;
+    }
 
     // ---- storage + gating ----------------------------------------------
     function lget(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }
@@ -95,7 +114,23 @@
         '.ann-btn--ghost{background:transparent;color:#48505b;border-color:#d6dadf;}' +
         '.ann-btn--ghost:hover{background:#f2f3f5;}' +
         '.ann-btn:focus-visible{outline:2px solid var(--red,#c8102e);outline-offset:2px;}' +
+        '.ann-card--wide{max-width:540px;}' +
+        '.ann-icon{display:flex;justify-content:center;margin:22px 0 2px;}' +
+        '.ann-icon span{width:64px;height:64px;border-radius:50%;background:var(--red,#c8102e);color:#fff;display:grid;place-items:center;position:relative;box-shadow:0 8px 20px rgba(0,0,0,.18);}' +
+        '.ann-icon svg{width:36px;height:36px;}' +
+        '.ann-icon b{position:absolute;bottom:-7px;left:50%;transform:translateX(-50%);background:#14181c;color:#fff;font:800 .62rem/1 var(--font-display,system-ui);letter-spacing:.12em;padding:4px 7px;border-radius:999px;}' +
+        '.ann-card--wide .ann-eyebrow,.ann-card--wide .ann-title,.ann-card--wide .ann-body{text-align:center;}' +
+        '.ann-champs{display:grid;gap:14px;margin:0 22px 22px;}' +
+        '.ann-group h3{margin:0 0 8px;font:700 .72rem/1 var(--font-body,system-ui);letter-spacing:.16em;text-transform:uppercase;color:#6b7380;text-align:center;}' +
+        '.ann-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;}' +
+        '.ann-champ{display:flex;align-items:center;gap:10px;padding:10px 12px;border:1px solid #e3e6ea;border-radius:12px;background:#fafbfc;}' +
+        '.ann-champ img{width:46px;height:46px;object-fit:contain;flex:none;}' +
+        '.ann-champ strong{display:block;font-family:var(--font-display,inherit);font-size:1.05rem;line-height:1.1;color:#14181c;text-transform:uppercase;}' +
+        '.ann-champ small{display:block;color:#6b7380;font-size:.78rem;margin-top:2px;}' +
+        '.ann-card--wide .ann-actions{justify-content:center;}' +
         '@media (prefers-reduced-motion:reduce){.ann-backdrop,.ann-card{transition:none;}}';
+    /* a runner, for cross country (Material "directions_run", Apache 2.0) */
+    var RUNNER = '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.49 5.48c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm-3.6 13.9l1-4.4 2.1 2v6h2v-7.5l-2.1-2 .6-3c1.3 1.5 3.3 2.5 5.5 2.5v-2c-1.9 0-3.5-1-4.3-2.4l-1-1.6c-.4-.6-1-1-1.7-1-.3 0-.5.1-.8.1l-5.2 2.2v4.7h2v-3.4l1.8-.7-1.6 8.1-4.9-1-.4 2 7 1.4z"/></svg>';
 
     function render(a, id, mode, force) {
         if (document.getElementById('bnc-announce')) return;
@@ -107,13 +142,36 @@
         back.id = 'bnc-announce'; back.className = 'ann-backdrop';
         back.setAttribute('role', 'dialog'); back.setAttribute('aria-modal', 'true'); back.setAttribute('aria-labelledby', 'ann-title');
 
-        var card = document.createElement('div'); card.className = 'ann-card';
+        var card = document.createElement('div'); card.className = 'ann-card' + (a.champions ? ' ann-card--wide' : '');
         var bar = document.createElement('div'); bar.className = 'ann-bar';
         var x = document.createElement('button'); x.className = 'ann-x'; x.type = 'button'; x.setAttribute('aria-label', 'Close'); x.innerHTML = '&times;';
         card.appendChild(bar); card.appendChild(x);
+        if (a.icon === 'xc') {
+            var ic = document.createElement('div'); ic.className = 'ann-icon';
+            ic.innerHTML = '<span>' + RUNNER + '<b>XC</b></span>';
+            card.appendChild(ic);
+        }
         if (a.eyebrow) { var ey = document.createElement('div'); ey.className = 'ann-eyebrow'; ey.textContent = a.eyebrow; card.appendChild(ey); }
         var h = document.createElement('h2'); h.id = 'ann-title'; h.className = 'ann-title'; h.textContent = a.title; card.appendChild(h);
         if (a.body) { var p = document.createElement('p'); p.className = 'ann-body'; p.textContent = a.body; card.appendChild(p); }
+        if (a.champions && a.champions.length) {
+            var wrap = document.createElement('div'); wrap.className = 'ann-champs';
+            a.champions.forEach(function (g) {
+                var grp = document.createElement('div'); grp.className = 'ann-group';
+                if (g.label) { var gh = document.createElement('h3'); gh.textContent = g.label; grp.appendChild(gh); }
+                var row = document.createElement('div'); row.className = 'ann-row';
+                (g.items || []).forEach(function (c) {
+                    var el = document.createElement('div'); el.className = 'ann-champ';
+                    if (c.logo) { var im = document.createElement('img'); im.src = c.logo; im.alt = ''; im.width = 46; im.height = 46; el.appendChild(im); }
+                    var tx = document.createElement('div');
+                    var nm = document.createElement('strong'); nm.textContent = c.school || ''; tx.appendChild(nm);
+                    if (c.division) { var dv = document.createElement('small'); dv.textContent = c.division; tx.appendChild(dv); }
+                    el.appendChild(tx); row.appendChild(el);
+                });
+                grp.appendChild(row); wrap.appendChild(grp);
+            });
+            card.appendChild(wrap);
+        }
 
         var actions = document.createElement('div'); actions.className = 'ann-actions';
         if (a.linkUrl) {
