@@ -16,7 +16,8 @@
 // So a 10-day message can sit in front of the usual welcome and step aside by itself.
 //
 // Champions: "champions": [{ "label": "Boys", "items": [{ "school", "division", "logo" }] }]
-// shows the winners' logos in groups; "icon": "xc" puts a cross-country runner badge on top.
+// shows the winners' logos in groups; "icon": "xc" puts a cross-country runner badge on top,
+// and "iconLogo" (an image path) puts that logo in the circle with the runner badge under it.
 (function () {
     'use strict';
 
@@ -115,6 +116,11 @@
         '.ann-btn--ghost:hover{background:#f2f3f5;}' +
         '.ann-btn:focus-visible{outline:2px solid var(--red,#c8102e);outline-offset:2px;}' +
         '.ann-card--wide{max-width:540px;}' +
+        '.ann-mark{display:flex;flex-direction:column;align-items:center;gap:8px;margin:22px 0 2px;}' +
+        '.ann-mark .ann-crest{width:84px;height:84px;border-radius:50%;background:#fff;display:grid;place-items:center;box-shadow:0 8px 22px rgba(0,0,0,.16);border:3px solid var(--red,#c8102e);overflow:hidden;}' +
+        '.ann-mark .ann-crest img{width:76px;height:76px;object-fit:contain;}' +
+        '.ann-mark .ann-run{display:inline-flex;align-items:center;gap:6px;background:var(--red,#c8102e);color:#fff;border-radius:999px;padding:5px 12px 5px 9px;font:800 .7rem/1 var(--font-display,system-ui);letter-spacing:.14em;}' +
+        '.ann-mark .ann-run svg{width:18px;height:18px;}' +
         '.ann-icon{display:flex;justify-content:center;margin:22px 0 2px;}' +
         '.ann-icon span{width:64px;height:64px;border-radius:50%;background:var(--red,#c8102e);color:#fff;display:grid;place-items:center;position:relative;box-shadow:0 8px 20px rgba(0,0,0,.18);}' +
         '.ann-icon svg{width:36px;height:36px;}' +
@@ -146,7 +152,14 @@
         var bar = document.createElement('div'); bar.className = 'ann-bar';
         var x = document.createElement('button'); x.className = 'ann-x'; x.type = 'button'; x.setAttribute('aria-label', 'Close'); x.innerHTML = '&times;';
         card.appendChild(bar); card.appendChild(x);
-        if (a.icon === 'xc') {
+        if (a.icon === 'xc' && a.iconLogo) {
+            var mk = document.createElement('div'); mk.className = 'ann-mark';
+            var crest = document.createElement('span'); crest.className = 'ann-crest';
+            var cim = document.createElement('img'); cim.src = a.iconLogo; cim.alt = ''; crest.appendChild(cim);
+            var run = document.createElement('span'); run.className = 'ann-run'; run.innerHTML = RUNNER + 'XC';
+            mk.appendChild(crest); mk.appendChild(run);
+            card.appendChild(mk);
+        } else if (a.icon === 'xc') {
             var ic = document.createElement('div'); ic.className = 'ann-icon';
             ic.innerHTML = '<span>' + RUNNER + '<b>XC</b></span>';
             card.appendChild(ic);
