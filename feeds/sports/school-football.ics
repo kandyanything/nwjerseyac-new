@@ -23,16 +23,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ics:DelbartonSchool:vcal_7262-delbartonathletics.org@northwest-jersey
- -athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261005T160000
-DTEND;TZID=America/New_York:20261005T180000
-SUMMARY:Delbarton School at St. Joseph Metuchen (Junior Varsity Boys Scho
- ol Football)
-DESCRIPTION:Junior Varsity Boys School Football - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ics:DelbartonSchool:vcal_7256-delbartonathletics.org@northwest-jersey
  -athletic-conference
 DTSTAMP:20250801T000000Z
@@ -40,16 +30,6 @@ DTSTART;TZID=America/New_York:20261024T090000
 DTEND;TZID=America/New_York:20261024T110000
 SUMMARY:Delbarton School vs Shabazz (Freshman Boys School Football)
 DESCRIPTION:Freshman Boys School Football - Home - 9:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ics:DelbartonSchool:vcal_7264-delbartonathletics.org@northwest-jersey
- -athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261026T160000
-DTEND;TZID=America/New_York:20261026T180000
-SUMMARY:Delbarton School at Pope John XXIII High School (Junior Varsity B
- oys School Football)
-DESCRIPTION:Junior Varsity Boys School Football - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ics:DelbartonSchool:vcal_7248-delbartonathletics.org@northwest-jersey
@@ -83,10 +63,10 @@ BEGIN:VEVENT
 UID:ics:DelbartonSchool:vcal_7265-delbartonathletics.org@northwest-jersey
  -athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261102T160000
-DTEND;TZID=America/New_York:20261102T180000
+DTSTART;TZID=America/New_York:20261102T153000
+DTEND;TZID=America/New_York:20261102T173000
 SUMMARY:Delbarton School vs Don Bosco Prep (Junior Varsity Boys School Fo
  otball)
-DESCRIPTION:Junior Varsity Boys School Football - Home - 4:00 PM
+DESCRIPTION:Junior Varsity Boys School Football - Home - 3:30 PM
 END:VEVENT
 END:VCALENDAR
