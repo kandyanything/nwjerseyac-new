@@ -23,6 +23,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2564:7586990@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261130T151500
+DTEND;TZID=America/New_York:20261130T171500
+SUMMARY:Chatham High School vs North Hunterdon High School (Varsity Boys 
+ Boys Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 3:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2748:7642089@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261130T160000
@@ -123,13 +132,13 @@ SUMMARY:Newton High School vs Montclair High School (Varsity Boys Boys Ic
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 8:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2825:7587080@northwest-jersey-athletic-conference
+UID:ds:2564:7587080@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261203T161500
 DTEND;TZID=America/New_York:20261203T181500
-SUMMARY:Randolph High School at Chatham High School (Varsity Boys Boys Ic
+SUMMARY:Chatham High School vs Randolph High School (Varsity Boys Boys Ic
  e Hockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 4:15 PM
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2642:7539451@northwest-jersey-athletic-conference
@@ -240,6 +249,15 @@ SUMMARY:West Morris Central at Chatham High School (Varsity Boys Boys Ice
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 6:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2564:7587090@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261205T181500
+DTEND;TZID=America/New_York:20261205T201500
+SUMMARY:Chatham High School vs West Morris Mendham (Varsity Boys Boys Ice
+  Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 6:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2748:7637111@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261205T194500
@@ -283,6 +301,15 @@ DTEND;TZID=America/New_York:20261206T201500
 SUMMARY:Roxbury High School vs Gill Saint Bernards School (Varsity Boys B
  oys Ice Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 6:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2564:7730622@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261206T193500
+DTEND;TZID=America/New_York:20261206T213500
+SUMMARY:Chatham High School vs Bernards High School (Junior Varsity Boys 
+ Boys Ice Hockey)
+DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Home - 7:35 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2745:7522284@northwest-jersey-athletic-conference
@@ -330,14 +357,13 @@ SUMMARY:Morristown High School at North Hunterdon High School (Varsity Bo
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 3:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:MorristownBeardSchool:event_8964_20261209t210000zapi.veracross.co
- m@northwest-jersey-athletic-conference
+UID:ds:2564:7587100@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261209T160000
 DTEND;TZID=America/New_York:20261209T180000
-SUMMARY:Morristown Beard School vs Chatham High School (Varsity Boys Boys
+SUMMARY:Chatham High School at Morristown Beard School (Varsity Boys Boys
   Ice Hockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 4:00 PM
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2634:7703829@northwest-jersey-athletic-conference
@@ -448,6 +474,15 @@ SUMMARY:West Morris Central at Kinnelon High School (Varsity Boys Boys Ic
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 4:40 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2564:7650748@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261211T171500
+DTEND;TZID=America/New_York:20261211T191500
+SUMMARY:Chatham High School at Morristown Beard School (Junior Varsity Bo
+ ys Boys Ice Hockey)
+DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Away - 5:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2748:7632265@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261211T174500
@@ -555,13 +590,22 @@ SUMMARY:Whippany Park High School at Park Regional (WP/HP) (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2748:7730624@northwest-jersey-athletic-conference
+UID:ds:2564:7730624@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261213T192000
 DTEND;TZID=America/New_York:20261213T212000
-SUMMARY:Morristown High School at Chatham High School (Junior Varsity Boy
+SUMMARY:Chatham High School vs Morristown High School (Junior Varsity Boy
  s Boys Ice Hockey)
-DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Away - 7:20 PM
+DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Home - 7:20 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2564:7587117@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261213T201500
+DTEND;TZID=America/New_York:20261213T221500
+SUMMARY:Chatham High School vs Middletown North High School (Varsity Boys
+  Boys Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 8:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103290850@northwest-jersey-athletic-conference
@@ -598,6 +642,15 @@ DTEND;TZID=America/New_York:20261214T203000
 SUMMARY:Morris Catholic High School at Mountain Lakes High School (Varsit
  y Boys Boys Ice Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2564:7569662@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261214T203000
+DTEND;TZID=America/New_York:20261214T223000
+SUMMARY:Chatham High School at Governor Livingston High School (Varsity B
+ oys Boys Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 8:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2649:7589559@northwest-jersey-athletic-conference
@@ -653,6 +706,15 @@ DTEND;TZID=America/New_York:20261216T204000
 SUMMARY:Pope John XXIII High School vs Princeton Day School (Varsity Boys
   Boys Ice Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 6:40 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2564:7632811@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261216T194500
+DTEND;TZID=America/New_York:20261216T214500
+SUMMARY:Chatham High School vs Kinnelon High School (Varsity Boys Boys Ic
+ e Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 7:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103290891@northwest-jersey-athletic-conference
@@ -763,6 +825,15 @@ SUMMARY:Mountain Lakes High School vs Roxbury High School (Varsity Boys B
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 5:45 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2564:7602674@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261218T183000
+DTEND;TZID=America/New_York:20261218T203000
+SUMMARY:Chatham High School vs Nutley High School (Varsity Boys Boys Ice 
+ Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2816:7649177@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261218T193000
@@ -862,13 +933,13 @@ SUMMARY:Madison High School vs Watchung Hills Reg High School (Varsity Bo
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 3:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2825:7730627@northwest-jersey-athletic-conference
+UID:ds:2564:7730627@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261220T163000
 DTEND;TZID=America/New_York:20261220T183000
-SUMMARY:Randolph High School vs Chatham High School (Junior Varsity Boys 
+SUMMARY:Chatham High School at Randolph High School (Junior Varsity Boys 
  Boys Ice Hockey)
-DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Home - 4:30 PM
+DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:104912656@northwest-jersey-athletic-conference
@@ -878,6 +949,15 @@ DTEND;TZID=America/New_York:20261220T200000
 SUMMARY:Morris Knolls High School at Passaic County Tech Institute (Varsi
  ty Boys Boys Ice Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2564:7602675@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261220T194500
+DTEND;TZID=America/New_York:20261220T214500
+SUMMARY:Chatham High School at Verona High School (Varsity Boys Boys Ice 
+ Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 7:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ics:MorristownBeardSchool:event_10029_20261221t213000zapi.veracross.c
@@ -890,13 +970,13 @@ SUMMARY:Morristown Beard School vs KJS United (Varsity Boys Boys Ice Hock
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2940:7633467@northwest-jersey-athletic-conference
+UID:ds:2564:7633467@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261221T180000
 DTEND;TZID=America/New_York:20261221T200000
-SUMMARY:Whippany Park High School vs Chatham High School (Varsity Boys Bo
+SUMMARY:Chatham High School at Whippany Park High School (Varsity Boys Bo
  ys Ice Hockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 6:00 PM
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103290951@northwest-jersey-athletic-conference
@@ -942,6 +1022,15 @@ DTEND;TZID=America/New_York:20261221T223000
 SUMMARY:Morristown High School vs Clifton High School (Varsity Boys Boys 
  Ice Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 8:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2564:7602678@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261222T161500
+DTEND;TZID=America/New_York:20261222T181500
+SUMMARY:Chatham High School at West Essex High School (Varsity Boys Boys 
+ Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2748:7641809@northwest-jersey-athletic-conference
@@ -1052,6 +1141,24 @@ SUMMARY:Morris Catholic High School vs West Orange High School (Varsity B
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2564:7587156@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261226T201500
+DTEND;TZID=America/New_York:20261226T221500
+SUMMARY:Chatham High School vs TBA NJ (Junior Varsity Boys Boys Ice Hocke
+ y)
+DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Home - 8:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2564:7730638@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261227T175000
+DTEND;TZID=America/New_York:20261227T195000
+SUMMARY:Chatham High School vs West Morris Central (Junior Varsity Boys B
+ oys Ice Hockey)
+DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Home - 5:50 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2748:7632300@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261228T163000
@@ -1088,13 +1195,13 @@ SUMMARY:Morristown Beard School at WMR (Varsity Boys Boys Ice Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2825:7587150@northwest-jersey-athletic-conference
+UID:ds:2564:7587150@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261228T203000
 DTEND;TZID=America/New_York:20261228T223000
-SUMMARY:Randolph High School vs Chatham High School (Varsity Boys Boys Ic
+SUMMARY:Chatham High School at Randolph High School (Varsity Boys Boys Ic
  e Hockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 8:30 PM
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 8:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2761:7678267@northwest-jersey-athletic-conference
@@ -1232,6 +1339,15 @@ SUMMARY:Randolph High School at Morristown Beard School (Varsity Boys Boy
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 6:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2564:7730660@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270103T193500
+DTEND;TZID=America/New_York:20270103T213500
+SUMMARY:Chatham High School vs Morris Knolls High School (Junior Varsity 
+ Boys Boys Ice Hockey)
+DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Home - 7:35 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2838:7718851@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270104T153000
@@ -1268,13 +1384,13 @@ SUMMARY:Whippany Park High School at Park Regional (WP/HP) (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2748:7587198@northwest-jersey-athletic-conference
+UID:ds:2564:7587198@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270104T183000
 DTEND;TZID=America/New_York:20270104T203000
-SUMMARY:Morristown High School at Chatham High School (Varsity Boys Boys 
+SUMMARY:Chatham High School vs Morristown High School (Varsity Boys Boys 
  Ice Hockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 6:30 PM
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103329924@northwest-jersey-athletic-conference
@@ -1394,14 +1510,13 @@ SUMMARY:Parsippany High School vs Bernards High School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:MorristownBeardSchool:event_8969_20270108t011500zapi.veracross.co
- m@northwest-jersey-athletic-conference
+UID:ds:2564:7587226@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T201500
 DTEND;TZID=America/New_York:20270107T221500
-SUMMARY:Morristown Beard School at Chatham High School (Varsity Boys Boys
+SUMMARY:Chatham High School vs Morristown Beard School (Varsity Boys Boys
   Ice Hockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 8:15 PM
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 8:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2748:7641857@northwest-jersey-athletic-conference
@@ -1511,13 +1626,13 @@ SUMMARY:Parsippany Hills High School at Whippany Park High School (Varsit
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 8:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2748:7730661@northwest-jersey-athletic-conference
+UID:ds:2564:7730661@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270110T191500
 DTEND;TZID=America/New_York:20270110T211500
-SUMMARY:Morristown High School vs Chatham High School (Junior Varsity Boy
+SUMMARY:Chatham High School at Morristown High School (Junior Varsity Boy
  s Boys Ice Hockey)
-DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Home - 7:15 PM
+DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Away - 7:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2745:7522465@northwest-jersey-athletic-conference
@@ -1545,6 +1660,15 @@ DTEND;TZID=America/New_York:20270111T195000
 SUMMARY:Randolph High School vs Scotch Plains-Fanwood High School (Varsit
  y Boys Boys Ice Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 5:50 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2564:7587227@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270111T183000
+DTEND;TZID=America/New_York:20270111T203000
+SUMMARY:Chatham High School vs Northern Highlands Regional High School (V
+ arsity Boys Boys Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2816:7649294@northwest-jersey-athletic-conference
@@ -1619,6 +1743,15 @@ SUMMARY:Newton High School at Gill Saint Bernards School (Varsity Boys Bo
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 5:45 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2564:7593431@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270113T183000
+DTEND;TZID=America/New_York:20270113T203000
+SUMMARY:Chatham High School at Pope John XXIII Middle School (Varsity Boy
+ s Boys Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2816:7593431@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270113T183000
@@ -1689,6 +1822,15 @@ DTEND;TZID=America/New_York:20270114T221500
 SUMMARY:Parsippany High School vs Madison High School (Varsity Boys Boys 
  Ice Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 8:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2564:7587233@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270115T164000
+DTEND;TZID=America/New_York:20270115T184000
+SUMMARY:Chatham High School at Kinnelon High School (Varsity Boys Boys Ic
+ e Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 4:40 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2748:7641914@northwest-jersey-athletic-conference
@@ -1762,13 +1904,13 @@ SUMMARY:High Point High School vs Morris Catholic High School (Varsity Bo
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 8:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2825:7730672@northwest-jersey-athletic-conference
+UID:ds:2564:7730672@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270117T174000
 DTEND;TZID=America/New_York:20270117T194000
-SUMMARY:Randolph High School at Chatham High School (Junior Varsity Boys 
+SUMMARY:Chatham High School vs Randolph High School (Junior Varsity Boys 
  Boys Ice Hockey)
-DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Away - 5:40 PM
+DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Home - 5:40 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2745:7522474@northwest-jersey-athletic-conference
@@ -1778,6 +1920,15 @@ DTEND;TZID=America/New_York:20270117T201500
 SUMMARY:Morris Catholic High School vs Nutley High School (Varsity Boys B
  oys Ice Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 6:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2564:7587235@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270117T190000
+DTEND;TZID=America/New_York:20270117T210000
+SUMMARY:Chatham High School at Paramus High School (Varsity Boys Boys Ice
+  Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2751:7705894@northwest-jersey-athletic-conference
@@ -1933,6 +2084,15 @@ SUMMARY:West Morris Central at Chatham High School (Varsity Boys Boys Ice
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 6:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2564:7587238@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270121T181500
+DTEND;TZID=America/New_York:20270121T201500
+SUMMARY:Chatham High School at West Morris Mendham (Varsity Boys Boys Ice
+  Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 6:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2816:7671657@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T184500
@@ -2031,13 +2191,13 @@ SUMMARY:Morris Knolls High School at Bernards High School (Varsity Boys B
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 8:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2751:7730674@northwest-jersey-athletic-conference
+UID:ds:2564:7730674@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270124T164500
 DTEND;TZID=America/New_York:20270124T184500
-SUMMARY:Mount Olive High School vs Chatham High School (Junior Varsity Bo
+SUMMARY:Chatham High School at Mount Olive High School (Junior Varsity Bo
  ys Boys Ice Hockey)
-DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Home - 4:45 PM
+DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Away - 4:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2790:7667617@northwest-jersey-athletic-conference
@@ -2046,6 +2206,15 @@ DTSTART;TZID=America/New_York:20270124T201500
 DTEND;TZID=America/New_York:20270124T221500
 SUMMARY:Parsippany High School vs TBA NJAC (Varsity Boys Boys Ice Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 8:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2564:7625999@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270125T160000
+DTEND;TZID=America/New_York:20270125T180000
+SUMMARY:Chatham High School at Livingston High School (Varsity Boys Boys 
+ Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2754:7644727@northwest-jersey-athletic-conference
@@ -2092,6 +2261,15 @@ DTEND;TZID=America/New_York:20270125T223000
 SUMMARY:Montville High School vs Mount Olive High School (Varsity Boys Bo
  ys Ice Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 8:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2564:7587241@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270126T171000
+DTEND;TZID=America/New_York:20270126T191000
+SUMMARY:Chatham High School at Ridge High School (Varsity Boys Boys Ice H
+ ockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 5:10 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103346544@northwest-jersey-athletic-conference
@@ -2203,6 +2381,15 @@ SUMMARY:Newton High School at Lakeland Regional High School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2564:7591471@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270129T153000
+DTEND;TZID=America/New_York:20270129T173000
+SUMMARY:Chatham High School at Princeton High School (Varsity Boys Boys I
+ ce Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2751:7692905@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270129T154500
@@ -2293,13 +2480,22 @@ SUMMARY:Mountain Lakes High School at Passaic County Technical Institute
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2748:7587245@northwest-jersey-athletic-conference
+UID:ds:2564:7587245@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270131T181500
 DTEND;TZID=America/New_York:20270131T201500
-SUMMARY:Morristown High School vs Chatham High School (Varsity Boys Boys 
+SUMMARY:Chatham High School at Morristown High School (Varsity Boys Boys 
  Ice Hockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 6:15 PM
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 6:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2564:7730680@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270131T193500
+DTEND;TZID=America/New_York:20270131T213500
+SUMMARY:Chatham High School at Morris Knolls High School (Junior Varsity 
+ Boys Boys Ice Hockey)
+DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Away - 7:35 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2838:7718906@northwest-jersey-athletic-conference
@@ -2365,6 +2561,15 @@ SUMMARY:Morristown Beard School at Pope John XXIII High School (Varsity B
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2564:7626697@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270203T151500
+DTEND;TZID=America/New_York:20270203T171500
+SUMMARY:Chatham High School at The Pingry School (Varsity Boys Boys Ice H
+ ockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 3:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2825:7671594@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270203T175000
@@ -2410,6 +2615,15 @@ SUMMARY:Vernon Township High School vs Central Regional School District (
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2564:7730682@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270207T193000
+DTEND;TZID=America/New_York:20270207T213000
+SUMMARY:Chatham High School at West Morris Central (Junior Varsity Boys B
+ oys Ice Hockey)
+DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Away - 7:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2761:7678288@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270212T184500
@@ -2425,5 +2639,14 @@ DTSTART;TZID=America/New_York:20270213T180000
 DTEND;TZID=America/New_York:20270213T200000
 SUMMARY:Newton High School vs TBA NJ (Varsity Boys Boys Ice Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2564:7730685@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270228T174000
+DTEND;TZID=America/New_York:20270228T194000
+SUMMARY:Chatham High School vs TBA NJ (Junior Varsity Boys Boys Ice Hocke
+ y)
+DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Home - 5:40 PM
 END:VEVENT
 END:VCALENDAR

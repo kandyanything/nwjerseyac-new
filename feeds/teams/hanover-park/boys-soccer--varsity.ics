@@ -24,13 +24,13 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2642:7441285@northwest-jersey-athletic-conference
+UID:ds:2564:7441285@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260824T100000
 DTEND;TZID=America/New_York:20260824T120000
-SUMMARY:Hanover Park High School at Chatham High School (Varsity Boys Boy
+SUMMARY:Chatham High School vs Hanover Park High School (Varsity Boys Boy
  s Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 10:00 AM
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2642:7469586@northwest-jersey-athletic-conference
@@ -212,5 +212,14 @@ DTEND;TZID=America/New_York:20261028T203000
 SUMMARY:Hanover Park High School at Parsippany High School (Varsity Boys 
  Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2642:7731562@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261104T160000
+DTEND;TZID=America/New_York:20261104T180000
+SUMMARY:Hanover Park High School at Secaucus High School (Varsity Boys Bo
+ ys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 END:VCALENDAR

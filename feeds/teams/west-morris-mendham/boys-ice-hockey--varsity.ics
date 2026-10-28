@@ -24,6 +24,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2564:7587090@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261205T181500
+DTEND;TZID=America/New_York:20261205T201500
+SUMMARY:Chatham High School vs West Morris Mendham (Varsity Boys Boys Ice
+  Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 6:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:103804527@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261217T200000
@@ -49,5 +58,14 @@ DTEND;TZID=America/New_York:20261230T224500
 SUMMARY:West Morris Mendham at Ramsey/Indian Hills (Varsity Boys Boys Ice
   Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 8:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2564:7587238@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270121T181500
+DTEND;TZID=America/New_York:20270121T201500
+SUMMARY:Chatham High School at West Morris Mendham (Varsity Boys Boys Ice
+  Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 6:15 PM
 END:VEVENT
 END:VCALENDAR

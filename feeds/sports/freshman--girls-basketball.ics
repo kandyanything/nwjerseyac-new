@@ -24,6 +24,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2564:7626746@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261207T160000
+DTEND;TZID=America/New_York:20261207T180000
+SUMMARY:Chatham High School vs Hillsborough Athletics (Freshman Girls Gir
+ ls Basketball)
+DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2634:7578116@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261207T160000
@@ -112,6 +121,15 @@ DTEND;TZID=America/New_York:20261212T120000
 SUMMARY:Villa Walsh Academy at Columbia High School (Freshman Girls Girls
   Basketball)
 DESCRIPTION:Freshman Girls Girls Basketball - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2564:7535269@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261215T160000
+DTEND;TZID=America/New_York:20261215T180000
+SUMMARY:Chatham High School vs Morris Knolls High School (Freshman Girls 
+ Girls Basketball)
+DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2634:7611989@northwest-jersey-athletic-conference
@@ -294,21 +312,21 @@ SUMMARY:Villa Walsh Academy at Montville High School (Freshman Girls Girl
 DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2564:7535258@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270106T160000
+DTEND;TZID=America/New_York:20270106T180000
+SUMMARY:Chatham High School at Morristown High School (Freshman Girls Gir
+ ls Basketball)
+DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2686:7694251@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270106T160000
 DTEND;TZID=America/New_York:20270106T180000
 SUMMARY:Kittatinny High School vs Sparta High School (Freshman Girls Girl
  s Basketball)
-DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2748:7535258@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270106T160000
-DTEND;TZID=America/New_York:20270106T180000
-SUMMARY:Morristown High School vs Chatham High School (Freshman Girls Gir
- ls Basketball)
 DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -384,21 +402,30 @@ SUMMARY:Morris Knolls High School at Mendham High School (Freshman Girls
 DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2564:7535260@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270112T160000
+DTEND;TZID=America/New_York:20270112T180000
+SUMMARY:Chatham High School at Pope John XXIII High School (Freshman Girl
+ s Girls Basketball)
+DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2564:7626752@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270112T160000
+DTEND;TZID=America/New_York:20270112T180000
+SUMMARY:Chatham High School at Hillsborough Athletics (Freshman Girls Gir
+ ls Basketball)
+DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2748:7632126@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T160000
 DTEND;TZID=America/New_York:20270112T180000
 SUMMARY:Morristown High School vs Voorhees High School (Freshman Girls Gi
  rls Basketball)
-DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2816:7535260@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270112T160000
-DTEND;TZID=America/New_York:20270112T180000
-SUMMARY:Pope John XXIII High School vs Chatham High School (Freshman Girl
- s Girls Basketball)
 DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -420,13 +447,13 @@ SUMMARY:West Morris Mendham at Morristown High School (Freshman Girls Gir
 DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2881:7534555@northwest-jersey-athletic-conference
+UID:ds:2564:7534555@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T160000
 DTEND;TZID=America/New_York:20270114T180000
-SUMMARY:Sparta High School at Chatham High School (Freshman Girls Girls B
+SUMMARY:Chatham High School vs Sparta High School (Freshman Girls Girls B
  asketball)
-DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:00 PM
+DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2881:7693784@northwest-jersey-athletic-conference
@@ -438,13 +465,13 @@ SUMMARY:Sparta High School at Westwood Regional Senior High School (Fresh
 DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2881:7534544@northwest-jersey-athletic-conference
+UID:ds:2564:7534544@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T220000
 DTEND;TZID=America/New_York:20270114T000000
-SUMMARY:Sparta High School at Chatham High School (Freshman Girls Girls B
+SUMMARY:Chatham High School vs Sparta High School (Freshman Girls Girls B
  asketball)
-DESCRIPTION:Freshman Girls Girls Basketball - Away - 10:00 PM
+DESCRIPTION:Freshman Girls Girls Basketball - Home - 10:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2674:7709963@northwest-jersey-athletic-conference
@@ -509,6 +536,15 @@ SUMMARY:Morris Knolls High School vs Sparta High School (Freshman Girls G
 DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2564:7632204@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270121T160000
+DTEND;TZID=America/New_York:20270121T180000
+SUMMARY:Chatham High School vs Immaculata High School (Freshman Girls Gir
+ ls Basketball)
+DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:101659915@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270122T160000
@@ -554,13 +590,13 @@ SUMMARY:Kittatinny High School vs Blair Academy (Freshman Girls Girls Bas
 DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2748:7670044@northwest-jersey-athletic-conference
+UID:ds:2564:7670044@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270126T160000
 DTEND;TZID=America/New_York:20270126T180000
-SUMMARY:Morristown High School at Chatham High School (Freshman Girls Gir
+SUMMARY:Chatham High School vs Morristown High School (Freshman Girls Gir
  ls Basketball)
-DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:00 PM
+DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2881:7688326@northwest-jersey-athletic-conference
@@ -579,6 +615,15 @@ DTEND;TZID=America/New_York:20270128T180000
 SUMMARY:Morris Hills High School at Morris Knolls High School (Freshman G
  irls Girls Basketball)
 DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2564:7514703@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270128T160000
+DTEND;TZID=America/New_York:20270128T180000
+SUMMARY:Chatham High School vs West Orange High School (Freshman Girls Gi
+ rls Basketball)
+DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2674:7703688@northwest-jersey-athletic-conference
@@ -608,12 +653,39 @@ SUMMARY:Morris Knolls High School vs Wayne Valley High School (Freshman G
 DESCRIPTION:Freshman Girls Girls Basketball - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2564:7688922@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270130T100000
+DTEND;TZID=America/New_York:20270130T120000
+SUMMARY:Chatham High School at James Caldwell High School (Freshman Girls
+  Girls Basketball)
+DESCRIPTION:Freshman Girls Girls Basketball - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:103151504@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270130T160000
 DTEND;TZID=America/New_York:20270130T180000
 SUMMARY:Morris Knolls High School at Chatham High School (Freshman Girls 
  Girls Basketball)
+DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2564:7632203@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270201T160000
+DTEND;TZID=America/New_York:20270201T180000
+SUMMARY:Chatham High School at Immaculata High School (Freshman Girls Gir
+ ls Basketball)
+DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2564:7638008@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270204T160000
+DTEND;TZID=America/New_York:20270204T180000
+SUMMARY:Chatham High School at Livingston High School (Freshman Girls Gir
+ ls Basketball)
 DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -698,13 +770,22 @@ SUMMARY:Morris Knolls High School vs Mendham High School (Freshman Girls
 DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2816:7535265@northwest-jersey-athletic-conference
+UID:ds:2564:7535265@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270211T160000
 DTEND;TZID=America/New_York:20270211T180000
-SUMMARY:Pope John XXIII High School at Chatham High School (Freshman Girl
+SUMMARY:Chatham High School vs Pope John XXIII High School (Freshman Girl
  s Girls Basketball)
-DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:00 PM
+DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2564:7626760@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270211T160000
+DTEND;TZID=America/New_York:20270211T180000
+SUMMARY:Chatham High School vs Hillsborough Athletics (Freshman Girls Gir
+ ls Basketball)
+DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2686:7694298@northwest-jersey-athletic-conference
@@ -743,6 +824,15 @@ SUMMARY:West Morris Mendham vs Morristown High School (Freshman Girls Gir
 DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2564:7535266@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270216T160000
+DTEND;TZID=America/New_York:20270216T180000
+SUMMARY:Chatham High School at Sparta High School (Freshman Girls Girls B
+ asketball)
+DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2674:7567356@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270216T160000
@@ -750,15 +840,6 @@ DTEND;TZID=America/New_York:20270216T180000
 SUMMARY:Jefferson Township High School at North Warren (Freshman Girls Gi
  rls Basketball)
 DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2881:7535266@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270216T160000
-DTEND;TZID=America/New_York:20270216T180000
-SUMMARY:Sparta High School vs Chatham High School (Freshman Girls Girls B
- asketball)
-DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102647910@northwest-jersey-athletic-conference
