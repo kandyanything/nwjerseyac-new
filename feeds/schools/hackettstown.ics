@@ -2237,11 +2237,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:arb:105051349@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261103T163000
-DTEND;TZID=America/New_York:20261103T183000
+DTSTART;TZID=America/New_York:20261103T140000
+DTEND;TZID=America/New_York:20261103T160000
 SUMMARY:Montville High School at Hackettstown High School (Varsity Girls 
  Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:30 PM
+DESCRIPTION:Varsity Girls Girls Volleyball - Away - 2:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2634:7729349@northwest-jersey-athletic-conference
@@ -2397,6 +2397,24 @@ SUMMARY:Pequannock High School vs Hackettstown High School (Varsity Girls
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2634:7693523@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261210T160000
+DTEND;TZID=America/New_York:20261210T180000
+SUMMARY:Hackettstown High School at Hillside High School (Varsity Boys Bo
+ ys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2634:7693524@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261210T160000
+DTEND;TZID=America/New_York:20261210T180000
+SUMMARY:Hackettstown High School at Hillside High School (Junior Varsity 
+ Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2634:7693525@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261210T160000
@@ -2404,24 +2422,6 @@ DTEND;TZID=America/New_York:20261210T180000
 SUMMARY:Hackettstown High School at Hillside High School (Freshman Boys B
  oys Basketball)
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2634:7693523@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261210T163000
-DTEND;TZID=America/New_York:20261210T183000
-SUMMARY:Hackettstown High School at Hillside High School (Varsity Boys Bo
- ys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2634:7693524@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261210T163000
-DTEND;TZID=America/New_York:20261210T183000
-SUMMARY:Hackettstown High School at Hillside High School (Junior Varsity 
- Boys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102061344@northwest-jersey-athletic-conference
@@ -2467,6 +2467,15 @@ DTEND;TZID=America/New_York:20261210T200000
 SUMMARY:West Morris Central vs Hackettstown High School (Varsity Boys Boy
  s Fencing)
 DESCRIPTION:Varsity Boys Boys Fencing - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2634:7729705@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261210T180000
+DTEND;TZID=America/New_York:20261210T200000
+SUMMARY:Hackettstown High School at West Morris Central (Varsity Coed Coe
+ d Fencing)
+DESCRIPTION:Varsity Coed Coed Fencing - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2634:7568745@northwest-jersey-athletic-conference
@@ -2622,13 +2631,22 @@ SUMMARY:Hackettstown High School vs High Point High School (Junior Varsit
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2634:7725460@northwest-jersey-athletic-conference
+UID:ds:2634:7729606@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261217T180000
 DTEND;TZID=America/New_York:20261217T200000
 SUMMARY:Hackettstown High School at Vernon Township High School (Varsity 
- Coed Coed Swimming)
-DESCRIPTION:Varsity Coed Coed Swimming - Away - 6:00 PM
+ Girls Girls Swimming)
+DESCRIPTION:Varsity Girls Girls Swimming - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2634:7729971@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261217T180000
+DTEND;TZID=America/New_York:20261217T200000
+SUMMARY:Hackettstown High School at Vernon Township High School (Varsity 
+ Boys Boys Swimming)
+DESCRIPTION:Varsity Boys Boys Swimming - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2634:7457414@northwest-jersey-athletic-conference
@@ -2701,6 +2719,15 @@ DTEND;TZID=America/New_York:20261219T133000
 SUMMARY:Hackettstown High School at Delaware Valley Regional High School 
  (Varsity Girls Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2634:7729821@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261219T160000
+DTEND;TZID=America/New_York:20261219T180000
+SUMMARY:Hackettstown High School at Stephen Decatur High School (Varsity 
+ Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2634:7568437@northwest-jersey-athletic-conference
@@ -2784,7 +2811,7 @@ SUMMARY:Jefferson Township High School at Hackettstown High School (Varsi
 DESCRIPTION:Varsity Boys Boys Swimming - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2674:7710234@northwest-jersey-athletic-conference
+UID:ds:2674:7729555@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261222T180000
 DTEND;TZID=America/New_York:20261222T200000
@@ -3656,6 +3683,15 @@ SUMMARY:Hackettstown High School vs Hanover Park High School (Varsity Boy
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2634:7729666@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270202T160000
+DTEND;TZID=America/New_York:20270202T180000
+SUMMARY:Hackettstown High School at Mount Olive High School (Varsity Coed
+  Unified Sports Basketball)
+DESCRIPTION:Varsity Coed Unified Sports Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2634:7514875@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270204T160000
@@ -3726,6 +3762,24 @@ DTEND;TZID=America/New_York:20270208T210000
 SUMMARY:Hackettstown High School vs Lenape Valley High School (Varsity Gi
  rls Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2634:7729873@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270211T160000
+DTEND;TZID=America/New_York:20270211T180000
+SUMMARY:Hackettstown High School at Warren Hills Regional School District
+  (Junior Varsity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2634:7729872@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270211T173000
+DTEND;TZID=America/New_York:20270211T193000
+SUMMARY:Hackettstown High School at Warren Hills Regional School District
+  (Varsity Girls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2634:7470639@northwest-jersey-athletic-conference
