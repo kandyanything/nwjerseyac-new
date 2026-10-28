@@ -24,33 +24,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2564:7435638@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260818T090000
-DTEND;TZID=America/New_York:20260818T110000
-SUMMARY:Chatham High School at Hanover Park High School (Varsity Boys Foo
- tball)
-DESCRIPTION:Varsity Boys Football - Away - 9:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2564:7437605@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260818T090000
-DTEND;TZID=America/New_York:20260818T110000
-SUMMARY:Chatham High School at Hanover Park High School (Junior Varsity B
- oys Football)
-DESCRIPTION:Junior Varsity Boys Football - Away - 9:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2564:7437695@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260818T090000
-DTEND;TZID=America/New_York:20260818T110000
-SUMMARY:Chatham High School vs Hanover Park High School (Freshman Boys Fo
- otball)
-DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2642:7435638@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260818T090000
@@ -60,6 +33,15 @@ SUMMARY:Hanover Park High School vs Jonathan Dayton High School (Varsity
 DESCRIPTION:Varsity Boys Football - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2642:7437605@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260818T090000
+DTEND;TZID=America/New_York:20260818T110000
+SUMMARY:Hanover Park High School vs Chatham High School (Junior Varsity B
+ oys Football)
+DESCRIPTION:Junior Varsity Boys Football - Home - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2642:7437695@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260818T090000
@@ -67,6 +49,15 @@ DTEND;TZID=America/New_York:20260818T110000
 SUMMARY:Hanover Park High School at Chatham High School (Fr/JV Boys Footb
  all)
 DESCRIPTION:Fr/JV Boys Football - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2642:7440952@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260818T090000
+DTEND;TZID=America/New_York:20260818T110000
+SUMMARY:Hanover Park High School at Chatham High School (Freshman Boys Fo
+ otball)
+DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2642:7437081@northwest-jersey-athletic-conference

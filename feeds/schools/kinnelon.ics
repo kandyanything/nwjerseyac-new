@@ -1394,15 +1394,6 @@ SUMMARY:Kinnelon High School vs Morris Catholic High School (Varsity Girl
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2564:7673865@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261006T160000
-DTEND;TZID=America/New_York:20261006T180000
-SUMMARY:Chatham High School vs Kinnelon High School (Varsity Girls Girls 
- Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2634:7496067@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261006T160000
@@ -1446,6 +1437,15 @@ DTEND;TZID=America/New_York:20261006T180000
 SUMMARY:Kinnelon High School at Clifton High School (Junior Varsity Girls
   Girls Tennis)
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2685:7673865@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261006T160000
+DTEND;TZID=America/New_York:20261006T180000
+SUMMARY:Kinnelon High School at Chatham High School (Varsity Girls Girls 
+ Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2634:7496364@northwest-jersey-athletic-conference
@@ -2094,6 +2094,15 @@ SUMMARY:Kinnelon High School vs Glen Ridge High School (Varsity Girls Gir
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2685:7731124@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261103T170000
+DTEND;TZID=America/New_York:20261103T190000
+SUMMARY:Kinnelon High School at New Milford High School (Varsity Girls Gi
+ rls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2685:7540960@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261107T090000
@@ -2148,13 +2157,13 @@ SUMMARY:Kinnelon High School at Roxbury High School (Varsity Girls Girls
 DESCRIPTION:Varsity Girls Girls Swimming - Away - 8:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2564:7689462@northwest-jersey-athletic-conference
+UID:ds:2685:7689462@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261203T153000
 DTEND;TZID=America/New_York:20261203T173000
-SUMMARY:Chatham High School at Kinnelon High School (Varsity Coed Coed Bo
+SUMMARY:Kinnelon High School vs Chatham High School (Varsity Coed Coed Bo
  wling)
-DESCRIPTION:Varsity Coed Coed Bowling - Away - 3:30 PM
+DESCRIPTION:Varsity Coed Coed Bowling - Home - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2685:7636516@northwest-jersey-athletic-conference
@@ -2659,15 +2668,6 @@ DTEND;TZID=America/New_York:20261216T213000
 SUMMARY:West Morris Mendham vs Kinnelon High School (Varsity Coed Coed Sw
  imming)
 DESCRIPTION:Varsity Coed Coed Swimming - Home - 7:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2564:7632811@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261216T194500
-DTEND;TZID=America/New_York:20261216T214500
-SUMMARY:Chatham High School vs Kinnelon High School (Varsity Boys Boys Ic
- e Hockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 7:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2685:7632811@northwest-jersey-athletic-conference
@@ -3436,15 +3436,6 @@ SUMMARY:Kinnelon High School vs TBD (Varsity Boys Boys Fencing)
 DESCRIPTION:Varsity Boys Boys Fencing - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2564:7457939@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270111T160000
-DTEND;TZID=America/New_York:20270111T180000
-SUMMARY:Chatham High School at Kinnelon High School (Varsity Coed Coed Fe
- ncing)
-DESCRIPTION:Varsity Coed Coed Fencing - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2685:7457939@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270111T160000
@@ -3517,13 +3508,13 @@ SUMMARY:Kinnelon High School vs West Morris Central (Varsity Girls Girls
 DESCRIPTION:Varsity Girls Girls Swimming - Home - 2:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2564:7689519@northwest-jersey-athletic-conference
+UID:ds:2685:7689519@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T153000
 DTEND;TZID=America/New_York:20270112T173000
-SUMMARY:Chatham High School vs Kinnelon High School (Varsity Coed Coed Bo
+SUMMARY:Kinnelon High School at Chatham High School (Varsity Coed Coed Bo
  wling)
-DESCRIPTION:Varsity Coed Coed Bowling - Home - 3:30 PM
+DESCRIPTION:Varsity Coed Coed Bowling - Away - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:42130:7457518@northwest-jersey-athletic-conference
@@ -3758,15 +3749,6 @@ DTEND;TZID=America/New_York:20270115T180000
 SUMMARY:Pope John XXIII High School vs Kinnelon High School (Middle Schoo
  l Boys Boys Basketball)
 DESCRIPTION:Middle School Boys Boys Basketball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2564:7587233@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270115T164000
-DTEND;TZID=America/New_York:20270115T184000
-SUMMARY:Chatham High School at Kinnelon High School (Varsity Boys Boys Ic
- e Hockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 4:40 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2685:7587233@northwest-jersey-athletic-conference

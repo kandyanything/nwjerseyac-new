@@ -23,15 +23,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2564:7528874@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260824T100000
-DTEND;TZID=America/New_York:20260824T120000
-SUMMARY:Chatham High School vs Bergen Catholic High School (Freshman Boys
-  Boys Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Home - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:102096362@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260824T151500
@@ -158,15 +149,6 @@ SUMMARY:Madison High School at Morristown High School (Freshman Boys Boys
 DESCRIPTION:Freshman Boys Boys Soccer - Away - 3:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2564:7438969@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260826T160000
-DTEND;TZID=America/New_York:20260826T180000
-SUMMARY:Chatham High School vs Glen Ridge High School (Freshman Boys Boys
-  Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2594:7434214@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260826T160000
@@ -287,22 +269,13 @@ SUMMARY:Morristown High School vs Livingston High School (Freshman Boys B
 DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2564:7410807@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260828T163000
-DTEND;TZID=America/New_York:20260828T183000
-SUMMARY:Chatham High School vs Ramsey High School (Freshman Boys Boys Soc
- cer)
-DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2564:7414083@northwest-jersey-athletic-conference
+UID:ds:2825:7414083@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260829T080000
 DTEND;TZID=America/New_York:20260829T100000
-SUMMARY:Chatham High School vs Randolph High School (Freshman Boys Boys S
+SUMMARY:Randolph High School at Chatham High School (Freshman Boys Boys S
  occer)
-DESCRIPTION:Freshman Boys Boys Soccer - Home - 8:00 AM
+DESCRIPTION:Freshman Boys Boys Soccer - Away - 8:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102096412@northwest-jersey-athletic-conference
@@ -586,8 +559,8 @@ UID:arb:102333064@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260908T160000
 DTEND;TZID=America/New_York:20260908T180000
-SUMMARY:West Morris Mendham at TBD (Freshman Boys Boys Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
+SUMMARY:West Morris Mendham vs TBD (Freshman Boys Boys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2649:7523671@northwest-jersey-athletic-conference
@@ -641,15 +614,6 @@ DTSTART;TZID=America/New_York:20260909T160000
 DTEND;TZID=America/New_York:20260909T180000
 SUMMARY:Morris Knolls High School vs Morristown High School (Freshman Boy
  s Boys Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2564:7439075@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260909T160000
-DTEND;TZID=America/New_York:20260909T180000
-SUMMARY:Chatham High School vs Delbarton School (Freshman Boys Boys Socce
- r)
 DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -731,15 +695,6 @@ DTSTART;TZID=America/New_York:20260911T160000
 DTEND;TZID=America/New_York:20260911T180000
 SUMMARY:West Morris Central vs Mountain Lakes High School (Freshman Boys 
  Boys Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2564:7439083@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260911T160000
-DTEND;TZID=America/New_York:20260911T180000
-SUMMARY:Chatham High School vs Livingston High School (Freshman Boys Boys
-  Soccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -843,21 +798,21 @@ SUMMARY:West Morris Mendham at Delbarton School (Freshman Boys Boys Socce
 DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2564:7434219@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260915T160000
-DTEND;TZID=America/New_York:20260915T180000
-SUMMARY:Chatham High School at Randolph High School (Freshman Boys Boys S
- occer)
-DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2748:7486291@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260915T160000
 DTEND;TZID=America/New_York:20260915T180000
 SUMMARY:Morristown High School vs Roxbury High School (Freshman Boys Boys
   Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2825:7434219@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260915T160000
+DTEND;TZID=America/New_York:20260915T180000
+SUMMARY:Randolph High School vs Chatham High School (Freshman Boys Boys S
+ occer)
 DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -1015,15 +970,6 @@ DESCRIPTION:Freshman Boys Boys Soccer - Home - 11:00 AM
 STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2564:7439119@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260919T110000
-DTEND;TZID=America/New_York:20260919T130000
-SUMMARY:Chatham High School at West Morris Mendham (Freshman Boys Boys So
- ccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Away - 11:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2825:7414086@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260920T090000
@@ -1058,15 +1004,6 @@ DTSTART;TZID=America/New_York:20260922T160000
 DTEND;TZID=America/New_York:20260922T180000
 SUMMARY:Morris Hills High School vs Morris Knolls High School (Freshman B
  oys Boys Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2564:7546439@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260922T160000
-DTEND;TZID=America/New_York:20260922T180000
-SUMMARY:Chatham High School vs Summit High School (Freshman Boys Boys Soc
- cer)
 DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -1187,21 +1124,21 @@ SUMMARY:Montville High School vs Morristown High School (Freshman Boys Bo
 DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2564:7439246@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260925T160000
-DTEND;TZID=America/New_York:20260925T180000
-SUMMARY:Chatham High School vs Mount Olive High School (Freshman Boys Boy
- s Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2674:7499381@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260925T160000
 DTEND;TZID=America/New_York:20260925T180000
 SUMMARY:Jefferson Township High School at Blair Academy (Freshman Boys Bo
  ys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2751:7439246@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260925T160000
+DTEND;TZID=America/New_York:20260925T180000
+SUMMARY:Mount Olive High School at Chatham High School (Freshman Boys Boy
+ s Soccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -1716,15 +1653,6 @@ SUMMARY:Morris Knolls High School at Morristown High School (Freshman Boy
 DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2564:7439262@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261008T160000
-DTEND;TZID=America/New_York:20261008T180000
-SUMMARY:Chatham High School at Delbarton School (Freshman Boys Boys Socce
- r)
-DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2594:7531015@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261009T160000
@@ -1952,15 +1880,6 @@ SUMMARY:Morris Knolls High School vs Pequannock High School (Freshman Boy
 DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2564:7434226@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261020T160000
-DTEND;TZID=America/New_York:20261020T180000
-SUMMARY:Chatham High School vs Randolph High School (Freshman Boys Boys S
- occer)
-DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2649:7678419@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261020T160000
@@ -1977,6 +1896,15 @@ DTEND;TZID=America/New_York:20261020T180000
 SUMMARY:Parsippany High School vs Whippany Park High School (Freshman Boy
  s Boys Soccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2825:7434226@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261020T160000
+DTEND;TZID=America/New_York:20261020T180000
+SUMMARY:Randolph High School at Chatham High School (Freshman Boys Boys S
+ occer)
+DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:100920519@northwest-jersey-athletic-conference
@@ -2113,15 +2041,6 @@ SUMMARY:[Canceled] West Morris Mendham vs Morris Hills High School (Fresh
  man Boys Boys Soccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
 STATUS:CANCELLED
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2564:7702163@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261023T160000
-DTEND;TZID=America/New_York:20261023T180000
-SUMMARY:Chatham High School vs Montclair Kimberley Academy (Freshman Boys
-  Boys Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2748:7470758@northwest-jersey-athletic-conference
@@ -2351,21 +2270,21 @@ SUMMARY:Morris Knolls High School vs West Morris Central (Freshman Boys B
 DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2564:7477602@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261029T160000
-DTEND;TZID=America/New_York:20261029T180000
-SUMMARY:Chatham High School at Mount Olive High School (Freshman Boys Boy
- s Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2748:7486296@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261029T160000
 DTEND;TZID=America/New_York:20261029T180000
 SUMMARY:Morristown High School vs Parsippany Hills High School (Freshman 
  Boys Boys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2751:7477602@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261029T160000
+DTEND;TZID=America/New_York:20261029T180000
+SUMMARY:Mount Olive High School vs Chatham High School (Freshman Boys Boy
+ s Soccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
