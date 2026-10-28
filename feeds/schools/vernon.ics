@@ -2939,24 +2939,6 @@ SUMMARY:Hopatcong High School vs Vernon Township High School (Varsity Gir
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2881:7576972@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261210T160000
-DTEND;TZID=America/New_York:20261210T180000
-SUMMARY:Sparta High School at Vernon Township High School (Varsity Girls 
- Girls Swimming)
-DESCRIPTION:Varsity Girls Girls Swimming - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2909:7576972@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261210T160000
-DTEND;TZID=America/New_York:20261210T180000
-SUMMARY:Vernon Township High School vs Jefferson-Sparta (Varsity Girls Gi
- rls Swimming)
-DESCRIPTION:Varsity Girls Girls Swimming - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2909:7682623@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261210T163000
@@ -2966,13 +2948,13 @@ SUMMARY:Vernon Township High School at East Side High School (Varsity Boy
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2674:7705362@northwest-jersey-athletic-conference
+UID:ds:2674:7576972@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261210T180000
 DTEND;TZID=America/New_York:20261210T200000
-SUMMARY:Jefferson Township High School vs Vernon Township High School (Va
+SUMMARY:Jefferson Township High School at Vernon Township High School (Va
  rsity Girls Girls Swimming)
-DESCRIPTION:Varsity Girls Girls Swimming - Home - 6:00 PM
+DESCRIPTION:Varsity Girls Girls Swimming - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2674:7729969@northwest-jersey-athletic-conference
@@ -2984,6 +2966,15 @@ SUMMARY:Jefferson Township High School at Vernon Township High School (Va
 DESCRIPTION:Varsity Boys Boys Swimming - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2881:7576972@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261210T180000
+DTEND;TZID=America/New_York:20261210T200000
+SUMMARY:Sparta High School at Vernon Township High School (Varsity Girls 
+ Girls Swimming)
+DESCRIPTION:Varsity Girls Girls Swimming - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2881:7729969@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261210T180000
@@ -2991,6 +2982,15 @@ DTEND;TZID=America/New_York:20261210T200000
 SUMMARY:Sparta High School at Vernon Township High School (Varsity Boys B
  oys Swimming)
 DESCRIPTION:Varsity Boys Boys Swimming - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2909:7576972@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261210T180000
+DTEND;TZID=America/New_York:20261210T200000
+SUMMARY:Vernon Township High School vs Jefferson-Sparta (Varsity Girls Gi
+ rls Swimming)
+DESCRIPTION:Varsity Girls Girls Swimming - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2909:7729969@northwest-jersey-athletic-conference
@@ -3252,6 +3252,15 @@ DTEND;TZID=America/New_York:20261230T120000
 SUMMARY:Vernon Township High School at Bridgewater-Raritan High School (V
  arsity Boys Boys Wrestling)
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2909:7730581@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261230T100000
+DTEND;TZID=America/New_York:20261230T120000
+SUMMARY:Vernon Township High School at Bridgewater-Raritan High School (V
+ arsity Girls Girls Wrestling)
+DESCRIPTION:Varsity Girls Girls Wrestling - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2761:7676651@northwest-jersey-athletic-conference
@@ -3596,49 +3605,22 @@ SUMMARY:Mountain Lakes High School vs Vernon Township High School (Varsit
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 6:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2694:7609935@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270114T183000
-DTEND;TZID=America/New_York:20270114T203000
-SUMMARY:Lenape Valley High School vs Vernon Township High School (Varsity
-  Boys Boys Swimming)
-DESCRIPTION:Varsity Boys Boys Swimming - Home - 6:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2761:7609935@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270114T183000
-DTEND;TZID=America/New_York:20270114T203000
-SUMMARY:Newton High School at Vernon Township High School (Varsity Boys B
- oys Swimming)
-DESCRIPTION:Varsity Boys Boys Swimming - Away - 6:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2761:7659828@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270114T183000
-DTEND;TZID=America/New_York:20270114T203000
-SUMMARY:Newton High School vs Vernon Township High School (Varsity Girls 
- Girls Swimming)
-DESCRIPTION:Varsity Girls Girls Swimming - Home - 6:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2909:7609935@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T183000
 DTEND;TZID=America/New_York:20270114T203000
-SUMMARY:Vernon Township High School vs Newton/Lenape Valley (Varsity Boys
+SUMMARY:Vernon Township High School at Newton/Lenape Valley (Varsity Boys
   Boys Swimming)
-DESCRIPTION:Varsity Boys Boys Swimming - Home - 6:30 PM
+DESCRIPTION:Varsity Boys Boys Swimming - Away - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2909:7659828@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T183000
 DTEND;TZID=America/New_York:20270114T203000
-SUMMARY:Vernon Township High School vs Newton/Lenape Valley (Varsity Girl
+SUMMARY:Vernon Township High School at Newton/Lenape Valley (Varsity Girl
  s Girls Swimming)
-DESCRIPTION:Varsity Girls Girls Swimming - Home - 6:30 PM
+DESCRIPTION:Varsity Girls Girls Swimming - Away - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2694:7457425@northwest-jersey-athletic-conference
@@ -3735,9 +3717,9 @@ UID:ds:2909:7729975@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270118T180000
 DTEND;TZID=America/New_York:20270118T200000
-SUMMARY:Vernon Township High School vs Pequannock High School (Varsity Bo
+SUMMARY:Vernon Township High School at Pequannock High School (Varsity Bo
  ys Boys Swimming)
-DESCRIPTION:Varsity Boys Boys Swimming - Home - 6:00 PM
+DESCRIPTION:Varsity Boys Boys Swimming - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2661:7702693@northwest-jersey-athletic-conference
