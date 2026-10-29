@@ -1918,6 +1918,16 @@ SUMMARY:Boonton High School vs Morristown Beard School (Varsity Girls Fie
 DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ics:MorristownBeardSchool:event_8684_20261027t200000zapi.veracross.co
+ m@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261027T160000
+DTEND;TZID=America/New_York:20261027T180000
+SUMMARY:Morristown Beard School at Boonton High School (Varsity Field Hoc
+ key)
+DESCRIPTION:Varsity Field Hockey - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ics:MorristownBeardSchool:event_11378_20261027t200000zapi.veracross.c
  om@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
@@ -1927,16 +1937,6 @@ SUMMARY:[Cancelled] Morristown Beard School at Boonton High School (Junio
  r Varsity Girls Girls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:00 PM
 STATUS:CANCELLED
-END:VEVENT
-BEGIN:VEVENT
-UID:ics:MorristownBeardSchool:event_8684_20261027t200000zapi.veracross.co
- m@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261027T160000
-DTEND;TZID=America/New_York:20261027T180000
-SUMMARY:Morristown Beard School at Boonton High School (Varsity Field Hoc
- key)
-DESCRIPTION:Varsity Field Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:105104736@northwest-jersey-athletic-conference
@@ -2051,11 +2051,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:arb:105115770@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261102
-DTEND;VALUE=DATE:20261103
+DTSTART;TZID=America/New_York:20261102T160000
+DTEND;TZID=America/New_York:20261102T180000
 SUMMARY:Boonton High School at Delaware Valley Regional High School (Vars
  ity Girls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Away
+DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:105147860@northwest-jersey-athletic-conference
@@ -2326,15 +2326,6 @@ SUMMARY:Boonton High School vs Whippany Park High School (Varsity Boys Bo
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2940:7646051@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261216
-DTEND;VALUE=DATE:20261217
-SUMMARY:Whippany Park High School at Boonton High School (Varsity Boys Bo
- ys Wrestling)
-DESCRIPTION:Varsity Boys Boys Wrestling - Away
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:101646343@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261217T160000
@@ -2405,15 +2396,6 @@ DTEND;TZID=America/New_York:20261217T210000
 SUMMARY:Boonton High School at Hanover Park High School (Varsity Boys Boy
  s Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2940:7457742@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261217T190000
-DTEND;TZID=America/New_York:20261217T210000
-SUMMARY:Whippany Park High School at Boonton High School (Varsity Girls G
- irls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102383985@northwest-jersey-athletic-conference
