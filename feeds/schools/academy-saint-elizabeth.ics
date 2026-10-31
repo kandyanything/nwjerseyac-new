@@ -65,9 +65,10 @@ UID:arb:100043383@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260826T113000
 DTEND;TZID=America/New_York:20260826T133000
-SUMMARY:Academy of Saint Elizabeth at Governor Livingston High School (Ju
- nior Varsity Girls Girls Volleyball)
+SUMMARY:[Canceled] Academy of Saint Elizabeth at Governor Livingston High
+  School (Junior Varsity Girls Girls Volleyball)
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 11:30 AM
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103526067@northwest-jersey-athletic-conference
@@ -451,15 +452,6 @@ SUMMARY:Academy of Saint Elizabeth vs Kinnelon High School (Varsity Girls
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2685:7529081@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260916T160000
-DTEND;TZID=America/New_York:20260916T180000
-SUMMARY:Kinnelon High School vs Academy of Saint Elizabeth (Junior Varsit
- y Girls Girls Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2685:7527821@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260916T160000
@@ -467,6 +459,15 @@ DTEND;TZID=America/New_York:20260916T180000
 SUMMARY:Kinnelon High School at Academy of Saint Elizabeth (Varsity Girls
   Girls Tennis)
 DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2685:7529081@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260916T160000
+DTEND;TZID=America/New_York:20260916T180000
+SUMMARY:Kinnelon High School vs Academy of Saint Elizabeth (Junior Varsit
+ y Girls Girls Tennis)
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:99553376@northwest-jersey-athletic-conference
@@ -482,9 +483,9 @@ UID:arb:101346738@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260917T160000
 DTEND;TZID=America/New_York:20260917T180000
-SUMMARY:Academy of Saint Elizabeth vs Mountain Lakes High School (Varsity
+SUMMARY:Academy of Saint Elizabeth at Mountain Lakes High School (Varsity
   Girls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
+DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101347176@northwest-jersey-athletic-conference
@@ -503,15 +504,6 @@ DTEND;TZID=America/New_York:20260918T180000
 SUMMARY:Lenape Valley High School vs Academy of Saint Elizabeth (Varsity 
  Girls Field Hockey)
 DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2790:7541530@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260918T160000
-DTEND;TZID=America/New_York:20260918T180000
-SUMMARY:Parsippany High School vs Academy of Saint Elizabeth (Varsity Gir
- ls Girls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2790:7622177@northwest-jersey-athletic-conference
@@ -587,13 +579,13 @@ SUMMARY:Academy of Saint Elizabeth at Pequannock High School (Varsity Gir
 DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:101346787@northwest-jersey-athletic-conference
+UID:arb:104151090@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260922T160000
 DTEND;TZID=America/New_York:20260922T180000
-SUMMARY:Academy of Saint Elizabeth vs Jefferson Township High School (Var
+SUMMARY:Academy of Saint Elizabeth at Jefferson Township High School (Var
  sity Girls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
+DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:100934999@northwest-jersey-athletic-conference
@@ -624,13 +616,22 @@ SUMMARY:Academy of Saint Elizabeth at Villa Walsh Academy (Varsity Girls
 DESCRIPTION:Varsity Girls Girls Volleyball - Away - 5:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:101347200@northwest-jersey-athletic-conference
+UID:arb:104151107@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260922T173000
 DTEND;TZID=America/New_York:20260922T193000
-SUMMARY:Academy of Saint Elizabeth vs Jefferson Township High School (Jun
+SUMMARY:Academy of Saint Elizabeth at Jefferson Township High School (Jun
  ior Varsity Girls Field Hockey)
-DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 5:30 PM
+DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100869029@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260924T154500
+DTEND;TZID=America/New_York:20260924T174500
+SUMMARY:Academy of Saint Elizabeth at Bernardsville Middle School (7/8th 
+ Girls Field Hockey)
+DESCRIPTION:7/8th Girls Field Hockey - Away - 3:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:104012539@northwest-jersey-athletic-conference
@@ -646,9 +647,27 @@ UID:arb:101346904@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260924T160000
 DTEND;TZID=America/New_York:20260924T180000
-SUMMARY:Academy of Saint Elizabeth vs Pequannock High School (Varsity Gir
+SUMMARY:Academy of Saint Elizabeth at Pequannock High School (Varsity Gir
  ls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
+DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2790:7550681@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260924T160000
+DTEND;TZID=America/New_York:20260924T180000
+SUMMARY:Parsippany High School at Academy of Saint Elizabeth (Junior Vars
+ ity Girls Girls Tennis)
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2790:7541530@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260924T160000
+DTEND;TZID=America/New_York:20260924T180000
+SUMMARY:Parsippany High School vs Academy of Saint Elizabeth (Varsity Gir
+ ls Girls Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101347211@northwest-jersey-athletic-conference
@@ -690,29 +709,32 @@ END:VEVENT
 BEGIN:VEVENT
 UID:arb:102442933@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260926T100000
-DTEND;TZID=America/New_York:20260926T120000
-SUMMARY:Academy of Saint Elizabeth vs Morris Hills High School (Varsity G
- irls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 10:00 AM
+DTSTART;TZID=America/New_York:20260926T093000
+DTEND;TZID=America/New_York:20260926T113000
+SUMMARY:[Canceled] Academy of Saint Elizabeth vs Morris Hills High School
+  (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 9:30 AM
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101145100@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260926T110000
 DTEND;TZID=America/New_York:20260926T130000
-SUMMARY:Academy of Saint Elizabeth at Passaic Arts & Science Charter Scho
- ol (Varsity Girls Girls Volleyball)
+SUMMARY:[Canceled] Academy of Saint Elizabeth at Passaic Arts & Science C
+ harter School (Varsity Girls Girls Volleyball)
 DESCRIPTION:Varsity Girls Girls Volleyball - Away - 11:00 AM
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101145096@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260926T121500
 DTEND;TZID=America/New_York:20260926T141500
-SUMMARY:Academy of Saint Elizabeth at Passaic Arts & Science Charter Scho
- ol (Junior Varsity Girls Girls Volleyball)
+SUMMARY:[Canceled] Academy of Saint Elizabeth at Passaic Arts & Science C
+ harter School (Junior Varsity Girls Girls Volleyball)
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 12:15 PM
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:99567424@northwest-jersey-athletic-conference
@@ -731,15 +753,6 @@ DTEND;TZID=America/New_York:20260928T191500
 SUMMARY:Academy of Saint Elizabeth vs Hanover Park High School (Junior Va
  rsity Girls Girls Volleyball)
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2642:7455813@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260928T173000
-DTEND;TZID=America/New_York:20260928T193000
-SUMMARY:Hanover Park High School at Academy of Saint Elizabeth (Junior Va
- rsity Girls Girls Volleyball)
-DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:99553512@northwest-jersey-athletic-conference
@@ -808,8 +821,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:arb:101774148@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261001T163000
-DTEND;TZID=America/New_York:20261001T183000
+DTSTART;TZID=America/New_York:20261002T163000
+DTEND;TZID=America/New_York:20261002T183000
 SUMMARY:Academy of Saint Elizabeth at Mount St. Dominic Academy (Varsity 
  Girls Field Hockey)
 DESCRIPTION:Varsity Girls Field Hockey - Away - 4:30 PM
@@ -967,6 +980,15 @@ DTEND;TZID=America/New_York:20261015T193000
 SUMMARY:Academy of Saint Elizabeth at Pope John XXIII High School (Junior
   Varsity Girls Field Hockey)
 DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2816:7605286@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261016T120000
+DTEND;TZID=America/New_York:20261016T140000
+SUMMARY:Pope John XXIII High School at Academy of Saint Elizabeth (Middle
+  School Coed Coed Cross Country)
+DESCRIPTION:Middle School Coed Coed Cross Country - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101829339@northwest-jersey-athletic-conference
@@ -1136,9 +1158,10 @@ UID:arb:103377792@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261026T173000
 DTEND;TZID=America/New_York:20261026T193000
-SUMMARY:Academy of Saint Elizabeth vs Thomas Edison Energy Smart Charter 
- School (Junior Varsity Girls Girls Volleyball)
+SUMMARY:[Canceled] Academy of Saint Elizabeth vs Thomas Edison Energy Sma
+ rt Charter School (Junior Varsity Girls Girls Volleyball)
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:30 PM
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101884733@northwest-jersey-athletic-conference
@@ -1473,15 +1496,6 @@ DTEND;TZID=America/New_York:20270118T193000
 SUMMARY:Academy of Saint Elizabeth vs Whippany Park High School (Junior V
  arsity Girls Girls Basketball)
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2940:7457754@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270118T190000
-DTEND;TZID=America/New_York:20270118T210000
-SUMMARY:Whippany Park High School at Academy of Saint Elizabeth (Varsity 
- Girls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102085380@northwest-jersey-athletic-conference
