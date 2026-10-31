@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
         {"name": "Parsippany High School", "logo": "parsippany.png", "arbiterUrl": "https://arbiterlive.com/Teams?entityId=17620"},
         {"name": "Parsippany Hills High School", "logo": "parsippany-hills.png", "arbiterUrl": "https://arbiterlive.com/Teams?entityId=17621"},
         {"name": "Pequannock High School", "logo": "pequannock.png", "arbiterUrl": "https://www.arbiterlive.com/School/Calendar/17870"},
-        {"name": "Pope John XXIII High School", "logo": "pope-john.png", "arbiterUrl": "https://arbiterlive.com/Teams?entityId=18382"},
+        {"name": "Pope John XXIII High School", "logo": "pope-john.png", "arbiterUrl": "https://lionathletics.digitalsports.com/pages/calendar/schedule.php"},
         {"name": "Randolph Township School District", "logo": "randolph.png", "arbiterUrl": "https://randolphathletics.digitalsports.com/pages/calendar/schedule.php"},
         {"name": "Roxbury High School", "logo": "roxbury.png", "arbiterUrl": "https://arbiterlive.com/Teams?entityId=19753"},
         {"name": "Sparta High School", "logo": "sparta.png", "arbiterUrl": "https://arbiterlive.com/Teams?entityId=21689"},

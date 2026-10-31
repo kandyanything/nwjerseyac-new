@@ -90,6 +90,15 @@ SUMMARY:Morris County School of Technology at Morristown Beard School (Ju
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ics:MorristownBeardSchool:event_8772_20260901t200000zapi.veracross.co
+ m@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260901T160000
+DTEND;TZID=America/New_York:20260901T180000
+SUMMARY:Morristown Beard School vs MCST (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ics:MorristownBeardSchool:event_9909_20260901t200000zapi.veracross.co
  m@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
@@ -98,15 +107,6 @@ DTEND;TZID=America/New_York:20260901T180000
 SUMMARY:Morristown Beard School vs MCST (Junior Varsity Girls Girls Socce
  r)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ics:MorristownBeardSchool:event_8772_20260901t200000zapi.veracross.co
- m@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260901T160000
-DTEND;TZID=America/New_York:20260901T180000
-SUMMARY:Morristown Beard School vs MCST (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ics:MorristownBeardSchool:event_8775_20260903t200000zapi.veracross.co
@@ -170,16 +170,6 @@ DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:00 PM
 STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:MorristownBeardSchool:event_10750_20260916t193000zapi.veracross.c
- om@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260916T153000
-DTEND;TZID=America/New_York:20260916T173000
-SUMMARY:Morristown Beard School at Newark Academy (Middle School Girls Gi
- rls Soccer)
-DESCRIPTION:Middle School Girls Girls Soccer - Away - 3:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2913:7495792@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260916T160000
@@ -207,15 +197,6 @@ DTSTART;TZID=America/New_York:20260919T133000
 DTEND;TZID=America/New_York:20260919T153000
 SUMMARY:Morristown Beard School at Blair (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 1:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2745:7601649@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260919T160000
-DTEND;TZID=America/New_York:20260919T180000
-SUMMARY:Morris Catholic High School at Morristown Beard School (Varsity G
- irls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ics:MorristownBeardSchool:event_8496_20260923t193000zapi.veracross.co
@@ -275,23 +256,24 @@ SUMMARY:Morristown Beard School vs Golda Och Academy (Middle School Girls
 DESCRIPTION:Middle School Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:MorristownBeardSchool:event_10763_20260928t201500zapi.veracross.c
+UID:ics:MorristownBeardSchool:event_10763_20260928t200000zapi.veracross.c
  om@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260928T161500
-DTEND;TZID=America/New_York:20260928T181500
-SUMMARY:Morristown Beard School vs Kent Place School (Junior Varsity Girl
+DTSTART;TZID=America/New_York:20260928T160000
+DTEND;TZID=America/New_York:20260928T180000
+SUMMARY:Morristown Beard School at Kent Place School (Junior Varsity Girl
  s Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2790:7556807@northwest-jersey-athletic-conference
+UID:ics:MorristownBeardSchool:event_8794_20260929t200000zapi.veracross.co
+ m@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260929T160000
 DTEND;TZID=America/New_York:20260929T180000
-SUMMARY:Parsippany High School at Morristown Beard School (Varsity Girls 
+SUMMARY:Morristown Beard School vs Parsippany High School (Varsity Girls 
  Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ics:MorristownBeardSchool:event_8795_20260929t200000zapi.veracross.co
@@ -299,9 +281,19 @@ UID:ics:MorristownBeardSchool:event_8795_20260929t200000zapi.veracross.co
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260929T160000
 DTEND;TZID=America/New_York:20260929T180000
-SUMMARY:Morristown Beard School vs Parsippany High School (Junior Varsity
-  Girls Girls Soccer)
+SUMMARY:[Cancelled] Morristown Beard School vs Parsippany High School (Ju
+ nior Varsity Girls Girls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
+STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2790:7556807@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260929T163000
+DTEND;TZID=America/New_York:20260929T183000
+SUMMARY:Parsippany High School at Morristown Beard School (Varsity Girls 
+ Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:100867398@northwest-jersey-athletic-conference
@@ -320,6 +312,15 @@ DTEND;TZID=America/New_York:20261001T180000
 SUMMARY:Boonton High School vs Morristown Beard School (Varsity Girls Gir
  ls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:MorristownBeardSchool:event_10905_20261002t193000zapi.veracross.c
+ om@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261002T153000
+DTEND;TZID=America/New_York:20261002T173000
+SUMMARY:Morristown Beard School vs practice (Girls Girls Soccer)
+DESCRIPTION:Girls Girls Soccer - Home - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ics:MorristownBeardSchool:event_7656_20261006t200000zapi.veracross.co

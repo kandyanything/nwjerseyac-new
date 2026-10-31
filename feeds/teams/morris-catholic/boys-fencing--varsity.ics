@@ -24,12 +24,48 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:arb:104139567@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261216T160000
+DTEND;TZID=America/New_York:20261216T180000
+SUMMARY:Morris Hills High School at Morris Catholic High School (Varsity 
+ Boys Boys Fencing)
+DESCRIPTION:Varsity Boys Boys Fencing - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2745:7460352@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270108T160000
 DTEND;TZID=America/New_York:20270108T180000
 SUMMARY:Morris Catholic High School at Randolph High School (Varsity Boys
   Boys Fencing)
+DESCRIPTION:Varsity Boys Boys Fencing - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:104140198@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270111T160000
+DTEND;TZID=America/New_York:20270111T180000
+SUMMARY:West Morris Central at Morris Catholic High School (Varsity Boys 
+ Boys Fencing)
+DESCRIPTION:Varsity Boys Boys Fencing - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2745:7640674@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270203T163000
+DTEND;TZID=America/New_York:20270203T183000
+SUMMARY:Morris Catholic High School vs Butler High School (Varsity Boys B
+ oys Fencing)
+DESCRIPTION:Varsity Boys Boys Fencing - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2745:7641066@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270205T160000
+DTEND;TZID=America/New_York:20270205T180000
+SUMMARY:Morris Catholic High School at Pompton Lakes High School (Varsity
+  Boys Boys Fencing)
 DESCRIPTION:Varsity Boys Boys Fencing - Away - 4:00 PM
 END:VEVENT
 END:VCALENDAR

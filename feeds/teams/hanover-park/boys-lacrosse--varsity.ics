@@ -62,11 +62,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2642:7511443@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270421T160000
-DTEND;TZID=America/New_York:20270421T180000
+DTSTART;TZID=America/New_York:20270420T161500
+DTEND;TZID=America/New_York:20270420T181500
 SUMMARY:Hanover Park High School at Morristown Beard School (Varsity Boys
   Boys Lacrosse)
-DESCRIPTION:Varsity Boys Boys Lacrosse - Away - 4:00 PM
+DESCRIPTION:Varsity Boys Boys Lacrosse - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2642:7511460@northwest-jersey-athletic-conference
@@ -76,5 +76,14 @@ DTEND;TZID=America/New_York:20270424T130000
 SUMMARY:Hanover Park High School at Park Regional (WP/HP) (Varsity Boys B
  oys Lacrosse)
 DESCRIPTION:Varsity Boys Boys Lacrosse - Away - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:104292260@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270507
+DTEND;VALUE=DATE:20270508
+SUMMARY:Madison High School vs Hanover Park High School (Varsity Boys Boy
+ s Lacrosse)
+DESCRIPTION:Varsity Boys Boys Lacrosse - Home
 END:VEVENT
 END:VCALENDAR

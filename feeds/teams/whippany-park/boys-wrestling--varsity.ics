@@ -24,6 +24,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2748:7646050@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261212T090000
+DTEND;TZID=America/New_York:20261212T110000
+SUMMARY:Morristown High School vs Whippany Park High School (Varsity Boys
+  Boys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Home - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:103011940@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261216T173000
@@ -31,6 +40,15 @@ DTEND;TZID=America/New_York:20261216T193000
 SUMMARY:Boonton High School vs Whippany Park High School (Varsity Boys Bo
  ys Wrestling)
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2940:7646051@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261216
+DTEND;VALUE=DATE:20261217
+SUMMARY:Whippany Park High School at Boonton High School (Varsity Boys Bo
+ ys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2685:7539779@northwest-jersey-athletic-conference
@@ -60,6 +78,33 @@ SUMMARY:Whippany Park High School vs Madison High School (Varsity Boys Bo
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:arb:104150831@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270111T190000
+DTEND;TZID=America/New_York:20270111T210000
+SUMMARY:Madison High School at Whippany Park High School (Varsity Boys Bo
+ ys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Away - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2790:7637908@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:Parsippany High School vs Whippany Park High School (Varsity Boys
+  Boys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2940:7637908@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:Whippany Park High School at Parsippany High School (Varsity Boys
+  Boys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Away
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2642:7463518@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270119T190000
@@ -76,5 +121,23 @@ DTEND;TZID=America/New_York:20270128T201500
 SUMMARY:Whippany Park High School vs Pequannock High School (Varsity Boys
   Boys Wrestling)
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:104150844@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270128T183000
+DTEND;TZID=America/New_York:20270128T203000
+SUMMARY:Pequannock High School at Whippany Park High School (Varsity Boys
+  Boys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Away - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2825:7647402@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270130T090000
+DTEND;TZID=America/New_York:20270130T110000
+SUMMARY:Randolph High School at Whippany Park High School (Varsity Boys B
+ oys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Away - 9:00 AM
 END:VEVENT
 END:VCALENDAR
