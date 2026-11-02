@@ -265,15 +265,6 @@ SUMMARY:Morristown Beard School vs Bogota (Junior Varsity Boys Boys Baske
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:MorristownBeardSchool:event_10739_20261207t223000zapi.veracross.c
- om@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261207T173000
-DTEND;TZID=America/New_York:20261207T193000
-SUMMARY:Morristown Beard School vs Bogota (Freshman Boys Boys Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Home - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ics:MorristownBeardSchool:event_10741_20261207t223000zapi.veracross.c
  om@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
@@ -281,6 +272,15 @@ DTSTART;TZID=America/New_York:20261207T173000
 DTEND;TZID=America/New_York:20261207T193000
 SUMMARY:Morristown Beard School vs Bogota (Varsity Boys Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:MorristownBeardSchool:event_10739_20261207t223000zapi.veracross.c
+ om@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261207T173000
+DTEND;TZID=America/New_York:20261207T193000
+SUMMARY:Morristown Beard School vs Bogota (Freshman Boys Boys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ics:MorristownBeardSchool:event_11613_20261208t000000zapi.veracross.c
@@ -4317,15 +4317,6 @@ SUMMARY:Hopatcong High School at Newton High School (Freshman Boys Boys B
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2685:7542372@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270104T160000
-DTEND;TZID=America/New_York:20270104T180000
-SUMMARY:Kinnelon High School vs Wallkill Valley High School (Varsity Boys
-  Boys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2685:7568435@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270104T160000
@@ -4485,15 +4476,6 @@ DTSTART;TZID=America/New_York:20270104T173000
 DTEND;TZID=America/New_York:20270104T193000
 SUMMARY:Hackettstown High School vs Jefferson Township High School (Junio
  r Varsity Boys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2685:7542405@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270104T173000
-DTEND;TZID=America/New_York:20270104T193000
-SUMMARY:Kinnelon High School vs Wallkill Valley High School (Junior Varsi
- ty Boys Boys Basketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -5882,6 +5864,14 @@ DTEND;TZID=America/New_York:20270109T150000
 SUMMARY:Kittatinny High School vs Technology High School (Varsity Boys Bo
  ys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 1:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2745:7738122@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270109T163000
+DTEND;TZID=America/New_York:20270109T183000
+SUMMARY:Morris Catholic High School at TBD (Varsity Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102335227@northwest-jersey-athletic-conference
