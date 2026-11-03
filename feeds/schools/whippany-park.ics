@@ -3595,11 +3595,20 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2825:7547391@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270123T113000
-DTEND;TZID=America/New_York:20270123T133000
+DTSTART;TZID=America/New_York:20270123T100000
+DTEND;TZID=America/New_York:20270123T120000
 SUMMARY:Randolph High School vs Whippany Park High School (Freshman Boys 
  Boys Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Home - 11:30 AM
+DESCRIPTION:Freshman Boys Boys Basketball - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2825:7546915@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270123T113000
+DTEND;TZID=America/New_York:20270123T133000
+SUMMARY:Randolph High School vs Whippany Park High School (Junior Varsity
+  Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2825:7723931@northwest-jersey-athletic-conference
@@ -3609,15 +3618,6 @@ DTEND;TZID=America/New_York:20270123T140000
 SUMMARY:Randolph High School at Whippany Park High School (Junior Varsity
   Girls Girls Basketball)
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 12:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2825:7546915@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270123T130000
-DTEND;TZID=America/New_York:20270123T150000
-SUMMARY:Randolph High School vs Whippany Park High School (Junior Varsity
-  Boys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2825:7559016@northwest-jersey-athletic-conference
@@ -4152,16 +4152,6 @@ SUMMARY:Whippany Park High School at Park Regional (WP/HP) (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Lacrosse - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:MorristownBeardSchool:event_11042_20270331t200000zapi.veracross.c
- om@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270331T160000
-DTEND;TZID=America/New_York:20270331T180000
-SUMMARY:Morristown Beard School at Whippany Park High School (Varsity Bas
- eball)
-DESCRIPTION:Varsity Baseball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ics:MorristownBeardSchool:event_11086_20270331t200000zapi.veracross.c
  om@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
@@ -4170,6 +4160,16 @@ DTEND;TZID=America/New_York:20270331T180000
 SUMMARY:Morristown Beard School vs Whippany Park High School (Junior Vars
  ity Baseball)
 DESCRIPTION:Junior Varsity Baseball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:MorristownBeardSchool:event_11042_20270331t200000zapi.veracross.c
+ om@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270331T160000
+DTEND;TZID=America/New_York:20270331T180000
+SUMMARY:Morristown Beard School at Whippany Park High School (Varsity Bas
+ eball)
+DESCRIPTION:Varsity Baseball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2940:7596599@northwest-jersey-athletic-conference
@@ -4397,13 +4397,13 @@ SUMMARY:Jefferson Township High School at Whippany Park High School (Vars
 DESCRIPTION:Varsity Girls Girls Lacrosse - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2940:7739361@northwest-jersey-athletic-conference
+UID:ds:2642:7739361@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270423T160000
 DTEND;TZID=America/New_York:20270423T180000
-SUMMARY:Whippany Park High School vs Hanover Park High School (Varsity Gi
+SUMMARY:Hanover Park High School at Whippany Park High School (Varsity Gi
  rls Softball)
-DESCRIPTION:Varsity Girls Softball - Home - 4:00 PM
+DESCRIPTION:Varsity Girls Softball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2940:7511460@northwest-jersey-athletic-conference
