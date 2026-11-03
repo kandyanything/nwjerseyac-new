@@ -24,6 +24,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2634:7740035@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270401T160000
+DTEND;TZID=America/New_York:20270401T180000
+SUMMARY:Hackettstown High School at Morris Catholic High School (Varsity 
+ Boys Boys Lacrosse)
+DESCRIPTION:Varsity Boys Boys Lacrosse - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2745:7633295@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270403T100000
@@ -31,6 +40,33 @@ DTEND;TZID=America/New_York:20270403T120000
 SUMMARY:Morris Catholic High School at Waldwick High School (Varsity Boys
   Boys Lacrosse)
 DESCRIPTION:Varsity Boys Boys Lacrosse - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2745:7740046@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270407T160000
+DTEND;TZID=America/New_York:20270407T180000
+SUMMARY:Morris Catholic High School at Union Catholic Regional High Schoo
+ l (Varsity Boys Boys Lacrosse)
+DESCRIPTION:Varsity Boys Boys Lacrosse - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2745:7740051@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270410T100000
+DTEND;TZID=America/New_York:20270410T120000
+SUMMARY:Morris Catholic High School at Hawthorne High School (Varsity Boy
+ s Boys Lacrosse)
+DESCRIPTION:Varsity Boys Boys Lacrosse - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2649:7740054@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270414T160000
+DTEND;TZID=America/New_York:20270414T180000
+SUMMARY:High Point High School at Morris Catholic High School (Varsity Bo
+ ys Boys Lacrosse)
+DESCRIPTION:Varsity Boys Boys Lacrosse - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2745:7580316@northwest-jersey-athletic-conference
@@ -51,6 +87,15 @@ SUMMARY:Morris Catholic High School at West Orange High School (Junior Va
 DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2745:7740061@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270421T160000
+DTEND;TZID=America/New_York:20270421T180000
+SUMMARY:Morris Catholic High School vs West Orange High School (Varsity B
+ oys Boys Lacrosse)
+DESCRIPTION:Varsity Boys Boys Lacrosse - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2745:7644768@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270424T100000
@@ -60,12 +105,39 @@ SUMMARY:Morris Catholic High School at Bergen County Technical High Schoo
 DESCRIPTION:Varsity Boys Boys Lacrosse - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2745:7740065@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270428T160000
+DTEND;TZID=America/New_York:20270428T180000
+SUMMARY:Morris Catholic High School vs North Warren (Varsity Boys Boys La
+ crosse)
+DESCRIPTION:Varsity Boys Boys Lacrosse - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2745:7740068@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270506T160000
+DTEND;TZID=America/New_York:20270506T180000
+SUMMARY:Morris Catholic High School vs Clifton High School (Varsity Boys 
+ Boys Lacrosse)
+DESCRIPTION:Varsity Boys Boys Lacrosse - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2745:7627368@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270511T161500
-DTEND;TZID=America/New_York:20270511T181500
+DTSTART;TZID=America/New_York:20270511T163000
+DTEND;TZID=America/New_York:20270511T183000
 SUMMARY:Morris Catholic High School vs Eastern Christian (Varsity Boys Bo
  ys Lacrosse)
-DESCRIPTION:Varsity Boys Boys Lacrosse - Home - 4:15 PM
+DESCRIPTION:Varsity Boys Boys Lacrosse - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2649:7740091@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270518T160000
+DTEND;TZID=America/New_York:20270518T180000
+SUMMARY:High Point High School vs Morris Catholic High School (Varsity Bo
+ ys Boys Lacrosse)
+DESCRIPTION:Varsity Boys Boys Lacrosse - Home - 4:00 PM
 END:VEVENT
 END:VCALENDAR
