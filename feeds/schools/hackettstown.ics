@@ -4250,22 +4250,22 @@ SUMMARY:Hackettstown High School vs Butler High School (Varsity Boys Base
 DESCRIPTION:Varsity Boys Baseball - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2649:7739430@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270329T160000
-DTEND;TZID=America/New_York:20270329T180000
-SUMMARY:High Point High School at Hackettstown High School (Junior Varsit
- y Boys Baseball)
-DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2634:7614571@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270329T163000
-DTEND;TZID=America/New_York:20270329T183000
+DTSTART;TZID=America/New_York:20270329T100000
+DTEND;TZID=America/New_York:20270329T120000
 SUMMARY:Hackettstown High School vs High Point High School (Varsity Boys 
  Baseball)
-DESCRIPTION:Varsity Boys Baseball - Home - 4:30 PM
+DESCRIPTION:Varsity Boys Baseball - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2634:7739430@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270329T100000
+DTEND;TZID=America/New_York:20270329T120000
+SUMMARY:Hackettstown High School vs High Point High School (Junior Varsit
+ y Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2634:7636893@northwest-jersey-athletic-conference
@@ -4297,11 +4297,20 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2634:7614574@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270331T160000
-DTEND;TZID=America/New_York:20270331T180000
+DTSTART;TZID=America/New_York:20270331T100000
+DTEND;TZID=America/New_York:20270331T120000
 SUMMARY:Hackettstown High School at High Point High School (Varsity Boys 
  Baseball)
-DESCRIPTION:Varsity Boys Baseball - Away - 4:00 PM
+DESCRIPTION:Varsity Boys Baseball - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2634:7739431@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270331T100000
+DTEND;TZID=America/New_York:20270331T120000
+SUMMARY:Hackettstown High School at High Point High School (Junior Varsit
+ y Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2634:7658041@northwest-jersey-athletic-conference
@@ -4608,5 +4617,14 @@ DTEND;TZID=America/New_York:20270512T180000
 SUMMARY:Hackettstown High School vs Jefferson Township High School (Junio
  r Varsity Boys Baseball)
 DESCRIPTION:Junior Varsity Boys Baseball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2634:7739751@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270512T160000
+DTEND;TZID=America/New_York:20270512T180000
+SUMMARY:Hackettstown High School at Morris Catholic High School (Varsity 
+ Girls Girls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Away - 4:00 PM
 END:VEVENT
 END:VCALENDAR
