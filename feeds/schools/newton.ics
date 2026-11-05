@@ -349,15 +349,6 @@ SUMMARY:Newton High School at Vernon Township High School (Varsity Girls
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2761:7522471@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260905T100000
-DTEND;TZID=America/New_York:20260905T120000
-SUMMARY:Newton High School vs Pope John XXIII High School (Varsity Boys B
- oys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2761:7527380@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260905T100000
@@ -376,6 +367,15 @@ SUMMARY:Newton High School vs Pope John XXIII High School (Junior Varsity
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2761:7522471@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260905T100000
+DTEND;TZID=America/New_York:20260905T120000
+SUMMARY:Newton High School vs Pope John XXIII High School (Varsity Boys B
+ oys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2594:7542223@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260908T160000
@@ -385,13 +385,22 @@ SUMMARY:Dover High School at Newton High School (Varsity Boys Boys Cross
 DESCRIPTION:Varsity Boys Boys Cross Country - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2594:7511369@northwest-jersey-athletic-conference
+UID:ds:2594:7571056@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260908T160000
 DTEND;TZID=America/New_York:20260908T180000
 SUMMARY:Dover High School at Newton High School (Varsity Girls Girls Cros
  s Country)
 DESCRIPTION:Varsity Girls Girls Cross Country - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2674:7506338@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260908T160000
+DTEND;TZID=America/New_York:20260908T180000
+SUMMARY:Jefferson Township High School at Newton High School (Varsity Boy
+ s Boys Cross Country)
+DESCRIPTION:Varsity Boys Boys Cross Country - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2674:7571056@northwest-jersey-athletic-conference
@@ -403,13 +412,22 @@ SUMMARY:Jefferson Township High School at Newton High School (Varsity Gir
 DESCRIPTION:Varsity Girls Girls Cross Country - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2674:7542223@northwest-jersey-athletic-conference
+UID:ds:2754:7538896@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260908T160000
 DTEND;TZID=America/New_York:20260908T180000
-SUMMARY:Jefferson Township High School at Newton High School (Varsity Boy
- s Boys Cross Country)
-DESCRIPTION:Varsity Boys Boys Cross Country - Away - 4:00 PM
+SUMMARY:Mountain Lakes High School at Newton High School (Freshman Boys B
+ oys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2754:7538895@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260908T160000
+DTEND;TZID=America/New_York:20260908T180000
+SUMMARY:Mountain Lakes High School at Newton High School (Junior Varsity 
+ Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2754:7501591@northwest-jersey-athletic-conference
@@ -430,34 +448,16 @@ SUMMARY:Mountain Lakes High School at Newton High School (Varsity Boys Bo
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2754:7538895@northwest-jersey-athletic-conference
+UID:ds:2761:7545371@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260908T160000
 DTEND;TZID=America/New_York:20260908T180000
-SUMMARY:Mountain Lakes High School at Newton High School (Junior Varsity 
- Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
+SUMMARY:Newton High School vs Vernon Township High School (Freshman Girls
+  Field Hockey)
+DESCRIPTION:Freshman Girls Field Hockey - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2754:7538896@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260908T160000
-DTEND;TZID=America/New_York:20260908T180000
-SUMMARY:Mountain Lakes High School at Newton High School (Freshman Boys B
- oys Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2761:7506338@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260908T160000
-DTEND;TZID=America/New_York:20260908T180000
-SUMMARY:Newton High School vs Sussex County Technical High School (Varsit
- y Boys Boys Cross Country)
-DESCRIPTION:Varsity Boys Boys Cross Country - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2761:7511369@northwest-jersey-athletic-conference
+UID:ds:2761:7571056@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260908T160000
 DTEND;TZID=America/New_York:20260908T180000
@@ -466,13 +466,13 @@ SUMMARY:Newton High School vs Sussex County Technical High School (Varsit
 DESCRIPTION:Varsity Girls Girls Cross Country - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2761:7545371@northwest-jersey-athletic-conference
+UID:ds:2761:7542223@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260908T160000
 DTEND;TZID=America/New_York:20260908T180000
-SUMMARY:Newton High School vs Vernon Township High School (Freshman Girls
-  Field Hockey)
-DESCRIPTION:Freshman Girls Field Hockey - Home - 4:00 PM
+SUMMARY:Newton High School vs Sussex County Technical High School (Varsit
+ y Boys Boys Cross Country)
+DESCRIPTION:Varsity Boys Boys Cross Country - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2887:7542223@northwest-jersey-athletic-conference
@@ -493,15 +493,6 @@ SUMMARY:Sussex County Tech High School at Newton High School (Varsity Gir
 DESCRIPTION:Varsity Girls Girls Cross Country - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2761:7549091@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260909T160000
-DTEND;TZID=America/New_York:20260909T180000
-SUMMARY:Newton High School at Vernon Township High School (Freshman Boys 
- Football)
-DESCRIPTION:Freshman Boys Football - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2761:7527276@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260909T160000
@@ -509,6 +500,15 @@ DTEND;TZID=America/New_York:20260909T180000
 SUMMARY:Newton High School vs Vernon Township High School (Varsity Girls 
  Field Hockey)
 DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2761:7549091@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260909T160000
+DTEND;TZID=America/New_York:20260909T180000
+SUMMARY:Newton High School at Vernon Township High School (Freshman Boys 
+ Football)
+DESCRIPTION:Freshman Boys Football - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2761:7527277@northwest-jersey-athletic-conference
@@ -537,20 +537,20 @@ SUMMARY:Lenape Valley High School vs Newton High School (Varsity Girls Gi
 DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2761:7533086@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260910T160000
-DTEND;TZID=America/New_York:20260910T180000
-SUMMARY:Newton High School vs North Warren (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2761:7532502@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260910T160000
 DTEND;TZID=America/New_York:20260910T180000
 SUMMARY:Newton High School at North Warren (Varsity Boys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2761:7533086@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260910T160000
+DTEND;TZID=America/New_York:20260910T180000
+SUMMARY:Newton High School vs North Warren (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2761:7590164@northwest-jersey-athletic-conference
@@ -702,6 +702,15 @@ SUMMARY:West Morris Central at Newton High School (Junior Varsity Girls F
 DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2634:7538939@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260916T160000
+DTEND;TZID=America/New_York:20260916T180000
+SUMMARY:Hackettstown High School vs Newton High School (Freshman Boys Boy
+ s Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2634:7462338@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260916T160000
@@ -729,13 +738,13 @@ SUMMARY:Hackettstown High School at Newton High School (Varsity Girls Gir
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2634:7538939@northwest-jersey-athletic-conference
+UID:ds:2761:7631869@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260916T160000
 DTEND;TZID=America/New_York:20260916T180000
-SUMMARY:Hackettstown High School vs Newton High School (Freshman Boys Boy
- s Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
+SUMMARY:Newton High School at Sparta High School (Middle School Girls Fie
+ ld Hockey)
+DESCRIPTION:Middle School Girls Field Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2761:7533317@northwest-jersey-athletic-conference
@@ -745,15 +754,6 @@ DTEND;TZID=America/New_York:20260916T180000
 SUMMARY:Newton High School vs Vernon Township High School (Varsity Girls 
  Girls Tennis)
 DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2761:7631869@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260916T160000
-DTEND;TZID=America/New_York:20260916T180000
-SUMMARY:Newton High School at Sparta High School (Middle School Girls Fie
- ld Hockey)
-DESCRIPTION:Middle School Girls Field Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:99189538@northwest-jersey-athletic-conference
@@ -784,15 +784,6 @@ SUMMARY:Newton High School at Montclair High School (Junior Varsity Girls
 DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2761:7509532@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260918T154500
-DTEND;TZID=America/New_York:20260918T174500
-SUMMARY:Newton High School at Wallkill Valley High School (Junior Varsity
-  Girls Girls Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 3:45 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2761:7504567@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260918T154500
@@ -800,6 +791,15 @@ DTEND;TZID=America/New_York:20260918T174500
 SUMMARY:Newton High School at Wallkill Valley High School (Varsity Girls 
  Girls Tennis)
 DESCRIPTION:Varsity Girls Girls Tennis - Away - 3:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2761:7509532@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260918T154500
+DTEND;TZID=America/New_York:20260918T174500
+SUMMARY:Newton High School at Wallkill Valley High School (Junior Varsity
+  Girls Girls Tennis)
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 3:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2761:7517331@northwest-jersey-athletic-conference
@@ -811,15 +811,6 @@ SUMMARY:Newton High School vs Whippany Park High School (Varsity Girls Gi
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2674:7497641@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260918T183000
-DTEND;TZID=America/New_York:20260918T203000
-SUMMARY:Jefferson Township High School vs Newton High School (Varsity Boy
- s Football)
-DESCRIPTION:Varsity Boys Football - Home - 6:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2674:7535167@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260918T183000
@@ -829,12 +820,13 @@ SUMMARY:Jefferson Township High School vs Newton High School (Varsity Gir
 DESCRIPTION:Varsity Girls Girls Cheerleading - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2761:7603920@northwest-jersey-athletic-conference
+UID:ds:2674:7497641@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260919T090000
-DTEND;TZID=America/New_York:20260919T110000
-SUMMARY:Newton High School at TBA NJAC (Varsity Boys Boys Cross Country)
-DESCRIPTION:Varsity Boys Boys Cross Country - Away - 9:00 AM
+DTSTART;TZID=America/New_York:20260918T183000
+DTEND;TZID=America/New_York:20260918T203000
+SUMMARY:Jefferson Township High School vs Newton High School (Varsity Boy
+ s Football)
+DESCRIPTION:Varsity Boys Football - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2761:7604600@northwest-jersey-athletic-conference
@@ -843,6 +835,14 @@ DTSTART;TZID=America/New_York:20260919T090000
 DTEND;TZID=America/New_York:20260919T110000
 SUMMARY:Newton High School at TBA NJAC (Varsity Girls Girls Cross Country)
 DESCRIPTION:Varsity Girls Girls Cross Country - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2761:7603920@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T090000
+DTEND;TZID=America/New_York:20260919T110000
+SUMMARY:Newton High School at TBA NJAC (Varsity Boys Boys Cross Country)
+DESCRIPTION:Varsity Boys Boys Cross Country - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:104048966@northwest-jersey-athletic-conference
@@ -925,13 +925,13 @@ SUMMARY:High Point High School at Newton High School (Varsity Boys Boys S
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2649:7511765@northwest-jersey-athletic-conference
+UID:ds:2649:7475981@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260922T160000
 DTEND;TZID=America/New_York:20260922T180000
-SUMMARY:High Point High School at Newton High School (Junior Varsity Boys
-  Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
+SUMMARY:High Point High School vs Newton High School (Varsity Girls Girls
+  Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2649:7514764@northwest-jersey-athletic-conference
@@ -943,13 +943,13 @@ SUMMARY:High Point High School at Newton High School (Freshman Boys Boys
 DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2649:7475981@northwest-jersey-athletic-conference
+UID:ds:2649:7511765@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260922T160000
 DTEND;TZID=America/New_York:20260922T180000
-SUMMARY:High Point High School vs Newton High School (Varsity Girls Girls
-  Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
+SUMMARY:High Point High School at Newton High School (Junior Varsity Boys
+  Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2674:7472404@northwest-jersey-athletic-conference
@@ -988,15 +988,6 @@ SUMMARY:Hackettstown High School vs Newton High School (Varsity Girls Fie
 DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2761:7545453@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260924T160000
-DTEND;TZID=America/New_York:20260924T180000
-SUMMARY:Newton High School at Hardyston Middle School (Middle School Girl
- s Field Hockey)
-DESCRIPTION:Middle School Girls Field Hockey - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2761:7496490@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260924T160000
@@ -1004,6 +995,15 @@ DTEND;TZID=America/New_York:20260924T180000
 SUMMARY:Newton High School at Sparta High School (Varsity Girls Girls Soc
  cer)
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2761:7545453@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260924T160000
+DTEND;TZID=America/New_York:20260924T180000
+SUMMARY:Newton High School at Hardyston Middle School (Middle School Girl
+ s Field Hockey)
+DESCRIPTION:Middle School Girls Field Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2634:7485234@northwest-jersey-athletic-conference
@@ -1111,6 +1111,15 @@ SUMMARY:Kittatinny High School at Newton High School (Varsity Girls Field
 DESCRIPTION:Varsity Girls Field Hockey - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2761:7532508@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260929T160000
+DTEND;TZID=America/New_York:20260929T180000
+SUMMARY:Newton High School vs North Warren (Junior Varsity Boys Boys Socc
+ er)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2761:7554371@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260929T160000
@@ -1118,23 +1127,6 @@ DTEND;TZID=America/New_York:20260929T180000
 SUMMARY:Newton High School at Sussex County Technical High School (Varsit
  y Girls Girls Tennis)
 DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2761:7546810@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260929T160000
-DTEND;TZID=America/New_York:20260929T180000
-SUMMARY:Newton High School vs Montclair High School (Freshman Girls Field
-  Hockey)
-DESCRIPTION:Freshman Girls Field Hockey - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2761:7533110@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260929T160000
-DTEND;TZID=America/New_York:20260929T180000
-SUMMARY:Newton High School at North Warren (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2761:7532507@northwest-jersey-athletic-conference
@@ -1145,13 +1137,21 @@ SUMMARY:Newton High School vs North Warren (Varsity Boys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2761:7532508@northwest-jersey-athletic-conference
+UID:ds:2761:7533110@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260929T160000
 DTEND;TZID=America/New_York:20260929T180000
-SUMMARY:Newton High School vs North Warren (Junior Varsity Boys Boys Socc
- er)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
+SUMMARY:Newton High School at North Warren (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2761:7546810@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260929T160000
+DTEND;TZID=America/New_York:20260929T180000
+SUMMARY:Newton High School vs Montclair High School (Freshman Girls Field
+  Hockey)
+DESCRIPTION:Freshman Girls Field Hockey - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2887:7554371@northwest-jersey-athletic-conference

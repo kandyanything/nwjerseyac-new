@@ -24,15 +24,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2685:7527804@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260903T160000
-DTEND;TZID=America/New_York:20260903T180000
-SUMMARY:Kinnelon High School vs Academy of Saint Elizabeth (Varsity Girls
-  Girls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2685:7529077@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260903T160000
@@ -40,6 +31,15 @@ DTEND;TZID=America/New_York:20260903T180000
 SUMMARY:Kinnelon High School at Academy of Saint Elizabeth (Junior Varsit
  y Girls Girls Tennis)
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2685:7527804@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260903T160000
+DTEND;TZID=America/New_York:20260903T180000
+SUMMARY:Kinnelon High School vs Academy of Saint Elizabeth (Varsity Girls
+  Girls Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2790:7550585@northwest-jersey-athletic-conference
@@ -141,15 +141,6 @@ SUMMARY:Parsippany High School at Academy of Saint Elizabeth (Junior Vars
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2913:7579111@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260919T100000
-DTEND;TZID=America/New_York:20260919T120000
-SUMMARY:Villa Walsh Academy vs Academy of Saint Elizabeth (Junior Varsity
-  Girls Girls Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2913:7579110@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260919T100000
@@ -157,6 +148,15 @@ DTEND;TZID=America/New_York:20260919T120000
 SUMMARY:Villa Walsh Academy vs Academy of Saint Elizabeth (Varsity Girls 
  Girls Tennis)
 DESCRIPTION:Varsity Girls Girls Tennis - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2913:7579111@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T100000
+DTEND;TZID=America/New_York:20260919T120000
+SUMMARY:Villa Walsh Academy vs Academy of Saint Elizabeth (Junior Varsity
+  Girls Girls Tennis)
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102487199@northwest-jersey-athletic-conference
