@@ -903,6 +903,10 @@
 }
 @media (max-width: 600px) { .score-card { min-width: 176px; } }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 895f744a0 (Scores refresh 2026-10-31)
 /* ==========================================================================
    Social wall. Tabs switch platform; "All" lays them side by side on wide
    screens and stacks below 720px. The Facebook Page Plugin has a fixed
@@ -980,6 +984,7 @@
 
 .njac-social .social-posts {
     display: grid;
+<<<<<<< HEAD
     /* Pinned, not stretched: the frame height is fixed (see below), so a
        column free to grow would clip the post. */
     grid-template-columns: repeat(auto-fit, 340px);
@@ -1003,6 +1008,10 @@
 
 @media (max-width: 400px) {
     .njac-social .social-posts { grid-template-columns: 1fr; }
+=======
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 12px;
+>>>>>>> 895f744a0 (Scores refresh 2026-10-31)
 }
 
 .njac-social .social-empty {
