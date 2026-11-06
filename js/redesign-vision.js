@@ -27,8 +27,17 @@ document.addEventListener('DOMContentLoaded', function () {
         })
         .catch(function () { section.style.display = 'none'; });
 
+    // NFHS Network publishes a real frame from the game itself, derivable from
+    // the game id in the event url. These entries are {url, source:'nfhs'} with
+    // no YouTube id, so the template was building i.ytimg.com/vi/undefined/.
+    function nfhsThumb(url) {
+        var m = String(url || '').match(new RegExp('/(gam[a-z0-9]+)(?:[/?#]|$)', 'i'));
+        return m ? 'https://social.nfhsnetwork.com/thumbnails/' + m[1] + '_nfhs_net.jpg' : '';
+    }
+
     function thumbUrl(v, big) {
         if (v.thumb && /^https?:\/\//i.test(v.thumb)) return v.thumb;
+<<<<<<< HEAD
         if (v.id && !v.url) {
             if (v.thumb) return 'https://i.ytimg.com/vi/' + v.id + '/' + v.thumb + '.jpg';
             return 'https://i.ytimg.com/vi/' + v.id + '/' + (big ? 'maxresdefault' : 'hqdefault') + '.jpg';
@@ -39,6 +48,11 @@ document.addEventListener('DOMContentLoaded', function () {
             if (m) return 'https://social.nfhsnetwork.com/thumbnails/' + m[1] + '_nfhs_net.jpg';
         }
         return '';
+=======
+        if (!v.id && v.url) return nfhsThumb(v.url);
+        if (v.thumb) return 'https://i.ytimg.com/vi/' + v.id + '/' + v.thumb + '.jpg';
+        return 'https://i.ytimg.com/vi/' + v.id + '/' + (big ? 'maxresdefault' : 'hqdefault') + '.jpg';
+>>>>>>> 895f744a0 (Scores refresh 2026-10-31)
     }
 
     function buildTile(v, big) {
@@ -79,6 +93,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
 
         btn.addEventListener('click', function () {
+<<<<<<< HEAD
             if (isExternal) {
                 window.open(v.url, '_blank', 'noopener,noreferrer');
             } else {
@@ -91,6 +106,19 @@ document.addEventListener('DOMContentLoaded', function () {
                 frame.setAttribute('frameborder', '0');
                 btn.replaceWith(frame);
             }
+=======
+            // An NFHS broadcast cannot be embedded the way a YouTube video can,
+            // so send the viewer to the game rather than to a frame that never loads.
+            if (!v.id && v.url) { window.open(v.url, '_blank', 'noopener'); return; }
+            var frame = document.createElement('iframe');
+            frame.src = 'https://www.youtube.com/embed/' + v.id + '?autoplay=1&rel=0';
+            frame.title = v.title || 'NJAC game video';
+            frame.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+            frame.referrerPolicy = 'strict-origin-when-cross-origin';
+            frame.allowFullscreen = true;
+            frame.setAttribute('frameborder', '0');
+            btn.replaceWith(frame);
+>>>>>>> 895f744a0 (Scores refresh 2026-10-31)
         });
 
         var meta = document.createElement('div');
