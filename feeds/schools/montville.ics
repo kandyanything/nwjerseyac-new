@@ -2973,16 +2973,6 @@ SUMMARY:Delbarton School vs Montville High School (Varsity Boys [W] Delba
 DESCRIPTION:Varsity Boys [W] Delbarton School Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:DelbartonSchool:vcal_7215-delbartonathletics.org@northwest-jersey
- -athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261021T160000
-DTEND;TZID=America/New_York:20261021T180000
-SUMMARY:Delbarton School vs Montville High School (Freshman Boys [W] Delb
- arton School Soccer)
-DESCRIPTION:Freshman Boys [W] Delbarton School Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ics:DelbartonSchool:vcal_7195-delbartonathletics.org@northwest-jersey
  -athletic-conference
 DTSTAMP:20250801T000000Z
@@ -2992,6 +2982,16 @@ SUMMARY:Delbarton School vs Montville High School (Junior Varsity Boys [L
  ] Delbarton School Soccer)
 DESCRIPTION:Junior Varsity Boys [L] Delbarton School Soccer - Home - 4:00
   PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:DelbartonSchool:vcal_7215-delbartonathletics.org@northwest-jersey
+ -athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261021T160000
+DTEND;TZID=America/New_York:20261021T180000
+SUMMARY:Delbarton School vs Montville High School (Freshman Boys [W] Delb
+ arton School Soccer)
+DESCRIPTION:Freshman Boys [W] Delbarton School Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101957464@northwest-jersey-athletic-conference
@@ -3393,6 +3393,15 @@ DTEND;TZID=America/New_York:20261107T120000
 SUMMARY:Montville High School at Elmwood Park High School (Varsity Boys B
  oys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:105422001@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:Montville High School at Lakeland Regional High School (Varsity G
+ irls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:104760559@northwest-jersey-athletic-conference
