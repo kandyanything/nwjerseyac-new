@@ -216,10 +216,10 @@ END:VEVENT
 BEGIN:VEVENT
 UID:arb:105422001@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261110
-DTEND;VALUE=DATE:20261111
+DTSTART;TZID=America/New_York:20261110T180000
+DTEND;TZID=America/New_York:20261110T200000
 SUMMARY:Montville High School at Lakeland Regional High School (Varsity G
  irls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 6:00 PM
 END:VEVENT
 END:VCALENDAR
