@@ -3863,11 +3863,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:arb:105422004@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261110
-DTEND;VALUE=DATE:20261111
+DTSTART;TZID=America/New_York:20261110T140000
+DTEND;TZID=America/New_York:20261110T160000
 SUMMARY:Morris Knolls High School at Old Tappan High School (Varsity Girl
  s Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 2:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102207634@northwest-jersey-athletic-conference
@@ -4254,6 +4254,15 @@ SUMMARY:Morris Knolls High School at Verona High School (Varsity Girls Gi
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:arb:105452305@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261212T113000
+DTEND;TZID=America/New_York:20261212T133000
+SUMMARY:Morris Knolls High School at Essex County-West Caldwell Tech High
+  School (Junior Varsity Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:103883027@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261212T113000
@@ -4261,6 +4270,15 @@ DTEND;TZID=America/New_York:20261212T133000
 SUMMARY:Morris Knolls High School at Verona High School (Junior Varsity G
  irls Girls Basketball)
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:105452309@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261212T130000
+DTEND;TZID=America/New_York:20261212T150000
+SUMMARY:Morris Knolls High School at Essex County-West Caldwell Tech High
+  School (Varsity Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2634:7735066@northwest-jersey-athletic-conference
@@ -4629,6 +4647,15 @@ DTEND;TZID=America/New_York:20261219T181500
 SUMMARY:Morris Knolls High School at Parsippany High School (Varsity Boys
   Boys Ice Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2825:7753300@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261220T175500
+DTEND;TZID=America/New_York:20261220T195500
+SUMMARY:Randolph High School vs Morris Knolls High School (Junior Varsity
+  Boys Boys Ice Hockey)
+DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Home - 5:55 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:104912656@northwest-jersey-athletic-conference
