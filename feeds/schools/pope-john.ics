@@ -510,31 +510,31 @@ SUMMARY:Pope John XXIII High School at Don Bosco Prep (Boys (9) Football)
 DESCRIPTION:Boys (9) Football - Away - 8:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2816:7531009@northwest-jersey-athletic-conference
+UID:ds:2594:7497328@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260912T100000
 DTEND;TZID=America/New_York:20260912T120000
-SUMMARY:Pope John XXIII High School at Dover High School (Freshman Boys B
- oys Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Away - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2816:7530981@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260912T100000
-DTEND;TZID=America/New_York:20260912T120000
-SUMMARY:Pope John XXIII High School at Dover High School (Junior Varsity 
- Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2816:7497328@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260912T100000
-DTEND;TZID=America/New_York:20260912T120000
-SUMMARY:Pope John XXIII High School at Dover High School (Varsity Boys Bo
+SUMMARY:Dover High School vs Pope John XXIII High School (Varsity Boys Bo
  ys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 10:00 AM
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2594:7530981@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260912T100000
+DTEND;TZID=America/New_York:20260912T120000
+SUMMARY:Dover High School vs Pope John XXIII High School (Junior Varsity 
+ Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2594:7531009@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260912T100000
+DTEND;TZID=America/New_York:20260912T120000
+SUMMARY:Dover High School vs Pope John XXIII High School (Freshman Boys B
+ oys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2816:7529245@northwest-jersey-athletic-conference
@@ -1034,6 +1034,15 @@ SUMMARY:Pequannock High School vs Pope John XXIII High School (Middle Sch
 DESCRIPTION:Middle School Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2564:7424179@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260924T160000
+DTEND;TZID=America/New_York:20260924T180000
+SUMMARY:Chatham High School vs Pope John XXIII High School (Junior Varsit
+ y Girls Girls Volleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2816:7501922@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260924T160000
@@ -1059,15 +1068,6 @@ DTEND;TZID=America/New_York:20260924T180000
 SUMMARY:Pope John XXIII High School at Pope John XXIII Middle School (Mid
  dle School Coed Coed Cross Country)
 DESCRIPTION:Middle School Coed Coed Cross Country - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2816:7424179@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260924T160000
-DTEND;TZID=America/New_York:20260924T180000
-SUMMARY:Pope John XXIII High School at Chatham High School (Junior Varsit
- y Girls Girls Volleyball)
-DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2816:7527636@northwest-jersey-athletic-conference
@@ -1097,6 +1097,15 @@ SUMMARY:Pope John XXIII High School at Blair Academy (Varsity Girls Field
 DESCRIPTION:Varsity Girls Field Hockey - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2564:7424106@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260924T173000
+DTEND;TZID=America/New_York:20260924T193000
+SUMMARY:Chatham High School vs Pope John XXIII High School (Varsity Girls
+  Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2816:7562951@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260924T173000
@@ -1104,15 +1113,6 @@ DTEND;TZID=America/New_York:20260924T193000
 SUMMARY:Pope John XXIII High School vs Roxbury High School (Freshman Boys
   Boys Soccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Home - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2816:7424106@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260924T173000
-DTEND;TZID=America/New_York:20260924T193000
-SUMMARY:Pope John XXIII High School at Chatham High School (Varsity Girls
-  Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2751:7495645@northwest-jersey-athletic-conference
@@ -1469,13 +1469,13 @@ DESCRIPTION:Middle School Girls Field Hockey - Away - 4:00 PM
 STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2816:7667293@northwest-jersey-athletic-conference
+UID:ds:2634:7667293@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261005T160000
 DTEND;TZID=America/New_York:20261005T180000
-SUMMARY:Pope John XXIII High School vs Hackettstown High School (Varsity 
+SUMMARY:Hackettstown High School at Pope John XXIII High School (Varsity 
  Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2816:7454654@northwest-jersey-athletic-conference
@@ -2043,6 +2043,15 @@ SUMMARY:West Morris Central at Pope John XXIII High School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2564:7536152@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261022T160000
+DTEND;TZID=America/New_York:20261022T180000
+SUMMARY:Chatham High School at Pope John XXIII High School (Varsity Girls
+  Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2816:7562956@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261022T160000
@@ -2052,22 +2061,13 @@ SUMMARY:Pope John XXIII High School vs West Morris Central (Freshman Boys
 DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2816:7536152@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261022T160000
-DTEND;TZID=America/New_York:20261022T180000
-SUMMARY:Pope John XXIII High School vs Chatham High School (Varsity Girls
-  Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2816:7536215@northwest-jersey-athletic-conference
+UID:ds:2564:7536215@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261022T171500
 DTEND;TZID=America/New_York:20261022T191500
-SUMMARY:Pope John XXIII High School vs Chatham High School (Junior Varsit
+SUMMARY:Chatham High School at Pope John XXIII High School (Junior Varsit
  y Girls Girls Volleyball)
-DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:15 PM
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 5:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102450596@northwest-jersey-athletic-conference
@@ -2743,9 +2743,9 @@ UID:ds:2816:7743344@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261211T164500
 DTEND;TZID=America/New_York:20261211T184500
-SUMMARY:Pope John XXIII High School at TBA NJAC (Varsity Coed Indoor Trac
- k)
-DESCRIPTION:Varsity Coed Indoor Track - Away - 4:45 PM
+SUMMARY:Pope John XXIII High School at TBA NJAC (Varsity Coed Coed Indoor
+  Track)
+DESCRIPTION:Varsity Coed Coed Indoor Track - Away - 4:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2816:7651732@northwest-jersey-athletic-conference
@@ -3020,9 +3020,9 @@ UID:ds:2816:7743380@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261221T163000
 DTEND;TZID=America/New_York:20261221T183000
-SUMMARY:Pope John XXIII High School at TBA NJAC (Varsity Coed Indoor Trac
- k)
-DESCRIPTION:Varsity Coed Indoor Track - Away - 4:30 PM
+SUMMARY:Pope John XXIII High School at TBA NJAC (Varsity Coed Coed Indoor
+  Track)
+DESCRIPTION:Varsity Coed Coed Indoor Track - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2816:7649199@northwest-jersey-athletic-conference
@@ -3158,6 +3158,15 @@ DTEND;TZID=America/New_York:20270106T173000
 SUMMARY:Pope John XXIII High School at Saint Joseph High School (Varsity 
  Boys Boys Ice Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2594:7686438@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270106T160000
+DTEND;TZID=America/New_York:20270106T180000
+SUMMARY:Dover High School at Pope John XXIII High School (Middle School B
+ oys Boys Basketball)
+DESCRIPTION:Middle School Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2816:7457926@northwest-jersey-athletic-conference
@@ -3350,9 +3359,9 @@ UID:ds:2816:7743428@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270108T170000
 DTEND;TZID=America/New_York:20270108T190000
-SUMMARY:Pope John XXIII High School at TBA NJAC (Varsity Coed Indoor Trac
- k)
-DESCRIPTION:Varsity Coed Indoor Track - Away - 5:00 PM
+SUMMARY:Pope John XXIII High School at TBA NJAC (Varsity Coed Coed Indoor
+  Track)
+DESCRIPTION:Varsity Coed Coed Indoor Track - Away - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2791:7634851@northwest-jersey-athletic-conference
@@ -3377,18 +3386,18 @@ UID:ds:2816:7743437@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270109T100000
 DTEND;TZID=America/New_York:20270109T120000
-SUMMARY:Pope John XXIII High School at TBA NJAC (Varsity Coed Indoor Trac
- k)
-DESCRIPTION:Varsity Coed Indoor Track - Away - 10:00 AM
+SUMMARY:Pope John XXIII High School at TBA NJAC (Varsity Coed Coed Indoor
+  Track)
+DESCRIPTION:Varsity Coed Coed Indoor Track - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2816:7743435@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270109T160000
 DTEND;TZID=America/New_York:20270109T180000
-SUMMARY:Pope John XXIII High School at TBA NJAC (Varsity Coed Indoor Trac
- k)
-DESCRIPTION:Varsity Coed Indoor Track - Away - 4:00 PM
+SUMMARY:Pope John XXIII High School at TBA NJAC (Varsity Coed Coed Indoor
+  Track)
+DESCRIPTION:Varsity Coed Coed Indoor Track - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2816:7457936@northwest-jersey-athletic-conference
@@ -3444,6 +3453,15 @@ SUMMARY:Mount Olive High School at Pope John XXIII High School (Varsity B
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2564:7535260@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270112T160000
+DTEND;TZID=America/New_York:20270112T180000
+SUMMARY:Chatham High School at Pope John XXIII High School (Freshman Girl
+ s Girls Basketball)
+DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2751:7514864@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T160000
@@ -3451,15 +3469,6 @@ DTEND;TZID=America/New_York:20270112T180000
 SUMMARY:Mount Olive High School vs Pope John XXIII High School (Freshman 
  Boys Boys Basketball)
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2816:7535260@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270112T160000
-DTEND;TZID=America/New_York:20270112T180000
-SUMMARY:Pope John XXIII High School vs Chatham High School (Freshman Girl
- s Girls Basketball)
-DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2816:7686404@northwest-jersey-athletic-conference
@@ -3475,9 +3484,18 @@ UID:ds:2816:7743444@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T163000
 DTEND;TZID=America/New_York:20270112T183000
-SUMMARY:Pope John XXIII High School at TBA NJAC (Varsity Coed Indoor Trac
- k)
-DESCRIPTION:Varsity Coed Indoor Track - Away - 4:30 PM
+SUMMARY:Pope John XXIII High School at TBA NJAC (Varsity Coed Coed Indoor
+  Track)
+DESCRIPTION:Varsity Coed Coed Indoor Track - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2564:7457552@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270112T173000
+DTEND;TZID=America/New_York:20270112T193000
+SUMMARY:Chatham High School at Pope John XXIII High School (Varsity Girls
+  Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2751:7514820@northwest-jersey-athletic-conference
@@ -3487,15 +3505,6 @@ DTEND;TZID=America/New_York:20270112T193000
 SUMMARY:Mount Olive High School vs Pope John XXIII High School (Junior Va
  rsity Boys Boys Basketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2816:7457552@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270112T173000
-DTEND;TZID=America/New_York:20270112T193000
-SUMMARY:Pope John XXIII High School vs Chatham High School (Varsity Girls
-  Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2751:7457377@northwest-jersey-athletic-conference
@@ -3534,13 +3543,13 @@ SUMMARY:Pope John XXIII High School at Mount Olive Middle School (Middle
 DESCRIPTION:Middle School Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2816:7672259@northwest-jersey-athletic-conference
+UID:ds:2642:7672259@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270113T180000
 DTEND;TZID=America/New_York:20270113T200000
-SUMMARY:Pope John XXIII High School at Hanover Park High School (Junior V
+SUMMARY:Hanover Park High School vs Pope John XXIII High School (Junior V
  arsity Boys Boys Wrestling)
-DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 6:00 PM
+DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2816:7593431@northwest-jersey-athletic-conference
@@ -3552,13 +3561,13 @@ SUMMARY:Pope John XXIII High School at Pope John XXIII Middle School (Var
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2816:7456114@northwest-jersey-athletic-conference
+UID:ds:2642:7456114@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270113T190000
 DTEND;TZID=America/New_York:20270113T210000
-SUMMARY:Pope John XXIII High School at Hanover Park High School (Varsity 
+SUMMARY:Hanover Park High School vs Pope John XXIII High School (Varsity 
  Boys Boys Wrestling)
-DESCRIPTION:Varsity Boys Boys Wrestling - Away - 7:00 PM
+DESCRIPTION:Varsity Boys Boys Wrestling - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2816:7662771@northwest-jersey-athletic-conference
@@ -3790,9 +3799,9 @@ UID:ds:2816:7743445@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270122T170000
 DTEND;TZID=America/New_York:20270122T190000
-SUMMARY:Pope John XXIII High School at TBA NJAC (Varsity Coed Indoor Trac
- k)
-DESCRIPTION:Varsity Coed Indoor Track - Away - 5:00 PM
+SUMMARY:Pope John XXIII High School at TBA NJAC (Varsity Coed Coed Indoor
+  Track)
+DESCRIPTION:Varsity Coed Coed Indoor Track - Away - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101647978@northwest-jersey-athletic-conference
@@ -3907,9 +3916,9 @@ UID:ds:2816:7743453@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270130T084500
 DTEND;TZID=America/New_York:20270130T104500
-SUMMARY:Pope John XXIII High School at TBA NJAC (Varsity Coed Indoor Trac
- k)
-DESCRIPTION:Varsity Coed Indoor Track - Away - 8:45 AM
+SUMMARY:Pope John XXIII High School at TBA NJAC (Varsity Coed Coed Indoor
+  Track)
+DESCRIPTION:Varsity Coed Coed Indoor Track - Away - 8:45 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2816:7624366@northwest-jersey-athletic-conference
@@ -3925,9 +3934,9 @@ UID:ds:2816:7743457@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270131T084500
 DTEND;TZID=America/New_York:20270131T104500
-SUMMARY:Pope John XXIII High School at TBA NJAC (Varsity Coed Indoor Trac
- k)
-DESCRIPTION:Varsity Coed Indoor Track - Away - 8:45 AM
+SUMMARY:Pope John XXIII High School at TBA NJAC (Varsity Coed Coed Indoor
+  Track)
+DESCRIPTION:Varsity Coed Coed Indoor Track - Away - 8:45 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2816:7671674@northwest-jersey-athletic-conference
@@ -3989,9 +3998,9 @@ UID:ds:2816:7743462@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270208T163000
 DTEND;TZID=America/New_York:20270208T183000
-SUMMARY:Pope John XXIII High School at TBA NJAC (Varsity Coed Indoor Trac
- k)
-DESCRIPTION:Varsity Coed Indoor Track - Away - 4:30 PM
+SUMMARY:Pope John XXIII High School at TBA NJAC (Varsity Coed Coed Indoor
+  Track)
+DESCRIPTION:Varsity Coed Coed Indoor Track - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2791:7750573@northwest-jersey-athletic-conference
@@ -4021,6 +4030,15 @@ SUMMARY:Parsippany Hills High School vs Pope John XXIII High School (Vars
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2564:7535265@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270211T160000
+DTEND;TZID=America/New_York:20270211T180000
+SUMMARY:Chatham High School vs Pope John XXIII High School (Freshman Girl
+ s Girls Basketball)
+DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2751:7514870@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270211T160000
@@ -4028,15 +4046,6 @@ DTEND;TZID=America/New_York:20270211T180000
 SUMMARY:Mount Olive High School at Pope John XXIII High School (Freshman 
  Boys Boys Basketball)
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2816:7535265@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270211T160000
-DTEND;TZID=America/New_York:20270211T180000
-SUMMARY:Pope John XXIII High School at Chatham High School (Freshman Girl
- s Girls Basketball)
-DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2751:7514826@northwest-jersey-athletic-conference
@@ -4048,6 +4057,15 @@ SUMMARY:Mount Olive High School at Pope John XXIII High School (Junior Va
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2564:7457567@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270211T190000
+DTEND;TZID=America/New_York:20270211T210000
+SUMMARY:Chatham High School vs Pope John XXIII High School (Varsity Girls
+  Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2751:7457398@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270211T190000
@@ -4057,22 +4075,13 @@ SUMMARY:Mount Olive High School at Pope John XXIII High School (Varsity B
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2816:7457567@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270211T190000
-DTEND;TZID=America/New_York:20270211T210000
-SUMMARY:Pope John XXIII High School at Chatham High School (Varsity Girls
-  Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2816:7743467@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270212T130000
 DTEND;TZID=America/New_York:20270212T150000
-SUMMARY:Pope John XXIII High School at TBA NJAC (Varsity Coed Indoor Trac
- k)
-DESCRIPTION:Varsity Coed Indoor Track - Away - 1:00 PM
+SUMMARY:Pope John XXIII High School at TBA NJAC (Varsity Coed Coed Indoor
+  Track)
+DESCRIPTION:Varsity Coed Coed Indoor Track - Away - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101182578@northwest-jersey-athletic-conference
@@ -4161,9 +4170,9 @@ UID:ds:2816:7743473@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270219T163000
 DTEND;TZID=America/New_York:20270219T183000
-SUMMARY:Pope John XXIII High School at TBA NJAC (Varsity Coed Indoor Trac
- k)
-DESCRIPTION:Varsity Coed Indoor Track - Away - 4:30 PM
+SUMMARY:Pope John XXIII High School at TBA NJAC (Varsity Coed Coed Indoor
+  Track)
+DESCRIPTION:Varsity Coed Coed Indoor Track - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2816:7740968@northwest-jersey-athletic-conference
@@ -4188,36 +4197,36 @@ UID:ds:2816:7743484@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270224T160000
 DTEND;TZID=America/New_York:20270224T180000
-SUMMARY:Pope John XXIII High School at TBA NJAC (Varsity Coed Indoor Trac
- k)
-DESCRIPTION:Varsity Coed Indoor Track - Away - 4:00 PM
+SUMMARY:Pope John XXIII High School at TBA NJAC (Varsity Coed Coed Indoor
+  Track)
+DESCRIPTION:Varsity Coed Coed Indoor Track - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2816:7743498@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270226T163000
 DTEND;TZID=America/New_York:20270226T183000
-SUMMARY:Pope John XXIII High School at TBA NJAC (Varsity Coed Indoor Trac
- k)
-DESCRIPTION:Varsity Coed Indoor Track - Away - 4:30 PM
+SUMMARY:Pope John XXIII High School at TBA NJAC (Varsity Coed Coed Indoor
+  Track)
+DESCRIPTION:Varsity Coed Coed Indoor Track - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2816:7743503@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270302T160000
 DTEND;TZID=America/New_York:20270302T180000
-SUMMARY:Pope John XXIII High School at TBA NJAC (Varsity Coed Indoor Trac
- k)
-DESCRIPTION:Varsity Coed Indoor Track - Away - 4:00 PM
+SUMMARY:Pope John XXIII High School at TBA NJAC (Varsity Coed Coed Indoor
+  Track)
+DESCRIPTION:Varsity Coed Coed Indoor Track - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2816:7743515@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270307T100000
 DTEND;TZID=America/New_York:20270307T120000
-SUMMARY:Pope John XXIII High School at TBA NJAC (Varsity Coed Indoor Trac
- k)
-DESCRIPTION:Varsity Coed Indoor Track - Away - 10:00 AM
+SUMMARY:Pope John XXIII High School at TBA NJAC (Varsity Coed Coed Indoor
+  Track)
+DESCRIPTION:Varsity Coed Coed Indoor Track - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2816:7695143@northwest-jersey-athletic-conference
@@ -4274,31 +4283,31 @@ SUMMARY:Kittatinny High School at Pope John XXIII High School (Varsity Bo
 DESCRIPTION:Varsity Boys Baseball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2816:7695149@northwest-jersey-athletic-conference
+UID:ds:2564:7695149@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270329T160000
 DTEND;TZID=America/New_York:20270329T180000
-SUMMARY:Pope John XXIII High School vs Chatham High School (Varsity Boys 
+SUMMARY:Chatham High School at Pope John XXIII High School (Varsity Boys 
  Baseball)
-DESCRIPTION:Varsity Boys Baseball - Home - 4:00 PM
+DESCRIPTION:Varsity Boys Baseball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2816:7695173@northwest-jersey-athletic-conference
+UID:ds:2564:7695173@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270329T160000
 DTEND;TZID=America/New_York:20270329T180000
-SUMMARY:Pope John XXIII High School vs Chatham High School (Junior Varsit
+SUMMARY:Chatham High School at Pope John XXIII High School (Junior Varsit
  y Boys Baseball)
-DESCRIPTION:Junior Varsity Boys Baseball - Home - 4:00 PM
+DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2816:7695186@northwest-jersey-athletic-conference
+UID:ds:2564:7695186@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270329T160000
 DTEND;TZID=America/New_York:20270329T180000
-SUMMARY:Pope John XXIII High School at Chatham High School (Freshman Boys
+SUMMARY:Chatham High School vs Pope John XXIII High School (Freshman Boys
   Baseball)
-DESCRIPTION:Freshman Boys Baseball - Away - 4:00 PM
+DESCRIPTION:Freshman Boys Baseball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2816:7626718@northwest-jersey-athletic-conference
@@ -4319,31 +4328,31 @@ SUMMARY:Pope John XXIII High School vs Cranford High School (Junior Varsi
 DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2816:7695151@northwest-jersey-athletic-conference
+UID:ds:2564:7695151@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270331T160000
 DTEND;TZID=America/New_York:20270331T180000
-SUMMARY:Pope John XXIII High School at Chatham High School (Varsity Boys 
+SUMMARY:Chatham High School vs Pope John XXIII High School (Varsity Boys 
  Baseball)
-DESCRIPTION:Varsity Boys Baseball - Away - 4:00 PM
+DESCRIPTION:Varsity Boys Baseball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2816:7695174@northwest-jersey-athletic-conference
+UID:ds:2564:7695174@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270331T160000
 DTEND;TZID=America/New_York:20270331T180000
-SUMMARY:Pope John XXIII High School at Chatham High School (Junior Varsit
+SUMMARY:Chatham High School vs Pope John XXIII High School (Junior Varsit
  y Boys Baseball)
-DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:00 PM
+DESCRIPTION:Junior Varsity Boys Baseball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2816:7695187@northwest-jersey-athletic-conference
+UID:ds:2564:7695187@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270331T160000
 DTEND;TZID=America/New_York:20270331T180000
-SUMMARY:Pope John XXIII High School vs Chatham High School (Freshman Boys
+SUMMARY:Chatham High School at Pope John XXIII High School (Freshman Boys
   Baseball)
-DESCRIPTION:Freshman Boys Baseball - Home - 4:00 PM
+DESCRIPTION:Freshman Boys Baseball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103569257@northwest-jersey-athletic-conference
@@ -4373,13 +4382,13 @@ SUMMARY:Pope John XXIII High School at Randolph High School (Varsity Girl
 DESCRIPTION:Varsity Girls Softball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2816:7649670@northwest-jersey-athletic-conference
+UID:ds:2594:7649670@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270409T173000
 DTEND;TZID=America/New_York:20270409T193000
-SUMMARY:Pope John XXIII High School at Dover High School (Junior Varsity 
+SUMMARY:Dover High School vs Pope John XXIII High School (Junior Varsity 
  Boys Boys Volleyball)
-DESCRIPTION:Junior Varsity Boys Boys Volleyball - Away - 5:30 PM
+DESCRIPTION:Junior Varsity Boys Boys Volleyball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2754:7643687@northwest-jersey-athletic-conference
@@ -4472,13 +4481,13 @@ SUMMARY:Kinnelon High School vs Pope John XXIII High School (Varsity Boys
 DESCRIPTION:Varsity Boys Baseball - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2816:7696725@northwest-jersey-athletic-conference
+UID:ds:2634:7696725@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270417T110000
 DTEND;TZID=America/New_York:20270417T130000
-SUMMARY:Pope John XXIII High School at Hackettstown High School (Varsity 
+SUMMARY:Hackettstown High School vs Pope John XXIII High School (Varsity 
  Girls Softball)
-DESCRIPTION:Varsity Girls Softball - Away - 11:00 AM
+DESCRIPTION:Varsity Girls Softball - Home - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103569270@northwest-jersey-athletic-conference
@@ -4598,13 +4607,13 @@ SUMMARY:Pope John XXIII High School at Pope John XXIII Middle School (Var
 DESCRIPTION:Varsity Girls Softball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2816:7649678@northwest-jersey-athletic-conference
+UID:ds:2594:7649678@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270507T173000
 DTEND;TZID=America/New_York:20270507T193000
-SUMMARY:Pope John XXIII High School vs Dover High School (Junior Varsity 
+SUMMARY:Dover High School at Pope John XXIII High School (Junior Varsity 
  Boys Boys Volleyball)
-DESCRIPTION:Junior Varsity Boys Boys Volleyball - Home - 5:30 PM
+DESCRIPTION:Junior Varsity Boys Boys Volleyball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103355070@northwest-jersey-athletic-conference

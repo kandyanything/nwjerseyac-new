@@ -340,6 +340,15 @@ SUMMARY:Pequannock High School at Morris Catholic High School (Junior Var
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 5:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2642:7441290@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260910T160000
+DTEND;TZID=America/New_York:20260910T180000
+SUMMARY:Hanover Park High School at Morris Catholic High School (Varsity 
+ Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2685:7482173@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260910T160000
@@ -349,22 +358,13 @@ SUMMARY:Kinnelon High School vs Morris Catholic High School (Varsity Girl
 DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2745:7441290@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260910T160000
-DTEND;TZID=America/New_York:20260910T180000
-SUMMARY:Morris Catholic High School vs Hanover Park High School (Varsity 
- Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2745:7485639@northwest-jersey-athletic-conference
+UID:ds:2564:7485639@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260911T120000
 DTEND;TZID=America/New_York:20260911T140000
-SUMMARY:Morris Catholic High School vs Chatham High School (Freshman Girl
+SUMMARY:Chatham High School at Morris Catholic High School (Freshman Girl
  s Girls Volleyball)
-DESCRIPTION:Freshman Girls Girls Volleyball - Home - 12:00 PM
+DESCRIPTION:Freshman Girls Girls Volleyball - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2745:7568130@northwest-jersey-athletic-conference
@@ -385,22 +385,22 @@ SUMMARY:Morris Catholic High School vs TBD (Varsity Boys Boys Cross Count
 DESCRIPTION:Varsity Boys Boys Cross Country - Home - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2745:7424097@northwest-jersey-athletic-conference
+UID:ds:2564:7424097@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260911T160000
 DTEND;TZID=America/New_York:20260911T180000
-SUMMARY:Morris Catholic High School at Chatham High School (Varsity Girls
+SUMMARY:Chatham High School vs Morris Catholic High School (Varsity Girls
   Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:00 PM
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2745:7424171@northwest-jersey-athletic-conference
+UID:ds:2564:7424171@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260911T173000
 DTEND;TZID=America/New_York:20260911T193000
-SUMMARY:Morris Catholic High School at Chatham High School (Junior Varsit
+SUMMARY:Chatham High School vs Morris Catholic High School (Junior Varsit
  y Girls Girls Volleyball)
-DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 5:30 PM
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2649:7512494@northwest-jersey-athletic-conference
@@ -421,13 +421,13 @@ SUMMARY:High Point High School at Morris Catholic High School (Varsity Bo
 DESCRIPTION:Varsity Boys Football - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2745:7485575@northwest-jersey-athletic-conference
+UID:ds:2564:7485575@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260911T211500
 DTEND;TZID=America/New_York:20260911T231500
-SUMMARY:Morris Catholic High School at Chatham High School (Junior Varsit
+SUMMARY:Chatham High School vs Morris Catholic High School (Junior Varsit
  y Girls Girls Volleyball)
-DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 9:15 PM
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 9:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2649:7474631@northwest-jersey-athletic-conference
@@ -446,17 +446,6 @@ DTEND;TZID=America/New_York:20260914T180000
 SUMMARY:Morris Catholic High School at Academy of Saint Elizabeth (Varsit
  y Girls Girls Tennis)
 DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ics:MorristownBeardSchool:event_8750_20260914t200000zapi.veracross.co
- m@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260914T160000
-DTEND;TZID=America/New_York:20260914T180000
-SUMMARY:[Cancelled] Morristown Beard School vs Morris Catholic High Schoo
- l (Junior Varsity Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
-STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:ics:MorristownBeardSchool:event_8782_20260914t200000zapi.veracross.co
@@ -481,6 +470,17 @@ DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:00 PM
 STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
+UID:ics:MorristownBeardSchool:event_8750_20260914t200000zapi.veracross.co
+ m@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T160000
+DTEND;TZID=America/New_York:20260914T180000
+SUMMARY:[Cancelled] Morristown Beard School vs Morris Catholic High Schoo
+ l (Junior Varsity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
+STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
 UID:ics:MorristownBeardSchool:event_8748_20260914t200000zapi.veracross.co
  m@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
@@ -491,13 +491,13 @@ SUMMARY:Morristown Beard School vs Morris Catholic High School (Varsity B
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2745:7621781@northwest-jersey-athletic-conference
+UID:ds:2564:7621781@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260915T160000
 DTEND;TZID=America/New_York:20260915T180000
-SUMMARY:Morris Catholic High School at Chatham High School (Freshman Girl
+SUMMARY:Chatham High School vs Morris Catholic High School (Freshman Girl
  s Girls Volleyball)
-DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:00 PM
+DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2745:7612633@northwest-jersey-athletic-conference
@@ -946,6 +946,15 @@ SUMMARY:Morris Catholic High School vs Whippany Park High School (Junior
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2642:7585390@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260929T162500
+DTEND;TZID=America/New_York:20260929T182500
+SUMMARY:Hanover Park High School at Morris Catholic High School (Varsity 
+ Girls Girls Cross Country)
+DESCRIPTION:Varsity Girls Girls Cross Country - Away - 4:25 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2745:7516092@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260929T162500
@@ -953,15 +962,6 @@ DTEND;TZID=America/New_York:20260929T182500
 SUMMARY:Morris Catholic High School at Villa Walsh Academy (Varsity Girls
   Girls Cross Country)
 DESCRIPTION:Varsity Girls Girls Cross Country - Away - 4:25 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2745:7585390@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260929T162500
-DTEND;TZID=America/New_York:20260929T182500
-SUMMARY:Morris Catholic High School vs Hanover Park High School (Varsity 
- Girls Girls Cross Country)
-DESCRIPTION:Varsity Girls Girls Cross Country - Home - 4:25 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2745:7497008@northwest-jersey-athletic-conference
@@ -1036,13 +1036,13 @@ SUMMARY:Pequannock High School vs Morris Catholic High School (Varsity Gi
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2745:7444762@northwest-jersey-athletic-conference
+UID:ds:2642:7444762@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261001T183000
 DTEND;TZID=America/New_York:20261001T203000
-SUMMARY:Morris Catholic High School at Hanover Park High School (Varsity 
+SUMMARY:Hanover Park High School vs Morris Catholic High School (Varsity 
  Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 6:30 PM
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2674:7485433@northwest-jersey-athletic-conference
@@ -1081,13 +1081,13 @@ SUMMARY:Jefferson Township High School vs Morris Catholic High School (Ju
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2745:7438800@northwest-jersey-athletic-conference
+UID:ds:2634:7438800@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261002T190000
 DTEND;TZID=America/New_York:20261002T210000
-SUMMARY:Morris Catholic High School at Hackettstown High School (Varsity 
+SUMMARY:Hackettstown High School vs Morris Catholic High School (Varsity 
  Boys Football)
-DESCRIPTION:Varsity Boys Football - Away - 7:00 PM
+DESCRIPTION:Varsity Boys Football - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2745:7662860@northwest-jersey-athletic-conference
@@ -1097,6 +1097,15 @@ DTEND;TZID=America/New_York:20261003T183000
 SUMMARY:Morris Catholic High School at Roxbury High School (Varsity Boys 
  Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2634:7462316@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261005T160000
+DTEND;TZID=America/New_York:20261005T180000
+SUMMARY:Hackettstown High School at Morris Catholic High School (Junior V
+ arsity Boys Football)
+DESCRIPTION:Junior Varsity Boys Football - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2685:7665957@northwest-jersey-athletic-conference
@@ -1117,15 +1126,6 @@ SUMMARY:Morris Catholic High School at Roxbury High School (Varsity Girls
 DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2745:7462316@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261005T160000
-DTEND;TZID=America/New_York:20261005T180000
-SUMMARY:Morris Catholic High School vs Hackettstown High School (Junior V
- arsity Boys Football)
-DESCRIPTION:Junior Varsity Boys Football - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:103882280@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261006T160000
@@ -1144,22 +1144,22 @@ SUMMARY:Morris Catholic High School at Whippany Park High School (Junior
 DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2745:7452065@northwest-jersey-athletic-conference
+UID:ds:2642:7485640@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261008T160000
 DTEND;TZID=America/New_York:20261008T180000
-SUMMARY:Morris Catholic High School at Hanover Park High School (Junior V
- arsity Girls Girls Volleyball)
-DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 4:00 PM
+SUMMARY:Hanover Park High School at Morris Catholic High School (Freshman
+  Girls Girls Volleyball)
+DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2745:7485640@northwest-jersey-athletic-conference
+UID:ds:2642:7452065@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261008T160000
 DTEND;TZID=America/New_York:20261008T180000
-SUMMARY:Morris Catholic High School vs Hanover Park High School (Freshman
-  Girls Girls Volleyball)
-DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:00 PM
+SUMMARY:Hanover Park High School vs Morris Catholic High School (Junior V
+ arsity Girls Girls Volleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2745:7543876@northwest-jersey-athletic-conference
@@ -1171,13 +1171,13 @@ SUMMARY:Morris Catholic High School vs Manville High School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2745:7452188@northwest-jersey-athletic-conference
+UID:ds:2642:7452188@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261008T173000
 DTEND;TZID=America/New_York:20261008T193000
-SUMMARY:Morris Catholic High School at Hanover Park High School (Varsity 
+SUMMARY:Hanover Park High School vs Morris Catholic High School (Varsity 
  Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Away - 5:30 PM
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2674:7438816@northwest-jersey-athletic-conference
@@ -1279,17 +1279,6 @@ SUMMARY:Morris Catholic High School at Morris Hills High School (Junior V
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:MorristownBeardSchool:event_8799_20261015t200000zapi.veracross.co
- m@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261015T160000
-DTEND;TZID=America/New_York:20261015T180000
-SUMMARY:[Cancelled] Morristown Beard School vs Morris Catholic High Schoo
- l (Junior Varsity Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
-STATUS:CANCELLED
-END:VEVENT
-BEGIN:VEVENT
 UID:ics:MorristownBeardSchool:event_8761_20261015t200000zapi.veracross.co
  m@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
@@ -1298,6 +1287,17 @@ DTEND;TZID=America/New_York:20261015T180000
 SUMMARY:[Cancelled] Morristown Beard School at Morris Catholic High Schoo
  l (Junior Varsity Boys Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
+STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:MorristownBeardSchool:event_8799_20261015t200000zapi.veracross.co
+ m@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261015T160000
+DTEND;TZID=America/New_York:20261015T180000
+SUMMARY:[Cancelled] Morristown Beard School vs Morris Catholic High Schoo
+ l (Junior Varsity Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
 STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
@@ -1888,22 +1888,22 @@ SUMMARY:Morris Catholic High School at Mountain Lakes High School (Varsit
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2745:7562823@northwest-jersey-athletic-conference
+UID:ds:2642:7562823@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261215T173000
 DTEND;TZID=America/New_York:20261215T193000
-SUMMARY:Morris Catholic High School vs Hanover Park High School (Junior V
+SUMMARY:Hanover Park High School at Morris Catholic High School (Junior V
  arsity Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2745:7457798@northwest-jersey-athletic-conference
+UID:ds:2642:7457798@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261215T190000
 DTEND;TZID=America/New_York:20261215T210000
-SUMMARY:Morris Catholic High School vs Hanover Park High School (Varsity 
+SUMMARY:Hanover Park High School at Morris Catholic High School (Varsity 
  Girls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home - 7:00 PM
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:104139592@northwest-jersey-athletic-conference
@@ -1992,6 +1992,15 @@ DTSTART;TZID=America/New_York:20261219T090000
 DTEND;TZID=America/New_York:20261219T110000
 SUMMARY:West Morris Mendham at Morris Catholic High School (Varsity Coed 
  Coed Fencing)
+DESCRIPTION:Varsity Coed Coed Fencing - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2634:7636885@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261219T090000
+DTEND;TZID=America/New_York:20261219T110000
+SUMMARY:Hackettstown High School at Morris Catholic High School (Varsity 
+ Coed Coed Fencing)
 DESCRIPTION:Varsity Coed Coed Fencing - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
@@ -2386,13 +2395,13 @@ SUMMARY:Villa Walsh Academy at Morris Catholic High School (Junior Varsit
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2745:7692289@northwest-jersey-athletic-conference
+UID:ds:2564:7692289@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270113T183000
 DTEND;TZID=America/New_York:20270113T203000
-SUMMARY:Morris Catholic High School at Chatham High School (Varsity Coed 
+SUMMARY:Chatham High School vs Morris Catholic High School (Varsity Coed 
  Coed Fencing)
-DESCRIPTION:Varsity Coed Coed Fencing - Away - 6:30 PM
+DESCRIPTION:Varsity Coed Coed Fencing - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2745:7580097@northwest-jersey-athletic-conference
@@ -3069,13 +3078,13 @@ SUMMARY:Morris Catholic High School at Union Catholic Regional High Schoo
 DESCRIPTION:Varsity Girls Girls Lacrosse - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2745:7738901@northwest-jersey-athletic-conference
+UID:ds:2642:7738901@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270330T160000
 DTEND;TZID=America/New_York:20270330T180000
-SUMMARY:Morris Catholic High School vs Hanover Park High School (Varsity 
+SUMMARY:Hanover Park High School at Morris Catholic High School (Varsity 
  Girls Softball)
-DESCRIPTION:Varsity Girls Softball - Home - 4:00 PM
+DESCRIPTION:Varsity Girls Softball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103486698@northwest-jersey-athletic-conference
@@ -3087,6 +3096,15 @@ SUMMARY:Madison High School vs Morris Catholic High School (Varsity Girls
 DESCRIPTION:Varsity Girls Softball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2634:7740035@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270401T160000
+DTEND;TZID=America/New_York:20270401T180000
+SUMMARY:Hackettstown High School at Morris Catholic High School (Varsity 
+ Boys Boys Lacrosse)
+DESCRIPTION:Varsity Boys Boys Lacrosse - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2694:7739705@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270401T160000
@@ -3094,15 +3112,6 @@ DTEND;TZID=America/New_York:20270401T180000
 SUMMARY:Lenape Valley High School vs Morris Catholic High School (Varsity
   Girls Girls Lacrosse)
 DESCRIPTION:Varsity Girls Girls Lacrosse - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2745:7740035@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270401T160000
-DTEND;TZID=America/New_York:20270401T180000
-SUMMARY:Morris Catholic High School vs Hackettstown High School (Varsity 
- Boys Boys Lacrosse)
-DESCRIPTION:Varsity Boys Boys Lacrosse - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2745:7633295@northwest-jersey-athletic-conference
@@ -3195,6 +3204,24 @@ SUMMARY:Kittatinny High School at Morris Catholic High School (Varsity Gi
 DESCRIPTION:Varsity Girls Girls Lacrosse - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2642:7612629@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270414T160000
+DTEND;TZID=America/New_York:20270414T180000
+SUMMARY:Hanover Park High School at Morris Catholic High School (Junior V
+ arsity Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2642:7612669@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270414T160000
+DTEND;TZID=America/New_York:20270414T180000
+SUMMARY:Hanover Park High School at Morris Catholic High School (Varsity 
+ Boys Baseball)
+DESCRIPTION:Varsity Boys Baseball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2649:7740054@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270414T160000
@@ -3202,24 +3229,6 @@ DTEND;TZID=America/New_York:20270414T180000
 SUMMARY:High Point High School at Morris Catholic High School (Varsity Bo
  ys Boys Lacrosse)
 DESCRIPTION:Varsity Boys Boys Lacrosse - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2745:7612629@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270414T160000
-DTEND;TZID=America/New_York:20270414T180000
-SUMMARY:Morris Catholic High School vs Hanover Park High School (Junior V
- arsity Boys Baseball)
-DESCRIPTION:Junior Varsity Boys Baseball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2745:7612669@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270414T160000
-DTEND;TZID=America/New_York:20270414T180000
-SUMMARY:Morris Catholic High School vs Hanover Park High School (Varsity 
- Boys Baseball)
-DESCRIPTION:Varsity Boys Baseball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2745:7739729@northwest-jersey-athletic-conference
@@ -3259,22 +3268,22 @@ SUMMARY:Morris Catholic High School at West Orange High School (Junior Va
 DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2745:7739354@northwest-jersey-athletic-conference
+UID:ds:2642:7739354@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270420T160000
 DTEND;TZID=America/New_York:20270420T180000
-SUMMARY:Morris Catholic High School at Hanover Park High School (Junior V
+SUMMARY:Hanover Park High School vs Morris Catholic High School (Junior V
  arsity Girls Softball)
-DESCRIPTION:Junior Varsity Girls Softball - Away - 4:00 PM
+DESCRIPTION:Junior Varsity Girls Softball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2745:7739358@northwest-jersey-athletic-conference
+UID:ds:2642:7739358@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270420T160000
 DTEND;TZID=America/New_York:20270420T180000
-SUMMARY:Morris Catholic High School at Hanover Park High School (Varsity 
+SUMMARY:Hanover Park High School vs Morris Catholic High School (Varsity 
  Girls Softball)
-DESCRIPTION:Varsity Girls Softball - Away - 4:00 PM
+DESCRIPTION:Varsity Girls Softball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2745:7739733@northwest-jersey-athletic-conference
@@ -3430,13 +3439,13 @@ SUMMARY:Morris Catholic High School vs Eastern Christian (Varsity Boys Bo
 DESCRIPTION:Varsity Boys Boys Lacrosse - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2745:7739751@northwest-jersey-athletic-conference
+UID:ds:2634:7739751@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270512T160000
 DTEND;TZID=America/New_York:20270512T180000
-SUMMARY:Morris Catholic High School vs Hackettstown High School (Varsity 
+SUMMARY:Hackettstown High School at Morris Catholic High School (Varsity 
  Girls Girls Lacrosse)
-DESCRIPTION:Varsity Girls Girls Lacrosse - Home - 4:00 PM
+DESCRIPTION:Varsity Girls Girls Lacrosse - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2745:7739752@northwest-jersey-athletic-conference

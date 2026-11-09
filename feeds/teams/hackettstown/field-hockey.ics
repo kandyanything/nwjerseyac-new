@@ -24,22 +24,22 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2751:7477045@northwest-jersey-athletic-conference
+UID:ds:2634:7477045@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260825T160000
 DTEND;TZID=America/New_York:20260825T180000
-SUMMARY:Mount Olive High School at Hackettstown High School (Varsity Girl
+SUMMARY:Hackettstown High School vs Mount Olive High School (Varsity Girl
  s Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
+DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2751:7477455@northwest-jersey-athletic-conference
+UID:ds:2634:7477455@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260825T173000
 DTEND;TZID=America/New_York:20260825T193000
-SUMMARY:Mount Olive High School at Hackettstown High School (Junior Varsi
+SUMMARY:Hackettstown High School vs Mount Olive High School (Junior Varsi
  ty Girls Field Hockey)
-DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:30 PM
+DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:99915304@northwest-jersey-athletic-conference
@@ -62,40 +62,49 @@ DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:30 PM
 STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2838:7513258@northwest-jersey-athletic-conference
+UID:ds:2634:7513258@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260829T110000
 DTEND;TZID=America/New_York:20260829T130000
-SUMMARY:Roxbury High School vs Hackettstown High School (Varsity Girls Fi
+SUMMARY:Hackettstown High School at Roxbury High School (Varsity Girls Fi
  eld Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Home - 11:00 AM
+DESCRIPTION:Varsity Girls Field Hockey - Away - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2838:7513348@northwest-jersey-athletic-conference
+UID:ds:2634:7513348@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260829T123000
 DTEND;TZID=America/New_York:20260829T143000
-SUMMARY:Roxbury High School vs Hackettstown High School (Junior Varsity G
+SUMMARY:Hackettstown High School at Roxbury High School (Junior Varsity G
  irls Field Hockey)
-DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 12:30 PM
+DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 12:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2909:7550631@northwest-jersey-athletic-conference
+UID:ds:2634:7550631@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260831T160000
 DTEND;TZID=America/New_York:20260831T180000
-SUMMARY:Vernon Township High School vs Hackettstown High School (Varsity 
+SUMMARY:Hackettstown High School at Vernon Township High School (Varsity 
  Girls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
+DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2909:7550632@northwest-jersey-athletic-conference
+UID:ds:2634:7550632@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260831T173000
 DTEND;TZID=America/New_York:20260831T193000
-SUMMARY:Vernon Township High School vs Hackettstown High School (Junior V
+SUMMARY:Hackettstown High School at Vernon Township High School (Junior V
  arsity Girls Field Hockey)
-DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 5:30 PM
+DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2634:7562134@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260903T163000
+DTEND;TZID=America/New_York:20260903T183000
+SUMMARY:Hackettstown High School at Bernards High School (Varsity Girls F
+ ield Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103773361@northwest-jersey-athletic-conference
@@ -116,22 +125,22 @@ SUMMARY:West Morris Mendham at Hackettstown High School (Junior Varsity G
 DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2694:7494848@northwest-jersey-athletic-conference
+UID:ds:2634:7494848@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260915T160000
 DTEND;TZID=America/New_York:20260915T180000
-SUMMARY:Lenape Valley High School vs Hackettstown High School (Varsity Gi
+SUMMARY:Hackettstown High School at Lenape Valley High School (Varsity Gi
  rls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
+DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2694:7494920@northwest-jersey-athletic-conference
+UID:ds:2634:7494920@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260915T173000
 DTEND;TZID=America/New_York:20260915T193000
-SUMMARY:Lenape Valley High School vs Hackettstown High School (Junior Var
+SUMMARY:Hackettstown High School at Lenape Valley High School (Junior Var
  sity Girls Field Hockey)
-DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 5:30 PM
+DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:99915540@northwest-jersey-athletic-conference
@@ -152,111 +161,174 @@ SUMMARY:West Morris Central at Hackettstown High School (Junior Varsity G
 DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2686:7461250@northwest-jersey-athletic-conference
+UID:ds:2634:7485251@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T100000
+DTEND;TZID=America/New_York:20260919T120000
+SUMMARY:Hackettstown High School vs Belvidere High School (Varsity Girls 
+ Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2634:7461250@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260921T154500
 DTEND;TZID=America/New_York:20260921T174500
-SUMMARY:Kittatinny High School at Hackettstown High School (Varsity Girls
+SUMMARY:Hackettstown High School vs Kittatinny High School (Varsity Girls
   Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Away - 3:45 PM
+DESCRIPTION:Varsity Girls Field Hockey - Home - 3:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2761:7485233@northwest-jersey-athletic-conference
+UID:ds:2634:7485233@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260924T160000
 DTEND;TZID=America/New_York:20260924T180000
-SUMMARY:Newton High School at Hackettstown High School (Varsity Girls Fie
+SUMMARY:Hackettstown High School vs Newton High School (Varsity Girls Fie
  ld Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
+DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2761:7485234@northwest-jersey-athletic-conference
+UID:ds:2634:7485234@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260924T173000
 DTEND;TZID=America/New_York:20260924T193000
-SUMMARY:Newton High School at Hackettstown High School (Junior Varsity Gi
+SUMMARY:Hackettstown High School vs Newton High School (Junior Varsity Gi
  rls Field Hockey)
-DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:30 PM
+DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2909:7485239@northwest-jersey-athletic-conference
+UID:ds:2634:7485239@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260928T180000
 DTEND;TZID=America/New_York:20260928T200000
-SUMMARY:Vernon Township High School at Hackettstown High School (Junior V
+SUMMARY:Hackettstown High School vs Vernon Township High School (Junior V
  arsity Girls Field Hockey)
-DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 6:00 PM
+DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2909:7485238@northwest-jersey-athletic-conference
+UID:ds:2634:7485238@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260928T190000
 DTEND;TZID=America/New_York:20260928T210000
-SUMMARY:Vernon Township High School at Hackettstown High School (Varsity 
+SUMMARY:Hackettstown High School vs Vernon Township High School (Varsity 
  Girls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Away - 7:00 PM
+DESCRIPTION:Varsity Girls Field Hockey - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2694:7485246@northwest-jersey-athletic-conference
+UID:ds:2634:7494895@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261003T103000
+DTEND;TZID=America/New_York:20261003T123000
+SUMMARY:Hackettstown High School vs Arthur L Johnson High School (Junior 
+ Varsity Girls Field Hockey)
+DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 10:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2634:7494889@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261003T120000
+DTEND;TZID=America/New_York:20261003T140000
+SUMMARY:Hackettstown High School vs Arthur L Johnson High School (Varsity
+  Girls Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2634:7485246@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261008T160000
 DTEND;TZID=America/New_York:20261008T180000
-SUMMARY:Lenape Valley High School at Hackettstown High School (Varsity Gi
+SUMMARY:Hackettstown High School vs Lenape Valley High School (Varsity Gi
  rls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
+DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2694:7485247@northwest-jersey-athletic-conference
+UID:ds:2634:7485247@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261008T173000
 DTEND;TZID=America/New_York:20261008T193000
-SUMMARY:Lenape Valley High School at Hackettstown High School (Junior Var
+SUMMARY:Hackettstown High School vs Lenape Valley High School (Junior Var
  sity Girls Field Hockey)
-DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:30 PM
+DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2649:7677481@northwest-jersey-athletic-conference
+UID:ds:2634:7568455@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261012T160000
+DTEND;TZID=America/New_York:20261012T180000
+SUMMARY:Hackettstown High School at Phillipsburg High School (Varsity Gir
+ ls Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2634:7677481@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261014T160000
 DTEND;TZID=America/New_York:20261014T180000
-SUMMARY:High Point High School at Hackettstown High School (Varsity Girls
+SUMMARY:Hackettstown High School vs High Point High School (Varsity Girls
+  Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2634:7696065@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261017T150000
+DTEND;TZID=America/New_York:20261017T170000
+SUMMARY:Hackettstown High School at North Hunterdon High School (Varsity 
+ Girls Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Away - 3:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2634:7461303@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261019T160000
+DTEND;TZID=America/New_York:20261019T180000
+SUMMARY:Hackettstown High School at Kittatinny High School (Varsity Girls
   Field Hockey)
 DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2686:7461303@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261019T160000
-DTEND;TZID=America/New_York:20261019T180000
-SUMMARY:Kittatinny High School vs Hackettstown High School (Varsity Girls
-  Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2686:7483341@northwest-jersey-athletic-conference
+UID:ds:2634:7483341@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261019T173000
 DTEND;TZID=America/New_York:20261019T193000
-SUMMARY:Kittatinny High School vs Hackettstown High School (Junior Varsit
+SUMMARY:Hackettstown High School at Kittatinny High School (Junior Varsit
  y Girls Field Hockey)
-DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 5:30 PM
+DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2761:7527318@northwest-jersey-athletic-conference
+UID:ds:2634:7485282@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261024T100000
+DTEND;TZID=America/New_York:20261024T120000
+SUMMARY:Hackettstown High School vs Warren Hills Regional School District
+  (Varsity Girls Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2634:7485283@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261024T113000
+DTEND;TZID=America/New_York:20261024T133000
+SUMMARY:Hackettstown High School vs Warren Hills Regional School District
+  (Junior Varsity Girls Field Hockey)
+DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2634:7527318@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261027T160000
 DTEND;TZID=America/New_York:20261027T180000
-SUMMARY:Newton High School vs Hackettstown High School (Varsity Girls Fie
+SUMMARY:Hackettstown High School at Newton High School (Varsity Girls Fie
  ld Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
+DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2761:7527319@northwest-jersey-athletic-conference
+UID:ds:2634:7527319@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261027T173000
 DTEND;TZID=America/New_York:20261027T193000
-SUMMARY:Newton High School vs Hackettstown High School (Junior Varsity Gi
+SUMMARY:Hackettstown High School at Newton High School (Junior Varsity Gi
  rls Field Hockey)
-DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 5:30 PM
+DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:30 PM
 END:VEVENT
 END:VCALENDAR

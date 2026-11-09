@@ -24,13 +24,31 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2694:7604798@northwest-jersey-athletic-conference
+UID:ds:2594:7604798@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260902T160000
 DTEND;TZID=America/New_York:20260902T180000
-SUMMARY:Lenape Valley High School at Dover High School (Varsity Girls Gir
+SUMMARY:Dover High School vs Lenape Valley High School (Varsity Girls Gir
  ls Cross Country)
+DESCRIPTION:Varsity Girls Girls Cross Country - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2594:7571056@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260908T160000
+DTEND;TZID=America/New_York:20260908T180000
+SUMMARY:Dover High School at Newton High School (Varsity Girls Girls Cros
+ s Country)
 DESCRIPTION:Varsity Girls Girls Cross Country - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2594:7492270@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260915T160000
+DTEND;TZID=America/New_York:20260915T180000
+SUMMARY:Dover High School vs North Warren (Varsity Girls Girls Cross Coun
+ try)
+DESCRIPTION:Varsity Girls Girls Cross Country - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2694:7492270@northwest-jersey-athletic-conference
@@ -42,12 +60,30 @@ SUMMARY:Lenape Valley High School at Dover High School (Varsity Girls Gir
 DESCRIPTION:Varsity Girls Girls Cross Country - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2768:7492270@northwest-jersey-athletic-conference
+UID:ds:2594:7472405@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260915T160000
-DTEND;TZID=America/New_York:20260915T180000
-SUMMARY:North Warren at Dover High School (Varsity Girls Girls Cross Coun
- try)
+DTSTART;TZID=America/New_York:20260929T160000
+DTEND;TZID=America/New_York:20260929T180000
+SUMMARY:Dover High School at Hackettstown High School (Varsity Girls Girl
+ s Cross Country)
 DESCRIPTION:Varsity Girls Girls Cross Country - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2594:7568907@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261005T161700
+DTEND;TZID=America/New_York:20261005T181700
+SUMMARY:Dover High School at Warren County Tech High (Varsity Girls Girls
+  Cross Country)
+DESCRIPTION:Varsity Girls Girls Cross Country - Away - 4:17 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2594:7568908@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261022T161700
+DTEND;TZID=America/New_York:20261022T181700
+SUMMARY:Dover High School vs Warren County Tech High (Varsity Girls Girls
+  Cross Country)
+DESCRIPTION:Varsity Girls Girls Cross Country - Home - 4:17 PM
 END:VEVENT
 END:VCALENDAR
