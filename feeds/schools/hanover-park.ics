@@ -350,15 +350,6 @@ SUMMARY:Hanover Park High School at Whippany Park High School (Varsity Gi
 DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2642:7455678@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260902T160000
-DTEND;TZID=America/New_York:20260902T180000
-SUMMARY:Hanover Park High School vs Kinnelon High School (Varsity Girls G
- irls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2642:7604486@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260902T160000
@@ -366,6 +357,15 @@ DTEND;TZID=America/New_York:20260902T180000
 SUMMARY:Hanover Park High School at Kinnelon High School (Varsity Boys Bo
  ys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2642:7455678@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260902T160000
+DTEND;TZID=America/New_York:20260902T180000
+SUMMARY:Hanover Park High School vs Kinnelon High School (Varsity Girls G
+ irls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2642:7507756@northwest-jersey-athletic-conference
@@ -413,15 +413,6 @@ SUMMARY:Academy of Saint Elizabeth at Hanover Park High School (Junior Va
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 5:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2642:7450775@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260904T131500
-DTEND;TZID=America/New_York:20260904T151500
-SUMMARY:Hanover Park High School vs Mountain Lakes High School (Junior Va
- rsity Girls Girls Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 1:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2642:7497391@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260904T131500
@@ -431,13 +422,13 @@ SUMMARY:Hanover Park High School at Mountain Lakes High School (Varsity G
 DESCRIPTION:Varsity Girls Girls Tennis - Away - 1:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2642:7567671@northwest-jersey-athletic-conference
+UID:ds:2642:7450775@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260904T190000
-DTEND;TZID=America/New_York:20260904T210000
-SUMMARY:Hanover Park High School vs Kinnelon High School (Varsity Coed Co
- ed Cheerleading)
-DESCRIPTION:Varsity Coed Coed Cheerleading - Home - 7:00 PM
+DTSTART;TZID=America/New_York:20260904T131500
+DTEND;TZID=America/New_York:20260904T151500
+SUMMARY:Hanover Park High School vs Mountain Lakes High School (Junior Va
+ rsity Girls Girls Tennis)
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 1:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2642:7437554@northwest-jersey-athletic-conference
@@ -449,6 +440,15 @@ SUMMARY:Hanover Park High School vs Kinnelon High School (Varsity Boys Fo
 DESCRIPTION:Varsity Boys Football - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2642:7567671@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260904T190000
+DTEND;TZID=America/New_York:20260904T210000
+SUMMARY:Hanover Park High School vs Kinnelon High School (Varsity Coed Co
+ ed Cheerleading)
+DESCRIPTION:Varsity Coed Coed Cheerleading - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:103848564@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260907T160000
@@ -456,6 +456,15 @@ DTEND;TZID=America/New_York:20260907T180000
 SUMMARY:Academy of Saint Elizabeth vs Hanover Park High School (Varsity G
  irls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2642:7522054@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260908T160000
+DTEND;TZID=America/New_York:20260908T180000
+SUMMARY:Hanover Park High School at Academy of Saint Elizabeth (Varsity G
+ irls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2913:7450870@northwest-jersey-athletic-conference
@@ -474,15 +483,6 @@ DTEND;TZID=America/New_York:20260908T180000
 SUMMARY:Villa Walsh Academy vs Hanover Park High School (Junior Varsity G
  irls Girls Tennis)
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2642:7522054@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260908T160000
-DTEND;TZID=America/New_York:20260908T180000
-SUMMARY:Hanover Park High School at Academy of Saint Elizabeth (Varsity G
- irls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2642:7441289@northwest-jersey-athletic-conference
@@ -827,13 +827,13 @@ SUMMARY:Hanover Park High School vs James Caldwell High School (Freshman
 DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2642:7569993@northwest-jersey-athletic-conference
+UID:arb:102096425@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260919T100000
 DTEND;TZID=America/New_York:20260919T120000
-SUMMARY:Hanover Park High School at Morris Knolls High School (Freshman B
+SUMMARY:Morris Knolls High School vs Hanover Park High School (Freshman B
  oys Boys Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Away - 10:00 AM
+DESCRIPTION:Freshman Boys Boys Soccer - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101156704@northwest-jersey-athletic-conference
@@ -881,15 +881,6 @@ SUMMARY:Hanover Park High School vs Kinnelon High School (Varsity Girls G
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2642:7450868@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260922T160000
-DTEND;TZID=America/New_York:20260922T180000
-SUMMARY:Hanover Park High School at Madison High School (Varsity Girls Gi
- rls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2642:7441029@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260922T160000
@@ -906,6 +897,15 @@ DTEND;TZID=America/New_York:20260922T180000
 SUMMARY:Hanover Park High School vs Madison High School (Junior Varsity G
  irls Girls Tennis)
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2642:7450868@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260922T160000
+DTEND;TZID=America/New_York:20260922T180000
+SUMMARY:Hanover Park High School at Madison High School (Varsity Girls Gi
+ rls Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2642:7441033@northwest-jersey-athletic-conference
@@ -999,15 +999,6 @@ SUMMARY:Academy of Saint Elizabeth vs Hanover Park High School (Varsity G
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2642:7497099@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260928T163000
-DTEND;TZID=America/New_York:20260928T183000
-SUMMARY:Hanover Park High School vs Livingston High School (Varsity Girls
-  Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2642:7539295@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260928T163000
@@ -1015,6 +1006,15 @@ DTEND;TZID=America/New_York:20260928T183000
 SUMMARY:Hanover Park High School at Westwood Regional Senior High School 
  (Junior Varsity Boys Football)
 DESCRIPTION:Junior Varsity Boys Football - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2642:7497099@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260928T163000
+DTEND;TZID=America/New_York:20260928T183000
+SUMMARY:Hanover Park High School vs Livingston High School (Varsity Girls
+  Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:99567410@northwest-jersey-athletic-conference
@@ -1062,6 +1062,15 @@ SUMMARY:Hanover Park High School at Mountain Lakes High School (Varsity B
 DESCRIPTION:Varsity Boys Boys Cross Country - Away - 5:25 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2913:7452183@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260930T160000
+DTEND;TZID=America/New_York:20260930T180000
+SUMMARY:Villa Walsh Academy at Hanover Park High School (Varsity Girls Gi
+ rls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2642:7500225@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260930T160000
@@ -1078,15 +1087,6 @@ DTEND;TZID=America/New_York:20260930T180000
 SUMMARY:Villa Walsh Academy vs Hanover Park High School (Freshman Girls G
  irls Volleyball)
 DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2913:7452183@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260930T160000
-DTEND;TZID=America/New_York:20260930T180000
-SUMMARY:Villa Walsh Academy at Hanover Park High School (Varsity Girls Gi
- rls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2913:7452061@northwest-jersey-athletic-conference
