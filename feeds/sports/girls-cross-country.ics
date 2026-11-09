@@ -23,13 +23,13 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2594:7604798@northwest-jersey-athletic-conference
+UID:ds:2694:7604798@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260902T160000
 DTEND;TZID=America/New_York:20260902T180000
-SUMMARY:Dover High School vs Lenape Valley High School (Varsity Girls Gir
+SUMMARY:Lenape Valley High School at Dover High School (Varsity Girls Gir
  ls Cross Country)
-DESCRIPTION:Varsity Girls Girls Cross Country - Home - 4:00 PM
+DESCRIPTION:Varsity Girls Girls Cross Country - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2745:7567471@northwest-jersey-athletic-conference
@@ -75,24 +75,6 @@ SUMMARY:Sparta High School at TBD (Varsity Girls Girls Cross Country)
 DESCRIPTION:Varsity Girls Girls Cross Country - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2594:7571056@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260908T160000
-DTEND;TZID=America/New_York:20260908T180000
-SUMMARY:Dover High School at Newton High School (Varsity Girls Girls Cros
- s Country)
-DESCRIPTION:Varsity Girls Girls Cross Country - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2634:7591535@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260908T160000
-DTEND;TZID=America/New_York:20260908T180000
-SUMMARY:Hackettstown High School at Hopatcong High School (Varsity Girls 
- Girls Cross Country)
-DESCRIPTION:Varsity Girls Girls Cross Country - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2649:7472402@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260908T160000
@@ -102,7 +84,7 @@ SUMMARY:High Point High School at Kittatinny High School (Varsity Girls G
 DESCRIPTION:Varsity Girls Girls Cross Country - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2674:7511369@northwest-jersey-athletic-conference
+UID:ds:2674:7571056@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260908T160000
 DTEND;TZID=America/New_York:20260908T180000
@@ -120,7 +102,7 @@ SUMMARY:Kittatinny High School vs Lenape Valley High School (Varsity Girl
 DESCRIPTION:Varsity Girls Girls Cross Country - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2761:7511369@northwest-jersey-athletic-conference
+UID:ds:2761:7571056@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260908T160000
 DTEND;TZID=America/New_York:20260908T180000
@@ -217,33 +199,6 @@ SUMMARY:West Morris Central at Mendham High School (Varsity Girls Girls C
 DESCRIPTION:Varsity Girls Girls Cross Country - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2594:7492270@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260915T160000
-DTEND;TZID=America/New_York:20260915T180000
-SUMMARY:Dover High School vs North Warren (Varsity Girls Girls Cross Coun
- try)
-DESCRIPTION:Varsity Girls Girls Cross Country - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2634:7529243@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260915T160000
-DTEND;TZID=America/New_York:20260915T180000
-SUMMARY:Hackettstown High School at Wallkill Valley High School (Varsity 
- Girls Girls Cross Country)
-DESCRIPTION:Varsity Girls Girls Cross Country - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:42130:7505422@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260915T160000
-DTEND;TZID=America/New_York:20260915T180000
-SUMMARY:Morris County School of Technology vs Hanover Park High School (V
- arsity Girls Girls Cross Country)
-DESCRIPTION:Varsity Girls Girls Cross Country - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2649:7529243@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260915T160000
@@ -298,6 +253,15 @@ SUMMARY:Morris County School of Technology at Villa Walsh Academy (Varsit
 DESCRIPTION:Varsity Girls Girls Cross Country - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:42130:7505422@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260915T160000
+DTEND;TZID=America/New_York:20260915T180000
+SUMMARY:Morris County School of Technology vs Hanover Park High School (V
+ arsity Girls Girls Cross Country)
+DESCRIPTION:Varsity Girls Girls Cross Country - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:42130:7552017@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260915T160000
@@ -322,6 +286,15 @@ DTSTART;TZID=America/New_York:20260915T160000
 DTEND;TZID=America/New_York:20260915T180000
 SUMMARY:Newton High School at Wallkill Valley High School (Varsity Girls 
  Girls Cross Country)
+DESCRIPTION:Varsity Girls Girls Cross Country - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2768:7492270@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260915T160000
+DTEND;TZID=America/New_York:20260915T180000
+SUMMARY:North Warren at Dover High School (Varsity Girls Girls Cross Coun
+ try)
 DESCRIPTION:Varsity Girls Girls Cross Country - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -491,15 +464,6 @@ SUMMARY:Sparta High School at TBD (Junior Varsity Girls Girls Cross Count
 DESCRIPTION:Junior Varsity Girls Girls Cross Country - Away - 4:40 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2642:7441033@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260922T170000
-DTEND;TZID=America/New_York:20260922T190000
-SUMMARY:Hanover Park High School at Madison High School (Varsity Girls Gi
- rls Cross Country)
-DESCRIPTION:Varsity Girls Girls Cross Country - Away - 5:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2913:7552045@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260922T170000
@@ -559,15 +523,6 @@ SUMMARY:Morristown High School vs TBD (Var-JV Girls Girls Cross Country)
 DESCRIPTION:Var-JV Girls Girls Cross Country - Home - 3:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2594:7472405@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260929T160000
-DTEND;TZID=America/New_York:20260929T180000
-SUMMARY:Dover High School at Hackettstown High School (Varsity Girls Girl
- s Cross Country)
-DESCRIPTION:Varsity Girls Girls Cross Country - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2686:7472405@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260929T160000
@@ -621,15 +576,6 @@ SUMMARY:Whippany Park High School vs Parsippany Hills High School (Varsit
 DESCRIPTION:Varsity Girls Girls Cross Country - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2642:7585390@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260929T162500
-DTEND;TZID=America/New_York:20260929T182500
-SUMMARY:Hanover Park High School at Morris Catholic High School (Varsity 
- Girls Girls Cross Country)
-DESCRIPTION:Varsity Girls Girls Cross Country - Away - 4:25 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2745:7516092@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260929T162500
@@ -637,6 +583,15 @@ DTEND;TZID=America/New_York:20260929T182500
 SUMMARY:Morris Catholic High School at Villa Walsh Academy (Varsity Girls
   Girls Cross Country)
 DESCRIPTION:Varsity Girls Girls Cross Country - Away - 4:25 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2745:7585390@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260929T162500
+DTEND;TZID=America/New_York:20260929T182500
+SUMMARY:Morris Catholic High School vs Hanover Park High School (Varsity 
+ Girls Girls Cross Country)
+DESCRIPTION:Varsity Girls Girls Cross Country - Home - 4:25 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2745:7497008@northwest-jersey-athletic-conference
@@ -760,15 +715,6 @@ DTSTART;TZID=America/New_York:20261003T093000
 DTEND;TZID=America/New_York:20261003T113000
 SUMMARY:Morristown High School vs TBD (Var-JV Girls Girls Cross Country)
 DESCRIPTION:Var-JV Girls Girls Cross Country - Home - 9:30 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2594:7568907@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261005T161700
-DTEND;TZID=America/New_York:20261005T181700
-SUMMARY:Dover High School at Warren County Tech High (Varsity Girls Girls
-  Cross Country)
-DESCRIPTION:Varsity Girls Girls Cross Country - Away - 4:17 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2768:7663100@northwest-jersey-athletic-conference
@@ -944,15 +890,6 @@ DTSTART;TZID=America/New_York:20261022T100000
 DTEND;TZID=America/New_York:20261022T120000
 SUMMARY:Sparta High School at TBD (Varsity Girls Girls Cross Country)
 DESCRIPTION:Varsity Girls Girls Cross Country - Away - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2594:7568908@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261022T161700
-DTEND;TZID=America/New_York:20261022T181700
-SUMMARY:Dover High School vs Warren County Tech High (Varsity Girls Girls
-  Cross Country)
-DESCRIPTION:Varsity Girls Girls Cross Country - Home - 4:17 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2913:7690851@northwest-jersey-athletic-conference

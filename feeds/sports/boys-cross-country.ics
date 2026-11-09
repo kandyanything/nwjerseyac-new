@@ -23,13 +23,13 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2594:7604740@northwest-jersey-athletic-conference
+UID:ds:2694:7604740@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260902T160000
 DTEND;TZID=America/New_York:20260902T180000
-SUMMARY:Dover High School vs Lenape Valley High School (Varsity Boys Boys
+SUMMARY:Lenape Valley High School at Dover High School (Varsity Boys Boys
   Cross Country)
-DESCRIPTION:Varsity Boys Boys Cross Country - Home - 4:00 PM
+DESCRIPTION:Varsity Boys Boys Cross Country - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2745:7563870@northwest-jersey-athletic-conference
@@ -64,24 +64,6 @@ DTSTART;TZID=America/New_York:20260905T090000
 DTEND;TZID=America/New_York:20260905T110000
 SUMMARY:Sparta High School at TBD (Varsity Boys Boys Cross Country)
 DESCRIPTION:Varsity Boys Boys Cross Country - Away - 9:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2594:7542223@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260908T160000
-DTEND;TZID=America/New_York:20260908T180000
-SUMMARY:Dover High School at Newton High School (Varsity Boys Boys Cross 
- Country)
-DESCRIPTION:Varsity Boys Boys Cross Country - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2634:7555895@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260908T160000
-DTEND;TZID=America/New_York:20260908T180000
-SUMMARY:Hackettstown High School at Hopatcong High School (Varsity Boys B
- oys Cross Country)
-DESCRIPTION:Varsity Boys Boys Cross Country - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2649:7472387@northwest-jersey-athletic-conference
@@ -188,24 +170,6 @@ SUMMARY:Morristown High School vs TBD (Var-JV Boys Boys Cross Country)
 DESCRIPTION:Var-JV Boys Boys Cross Country - Home - 3:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2594:7492255@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260915T160000
-DTEND;TZID=America/New_York:20260915T180000
-SUMMARY:Dover High School vs North Warren (Varsity Boys Boys Cross Countr
- y)
-DESCRIPTION:Varsity Boys Boys Cross Country - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:42130:7497003@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260915T160000
-DTEND;TZID=America/New_York:20260915T180000
-SUMMARY:Morris County School of Technology vs Hanover Park High School (V
- arsity Boys Boys Cross Country)
-DESCRIPTION:Varsity Boys Boys Cross Country - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2674:7510748@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260915T160000
@@ -233,12 +197,30 @@ SUMMARY:Lenape Valley High School at Dover High School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Cross Country - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:42130:7497003@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260915T160000
+DTEND;TZID=America/New_York:20260915T180000
+SUMMARY:Morris County School of Technology vs Hanover Park High School (V
+ arsity Boys Boys Cross Country)
+DESCRIPTION:Varsity Boys Boys Cross Country - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2761:7510748@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260915T160000
 DTEND;TZID=America/New_York:20260915T180000
 SUMMARY:Newton High School at Wallkill Valley High School (Varsity Boys B
  oys Cross Country)
+DESCRIPTION:Varsity Boys Boys Cross Country - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2768:7492255@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260915T160000
+DTEND;TZID=America/New_York:20260915T180000
+SUMMARY:North Warren at Dover High School (Varsity Boys Boys Cross Countr
+ y)
 DESCRIPTION:Varsity Boys Boys Cross Country - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -345,14 +327,6 @@ SUMMARY:Sparta High School at TBD (Varsity Boys Boys Cross Country)
 DESCRIPTION:Varsity Boys Boys Cross Country - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2594:7655149@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260919T113000
-DTEND;TZID=America/New_York:20260919T133000
-SUMMARY:Dover High School vs TBD (Varsity Boys Boys Cross Country)
-DESCRIPTION:Varsity Boys Boys Cross Country - Home - 11:30 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2748:7492128@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260919T113500
@@ -391,24 +365,6 @@ DTSTART;TZID=America/New_York:20260922T160000
 DTEND;TZID=America/New_York:20260922T180000
 SUMMARY:Boonton High School at Morristown Beard School (Varsity Boys Boys
   Cross Country)
-DESCRIPTION:Varsity Boys Boys Cross Country - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2594:7476033@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260922T160000
-DTEND;TZID=America/New_York:20260922T180000
-SUMMARY:Dover High School at High Point High School (Varsity Boys Boys Cr
- oss Country)
-DESCRIPTION:Varsity Boys Boys Cross Country - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2642:7441029@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260922T160000
-DTEND;TZID=America/New_York:20260922T180000
-SUMMARY:Hanover Park High School at Madison High School (Varsity Boys Boy
- s Cross Country)
 DESCRIPTION:Varsity Boys Boys Cross Country - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -561,14 +517,6 @@ SUMMARY:Morristown High School vs TBD (Var-JV Boys Boys Cross Country)
 DESCRIPTION:Var-JV Boys Boys Cross Country - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2594:7655148@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260926T113000
-DTEND;TZID=America/New_York:20260926T133000
-SUMMARY:Dover High School vs TBD (Varsity Boys Boys Cross Country)
-DESCRIPTION:Varsity Boys Boys Cross Country - Home - 11:30 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2761:7603941@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260927T090000
@@ -583,15 +531,6 @@ DTSTART;TZID=America/New_York:20260929T154500
 DTEND;TZID=America/New_York:20260929T174500
 SUMMARY:Morristown High School vs TBD (Var-JV Boys Boys Cross Country)
 DESCRIPTION:Var-JV Boys Boys Cross Country - Home - 3:45 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2594:7472395@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260929T160000
-DTEND;TZID=America/New_York:20260929T180000
-SUMMARY:Dover High School at Hackettstown High School (Varsity Boys Boys 
- Cross Country)
-DESCRIPTION:Varsity Boys Boys Cross Country - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2686:7472395@northwest-jersey-athletic-conference
@@ -647,15 +586,6 @@ SUMMARY:Whippany Park High School at Morris County School of Technology (
 DESCRIPTION:Varsity Boys Boys Cross Country - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2642:7612670@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260929T162500
-DTEND;TZID=America/New_York:20260929T182500
-SUMMARY:Hanover Park High School at Mountain Lakes High School (Varsity B
- oys Boys Cross Country)
-DESCRIPTION:Varsity Boys Boys Cross Country - Away - 4:25 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2881:7496649@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260929T164000
@@ -682,15 +612,6 @@ SUMMARY:Morris Catholic High School vs TBD (Varsity Boys Boys Cross Count
 DESCRIPTION:Varsity Boys Boys Cross Country - Home - 5:05 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2642:7552370@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260929T172500
-DTEND;TZID=America/New_York:20260929T192500
-SUMMARY:Hanover Park High School at Mountain Lakes High School (Varsity B
- oys Boys Cross Country)
-DESCRIPTION:Varsity Boys Boys Cross Country - Away - 5:25 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:42130:7527063@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260929T172500
@@ -698,6 +619,15 @@ DTEND;TZID=America/New_York:20260929T192500
 SUMMARY:Morris County School of Technology at Whippany Park High School (
  Varsity Boys Boys Cross Country)
 DESCRIPTION:Varsity Boys Boys Cross Country - Away - 5:25 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2754:7552370@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260929T172500
+DTEND;TZID=America/New_York:20260929T192500
+SUMMARY:Mountain Lakes High School vs Hanover Park High School (Varsity B
+ oys Boys Cross Country)
+DESCRIPTION:Varsity Boys Boys Cross Country - Home - 5:25 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102852674@northwest-jersey-athletic-conference
@@ -783,15 +713,6 @@ DTSTART;VALUE=DATE:20261003
 DTEND;VALUE=DATE:20261004
 SUMMARY:Montville High School at TBD (Varsity Boys Boys Cross Country)
 DESCRIPTION:Varsity Boys Boys Cross Country - Away
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2594:7568906@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261005T160000
-DTEND;TZID=America/New_York:20261005T180000
-SUMMARY:Dover High School at Warren County Tech High (Varsity Boys Boys C
- ross Country)
-DESCRIPTION:Varsity Boys Boys Cross Country - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2768:7663093@northwest-jersey-athletic-conference
@@ -949,15 +870,6 @@ DTSTART;TZID=America/New_York:20261022T100000
 DTEND;TZID=America/New_York:20261022T120000
 SUMMARY:Sparta High School at TBD (Varsity Boys Boys Cross Country)
 DESCRIPTION:Varsity Boys Boys Cross Country - Away - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2594:7568905@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261022T160000
-DTEND;TZID=America/New_York:20261022T180000
-SUMMARY:Dover High School vs Warren County Tech High (Varsity Boys Boys C
- ross Country)
-DESCRIPTION:Varsity Boys Boys Cross Country - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2881:7627898@northwest-jersey-athletic-conference

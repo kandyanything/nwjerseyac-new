@@ -251,24 +251,6 @@ SUMMARY:Academy of Saint Elizabeth at Lenape Valley High School (Junior V
 DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2594:7604798@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260902T160000
-DTEND;TZID=America/New_York:20260902T180000
-SUMMARY:Dover High School vs Lenape Valley High School (Varsity Girls Gir
- ls Cross Country)
-DESCRIPTION:Varsity Girls Girls Cross Country - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2594:7604740@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260902T160000
-DTEND;TZID=America/New_York:20260902T180000
-SUMMARY:Dover High School vs Lenape Valley High School (Varsity Boys Boys
-  Cross Country)
-DESCRIPTION:Varsity Boys Boys Cross Country - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2694:7491289@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260902T160000
@@ -285,6 +267,24 @@ DTEND;TZID=America/New_York:20260902T180000
 SUMMARY:Lenape Valley High School vs Vernon Township High School (Junior 
  Varsity Boys Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2694:7604740@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260902T160000
+DTEND;TZID=America/New_York:20260902T180000
+SUMMARY:Lenape Valley High School at Dover High School (Varsity Boys Boys
+  Cross Country)
+DESCRIPTION:Varsity Boys Boys Cross Country - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2694:7604798@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260902T160000
+DTEND;TZID=America/New_York:20260902T180000
+SUMMARY:Lenape Valley High School at Dover High School (Varsity Girls Gir
+ ls Cross Country)
+DESCRIPTION:Varsity Girls Girls Cross Country - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2674:7494847@northwest-jersey-athletic-conference
@@ -431,6 +431,15 @@ SUMMARY:Lenape Valley High School vs Warren Hills Regional School Distric
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2694:7598838@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260908T160000
+DTEND;TZID=America/New_York:20260908T180000
+SUMMARY:Lenape Valley High School at Somerville High School (Junior Varsi
+ ty Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2694:7494987@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260908T160000
@@ -447,15 +456,6 @@ DTEND;TZID=America/New_York:20260908T180000
 SUMMARY:Lenape Valley High School at Vernon Township High School (Varsity
   Girls Girls Tennis)
 DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2694:7598838@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260908T160000
-DTEND;TZID=America/New_York:20260908T180000
-SUMMARY:Lenape Valley High School at Somerville High School (Junior Varsi
- ty Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2686:7470566@northwest-jersey-athletic-conference
@@ -602,15 +602,6 @@ SUMMARY:Lenape Valley High School at Veritas Christian Academy (Varsity G
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2594:7494694@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260914T160000
-DTEND;TZID=America/New_York:20260914T180000
-SUMMARY:Dover High School at Lenape Valley High School (Varsity Girls Gir
- ls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2686:7470581@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260914T160000
@@ -638,6 +629,15 @@ SUMMARY:Kittatinny High School at Lenape Valley High School (Junior Varsi
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2694:7494694@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T160000
+DTEND;TZID=America/New_York:20260914T180000
+SUMMARY:Lenape Valley High School vs Dover High School (Varsity Girls Gir
+ ls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2686:7469815@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260914T183000
@@ -645,15 +645,6 @@ DTEND;TZID=America/New_York:20260914T203000
 SUMMARY:Kittatinny High School at Lenape Valley High School (Varsity Boys
   Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 6:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2634:7494848@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260915T160000
-DTEND;TZID=America/New_York:20260915T180000
-SUMMARY:Hackettstown High School at Lenape Valley High School (Varsity Gi
- rls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2694:7492270@northwest-jersey-athletic-conference
@@ -674,6 +665,15 @@ SUMMARY:Lenape Valley High School vs Mount Olive High School (Junior Vars
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2694:7494848@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260915T160000
+DTEND;TZID=America/New_York:20260915T180000
+SUMMARY:Lenape Valley High School vs Hackettstown High School (Varsity Gi
+ rls Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2694:7492255@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260915T160000
@@ -683,13 +683,13 @@ SUMMARY:Lenape Valley High School at Dover High School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Cross Country - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2634:7494920@northwest-jersey-athletic-conference
+UID:ds:2694:7494920@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260915T173000
 DTEND;TZID=America/New_York:20260915T193000
-SUMMARY:Hackettstown High School at Lenape Valley High School (Junior Var
+SUMMARY:Lenape Valley High School vs Hackettstown High School (Junior Var
  sity Girls Field Hockey)
-DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:30 PM
+DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2674:7494810@northwest-jersey-athletic-conference
@@ -1078,15 +1078,6 @@ SUMMARY:Lenape Valley High School vs Sussex County Technical High School
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2887:7494483@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260929T160000
-DTEND;TZID=America/New_York:20260929T180000
-SUMMARY:Sussex County Tech High School at Lenape Valley High School (Vars
- ity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2887:7494597@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260929T160000
@@ -1103,6 +1094,15 @@ DTEND;TZID=America/New_York:20260929T180000
 SUMMARY:Sussex County Tech High School vs Lenape Valley High School (Vars
  ity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2887:7494483@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260929T160000
+DTEND;TZID=America/New_York:20260929T180000
+SUMMARY:Sussex County Tech High School at Lenape Valley High School (Vars
+ ity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2661:7533053@northwest-jersey-athletic-conference
@@ -1403,13 +1403,13 @@ SUMMARY:Kittatinny High School vs Lenape Valley High School (Junior Varsi
 DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2634:7471872@northwest-jersey-athletic-conference
+UID:ds:2694:7471872@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261008T153000
 DTEND;TZID=America/New_York:20261008T173000
-SUMMARY:Hackettstown High School at Lenape Valley High School (Junior Var
+SUMMARY:Lenape Valley High School vs Hackettstown High School (Junior Var
  sity Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 3:30 PM
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:99189544@northwest-jersey-athletic-conference
@@ -1421,31 +1421,31 @@ SUMMARY:Madison High School vs Lenape Valley High School (Freshman Boys F
 DESCRIPTION:Freshman Boys Football - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2634:7485246@northwest-jersey-athletic-conference
+UID:ds:2694:7485246@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261008T160000
 DTEND;TZID=America/New_York:20261008T180000
-SUMMARY:Hackettstown High School vs Lenape Valley High School (Varsity Gi
+SUMMARY:Lenape Valley High School at Hackettstown High School (Varsity Gi
  rls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
+DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2634:7485247@northwest-jersey-athletic-conference
+UID:ds:2694:7485247@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261008T173000
 DTEND;TZID=America/New_York:20261008T193000
-SUMMARY:Hackettstown High School vs Lenape Valley High School (Junior Var
+SUMMARY:Lenape Valley High School at Hackettstown High School (Junior Var
  sity Girls Field Hockey)
-DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 5:30 PM
+DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2634:7471871@northwest-jersey-athletic-conference
+UID:ds:2694:7471871@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261008T183000
 DTEND;TZID=America/New_York:20261008T203000
-SUMMARY:Hackettstown High School at Lenape Valley High School (Varsity Gi
+SUMMARY:Lenape Valley High School vs Hackettstown High School (Varsity Gi
  rls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 6:30 PM
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:99703301@northwest-jersey-athletic-conference
@@ -1505,13 +1505,13 @@ SUMMARY:Lenape Valley High School at Vernon Township High School (Varsity
 DESCRIPTION:Varsity Girls Field Hockey - Away - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2594:7491890@northwest-jersey-athletic-conference
+UID:ds:2694:7491890@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261015T153000
 DTEND;TZID=America/New_York:20261015T173000
-SUMMARY:Dover High School vs Lenape Valley High School (Varsity Girls Gir
+SUMMARY:Lenape Valley High School at Dover High School (Varsity Girls Gir
  ls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 3:30 PM
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2694:7494929@northwest-jersey-athletic-conference
@@ -2080,15 +2080,6 @@ SUMMARY:Jefferson Township High School vs Lenape Valley High School (Vars
 DESCRIPTION:Varsity Coed Coed Bowling - Home - 3:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2634:7503251@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261217T160000
-DTEND;TZID=America/New_York:20261217T180000
-SUMMARY:Hackettstown High School at Lenape Valley High School (Freshman B
- oys Boys Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2694:7457676@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261217T160000
@@ -2096,6 +2087,15 @@ DTEND;TZID=America/New_York:20261217T180000
 SUMMARY:Lenape Valley High School at Sussex County Technical High School 
  (Varsity Girls Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2694:7503251@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261217T160000
+DTEND;TZID=America/New_York:20261217T180000
+SUMMARY:Lenape Valley High School vs Hackettstown High School (Freshman B
+ oys Boys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2887:7457676@northwest-jersey-athletic-conference
@@ -2107,13 +2107,13 @@ SUMMARY:Sussex County Tech High School vs Lenape Valley High School (Vars
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2634:7503191@northwest-jersey-athletic-conference
+UID:ds:2694:7503191@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261217T173000
 DTEND;TZID=America/New_York:20261217T193000
-SUMMARY:Hackettstown High School at Lenape Valley High School (Junior Var
+SUMMARY:Lenape Valley High School vs Hackettstown High School (Junior Var
  sity Boys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2694:7534875@northwest-jersey-athletic-conference
@@ -2134,13 +2134,13 @@ SUMMARY:Sussex County Tech High School vs Lenape Valley High School (Juni
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2634:7457414@northwest-jersey-athletic-conference
+UID:ds:2694:7457414@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261217T190000
 DTEND;TZID=America/New_York:20261217T210000
-SUMMARY:Hackettstown High School at Lenape Valley High School (Varsity Bo
+SUMMARY:Lenape Valley High School vs Hackettstown High School (Varsity Bo
  ys Boys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2694:7622930@northwest-jersey-athletic-conference
@@ -2442,15 +2442,6 @@ SUMMARY:Kittatinny High School at Lenape Valley High School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2594:7457683@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270108T160000
-DTEND;TZID=America/New_York:20270108T180000
-SUMMARY:Dover High School at Lenape Valley High School (Varsity Girls Gir
- ls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2674:7527302@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270108T160000
@@ -2460,13 +2451,13 @@ SUMMARY:Jefferson Township High School vs Lenape Valley High School (Fres
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2594:7504179@northwest-jersey-athletic-conference
+UID:ds:2694:7457683@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270108T173000
-DTEND;TZID=America/New_York:20270108T193000
-SUMMARY:Dover High School at Lenape Valley High School (Junior Varsity Gi
- rls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
+DTSTART;TZID=America/New_York:20270108T160000
+DTEND;TZID=America/New_York:20270108T180000
+SUMMARY:Lenape Valley High School vs Dover High School (Varsity Girls Gir
+ ls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2674:7527198@northwest-jersey-athletic-conference
@@ -2476,6 +2467,15 @@ DTEND;TZID=America/New_York:20270108T193000
 SUMMARY:Jefferson Township High School vs Lenape Valley High School (Juni
  or Varsity Boys Boys Basketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2694:7504179@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270108T173000
+DTEND;TZID=America/New_York:20270108T193000
+SUMMARY:Lenape Valley High School vs Dover High School (Junior Varsity Gi
+ rls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2674:7457421@northwest-jersey-athletic-conference
@@ -2532,15 +2532,6 @@ SUMMARY:Jefferson Township High School vs Lenape Valley High School (Vars
 DESCRIPTION:Varsity Girls Girls Swimming - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2594:7704451@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270112T173000
-DTEND;TZID=America/New_York:20270112T193000
-SUMMARY:Dover High School vs Lenape Valley High School (Junior Varsity Gi
- rls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2661:7507656@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T173000
@@ -2548,6 +2539,15 @@ DTEND;TZID=America/New_York:20270112T193000
 SUMMARY:Hopatcong High School at Lenape Valley High School (Junior Varsit
  y Boys Boys Basketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2694:7704451@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270112T173000
+DTEND;TZID=America/New_York:20270112T193000
+SUMMARY:Lenape Valley High School at Dover High School (Junior Varsity Gi
+ rls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2661:7457423@northwest-jersey-athletic-conference
@@ -2739,15 +2739,6 @@ SUMMARY:High Point High School vs Lenape Valley High School (Varsity Coed
 DESCRIPTION:Varsity Coed Coed Bowling - Home - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2634:7611979@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270120T160000
-DTEND;TZID=America/New_York:20270120T180000
-SUMMARY:Hackettstown High School vs Lenape Valley High School (Freshman B
- oys Boys Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2694:7457691@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270120T160000
@@ -2755,6 +2746,15 @@ DTEND;TZID=America/New_York:20270120T180000
 SUMMARY:Lenape Valley High School vs Sussex County Technical High School 
  (Varsity Girls Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2694:7611979@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270120T160000
+DTEND;TZID=America/New_York:20270120T180000
+SUMMARY:Lenape Valley High School at Hackettstown High School (Freshman B
+ oys Boys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2887:7457691@northwest-jersey-athletic-conference
@@ -2766,15 +2766,6 @@ SUMMARY:Sussex County Tech High School at Lenape Valley High School (Vars
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2634:7611978@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270120T173000
-DTEND;TZID=America/New_York:20270120T193000
-SUMMARY:Hackettstown High School vs Lenape Valley High School (Junior Var
- sity Boys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2694:7522504@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270120T173000
@@ -2782,6 +2773,15 @@ DTEND;TZID=America/New_York:20270120T193000
 SUMMARY:Lenape Valley High School vs Sussex County Technical High School 
  (Junior Varsity Girls Girls Basketball)
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2694:7611978@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270120T173000
+DTEND;TZID=America/New_York:20270120T193000
+SUMMARY:Lenape Valley High School at Hackettstown High School (Junior Var
+ sity Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2887:7522504@northwest-jersey-athletic-conference
@@ -2793,13 +2793,13 @@ SUMMARY:Sussex County Tech High School at Lenape Valley High School (Juni
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2634:7457429@northwest-jersey-athletic-conference
+UID:ds:2694:7457429@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270120T190000
 DTEND;TZID=America/New_York:20270120T210000
-SUMMARY:Hackettstown High School vs Lenape Valley High School (Varsity Bo
+SUMMARY:Lenape Valley High School at Hackettstown High School (Varsity Bo
  ys Boys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2694:7610012@northwest-jersey-athletic-conference
@@ -2946,15 +2946,6 @@ SUMMARY:High Point High School vs Lenape Valley High School (Freshman Boy
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2594:7504555@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270126T173000
-DTEND;TZID=America/New_York:20270126T193000
-SUMMARY:Dover High School at Lenape Valley High School (Junior Varsity Bo
- ys Boys Wrestling)
-DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2649:7521630@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270126T173000
@@ -2964,13 +2955,22 @@ SUMMARY:High Point High School vs Lenape Valley High School (Junior Varsi
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2594:7504517@northwest-jersey-athletic-conference
+UID:ds:2694:7504555@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270126T173000
+DTEND;TZID=America/New_York:20270126T193000
+SUMMARY:Lenape Valley High School vs Dover High School (Junior Varsity Bo
+ ys Boys Wrestling)
+DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2694:7504517@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270126T183000
 DTEND;TZID=America/New_York:20270126T203000
-SUMMARY:Dover High School at Lenape Valley High School (Varsity Boys Boys
+SUMMARY:Lenape Valley High School vs Dover High School (Varsity Boys Boys
   Wrestling)
-DESCRIPTION:Varsity Boys Boys Wrestling - Away - 6:30 PM
+DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2649:7521629@northwest-jersey-athletic-conference
@@ -3153,31 +3153,22 @@ SUMMARY:Lenape Valley High School at South Hunterdon Regional High School
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2634:7578203@northwest-jersey-athletic-conference
+UID:ds:2694:7578203@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270208T173000
 DTEND;TZID=America/New_York:20270208T193000
-SUMMARY:Hackettstown High School vs Lenape Valley High School (Junior Var
+SUMMARY:Lenape Valley High School at Hackettstown High School (Junior Var
  sity Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2634:7578202@northwest-jersey-athletic-conference
+UID:ds:2694:7578202@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270208T190000
 DTEND;TZID=America/New_York:20270208T210000
-SUMMARY:Hackettstown High School vs Lenape Valley High School (Varsity Gi
+SUMMARY:Lenape Valley High School at Hackettstown High School (Varsity Gi
  rls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2594:7457698@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270209T160000
-DTEND;TZID=America/New_York:20270209T180000
-SUMMARY:Dover High School vs Lenape Valley High School (Varsity Girls Gir
- ls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:00 PM
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2674:7507693@northwest-jersey-athletic-conference
@@ -3189,13 +3180,13 @@ SUMMARY:Jefferson Township High School at Lenape Valley High School (Fres
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2594:7582598@northwest-jersey-athletic-conference
+UID:ds:2694:7457698@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270209T173000
-DTEND;TZID=America/New_York:20270209T193000
-SUMMARY:Dover High School vs Lenape Valley High School (Junior Varsity Gi
- rls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
+DTSTART;TZID=America/New_York:20270209T160000
+DTEND;TZID=America/New_York:20270209T180000
+SUMMARY:Lenape Valley High School at Dover High School (Varsity Girls Gir
+ ls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2674:7507669@northwest-jersey-athletic-conference
@@ -3205,6 +3196,15 @@ DTEND;TZID=America/New_York:20270209T193000
 SUMMARY:Jefferson Township High School at Lenape Valley High School (Juni
  or Varsity Boys Boys Basketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2694:7582598@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270209T173000
+DTEND;TZID=America/New_York:20270209T193000
+SUMMARY:Lenape Valley High School at Dover High School (Junior Varsity Gi
+ rls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2674:7457436@northwest-jersey-athletic-conference
@@ -3333,22 +3333,22 @@ SUMMARY:Kittatinny High School at Lenape Valley High School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2642:7609028@northwest-jersey-athletic-conference
+UID:ds:2694:7609028@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270316T160000
 DTEND;TZID=America/New_York:20270316T180000
-SUMMARY:Hanover Park High School at Lenape Valley High School (Junior Var
+SUMMARY:Lenape Valley High School vs Hanover Park High School (Junior Var
  sity Boys Baseball)
-DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:00 PM
+DESCRIPTION:Junior Varsity Boys Baseball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2642:7609031@northwest-jersey-athletic-conference
+UID:ds:2694:7609031@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270316T160000
 DTEND;TZID=America/New_York:20270316T180000
-SUMMARY:Hanover Park High School at Lenape Valley High School (Varsity Bo
+SUMMARY:Lenape Valley High School vs Hanover Park High School (Varsity Bo
  ys Baseball)
-DESCRIPTION:Varsity Boys Baseball - Away - 4:00 PM
+DESCRIPTION:Varsity Boys Baseball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2694:7672360@northwest-jersey-athletic-conference
@@ -3412,15 +3412,6 @@ DTEND;TZID=America/New_York:20270329T120000
 SUMMARY:Jefferson Township High School vs Lenape Valley High School (Juni
  or Varsity Boys Baseball)
 DESCRIPTION:Junior Varsity Boys Baseball - Home - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2594:7649692@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270329T160000
-DTEND;TZID=America/New_York:20270329T180000
-SUMMARY:Dover High School at Lenape Valley High School (Varsity Coed Coed
-  Golf)
-DESCRIPTION:Varsity Coed Coed Golf - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2694:7649692@northwest-jersey-athletic-conference
@@ -3622,15 +3613,6 @@ SUMMARY:Morristown Beard School at Lenape Valley High School (Varsity Sof
 DESCRIPTION:Varsity Softball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2594:7649697@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270419T160000
-DTEND;TZID=America/New_York:20270419T180000
-SUMMARY:Dover High School vs Lenape Valley High School (Varsity Coed Coed
-  Golf)
-DESCRIPTION:Varsity Coed Coed Golf - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2694:7649697@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270419T160000
@@ -3649,13 +3631,13 @@ SUMMARY:Lenape Valley High School at Newton High School (Varsity Boys Boy
 DESCRIPTION:Varsity Boys Boys Tennis - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2634:7614582@northwest-jersey-athletic-conference
+UID:ds:2694:7614582@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270419T163000
 DTEND;TZID=America/New_York:20270419T183000
-SUMMARY:Hackettstown High School vs Lenape Valley High School (Varsity Bo
+SUMMARY:Lenape Valley High School at Hackettstown High School (Varsity Bo
  ys Baseball)
-DESCRIPTION:Varsity Boys Baseball - Home - 4:30 PM
+DESCRIPTION:Varsity Boys Baseball - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2674:7572994@northwest-jersey-athletic-conference
@@ -3694,13 +3676,13 @@ SUMMARY:Jefferson Township High School at Lenape Valley High School (Vars
 DESCRIPTION:Varsity Girls Girls Track and Field - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2634:7614585@northwest-jersey-athletic-conference
+UID:ds:2694:7614585@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270421T160000
 DTEND;TZID=America/New_York:20270421T180000
-SUMMARY:Hackettstown High School at Lenape Valley High School (Varsity Bo
+SUMMARY:Lenape Valley High School vs Hackettstown High School (Varsity Bo
  ys Baseball)
-DESCRIPTION:Varsity Boys Baseball - Away - 4:00 PM
+DESCRIPTION:Varsity Boys Baseball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2686:7628823@northwest-jersey-athletic-conference
@@ -3910,22 +3892,22 @@ SUMMARY:Lenape Valley High School at Vernon Township High School (Varsity
 DESCRIPTION:Varsity Boys Baseball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2564:7684126@northwest-jersey-athletic-conference
+UID:ds:2694:7684126@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270514T161500
 DTEND;TZID=America/New_York:20270514T181500
-SUMMARY:Chatham High School vs Lenape Valley High School (Varsity Girls S
+SUMMARY:Lenape Valley High School at Chatham High School (Varsity Girls S
  oftball)
-DESCRIPTION:Varsity Girls Softball - Home - 4:15 PM
+DESCRIPTION:Varsity Girls Softball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2564:7695242@northwest-jersey-athletic-conference
+UID:ds:2694:7695242@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270514T161500
 DTEND;TZID=America/New_York:20270514T181500
-SUMMARY:Chatham High School vs Lenape Valley High School (Junior Varsity 
+SUMMARY:Lenape Valley High School at Chatham High School (Junior Varsity 
  Girls Softball)
-DESCRIPTION:Junior Varsity Girls Softball - Home - 4:15 PM
+DESCRIPTION:Junior Varsity Girls Softball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2694:7641176@northwest-jersey-athletic-conference
