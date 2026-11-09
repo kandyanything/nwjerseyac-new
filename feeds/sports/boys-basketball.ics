@@ -1005,16 +1005,6 @@ SUMMARY:Whippany Park High School vs Livingston High School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:MorristownBeardSchool:event_10843_20261210t210000zapi.veracross.c
- om@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261210T160000
-DTEND;TZID=America/New_York:20261210T180000
-SUMMARY:Morristown Beard School vs and JV @ Caldwell (Boys Boys Basketbal
- l)
-DESCRIPTION:Boys Boys Basketball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ics:MorristownBeardSchool:event_10842_20261210t210000zapi.veracross.c
  om@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
@@ -1023,6 +1013,16 @@ DTEND;TZID=America/New_York:20261210T180000
 SUMMARY:Morristown Beard School at Caldwell (Freshman Boys Boys Basketbal
  l)
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:MorristownBeardSchool:event_10843_20261210t210000zapi.veracross.c
+ om@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261210T160000
+DTEND;TZID=America/New_York:20261210T180000
+SUMMARY:Morristown Beard School vs and JV @ Caldwell (Boys Boys Basketbal
+ l)
+DESCRIPTION:Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2754:7546296@northwest-jersey-athletic-conference
@@ -3612,6 +3612,15 @@ SUMMARY:Jefferson Township High School vs Whippany Park High School (Juni
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2694:7582048@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261223T133000
+DTEND;TZID=America/New_York:20261223T153000
+SUMMARY:Lenape Valley High School at Belvidere High School (Junior Varsit
+ y Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 1:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2745:7626693@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261223T133000
@@ -3637,6 +3646,15 @@ DTEND;TZID=America/New_York:20261223T160000
 SUMMARY:Morris Knolls High School at Verona High School (Varsity Boys Boy
  s Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 2:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2694:7582034@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261223T150000
+DTEND;TZID=America/New_York:20261223T170000
+SUMMARY:Lenape Valley High School at Belvidere High School (Varsity Boys 
+ Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 3:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2745:7626692@northwest-jersey-athletic-conference
@@ -11215,6 +11233,15 @@ SUMMARY:Boonton High School at Morris Knolls High School (Varsity Boys Bo
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2745:7563113@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270208T190000
+DTEND;TZID=America/New_York:20270208T210000
+SUMMARY:Morris Catholic High School at Saint Peters Prep (Varsity Boys Bo
+ ys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:42130:7457530@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270208T190000
@@ -12289,15 +12316,6 @@ SUMMARY:Jefferson Township High School vs Randolph High School (Junior Va
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 10:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2694:7582048@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270213T103000
-DTEND;TZID=America/New_York:20270213T123000
-SUMMARY:Lenape Valley High School at Belvidere High School (Junior Varsit
- y Boys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 10:30 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2751:7526505@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270213T103000
@@ -12404,15 +12422,6 @@ DTEND;TZID=America/New_York:20270213T140000
 SUMMARY:Jefferson Township High School vs Randolph High School (Varsity B
  oys Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 12:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2694:7582034@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270213T120000
-DTEND;TZID=America/New_York:20270213T140000
-SUMMARY:Lenape Valley High School at Belvidere High School (Varsity Boys 
- Boys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2751:7526503@northwest-jersey-athletic-conference
@@ -12701,7 +12710,7 @@ SUMMARY:Sussex County Tech High School at Newton High School (Freshman Bo
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:MorristownBeardSchool:event_11898_20270216t210000zapi.veracross.c
+UID:ics:MorristownBeardSchool:event_11899_20270216t210000zapi.veracross.c
  om@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270216T160000
