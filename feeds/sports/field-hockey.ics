@@ -4153,15 +4153,6 @@ SUMMARY:Jefferson Township High School vs Vernon Township High School (Va
 DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2686:7552450@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260930T160000
-DTEND;TZID=America/New_York:20260930T180000
-SUMMARY:Kittatinny High School at Newton High School (Middle School Girls
-  Field Hockey)
-DESCRIPTION:Middle School Girls Field Hockey - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2686:7461276@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260930T160000
@@ -4169,6 +4160,15 @@ DTEND;TZID=America/New_York:20260930T180000
 SUMMARY:Kittatinny High School vs Wallkill Valley High School (Varsity Gi
  rls Field Hockey)
 DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2686:7552450@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260930T160000
+DTEND;TZID=America/New_York:20260930T180000
+SUMMARY:Kittatinny High School at Newton High School (Middle School Girls
+  Field Hockey)
+DESCRIPTION:Middle School Girls Field Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2909:7553220@northwest-jersey-athletic-conference
@@ -6430,15 +6430,6 @@ SUMMARY:Newton High School vs Hardyston Middle School (Middle School Girl
 DESCRIPTION:Middle School Girls Field Hockey - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2768:7562581@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261015T160000
-DTEND;TZID=America/New_York:20261015T180000
-SUMMARY:North Warren at Pequannock Valley MS (Middle School Girls Field H
- ockey)
-DESCRIPTION:Middle School Girls Field Hockey - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2768:7514593@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261015T160000
@@ -6446,6 +6437,15 @@ DTEND;TZID=America/New_York:20261015T180000
 SUMMARY:North Warren at Parsippany High School (Varsity Girls Field Hocke
  y)
 DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2768:7562581@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261015T160000
+DTEND;TZID=America/New_York:20261015T180000
+SUMMARY:North Warren at Pequannock Valley MS (Middle School Girls Field H
+ ockey)
+DESCRIPTION:Middle School Girls Field Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2816:7596905@northwest-jersey-athletic-conference
@@ -7911,6 +7911,15 @@ SUMMARY:Madison High School at Chatham High School (Varsity Girls Field H
 DESCRIPTION:Varsity Girls Field Hockey - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ics:MorristownBeardSchool:event_11517_20261028t193000zapi.veracross.c
+ om@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261028T153000
+DTEND;TZID=America/New_York:20261028T173000
+SUMMARY:Morristown Beard School vs and JV practice (Field Hockey)
+DESCRIPTION:Field Hockey - Home - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ics:MorristownBeardSchool:event_11545_20261028t193000zapi.veracross.c
  om@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
@@ -7919,15 +7928,6 @@ DTEND;TZID=America/New_York:20261028T173000
 SUMMARY:Morristown Beard School at Montclair Kimberley Acade (Middle Scho
  ol Field Hockey)
 DESCRIPTION:Middle School Field Hockey - Away - 3:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ics:MorristownBeardSchool:event_11517_20261028t193000zapi.veracross.c
- om@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261028T153000
-DTEND;TZID=America/New_York:20261028T173000
-SUMMARY:Morristown Beard School vs and JV practice (Field Hockey)
-DESCRIPTION:Field Hockey - Home - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103883346@northwest-jersey-athletic-conference
@@ -8602,12 +8602,21 @@ SUMMARY:West Morris Central vs South Plainfield High School (Varsity Girl
 DESCRIPTION:Varsity Girls Field Hockey - Home
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:105473357@northwest-jersey-athletic-conference
+UID:arb:105473862@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
 SUMMARY:Madison High School at Pompton Lakes High School (Varsity Girls F
  ield Hockey)
 DESCRIPTION:Varsity Girls Field Hockey - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:105474152@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:West Morris Central vs Warren Hills Regional High School (Varsity
+  Girls Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Home
 END:VEVENT
 END:VCALENDAR
