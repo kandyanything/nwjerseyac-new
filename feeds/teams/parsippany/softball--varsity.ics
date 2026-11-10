@@ -24,13 +24,13 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2940:7757351@northwest-jersey-athletic-conference
+UID:ds:2790:7757351@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270315T160000
 DTEND;TZID=America/New_York:20270315T180000
-SUMMARY:Whippany Park High School at Parsippany High School (Varsity Girl
+SUMMARY:Parsippany High School vs Whippany Park High School (Varsity Girl
  s Softball)
-DESCRIPTION:Varsity Girls Softball - Away - 4:00 PM
+DESCRIPTION:Varsity Girls Softball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2790:7573784@northwest-jersey-athletic-conference
@@ -85,6 +85,15 @@ DTEND;TZID=America/New_York:20270506T180000
 SUMMARY:Parsippany High School vs Sparta High School (Varsity Girls Softb
  all)
 DESCRIPTION:Varsity Girls Softball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2790:7757425@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270510T160000
+DTEND;TZID=America/New_York:20270510T180000
+SUMMARY:Parsippany High School at Whippany Park High School (Varsity Girl
+ s Softball)
+DESCRIPTION:Varsity Girls Softball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2790:7591179@northwest-jersey-athletic-conference
