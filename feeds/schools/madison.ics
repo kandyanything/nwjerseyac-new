@@ -3170,16 +3170,6 @@ SUMMARY:Madison High School vs Montville High School (Freshman Girls Girl
 DESCRIPTION:Freshman Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:MorristownBeardSchool:event_11325_20261027t200000zapi.veracross.c
- om@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261027T160000
-DTEND;TZID=America/New_York:20261027T180000
-SUMMARY:Morristown Beard School at Madison High School (Varsity Boys Date
-  changed from 10/29 Soccer)
-DESCRIPTION:Varsity Boys Date changed from 10/29 Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ics:MorristownBeardSchool:event_11327_20261027t200000zapi.veracross.c
  om@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
@@ -3189,6 +3179,16 @@ SUMMARY:Morristown Beard School at Madison High School (Junior Varsity Bo
  ys Date changed from 10/29 Soccer)
 DESCRIPTION:Junior Varsity Boys Date changed from 10/29 Soccer - Away - 4
  :00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:MorristownBeardSchool:event_11325_20261027t200000zapi.veracross.c
+ om@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261027T160000
+DTEND;TZID=America/New_York:20261027T180000
+SUMMARY:Morristown Beard School at Madison High School (Varsity Boys Date
+  changed from 10/29 Soccer)
+DESCRIPTION:Varsity Boys Date changed from 10/29 Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101857101@northwest-jersey-athletic-conference
@@ -4599,15 +4599,6 @@ SUMMARY:Madison High School vs Old Tappan High School (Varsity Girls Girl
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:101978901@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270118T160000
-DTEND;TZID=America/New_York:20270118T180000
-SUMMARY:Madison High School at Mountain Lakes High School (Varsity Girls 
- Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:102583468@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270118T173000
@@ -4615,15 +4606,6 @@ DTEND;TZID=America/New_York:20270118T193000
 SUMMARY:Madison High School vs Old Tappan High School (Junior Varsity Gir
  ls Girls Basketball)
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:arb:101978909@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270118T173000
-DTEND;TZID=America/New_York:20270118T193000
-SUMMARY:Madison High School at Mountain Lakes High School (Junior Varsity
-  Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103331379@northwest-jersey-athletic-conference
@@ -4662,13 +4644,13 @@ SUMMARY:Kinnelon High School vs Madison High School (Var-JV Boys Boys Wre
 DESCRIPTION:Var-JV Boys Boys Wrestling - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2634:7704120@northwest-jersey-athletic-conference
+UID:arb:104319442@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270119T183000
 DTEND;TZID=America/New_York:20270119T203000
-SUMMARY:Hackettstown High School at Madison High School (Varsity Coed Coe
+SUMMARY:Madison High School vs Hackettstown High School (Varsity Coed Coe
  d Swimming)
-DESCRIPTION:Varsity Coed Coed Swimming - Away - 6:30 PM
+DESCRIPTION:Varsity Coed Coed Swimming - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2649:7570972@northwest-jersey-athletic-conference
@@ -4689,6 +4671,15 @@ SUMMARY:Wallkill Valley High School vs Madison High School (Varsity Coed
 DESCRIPTION:Varsity Coed Coed Swimming - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:arb:101978901@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270121T160000
+DTEND;TZID=America/New_York:20270121T180000
+SUMMARY:Madison High School at Mountain Lakes High School (Varsity Girls 
+ Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:101646254@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T160000
@@ -4707,13 +4698,13 @@ SUMMARY:Chatham High School at Madison High School (Varsity Coed Coed Bow
 DESCRIPTION:Varsity Coed Coed Bowling - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2754:7457815@northwest-jersey-athletic-conference
+UID:arb:101978909@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270121T160000
-DTEND;TZID=America/New_York:20270121T180000
-SUMMARY:Mountain Lakes High School vs Madison High School (Varsity Girls 
- Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:00 PM
+DTSTART;TZID=America/New_York:20270121T173000
+DTEND;TZID=America/New_York:20270121T193000
+SUMMARY:Madison High School at Mountain Lakes High School (Junior Varsity
+  Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101646258@northwest-jersey-athletic-conference
@@ -4723,24 +4714,6 @@ DTEND;TZID=America/New_York:20270121T193000
 SUMMARY:Madison High School vs Mountain Lakes High School (Junior Varsity
   Boys Boys Basketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2754:7740245@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270121T173000
-DTEND;TZID=America/New_York:20270121T193000
-SUMMARY:Mountain Lakes High School vs Madison High School (Junior Varsity
-  Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:arb:104319442@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270121T183000
-DTEND;TZID=America/New_York:20270121T203000
-SUMMARY:[Canceled] Madison High School vs TBD (Varsity Coed Coed Swimming)
-DESCRIPTION:Varsity Coed Coed Swimming - Home - 6:30 PM
-STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101646261@northwest-jersey-athletic-conference
@@ -5587,13 +5560,13 @@ SUMMARY:Madison High School vs Morristown Beard School (Varsity Boys Base
 DESCRIPTION:Varsity Boys Baseball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:MorristownBeardSchool:event_11055_20270419t200000zapi.veracross.c
+UID:ics:MorristownBeardSchool:event_11054_20270419t200000zapi.veracross.c
  om@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270419T160000
 DTEND;TZID=America/New_York:20270419T180000
-SUMMARY:Morristown Beard School vs Madison High School (Varsity Baseball)
-DESCRIPTION:Varsity Baseball - Home - 4:00 PM
+SUMMARY:Morristown Beard School at Madison High School (Varsity Baseball)
+DESCRIPTION:Varsity Baseball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:104292229@northwest-jersey-athletic-conference
