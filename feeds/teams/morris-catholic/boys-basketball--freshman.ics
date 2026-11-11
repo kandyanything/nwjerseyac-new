@@ -24,13 +24,13 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2745:7579952@northwest-jersey-athletic-conference
+UID:ds:2745:7757845@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261207
-DTEND;VALUE=DATE:20261208
+DTSTART;TZID=America/New_York:20261207T160000
+DTEND;TZID=America/New_York:20261207T180000
 SUMMARY:Morris Catholic High School at Ridge High School (Freshman Boys B
  oys Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Away
+DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2745:7740694@northwest-jersey-athletic-conference
