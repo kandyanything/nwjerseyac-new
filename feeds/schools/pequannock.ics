@@ -3461,11 +3461,20 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2649:7512501@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261209T161500
-DTEND;TZID=America/New_York:20261209T181500
+DTSTART;TZID=America/New_York:20261209T171500
+DTEND;TZID=America/New_York:20261209T191500
 SUMMARY:High Point High School vs Pequannock High School (Junior Varsity 
  Boys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:15 PM
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2649:7512500@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261209T190000
+DTEND;TZID=America/New_York:20261209T210000
+SUMMARY:High Point High School vs Pequannock High School (Varsity Boys Bo
+ ys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102924675@northwest-jersey-athletic-conference
@@ -4990,16 +4999,6 @@ SUMMARY:Pequannock High School vs Morristown Beard School (Varsity Boys B
 DESCRIPTION:Varsity Boys Baseball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:MorristownBeardSchool:event_11045_20270405t200000zapi.veracross.c
- om@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270405T160000
-DTEND;TZID=America/New_York:20270405T180000
-SUMMARY:Morristown Beard School at Pequannock High School (Varsity Baseba
- ll)
-DESCRIPTION:Varsity Baseball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ics:MorristownBeardSchool:event_11087_20270405t200000zapi.veracross.c
  om@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
@@ -5008,6 +5007,16 @@ DTEND;TZID=America/New_York:20270405T180000
 SUMMARY:Morristown Beard School vs Pequannock High School (Junior Varsity
   Baseball)
 DESCRIPTION:Junior Varsity Baseball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:MorristownBeardSchool:event_11045_20270405t200000zapi.veracross.c
+ om@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270405T160000
+DTEND;TZID=America/New_York:20270405T180000
+SUMMARY:Morristown Beard School at Pequannock High School (Varsity Baseba
+ ll)
+DESCRIPTION:Varsity Baseball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103486690@northwest-jersey-athletic-conference
@@ -5117,6 +5126,15 @@ DTEND;TZID=America/New_York:20270424T110000
 SUMMARY:Pequannock High School at Livingston High School (Varsity Girls S
  oftball)
 DESCRIPTION:Varsity Girls Softball - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2674:7758925@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270426T160000
+DTEND;TZID=America/New_York:20270426T180000
+SUMMARY:Jefferson Township High School at Pequannock High School (Varsity
+  Boys Baseball)
+DESCRIPTION:Varsity Boys Baseball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:104292246@northwest-jersey-athletic-conference
