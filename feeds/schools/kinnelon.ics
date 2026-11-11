@@ -1474,15 +1474,6 @@ SUMMARY:Montville High School vs Kinnelon High School (Varsity Girls Girl
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2685:7651119@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261007T160000
-DTEND;TZID=America/New_York:20261007T180000
-SUMMARY:Kinnelon High School vs Valleyview Middle School (Middle School G
- irls Girls Soccer)
-DESCRIPTION:Middle School Girls Girls Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2685:7651183@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261007T160000
@@ -1490,6 +1481,15 @@ DTEND;TZID=America/New_York:20261007T180000
 SUMMARY:Kinnelon High School at Valleyview Middle School (Middle School B
  oys Boys Soccer)
 DESCRIPTION:Middle School Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2685:7651119@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261007T160000
+DTEND;TZID=America/New_York:20261007T180000
+SUMMARY:Kinnelon High School vs Valleyview Middle School (Middle School G
+ irls Girls Soccer)
+DESCRIPTION:Middle School Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101380672@northwest-jersey-athletic-conference
@@ -2649,6 +2649,15 @@ DTEND;TZID=America/New_York:20261216T180000
 SUMMARY:Kinnelon High School vs Pope John XXIII Middle School (Middle Sch
  ool Boys Boys Basketball)
 DESCRIPTION:Middle School Boys Boys Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2685:7758554@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261216T160000
+DTEND;TZID=America/New_York:20261216T180000
+SUMMARY:Kinnelon High School at Pope John XXIII High School (Middle Schoo
+ l Girls Girls Basketball)
+DESCRIPTION:Middle School Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2816:7656064@northwest-jersey-athletic-conference
@@ -4528,7 +4537,8 @@ UID:ds:2685:7734813@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270208T160000
 DTEND;TZID=America/New_York:20270208T180000
-SUMMARY:Kinnelon High School at TBD (Middle School Girls Girls Volleyball)
+SUMMARY:Kinnelon High School at Washington Park School (Middle School Gir
+ ls Girls Volleyball)
 DESCRIPTION:Middle School Girls Girls Volleyball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -4608,9 +4618,9 @@ UID:ds:2685:7734791@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270211T160000
 DTEND;TZID=America/New_York:20270211T180000
-SUMMARY:Kinnelon High School vs Unity Charter School (Middle School Girls
-  Girls Volleyball)
-DESCRIPTION:Middle School Girls Girls Volleyball - Home - 4:00 PM
+SUMMARY:Kinnelon High School at Pearl R. Miller Middle School (Middle Sch
+ ool Girls Girls Volleyball)
+DESCRIPTION:Middle School Girls Girls Volleyball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:42130:7542398@northwest-jersey-athletic-conference
@@ -4671,9 +4681,9 @@ UID:ds:2685:7734792@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270216T160000
 DTEND;TZID=America/New_York:20270216T180000
-SUMMARY:Kinnelon High School vs Pequannock Valley MS (Middle School Girls
-  Girls Volleyball)
-DESCRIPTION:Middle School Girls Girls Volleyball - Home - 4:00 PM
+SUMMARY:Kinnelon High School at Pearl R. Miller Middle School (Middle Sch
+ ool Girls Girls Volleyball)
+DESCRIPTION:Middle School Girls Girls Volleyball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ics:MorristownBeardSchool:event_10069_20270216t210000zapi.veracross.c
@@ -4705,12 +4715,13 @@ SUMMARY:Kinnelon High School vs Morristown Beard School (Varsity Girls Gi
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2685:7734807@northwest-jersey-athletic-conference
+UID:ds:2685:7758562@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270217T160000
-DTEND;TZID=America/New_York:20270217T180000
-SUMMARY:Kinnelon High School vs TBD (Middle School Girls Girls Volleyball)
-DESCRIPTION:Middle School Girls Girls Volleyball - Home - 4:00 PM
+DTSTART;TZID=America/New_York:20270217T161500
+DTEND;TZID=America/New_York:20270217T181500
+SUMMARY:Kinnelon High School vs Belleville Middle School (Middle School G
+ irls Girls Volleyball)
+DESCRIPTION:Middle School Girls Girls Volleyball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2685:7596363@northwest-jersey-athletic-conference
@@ -4762,8 +4773,9 @@ UID:ds:2685:7734814@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270223T160000
 DTEND;TZID=America/New_York:20270223T180000
-SUMMARY:Kinnelon High School vs TBD (Middle School Girls Girls Volleyball)
-DESCRIPTION:Middle School Girls Girls Volleyball - Home - 4:00 PM
+SUMMARY:Kinnelon High School at Pearl R. Miller Middle School (Middle Sch
+ ool Girls Girls Volleyball)
+DESCRIPTION:Middle School Girls Girls Volleyball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2685:7734803@northwest-jersey-athletic-conference
@@ -4779,7 +4791,8 @@ UID:ds:2685:7734817@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270302T161500
 DTEND;TZID=America/New_York:20270302T181500
-SUMMARY:Kinnelon High School at TBD (Middle School Girls Girls Volleyball)
+SUMMARY:Kinnelon High School at Belleville Middle School (Middle School G
+ irls Girls Volleyball)
 DESCRIPTION:Middle School Girls Girls Volleyball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -4787,17 +4800,18 @@ UID:ds:2685:7734804@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270310T160000
 DTEND;TZID=America/New_York:20270310T180000
-SUMMARY:Kinnelon High School vs East Hanover Middle School (Middle School
-  Girls Girls Volleyball)
-DESCRIPTION:Middle School Girls Girls Volleyball - Home - 4:00 PM
+SUMMARY:Kinnelon High School at Pearl R. Miller Middle School (Middle Sch
+ ool Girls Girls Volleyball)
+DESCRIPTION:Middle School Girls Girls Volleyball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2685:7734830@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270312T160000
 DTEND;TZID=America/New_York:20270312T180000
-SUMMARY:Kinnelon High School vs TBD (Middle School Girls Girls Volleyball)
-DESCRIPTION:Middle School Girls Girls Volleyball - Home - 4:00 PM
+SUMMARY:Kinnelon High School at Pearl R. Miller Middle School (Middle Sch
+ ool Girls Girls Volleyball)
+DESCRIPTION:Middle School Girls Girls Volleyball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2685:7722425@northwest-jersey-athletic-conference
