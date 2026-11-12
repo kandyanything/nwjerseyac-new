@@ -2609,20 +2609,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2790:7637811@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261221
-DTEND;VALUE=DATE:20261222
+DTSTART;TZID=America/New_York:20261221T190000
+DTEND;TZID=America/New_York:20261221T210000
 SUMMARY:Parsippany High School at Vernon Township High School (Varsity Bo
  ys Boys Wrestling)
-DESCRIPTION:Varsity Boys Boys Wrestling - Away
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2909:7637811@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261221
-DTEND;VALUE=DATE:20261222
-SUMMARY:Vernon Township High School vs Parsippany High School (Varsity Bo
- ys Boys Wrestling)
-DESCRIPTION:Varsity Boys Boys Wrestling - Home
+DESCRIPTION:Varsity Boys Boys Wrestling - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2761:7578199@northwest-jersey-athletic-conference
@@ -3948,33 +3939,6 @@ SUMMARY:Parsippany High School at Kittatinny High School (Junior Varsity
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2790:7760793@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270213T100000
-DTEND;TZID=America/New_York:20270213T120000
-SUMMARY:Parsippany High School at Parsippany High School (Varsity Girls G
- irls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2791:7760793@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270213T100000
-DTEND;TZID=America/New_York:20270213T120000
-SUMMARY:Parsippany Hills High School at Parsippany High School (Varsity G
- irls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2909:7760793@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270213T100000
-DTEND;TZID=America/New_York:20270213T120000
-SUMMARY:Vernon Township High School at Parsippany High School (Varsity Gi
- rls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2686:7504501@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270213T113000
@@ -4128,6 +4092,33 @@ DTEND;TZID=America/New_York:20270219T210000
 SUMMARY:Hackettstown High School at Parsippany High School (Varsity Boys 
  Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2790:7761519@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270220T103000
+DTEND;TZID=America/New_York:20270220T123000
+SUMMARY:Parsippany High School at Parsippany High School (Junior Varsity 
+ Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 10:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2791:7761519@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270220T103000
+DTEND;TZID=America/New_York:20270220T123000
+SUMMARY:Parsippany Hills High School at Parsippany High School (Junior Va
+ rsity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 10:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2909:7761519@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270220T103000
+DTEND;TZID=America/New_York:20270220T123000
+SUMMARY:Vernon Township High School at Parsippany High School (Junior Var
+ sity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 10:30 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2790:7578757@northwest-jersey-athletic-conference
