@@ -706,10 +706,10 @@ END:VEVENT
 BEGIN:VEVENT
 UID:arb:105529664@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
+DTSTART;TZID=America/New_York:20261114T110000
+DTEND;TZID=America/New_York:20261114T130000
 SUMMARY:Montville High School at Leonia High School (Varsity Boys Boys So
  ccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 11:00 AM
 END:VEVENT
 END:VCALENDAR
