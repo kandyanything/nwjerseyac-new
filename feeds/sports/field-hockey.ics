@@ -23,6 +23,24 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2940:7469949@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260824T090000
+DTEND;TZID=America/New_York:20260824T110000
+SUMMARY:Whippany Park High School vs Westfield High School (Varsity Girls
+  Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Home - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2940:7469950@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260824T093000
+DTEND;TZID=America/New_York:20260824T113000
+SUMMARY:Whippany Park High School vs Westfield High School (Junior Varsit
+ y Girls Field Hockey)
+DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 9:30 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2761:7527347@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260824T100000
@@ -557,6 +575,15 @@ SUMMARY:Randolph High School vs Sparta High School (Varsity Girls Field H
 DESCRIPTION:Varsity Girls Field Hockey - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2940:7470189@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260828T100000
+DTEND;TZID=America/New_York:20260828T120000
+SUMMARY:Whippany Park High School at Butler High School (Varsity Girls Fi
+ eld Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:101331004@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260828T103000
@@ -992,6 +1019,15 @@ SUMMARY:Hackettstown High School at Vernon Township High School (Varsity
 DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2940:7514887@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260831T161500
+DTEND;TZID=America/New_York:20260831T181500
+SUMMARY:Whippany Park High School vs Bernards High School (Varsity Girls 
+ Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2825:7525408@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260831T163000
@@ -1017,6 +1053,15 @@ DTEND;TZID=America/New_York:20260831T193000
 SUMMARY:Hackettstown High School at Vernon Township High School (Junior V
  arsity Girls Field Hockey)
 DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2940:7562201@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260831T173000
+DTEND;TZID=America/New_York:20260831T193000
+SUMMARY:Whippany Park High School vs Bernards High School (Junior Varsity
+  Girls Field Hockey)
+DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:99769834@northwest-jersey-athletic-conference
@@ -1683,6 +1728,15 @@ SUMMARY:Newton High School vs Vernon Township High School (Varsity Girls
 DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2940:7517316@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260909T160000
+DTEND;TZID=America/New_York:20260909T180000
+SUMMARY:Whippany Park High School at Wayne Valley High School (Varsity Gi
+ rls Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ics:MorristownBeardSchool:event_8675_20260909t200000zapi.veracross.co
  m@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
@@ -1791,6 +1845,15 @@ DTEND;TZID=America/New_York:20260909T193000
 SUMMARY:Roxbury High School at Morristown High School (Freshman Girls Fie
  ld Hockey)
 DESCRIPTION:Freshman Girls Field Hockey - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2940:7517775@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260909T173000
+DTEND;TZID=America/New_York:20260909T193000
+SUMMARY:Whippany Park High School at Wayne Valley High School (Junior Var
+ sity Girls Field Hockey)
+DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ics:MorristownBeardSchool:event_8688_20260909t213000zapi.veracross.co
@@ -3025,15 +3088,6 @@ SUMMARY:Newton High School vs Glen Meadow Middle School (Middle School Gi
 DESCRIPTION:Middle School Girls Field Hockey - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2909:7553880@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260921T160000
-DTEND;TZID=America/New_York:20260921T180000
-SUMMARY:Vernon Township High School at Halsted Middle School (Middle Scho
- ol Girls Field Hockey)
-DESCRIPTION:Middle School Girls Field Hockey - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2909:7553206@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260921T160000
@@ -3041,6 +3095,15 @@ DTEND;TZID=America/New_York:20260921T180000
 SUMMARY:Vernon Township High School vs TBA NJAC (Middle School Girls Fiel
  d Hockey)
 DESCRIPTION:Middle School Girls Field Hockey - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2909:7553880@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260921T160000
+DTEND;TZID=America/New_York:20260921T180000
+SUMMARY:Vernon Township High School at Halsted Middle School (Middle Scho
+ ol Girls Field Hockey)
+DESCRIPTION:Middle School Girls Field Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2694:7527294@northwest-jersey-athletic-conference
@@ -4473,6 +4536,15 @@ SUMMARY:Sparta High School at Frankford Middle School (Middle School Girl
 DESCRIPTION:Middle School Girls Field Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2940:7473628@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261002T160000
+DTEND;TZID=America/New_York:20261002T180000
+SUMMARY:Whippany Park High School at Union High School (Varsity Girls Fie
+ ld Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2754:7491014@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261002T161500
@@ -5734,6 +5806,15 @@ SUMMARY:Vernon Township High School vs Summit High School (Varsity Girls
 DESCRIPTION:Varsity Girls Field Hockey - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2940:7475334@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261010T100000
+DTEND;TZID=America/New_York:20261010T120000
+SUMMARY:Whippany Park High School vs Governor Livingston High School (Var
+ sity Girls Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2748:7491428@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261010T110000
@@ -5779,6 +5860,15 @@ DTEND;TZID=America/New_York:20261010T133000
 SUMMARY:Newton High School at Ridge High School (Junior Varsity Girls Fie
  ld Hockey)
 DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2940:7475335@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261010T113000
+DTEND;TZID=America/New_York:20261010T133000
+SUMMARY:Whippany Park High School vs Governor Livingston High School (Jun
+ ior Varsity Girls Field Hockey)
+DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102485642@northwest-jersey-athletic-conference
@@ -6501,6 +6591,15 @@ DTSTART;TZID=America/New_York:20261015T183000
 DTEND;TZID=America/New_York:20261015T203000
 SUMMARY:Boonton High School vs Wayne Hills High School (Varsity Girls Fie
  ld Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Home - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2940:7475340@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261015T183000
+DTEND;TZID=America/New_York:20261015T203000
+SUMMARY:Whippany Park High School vs North Plainfield Public Schools (Var
+ sity Girls Field Hockey)
 DESCRIPTION:Varsity Girls Field Hockey - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -7233,6 +7332,15 @@ DTEND;TZID=America/New_York:20261022T180000
 SUMMARY:North Warren at Piscataway High School (Varsity Girls Field Hocke
  y)
 DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2940:7475345@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261022T160000
+DTEND;TZID=America/New_York:20261022T180000
+SUMMARY:Whippany Park High School vs Cranford High School (Varsity Girls 
+ Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2761:7456110@northwest-jersey-athletic-conference
