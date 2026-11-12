@@ -3161,11 +3161,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:arb:105531163@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
+DTSTART;TZID=America/New_York:20261114T140000
+DTEND;TZID=America/New_York:20261114T160000
 SUMMARY:West Morris Mendham at Harrison High School (Varsity Boys Boys So
  ccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 2:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:104461160@northwest-jersey-athletic-conference
