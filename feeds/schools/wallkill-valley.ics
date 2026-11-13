@@ -555,15 +555,6 @@ SUMMARY:Pequannock High School at Wallkill Valley High School (Varsity Gi
 DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2768:7480975@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260912T120000
-DTEND;TZID=America/New_York:20260912T140000
-SUMMARY:North Warren at Wallkill Valley High School (Varsity Coed Coed Ch
- eerleading)
-DESCRIPTION:Varsity Coed Coed Cheerleading - Away - 12:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2768:7480882@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260912T120000
@@ -571,6 +562,15 @@ DTEND;TZID=America/New_York:20260912T140000
 SUMMARY:North Warren at Wallkill Valley High School (Varsity Boys Footbal
  l)
 DESCRIPTION:Varsity Boys Football - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2768:7480975@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260912T120000
+DTEND;TZID=America/New_York:20260912T140000
+SUMMARY:North Warren at Wallkill Valley High School (Varsity Coed Coed Ch
+ eerleading)
+DESCRIPTION:Varsity Coed Coed Cheerleading - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2649:7474703@northwest-jersey-athletic-conference
@@ -762,15 +762,6 @@ SUMMARY:Vernon Township High School vs Wallkill Valley High School (Fresh
 DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2761:7509532@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260918T154500
-DTEND;TZID=America/New_York:20260918T174500
-SUMMARY:Newton High School at Wallkill Valley High School (Junior Varsity
-  Girls Girls Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 3:45 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2761:7504567@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260918T154500
@@ -778,6 +769,15 @@ DTEND;TZID=America/New_York:20260918T174500
 SUMMARY:Newton High School at Wallkill Valley High School (Varsity Girls 
  Girls Tennis)
 DESCRIPTION:Varsity Girls Girls Tennis - Away - 3:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2761:7509532@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260918T154500
+DTEND;TZID=America/New_York:20260918T174500
+SUMMARY:Newton High School at Wallkill Valley High School (Junior Varsity
+  Girls Girls Tennis)
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 3:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2881:7454623@northwest-jersey-athletic-conference
@@ -2206,13 +2206,22 @@ SUMMARY:Wallkill Valley High School at Boonton High School (Junior Varsit
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2919:7484445@northwest-jersey-athletic-conference
+UID:arb:105563423@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261219T110000
 DTEND;TZID=America/New_York:20261219T130000
-SUMMARY:Wallkill Valley High School at Boonton High School (Varsity Girls
+SUMMARY:Boonton High School vs Wallkill Valley High School (Varsity Girls
   Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 11:00 AM
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:105563437@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261219T123000
+DTEND;TZID=America/New_York:20261219T143000
+SUMMARY:Boonton High School vs Wallkill Valley High School (Junior Varsit
+ y Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 12:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2919:7739365@northwest-jersey-athletic-conference
@@ -3275,6 +3284,14 @@ DTEND;TZID=America/New_York:20270201T200000
 SUMMARY:Wallkill Valley High School vs Wayne Girls Wrestling (Varsity Gir
  ls Girls Wrestling)
 DESCRIPTION:Varsity Girls Girls Wrestling - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2919:7763263@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270202T173000
+DTEND;TZID=America/New_York:20270202T193000
+SUMMARY:Wallkill Valley High School vs TBD (Varsity Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102991023@northwest-jersey-athletic-conference
