@@ -1369,6 +1369,15 @@ SUMMARY:Madison High School vs Vernon Township High School (Varsity Girls
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2642:7450868@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260922T160000
+DTEND;TZID=America/New_York:20260922T180000
+SUMMARY:Hanover Park High School at Madison High School (Varsity Girls Gi
+ rls Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2642:7441029@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260922T160000
@@ -1385,15 +1394,6 @@ DTEND;TZID=America/New_York:20260922T180000
 SUMMARY:Hanover Park High School vs Madison High School (Junior Varsity G
  irls Girls Tennis)
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2642:7450868@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260922T160000
-DTEND;TZID=America/New_York:20260922T180000
-SUMMARY:Hanover Park High School at Madison High School (Varsity Girls Gi
- rls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:42130:7497006@northwest-jersey-athletic-conference
@@ -3392,11 +3392,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:arb:105508827@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
-SUMMARY:Madison High School at West Morris Central (Varsity Girls Girls S
+DTSTART;TZID=America/New_York:20261113T180000
+DTEND;TZID=America/New_York:20261113T200000
+SUMMARY:West Morris Central vs Madison High School (Varsity Girls Girls S
  occer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2685:7689460@northwest-jersey-athletic-conference
@@ -5549,6 +5549,15 @@ DTEND;TZID=America/New_York:20270413T181500
 SUMMARY:High Point High School vs Madison High School (Junior Varsity Boy
  s Baseball)
 DESCRIPTION:Junior Varsity Boys Baseball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2748:7764362@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270414T160000
+DTEND;TZID=America/New_York:20270414T180000
+SUMMARY:Morristown High School at Madison High School (Varsity Girls Soft
+ ball)
+DESCRIPTION:Varsity Girls Softball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:104292190@northwest-jersey-athletic-conference
