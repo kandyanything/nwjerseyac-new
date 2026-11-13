@@ -241,15 +241,6 @@ SUMMARY:Villa Walsh Academy at Dover High School (Junior Varsity Girls Gi
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 5:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2913:7450806@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260908T160000
-DTEND;TZID=America/New_York:20260908T180000
-SUMMARY:Villa Walsh Academy vs Hanover Park High School (Junior Varsity G
- irls Girls Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2913:7450870@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260908T160000
@@ -257,6 +248,15 @@ DTEND;TZID=America/New_York:20260908T180000
 SUMMARY:Villa Walsh Academy at Hanover Park High School (Varsity Girls Gi
  rls Tennis)
 DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2913:7450806@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260908T160000
+DTEND;TZID=America/New_York:20260908T180000
+SUMMARY:Villa Walsh Academy vs Hanover Park High School (Junior Varsity G
+ irls Girls Tennis)
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2913:7512223@northwest-jersey-athletic-conference
@@ -549,15 +549,6 @@ SUMMARY:Vernon Township High School at Villa Walsh Academy (Varsity Girls
 DESCRIPTION:Varsity Girls Girls Volleyball - Away - 8:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2913:7511737@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260919T080000
-DTEND;TZID=America/New_York:20260919T100000
-SUMMARY:Villa Walsh Academy vs Essex County Donald M. Payne Tech (Varsity
-  Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Home - 8:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2913:7511738@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260919T080000
@@ -574,6 +565,15 @@ DTEND;TZID=America/New_York:20260919T100000
 SUMMARY:Villa Walsh Academy vs Delbarton School (Middle School Girls Girl
  s Cross Country)
 DESCRIPTION:Middle School Girls Girls Cross Country - Home - 8:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2913:7511737@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T080000
+DTEND;TZID=America/New_York:20260919T100000
+SUMMARY:Villa Walsh Academy vs Essex County Donald M. Payne Tech (Varsity
+  Girls Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 8:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101393349@northwest-jersey-athletic-conference
@@ -811,15 +811,6 @@ SUMMARY:Villa Walsh Academy vs Madison High School (Varsity Girls Girls C
 DESCRIPTION:Varsity Girls Girls Cross Country - Home - 4:25 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2913:7452183@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260930T160000
-DTEND;TZID=America/New_York:20260930T180000
-SUMMARY:Villa Walsh Academy at Hanover Park High School (Varsity Girls Gi
- rls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2913:7502721@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260930T160000
@@ -827,6 +818,15 @@ DTEND;TZID=America/New_York:20260930T180000
 SUMMARY:Villa Walsh Academy vs Hanover Park High School (Freshman Girls G
  irls Volleyball)
 DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2913:7452183@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260930T160000
+DTEND;TZID=America/New_York:20260930T180000
+SUMMARY:Villa Walsh Academy at Hanover Park High School (Varsity Girls Gi
+ rls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2913:7512475@northwest-jersey-athletic-conference
@@ -847,16 +847,6 @@ SUMMARY:Villa Walsh Academy vs Morristown Beard School (Junior Varsity Gi
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:MorristownBeardSchool:event_8990_20260930t200000zapi.veracross.co
- m@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260930T160000
-DTEND;TZID=America/New_York:20260930T180000
-SUMMARY:Morristown Beard School vs Villa Walsh Academy (Varsity Girls Res
- cheduled from 9/22: ennis)
-DESCRIPTION:Varsity Girls Rescheduled from 9/22: ennis - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ics:MorristownBeardSchool:event_8991_20260930t200000zapi.veracross.co
  m@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
@@ -866,6 +856,16 @@ SUMMARY:Morristown Beard School at Villa Walsh Academy (Junior Varsity Gi
  rls Rescheduled from 9/22: Tennis)
 DESCRIPTION:Junior Varsity Girls Rescheduled from 9/22: Tennis - Away - 4
  :00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:MorristownBeardSchool:event_8990_20260930t200000zapi.veracross.co
+ m@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260930T160000
+DTEND;TZID=America/New_York:20260930T180000
+SUMMARY:Morristown Beard School vs Villa Walsh Academy (Varsity Girls Res
+ cheduled from 9/22: ennis)
+DESCRIPTION:Varsity Girls Rescheduled from 9/22: ennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2913:7452061@northwest-jersey-athletic-conference
