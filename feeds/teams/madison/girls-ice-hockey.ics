@@ -24,6 +24,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:arb:105578586@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261206T201500
+DTEND;TZID=America/New_York:20261206T221500
+SUMMARY:Madison High School vs Oak Knoll School of the Holy Child (Varsit
+ y Girls Girls Ice Hockey)
+DESCRIPTION:Varsity Girls Girls Ice Hockey - Home - 8:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2564:7627452@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261208T203500
@@ -104,6 +113,15 @@ DTEND;TZID=America/New_York:20270127T184500
 SUMMARY:Madison High School at Summit High School (Varsity Girls Girls Ic
  e Hockey)
 DESCRIPTION:Varsity Girls Girls Ice Hockey - Away - 4:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:105577209@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270131T191500
+DTEND;TZID=America/New_York:20270131T211500
+SUMMARY:Madison High School at Westfield High School (Varsity Girls Girls
+  Ice Hockey)
+DESCRIPTION:Varsity Girls Girls Ice Hockey - Away - 7:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2748:7720120@northwest-jersey-athletic-conference
