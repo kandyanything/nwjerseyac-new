@@ -244,10 +244,10 @@ END:VEVENT
 BEGIN:VEVENT
 UID:arb:105580615@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261117
-DTEND;VALUE=DATE:20261118
+DTSTART;TZID=America/New_York:20261117T180000
+DTEND;TZID=America/New_York:20261117T200000
 SUMMARY:Madison High School at Ramsey High School (Varsity Girls Girls So
  ccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 6:00 PM
 END:VEVENT
 END:VCALENDAR
