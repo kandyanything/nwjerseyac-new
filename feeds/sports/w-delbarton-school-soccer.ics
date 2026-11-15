@@ -24,14 +24,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ics:DelbartonSchool:vcal_7212-delbartonathletics.org@northwest-jersey
+UID:ics:DelbartonSchool:vcal_7193-delbartonathletics.org@northwest-jersey
  -athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261014T161500
-DTEND;TZID=America/New_York:20261014T181500
-SUMMARY:Delbarton School vs Lawrenceville (Freshman Boys [W] Delbarton Sc
+DTSTART;TZID=America/New_York:20261015T160000
+DTEND;TZID=America/New_York:20261015T180000
+SUMMARY:Delbarton School at Mendham (Junior Varsity Boys [W] Delbarton Sc
  hool Soccer)
-DESCRIPTION:Freshman Boys [W] Delbarton School Soccer - Home - 4:15 PM
+DESCRIPTION:Junior Varsity Boys [W] Delbarton School Soccer - Away - 4:00
+  PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ics:DelbartonSchool:vcal_7174-delbartonathletics.org@northwest-jersey
@@ -42,17 +43,6 @@ DTEND;TZID=America/New_York:20261015T180000
 SUMMARY:Delbarton School at Mendham (Varsity Boys [W] Delbarton School So
  ccer)
 DESCRIPTION:Varsity Boys [W] Delbarton School Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ics:DelbartonSchool:vcal_7193-delbartonathletics.org@northwest-jersey
- -athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261015T160000
-DTEND;TZID=America/New_York:20261015T180000
-SUMMARY:Delbarton School at Mendham (Junior Varsity Boys [W] Delbarton Sc
- hool Soccer)
-DESCRIPTION:Junior Varsity Boys [W] Delbarton School Soccer - Away - 4:00
-  PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ics:DelbartonSchool:vcal_7194-delbartonathletics.org@northwest-jersey
@@ -168,17 +158,6 @@ SUMMARY:Delbarton School at Sparta High School (Varsity Boys [W] Delbarto
 DESCRIPTION:Varsity Boys [W] Delbarton School Soccer - Away - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:DelbartonSchool:vcal_7523-delbartonathletics.org@northwest-jersey
- -athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261030T160000
-DTEND;TZID=America/New_York:20261030T180000
-SUMMARY:Delbarton School vs Wharton (Middle School Boys [W] Delbarton Sch
- ool Soccer)
-DESCRIPTION:Middle School Boys [W] Delbarton School Soccer - Home - 4:00 
- PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ics:DelbartonSchool:vcal_7517-delbartonathletics.org@northwest-jersey
  -athletic-conference
 DTSTAMP:20250801T000000Z
@@ -198,6 +177,17 @@ SUMMARY:Delbarton School vs New Providence (Junior Varsity Boys [W] Delba
  rton School Soccer)
 DESCRIPTION:Junior Varsity Boys [W] Delbarton School Soccer - Home - 4:00
   PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:DelbartonSchool:vcal_7523-delbartonathletics.org@northwest-jersey
+ -athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261030T160000
+DTEND;TZID=America/New_York:20261030T180000
+SUMMARY:Delbarton School vs Wharton (Middle School Boys [W] Delbarton Sch
+ ool Soccer)
+DESCRIPTION:Middle School Boys [W] Delbarton School Soccer - Home - 4:00 
+ PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ics:DelbartonSchool:vcal_7520-delbartonathletics.org@northwest-jersey
