@@ -24,12 +24,57 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2754:7696335@northwest-jersey-athletic-conference
+UID:ds:2754:7765299@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270107
-DTEND;VALUE=DATE:20270108
+DTSTART;TZID=America/New_York:20261228T090000
+DTEND;TZID=America/New_York:20261228T110000
 SUMMARY:Mountain Lakes High School at Parsippany High School (Varsity Gir
  ls Girls Wrestling)
-DESCRIPTION:Varsity Girls Girls Wrestling - Away
+DESCRIPTION:Varsity Girls Girls Wrestling - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2754:7765305@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270104T180000
+DTEND;TZID=America/New_York:20270104T200000
+SUMMARY:Mountain Lakes High School at Parsippany High School (Varsity Gir
+ ls Girls Wrestling)
+DESCRIPTION:Varsity Girls Girls Wrestling - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2754:7765308@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270107T180000
+DTEND;TZID=America/New_York:20270107T200000
+SUMMARY:Mountain Lakes High School at Parsippany High School (Varsity Gir
+ ls Girls Wrestling)
+DESCRIPTION:Varsity Girls Girls Wrestling - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2754:7765311@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270111T180000
+DTEND;TZID=America/New_York:20270111T200000
+SUMMARY:Mountain Lakes High School at Parsippany High School (Varsity Gir
+ ls Girls Wrestling)
+DESCRIPTION:Varsity Girls Girls Wrestling - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2754:7765313@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270119T180000
+DTEND;TZID=America/New_York:20270119T200000
+SUMMARY:Mountain Lakes High School at Parsippany High School (Varsity Gir
+ ls Girls Wrestling)
+DESCRIPTION:Varsity Girls Girls Wrestling - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2754:7765319@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270201T180000
+DTEND;TZID=America/New_York:20270201T200000
+SUMMARY:Mountain Lakes High School at Parsippany High School (Varsity Gir
+ ls Girls Wrestling)
+DESCRIPTION:Varsity Girls Girls Wrestling - Away - 6:00 PM
 END:VEVENT
 END:VCALENDAR
