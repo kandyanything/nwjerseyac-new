@@ -662,15 +662,6 @@ SUMMARY:Pequannock High School vs Whippany Park High School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2642:7515854@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260914T160000
-DTEND;TZID=America/New_York:20260914T180000
-SUMMARY:Hanover Park High School vs Whippany Park High School (Junior Var
- sity Girls Girls Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2642:7473734@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260914T160000
@@ -678,6 +669,15 @@ DTEND;TZID=America/New_York:20260914T180000
 SUMMARY:Hanover Park High School at Whippany Park High School (Varsity Gi
  rls Girls Tennis)
 DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2642:7515854@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T160000
+DTEND;TZID=America/New_York:20260914T180000
+SUMMARY:Hanover Park High School vs Whippany Park High School (Junior Var
+ sity Girls Girls Tennis)
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2790:7548887@northwest-jersey-athletic-conference
@@ -3524,21 +3524,21 @@ SUMMARY:Kinnelon High School at Whippany Park High School (Varsity Boys B
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2940:7539552@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270118T200000
-DTEND;TZID=America/New_York:20270118T220000
-SUMMARY:Whippany Park High School at Park Regional (WP/HP) (Varsity Boys 
- Boys Ice Hockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 8:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:103331379@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270118T203000
 DTEND;TZID=America/New_York:20270118T223000
 SUMMARY:Madison High School at Whippany Park High School (Varsity Boys Bo
  ys Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 8:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2940:7539552@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270118T203000
+DTEND;TZID=America/New_York:20270118T223000
+SUMMARY:Whippany Park High School at Park Regional (WP/HP) (Varsity Boys 
+ Boys Ice Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 8:30 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -3641,22 +3641,22 @@ SUMMARY:Randolph High School vs Whippany Park High School (Junior Varsity
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2825:7723931@northwest-jersey-athletic-conference
+UID:ds:2940:7768572@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270123T120000
 DTEND;TZID=America/New_York:20270123T140000
-SUMMARY:Randolph High School at Whippany Park High School (Junior Varsity
-  Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 12:00 PM
+SUMMARY:Whippany Park High School vs Governor Livingston High School (Jun
+ ior Varsity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2825:7559016@northwest-jersey-athletic-conference
+UID:ds:2940:7768631@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270123T140000
 DTEND;TZID=America/New_York:20270123T160000
-SUMMARY:Randolph High School at Whippany Park High School (Varsity Girls 
- Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 2:00 PM
+SUMMARY:Whippany Park High School vs Governor Livingston High School (Var
+ sity Girls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 2:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2825:7546852@northwest-jersey-athletic-conference
@@ -4370,16 +4370,6 @@ SUMMARY:Whippany Park High School vs Morristown Beard School (Junior Vars
 DESCRIPTION:Junior Varsity Boys Baseball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:MorristownBeardSchool:event_11042_20270331t200000zapi.veracross.c
- om@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270331T160000
-DTEND;TZID=America/New_York:20270331T180000
-SUMMARY:Morristown Beard School at Whippany Park High School (Varsity Bas
- eball)
-DESCRIPTION:Varsity Baseball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ics:MorristownBeardSchool:event_11086_20270331t200000zapi.veracross.c
  om@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
@@ -4388,6 +4378,16 @@ DTEND;TZID=America/New_York:20270331T180000
 SUMMARY:Morristown Beard School vs Whippany Park High School (Junior Vars
  ity Baseball)
 DESCRIPTION:Junior Varsity Baseball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:MorristownBeardSchool:event_11042_20270331t200000zapi.veracross.c
+ om@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270331T160000
+DTEND;TZID=America/New_York:20270331T180000
+SUMMARY:Morristown Beard School at Whippany Park High School (Varsity Bas
+ eball)
+DESCRIPTION:Varsity Baseball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2940:7596599@northwest-jersey-athletic-conference
