@@ -141,15 +141,6 @@ SUMMARY:Dover High School vs Mount Olive High School (Freshman Boys Boys
 DESCRIPTION:Freshman Boys Boys Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2751:7531001@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20260903
-DTEND;VALUE=DATE:20260904
-SUMMARY:Mount Olive High School at Dover High School (Freshman Boys Boys 
- Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Away
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2751:7530972@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20260903
@@ -157,6 +148,15 @@ DTEND;VALUE=DATE:20260904
 SUMMARY:Mount Olive High School at Dover High School (Junior Varsity Boys
   Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2751:7531001@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20260903
+DTEND;VALUE=DATE:20260904
+SUMMARY:Mount Olive High School at Dover High School (Freshman Boys Boys 
+ Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2594:7530985@northwest-jersey-athletic-conference
@@ -525,15 +525,6 @@ SUMMARY:Dover High School at Parsippany High School (Varsity Boys Boys So
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 3:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2594:7530987@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261009T160000
-DTEND;TZID=America/New_York:20261009T180000
-SUMMARY:Dover High School at Parsippany High School (Junior Varsity Boys 
- Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2594:7531015@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261009T160000
@@ -541,6 +532,15 @@ DTEND;TZID=America/New_York:20261009T180000
 SUMMARY:Dover High School at Parsippany High School (Freshman Boys Boys S
  occer)
 DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2594:7530987@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261009T160000
+DTEND;TZID=America/New_York:20261009T180000
+SUMMARY:Dover High School at Parsippany High School (Junior Varsity Boys 
+ Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2594:7685410@northwest-jersey-athletic-conference
@@ -588,12 +588,13 @@ SUMMARY:Dover High School at Bernards High School (Middle School Boys Boy
 DESCRIPTION:Middle School Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2594:7530950@northwest-jersey-athletic-conference
+UID:ds:2594:7532511@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261015T160000
 DTEND;TZID=America/New_York:20261015T180000
-SUMMARY:Dover High School at Newton High School (Varsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
+SUMMARY:Dover High School at Newton High School (Freshman Boys Boys Socce
+ r)
+DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2594:7530988@northwest-jersey-athletic-conference
@@ -605,13 +606,12 @@ SUMMARY:Dover High School at Newton High School (Junior Varsity Boys Boys
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2594:7532511@northwest-jersey-athletic-conference
+UID:ds:2594:7530950@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261015T160000
 DTEND;TZID=America/New_York:20261015T180000
-SUMMARY:Dover High School at Newton High School (Freshman Boys Boys Socce
- r)
-DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
+SUMMARY:Dover High School at Newton High School (Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2594:7568406@northwest-jersey-athletic-conference
@@ -623,6 +623,14 @@ SUMMARY:Dover High School at Dover Middle School (Middle School Boys Boys
 DESCRIPTION:Middle School Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2594:7530958@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261020T160000
+DTEND;TZID=America/New_York:20261020T180000
+SUMMARY:Dover High School at North Warren (Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2594:7530989@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261020T160000
@@ -630,14 +638,6 @@ DTEND;TZID=America/New_York:20261020T180000
 SUMMARY:Dover High School at North Warren (Junior Varsity Boys Boys Socce
  r)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2594:7530958@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261020T160000
-DTEND;TZID=America/New_York:20261020T180000
-SUMMARY:Dover High School at North Warren (Varsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2594:7531004@northwest-jersey-athletic-conference
@@ -693,13 +693,13 @@ SUMMARY:Dover High School vs TBD (Varsity Boys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2594:7531005@northwest-jersey-athletic-conference
+UID:ds:2594:7486596@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261026T160000
 DTEND;TZID=America/New_York:20261026T180000
-SUMMARY:Dover High School at Wallkill Valley High School (Freshman Boys B
- oys Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
+SUMMARY:Dover High School vs Wallkill Valley High School (Varsity Boys Bo
+ ys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2594:7530976@northwest-jersey-athletic-conference
@@ -711,13 +711,13 @@ SUMMARY:Dover High School vs Wallkill Valley High School (Junior Varsity
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2594:7486596@northwest-jersey-athletic-conference
+UID:ds:2594:7531005@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261026T160000
 DTEND;TZID=America/New_York:20261026T180000
-SUMMARY:Dover High School vs Wallkill Valley High School (Varsity Boys Bo
- ys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
+SUMMARY:Dover High School at Wallkill Valley High School (Freshman Boys B
+ oys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2594:7721832@northwest-jersey-athletic-conference

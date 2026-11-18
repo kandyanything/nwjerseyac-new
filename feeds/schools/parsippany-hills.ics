@@ -2059,15 +2059,6 @@ SUMMARY:Parsippany Hills High School vs Pioneer Academy (Varsity Boys Boy
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2564:7424113@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261020T160000
-DTEND;TZID=America/New_York:20261020T180000
-SUMMARY:Chatham High School at Parsippany Hills High School (Freshman Gir
- ls Girls Volleyball)
-DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2564:7424114@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261020T160000
@@ -2075,6 +2066,15 @@ DTEND;TZID=America/New_York:20261020T180000
 SUMMARY:Chatham High School vs Parsippany Hills High School (Varsity Girl
  s Girls Volleyball)
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2564:7424113@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261020T160000
+DTEND;TZID=America/New_York:20261020T180000
+SUMMARY:Chatham High School at Parsippany Hills High School (Freshman Gir
+ ls Girls Volleyball)
+DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2791:7511453@northwest-jersey-athletic-conference
@@ -2600,15 +2600,6 @@ SUMMARY:Mountain Lakes High School at Parsippany Hills High School (Varsi
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2791:7578058@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261209T160000
-DTEND;TZID=America/New_York:20261209T180000
-SUMMARY:Parsippany Hills High School at Parsippany High School (Varsity G
- irls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2791:7767119@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261209T160000
@@ -2616,15 +2607,6 @@ DTEND;TZID=America/New_York:20261209T180000
 SUMMARY:Parsippany Hills High School vs Fair Lawn High School (Varsity Bo
  ys Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2791:7767120@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261209T160000
-DTEND;TZID=America/New_York:20261209T180000
-SUMMARY:Parsippany Hills High School vs Fair Lawn High School (Junior Var
- sity Boys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2791:7767121@northwest-jersey-athletic-conference
@@ -2636,6 +2618,24 @@ SUMMARY:Parsippany Hills High School vs Fair Lawn High School (Freshman B
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2791:7578058@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261209T160000
+DTEND;TZID=America/New_York:20261209T180000
+SUMMARY:Parsippany Hills High School at Parsippany High School (Varsity G
+ irls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2791:7767120@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261209T160000
+DTEND;TZID=America/New_York:20261209T180000
+SUMMARY:Parsippany Hills High School vs Fair Lawn High School (Junior Var
+ sity Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2791:7577311@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261209T194500
@@ -2643,15 +2643,6 @@ DTEND;TZID=America/New_York:20261209T214500
 SUMMARY:Parsippany Hills High School at Madison High School (Varsity Boys
   Boys Ice Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 7:45 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2642:7652852@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261210T190000
-DTEND;TZID=America/New_York:20261210T210000
-SUMMARY:Hanover Park High School at Parsippany Hills High School (Var-JV 
- Boys Boys Swimming)
-DESCRIPTION:Var-JV Boys Boys Swimming - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2642:7765931@northwest-jersey-athletic-conference
@@ -2663,7 +2654,16 @@ SUMMARY:Hanover Park High School at Parsippany Hills High School (Var-JV
 DESCRIPTION:Var-JV Girls Girls Swimming - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2791:7652852@northwest-jersey-athletic-conference
+UID:ds:2642:7652852@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261210T190000
+DTEND;TZID=America/New_York:20261210T210000
+SUMMARY:Hanover Park High School at Parsippany Hills High School (Var-JV 
+ Boys Boys Swimming)
+DESCRIPTION:Var-JV Boys Boys Swimming - Away - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2791:7765931@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261210T190000
 DTEND;TZID=America/New_York:20261210T210000
@@ -2852,15 +2852,6 @@ SUMMARY:Madison High School vs Parsippany Hills High School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2751:7514817@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261217T173000
-DTEND;TZID=America/New_York:20261217T193000
-SUMMARY:Mount Olive High School vs Parsippany Hills High School (Junior V
- arsity Boys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2751:7515372@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261217T173000
@@ -2868,6 +2859,15 @@ DTEND;TZID=America/New_York:20261217T193000
 SUMMARY:Mount Olive High School at Parsippany Hills High School (Junior V
  arsity Girls Girls Basketball)
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2751:7514817@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261217T173000
+DTEND;TZID=America/New_York:20261217T193000
+SUMMARY:Mount Olive High School vs Parsippany Hills High School (Junior V
+ arsity Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2791:7644437@northwest-jersey-athletic-conference
@@ -3113,7 +3113,7 @@ SUMMARY:Mountain Lakes High School vs Parsippany Hills High School (Varsi
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2791:7704058@northwest-jersey-athletic-conference
+UID:ds:2791:7704257@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T183000
 DTEND;TZID=America/New_York:20270105T203000
@@ -3131,15 +3131,6 @@ SUMMARY:Parsippany Hills High School at Madison High School (Varsity Coed
 DESCRIPTION:Varsity Coed Coed Swimming - Away - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2791:7578317@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270106T160000
-DTEND;TZID=America/New_York:20270106T180000
-SUMMARY:Parsippany Hills High School at Roxbury High School (Varsity Girl
- s Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2791:7729654@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270106T160000
@@ -3147,6 +3138,15 @@ DTEND;TZID=America/New_York:20270106T180000
 SUMMARY:Parsippany Hills High School vs Roxbury High School (Freshman Boy
  s Boys Basketball)
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2791:7578317@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270106T160000
+DTEND;TZID=America/New_York:20270106T180000
+SUMMARY:Parsippany Hills High School at Roxbury High School (Varsity Girl
+ s Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2791:7729655@northwest-jersey-athletic-conference
@@ -3158,15 +3158,6 @@ SUMMARY:Parsippany Hills High School vs Roxbury High School (Junior Varsi
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2791:7457372@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270106T190000
-DTEND;TZID=America/New_York:20270106T210000
-SUMMARY:Parsippany Hills High School vs Roxbury High School (Varsity Boys
-  Boys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2791:7457587@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270106T190000
@@ -3174,6 +3165,15 @@ DTEND;TZID=America/New_York:20270106T210000
 SUMMARY:Parsippany Hills High School at Roxbury High School (Varsity Girl
  s Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2791:7457372@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270106T190000
+DTEND;TZID=America/New_York:20270106T210000
+SUMMARY:Parsippany Hills High School vs Roxbury High School (Varsity Boys
+  Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2791:7755033@northwest-jersey-athletic-conference
@@ -3185,15 +3185,6 @@ SUMMARY:Parsippany Hills High School vs Roxbury High School (Varsity Girl
 DESCRIPTION:Varsity Girls Girls Wrestling - Home - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2791:7458048@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270107T180000
-DTEND;TZID=America/New_York:20270107T200000
-SUMMARY:Parsippany Hills High School vs Roxbury High School (Varsity Boys
-  Boys Wrestling)
-DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2791:7765308@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T180000
@@ -3201,6 +3192,15 @@ DTEND;TZID=America/New_York:20270107T200000
 SUMMARY:Parsippany Hills High School at Parsippany High School (Varsity G
  irls Girls Wrestling)
 DESCRIPTION:Varsity Girls Girls Wrestling - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2791:7458048@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270107T180000
+DTEND;TZID=America/New_York:20270107T200000
+SUMMARY:Parsippany Hills High School vs Roxbury High School (Varsity Boys
+  Boys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2791:7578380@northwest-jersey-athletic-conference
@@ -3392,15 +3392,6 @@ SUMMARY:Parsippany Hills High School at Randolph High School (Junior Vars
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2791:7457379@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270112T190000
-DTEND;TZID=America/New_York:20270112T210000
-SUMMARY:Parsippany Hills High School vs Randolph High School (Varsity Boy
- s Boys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2791:7578393@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T190000
@@ -3408,6 +3399,15 @@ DTEND;TZID=America/New_York:20270112T210000
 SUMMARY:Parsippany Hills High School at Randolph High School (Varsity Gir
  ls Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2791:7457379@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270112T190000
+DTEND;TZID=America/New_York:20270112T210000
+SUMMARY:Parsippany Hills High School vs Randolph High School (Varsity Boy
+ s Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2791:7578416@northwest-jersey-athletic-conference
@@ -3554,7 +3554,7 @@ SUMMARY:Morristown High School at Parsippany Hills High School (Varsity B
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2791:7674800@northwest-jersey-athletic-conference
+UID:ds:2791:7765313@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270119T180000
 DTEND;TZID=America/New_York:20270119T200000
@@ -3590,15 +3590,6 @@ SUMMARY:Parsippany Hills High School at Clifton High School (Varsity Girl
 DESCRIPTION:Varsity Girls Girls Wrestling - Away - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2751:7514823@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270120T173000
-DTEND;TZID=America/New_York:20270120T193000
-SUMMARY:Mount Olive High School at Parsippany Hills High School (Junior V
- arsity Boys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2751:7515378@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270120T173000
@@ -3606,6 +3597,15 @@ DTEND;TZID=America/New_York:20270120T193000
 SUMMARY:Mount Olive High School vs Parsippany Hills High School (Junior V
  arsity Girls Girls Basketball)
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2751:7514823@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270120T173000
+DTEND;TZID=America/New_York:20270120T193000
+SUMMARY:Mount Olive High School at Parsippany Hills High School (Junior V
+ arsity Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2791:7568383@northwest-jersey-athletic-conference
@@ -3626,15 +3626,6 @@ SUMMARY:Mount Olive High School at Parsippany Hills High School (Varsity
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2694:7610012@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270121T160000
-DTEND;TZID=America/New_York:20270121T180000
-SUMMARY:Lenape Valley High School vs Parsippany Hills High School (Varsit
- y Boys Boys Swimming)
-DESCRIPTION:Varsity Boys Boys Swimming - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2694:7610093@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T160000
@@ -3642,6 +3633,15 @@ DTEND;TZID=America/New_York:20270121T180000
 SUMMARY:Lenape Valley High School vs Parsippany Hills High School (Varsit
  y Girls Girls Swimming)
 DESCRIPTION:Varsity Girls Girls Swimming - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2694:7610012@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270121T160000
+DTEND;TZID=America/New_York:20270121T180000
+SUMMARY:Lenape Valley High School vs Parsippany Hills High School (Varsit
+ y Boys Boys Swimming)
+DESCRIPTION:Varsity Boys Boys Swimming - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2761:7645057@northwest-jersey-athletic-conference
@@ -3671,15 +3671,6 @@ SUMMARY:Parsippany Hills High School at Lenape Valley High School (Junior
 DESCRIPTION:Junior Varsity Coed Coed Swimming - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2791:7610093@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270121T160000
-DTEND;TZID=America/New_York:20270121T180000
-SUMMARY:Parsippany Hills High School at Lenape Valley High School (Varsit
- y Coed Coed Swimming)
-DESCRIPTION:Varsity Coed Coed Swimming - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2791:7645057@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T160000
@@ -3687,6 +3678,15 @@ DTEND;TZID=America/New_York:20270121T180000
 SUMMARY:Parsippany Hills High School at Newton High School (Junior Varsit
  y Coed Coed Swimming)
 DESCRIPTION:Junior Varsity Coed Coed Swimming - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2791:7610093@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270121T160000
+DTEND;TZID=America/New_York:20270121T180000
+SUMMARY:Parsippany Hills High School at Lenape Valley High School (Varsit
+ y Coed Coed Swimming)
+DESCRIPTION:Varsity Coed Coed Swimming - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101182558@northwest-jersey-athletic-conference
@@ -3761,15 +3761,6 @@ SUMMARY:Parsippany Hills High School at Roxbury High School (Freshman Boy
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2791:7578499@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270126T160000
-DTEND;TZID=America/New_York:20270126T180000
-SUMMARY:Parsippany Hills High School at Parsippany High School (Varsity G
- irls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2791:7662408@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270126T160000
@@ -3777,6 +3768,15 @@ DTEND;TZID=America/New_York:20270126T180000
 SUMMARY:Parsippany Hills High School at Morristown High School (Varsity C
  oed Coed Swimming)
 DESCRIPTION:Varsity Coed Coed Swimming - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2791:7578499@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270126T160000
+DTEND;TZID=America/New_York:20270126T180000
+SUMMARY:Parsippany Hills High School at Parsippany High School (Varsity G
+ irls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103036528@northwest-jersey-athletic-conference
@@ -3815,15 +3815,6 @@ SUMMARY:Parsippany Hills High School vs Montville High School (Varsity Bo
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2791:7457393@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270126T190000
-DTEND;TZID=America/New_York:20270126T210000
-SUMMARY:Parsippany Hills High School at Roxbury High School (Varsity Boys
-  Boys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2791:7457608@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270126T190000
@@ -3831,6 +3822,15 @@ DTEND;TZID=America/New_York:20270126T210000
 SUMMARY:Parsippany Hills High School vs Roxbury High School (Varsity Girl
  s Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2791:7457393@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270126T190000
+DTEND;TZID=America/New_York:20270126T210000
+SUMMARY:Parsippany Hills High School at Roxbury High School (Varsity Boys
+  Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2790:7672705@northwest-jersey-athletic-conference
@@ -4247,13 +4247,13 @@ SUMMARY:High Point High School vs Parsippany Hills High School (Junior Va
 DESCRIPTION:Junior Varsity Girls Softball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2791:7770543@northwest-jersey-athletic-conference
+UID:ds:2745:7770543@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270324T160000
 DTEND;TZID=America/New_York:20270324T180000
-SUMMARY:Parsippany Hills High School at Morris Catholic High School (Vars
+SUMMARY:Morris Catholic High School vs Parsippany Hills High School (Vars
  ity Boys Baseball)
-DESCRIPTION:Varsity Boys Baseball - Away - 4:00 PM
+DESCRIPTION:Varsity Boys Baseball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2790:7573784@northwest-jersey-athletic-conference

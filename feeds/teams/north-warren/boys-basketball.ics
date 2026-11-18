@@ -51,15 +51,6 @@ SUMMARY:North Warren vs Briarcliff Middle School (Middle School Boys Boys
 DESCRIPTION:Middle School Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2768:7535682@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261215T173000
-DTEND;TZID=America/New_York:20261215T193000
-SUMMARY:North Warren vs Sussex County Technical High School (Junior Varsi
- ty Boys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2768:7543340@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261215T173000
@@ -67,6 +58,15 @@ DTEND;TZID=America/New_York:20261215T193000
 SUMMARY:North Warren vs Sussex County Technical High School (Freshman Boy
  s Boys Basketball)
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2768:7535682@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261215T173000
+DTEND;TZID=America/New_York:20261215T193000
+SUMMARY:North Warren vs Sussex County Technical High School (Junior Varsi
+ ty Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2887:7457445@northwest-jersey-athletic-conference
@@ -310,20 +310,20 @@ SUMMARY:North Warren at Briarcliff Middle School (Middle School Boys Boys
 DESCRIPTION:Middle School Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2594:7457458@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270114T160000
-DTEND;TZID=America/New_York:20270114T180000
-SUMMARY:Dover High School at North Warren (Varsity Boys Boys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2594:7543344@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T160000
 DTEND;TZID=America/New_York:20270114T180000
 SUMMARY:Dover High School at North Warren (Freshman Boys Boys Basketball)
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2594:7457458@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270114T160000
+DTEND;TZID=America/New_York:20270114T180000
+SUMMARY:Dover High School at North Warren (Varsity Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2594:7535686@northwest-jersey-athletic-conference
@@ -362,7 +362,7 @@ SUMMARY:Sussex County Tech High School vs North Warren (Freshman Boys Boy
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2768:7506325@northwest-jersey-athletic-conference
+UID:ds:2768:7535687@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270118T173000
 DTEND;TZID=America/New_York:20270118T193000
@@ -371,7 +371,7 @@ SUMMARY:North Warren at Sussex County Technical High School (Junior Varsi
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2887:7506325@northwest-jersey-athletic-conference
+UID:ds:2887:7535687@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270118T173000
 DTEND;TZID=America/New_York:20270118T193000
