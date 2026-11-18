@@ -24,12 +24,30 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:arb:105676904@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:Morris Hills High School at TBD (Junior Varsity Girls Girls Wrest
+ ling)
+DESCRIPTION:Junior Varsity Girls Girls Wrestling - Away
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2761:7591184@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261223T090000
 DTEND;TZID=America/New_York:20261223T110000
 SUMMARY:Newton High School at TBA NJ (Junior Varsity Girls Girls Wrestlin
  g)
+DESCRIPTION:Junior Varsity Girls Girls Wrestling - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:105677306@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261228T090000
+DTEND;TZID=America/New_York:20261228T110000
+SUMMARY:Morris Hills High School at TBD (Junior Varsity Girls Girls Wrest
+ ling)
 DESCRIPTION:Junior Varsity Girls Girls Wrestling - Away - 9:00 AM
 END:VEVENT
 END:VCALENDAR
