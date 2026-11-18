@@ -24,24 +24,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2564:7535208@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261208T130000
-DTEND;TZID=America/New_York:20261208T150000
-SUMMARY:Chatham High School at Millburn High School (Freshman Boys Boys B
- asketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Away - 1:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2564:7535181@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261208T143000
-DTEND;TZID=America/New_York:20261208T163000
-SUMMARY:Chatham High School at Millburn High School (Junior Varsity Boys 
- Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 2:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2564:7417751@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261208T160000
@@ -49,6 +31,24 @@ DTEND;TZID=America/New_York:20261208T180000
 SUMMARY:Chatham High School at Millburn High School (Varsity Boys Boys Ba
  sketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2564:7535208@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261208T160000
+DTEND;TZID=America/New_York:20261208T180000
+SUMMARY:Chatham High School at Millburn High School (Freshman Boys Boys B
+ asketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2564:7535181@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261208T173000
+DTEND;TZID=America/New_York:20261208T193000
+SUMMARY:Chatham High School at Millburn High School (Junior Varsity Boys 
+ Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2564:7535221@northwest-jersey-athletic-conference
