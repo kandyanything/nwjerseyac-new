@@ -5169,11 +5169,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2748:7771226@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270110T070000
-DTEND;TZID=America/New_York:20270110T090000
+DTSTART;TZID=America/New_York:20270110T083000
+DTEND;TZID=America/New_York:20270110T103000
 SUMMARY:Morristown High School at Morris Knolls High School (Var-JV Coed 
  Coed Fencing)
-DESCRIPTION:Var-JV Coed Coed Fencing - Away - 7:00 AM
+DESCRIPTION:Var-JV Coed Coed Fencing - Away - 8:30 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:105206238@northwest-jersey-athletic-conference
@@ -5365,13 +5365,13 @@ SUMMARY:Morris Hills High School vs Morris Knolls High School (Varsity Bo
 DESCRIPTION:Varsity Boys Boys Bowling - Home - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2594:7773075@northwest-jersey-athletic-conference
+UID:ds:2594:7773683@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T153000
 DTEND;TZID=America/New_York:20270114T173000
-SUMMARY:Dover High School vs Morris Knolls High School (Unified Coed Coed
-  Basketball)
-DESCRIPTION:Unified Coed Coed Basketball - Home - 3:30 PM
+SUMMARY:Dover High School vs Morris Knolls High School (Varsity Coed Unif
+ ied Sports Basketball)
+DESCRIPTION:Varsity Coed Unified Sports Basketball - Home - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101182068@northwest-jersey-athletic-conference
@@ -6128,18 +6128,20 @@ UID:arb:102947027@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270130T113000
 DTEND;TZID=America/New_York:20270130T133000
-SUMMARY:Morris Knolls High School vs Wayne Valley High School (Junior Var
- sity Girls Girls Basketball)
+SUMMARY:[Canceled] Morris Knolls High School vs Wayne Valley High School 
+ (Junior Varsity Girls Girls Basketball)
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 11:30 AM
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102947051@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270130T130000
 DTEND;TZID=America/New_York:20270130T150000
-SUMMARY:Morris Knolls High School vs Wayne Valley High School (Varsity Gi
- rls Girls Basketball)
+SUMMARY:[Canceled] Morris Knolls High School vs Wayne Valley High School 
+ (Varsity Girls Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 1:00 PM
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103151504@northwest-jersey-athletic-conference
@@ -6600,6 +6602,15 @@ DTEND;TZID=America/New_York:20270218T193000
 SUMMARY:Morris Knolls High School at Mountain Lakes High School (Junior V
  arsity Girls Girls Basketball)
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2594:7585501@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270219T160000
+DTEND;TZID=America/New_York:20270219T180000
+SUMMARY:Dover High School at Morris Knolls High School (Varsity Boys Boys
+  Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:105169864@northwest-jersey-athletic-conference
