@@ -24,6 +24,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:arb:105706601@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270109T100000
+DTEND;TZID=America/New_York:20270109T120000
+SUMMARY:West Morris Mendham vs Union City High School (Unified Coed Baske
+ tball)
+DESCRIPTION:Unified Coed Basketball - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:105484658@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T160000
@@ -40,5 +49,23 @@ DTEND;TZID=America/New_York:20270126T180000
 SUMMARY:West Morris Mendham at Randolph High School (Unified Coed Basketb
  all)
 DESCRIPTION:Unified Coed Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:105706614@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270128T160000
+DTEND;TZID=America/New_York:20270128T180000
+SUMMARY:Mount Olive High School at Mendham High School (Unified Coed Bask
+ etball)
+DESCRIPTION:Unified Coed Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:105706626@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270130T100000
+DTEND;TZID=America/New_York:20270130T120000
+SUMMARY:West Morris Mendham vs Hackettstown High School (Unified Coed Bas
+ ketball)
+DESCRIPTION:Unified Coed Basketball - Home - 10:00 AM
 END:VEVENT
 END:VCALENDAR
