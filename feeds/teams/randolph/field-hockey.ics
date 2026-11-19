@@ -96,7 +96,7 @@ SUMMARY:Randolph High School at West Milford High School (Junior Varsity
 DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2751:7416903@northwest-jersey-athletic-conference
+UID:arb:98813839@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260902T160000
 DTEND;TZID=America/New_York:20260902T180000
@@ -105,7 +105,7 @@ SUMMARY:Mount Olive High School at Randolph High School (Varsity Girls Fi
 DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2751:7417388@northwest-jersey-athletic-conference
+UID:arb:98813875@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260902T173000
 DTEND;TZID=America/New_York:20260902T193000
@@ -114,7 +114,7 @@ SUMMARY:Mount Olive High School at Randolph High School (Junior Varsity G
 DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2751:7417437@northwest-jersey-athletic-conference
+UID:arb:102147380@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260903T160000
 DTEND;TZID=America/New_York:20260903T180000
@@ -316,22 +316,13 @@ SUMMARY:West Morris Central at Randolph High School (Junior Varsity Girls
 DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2751:7445494@northwest-jersey-athletic-conference
+UID:arb:99923535@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261001T160000
 DTEND;TZID=America/New_York:20261001T180000
 SUMMARY:Mount Olive High School vs Randolph High School (Varsity Girls Fi
  eld Hockey)
 DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2751:7445496@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261001T160000
-DTEND;TZID=America/New_York:20261001T180000
-SUMMARY:Mount Olive High School at Randolph High School (Freshman Girls F
- ield Hockey)
-DESCRIPTION:Freshman Girls Field Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2825:7566368@northwest-jersey-athletic-conference
@@ -343,7 +334,16 @@ SUMMARY:Randolph High School vs Montclair High School (Freshman Girls Fie
 DESCRIPTION:Freshman Girls Field Hockey - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2751:7477453@northwest-jersey-athletic-conference
+UID:ds:2825:7445496@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261001T160000
+DTEND;TZID=America/New_York:20261001T180000
+SUMMARY:Randolph High School vs Mount Olive High School (Freshman Girls F
+ ield Hockey)
+DESCRIPTION:Freshman Girls Field Hockey - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:99923543@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261001T173000
 DTEND;TZID=America/New_York:20261001T193000
@@ -432,6 +432,16 @@ DTEND;TZID=America/New_York:20261009T193000
 SUMMARY:Chatham High School at Randolph High School (Junior Varsity Girls
   Field Hockey)
 DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102444350@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261012T160000
+DTEND;TZID=America/New_York:20261012T180000
+SUMMARY:[Canceled] Mount Olive High School at Randolph High School (Fresh
+ man Girls Field Hockey)
+DESCRIPTION:Freshman Girls Field Hockey - Away - 4:00 PM
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2825:7689101@northwest-jersey-athletic-conference

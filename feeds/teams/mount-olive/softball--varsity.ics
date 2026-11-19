@@ -24,31 +24,22 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2751:7722492@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270323T160000
-DTEND;TZID=America/New_York:20270323T180000
-SUMMARY:Mount Olive High School at Hunterdon Central Regional High (Varsi
- ty Girls Softball)
-DESCRIPTION:Varsity Girls Softball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:103486735@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270331T160000
 DTEND;TZID=America/New_York:20270331T180000
-SUMMARY:Montville High School vs Mount Olive High School (Varsity Girls S
+SUMMARY:Mount Olive High School at Montville High School (Varsity Girls S
  oftball)
-DESCRIPTION:Varsity Girls Softball - Home - 4:00 PM
+DESCRIPTION:Varsity Girls Softball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2564:7684027@northwest-jersey-athletic-conference
+UID:arb:103569225@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270402T160000
 DTEND;TZID=America/New_York:20270402T180000
-SUMMARY:Chatham High School at Mount Olive High School (Varsity Girls Sof
+SUMMARY:Mount Olive High School vs Chatham High School (Varsity Girls Sof
  tball)
-DESCRIPTION:Varsity Girls Softball - Away - 4:00 PM
+DESCRIPTION:Varsity Girls Softball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2748:7764251@northwest-jersey-athletic-conference
@@ -64,21 +55,21 @@ UID:arb:103569227@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270408T160000
 DTEND;TZID=America/New_York:20270408T180000
-SUMMARY:West Morris Central at Mount Olive High School (Varsity Girls Sof
+SUMMARY:Mount Olive High School vs West Morris Central (Varsity Girls Sof
  tball)
-DESCRIPTION:Varsity Girls Softball - Away - 4:00 PM
+DESCRIPTION:Varsity Girls Softball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2751:7561863@northwest-jersey-athletic-conference
+UID:ds:2838:7561863@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270410T110000
 DTEND;TZID=America/New_York:20270410T130000
-SUMMARY:Mount Olive High School vs Roxbury High School (Varsity Girls Sof
+SUMMARY:Roxbury High School at Mount Olive High School (Varsity Girls Sof
  tball)
-DESCRIPTION:Varsity Girls Softball - Home - 11:00 AM
+DESCRIPTION:Varsity Girls Softball - Away - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2751:7641216@northwest-jersey-athletic-conference
+UID:arb:103569237@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270412T160000
 DTEND;TZID=America/New_York:20270412T180000
@@ -91,7 +82,16 @@ UID:arb:103569228@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270414T160000
 DTEND;TZID=America/New_York:20270414T180000
-SUMMARY:West Morris Mendham at Mount Olive High School (Varsity Girls Sof
+SUMMARY:Mount Olive High School vs Mendham High School (Varsity Girls Sof
+ tball)
+DESCRIPTION:Varsity Girls Softball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103569251@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270419T160000
+DTEND;TZID=America/New_York:20270419T180000
+SUMMARY:Mount Olive High School at Chatham High School (Varsity Girls Sof
  tball)
 DESCRIPTION:Varsity Girls Softball - Away - 4:00 PM
 END:VEVENT
@@ -105,22 +105,40 @@ SUMMARY:Chatham High School vs Mount Olive High School (Varsity Girls Sof
 DESCRIPTION:Varsity Girls Softball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:arb:103569246@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270422T160000
+DTEND;TZID=America/New_York:20270422T180000
+SUMMARY:Mount Olive High School at Parsippany Hills High School (Varsity 
+ Girls Softball)
+DESCRIPTION:Varsity Girls Softball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103248604@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270424T170000
+DTEND;TZID=America/New_York:20270424T190000
+SUMMARY:Mount Olive High School at Hanover Park High School (Varsity Girl
+ s Softball)
+DESCRIPTION:Varsity Girls Softball - Away - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:103486727@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270426T160000
 DTEND;TZID=America/New_York:20270426T180000
-SUMMARY:West Morris Central vs Mount Olive High School (Varsity Girls Sof
+SUMMARY:Mount Olive High School at West Morris Central (Varsity Girls Sof
  tball)
-DESCRIPTION:Varsity Girls Softball - Home - 4:00 PM
+DESCRIPTION:Varsity Girls Softball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103569230@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270428T160000
 DTEND;TZID=America/New_York:20270428T180000
-SUMMARY:Montville High School at Mount Olive High School (Varsity Girls S
+SUMMARY:Mount Olive High School vs Montville High School (Varsity Girls S
  oftball)
-DESCRIPTION:Varsity Girls Softball - Away - 4:00 PM
+DESCRIPTION:Varsity Girls Softball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2674:7759337@northwest-jersey-athletic-conference
@@ -141,12 +159,21 @@ SUMMARY:High Point High School at Mount Olive High School (Varsity Girls
 DESCRIPTION:Varsity Girls Softball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2751:7641290@northwest-jersey-athletic-conference
+UID:arb:103569232@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270518T160000
+DTEND;TZID=America/New_York:20270518T180000
+SUMMARY:Mount Olive High School vs Parsippany Hills High School (Varsity 
+ Girls Softball)
+DESCRIPTION:Varsity Girls Softball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2881:7641290@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270520T160000
 DTEND;TZID=America/New_York:20270520T180000
-SUMMARY:Mount Olive High School vs Sparta High School (Varsity Girls Soft
+SUMMARY:Sparta High School at Mount Olive High School (Varsity Girls Soft
  ball)
-DESCRIPTION:Varsity Girls Softball - Home - 4:00 PM
+DESCRIPTION:Varsity Girls Softball - Away - 4:00 PM
 END:VEVENT
 END:VCALENDAR

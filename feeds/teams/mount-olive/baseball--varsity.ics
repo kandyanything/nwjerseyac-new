@@ -24,16 +24,7 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2751:7708731@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270327T110000
-DTEND;TZID=America/New_York:20270327T130000
-SUMMARY:Mount Olive High School at Governor Livingston High School (Varsi
- ty Boys Baseball)
-DESCRIPTION:Varsity Boys Baseball - Away - 11:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2751:7614507@northwest-jersey-athletic-conference
+UID:arb:103354973@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270329T160000
 DTEND;TZID=America/New_York:20270329T180000
@@ -42,7 +33,7 @@ SUMMARY:Mount Olive High School at Roxbury High School (Varsity Boys Base
 DESCRIPTION:Varsity Boys Baseball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2751:7614511@northwest-jersey-athletic-conference
+UID:arb:103354958@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270331T160000
 DTEND;TZID=America/New_York:20270331T180000
@@ -51,16 +42,16 @@ SUMMARY:Mount Olive High School vs Roxbury High School (Varsity Boys Base
 DESCRIPTION:Varsity Boys Baseball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2751:7609451@northwest-jersey-athletic-conference
+UID:ds:2881:7609451@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270403T110000
 DTEND;TZID=America/New_York:20270403T130000
-SUMMARY:Mount Olive High School vs Sparta High School (Varsity Boys Baseb
+SUMMARY:Sparta High School at Mount Olive High School (Varsity Boys Baseb
  all)
-DESCRIPTION:Varsity Boys Baseball - Home - 11:00 AM
+DESCRIPTION:Varsity Boys Baseball - Away - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2751:7614514@northwest-jersey-athletic-conference
+UID:arb:103354960@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270405T160000
 DTEND;TZID=America/New_York:20270405T180000
@@ -69,7 +60,7 @@ SUMMARY:Mount Olive High School vs Randolph High School (Varsity Boys Bas
 DESCRIPTION:Varsity Boys Baseball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2751:7614516@northwest-jersey-athletic-conference
+UID:arb:103354982@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270407T160000
 DTEND;TZID=America/New_York:20270407T180000
@@ -87,7 +78,7 @@ SUMMARY:High Point High School at Mount Olive High School (Varsity Boys B
 DESCRIPTION:Varsity Boys Baseball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2751:7614518@northwest-jersey-athletic-conference
+UID:arb:103355035@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270412T160000
 DTEND;TZID=America/New_York:20270412T180000
@@ -96,13 +87,22 @@ SUMMARY:Mount Olive High School at Morris Knolls High School (Varsity Boy
 DESCRIPTION:Varsity Boys Baseball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2751:7614521@northwest-jersey-athletic-conference
+UID:arb:103354965@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270414T160000
 DTEND;TZID=America/New_York:20270414T180000
 SUMMARY:Mount Olive High School vs Morris Knolls High School (Varsity Boy
  s Baseball)
 DESCRIPTION:Varsity Boys Baseball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103092038@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270427T160000
+DTEND;TZID=America/New_York:20270427T180000
+SUMMARY:Mount Olive High School at Westfield High School (Varsity Boys Ba
+ seball)
+DESCRIPTION:Varsity Boys Baseball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2674:7758930@northwest-jersey-athletic-conference
@@ -114,7 +114,7 @@ SUMMARY:Jefferson Township High School vs Mount Olive High School (Varsit
 DESCRIPTION:Varsity Boys Baseball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2751:7614530@northwest-jersey-athletic-conference
+UID:arb:103354967@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270503T160000
 DTEND;TZID=America/New_York:20270503T180000
@@ -123,7 +123,7 @@ SUMMARY:Mount Olive High School vs West Morris Central (Varsity Boys Base
 DESCRIPTION:Varsity Boys Baseball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2751:7614533@northwest-jersey-athletic-conference
+UID:arb:103354953@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270505T160000
 DTEND;TZID=America/New_York:20270505T180000
@@ -132,7 +132,7 @@ SUMMARY:Mount Olive High School at West Morris Central (Varsity Boys Base
 DESCRIPTION:Varsity Boys Baseball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2751:7614537@northwest-jersey-athletic-conference
+UID:arb:103354970@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270510T160000
 DTEND;TZID=America/New_York:20270510T180000
@@ -141,7 +141,7 @@ SUMMARY:Mount Olive High School vs Montville High School (Varsity Boys Ba
 DESCRIPTION:Varsity Boys Baseball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2751:7614540@northwest-jersey-athletic-conference
+UID:arb:103355008@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270512T160000
 DTEND;TZID=America/New_York:20270512T180000
@@ -150,7 +150,7 @@ SUMMARY:Mount Olive High School at Montville High School (Varsity Boys Ba
 DESCRIPTION:Varsity Boys Baseball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2751:7614543@northwest-jersey-athletic-conference
+UID:arb:103354971@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270517T160000
 DTEND;TZID=America/New_York:20270517T180000
@@ -159,7 +159,7 @@ SUMMARY:Mount Olive High School vs Delbarton School (Varsity Boys Basebal
 DESCRIPTION:Varsity Boys Baseball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2751:7614546@northwest-jersey-athletic-conference
+UID:arb:103355026@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270519T160000
 DTEND;TZID=America/New_York:20270519T180000
