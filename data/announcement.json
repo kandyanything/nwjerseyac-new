@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "_comment": "Site-wide pop-up. mode 'acknowledge' shows it each visit until the visitor clicks 'Don't show this again'; closing with X or Esc only dismisses for that session. Change 'id' for a NEW message so people who acknowledged the last one see the new one. Other modes: 'once' (a single time ever), 'untilDate' (with endDate), 'always'. A message can also run for a set time: \"until\" (YYYY-MM-DD) ends it and \"then\" holds the announcement that takes over.",
   "active": true,
   "id": "xc-champions-2026",
@@ -55,4 +56,16 @@
     "mode": "acknowledge",
     "endDate": ""
   }
+=======
+  "_comment": "Site-wide pop-up. mode 'acknowledge' shows it each visit until the visitor clicks 'Don't show this again'; closing with X or Esc only dismisses for that session. Change 'id' for a NEW message so people who acknowledged the last one see the new one. Other modes: 'once' (a single time ever), 'untilDate' (with endDate), 'always'.",
+  "active": true,
+  "id": "welcome-2026",
+  "eyebrow": "Announcement",
+  "title": "Welcome to the New NJAC Site",
+  "body": "Follow every school's schedule, standings, and NJAC Vision all season long.",
+  "linkUrl": "#member-schools",
+  "linkLabel": "View Schedules",
+  "mode": "acknowledge",
+  "endDate": ""
+>>>>>>> 895f744a0 (Scores refresh 2026-10-31)
 }
