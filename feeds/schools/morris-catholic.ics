@@ -458,17 +458,6 @@ SUMMARY:Morristown Beard School vs Morris Catholic High School (Varsity B
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:MorristownBeardSchool:event_8750_20260914t200000zapi.veracross.co
- m@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260914T160000
-DTEND;TZID=America/New_York:20260914T180000
-SUMMARY:[Cancelled] Morristown Beard School vs Morris Catholic High Schoo
- l (Junior Varsity Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
-STATUS:CANCELLED
-END:VEVENT
-BEGIN:VEVENT
 UID:ics:MorristownBeardSchool:event_8782_20260914t200000zapi.veracross.co
  m@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
@@ -477,6 +466,17 @@ DTEND;TZID=America/New_York:20260914T180000
 SUMMARY:[Cancelled] Morristown Beard School at Morris Catholic High Schoo
  l (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
+STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:MorristownBeardSchool:event_8750_20260914t200000zapi.veracross.co
+ m@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T160000
+DTEND;TZID=America/New_York:20260914T180000
+SUMMARY:[Cancelled] Morristown Beard School vs Morris Catholic High Schoo
+ l (Junior Varsity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
 STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
@@ -3043,6 +3043,15 @@ SUMMARY:Morris Catholic High School vs TBD (Varsity Girls Girls Basketbal
 DESCRIPTION:Varsity Girls Girls Basketball - Home
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2745:7773074@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270315T160000
+DTEND;TZID=America/New_York:20270315T180000
+SUMMARY:Morris Catholic High School vs Randolph High School (Varsity Girl
+ s Softball)
+DESCRIPTION:Varsity Girls Softball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2745:7706674@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270316T160000
@@ -3122,6 +3131,23 @@ DTEND;TZID=America/New_York:20270324T180000
 SUMMARY:Morris Catholic High School vs Parsippany Hills High School (Vars
  ity Boys Baseball)
 DESCRIPTION:Varsity Boys Baseball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2745:7773081@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270325T160000
+DTEND;TZID=America/New_York:20270325T180000
+SUMMARY:Morris Catholic High School at Phillipsburg High School (Varsity 
+ Girls Softball)
+DESCRIPTION:Varsity Girls Softball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2745:7773086@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270327T130000
+DTEND;TZID=America/New_York:20270327T150000
+SUMMARY:Morris Catholic High School vs TBD (Varsity Girls Softball)
+DESCRIPTION:Varsity Girls Softball - Home - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2745:7753027@northwest-jersey-athletic-conference
