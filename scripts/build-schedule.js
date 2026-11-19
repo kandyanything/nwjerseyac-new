@@ -4,9 +4,10 @@
 // Run: node scripts/build-schedule.js [startDate] [endDate]
 // Dates are M/D-tolerant strings in the form YYYY-M-D.
 //
-// Covers all 39 member schools across three sources: 11 on ArbiterLive, 26 on
+// Covers all 39 member schools across three sources: 10 on ArbiterLive, 27 on
 // DigitalSports, and two publishing an iCal feed (Delbarton via Sidearm,
-// Morristown-Beard via Google Calendar).
+// Morristown-Beard via Google Calendar). Mount Olive moved from DigitalSports
+// back to ArbiterLive in November 2026.
 //
 // Athletic events only. Practices, scrimmages, transport, club meetings,
 // facility bookings and school holidays are all excluded, as are non-athletic
@@ -16,7 +17,10 @@ const fs = require('fs');
 const path = require('path');
 const arbiter = require('./sources/arbiter');
 const digitalsports = require('./sources/digitalsports');
-const DS_SCHOOLS = require('./ds-schools.json');
+// ds-schools.json also drives the news search (build-news.js), so a school
+// that has left DigitalSports stays listed there by name only - no "url" -
+// and is skipped here rather than fetched from a site it no longer updates.
+const DS_SCHOOLS = require('./ds-schools.json').filter(s => s.url);
 const ical = require('./sources/ical');
 
 // Schools that publish a calendar feed rather than running one of the two
@@ -44,6 +48,7 @@ const ARBITER_SCHOOLS = [
     { entityId: 15106, name: 'Montville High School' },
     { entityId: 15188, name: 'Morris Hills High School' },
     { entityId: 15189, name: 'Morris Knolls High School' },
+    { entityId: 15450, name: 'Mount Olive High School' },
     { entityId: 17870, name: 'Pequannock High School' },
     { entityId: 25317, name: 'West Morris Central' },
     { entityId: 14434, name: 'West Morris Mendham' },
