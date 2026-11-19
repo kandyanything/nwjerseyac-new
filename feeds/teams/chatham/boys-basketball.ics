@@ -53,20 +53,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2564:7535221@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261210T130000
-DTEND;TZID=America/New_York:20261210T150000
+DTSTART;TZID=America/New_York:20261210T160000
+DTEND;TZID=America/New_York:20261210T180000
 SUMMARY:Chatham High School at Oratory Prep School (Freshman Boys Boys Ba
  sketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Away - 1:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2564:7535194@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261210T143000
-DTEND;TZID=America/New_York:20261210T163000
-SUMMARY:Chatham High School at Oratory Prep School (Junior Varsity Boys B
- oys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 2:30 PM
+DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2564:7458166@northwest-jersey-athletic-conference
@@ -76,6 +67,15 @@ DTEND;TZID=America/New_York:20261210T180000
 SUMMARY:Chatham High School at Oratory Prep School (Varsity Boys Boys Bas
  ketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2564:7535194@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261210T173000
+DTEND;TZID=America/New_York:20261210T193000
+SUMMARY:Chatham High School at Oratory Prep School (Junior Varsity Boys B
+ oys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2564:7526312@northwest-jersey-athletic-conference
@@ -474,15 +474,6 @@ SUMMARY:Chatham High School at Morristown High School (Junior Varsity Boy
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2564:7457330@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270126T190000
-DTEND;TZID=America/New_York:20270126T210000
-SUMMARY:Chatham High School at Morristown High School (Varsity Boys Boys 
- Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2564:7568076@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270126T190000
@@ -490,6 +481,15 @@ DTEND;TZID=America/New_York:20270126T210000
 SUMMARY:Chatham High School at Morristown High School (Junior Varsity Boy
  s Boys Basketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2564:7457330@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270126T190000
+DTEND;TZID=America/New_York:20270126T210000
+SUMMARY:Chatham High School at Morristown High School (Varsity Boys Boys 
+ Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2564:7550798@northwest-jersey-athletic-conference
@@ -634,38 +634,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2564:7534603@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270216T130000
-DTEND;TZID=America/New_York:20270216T150000
-SUMMARY:Chatham High School vs Sparta High School (Freshman Boys Boys Bas
- ketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Home - 1:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2564:7535193@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270216T153000
-DTEND;TZID=America/New_York:20270216T173000
-SUMMARY:Chatham High School vs Sparta High School (Junior Varsity Boys Bo
- ys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 3:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2564:7535220@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270216T160000
 DTEND;TZID=America/New_York:20270216T180000
 SUMMARY:Chatham High School vs Sparta High School (Freshman Boys Boys Bas
  ketball)
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2564:7457339@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270216T170000
-DTEND;TZID=America/New_York:20270216T190000
-SUMMARY:Chatham High School vs Sparta High School (Varsity Boys Boys Bask
- etball)
-DESCRIPTION:Varsity Boys Boys Basketball - Home - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2564:7534487@northwest-jersey-athletic-conference
@@ -677,13 +650,13 @@ SUMMARY:Chatham High School vs Sparta High School (Junior Varsity Boys Bo
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2881:7457339@northwest-jersey-athletic-conference
+UID:ds:2564:7457339@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270216T190000
 DTEND;TZID=America/New_York:20270216T210000
-SUMMARY:Sparta High School at Chatham High School (Varsity Boys Boys Bask
+SUMMARY:Chatham High School vs Sparta High School (Varsity Boys Boys Bask
  etball)
-DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2564:7534514@northwest-jersey-athletic-conference
