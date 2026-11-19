@@ -32,8 +32,8 @@ markup changes when content arrives.
 
 ## Open questions
 
-- **Morristown AD**: the conference list names two people (Smitty Horton and
-  David Doty) at the same number. Horton is used; unconfirmed which is correct.
+- **Morristown AD**: David Falleni, Interim AD (david.falleni@msdk12.net), per
+  the conference, November 2026. Same school number.
 - **AD list is dated 9/20/24** — nearly two years old.
 - **NJAC Leadership sits under the Standings menu**; Athletic Directors was
   moved to Conference. Leadership arguably belongs there too.
