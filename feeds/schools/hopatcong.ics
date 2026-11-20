@@ -23,12 +23,12 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2661:7497231@northwest-jersey-athletic-conference
+UID:ds:2594:7497231@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260818T090000
 DTEND;TZID=America/New_York:20260818T110000
-SUMMARY:Hopatcong High School at Dover High School (Varsity Boys Football)
-DESCRIPTION:Varsity Boys Football - Away - 9:00 AM
+SUMMARY:Dover High School vs Hopatcong High School (Varsity Boys Football)
+DESCRIPTION:Varsity Boys Football - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2661:7526233@northwest-jersey-athletic-conference
@@ -327,6 +327,15 @@ SUMMARY:Hopatcong High School vs Bergen Charter (Varsity Boys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:45 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2594:7491884@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260910T160000
+DTEND;TZID=America/New_York:20260910T180000
+SUMMARY:Dover High School vs Hopatcong High School (Varsity Girls Girls S
+ occer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2661:7503250@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260910T160000
@@ -343,15 +352,6 @@ DTEND;TZID=America/New_York:20260910T180000
 SUMMARY:Hopatcong High School vs Sussex County Technical High School (Jun
  ior Varsity Girls Girls Tennis)
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2661:7491884@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260910T160000
-DTEND;TZID=America/New_York:20260910T180000
-SUMMARY:Hopatcong High School at Dover High School (Varsity Girls Girls S
- occer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2887:7533316@northwest-jersey-athletic-conference
@@ -372,13 +372,13 @@ SUMMARY:Sussex County Tech High School vs Hopatcong High School (Varsity
 DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2661:7536755@northwest-jersey-athletic-conference
+UID:ds:2594:7536755@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260911T151500
 DTEND;TZID=America/New_York:20260911T171500
-SUMMARY:Hopatcong High School at Dover High School (Junior Varsity Girls 
+SUMMARY:Dover High School vs Hopatcong High School (Junior Varsity Girls 
  Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 3:15 PM
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 3:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2661:7471777@northwest-jersey-athletic-conference
@@ -435,6 +435,15 @@ SUMMARY:Hopatcong High School at Jefferson Township High School (Varsity
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2661:7499837@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T160000
+DTEND;TZID=America/New_York:20260914T180000
+SUMMARY:Hopatcong High School vs Jefferson Township High School (Junior V
+ arsity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2661:7582206@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260914T160000
@@ -462,15 +471,6 @@ SUMMARY:Hopatcong High School vs Sussex County Technical High School (Jun
 DESCRIPTION:Junior Varsity Boys Football - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2661:7499837@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260914T160000
-DTEND;TZID=America/New_York:20260914T180000
-SUMMARY:Hopatcong High School vs Jefferson Township High School (Junior V
- arsity Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2887:7532955@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260914T160000
@@ -480,7 +480,7 @@ SUMMARY:Sussex County Tech High School at Hopatcong High School (Junior V
 DESCRIPTION:Junior Varsity Boys Football - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2661:7472389@northwest-jersey-athletic-conference
+UID:ds:2661:7591480@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260915T160000
 DTEND;TZID=America/New_York:20260915T180000
@@ -594,15 +594,6 @@ SUMMARY:Hopatcong High School at North Warren (Varsity Coed Coed Cheerlea
 DESCRIPTION:Varsity Coed Coed Cheerleading - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2661:7509533@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260921T154500
-DTEND;TZID=America/New_York:20260921T174500
-SUMMARY:Hopatcong High School at Wallkill Valley High School (Junior Vars
- ity Girls Girls Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 3:45 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2661:7504574@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260921T154500
@@ -612,13 +603,13 @@ SUMMARY:Hopatcong High School vs Wallkill Valley High School (Varsity Gir
 DESCRIPTION:Varsity Girls Girls Tennis - Home - 3:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2661:7532954@northwest-jersey-athletic-conference
+UID:ds:2661:7509533@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260921T160000
-DTEND;TZID=America/New_York:20260921T180000
-SUMMARY:Hopatcong High School vs North Warren (Junior Varsity Boys Footba
- ll)
-DESCRIPTION:Junior Varsity Boys Football - Home - 4:00 PM
+DTSTART;TZID=America/New_York:20260921T154500
+DTEND;TZID=America/New_York:20260921T174500
+SUMMARY:Hopatcong High School at Wallkill Valley High School (Junior Vars
+ ity Girls Girls Tennis)
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 3:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2661:7544887@northwest-jersey-athletic-conference
@@ -628,6 +619,15 @@ DTEND;TZID=America/New_York:20260921T180000
 SUMMARY:Hopatcong High School at Warren County Tech High (Varsity Girls G
  irls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2661:7532954@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260921T160000
+DTEND;TZID=America/New_York:20260921T180000
+SUMMARY:Hopatcong High School vs North Warren (Junior Varsity Boys Footba
+ ll)
+DESCRIPTION:Junior Varsity Boys Football - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2649:7577632@northwest-jersey-athletic-conference
@@ -762,6 +762,15 @@ SUMMARY:Boonton High School vs Hopatcong High School (Junior Varsity Boys
 DESCRIPTION:Junior Varsity Boys Football - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2594:7531676@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260929T160000
+DTEND;TZID=America/New_York:20260929T180000
+SUMMARY:Dover High School at Hopatcong High School (Varsity Girls Girls S
+ occer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2661:7469865@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260929T160000
@@ -769,15 +778,6 @@ DTEND;TZID=America/New_York:20260929T180000
 SUMMARY:Hopatcong High School at Kittatinny High School (Junior Varsity B
  oys Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2661:7531676@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260929T160000
-DTEND;TZID=America/New_York:20260929T180000
-SUMMARY:Hopatcong High School vs Dover High School (Varsity Girls Girls S
- occer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2661:7469822@northwest-jersey-athletic-conference
@@ -1400,15 +1400,6 @@ SUMMARY:Mount Olive High School vs Hopatcong High School (Freshman Boys B
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2661:7514777@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261210T160000
-DTEND;TZID=America/New_York:20261210T180000
-SUMMARY:Hopatcong High School at Mount Olive High School (Varsity Boys Bo
- ys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2661:7537440@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261210T160000
@@ -1416,6 +1407,15 @@ DTEND;TZID=America/New_York:20261210T180000
 SUMMARY:Hopatcong High School vs Vernon Township High School (Varsity Gir
  ls Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2661:7514777@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261210T160000
+DTEND;TZID=America/New_York:20261210T180000
+SUMMARY:Hopatcong High School at Mount Olive High School (Varsity Boys Bo
+ ys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102440510@northwest-jersey-athletic-conference
@@ -1490,15 +1490,6 @@ SUMMARY:Hackettstown High School at Hopatcong High School (Freshman Boys
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2661:7457675@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261215T160000
-DTEND;TZID=America/New_York:20261215T180000
-SUMMARY:Hopatcong High School at Sussex County Technical High School (Var
- sity Girls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2661:7534882@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261215T160000
@@ -1506,6 +1497,15 @@ DTEND;TZID=America/New_York:20261215T180000
 SUMMARY:Hopatcong High School at Sussex County Technical High School (Jun
  ior Varsity Girls Girls Basketball)
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2661:7457675@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261215T160000
+DTEND;TZID=America/New_York:20261215T180000
+SUMMARY:Hopatcong High School at Sussex County Technical High School (Var
+ sity Girls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2887:7534882@northwest-jersey-athletic-conference
@@ -1975,13 +1975,13 @@ SUMMARY:Hopatcong High School vs Jefferson Township High School (Freshman
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2661:7582595@northwest-jersey-athletic-conference
+UID:ds:2594:7582595@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T173000
 DTEND;TZID=America/New_York:20270114T193000
-SUMMARY:Hopatcong High School at Dover High School (Junior Varsity Girls 
+SUMMARY:Dover High School vs Hopatcong High School (Junior Varsity Girls 
  Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2661:7527204@northwest-jersey-athletic-conference
@@ -1993,6 +1993,15 @@ SUMMARY:Hopatcong High School vs Jefferson Township High School (Junior V
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2594:7457688@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270114T190000
+DTEND;TZID=America/New_York:20270114T210000
+SUMMARY:Dover High School vs Hopatcong High School (Varsity Girls Girls B
+ asketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2661:7457426@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T190000
@@ -2000,15 +2009,6 @@ DTEND;TZID=America/New_York:20270114T210000
 SUMMARY:Hopatcong High School vs Jefferson Township High School (Varsity 
  Boys Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2661:7457688@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270114T190000
-DTEND;TZID=America/New_York:20270114T210000
-SUMMARY:Hopatcong High School at Dover High School (Varsity Girls Girls B
- asketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2661:7458121@northwest-jersey-athletic-conference
@@ -2200,12 +2200,12 @@ SUMMARY:Parsippany High School vs Hopatcong High School (Varsity Boys Boy
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2661:7728094@northwest-jersey-athletic-conference
+UID:ds:2661:7776668@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T180000
 DTEND;TZID=America/New_York:20270121T200000
-SUMMARY:Hopatcong High School at Lenape Valley / Hopat (Varsity Girls Gir
- ls Wrestling)
+SUMMARY:Hopatcong High School at Wallkill Valley High School (Varsity Gir
+ ls Girls Wrestling)
 DESCRIPTION:Varsity Girls Girls Wrestling - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -2540,13 +2540,13 @@ SUMMARY:Hopatcong High School vs Passaic Charter (Varsity Girls Girls Bas
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2661:7457703@northwest-jersey-athletic-conference
+UID:ds:2594:7457703@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270216T160000
 DTEND;TZID=America/New_York:20270216T180000
-SUMMARY:Hopatcong High School vs Dover High School (Varsity Girls Girls B
+SUMMARY:Dover High School at Hopatcong High School (Varsity Girls Girls B
  asketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:00 PM
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2661:7527346@northwest-jersey-athletic-conference
@@ -2602,13 +2602,13 @@ SUMMARY:Hopatcong High School vs Wallkill Valley High School (Varsity Boy
 DESCRIPTION:Varsity Boys Baseball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2661:7649691@northwest-jersey-athletic-conference
+UID:ds:2594:7649691@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270322T160000
 DTEND;TZID=America/New_York:20270322T180000
-SUMMARY:Hopatcong High School at Dover High School (Varsity Coed Coed Gol
+SUMMARY:Dover High School vs Hopatcong High School (Varsity Coed Coed Gol
  f)
-DESCRIPTION:Varsity Coed Coed Golf - Away - 4:00 PM
+DESCRIPTION:Varsity Coed Coed Golf - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2661:7620109@northwest-jersey-athletic-conference
@@ -2780,6 +2780,15 @@ SUMMARY:Hopatcong High School at Vernon Township High School (Varsity Boy
 DESCRIPTION:Varsity Boys Boys Tennis - Away - 3:45 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2594:7649613@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270407T160000
+DTEND;TZID=America/New_York:20270407T180000
+SUMMARY:Dover High School at Hopatcong High School (Varsity Girls Softbal
+ l)
+DESCRIPTION:Varsity Girls Softball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2661:7645906@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270407T160000
@@ -2787,15 +2796,6 @@ DTEND;TZID=America/New_York:20270407T180000
 SUMMARY:Hopatcong High School vs Sussex County Technical High School (Var
  sity Boys Baseball)
 DESCRIPTION:Varsity Boys Baseball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2661:7649613@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270407T160000
-DTEND;TZID=America/New_York:20270407T180000
-SUMMARY:Hopatcong High School vs Dover High School (Varsity Girls Softbal
- l)
-DESCRIPTION:Varsity Girls Softball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2887:7645906@northwest-jersey-athletic-conference
@@ -2896,6 +2896,15 @@ SUMMARY:Morris County School of Technology at Hopatcong High School (Vars
 DESCRIPTION:Varsity Boys Baseball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2594:7649696@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270415T160000
+DTEND;TZID=America/New_York:20270415T180000
+SUMMARY:Dover High School at Hopatcong High School (Varsity Coed Coed Gol
+ f)
+DESCRIPTION:Varsity Coed Coed Golf - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2661:7568347@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270415T160000
@@ -2903,15 +2912,6 @@ DTEND;TZID=America/New_York:20270415T180000
 SUMMARY:Hopatcong High School vs Lenape Valley High School (Varsity Coed 
  Coed Track and Field)
 DESCRIPTION:Varsity Coed Coed Track and Field - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2661:7649696@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270415T160000
-DTEND;TZID=America/New_York:20270415T180000
-SUMMARY:Hopatcong High School vs Dover High School (Varsity Coed Coed Gol
- f)
-DESCRIPTION:Varsity Coed Coed Golf - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:42130:7658663@northwest-jersey-athletic-conference
@@ -3057,6 +3057,24 @@ SUMMARY:Hopatcong High School at TBD (Varsity Boys Baseball)
 DESCRIPTION:Varsity Boys Baseball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2594:7620604@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270426T160000
+DTEND;TZID=America/New_York:20270426T180000
+SUMMARY:Dover High School at Hopatcong High School (Varsity Boys Boys Tra
+ ck and Field)
+DESCRIPTION:Varsity Boys Boys Track and Field - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2594:7649685@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270426T160000
+DTEND;TZID=America/New_York:20270426T180000
+SUMMARY:Dover High School at Hopatcong High School (Varsity Girls Girls T
+ rack and Field)
+DESCRIPTION:Varsity Girls Girls Track and Field - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2661:7620604@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270426T160000
@@ -3073,15 +3091,6 @@ DTEND;TZID=America/New_York:20270426T180000
 SUMMARY:Hopatcong High School vs Kinnelon High School (Varsity Boys Baseb
  all)
 DESCRIPTION:Varsity Boys Baseball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2661:7649685@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270426T160000
-DTEND;TZID=America/New_York:20270426T180000
-SUMMARY:Hopatcong High School vs Dover High School (Varsity Girls Girls T
- rack and Field)
-DESCRIPTION:Varsity Girls Girls Track and Field - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2661:7658045@northwest-jersey-athletic-conference
@@ -3111,13 +3120,13 @@ SUMMARY:Hopatcong High School at Wallkill Valley High School (Varsity Coe
 DESCRIPTION:Varsity Coed Coed Track and Field - Away - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2661:7649617@northwest-jersey-athletic-conference
+UID:ds:2594:7649617@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270429T160000
 DTEND;TZID=America/New_York:20270429T180000
-SUMMARY:Hopatcong High School at Dover High School (Varsity Girls Softbal
+SUMMARY:Dover High School vs Hopatcong High School (Varsity Girls Softbal
  l)
-DESCRIPTION:Varsity Girls Softball - Away - 4:00 PM
+DESCRIPTION:Varsity Girls Softball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2661:7650090@northwest-jersey-athletic-conference
@@ -3129,21 +3138,21 @@ SUMMARY:Hopatcong High School vs Lenape Valley High School (Varsity Boys
 DESCRIPTION:Varsity Boys Baseball - Home - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2661:7645907@northwest-jersey-athletic-conference
+UID:ds:2594:7645907@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270503T160000
 DTEND;TZID=America/New_York:20270503T180000
-SUMMARY:Hopatcong High School at Dover High School (Varsity Boys Baseball)
-DESCRIPTION:Varsity Boys Baseball - Away - 4:00 PM
+SUMMARY:Dover High School vs Hopatcong High School (Varsity Boys Baseball)
+DESCRIPTION:Varsity Boys Baseball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2661:7649636@northwest-jersey-athletic-conference
+UID:ds:2594:7649636@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270503T160000
 DTEND;TZID=America/New_York:20270503T180000
-SUMMARY:Hopatcong High School at Dover High School (Junior Varsity Boys B
+SUMMARY:Dover High School vs Hopatcong High School (Junior Varsity Boys B
  aseball)
-DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:00 PM
+DESCRIPTION:Junior Varsity Boys Baseball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2661:7658046@northwest-jersey-athletic-conference
@@ -3182,6 +3191,23 @@ SUMMARY:Hopatcong High School at Veritas Christian Academy (Varsity Girls
 DESCRIPTION:Varsity Girls Softball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2594:7645908@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270505T160000
+DTEND;TZID=America/New_York:20270505T180000
+SUMMARY:Dover High School at Hopatcong High School (Varsity Boys Baseball)
+DESCRIPTION:Varsity Boys Baseball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2594:7649637@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270505T160000
+DTEND;TZID=America/New_York:20270505T180000
+SUMMARY:Dover High School at Hopatcong High School (Junior Varsity Boys B
+ aseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2661:7620614@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270505T160000
@@ -3189,23 +3215,6 @@ DTEND;TZID=America/New_York:20270505T180000
 SUMMARY:Hopatcong High School at Wallkill Valley High School (Varsity Coe
  d Coed Track and Field)
 DESCRIPTION:Varsity Coed Coed Track and Field - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2661:7645908@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270505T160000
-DTEND;TZID=America/New_York:20270505T180000
-SUMMARY:Hopatcong High School vs Dover High School (Varsity Boys Baseball)
-DESCRIPTION:Varsity Boys Baseball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2661:7649637@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270505T160000
-DTEND;TZID=America/New_York:20270505T180000
-SUMMARY:Hopatcong High School vs Dover High School (Junior Varsity Boys B
- aseball)
-DESCRIPTION:Junior Varsity Boys Baseball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2661:7767340@northwest-jersey-athletic-conference
