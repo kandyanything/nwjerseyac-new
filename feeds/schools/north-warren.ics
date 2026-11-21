@@ -705,20 +705,20 @@ SUMMARY:Newton High School vs North Warren (Junior Varsity Boys Boys Socc
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2761:7533110@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260929T160000
-DTEND;TZID=America/New_York:20260929T180000
-SUMMARY:Newton High School at North Warren (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2761:7532507@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260929T160000
 DTEND;TZID=America/New_York:20260929T180000
 SUMMARY:Newton High School vs North Warren (Varsity Boys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2761:7533110@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260929T160000
+DTEND;TZID=America/New_York:20260929T180000
+SUMMARY:Newton High School at North Warren (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2768:7542225@northwest-jersey-athletic-conference
@@ -2313,15 +2313,6 @@ SUMMARY:Kittatinny High School at North Warren (Junior Varsity Boys Boys
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 2:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2686:7543346@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270122T160000
-DTEND;TZID=America/New_York:20270122T180000
-SUMMARY:Kittatinny High School at North Warren (Freshman Boys Boys Basket
- ball)
-DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2686:7457464@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270122T160000
@@ -2329,6 +2320,15 @@ DTEND;TZID=America/New_York:20270122T180000
 SUMMARY:Kittatinny High School at North Warren (Varsity Boys Boys Basketb
  all)
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2686:7543346@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270122T160000
+DTEND;TZID=America/New_York:20270122T180000
+SUMMARY:Kittatinny High School at North Warren (Freshman Boys Boys Basket
+ ball)
+DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2768:7665340@northwest-jersey-athletic-conference
