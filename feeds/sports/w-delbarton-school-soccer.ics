@@ -24,26 +24,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ics:DelbartonSchool:vcal_7215-delbartonathletics.org@northwest-jersey
- -athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261021T160000
-DTEND;TZID=America/New_York:20261021T180000
-SUMMARY:Delbarton School vs Montville High School (Freshman Boys [W] Delb
- arton School Soccer)
-DESCRIPTION:Freshman Boys [W] Delbarton School Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ics:DelbartonSchool:vcal_7176-delbartonathletics.org@northwest-jersey
- -athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261021T160000
-DTEND;TZID=America/New_York:20261021T180000
-SUMMARY:Delbarton School vs Montville High School (Varsity Boys [W] Delba
- rton School Soccer)
-DESCRIPTION:Varsity Boys [W] Delbarton School Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ics:DelbartonSchool:vcal_7232-delbartonathletics.org@northwest-jersey
  -athletic-conference
 DTSTAMP:20250801T000000Z
@@ -75,16 +55,6 @@ SUMMARY:Delbarton School vs Randolph High School (Varsity Boys [W] Delbar
 DESCRIPTION:Varsity Boys [W] Delbarton School Soccer - Home - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:DelbartonSchool:vcal_7519-delbartonathletics.org@northwest-jersey
- -athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261027T160000
-DTEND;TZID=America/New_York:20261027T180000
-SUMMARY:Delbarton School at Mount Olive High School (Freshman Boys [W] De
- lbarton School Soccer)
-DESCRIPTION:Freshman Boys [W] Delbarton School Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ics:DelbartonSchool:vcal_7198-delbartonathletics.org@northwest-jersey
  -athletic-conference
 DTSTAMP:20250801T000000Z
@@ -106,6 +76,16 @@ SUMMARY:Delbarton School at Mount Olive High School (Varsity Boys [W] Del
 DESCRIPTION:Varsity Boys [W] Delbarton School Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ics:DelbartonSchool:vcal_7519-delbartonathletics.org@northwest-jersey
+ -athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261027T160000
+DTEND;TZID=America/New_York:20261027T180000
+SUMMARY:Delbarton School at Mount Olive High School (Freshman Boys [W] De
+ lbarton School Soccer)
+DESCRIPTION:Freshman Boys [W] Delbarton School Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ics:DelbartonSchool:vcal_7179-delbartonathletics.org@northwest-jersey
  -athletic-conference
 DTSTAMP:20250801T000000Z
@@ -114,17 +94,6 @@ DTEND;TZID=America/New_York:20261029T173000
 SUMMARY:Delbarton School at Sparta High School (Varsity Boys [W] Delbarto
  n School Soccer)
 DESCRIPTION:Varsity Boys [W] Delbarton School Soccer - Away - 3:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ics:DelbartonSchool:vcal_7523-delbartonathletics.org@northwest-jersey
- -athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261030T160000
-DTEND;TZID=America/New_York:20261030T180000
-SUMMARY:Delbarton School vs Wharton (Middle School Boys [W] Delbarton Sch
- ool Soccer)
-DESCRIPTION:Middle School Boys [W] Delbarton School Soccer - Home - 4:00 
- PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ics:DelbartonSchool:vcal_7517-delbartonathletics.org@northwest-jersey
@@ -146,6 +115,17 @@ SUMMARY:Delbarton School vs New Providence (Junior Varsity Boys [W] Delba
  rton School Soccer)
 DESCRIPTION:Junior Varsity Boys [W] Delbarton School Soccer - Home - 4:00
   PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:DelbartonSchool:vcal_7523-delbartonathletics.org@northwest-jersey
+ -athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261030T160000
+DTEND;TZID=America/New_York:20261030T180000
+SUMMARY:Delbarton School vs Wharton (Middle School Boys [W] Delbarton Sch
+ ool Soccer)
+DESCRIPTION:Middle School Boys [W] Delbarton School Soccer - Home - 4:00 
+ PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ics:DelbartonSchool:vcal_7520-delbartonathletics.org@northwest-jersey
