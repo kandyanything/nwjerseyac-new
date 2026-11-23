@@ -1305,20 +1305,20 @@ DESCRIPTION:Junior Varsity Boys Football - Away - 4:00 PM
 STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2748:7536300@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260922T154500
-DTEND;TZID=America/New_York:20260922T174500
-SUMMARY:Morristown High School vs TBD (Var-JV Girls Girls Cross Country)
-DESCRIPTION:Var-JV Girls Girls Cross Country - Home - 3:45 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2748:7492131@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260922T154500
 DTEND;TZID=America/New_York:20260922T174500
 SUMMARY:Morristown High School vs TBD (Var-JV Boys Boys Cross Country)
 DESCRIPTION:Var-JV Boys Boys Cross Country - Home - 3:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2748:7536300@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260922T154500
+DTEND;TZID=America/New_York:20260922T174500
+SUMMARY:Morristown High School vs TBD (Var-JV Girls Girls Cross Country)
+DESCRIPTION:Var-JV Girls Girls Cross Country - Home - 3:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2564:7435821@northwest-jersey-athletic-conference
@@ -1645,6 +1645,15 @@ SUMMARY:Morristown High School at Livingston High School (Junior Varsity
 DESCRIPTION:Junior Varsity Girls Girls Cheerleading - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2748:7522086@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260928T160000
+DTEND;TZID=America/New_York:20260928T180000
+SUMMARY:Morristown High School at Pope John XXIII High School (Varsity Gi
+ rls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2748:7477479@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260928T160000
@@ -1661,15 +1670,6 @@ DTEND;TZID=America/New_York:20260928T180000
 SUMMARY:Morristown High School vs Pope John XXIII High School (Freshman B
  oys Boys Soccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2748:7522086@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260928T160000
-DTEND;TZID=America/New_York:20260928T180000
-SUMMARY:Morristown High School at Pope John XXIII High School (Varsity Gi
- rls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:99481432@northwest-jersey-athletic-conference
@@ -4412,15 +4412,6 @@ SUMMARY:Morristown High School at Sparta High School (Varsity Boys Boys B
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2748:7568070@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270104T190000
-DTEND;TZID=America/New_York:20270104T210000
-SUMMARY:Morristown High School at Sparta High School (Junior Varsity Boys
-  Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2748:7457546@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270104T190000
@@ -4428,6 +4419,15 @@ DTEND;TZID=America/New_York:20270104T210000
 SUMMARY:Morristown High School vs Sparta High School (Varsity Girls Girls
   Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2748:7568070@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270104T190000
+DTEND;TZID=America/New_York:20270104T210000
+SUMMARY:Morristown High School at Sparta High School (Junior Varsity Boys
+  Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:104804004@northwest-jersey-athletic-conference
@@ -5492,15 +5492,6 @@ SUMMARY:Morristown High School at Glen Rock/Ridgewood (Varsity Girls Girl
 DESCRIPTION:Varsity Girls Girls Ice Hockey - Away - 5:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2748:7534537@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270122T173000
-DTEND;TZID=America/New_York:20270122T193000
-SUMMARY:Morristown High School at Sparta High School (Junior Varsity Girl
- s Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2748:7534484@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270122T173000
@@ -5508,6 +5499,15 @@ DTEND;TZID=America/New_York:20270122T193000
 SUMMARY:Morristown High School vs Sparta High School (Junior Varsity Boys
   Boys Basketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2748:7534537@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270122T173000
+DTEND;TZID=America/New_York:20270122T193000
+SUMMARY:Morristown High School at Sparta High School (Junior Varsity Girl
+ s Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2748:7568075@northwest-jersey-athletic-conference
@@ -5555,6 +5555,14 @@ SUMMARY:Morristown High School at Sparta High School (Freshman Girls Girl
 DESCRIPTION:Freshman Girls Girls Basketball - Away - 10:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2748:7610427@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270123T090000
+DTEND;TZID=America/New_York:20270123T110000
+SUMMARY:Morristown High School vs TBD (Var-JV Coed Coed Swimming)
+DESCRIPTION:Var-JV Coed Coed Swimming - Home - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2748:7695421@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270123T090000
@@ -5569,14 +5577,6 @@ DTSTART;TZID=America/New_York:20270123T090000
 DTEND;TZID=America/New_York:20270123T110000
 SUMMARY:Morristown High School vs Roxbury High School (Var-JV Coed Coed S
  wimming)
-DESCRIPTION:Var-JV Coed Coed Swimming - Home - 9:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2748:7610427@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270123T090000
-DTEND;TZID=America/New_York:20270123T110000
-SUMMARY:Morristown High School vs TBD (Var-JV Coed Coed Swimming)
 DESCRIPTION:Var-JV Coed Coed Swimming - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
@@ -5732,15 +5732,6 @@ SUMMARY:Chatham High School at Morristown High School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2564:7457563@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270126T190000
-DTEND;TZID=America/New_York:20270126T210000
-SUMMARY:Chatham High School vs Morristown High School (Varsity Girls Girl
- s Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2564:7568076@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270126T190000
@@ -5748,6 +5739,15 @@ DTEND;TZID=America/New_York:20270126T210000
 SUMMARY:Chatham High School at Morristown High School (Junior Varsity Boy
  s Boys Basketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2564:7457563@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270126T190000
+DTEND;TZID=America/New_York:20270126T210000
+SUMMARY:Chatham High School vs Morristown High School (Varsity Girls Girl
+ s Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2748:7669166@northwest-jersey-athletic-conference
@@ -5897,15 +5897,6 @@ SUMMARY:Morristown Beard School vs Morristown High School (Junior Varsity
 DESCRIPTION:Junior Varsity Girls Girls Ice Hockey - Home - 5:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2594:7713964@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270130T100000
-DTEND;TZID=America/New_York:20270130T120000
-SUMMARY:Dover High School at Morristown High School (Junior Varsity Boys 
- Boys Wrestling)
-DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2594:7713951@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270130T100000
@@ -5913,6 +5904,15 @@ DTEND;TZID=America/New_York:20270130T120000
 SUMMARY:Dover High School at Morristown High School (Varsity Boys Boys Wr
  estling)
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2594:7713964@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270130T100000
+DTEND;TZID=America/New_York:20270130T120000
+SUMMARY:Dover High School at Morristown High School (Junior Varsity Boys 
+ Boys Wrestling)
+DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2748:7713964@northwest-jersey-athletic-conference
