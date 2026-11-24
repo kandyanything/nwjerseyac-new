@@ -1,49 +1,28 @@
 {
-  "_comment": "Site-wide pop-up. mode 'acknowledge' shows it each visit until the visitor clicks 'Don't show this again'; closing with X or Esc only dismisses for that session. Change 'id' for a NEW message so people who acknowledged the last one see the new one. Other modes: 'once' (a single time ever), 'untilDate' (with endDate), 'always'. A message can also run for a set time: \"until\" (YYYY-MM-DD) ends it and \"then\" holds the announcement that takes over.",
+  "_comment": "Site-wide pop-up. mode 'acknowledge' shows it each visit until the visitor clicks 'Don't show this again'; closing with X or Esc only dismisses for that session. Change 'id' for a NEW message so people who acknowledged the last one see the new one. Other modes: 'once' (a single time ever), 'untilDate' (with endDate), 'always'. A message can also run for a set time: \"until\" (YYYY-MM-DD) ends it and \"then\" holds the announcement that takes over. mode 'every' shows it on every visit until 'Don't show this again' (X, Esc and 'Maybe later' remember nothing). layout 'hiring' is the job-posting card (see js/redesign-announce.js).",
   "active": true,
-  "id": "xc-champions-2026",
-  "icon": "xc",
-  "iconLogo": "images/njac-logo.png",
-  "eyebrow": "NJAC Cross Country Champions",
-  "title": "Congratulations, Champions!",
-  "body": "The 2026 NJAC Cross Country Champions, Large School and Small School.",
-  "champions": [
-    {
-      "label": "Boys",
-      "items": [
-        {
-          "school": "Mendham",
-          "division": "Large School",
-          "logo": "images/logos/west-morris-mendham.png"
-        },
-        {
-          "school": "Kinnelon",
-          "division": "Small School",
-          "logo": "images/logos/kinnelon.png"
-        }
-      ]
-    },
-    {
-      "label": "Girls",
-      "items": [
-        {
-          "school": "Montville",
-          "division": "Large School",
-          "logo": "images/logos/montville.png"
-        },
-        {
-          "school": "Mountain Lakes",
-          "division": "Small School",
-          "logo": "images/logos/mountain-lakes.png"
-        }
-      ]
-    }
-  ],
-  "linkUrl": "",
-  "linkLabel": "",
-  "mode": "acknowledge",
+  "id": "executive-director-2026",
+  "layout": "hiring",
+  "logo": "images/njac-logo.png",
+  "logoAlt": "Northwest Jersey Athletic Conference",
+  "title": "Now Hiring: Executive Director",
+  "hiring": {
+    "ribbon": "Now Hiring",
+    "kicker": "Northwest Jersey Athletic Conference",
+    "role": "Executive Director",
+    "pitch": "The NJAC is accepting applications for its next Executive Director, to lead a conference of 39 member high schools across Morris, Sussex and Warren counties.",
+    "closes": "2026-12-01T23:59:59-05:00",
+    "closesLabel": "Tuesday, December 1",
+    "applyUrl": "https://docs.google.com/forms/d/e/1FAIpQLSf4DLsnRUCDuCuJF15jQiT3ysF15fl1IUhMTjzyb7L-AwXhbw/viewform?usp=publish-editor",
+    "applyLabel": "Apply Now",
+    "detailsUrl": "executive-director.html",
+    "detailsLabel": "About the position"
+  },
+  "laterLabel": "Maybe later",
+  "dismissLabel": "Don't show this again",
+  "mode": "every",
   "endDate": "",
-  "until": "2026-11-03",
+  "until": "2026-12-01",
   "then": {
     "active": true,
     "id": "welcome-2026",

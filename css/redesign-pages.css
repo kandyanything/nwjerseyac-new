@@ -732,3 +732,55 @@ main .container > section { overflow-x: auto; }
     .cal-search-time { min-width: 0; }
     .cal-search-status { margin-left: 0; }
 }
+
+/* ---- Executive Director posting (executive-director.html) ------------------ */
+/* the page's section already draws the white card; this adds the red top edge */
+.ed-post { max-width: 760px; margin: 0 auto; border-top: 6px solid var(--red); }
+.ed-card { position: relative; }
+.ed-head { display: flex; align-items: center; gap: 18px; margin-bottom: 18px; }
+.ed-logo { width: 72px; height: 72px; object-fit: contain; flex: none; }
+.ed-status {
+    display: inline-flex; align-items: center; gap: 8px;
+    margin: 0 0 6px; padding: 5px 11px; border-radius: 999px;
+    background: #e9f7ef; color: #146c3a;
+    font-size: .72rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase;
+}
+.ed-dot { width: 8px; height: 8px; border-radius: 50%; background: #1f9d55; box-shadow: 0 0 0 0 rgba(31,157,85,.5); animation: edPulse 2s ease-out infinite; }
+@keyframes edPulse { 0% { box-shadow: 0 0 0 0 rgba(31,157,85,.5); } 70%, 100% { box-shadow: 0 0 0 8px rgba(31,157,85,0); } }
+.ed-post.is-closed .ed-status { background: #f1f2f5; color: var(--muted); }
+.ed-post.is-closed .ed-dot { background: var(--muted); animation: none; }
+.ed-card h2 { margin: 0; font-family: var(--font-display); font-size: 2.1rem; line-height: 1.05; text-transform: uppercase; color: var(--navy-900); }
+.ed-card h2::after { content: none; }
+.ed-org { margin: 4px 0 0; color: var(--muted); font-weight: 600; }
+.ed-lead { margin: 0 0 20px; font-size: 1.06rem; line-height: 1.6; color: var(--ink); }
+.ed-facts { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 0 0 22px; }
+.ed-facts > div { padding: 14px 16px; border-radius: 10px; background: var(--bg); border: 1px solid var(--line); }
+.ed-facts dt { font-size: .7rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--red); }
+.ed-facts dd { margin: 4px 0 0; font-weight: 700; color: var(--navy-900); }
+.ed-clock { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin: 0 0 22px; }
+.ed-clock > div { padding: 12px 6px 10px; border-radius: 10px; text-align: center; color: #fff; background: linear-gradient(165deg, var(--navy-800), var(--navy-900)); }
+.ed-num { display: block; font: 700 2rem/1 var(--font-display); font-variant-numeric: tabular-nums; }
+.ed-lbl { display: block; margin-top: 6px; font-size: .64rem; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; color: #9fbaf2; }
+.ed-apply {
+    display: flex; align-items: center; justify-content: center; gap: 10px;
+    padding: 16px 20px; border-radius: 10px; text-decoration: none;
+    background: var(--red); color: #fff;
+    font-family: var(--font-display); font-weight: 600; font-size: 1.15rem; letter-spacing: .1em; text-transform: uppercase;
+    box-shadow: 0 12px 26px rgba(200,16,46,.28); transition: background .15s, transform .15s;
+}
+.ed-apply:hover { background: var(--red-dark); transform: translateY(-1px); }
+.ed-apply:focus-visible { outline: 3px solid var(--navy-700); outline-offset: 3px; }
+.ed-apply svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; transition: transform .2s; }
+.ed-apply:hover svg { transform: translateX(3px); }
+.ed-note { margin: 10px 0 0; text-align: center; font-size: .85rem; color: var(--muted); }
+.ed-closed { margin: 0; padding: 14px 16px; border-radius: 10px; background: var(--bg); color: var(--ink); font-weight: 600; text-align: center; }
+.ed-closed[hidden], .ed-clock[hidden], .ed-apply[hidden], .ed-note[hidden] { display: none; }
+@media (max-width: 600px) {
+    .ed-head { gap: 14px; }
+    .ed-logo { width: 56px; height: 56px; }
+    .ed-card h2 { font-size: 1.7rem; }
+    .ed-facts { grid-template-columns: 1fr; }
+    .ed-clock { gap: 7px; }
+    .ed-num { font-size: 1.6rem; }
+}
+@media (prefers-reduced-motion: reduce) { .ed-dot { animation: none; } }
