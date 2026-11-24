@@ -24,15 +24,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2748:7566881@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261207T154500
-DTEND;TZID=America/New_York:20261207T174500
-SUMMARY:Morristown High School at North Hunterdon High School (Varsity Bo
- ys Boys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Away - 3:45 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2748:7568083@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261207T154500
@@ -40,6 +31,15 @@ DTEND;TZID=America/New_York:20261207T174500
 SUMMARY:Morristown High School at North Hunterdon High School (Junior Var
  sity Boys Boys Basketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 3:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2748:7566881@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261207T154500
+DTEND;TZID=America/New_York:20261207T174500
+SUMMARY:Morristown High School at North Hunterdon High School (Varsity Bo
+ ys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 3:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2674:7527267@northwest-jersey-athletic-conference
@@ -474,15 +474,6 @@ SUMMARY:Morristown High School vs Randolph High School (Junior Varsity Bo
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2748:7568082@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270116T130000
-DTEND;TZID=America/New_York:20270116T150000
-SUMMARY:Morristown High School vs Randolph High School (Junior Varsity Bo
- ys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 1:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2748:7546849@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270116T130000
@@ -490,6 +481,15 @@ DTEND;TZID=America/New_York:20270116T150000
 SUMMARY:Morristown High School vs Randolph High School (Varsity Boys Boys
   Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 1:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2748:7568082@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270116T130000
+DTEND;TZID=America/New_York:20270116T150000
+SUMMARY:Morristown High School vs Randolph High School (Junior Varsity Bo
+ ys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2748:7457322@northwest-jersey-athletic-conference
