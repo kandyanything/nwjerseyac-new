@@ -436,6 +436,24 @@ SUMMARY:High Point High School vs Kittatinny High School (Varsity Girls F
 DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2649:7472387@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260908T160000
+DTEND;TZID=America/New_York:20260908T180000
+SUMMARY:High Point High School at Kittatinny High School (Varsity Boys Bo
+ ys Cross Country)
+DESCRIPTION:Varsity Boys Boys Cross Country - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2649:7476031@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260908T160000
+DTEND;TZID=America/New_York:20260908T180000
+SUMMARY:High Point High School at Kittatinny High School (Varsity Coed Co
+ ed Cross Country)
+DESCRIPTION:Varsity Coed Coed Cross Country - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2649:7472402@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260908T160000
@@ -461,24 +479,6 @@ DTEND;TZID=America/New_York:20260908T180000
 SUMMARY:High Point High School at Jefferson Township High School (Freshma
  n Boys Boys Soccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2649:7472387@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260908T160000
-DTEND;TZID=America/New_York:20260908T180000
-SUMMARY:High Point High School at Kittatinny High School (Varsity Boys Bo
- ys Cross Country)
-DESCRIPTION:Varsity Boys Boys Cross Country - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2649:7476031@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260908T160000
-DTEND;TZID=America/New_York:20260908T180000
-SUMMARY:High Point High School at Kittatinny High School (Varsity Coed Co
- ed Cross Country)
-DESCRIPTION:Varsity Coed Coed Cross Country - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2649:7472835@northwest-jersey-athletic-conference
@@ -598,6 +598,15 @@ SUMMARY:High Point High School at Kittatinny High School (Varsity Girls G
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2649:7476002@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260910T160000
+DTEND;TZID=America/New_York:20260910T180000
+SUMMARY:High Point High School at Kittatinny High School (Junior Varsity 
+ Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2649:7470570@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260910T160000
@@ -605,15 +614,6 @@ DTEND;TZID=America/New_York:20260910T180000
 SUMMARY:High Point High School vs Kittatinny High School (Varsity Girls G
  irls Tennis)
 DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2649:7495250@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260910T160000
-DTEND;TZID=America/New_York:20260910T180000
-SUMMARY:High Point High School at Kittatinny High School (Junior Varsity 
- Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2649:7475420@northwest-jersey-athletic-conference
@@ -931,15 +931,6 @@ SUMMARY:High Point High School vs Lenape Valley High School (Varsity Girl
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2649:7436248@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260919T100000
-DTEND;TZID=America/New_York:20260919T120000
-SUMMARY:High Point High School at Morris Catholic High School (Varsity Bo
- ys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2649:7476004@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260919T100000
@@ -947,6 +938,15 @@ DTEND;TZID=America/New_York:20260919T120000
 SUMMARY:High Point High School vs Lenape Valley High School (Junior Varsi
  ty Girls Girls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2649:7436248@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T100000
+DTEND;TZID=America/New_York:20260919T120000
+SUMMARY:High Point High School at Morris Catholic High School (Varsity Bo
+ ys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2649:7475951@northwest-jersey-athletic-conference
@@ -1780,13 +1780,13 @@ SUMMARY:Pequannock High School at High Point High School (Freshman Boys F
 DESCRIPTION:Freshman Boys Football - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2634:7462355@northwest-jersey-athletic-conference
+UID:ds:2634:7471877@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261015T160000
 DTEND;TZID=America/New_York:20261015T180000
-SUMMARY:Hackettstown High School vs High Point High School (Junior Varsit
- y Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
+SUMMARY:Hackettstown High School at High Point High School (Junior Varsit
+ y Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2634:7471876@northwest-jersey-athletic-conference
@@ -1798,13 +1798,13 @@ SUMMARY:Hackettstown High School at High Point High School (Varsity Girls
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2634:7471877@northwest-jersey-athletic-conference
+UID:ds:2634:7462355@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261015T160000
 DTEND;TZID=America/New_York:20261015T180000
-SUMMARY:Hackettstown High School at High Point High School (Junior Varsit
- y Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:00 PM
+SUMMARY:Hackettstown High School vs High Point High School (Junior Varsit
+ y Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2634:7462354@northwest-jersey-athletic-conference
@@ -1861,6 +1861,15 @@ SUMMARY:High Point High School vs Pequannock High School (Junior Varsity
 DESCRIPTION:Junior Varsity Boys Football - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2649:7475959@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261020T160000
+DTEND;TZID=America/New_York:20261020T180000
+SUMMARY:High Point High School at Pope John XXIII High School (Varsity Gi
+ rls Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2649:7476009@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261020T160000
@@ -1877,15 +1886,6 @@ DTEND;TZID=America/New_York:20261020T180000
 SUMMARY:High Point High School vs Parsippany High School (Varsity Girls G
  irls Volleyball)
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2649:7475959@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261020T160000
-DTEND;TZID=America/New_York:20261020T180000
-SUMMARY:High Point High School at Pope John XXIII High School (Varsity Gi
- rls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2649:7475992@northwest-jersey-athletic-conference
@@ -2095,15 +2095,6 @@ SUMMARY:High Point High School at Jefferson Township High School (Varsity
 DESCRIPTION:Varsity Girls Field Hockey - Away - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2649:7722625@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261028T161500
-DTEND;TZID=America/New_York:20261028T181500
-SUMMARY:High Point High School at Butler High School (Varsity Boys Boys S
- occer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2649:7461288@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261028T161500
@@ -2111,6 +2102,15 @@ DTEND;TZID=America/New_York:20261028T181500
 SUMMARY:High Point High School at Kittatinny High School (Varsity Girls F
  ield Hockey)
 DESCRIPTION:Varsity Girls Field Hockey - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2649:7722625@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261028T161500
+DTEND;TZID=America/New_York:20261028T181500
+SUMMARY:High Point High School at Butler High School (Varsity Boys Boys S
+ occer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:100868584@northwest-jersey-athletic-conference
