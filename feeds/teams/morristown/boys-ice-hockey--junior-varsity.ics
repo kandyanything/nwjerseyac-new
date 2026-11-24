@@ -24,15 +24,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2564:7730624@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261213T192000
-DTEND;TZID=America/New_York:20261213T212000
-SUMMARY:Chatham High School vs Morristown High School (Junior Varsity Boy
- s Boys Ice Hockey)
-DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Home - 7:20 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2634:7735070@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261220T175500
@@ -49,6 +40,15 @@ DTEND;TZID=America/New_York:20261220T200000
 SUMMARY:Mount Olive High School at Morristown High School (Junior Varsity
   Boys Boys Ice Hockey)
 DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2564:7730638@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261227T181500
+DTEND;TZID=America/New_York:20261227T201500
+SUMMARY:Chatham High School vs Morristown High School (Junior Varsity Boy
+ s Boys Ice Hockey)
+DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Home - 6:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2564:7730661@northwest-jersey-athletic-conference
