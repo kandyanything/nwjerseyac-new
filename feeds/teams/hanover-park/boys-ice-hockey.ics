@@ -24,6 +24,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2642:7782627@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261203T181500
+DTEND;TZID=America/New_York:20261203T201500
+SUMMARY:Hanover Park High School at Park Regional (WP/HP) (Varsity Boys B
+ oys Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 6:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2642:7782629@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261203T181500
@@ -31,15 +40,6 @@ DTEND;TZID=America/New_York:20261203T201500
 SUMMARY:Hanover Park High School vs Bernards High School (Varsity Boys Bo
  ys Ice Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 6:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2642:7539451@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261203T181500
-DTEND;TZID=America/New_York:20261203T201500
-SUMMARY:Hanover Park High School at Park Regional (WP/HP) (Varsity Boys B
- oys Ice Hockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 6:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2642:7651339@northwest-jersey-athletic-conference
@@ -87,7 +87,7 @@ SUMMARY:Hanover Park High School at Somerville High School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 8:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2642:7706325@northwest-jersey-athletic-conference
+UID:ds:2642:7782969@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261217T201500
 DTEND;TZID=America/New_York:20261217T221500
