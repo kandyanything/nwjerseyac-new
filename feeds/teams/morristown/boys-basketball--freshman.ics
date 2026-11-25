@@ -24,7 +24,7 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2674:7527267@northwest-jersey-athletic-conference
+UID:ds:2674:7807551@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261209T160000
 DTEND;TZID=America/New_York:20261209T180000
@@ -42,7 +42,7 @@ SUMMARY:Hackettstown High School vs Morristown High School (Freshman Boys
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2748:7570483@northwest-jersey-athletic-conference
+UID:ds:2748:7807832@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261215T160000
 DTEND;TZID=America/New_York:20261215T180000
@@ -78,10 +78,28 @@ SUMMARY:Mount Olive High School at Morristown High School (Freshman Boys
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2748:7808391@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261229
+DTEND;VALUE=DATE:20261230
+SUMMARY:Morristown High School at Kearny High School (Freshman Boys Boys 
+ Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Away
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2748:7570386@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20261229
 DTEND;VALUE=DATE:20261230
+SUMMARY:Morristown High School at Kearny High School (Freshman Boys Boys 
+ Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2748:7808412@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261230
+DTEND;VALUE=DATE:20261231
 SUMMARY:Morristown High School at Kearny High School (Freshman Boys Boys 
  Basketball)
 DESCRIPTION:Freshman Boys Boys Basketball - Away
@@ -123,7 +141,7 @@ SUMMARY:Morristown High School at Sparta High School (Freshman Boys Boys
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 10:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2564:7535211@northwest-jersey-athletic-conference
+UID:ds:2564:7808675@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270106T160000
 DTEND;TZID=America/New_York:20270106T180000
@@ -195,7 +213,7 @@ SUMMARY:Chatham High School at Morristown High School (Freshman Boys Boys
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2748:7570529@northwest-jersey-athletic-conference
+UID:ds:2748:7810097@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270128T160000
 DTEND;TZID=America/New_York:20270128T180000

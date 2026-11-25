@@ -24,6 +24,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2634:7804361@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261130T160000
+DTEND;TZID=America/New_York:20261130T180000
+SUMMARY:Hackettstown High School at Mountain Lakes High School (Varsity B
+ oys Boys Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2754:7734880@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261130T160000
@@ -42,10 +51,19 @@ SUMMARY:Mountain Lakes High School vs West Windsor-Plainsboro High School
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2754:7676560@northwest-jersey-athletic-conference
+UID:ds:2754:7807401@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261205T180000
 DTEND;TZID=America/New_York:20261205T200000
+SUMMARY:Mountain Lakes High School at Newton High School (Varsity Boys Bo
+ ys Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2754:7806663@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261206T180000
+DTEND;TZID=America/New_York:20261206T200000
 SUMMARY:Mountain Lakes High School at Newton High School (Varsity Boys Bo
  ys Ice Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 6:00 PM
@@ -60,7 +78,7 @@ SUMMARY:Mountain Lakes High School at North Arlington High School (Varsit
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2754:7760680@northwest-jersey-athletic-conference
+UID:ds:2754:7807508@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261208T160000
 DTEND;TZID=America/New_York:20261208T180000
@@ -78,7 +96,7 @@ SUMMARY:Mountain Lakes High School vs Gill Saint Bernards School (Varsity
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2754:7644721@northwest-jersey-athletic-conference
+UID:ds:2754:7807755@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261212T160000
 DTEND;TZID=America/New_York:20261212T180000
@@ -96,7 +114,7 @@ SUMMARY:Morris Catholic High School at Mountain Lakes High School (Varsit
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2754:7644632@northwest-jersey-athletic-conference
+UID:ds:2754:7808103@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261218T174500
 DTEND;TZID=America/New_York:20261218T194500
@@ -132,7 +150,7 @@ SUMMARY:High Point High School vs Mountain Lakes High School (Varsity Boy
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2754:7739335@northwest-jersey-athletic-conference
+UID:ds:2754:7808991@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270109T180000
 DTEND;TZID=America/New_York:20270109T200000
@@ -150,21 +168,21 @@ SUMMARY:Mountain Lakes High School vs Vernon Township High School (Varsit
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 6:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2754:7779680@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270116T181500
-DTEND;TZID=America/New_York:20270116T201500
-SUMMARY:Mountain Lakes High School at Parsippany Hills High School (Varsi
- ty Boys Boys Ice Hockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 6:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2754:7667631@northwest-jersey-athletic-conference
+UID:ds:2754:7809468@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270116T181500
 DTEND;TZID=America/New_York:20270116T201500
 SUMMARY:Mountain Lakes High School at Parsippany High School (Varsity Boy
  s Boys Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 6:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2754:7809471@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270116T181500
+DTEND;TZID=America/New_York:20270116T201500
+SUMMARY:Mountain Lakes High School at Parsippany Hills High School (Varsi
+ ty Boys Boys Ice Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 6:15 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -177,7 +195,7 @@ SUMMARY:Mountain Lakes High School vs TBA NJ (Varsity Boys Boys Ice Hocke
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2649:7537664@northwest-jersey-athletic-conference
+UID:ds:2649:7809699@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270120T174500
 DTEND;TZID=America/New_York:20270120T194500
@@ -186,7 +204,7 @@ SUMMARY:High Point High School at Mountain Lakes High School (Varsity Boy
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 5:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2754:7784817@northwest-jersey-athletic-conference
+UID:ds:2754:7644727@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270125T163000
 DTEND;TZID=America/New_York:20270125T183000
@@ -222,6 +240,15 @@ SUMMARY:Mountain Lakes High School vs TBA NJ (Varsity Boys Boys Ice Hocke
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2754:7810347@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270204
+DTEND;VALUE=DATE:20270205
+SUMMARY:Mountain Lakes High School vs TBA NJ (Varsity Boys Boys Ice Hocke
+ y)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Home
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2754:7760852@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270208
@@ -231,7 +258,25 @@ SUMMARY:Mountain Lakes High School vs TBA NJ (Varsity Boys Boys Ice Hocke
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2754:7810486@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270208
+DTEND;VALUE=DATE:20270209
+SUMMARY:Mountain Lakes High School vs TBA NJ (Varsity Boys Boys Ice Hocke
+ y)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Home
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2754:7760855@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270211
+DTEND;VALUE=DATE:20270212
+SUMMARY:Mountain Lakes High School vs TBA NJ (Varsity Boys Boys Ice Hocke
+ y)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2754:7810589@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270211
 DTEND;VALUE=DATE:20270212

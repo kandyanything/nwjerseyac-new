@@ -1664,6 +1664,15 @@ SUMMARY:Morris County School of Technology vs Morristown Beard School (Va
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 3:45 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ics:MorristownBeardSchool:event_8076_20260901t194500zapi.veracross.co
+ m@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260901T154500
+DTEND;TZID=America/New_York:20260901T174500
+SUMMARY:Morristown Beard School at MCVT (Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 3:45 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ics:MorristownBeardSchool:event_8744_20260901t194500zapi.veracross.co
  m@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
@@ -1673,15 +1682,6 @@ SUMMARY:[Cancelled] Morristown Beard School at MCVT (Junior Varsity Boys
  Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 3:45 PM
 STATUS:CANCELLED
-END:VEVENT
-BEGIN:VEVENT
-UID:ics:MorristownBeardSchool:event_8076_20260901t194500zapi.veracross.co
- m@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260901T154500
-DTEND;TZID=America/New_York:20260901T174500
-SUMMARY:Morristown Beard School at MCVT (Varsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 3:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102053370@northwest-jersey-athletic-conference
@@ -2544,8 +2544,8 @@ UID:arb:102333064@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260908T160000
 DTEND;TZID=America/New_York:20260908T180000
-SUMMARY:West Morris Mendham at TBD (Freshman Boys Boys Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
+SUMMARY:West Morris Mendham vs TBD (Freshman Boys Boys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102332584@northwest-jersey-athletic-conference
@@ -3338,6 +3338,15 @@ SUMMARY:Hackettstown High School at North Plainfield Public Schools (Fres
 DESCRIPTION:Freshman Boys Boys Soccer - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2649:7511762@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260912T100000
+DTEND;TZID=America/New_York:20260912T120000
+SUMMARY:High Point High School at Vernon Township High School (Junior Var
+ sity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2649:7511832@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260912T100000
@@ -3354,15 +3363,6 @@ DTEND;TZID=America/New_York:20260912T120000
 SUMMARY:High Point High School at Vernon Township High School (Freshman B
  oys Boys Soccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Away - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2649:7511762@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260912T100000
-DTEND;TZID=America/New_York:20260912T120000
-SUMMARY:High Point High School at Vernon Township High School (Junior Var
- sity Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102332195@northwest-jersey-athletic-conference
@@ -3547,18 +3547,9 @@ UID:ds:2754:7549676@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260914T160000
 DTEND;TZID=America/New_York:20260914T180000
-SUMMARY:Mountain Lakes High School at Briarcliff MS (Middle School Boys B
- oys Soccer)
+SUMMARY:Mountain Lakes High School at Briarcliff Middle School (Middle Sc
+ hool Boys Boys Soccer)
 DESCRIPTION:Middle School Boys Boys Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2768:7485666@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260914T160000
-DTEND;TZID=America/New_York:20260914T180000
-SUMMARY:North Warren vs Wallkill Valley High School (Varsity Boys Boys So
- ccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2768:7486634@northwest-jersey-athletic-conference
@@ -3570,13 +3561,12 @@ SUMMARY:North Warren vs Wallkill Valley High School (Junior Varsity Boys
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:MorristownBeardSchool:event_8748_20260914t200000zapi.veracross.co
- m@northwest-jersey-athletic-conference
+UID:ds:2768:7485666@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260914T160000
 DTEND;TZID=America/New_York:20260914T180000
-SUMMARY:Morristown Beard School vs Morris Catholic High School (Varsity B
- oys Boys Soccer)
+SUMMARY:North Warren vs Wallkill Valley High School (Varsity Boys Boys So
+ ccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -3589,6 +3579,16 @@ SUMMARY:[Cancelled] Morristown Beard School vs Morris Catholic High Schoo
  l (Junior Varsity Boys Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
 STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:MorristownBeardSchool:event_8748_20260914t200000zapi.veracross.co
+ m@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T160000
+DTEND;TZID=America/New_York:20260914T180000
+SUMMARY:Morristown Beard School vs Morris Catholic High School (Varsity B
+ oys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2887:7504270@northwest-jersey-athletic-conference
@@ -4470,8 +4470,8 @@ UID:ds:2754:7549682@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260918T160000
 DTEND;TZID=America/New_York:20260918T180000
-SUMMARY:Mountain Lakes High School at Briarcliff MS (Middle School Boys B
- oys Soccer)
+SUMMARY:Mountain Lakes High School at Briarcliff Middle School (Middle Sc
+ hool Boys Boys Soccer)
 DESCRIPTION:Middle School Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -7502,6 +7502,15 @@ SUMMARY:Kinnelon High School at Pearl R. Miller Middle School (Middle Sch
 DESCRIPTION:Middle School Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2686:7585769@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261006T160000
+DTEND;TZID=America/New_York:20261006T180000
+SUMMARY:Kittatinny High School at Bernards High School (Middle School Boy
+ s Boys Soccer)
+DESCRIPTION:Middle School Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2686:7461943@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261006T160000
@@ -7520,15 +7529,6 @@ SUMMARY:Kittatinny High School vs Sparta High School (Junior Varsity Boys
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2686:7585769@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261006T160000
-DTEND;TZID=America/New_York:20261006T180000
-SUMMARY:Kittatinny High School at Bernards High School (Middle School Boy
- s Boys Soccer)
-DESCRIPTION:Middle School Boys Boys Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2754:7549772@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261006T160000
@@ -7542,7 +7542,8 @@ UID:ds:2768:7549772@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261006T160000
 DTEND;TZID=America/New_York:20261006T180000
-SUMMARY:North Warren vs Briarcliff MS (Middle School Boys Boys Soccer)
+SUMMARY:North Warren vs Briarcliff Middle School (Middle School Boys Boys
+  Soccer)
 DESCRIPTION:Middle School Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -8036,15 +8037,6 @@ SUMMARY:Mountain Lakes High School at Thomas Jefferson Middle School (Mid
 DESCRIPTION:Middle School Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2768:7591115@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261008T160000
-DTEND;TZID=America/New_York:20261008T180000
-SUMMARY:North Warren vs Dover Middle School (Middle School Boys Boys Socc
- er)
-DESCRIPTION:Middle School Boys Boys Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2768:7509691@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261008T160000
@@ -8063,13 +8055,13 @@ SUMMARY:North Warren vs Sussex County Technical High School (Junior Varsi
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2887:7509884@northwest-jersey-athletic-conference
+UID:ds:2768:7591115@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261008T160000
 DTEND;TZID=America/New_York:20261008T180000
-SUMMARY:Sussex County Tech High School at North Warren (Junior Varsity Bo
- ys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
+SUMMARY:North Warren vs Dover Middle School (Middle School Boys Boys Socc
+ er)
+DESCRIPTION:Middle School Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2887:7509691@northwest-jersey-athletic-conference
@@ -8079,6 +8071,15 @@ DTEND;TZID=America/New_York:20261008T180000
 SUMMARY:Sussex County Tech High School at North Warren (Varsity Boys Boys
   Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2887:7509884@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261008T160000
+DTEND;TZID=America/New_York:20261008T180000
+SUMMARY:Sussex County Tech High School at North Warren (Junior Varsity Bo
+ ys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ics:MorristownBeardSchool:event_11225_20261008t200000zapi.veracross.c
@@ -8277,8 +8278,8 @@ UID:ds:2754:7549699@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261009T160000
 DTEND;TZID=America/New_York:20261009T180000
-SUMMARY:Mountain Lakes High School at Briarcliff MS (Middle School Boys B
- oys Soccer)
+SUMMARY:Mountain Lakes High School at Briarcliff Middle School (Middle Sc
+ hool Boys Boys Soccer)
 DESCRIPTION:Middle School Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -8926,21 +8927,12 @@ SUMMARY:Kittatinny High School at Briarcliff Middle School (Middle School
 DESCRIPTION:Middle School Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2686:7549700@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261014T160000
-DTEND;TZID=America/New_York:20261014T180000
-SUMMARY:Kittatinny High School at Briarcliff MS (Middle School Boys Boys 
- Soccer)
-DESCRIPTION:Middle School Boys Boys Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2754:7549700@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261014T160000
 DTEND;TZID=America/New_York:20261014T180000
-SUMMARY:Mountain Lakes High School at Briarcliff MS (Middle School Boys B
- oys Soccer)
+SUMMARY:Mountain Lakes High School at Briarcliff Middle School (Middle Sc
+ hool Boys Boys Soccer)
 DESCRIPTION:Middle School Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -9141,15 +9133,6 @@ SUMMARY:Kinnelon High School at Mountain Lakes High School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2768:7485776@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261015T160000
-DTEND;TZID=America/New_York:20261015T180000
-SUMMARY:North Warren at Wallkill Valley High School (Varsity Boys Boys So
- ccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2768:7486640@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261015T160000
@@ -9157,6 +9140,15 @@ DTEND;TZID=America/New_York:20261015T180000
 SUMMARY:North Warren at Wallkill Valley High School (Junior Varsity Boys 
  Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2768:7485776@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261015T160000
+DTEND;TZID=America/New_York:20261015T180000
+SUMMARY:North Warren at Wallkill Valley High School (Varsity Boys Boys So
+ ccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2887:7509978@northwest-jersey-athletic-conference
@@ -9607,6 +9599,15 @@ SUMMARY:Montville High School vs Morris Hills High School (Junior Varsity
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2748:7486295@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261019T163000
+DTEND;TZID=America/New_York:20261019T183000
+SUMMARY:Morristown High School vs Union City High School (Freshman Boys B
+ oys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2748:7486214@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261019T163000
@@ -9623,15 +9624,6 @@ DTEND;TZID=America/New_York:20261019T183000
 SUMMARY:Morristown High School vs Union City High School (Junior Varsity 
  Boys Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2748:7486295@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261019T163000
-DTEND;TZID=America/New_York:20261019T183000
-SUMMARY:Morristown High School vs Union City High School (Freshman Boys B
- oys Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101949963@northwest-jersey-athletic-conference
@@ -10366,15 +10358,6 @@ SUMMARY:Pope John XXIII High School vs West Morris Central (Freshman Boys
 DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2940:7475323@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261022T160000
-DTEND;TZID=America/New_York:20261022T180000
-SUMMARY:Whippany Park High School at New Providence High School (Junior V
- arsity Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2940:7475322@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261022T160000
@@ -10391,6 +10374,15 @@ DTEND;TZID=America/New_York:20261022T180000
 SUMMARY:Whippany Park High School at New Providence High School (Freshman
   Boys Boys Soccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2940:7475323@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261022T160000
+DTEND;TZID=America/New_York:20261022T180000
+SUMMARY:Whippany Park High School at New Providence High School (Junior V
+ arsity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2564:7439257@northwest-jersey-athletic-conference
@@ -10792,15 +10784,6 @@ SUMMARY:Morristown High School at Montclair High School (Varsity Boys Boy
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:MorristownBeardSchool:event_8766_20261024t140000zapi.veracross.co
- m@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261024T100000
-DTEND;TZID=America/New_York:20261024T120000
-SUMMARY:Morristown Beard School at Butler (Varsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ics:MorristownBeardSchool:event_8767_20261024t140000zapi.veracross.co
  m@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
@@ -10810,6 +10793,15 @@ SUMMARY:[Cancelled] Morristown Beard School at Butler (Junior Varsity Boy
  s Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 10:00 AM
 STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:MorristownBeardSchool:event_8766_20261024t140000zapi.veracross.co
+ m@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261024T100000
+DTEND;TZID=America/New_York:20261024T120000
+SUMMARY:Morristown Beard School at Butler (Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:100867007@northwest-jersey-athletic-conference
@@ -11291,15 +11283,6 @@ SUMMARY:Parsippany Hills High School at Roxbury High School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2791:7470762@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261027T160000
-DTEND;TZID=America/New_York:20261027T180000
-SUMMARY:Parsippany Hills High School at Roxbury High School (Freshman Boy
- s Boys Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2791:7470761@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261027T160000
@@ -11307,6 +11290,15 @@ DTEND;TZID=America/New_York:20261027T180000
 SUMMARY:Parsippany Hills High School at Roxbury High School (Junior Varsi
  ty Boys Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2791:7470762@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261027T160000
+DTEND;TZID=America/New_York:20261027T180000
+SUMMARY:Parsippany Hills High School at Roxbury High School (Freshman Boy
+ s Boys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:105064986@northwest-jersey-athletic-conference
@@ -11577,15 +11569,6 @@ SUMMARY:Morristown Beard School vs Far Brook School (Middle School Boys B
 DESCRIPTION:Middle School Boys Boys Soccer - Home - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2768:7723912@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261029T154500
-DTEND;TZID=America/New_York:20261029T174500
-SUMMARY:North Warren at Warren Hills Regional School District (Varsity Bo
- ys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 3:45 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2768:7723925@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261029T154500
@@ -11593,6 +11576,15 @@ DTEND;TZID=America/New_York:20261029T174500
 SUMMARY:North Warren at Warren Hills Regional School District (Junior Var
  sity Boys Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 3:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2768:7723912@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261029T154500
+DTEND;TZID=America/New_York:20261029T174500
+SUMMARY:North Warren at Warren Hills Regional School District (Varsity Bo
+ ys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 3:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103453441@northwest-jersey-athletic-conference

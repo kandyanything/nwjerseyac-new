@@ -423,15 +423,6 @@ SUMMARY:Morris County School of Technology at Villa Walsh Academy (Varsit
 DESCRIPTION:Varsity Girls Girls Cross Country - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:42130:7552017@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260915T160000
-DTEND;TZID=America/New_York:20260915T180000
-SUMMARY:Morris County School of Technology at Mountain Lakes High School 
- (Varsity Girls Girls Cross Country)
-DESCRIPTION:Varsity Girls Girls Cross Country - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:42130:7612633@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260915T160000
@@ -439,6 +430,15 @@ DTEND;TZID=America/New_York:20260915T180000
 SUMMARY:Morris County School of Technology at Mountain Lakes High School 
  (Junior Varsity Girls Girls Cross Country)
 DESCRIPTION:Junior Varsity Girls Girls Cross Country - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:42130:7552017@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260915T160000
+DTEND;TZID=America/New_York:20260915T180000
+SUMMARY:Morris County School of Technology at Mountain Lakes High School 
+ (Varsity Girls Girls Cross Country)
+DESCRIPTION:Varsity Girls Girls Cross Country - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:42130:7496968@northwest-jersey-athletic-conference
@@ -1301,15 +1301,6 @@ SUMMARY:Morris County School of Technology at Boonton High School (Junior
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:42130:7572333@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261031T140000
-DTEND;TZID=America/New_York:20261031T160000
-SUMMARY:Morris County School of Technology vs TBA NJ (Varsity Girls Girls
-  Cross Country)
-DESCRIPTION:Varsity Girls Girls Cross Country - Home - 2:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:42130:7572325@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261031T140000
@@ -1317,6 +1308,15 @@ DTEND;TZID=America/New_York:20261031T160000
 SUMMARY:Morris County School of Technology vs TBA NJ (Varsity Boys Boys C
  ross Country)
 DESCRIPTION:Varsity Boys Boys Cross Country - Home - 2:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:42130:7572333@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261031T140000
+DTEND;TZID=America/New_York:20261031T160000
+SUMMARY:Morris County School of Technology vs TBA NJ (Varsity Girls Girls
+  Cross Country)
+DESCRIPTION:Varsity Girls Girls Cross Country - Home - 2:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:42130:7732814@northwest-jersey-athletic-conference
@@ -1391,7 +1391,7 @@ SUMMARY:Morris Hills High School vs Morris County School of Technology (V
 DESCRIPTION:Varsity Boys Boys Bowling - Home - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:42130:7776877@northwest-jersey-athletic-conference
+UID:ds:42130:7807420@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261207T153000
 DTEND;TZID=America/New_York:20261207T173000
@@ -1427,22 +1427,13 @@ SUMMARY:Morris County School of Technology at Mount Olive High School (Va
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:42130:7753955@northwest-jersey-athletic-conference
+UID:ds:42130:7807507@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261208T160000
 DTEND;TZID=America/New_York:20261208T180000
 SUMMARY:Morris County School of Technology at Dover High School (Varsity 
  Coed Coed Bowling)
 DESCRIPTION:Varsity Coed Coed Bowling - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:42130:7647001@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261208T173000
-DTEND;TZID=America/New_York:20261208T193000
-SUMMARY:Morris County School of Technology at Morris Knolls High School (
- Junior Varsity Boys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:42130:7515384@northwest-jersey-athletic-conference
@@ -1454,7 +1445,16 @@ SUMMARY:Morris County School of Technology at Mount Olive High School (Ju
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:42130:7645101@northwest-jersey-athletic-conference
+UID:ds:42130:7647001@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261208T173000
+DTEND;TZID=America/New_York:20261208T193000
+SUMMARY:Morris County School of Technology at Morris Knolls High School (
+ Junior Varsity Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:42130:7807561@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261209T160000
 DTEND;TZID=America/New_York:20261209T180000
@@ -1481,7 +1481,7 @@ SUMMARY:Morris County School of Technology vs Parsippany High School (Var
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2791:7578065@northwest-jersey-athletic-conference
+UID:ds:2791:7807687@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261211T160000
 DTEND;TZID=America/New_York:20261211T180000
@@ -1490,7 +1490,7 @@ SUMMARY:Parsippany Hills High School at Morris County School of Technolog
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:42130:7647002@northwest-jersey-athletic-conference
+UID:ds:42130:7807698@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261211T161500
 DTEND;TZID=America/New_York:20261211T181500
@@ -1499,7 +1499,7 @@ SUMMARY:Morris County School of Technology at Parsippany Hills High Schoo
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:42130:7777273@northwest-jersey-athletic-conference
+UID:ds:42130:7807706@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261211T173000
 DTEND;TZID=America/New_York:20261211T193000
@@ -1508,7 +1508,7 @@ SUMMARY:Morris County School of Technology vs Parsippany High School (Jun
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2791:7777273@northwest-jersey-athletic-conference
+UID:ds:2791:7807706@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261211T173000
 DTEND;TZID=America/New_York:20261211T193000
@@ -1517,7 +1517,7 @@ SUMMARY:Parsippany Hills High School at Morris County School of Technolog
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:42130:7647003@northwest-jersey-athletic-conference
+UID:ds:42130:7807708@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261211T174500
 DTEND;TZID=America/New_York:20261211T194500
@@ -1526,7 +1526,7 @@ SUMMARY:Morris County School of Technology at Parsippany Hills High Schoo
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:42130:7683371@northwest-jersey-athletic-conference
+UID:ds:42130:7807840@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261215T160000
 DTEND;TZID=America/New_York:20261215T180000
@@ -1562,7 +1562,7 @@ SUMMARY:Morris County School of Technology at Pequannock High School (Var
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:42130:7457741@northwest-jersey-athletic-conference
+UID:ds:42130:7807905@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261215T190000
 DTEND;TZID=America/New_York:20261215T210000
@@ -1580,7 +1580,7 @@ SUMMARY:Morris County School of Technology at Roxbury High School (Varsit
 DESCRIPTION:Varsity Coed Coed Bowling - Away - 3:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:42130:7647006@northwest-jersey-athletic-conference
+UID:ds:42130:7807942@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261216T163000
 DTEND;TZID=America/New_York:20261216T183000
@@ -1589,7 +1589,7 @@ SUMMARY:Morris County School of Technology vs Koinonia Academy (Junior Va
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:42130:7647005@northwest-jersey-athletic-conference
+UID:ds:42130:7807957@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261216T180000
 DTEND;TZID=America/New_York:20261216T200000
@@ -1634,7 +1634,7 @@ SUMMARY:Morris County School of Technology at Belvidere High School (Vars
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:42130:7483790@northwest-jersey-athletic-conference
+UID:ds:42130:7808201@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261221T160000
 DTEND;TZID=America/New_York:20261221T180000
@@ -1661,7 +1661,7 @@ SUMMARY:Morris County School of Technology at Hackettstown High School (J
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:42130:7704525@northwest-jersey-athletic-conference
+UID:ds:42130:7808266@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261222T160000
 DTEND;TZID=America/New_York:20261222T180000
@@ -1670,7 +1670,7 @@ SUMMARY:Morris County School of Technology vs Lenape Valley High School (
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:42130:7704562@northwest-jersey-athletic-conference
+UID:ds:42130:7808267@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261222T160000
 DTEND;TZID=America/New_York:20261222T180000
@@ -1679,7 +1679,7 @@ SUMMARY:Morris County School of Technology vs Lenape Valley High School (
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:42130:7570960@northwest-jersey-athletic-conference
+UID:ds:42130:7808286@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261222T173000
 DTEND;TZID=America/New_York:20261222T193000
@@ -1787,22 +1787,13 @@ SUMMARY:Morris County School of Technology at Sussex County Technical Hig
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2887:7508835@northwest-jersey-athletic-conference
+UID:ds:2887:7808847@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270108T160000
 DTEND;TZID=America/New_York:20270108T180000
 SUMMARY:Sussex County Tech High School vs Morris County School of Technol
  ogy (Varsity Girls Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:42130:7522499@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270108T173000
-DTEND;TZID=America/New_York:20270108T193000
-SUMMARY:Morris County School of Technology at Sussex County Technical Hig
- h School (Junior Varsity Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:42130:7646351@northwest-jersey-athletic-conference
@@ -1814,7 +1805,16 @@ SUMMARY:Morris County School of Technology vs Whippany Park High School (
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2887:7522499@northwest-jersey-athletic-conference
+UID:ds:42130:7808895@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270108T173000
+DTEND;TZID=America/New_York:20270108T193000
+SUMMARY:Morris County School of Technology at Sussex County Technical Hig
+ h School (Junior Varsity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2887:7808895@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270108T173000
 DTEND;TZID=America/New_York:20270108T193000
@@ -1823,7 +1823,7 @@ SUMMARY:Sussex County Tech High School vs Morris County School of Technol
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:42130:7457515@northwest-jersey-athletic-conference
+UID:ds:42130:7808935@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270108T190000
 DTEND;TZID=America/New_York:20270108T210000
@@ -1832,7 +1832,7 @@ SUMMARY:Morris County School of Technology vs Whippany Park High School (
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:42130:7647025@northwest-jersey-athletic-conference
+UID:ds:42130:7808972@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270109T100000
 DTEND;TZID=America/New_York:20270109T120000
@@ -1850,7 +1850,7 @@ SUMMARY:Sussex County Tech High School at Morris County School of Technol
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:42130:7647024@northwest-jersey-athletic-conference
+UID:ds:42130:7808979@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270109T113000
 DTEND;TZID=America/New_York:20270109T133000
@@ -1868,7 +1868,7 @@ SUMMARY:Sussex County Tech High School at Morris County School of Technol
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:42130:7760767@northwest-jersey-athletic-conference
+UID:ds:42130:7809024@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270111T160000
 DTEND;TZID=America/New_York:20270111T180000
@@ -1931,7 +1931,7 @@ SUMMARY:Morris County School of Technology at Kinnelon High School (Junio
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:42130:7457751@northwest-jersey-athletic-conference
+UID:ds:42130:7809168@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T190000
 DTEND;TZID=America/New_York:20270112T210000
@@ -1958,7 +1958,7 @@ SUMMARY:Morris County School of Technology vs Hanover Park High School (V
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:42130:7457752@northwest-jersey-athletic-conference
+UID:ds:42130:7809256@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T160000
 DTEND;TZID=America/New_York:20270114T180000
@@ -1976,7 +1976,7 @@ SUMMARY:Morris County School of Technology vs Hanover Park High School (J
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:42130:7538852@northwest-jersey-athletic-conference
+UID:ds:42130:7809308@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T173000
 DTEND;TZID=America/New_York:20270114T193000
@@ -2003,7 +2003,7 @@ SUMMARY:Pequannock High School at Morris County School of Technology (Var
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:42130:7647029@northwest-jersey-athletic-conference
+UID:ds:42130:7809489@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270118T100000
 DTEND;TZID=America/New_York:20270118T120000
@@ -2021,7 +2021,7 @@ SUMMARY:Pequannock High School at Morris County School of Technology (Jun
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:42130:7647028@northwest-jersey-athletic-conference
+UID:ds:42130:7809494@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270118T113000
 DTEND;TZID=America/New_York:20270118T133000
@@ -2030,7 +2030,7 @@ SUMMARY:Morris County School of Technology vs Pequannock High School (Var
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:42130:7689523@northwest-jersey-athletic-conference
+UID:ds:42130:7809559@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270119T153000
 DTEND;TZID=America/New_York:20270119T173000
@@ -2048,7 +2048,7 @@ SUMMARY:Morris County School of Technology at Kinnelon High School (Varsi
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:42130:7647032@northwest-jersey-athletic-conference
+UID:ds:42130:7809670@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270120T163000
 DTEND;TZID=America/New_York:20270120T183000
@@ -2057,7 +2057,7 @@ SUMMARY:Morris County School of Technology at Koinonia Academy (Junior Va
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:42130:7596383@northwest-jersey-athletic-conference
+UID:ds:42130:7809693@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270120T173000
 DTEND;TZID=America/New_York:20270120T193000
@@ -2102,7 +2102,7 @@ SUMMARY:Boonton High School vs Morris County School of Technology (Junior
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:42130:7457527@northwest-jersey-athletic-conference
+UID:ds:42130:7809859@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270122T190000
 DTEND;TZID=America/New_York:20270122T210000
@@ -2111,7 +2111,7 @@ SUMMARY:Morris County School of Technology vs Boonton High School (Varsit
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:42130:7457760@northwest-jersey-athletic-conference
+UID:ds:42130:7809866@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270122T190000
 DTEND;TZID=America/New_York:20270122T210000
@@ -2138,7 +2138,7 @@ SUMMARY:Morris County School of Technology vs Belvidere High School (Juni
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:42130:7731363@northwest-jersey-athletic-conference
+UID:ds:42130:7809991@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270126T160000
 DTEND;TZID=America/New_York:20270126T180000
@@ -2192,7 +2192,7 @@ SUMMARY:Morris County School of Technology vs Pequannock High School (Var
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:42130:7652340@northwest-jersey-athletic-conference
+UID:ds:42130:7810215@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270130T113000
 DTEND;TZID=America/New_York:20270130T133000
@@ -2553,7 +2553,7 @@ SUMMARY:Morris County School of Technology at Whippany Park High School (
 DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:42130:7645916@northwest-jersey-athletic-conference
+UID:ds:42130:7811591@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270412T160000
 DTEND;TZID=America/New_York:20270412T180000
@@ -2589,7 +2589,7 @@ SUMMARY:Morris County School of Technology at Hopatcong High School (Vars
 DESCRIPTION:Varsity Boys Baseball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:42130:7658663@northwest-jersey-athletic-conference
+UID:ds:42130:7811718@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270415T160000
 DTEND;TZID=America/New_York:20270415T180000
@@ -2598,7 +2598,7 @@ SUMMARY:Morris County School of Technology at Hopatcong High School (Vars
 DESCRIPTION:Varsity Girls Softball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:42130:7612683@northwest-jersey-athletic-conference
+UID:ds:42130:7811764@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270416T160000
 DTEND;TZID=America/New_York:20270416T180000
@@ -2607,7 +2607,7 @@ SUMMARY:Morris County School of Technology at Hanover Park High School (J
 DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:42130:7612686@northwest-jersey-athletic-conference
+UID:ds:42130:7811765@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270416T160000
 DTEND;TZID=America/New_York:20270416T180000

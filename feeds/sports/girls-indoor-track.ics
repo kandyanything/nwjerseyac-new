@@ -23,10 +23,44 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2825:7804345@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261209T160000
+DTEND;TZID=America/New_York:20261209T180000
+SUMMARY:Randolph High School vs TBD (Varsity Girls Girls Indoor Track)
+DESCRIPTION:Varsity Girls Girls Indoor Track - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2913:7771851@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261210
+SUMMARY:Villa Walsh Academy at Multiple Opponents (Varsity Girls Girls In
+ door Track)
+DESCRIPTION:Varsity Girls Girls Indoor Track - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2913:7807543@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
+SUMMARY:Villa Walsh Academy at Multiple Opponents (Varsity Girls Girls In
+ door Track)
+DESCRIPTION:Varsity Girls Girls Indoor Track - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2825:7804346@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261212T090000
+DTEND;TZID=America/New_York:20261212T110000
+SUMMARY:Randolph High School vs TBD (Varsity Girls Girls Indoor Track)
+DESCRIPTION:Varsity Girls Girls Indoor Track - Home - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2913:7807809@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
 SUMMARY:Villa Walsh Academy at Multiple Opponents (Varsity Girls Girls In
  door Track)
 DESCRIPTION:Varsity Girls Girls Indoor Track - Away
@@ -41,6 +75,15 @@ SUMMARY:Villa Walsh Academy at Multiple Opponents (Varsity Girls Girls In
 DESCRIPTION:Varsity Girls Girls Indoor Track - Away
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2913:7808246@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261222
+DTEND;VALUE=DATE:20261223
+SUMMARY:Villa Walsh Academy at Multiple Opponents (Varsity Girls Girls In
+ door Track)
+DESCRIPTION:Varsity Girls Girls Indoor Track - Away
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2913:7771871@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20261222
@@ -48,6 +91,14 @@ DTEND;VALUE=DATE:20261223
 SUMMARY:Villa Walsh Academy at Multiple Opponents (Varsity Girls Girls In
  door Track)
 DESCRIPTION:Varsity Girls Girls Indoor Track - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2825:7804351@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270105T163000
+DTEND;TZID=America/New_York:20270105T183000
+SUMMARY:Randolph High School vs TBD (Varsity Girls Girls Indoor Track)
+DESCRIPTION:Varsity Girls Girls Indoor Track - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2913:7771941@northwest-jersey-athletic-conference
@@ -66,6 +117,14 @@ DTEND;TZID=America/New_York:20270112T183000
 SUMMARY:Villa Walsh Academy vs Multiple Opponents (Varsity Girls Girls In
  door Track)
 DESCRIPTION:Varsity Girls Girls Indoor Track - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2825:7804356@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270209T160000
+DTEND;TZID=America/New_York:20270209T180000
+SUMMARY:Randolph High School at TBD (Varsity Girls Girls Indoor Track)
+DESCRIPTION:Varsity Girls Girls Indoor Track - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2913:7772043@northwest-jersey-athletic-conference
@@ -95,6 +154,14 @@ SUMMARY:Villa Walsh Academy vs Multiple Opponents (Varsity Girls Girls In
 DESCRIPTION:Varsity Girls Girls Indoor Track - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2825:7804358@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270221T100500
+DTEND;TZID=America/New_York:20270221T120500
+SUMMARY:Randolph High School at TBD (Varsity Girls Girls Indoor Track)
+DESCRIPTION:Varsity Girls Girls Indoor Track - Away - 10:05 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2913:7772256@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270307T100000
@@ -102,5 +169,13 @@ DTEND;TZID=America/New_York:20270307T120000
 SUMMARY:Villa Walsh Academy vs Multiple Opponents (Varsity Girls Girls In
  door Track)
 DESCRIPTION:Varsity Girls Girls Indoor Track - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2825:7804359@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270307T100700
+DTEND;TZID=America/New_York:20270307T120700
+SUMMARY:Randolph High School at TBD (Varsity Girls Girls Indoor Track)
+DESCRIPTION:Varsity Girls Girls Indoor Track - Away - 10:07 AM
 END:VEVENT
 END:VCALENDAR

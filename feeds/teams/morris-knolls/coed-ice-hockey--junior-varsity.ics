@@ -1,0 +1,125 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Northwest Jersey Athletic Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Northwest Jersey Athletic Conference — Morris Knolls High Sc
+ hool Junior Varsity Coed Ice Hockey
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:arb:105814605@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261206T181000
+DTEND;TZID=America/New_York:20261206T201000
+SUMMARY:Morris Knolls High School vs West Morris Central (Junior Varsity 
+ Coed Coed Ice Hockey)
+DESCRIPTION:Junior Varsity Coed Coed Ice Hockey - Home - 6:10 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:105814781@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261213T192000
+DTEND;TZID=America/New_York:20261213T212000
+SUMMARY:Morris Knolls High School at TBD (Junior Varsity Coed Coed Ice Ho
+ ckey)
+DESCRIPTION:Junior Varsity Coed Coed Ice Hockey - Away - 7:20 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:105814803@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261220T175500
+DTEND;TZID=America/New_York:20261220T195500
+SUMMARY:Morris Knolls High School at Randolph High School (Junior Varsity
+  Coed Coed Ice Hockey)
+DESCRIPTION:Junior Varsity Coed Coed Ice Hockey - Away - 5:55 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:105814857@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261227T164500
+DTEND;TZID=America/New_York:20261227T184500
+SUMMARY:Madison High School at Morris Knolls High School (Junior Varsity 
+ Coed Coed Ice Hockey)
+DESCRIPTION:Junior Varsity Coed Coed Ice Hockey - Away - 4:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:105814973@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270103T164500
+DTEND;TZID=America/New_York:20270103T184500
+SUMMARY:Morris Knolls High School at TBD (Junior Varsity Coed Coed Ice Ho
+ ckey)
+DESCRIPTION:Junior Varsity Coed Coed Ice Hockey - Away - 4:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:105814994@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270110T191500
+DTEND;TZID=America/New_York:20270110T211500
+SUMMARY:Morris Knolls High School vs Morristown High School (Junior Varsi
+ ty Coed Coed Ice Hockey)
+DESCRIPTION:Junior Varsity Coed Coed Ice Hockey - Home - 7:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:105815019@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270124T190500
+DTEND;TZID=America/New_York:20270124T210500
+SUMMARY:Morris Knolls High School at West Morris Central (Junior Varsity 
+ Coed Coed Ice Hockey)
+DESCRIPTION:Junior Varsity Coed Coed Ice Hockey - Away - 7:05 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:105815050@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270131T181000
+DTEND;TZID=America/New_York:20270131T201000
+SUMMARY:Madison High School vs Morris Knolls High School (Junior Varsity 
+ Coed Coed Ice Hockey)
+DESCRIPTION:Junior Varsity Coed Coed Ice Hockey - Home - 6:10 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:105815102@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270207T193000
+DTEND;TZID=America/New_York:20270207T213000
+SUMMARY:Morris Knolls High School vs TBD (Junior Varsity Coed Coed Ice Ho
+ ckey)
+DESCRIPTION:Junior Varsity Coed Coed Ice Hockey - Home - 7:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:105815082@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270207T193000
+DTEND;TZID=America/New_York:20270207T213000
+SUMMARY:Morris Knolls High School vs TBD (Junior Varsity Coed Coed Ice Ho
+ ckey)
+DESCRIPTION:Junior Varsity Coed Coed Ice Hockey - Home - 7:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:105815158@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270221T190500
+DTEND;TZID=America/New_York:20270221T210500
+SUMMARY:Morris Knolls High School vs TBD (Junior Varsity Coed Coed Ice Ho
+ ckey)
+DESCRIPTION:Junior Varsity Coed Coed Ice Hockey - Home - 7:05 PM
+END:VEVENT
+END:VCALENDAR

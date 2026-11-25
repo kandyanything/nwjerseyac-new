@@ -430,15 +430,6 @@ SUMMARY:Mountain Lakes High School at Newton High School (Junior Varsity
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2754:7501591@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260908T160000
-DTEND;TZID=America/New_York:20260908T180000
-SUMMARY:Mountain Lakes High School vs Newton High School (Varsity Girls G
- irls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2754:7538894@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260908T160000
@@ -446,6 +437,15 @@ DTEND;TZID=America/New_York:20260908T180000
 SUMMARY:Mountain Lakes High School at Newton High School (Varsity Boys Bo
  ys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2754:7501591@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260908T160000
+DTEND;TZID=America/New_York:20260908T180000
+SUMMARY:Mountain Lakes High School vs Newton High School (Varsity Girls G
+ irls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2761:7545371@northwest-jersey-athletic-conference
@@ -829,20 +829,20 @@ SUMMARY:Jefferson Township High School vs Newton High School (Varsity Boy
 DESCRIPTION:Varsity Boys Football - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2761:7604600@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260919T090000
-DTEND;TZID=America/New_York:20260919T110000
-SUMMARY:Newton High School at TBA NJAC (Varsity Girls Girls Cross Country)
-DESCRIPTION:Varsity Girls Girls Cross Country - Away - 9:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2761:7603920@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260919T090000
 DTEND;TZID=America/New_York:20260919T110000
 SUMMARY:Newton High School at TBA NJAC (Varsity Boys Boys Cross Country)
 DESCRIPTION:Varsity Boys Boys Cross Country - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2761:7604600@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T090000
+DTEND;TZID=America/New_York:20260919T110000
+SUMMARY:Newton High School at TBA NJAC (Varsity Girls Girls Cross Country)
+DESCRIPTION:Varsity Girls Girls Cross Country - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:104048966@northwest-jersey-athletic-conference
@@ -988,15 +988,6 @@ SUMMARY:Hackettstown High School vs Newton High School (Varsity Girls Fie
 DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2761:7496490@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260924T160000
-DTEND;TZID=America/New_York:20260924T180000
-SUMMARY:Newton High School at Sparta High School (Varsity Girls Girls Soc
- cer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2761:7545453@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260924T160000
@@ -1004,6 +995,15 @@ DTEND;TZID=America/New_York:20260924T180000
 SUMMARY:Newton High School at Hardyston Middle School (Middle School Girl
  s Field Hockey)
 DESCRIPTION:Middle School Girls Field Hockey - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2761:7496490@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260924T160000
+DTEND;TZID=America/New_York:20260924T180000
+SUMMARY:Newton High School at Sparta High School (Varsity Girls Girls Soc
+ cer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2634:7485234@northwest-jersey-athletic-conference
@@ -1129,14 +1129,6 @@ SUMMARY:Newton High School at Sussex County Technical High School (Varsit
 DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2761:7532507@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260929T160000
-DTEND;TZID=America/New_York:20260929T180000
-SUMMARY:Newton High School vs North Warren (Varsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2761:7533110@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260929T160000
@@ -1152,6 +1144,14 @@ DTEND;TZID=America/New_York:20260929T180000
 SUMMARY:Newton High School vs Montclair High School (Freshman Girls Field
   Hockey)
 DESCRIPTION:Freshman Girls Field Hockey - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2761:7532507@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260929T160000
+DTEND;TZID=America/New_York:20260929T180000
+SUMMARY:Newton High School vs North Warren (Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2887:7554371@northwest-jersey-athletic-conference
@@ -1298,20 +1298,20 @@ SUMMARY:High Point High School vs Newton High School (Varsity Boys Footba
 DESCRIPTION:Varsity Boys Football - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2761:7603967@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261003T090000
-DTEND;TZID=America/New_York:20261003T110000
-SUMMARY:Newton High School at TBA NJAC (Varsity Boys Boys Cross Country)
-DESCRIPTION:Varsity Boys Boys Cross Country - Away - 9:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2761:7604618@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261003T090000
 DTEND;TZID=America/New_York:20261003T110000
 SUMMARY:Newton High School at TBA NJAC (Varsity Girls Girls Cross Country)
 DESCRIPTION:Varsity Girls Girls Cross Country - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2761:7603967@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261003T090000
+DTEND;TZID=America/New_York:20261003T110000
+SUMMARY:Newton High School at TBA NJAC (Varsity Boys Boys Cross Country)
+DESCRIPTION:Varsity Boys Boys Cross Country - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2761:7533096@northwest-jersey-athletic-conference
@@ -2072,10 +2072,19 @@ SUMMARY:Boonton High School at Newton High School (Varsity Boys Boys Ice
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2754:7676560@northwest-jersey-athletic-conference
+UID:ds:2754:7807401@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261205T180000
 DTEND;TZID=America/New_York:20261205T200000
+SUMMARY:Mountain Lakes High School at Newton High School (Varsity Boys Bo
+ ys Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2754:7806663@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261206T180000
+DTEND;TZID=America/New_York:20261206T200000
 SUMMARY:Mountain Lakes High School at Newton High School (Varsity Boys Bo
  ys Ice Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 6:00 PM
@@ -2090,7 +2099,7 @@ SUMMARY:High Point High School vs Newton High School (Varsity Coed Coed B
 DESCRIPTION:Varsity Coed Coed Bowling - Home - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2761:7679795@northwest-jersey-athletic-conference
+UID:ds:2761:7807417@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261207T153000
 DTEND;TZID=America/New_York:20261207T173000
@@ -2108,7 +2117,7 @@ SUMMARY:Newton High School vs Sussex County Technical High School (Varsit
 DESCRIPTION:Varsity Boys Boys Bowling - Home - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2887:7702090@northwest-jersey-athletic-conference
+UID:ds:2887:7807467@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261208T153000
 DTEND;TZID=America/New_York:20261208T173000
@@ -2117,34 +2126,7 @@ SUMMARY:Sussex County Tech High School at Newton High School (Varsity Coe
 DESCRIPTION:Varsity Coed Coed Bowling - Away - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2754:7702333@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261208T160000
-DTEND;TZID=America/New_York:20261208T180000
-SUMMARY:Mountain Lakes High School at Newton High School (Freshman Boys B
- oys Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2754:7719378@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261208T160000
-DTEND;TZID=America/New_York:20261208T180000
-SUMMARY:Mountain Lakes High School at Newton High School (Varsity Boys Bo
- ys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2754:7740064@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261208T160000
-DTEND;TZID=America/New_York:20261208T180000
-SUMMARY:Mountain Lakes High School at Newton High School (Junior Varsity 
- Boys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2754:7538485@northwest-jersey-athletic-conference
+UID:ds:2754:7807479@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261208T160000
 DTEND;TZID=America/New_York:20261208T180000
@@ -2153,7 +2135,7 @@ SUMMARY:Mountain Lakes High School vs Newton High School (Junior Varsity
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2754:7538511@northwest-jersey-athletic-conference
+UID:ds:2754:7807480@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261208T160000
 DTEND;TZID=America/New_York:20261208T180000
@@ -2162,7 +2144,34 @@ SUMMARY:Mountain Lakes High School vs Newton High School (Varsity Girls G
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2761:7609106@northwest-jersey-athletic-conference
+UID:ds:2754:7807501@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261208T160000
+DTEND;TZID=America/New_York:20261208T180000
+SUMMARY:Mountain Lakes High School at Newton High School (Freshman Boys B
+ oys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2754:7807503@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261208T160000
+DTEND;TZID=America/New_York:20261208T180000
+SUMMARY:Mountain Lakes High School at Newton High School (Varsity Boys Bo
+ ys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2754:7807505@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261208T160000
+DTEND;TZID=America/New_York:20261208T180000
+SUMMARY:Mountain Lakes High School at Newton High School (Junior Varsity 
+ Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2761:7807487@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261208T160000
 DTEND;TZID=America/New_York:20261208T180000
@@ -2171,7 +2180,7 @@ SUMMARY:Newton High School at West Morris Central (Varsity Boys Boys Wres
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2761:7609135@northwest-jersey-athletic-conference
+UID:ds:2761:7807488@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261208T160000
 DTEND;TZID=America/New_York:20261208T180000
@@ -2179,7 +2188,7 @@ SUMMARY:Newton High School vs TBA NJAC (Varsity Girls Girls Wrestling)
 DESCRIPTION:Varsity Girls Girls Wrestling - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2761:7776501@northwest-jersey-athletic-conference
+UID:ds:2761:7807511@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261208T160000
 DTEND;TZID=America/New_York:20261208T180000
@@ -2206,7 +2215,7 @@ SUMMARY:Newton High School vs Pope John XXIII High School (Varsity Girls
 DESCRIPTION:Varsity Girls Girls Swimming - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2674:7729819@northwest-jersey-athletic-conference
+UID:ds:2674:7807549@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261209T153000
 DTEND;TZID=America/New_York:20261209T173000
@@ -2215,7 +2224,7 @@ SUMMARY:Jefferson Township High School vs Newton High School (Varsity Gir
 DESCRIPTION:Varsity Girls Girls Wrestling - Home - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2674:7690916@northwest-jersey-athletic-conference
+UID:ds:2674:7807601@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261210T151500
 DTEND;TZID=America/New_York:20261210T171500
@@ -2224,7 +2233,7 @@ SUMMARY:Jefferson Township High School at Newton High School (Varsity Coe
 DESCRIPTION:Varsity Coed Coed Bowling - Away - 3:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2761:7690916@northwest-jersey-athletic-conference
+UID:ds:2761:7807601@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261210T151500
 DTEND;TZID=America/New_York:20261210T171500
@@ -2278,7 +2287,7 @@ SUMMARY:Newton High School vs Lafayette Township School (Middle School Bo
 DESCRIPTION:Middle School Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2887:7508812@northwest-jersey-athletic-conference
+UID:ds:2887:7807608@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261210T160000
 DTEND;TZID=America/New_York:20261210T180000
@@ -2287,7 +2296,7 @@ SUMMARY:Sussex County Tech High School at Newton High School (Varsity Gir
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2887:7538496@northwest-jersey-athletic-conference
+UID:ds:2887:7807614@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261210T160000
 DTEND;TZID=America/New_York:20261210T180000
@@ -2305,7 +2314,7 @@ SUMMARY:Newton High School at Boonton High School (Junior Varsity Boys Bo
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2761:7678237@northwest-jersey-athletic-conference
+UID:ds:2761:7807668@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261210T181500
 DTEND;TZID=America/New_York:20261210T201500
@@ -2332,7 +2341,7 @@ SUMMARY:Mount Olive High School at Newton High School (Varsity Girls Girl
 DESCRIPTION:Varsity Girls Girls Wrestling - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2761:7591062@northwest-jersey-athletic-conference
+UID:ds:2761:7807720@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261212T090000
 DTEND;TZID=America/New_York:20261212T110000
@@ -2358,7 +2367,7 @@ SUMMARY:Newton High School at Belvidere High School (Varsity Boys Boys Ba
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2761:7676579@northwest-jersey-athletic-conference
+UID:ds:2761:7807764@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261212T200000
 DTEND;TZID=America/New_York:20261212T220000
@@ -2375,7 +2384,7 @@ SUMMARY:Newton High School at Wallkill Valley High School (Varsity Boys B
 DESCRIPTION:Varsity Boys Boys Bowling - Away - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2919:7702091@northwest-jersey-athletic-conference
+UID:ds:2919:7807779@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261214T153000
 DTEND;TZID=America/New_York:20261214T173000
@@ -2411,7 +2420,7 @@ SUMMARY:High Point High School vs Newton High School (Junior Varsity Boys
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2649:7539164@northwest-jersey-athletic-conference
+UID:ds:2649:7807828@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261215T160000
 DTEND;TZID=America/New_York:20261215T180000
@@ -2429,7 +2438,7 @@ SUMMARY:High Point High School vs Newton High School (Freshman Boys Boys
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2649:7457631@northwest-jersey-athletic-conference
+UID:ds:2649:7807861@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261215T173000
 DTEND;TZID=America/New_York:20261215T193000
@@ -2447,16 +2456,16 @@ SUMMARY:Hackettstown High School vs Newton High School (Varsity Coed Coed
 DESCRIPTION:Varsity Coed Coed Swimming - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2761:7659827@northwest-jersey-athletic-conference
+UID:ds:2761:7807888@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261215T180000
 DTEND;TZID=America/New_York:20261215T200000
-SUMMARY:Newton High School at Hackettstown High School (Varsity Girls Gir
- ls Swimming)
-DESCRIPTION:Varsity Girls Girls Swimming - Away - 6:00 PM
+SUMMARY:Newton High School at Vernon Township High School (Varsity Boys B
+ oys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2761:7645010@northwest-jersey-athletic-conference
+UID:ds:2761:7807892@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261215T180000
 DTEND;TZID=America/New_York:20261215T200000
@@ -2465,13 +2474,13 @@ SUMMARY:Newton High School at Hackettstown High School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Swimming - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2761:7593754@northwest-jersey-athletic-conference
+UID:ds:2761:7807893@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261215T180000
 DTEND;TZID=America/New_York:20261215T200000
-SUMMARY:Newton High School at Vernon Township High School (Varsity Boys B
- oys Wrestling)
-DESCRIPTION:Varsity Boys Boys Wrestling - Away - 6:00 PM
+SUMMARY:Newton High School at Hackettstown High School (Varsity Girls Gir
+ ls Swimming)
+DESCRIPTION:Varsity Girls Girls Swimming - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2761:7593755@northwest-jersey-athletic-conference
@@ -2482,7 +2491,7 @@ SUMMARY:Newton High School vs TBD (Junior Varsity Boys Boys Wrestling)
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2649:7457444@northwest-jersey-athletic-conference
+UID:ds:2649:7807902@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261215T190000
 DTEND;TZID=America/New_York:20261215T210000
@@ -2491,7 +2500,7 @@ SUMMARY:High Point High School at Newton High School (Varsity Boys Boys B
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2694:7702094@northwest-jersey-athletic-conference
+UID:ds:2694:7807924@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261216T153000
 DTEND;TZID=America/New_York:20261216T173000
@@ -2500,7 +2509,7 @@ SUMMARY:Lenape Valley High School vs Newton High School (Varsity Coed Coe
 DESCRIPTION:Varsity Coed Coed Bowling - Home - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2761:7702094@northwest-jersey-athletic-conference
+UID:ds:2761:7807924@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261216T153000
 DTEND;TZID=America/New_York:20261216T173000
@@ -2517,7 +2526,7 @@ SUMMARY:Newton High School at TBA NJ (Varsity Girls Girls Wrestling)
 DESCRIPTION:Varsity Girls Girls Wrestling - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2761:7702110@northwest-jersey-athletic-conference
+UID:ds:2761:7807969@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261217T143000
 DTEND;TZID=America/New_York:20261217T163000
@@ -2544,7 +2553,7 @@ SUMMARY:Newton High School at Roxbury High School (Junior Varsity Girls G
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2761:7538533@northwest-jersey-athletic-conference
+UID:ds:2761:7808067@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261217T190000
 DTEND;TZID=America/New_York:20261217T210000
@@ -2561,7 +2570,7 @@ SUMMARY:Newton High School at TBA NJ (Varsity Girls Girls Wrestling)
 DESCRIPTION:Varsity Girls Girls Wrestling - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2754:7593779@northwest-jersey-athletic-conference
+UID:ds:2754:7808115@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261219T080000
 DTEND;TZID=America/New_York:20261219T100000
@@ -2588,7 +2597,7 @@ SUMMARY:Montville High School at Newton High School (Junior Varsity Girls
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2745:7522311@northwest-jersey-athletic-conference
+UID:ds:2745:7808177@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261219T160000
 DTEND;TZID=America/New_York:20261219T180000
@@ -2597,22 +2606,22 @@ SUMMARY:Morris Catholic High School at Newton High School (Varsity Boys B
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2649:7659806@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261221T160000
-DTEND;TZID=America/New_York:20261221T180000
-SUMMARY:High Point High School at Newton High School (Varsity Girls Girls
-  Swimming)
-DESCRIPTION:Varsity Girls Girls Swimming - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2649:7569315@northwest-jersey-athletic-conference
+UID:ds:2649:7808206@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261221T160000
 DTEND;TZID=America/New_York:20261221T180000
 SUMMARY:High Point High School at Newton High School (Varsity Coed Coed S
  wimming)
 DESCRIPTION:Varsity Coed Coed Swimming - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2649:7808214@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261221T160000
+DTEND;TZID=America/New_York:20261221T180000
+SUMMARY:High Point High School at Newton High School (Varsity Girls Girls
+  Swimming)
+DESCRIPTION:Varsity Girls Girls Swimming - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2761:7569315@northwest-jersey-athletic-conference
@@ -2659,7 +2668,7 @@ SUMMARY:Newton High School at TBA NJAC (Middle School Girls Girls Basketb
 DESCRIPTION:Middle School Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2761:7538906@northwest-jersey-athletic-conference
+UID:ds:2761:7808252@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261222T160000
 DTEND;TZID=America/New_York:20261222T180000
@@ -2668,7 +2677,7 @@ SUMMARY:Newton High School at Roxbury High School (Freshman Boys Boys Bas
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2761:7578199@northwest-jersey-athletic-conference
+UID:ds:2761:7808257@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261222T160000
 DTEND;TZID=America/New_York:20261222T180000
@@ -2695,7 +2704,7 @@ SUMMARY:Newton High School at Parsippany High School (Junior Varsity Girl
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2761:7538904@northwest-jersey-athletic-conference
+UID:ds:2761:7808302@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261222T190000
 DTEND;TZID=America/New_York:20261222T210000
@@ -2713,7 +2722,7 @@ SUMMARY:Newton High School at TBA NJ (Junior Varsity Girls Girls Wrestlin
 DESCRIPTION:Junior Varsity Girls Girls Wrestling - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2761:7572058@northwest-jersey-athletic-conference
+UID:ds:2761:7783125@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261226T100000
 DTEND;TZID=America/New_York:20261226T120000
@@ -2740,6 +2749,14 @@ SUMMARY:Newton High School vs Warren Hills Regional School District (Fres
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2761:7799123@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261228T090000
+DTEND;TZID=America/New_York:20261228T110000
+SUMMARY:Newton High School at TBA NJAC (Varsity Girls Girls Wrestling)
+DESCRIPTION:Varsity Girls Girls Wrestling - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2761:7622408@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261228T110000
@@ -2749,7 +2766,7 @@ SUMMARY:Newton High School at Sparta High School (Freshman Boys Boys Bask
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2761:7678267@northwest-jersey-athletic-conference
+UID:ds:2761:7808388@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261228T204000
 DTEND;TZID=America/New_York:20261228T224000
@@ -2785,7 +2802,7 @@ SUMMARY:Newton High School vs South Plainfield High School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2761:7676661@northwest-jersey-athletic-conference
+UID:ds:2761:7808483@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270102T180000
 DTEND;TZID=America/New_York:20270102T200000
@@ -2938,7 +2955,7 @@ SUMMARY:Newton High School vs Morris Hills High School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Wrestling - Home
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2761:7702116@northwest-jersey-athletic-conference
+UID:ds:2761:7808500@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270104T153000
 DTEND;TZID=America/New_York:20270104T173000
@@ -2947,7 +2964,7 @@ SUMMARY:Newton High School at Sparta High School (Varsity Boys Boys Bowli
 DESCRIPTION:Varsity Boys Boys Bowling - Away - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2694:7781367@northwest-jersey-athletic-conference
+UID:ds:2694:7808533@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270104T160000
 DTEND;TZID=America/New_York:20270104T180000
@@ -2956,7 +2973,7 @@ SUMMARY:Lenape Valley High School at Newton High School (Freshman Boys Bo
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2694:7706874@northwest-jersey-athletic-conference
+UID:ds:2694:7808555@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270104T173000
 DTEND;TZID=America/New_York:20270104T193000
@@ -3010,16 +3027,7 @@ SUMMARY:Newton High School at High Point High School (Varsity Boys Boys B
 DESCRIPTION:Varsity Boys Boys Bowling - Away - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2686:7599271@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270105T160000
-DTEND;TZID=America/New_York:20270105T180000
-SUMMARY:Kittatinny High School vs Newton High School (Varsity Boys Boys S
- wimming)
-DESCRIPTION:Varsity Boys Boys Swimming - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2686:7599250@northwest-jersey-athletic-conference
+UID:ds:2686:7808617@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T160000
 DTEND;TZID=America/New_York:20270105T180000
@@ -3028,7 +3036,16 @@ SUMMARY:Kittatinny High School vs Newton High School (Varsity Girls Girls
 DESCRIPTION:Varsity Girls Girls Swimming - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2686:7458067@northwest-jersey-athletic-conference
+UID:ds:2686:7808609@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270105T160000
+DTEND;TZID=America/New_York:20270105T180000
+SUMMARY:Kittatinny High School vs Newton High School (Varsity Boys Boys S
+ wimming)
+DESCRIPTION:Varsity Boys Boys Swimming - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2686:7808638@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T180000
 DTEND;TZID=America/New_York:20270105T200000
@@ -3073,6 +3090,15 @@ SUMMARY:Jefferson Township High School vs Newton High School (Varsity Gir
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2761:7810246@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270106T160000
+DTEND;TZID=America/New_York:20270106T180000
+SUMMARY:Newton High School vs Green Hills School (Middle School Boys Boys
+  Basketball)
+DESCRIPTION:Middle School Boys Boys Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2761:7586693@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270106T160000
@@ -3080,15 +3106,6 @@ DTEND;TZID=America/New_York:20270106T180000
 SUMMARY:Newton High School at Green Hills School (Middle School Girls Gir
  ls Basketball)
 DESCRIPTION:Middle School Girls Girls Basketball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2761:7584594@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270106T160000
-DTEND;TZID=America/New_York:20270106T180000
-SUMMARY:Newton High School vs Green Hills School (Middle School Boys Boys
-  Basketball)
-DESCRIPTION:Middle School Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2594:7719526@northwest-jersey-athletic-conference
@@ -3100,7 +3117,7 @@ SUMMARY:Dover High School at Newton High School (Junior Varsity Boys Boys
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2674:7533228@northwest-jersey-athletic-conference
+UID:ds:2674:7808717@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270106T173000
 DTEND;TZID=America/New_York:20270106T193000
@@ -3109,7 +3126,7 @@ SUMMARY:Jefferson Township High School vs Newton High School (Junior Vars
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2594:7457450@northwest-jersey-athletic-conference
+UID:ds:2594:7808754@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270106T190000
 DTEND;TZID=America/New_York:20270106T210000
@@ -3118,7 +3135,7 @@ SUMMARY:Dover High School at Newton High School (Varsity Boys Boys Basket
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2745:7522407@northwest-jersey-athletic-conference
+UID:ds:2745:7808775@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T061500
 DTEND;TZID=America/New_York:20270107T081500
@@ -3144,7 +3161,7 @@ SUMMARY:Newton High School at North Warren (Varsity Boys Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2761:7457639@northwest-jersey-athletic-conference
+UID:ds:2761:7808841@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270108T160000
 DTEND;TZID=America/New_York:20270108T180000
@@ -3153,7 +3170,7 @@ SUMMARY:Newton High School vs North Warren (Varsity Girls Girls Basketbal
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2761:7584620@northwest-jersey-athletic-conference
+UID:ds:2761:7808867@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270108T160000
 DTEND;TZID=America/New_York:20270108T180000
@@ -3206,7 +3223,7 @@ SUMMARY:Newton High School vs North Warren (Junior Varsity Girls Girls Ba
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2761:7676671@northwest-jersey-athletic-conference
+UID:ds:2761:7808984@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270109T160000
 DTEND;TZID=America/New_York:20270109T180000
@@ -3223,7 +3240,7 @@ SUMMARY:Newton High School vs East Side High School (Varsity Boys Boys Ic
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2634:7539363@northwest-jersey-athletic-conference
+UID:ds:2634:7809039@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270111T173000
 DTEND;TZID=America/New_York:20270111T193000
@@ -3232,7 +3249,7 @@ SUMMARY:Hackettstown High School vs Newton High School (Junior Varsity Gi
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2634:7458069@northwest-jersey-athletic-conference
+UID:ds:2634:7809048@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270111T180000
 DTEND;TZID=America/New_York:20270111T200000
@@ -3241,22 +3258,13 @@ SUMMARY:Hackettstown High School at Newton High School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2634:7457643@northwest-jersey-athletic-conference
+UID:ds:2634:7809059@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270111T190000
 DTEND;TZID=America/New_York:20270111T210000
 SUMMARY:Hackettstown High School vs Newton High School (Varsity Girls Gir
  ls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2686:7703600@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270112T160000
-DTEND;TZID=America/New_York:20270112T180000
-SUMMARY:Kittatinny High School at Newton High School (Freshman Boys Boys 
- Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2761:7576899@northwest-jersey-athletic-conference
@@ -3286,6 +3294,15 @@ SUMMARY:Newton High School at Sparta High School (Varsity Girls Girls Swi
 DESCRIPTION:Varsity Girls Girls Swimming - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2761:7809078@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270112T160000
+DTEND;TZID=America/New_York:20270112T180000
+SUMMARY:Newton High School at Vernon Township High School (Varsity Girls 
+ Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2761:7584623@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T160000
@@ -3295,16 +3312,7 @@ SUMMARY:Newton High School at Long Pond School (Middle School Boys Boys B
 DESCRIPTION:Middle School Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2761:7457641@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270112T160000
-DTEND;TZID=America/New_York:20270112T180000
-SUMMARY:Newton High School at Vernon Township High School (Varsity Girls 
- Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2686:7504488@northwest-jersey-athletic-conference
+UID:ds:2686:7809126@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T173000
 DTEND;TZID=America/New_York:20270112T193000
@@ -3313,7 +3321,7 @@ SUMMARY:Kittatinny High School at Newton High School (Junior Varsity Boys
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2761:7539388@northwest-jersey-athletic-conference
+UID:ds:2761:7809137@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T173000
 DTEND;TZID=America/New_York:20270112T193000
@@ -3331,7 +3339,7 @@ SUMMARY:Kittatinny High School at Newton High School (Varsity Boys Boys B
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2649:7676679@northwest-jersey-athletic-conference
+UID:ds:2649:7809180@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T211500
 DTEND;TZID=America/New_York:20270112T231500
@@ -3376,7 +3384,7 @@ SUMMARY:Newton High School at Gill Saint Bernards School (Varsity Boys Bo
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 5:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2761:7591669@northwest-jersey-athletic-conference
+UID:ds:2761:7809220@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270113T180000
 DTEND;TZID=America/New_York:20270113T200000
@@ -3385,7 +3393,7 @@ SUMMARY:Newton High School vs Wallkill Valley High School (Varsity Girls
 DESCRIPTION:Varsity Girls Girls Wrestling - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2661:7702127@northwest-jersey-athletic-conference
+UID:ds:2661:7809239@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T153000
 DTEND;TZID=America/New_York:20270114T173000
@@ -3394,7 +3402,7 @@ SUMMARY:Hopatcong High School at Newton High School (Varsity Coed Coed Bo
 DESCRIPTION:Varsity Coed Coed Bowling - Away - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2761:7702127@northwest-jersey-athletic-conference
+UID:ds:2761:7809239@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T153000
 DTEND;TZID=America/New_York:20270114T173000
@@ -3430,7 +3438,7 @@ SUMMARY:Newton High School vs Glen Meadow Middle School (Middle School Gi
 DESCRIPTION:Middle School Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2887:7534879@northwest-jersey-athletic-conference
+UID:ds:2887:7809262@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T160000
 DTEND;TZID=America/New_York:20270114T180000
@@ -3448,7 +3456,7 @@ SUMMARY:Vernon Township High School at Newton High School (Middle School
 DESCRIPTION:Middle School Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2761:7506310@northwest-jersey-athletic-conference
+UID:ds:2761:7809301@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T173000
 DTEND;TZID=America/New_York:20270114T193000
@@ -3466,7 +3474,7 @@ SUMMARY:Sussex County Tech High School vs Newton High School (Junior Vars
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2761:7609935@northwest-jersey-athletic-conference
+UID:ds:2761:7809326@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T183000
 DTEND;TZID=America/New_York:20270114T203000
@@ -3475,7 +3483,7 @@ SUMMARY:Newton High School at Newton/Lenape Valley (Varsity Boys Boys Swi
 DESCRIPTION:Varsity Boys Boys Swimming - Away - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2761:7659828@northwest-jersey-athletic-conference
+UID:ds:2761:7809329@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T183000
 DTEND;TZID=America/New_York:20270114T203000
@@ -3511,7 +3519,7 @@ SUMMARY:Newton High School vs Vernon Township High School (Varsity Girls
 DESCRIPTION:Varsity Girls Girls Wrestling - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2761:7603426@northwest-jersey-athletic-conference
+UID:ds:2761:7809406@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270116T090000
 DTEND;TZID=America/New_York:20270116T110000
@@ -3520,7 +3528,7 @@ SUMMARY:Newton High School at Randolph High School (Varsity Boys Boys Wre
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2761:7663960@northwest-jersey-athletic-conference
+UID:ds:2761:7809412@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270116T090000
 DTEND;TZID=America/New_York:20270116T110000
@@ -3547,7 +3555,7 @@ SUMMARY:High Point High School vs Newton High School (Freshman Boys Boys
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2649:7569767@northwest-jersey-athletic-conference
+UID:ds:2649:7809461@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270116T141500
 DTEND;TZID=America/New_York:20270116T161500
@@ -3565,7 +3573,7 @@ SUMMARY:High Point High School vs Newton High School (Junior Varsity Boys
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 2:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2761:7565260@northwest-jersey-athletic-conference
+UID:ds:2761:7794609@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270116T160000
 DTEND;TZID=America/New_York:20270116T180000
@@ -3574,7 +3582,7 @@ SUMMARY:Newton High School vs Central Regional School District (Varsity B
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2649:7457459@northwest-jersey-athletic-conference
+UID:ds:2649:7809465@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270116T161500
 DTEND;TZID=America/New_York:20270116T181500
@@ -3583,7 +3591,7 @@ SUMMARY:High Point High School vs Newton High School (Varsity Boys Boys B
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2649:7457646@northwest-jersey-athletic-conference
+UID:ds:2649:7809466@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270116T180000
 DTEND;TZID=America/New_York:20270116T200000
@@ -3592,7 +3600,7 @@ SUMMARY:High Point High School vs Newton High School (Varsity Girls Girls
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2761:7594213@northwest-jersey-athletic-conference
+UID:ds:2761:7809476@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270117T090000
 DTEND;TZID=America/New_York:20270117T110000
@@ -3601,7 +3609,7 @@ SUMMARY:Newton High School at Morris Hills High School (Junior Varsity Bo
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2674:7701318@northwest-jersey-athletic-conference
+UID:ds:2674:7809500@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270118T151500
 DTEND;TZID=America/New_York:20270118T171500
@@ -3610,7 +3618,7 @@ SUMMARY:Jefferson Township High School at Newton High School (Varsity Coe
 DESCRIPTION:Varsity Coed Coed Bowling - Away - 3:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2761:7701318@northwest-jersey-athletic-conference
+UID:ds:2761:7809500@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270118T151500
 DTEND;TZID=America/New_York:20270118T171500
@@ -3628,7 +3636,7 @@ SUMMARY:Hopatcong High School vs Newton High School (Freshman Boys Boys B
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2761:7707469@northwest-jersey-athletic-conference
+UID:ds:2761:7809582@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270119T160000
 DTEND;TZID=America/New_York:20270119T180000
@@ -3645,7 +3653,7 @@ SUMMARY:Newton High School at TBA NJ (Middle School Boys Boys Basketball)
 DESCRIPTION:Middle School Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2649:7681300@northwest-jersey-athletic-conference
+UID:ds:2649:7809599@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270119T173000
 DTEND;TZID=America/New_York:20270119T193000
@@ -3672,7 +3680,7 @@ SUMMARY:High Point High School at Newton High School (Varsity Boys Boys W
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2661:7539180@northwest-jersey-athletic-conference
+UID:ds:2661:7809626@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270119T190000
 DTEND;TZID=America/New_York:20270119T210000
@@ -3681,7 +3689,7 @@ SUMMARY:Hopatcong High School vs Newton High School (Varsity Boys Boys Ba
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2761:7702128@northwest-jersey-athletic-conference
+UID:ds:2761:7809635@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270120T153000
 DTEND;TZID=America/New_York:20270120T173000
@@ -3690,7 +3698,7 @@ SUMMARY:Newton High School at Sussex County Technical High School (Varsit
 DESCRIPTION:Varsity Boys Boys Bowling - Away - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2887:7702128@northwest-jersey-athletic-conference
+UID:ds:2887:7809635@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270120T153000
 DTEND;TZID=America/New_York:20270120T173000
@@ -3717,7 +3725,7 @@ SUMMARY:Jefferson Township High School at Newton High School (Junior Vars
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2674:7554593@northwest-jersey-athletic-conference
+UID:ds:2674:7809701@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270120T180000
 DTEND;TZID=America/New_York:20270120T200000
@@ -3735,7 +3743,7 @@ SUMMARY:Newton High School vs Sparta High School (Junior Varsity Boys Boy
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2674:7570026@northwest-jersey-athletic-conference
+UID:ds:2674:7809709@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270120T183000
 DTEND;TZID=America/New_York:20270120T203000
@@ -3744,7 +3752,7 @@ SUMMARY:Jefferson Township High School at Newton High School (Varsity Boy
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2761:7570026@northwest-jersey-athletic-conference
+UID:ds:2761:7809709@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270120T183000
 DTEND;TZID=America/New_York:20270120T203000
@@ -3762,15 +3770,6 @@ SUMMARY:Sparta High School at Newton High School (Varsity Boys Boys Wrest
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2761:7659829@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270121T160000
-DTEND;TZID=America/New_York:20270121T180000
-SUMMARY:Newton High School vs Parsippany Hills High School (Varsity Girls
-  Girls Swimming)
-DESCRIPTION:Varsity Girls Girls Swimming - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2761:7645057@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T160000
@@ -3780,7 +3779,16 @@ SUMMARY:Newton High School vs Parsippany Hills High School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Swimming - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2791:7645057@northwest-jersey-athletic-conference
+UID:ds:2761:7809746@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270121T160000
+DTEND;TZID=America/New_York:20270121T180000
+SUMMARY:Newton High School vs Parsippany Hills High School (Varsity Girls
+  Girls Swimming)
+DESCRIPTION:Varsity Girls Girls Swimming - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2791:7809745@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T160000
 DTEND;TZID=America/New_York:20270121T180000
@@ -3807,7 +3815,16 @@ SUMMARY:Kinnelon High School at Newton High School (Varsity Boys Boys Bas
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2761:7484111@northwest-jersey-athletic-conference
+UID:ds:2761:7810263@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270122T160000
+DTEND;TZID=America/New_York:20270122T180000
+SUMMARY:Newton High School vs Montague Township School (Middle School Gir
+ ls Girls Basketball)
+DESCRIPTION:Middle School Girls Girls Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2761:7809797@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270122T160000
 DTEND;TZID=America/New_York:20270122T180000
@@ -3824,16 +3841,7 @@ SUMMARY:Newton High School at TBA NJ (Middle School Boys Boys Basketball)
 DESCRIPTION:Middle School Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2761:7586707@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270122T160000
-DTEND;TZID=America/New_York:20270122T180000
-SUMMARY:Newton High School vs Montague Township School (Middle School Gir
- ls Girls Basketball)
-DESCRIPTION:Middle School Girls Girls Basketball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2685:7542406@northwest-jersey-athletic-conference
+UID:ds:2685:7809837@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270122T173000
 DTEND;TZID=America/New_York:20270122T193000
@@ -3860,7 +3868,7 @@ SUMMARY:Newton High School vs James Caldwell High School (Varsity Boys Bo
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2761:7555251@northwest-jersey-athletic-conference
+UID:ds:2761:7809870@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270123T090000
 DTEND;TZID=America/New_York:20270123T110000
@@ -3869,7 +3877,7 @@ SUMMARY:Newton High School vs Livingston High School (Varsity Boys Boys W
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2649:7682876@northwest-jersey-athletic-conference
+UID:ds:2649:7809882@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270123T100000
 DTEND;TZID=America/New_York:20270123T120000
@@ -3938,7 +3946,7 @@ SUMMARY:Morris Knolls High School vs Newton High School (Varsity Girls Gi
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2761:7586712@northwest-jersey-athletic-conference
+UID:ds:2761:7810253@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270126T101900
 DTEND;TZID=America/New_York:20270126T121900
@@ -3992,7 +4000,7 @@ SUMMARY:Jefferson Township High School at Newton High School (Junior Vars
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2594:7457465@northwest-jersey-athletic-conference
+UID:ds:2594:7810038@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270126T190000
 DTEND;TZID=America/New_York:20270126T210000
@@ -4019,6 +4027,14 @@ SUMMARY:Vernon Township High School vs Newton High School (Varsity Coed C
 DESCRIPTION:Varsity Coed Coed Bowling - Home - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2761:7810060@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270127T160000
+DTEND;TZID=America/New_York:20270127T180000
+SUMMARY:Newton High School vs TBA NJ (Middle School Boys Boys Basketball)
+DESCRIPTION:Middle School Boys Boys Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2761:7679769@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270127T160000
@@ -4028,15 +4044,7 @@ SUMMARY:Newton High School at TBA NJ (Middle School Girls Girls Basketbal
 DESCRIPTION:Middle School Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2761:7679777@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270127T160000
-DTEND;TZID=America/New_York:20270127T180000
-SUMMARY:Newton High School vs TBA NJ (Middle School Boys Boys Basketball)
-DESCRIPTION:Middle School Boys Boys Basketball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2694:7591836@northwest-jersey-athletic-conference
+UID:ds:2694:7810078@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270127T180000
 DTEND;TZID=America/New_York:20270127T200000
@@ -4089,7 +4097,7 @@ SUMMARY:Newton High School vs Bridgewater-Raritan High School (Varsity Bo
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2761:7678284@northwest-jersey-athletic-conference
+UID:ds:2761:7804262@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270129T120000
 DTEND;TZID=America/New_York:20270129T140000
@@ -4098,7 +4106,7 @@ SUMMARY:Newton High School at Lakeland Regional High School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2686:7475390@northwest-jersey-athletic-conference
+UID:ds:2686:7810174@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270129T173000
 DTEND;TZID=America/New_York:20270129T193000
@@ -4125,7 +4133,7 @@ SUMMARY:Dover High School vs Newton High School (Varsity Boys Boys Wrestl
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2686:7475354@northwest-jersey-athletic-conference
+UID:ds:2686:7810184@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270129T190000
 DTEND;TZID=America/New_York:20270129T210000
@@ -4159,7 +4167,7 @@ SUMMARY:Newton High School vs TBA NJ (Junior Varsity Boys Boys Wrestling)
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 8:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2649:7655143@northwest-jersey-athletic-conference
+UID:ds:2649:7810237@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270131T194500
 DTEND;TZID=America/New_York:20270131T214500
@@ -4329,15 +4337,6 @@ DTSTART;TZID=America/New_York:20270209T190000
 DTEND;TZID=America/New_York:20270209T210000
 SUMMARY:Newton High School vs North Warren (Varsity Boys Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2686:7719904@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270211T160000
-DTEND;TZID=America/New_York:20270211T180000
-SUMMARY:Kittatinny High School vs Newton High School (Freshman Boys Boys 
- Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2761:7457656@northwest-jersey-athletic-conference
