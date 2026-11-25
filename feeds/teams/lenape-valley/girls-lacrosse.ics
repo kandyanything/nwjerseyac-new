@@ -24,6 +24,24 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2694:7822708@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270317T160000
+DTEND;TZID=America/New_York:20270317T180000
+SUMMARY:Lenape Valley High School at Immaculata High School (Varsity Girl
+ s Girls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2694:7822709@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270317T173000
+DTEND;TZID=America/New_York:20270317T193000
+SUMMARY:Lenape Valley High School at Immaculata High School (Junior Varsi
+ ty Girls Girls Lacrosse)
+DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2686:7632127@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270327T110000
@@ -76,5 +94,23 @@ DTEND;TZID=America/New_York:20270510T183000
 SUMMARY:Kittatinny High School at Lenape Valley High School (Varsity Girl
  s Girls Lacrosse)
 DESCRIPTION:Varsity Girls Girls Lacrosse - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2694:7822751@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270518T160000
+DTEND;TZID=America/New_York:20270518T180000
+SUMMARY:Lenape Valley High School vs Immaculata High School (Varsity Girl
+ s Girls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2694:7822752@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270518T173000
+DTEND;TZID=America/New_York:20270518T193000
+SUMMARY:Lenape Valley High School vs Immaculata High School (Junior Varsi
+ ty Girls Girls Lacrosse)
+DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Home - 5:30 PM
 END:VEVENT
 END:VCALENDAR
