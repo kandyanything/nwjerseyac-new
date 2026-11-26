@@ -299,15 +299,6 @@ SUMMARY:Dover High School at Hackettstown High School (Freshman Boys Boys
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:MorristownBeardSchool:event_10741_20261207t223000zapi.veracross.c
- om@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261207T173000
-DTEND;TZID=America/New_York:20261207T193000
-SUMMARY:Morristown Beard School vs Bogota (Varsity Boys Boys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Home - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ics:MorristownBeardSchool:event_10739_20261207t223000zapi.veracross.c
  om@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
@@ -315,6 +306,15 @@ DTSTART;TZID=America/New_York:20261207T173000
 DTEND;TZID=America/New_York:20261207T193000
 SUMMARY:Morristown Beard School vs Bogota (Freshman Boys Boys Basketball)
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:MorristownBeardSchool:event_10741_20261207t223000zapi.veracross.c
+ om@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261207T173000
+DTEND;TZID=America/New_York:20261207T193000
+SUMMARY:Morristown Beard School vs Bogota (Varsity Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2754:7808442@northwest-jersey-athletic-conference
@@ -436,15 +436,6 @@ SUMMARY:Hanover Park High School at Wallington High School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2661:7538873@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261208T160000
-DTEND;TZID=America/New_York:20261208T180000
-SUMMARY:Hopatcong High School vs Roxbury High School (Junior Varsity Boys
-  Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2661:7807481@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261208T160000
@@ -452,6 +443,15 @@ DTEND;TZID=America/New_York:20261208T180000
 SUMMARY:Hopatcong High School vs Roxbury High School (Varsity Boys Boys B
  asketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2661:7538873@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261208T160000
+DTEND;TZID=America/New_York:20261208T180000
+SUMMARY:Hopatcong High School vs Roxbury High School (Junior Varsity Boys
+  Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2685:7807483@northwest-jersey-athletic-conference
@@ -905,7 +905,7 @@ SUMMARY:Morris Catholic High School at Essex County Donald M. Payne Tech
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2791:7767119@northwest-jersey-athletic-conference
+UID:ds:2791:7801764@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261209T173000
 DTEND;TZID=America/New_York:20261209T193000
@@ -2624,7 +2624,7 @@ SUMMARY:High Point High School vs Sussex County Technical High School (Fr
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2661:7742565@northwest-jersey-athletic-conference
+UID:ds:2661:7808006@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261217T160000
 DTEND;TZID=America/New_York:20261217T180000
@@ -2822,7 +2822,7 @@ SUMMARY:Morris Catholic High School at Morristown Beard School (Junior Va
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2768:7535695@northwest-jersey-athletic-conference
+UID:ds:2768:7808025@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261217T173000
 DTEND;TZID=America/New_York:20261217T193000
@@ -4470,6 +4470,15 @@ SUMMARY:Morristown High School at Kearny High School (Junior Varsity Boys
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2748:7570386@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261229
+DTEND;VALUE=DATE:20261230
+SUMMARY:Morristown High School at Kearny High School (Freshman Boys Boys 
+ Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Away
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2748:7568093@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20261229
@@ -4489,15 +4498,6 @@ DESCRIPTION:Varsity Boys Boys Basketball - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2748:7808391@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261229
-DTEND;VALUE=DATE:20261230
-SUMMARY:Morristown High School at Kearny High School (Freshman Boys Boys 
- Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Away
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2748:7570386@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20261229
 DTEND;VALUE=DATE:20261230
@@ -4578,7 +4578,7 @@ SUMMARY:Morristown High School at Kearny High School (Freshman Boys Boys
 DESCRIPTION:Freshman Boys Boys Basketball - Away
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2748:7570415@northwest-jersey-athletic-conference
+UID:ds:2748:7808414@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20261230
 DTEND;VALUE=DATE:20261231
@@ -4587,7 +4587,7 @@ SUMMARY:Morristown High School at Kearny High School (Varsity Boys Boys B
 DESCRIPTION:Varsity Boys Boys Basketball - Away
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2748:7808414@northwest-jersey-athletic-conference
+UID:ds:2748:7570415@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20261230
 DTEND;VALUE=DATE:20261231
@@ -5334,7 +5334,7 @@ SUMMARY:Hanover Park High School at Whippany Park High School (Freshman B
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2649:7572133@northwest-jersey-athletic-conference
+UID:ds:2649:7808684@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270106T160000
 DTEND;TZID=America/New_York:20270106T180000
@@ -5541,7 +5541,7 @@ SUMMARY:Hanover Park High School at Whippany Park High School (Junior Var
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2649:7521644@northwest-jersey-athletic-conference
+UID:ds:2649:7808715@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270106T173000
 DTEND;TZID=America/New_York:20270106T193000
@@ -5721,7 +5721,7 @@ SUMMARY:Jefferson Township High School at Wallkill Valley High School (Va
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2686:7808755@northwest-jersey-athletic-conference
+UID:ds:2686:7457451@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270106T190000
 DTEND;TZID=America/New_York:20270106T210000
@@ -5901,7 +5901,7 @@ SUMMARY:Hanover Park High School vs Kinnelon High School (Varsity Boys Bo
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2661:7808859@northwest-jersey-athletic-conference
+UID:ds:2661:7568438@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270108T160000
 DTEND;TZID=America/New_York:20270108T180000
@@ -5998,7 +5998,7 @@ SUMMARY:Parsippany Hills High School at Pope John XXIII High School (Fres
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2816:7808878@northwest-jersey-athletic-conference
+UID:ds:2816:7686444@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270108T160000
 DTEND;TZID=America/New_York:20270108T180000
@@ -6116,7 +6116,7 @@ SUMMARY:Hanover Park High School vs Kinnelon High School (Junior Varsity
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2661:7568374@northwest-jersey-athletic-conference
+UID:ds:2661:7808905@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270108T173000
 DTEND;TZID=America/New_York:20270108T193000
@@ -6388,7 +6388,7 @@ SUMMARY:Kittatinny High School vs Technology High School (Junior Varsity
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:42130:7647024@northwest-jersey-athletic-conference
+UID:ds:42130:7808979@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270109T113000
 DTEND;TZID=America/New_York:20270109T133000
@@ -6504,7 +6504,7 @@ SUMMARY:North Warren at Vernon Township High School (Middle School Boys B
 DESCRIPTION:Middle School Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2816:7686447@northwest-jersey-athletic-conference
+UID:ds:2816:7809021@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270111T160000
 DTEND;TZID=America/New_York:20270111T180000
@@ -6658,7 +6658,7 @@ SUMMARY:Morris County School of Technology at Kinnelon High School (Varsi
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2686:7809116@northwest-jersey-athletic-conference
+UID:ds:2686:7780086@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T160000
 DTEND;TZID=America/New_York:20270112T180000
@@ -6821,7 +6821,7 @@ SUMMARY:Morris County School of Technology at Kinnelon High School (Junio
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2686:7809126@northwest-jersey-athletic-conference
+UID:ds:2686:7504488@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T173000
 DTEND;TZID=America/New_York:20270112T193000
@@ -7073,7 +7073,7 @@ SUMMARY:Sussex County Tech High School vs Butler High School (Freshman Bo
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2909:7809199@northwest-jersey-athletic-conference
+UID:ds:2909:7757362@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270113T160000
 DTEND;TZID=America/New_York:20270113T180000
@@ -7206,7 +7206,7 @@ SUMMARY:High Point High School at Kittatinny High School (Freshman Boys B
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2661:7527309@northwest-jersey-athletic-conference
+UID:ds:2661:7809259@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T160000
 DTEND;TZID=America/New_York:20270114T180000
@@ -7215,7 +7215,7 @@ SUMMARY:Hopatcong High School vs Jefferson Township High School (Freshman
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2685:7683935@northwest-jersey-athletic-conference
+UID:ds:2685:7809281@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T160000
 DTEND;TZID=America/New_York:20270114T180000
@@ -7405,7 +7405,7 @@ SUMMARY:High Point High School at Kittatinny High School (Junior Varsity
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2661:7527204@northwest-jersey-athletic-conference
+UID:ds:2661:7809304@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T173000
 DTEND;TZID=America/New_York:20270114T193000
@@ -7568,7 +7568,7 @@ SUMMARY:Newton High School at Sussex County Technical High School (Varsit
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2790:7457485@northwest-jersey-athletic-conference
+UID:ds:2790:7809343@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T190000
 DTEND;TZID=America/New_York:20270114T210000
@@ -7784,7 +7784,7 @@ SUMMARY:Wallkill Valley High School vs James Caldwell High School (Freshm
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2919:7559901@northwest-jersey-athletic-conference
+UID:ds:2919:7809428@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270116T100000
 DTEND;TZID=America/New_York:20270116T120000
@@ -7884,21 +7884,21 @@ SUMMARY:North Warren at South Hunterdon Schools (Junior Varsity Boys Boys
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2919:7740925@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270116T113000
+DTEND;TZID=America/New_York:20270116T133000
+SUMMARY:Wallkill Valley High School vs James Caldwell High School (Junior
+  Varsity Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2919:7809444@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270116T113000
 DTEND;TZID=America/New_York:20270116T133000
 SUMMARY:Wallkill Valley High School vs Caldwell (Junior Varsity Boys Boys
   Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 11:30 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2919:7809447@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270116T113000
-DTEND;TZID=America/New_York:20270116T133000
-SUMMARY:Wallkill Valley High School vs James Caldwell High School (Junior
-  Varsity Boys Boys Basketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
@@ -7984,7 +7984,7 @@ SUMMARY:Wallkill Valley High School vs Caldwell (Varsity Boys Boys Basket
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2919:7738744@northwest-jersey-athletic-conference
+UID:ds:2919:7809459@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270116T130000
 DTEND;TZID=America/New_York:20270116T150000
@@ -8335,7 +8335,7 @@ SUMMARY:Hackettstown High School vs Hopatcong High School (Varsity Boys B
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2685:7809543@northwest-jersey-athletic-conference
+UID:ds:2685:7457522@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270118T190000
 DTEND;TZID=America/New_York:20270118T210000
@@ -8408,7 +8408,7 @@ SUMMARY:Hopatcong High School vs Newton High School (Freshman Boys Boys B
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2685:7636458@northwest-jersey-athletic-conference
+UID:ds:2685:7809572@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270119T160000
 DTEND;TZID=America/New_York:20270119T180000
@@ -8570,7 +8570,7 @@ SUMMARY:Dover High School at Kittatinny High School (Freshman Boys Boys B
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2634:7809658@northwest-jersey-athletic-conference
+UID:ds:2634:7611979@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270120T160000
 DTEND;TZID=America/New_York:20270120T180000
@@ -8949,7 +8949,7 @@ SUMMARY:Morris Catholic High School vs Morristown Beard School (Varsity B
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2790:7809725@northwest-jersey-athletic-conference
+UID:ds:2790:7561532@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270120T190000
 DTEND;TZID=America/New_York:20270120T210000
@@ -9361,7 +9361,7 @@ SUMMARY:Kinnelon High School at Newton High School (Junior Varsity Boys B
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2686:7504491@northwest-jersey-athletic-conference
+UID:ds:2686:7809830@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270122T173000
 DTEND;TZID=America/New_York:20270122T193000
@@ -10274,7 +10274,7 @@ SUMMARY:Hanover Park High School vs Whippany Park High School (Varsity Bo
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2649:7810049@northwest-jersey-athletic-conference
+UID:ds:2649:7521629@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270126T190000
 DTEND;TZID=America/New_York:20270126T210000
@@ -10337,7 +10337,7 @@ SUMMARY:Sparta High School at Montville High School (Freshman Boys Boys B
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 10:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2685:7542377@northwest-jersey-athletic-conference
+UID:ds:2685:7810058@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270127T160000
 DTEND;TZID=America/New_York:20270127T180000
@@ -10743,7 +10743,7 @@ SUMMARY:Sparta High School at Vernon Township High School (Middle School
 DESCRIPTION:Middle School Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2661:7810208@northwest-jersey-athletic-conference
+UID:ds:2661:7632658@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270130T100000
 DTEND;TZID=America/New_York:20270130T120000
