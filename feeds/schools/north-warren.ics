@@ -430,15 +430,6 @@ SUMMARY:Dover High School vs North Warren (Junior Varsity Boys Boys Socce
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2686:7469931@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260916T160000
-DTEND;TZID=America/New_York:20260916T180000
-SUMMARY:Kittatinny High School at North Warren (Varsity Girls Girls Socce
- r)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2686:7495251@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260916T160000
@@ -446,6 +437,15 @@ DTEND;TZID=America/New_York:20260916T180000
 SUMMARY:Kittatinny High School at North Warren (Junior Varsity Girls Girl
  s Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2686:7469931@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260916T160000
+DTEND;TZID=America/New_York:20260916T180000
+SUMMARY:Kittatinny High School at North Warren (Varsity Girls Girls Socce
+ r)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2686:7585942@northwest-jersey-athletic-conference
@@ -705,20 +705,20 @@ SUMMARY:Newton High School vs North Warren (Junior Varsity Boys Boys Socc
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2761:7532507@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260929T160000
-DTEND;TZID=America/New_York:20260929T180000
-SUMMARY:Newton High School vs North Warren (Varsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2761:7533110@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260929T160000
 DTEND;TZID=America/New_York:20260929T180000
 SUMMARY:Newton High School at North Warren (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2761:7532507@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260929T160000
+DTEND;TZID=America/New_York:20260929T180000
+SUMMARY:Newton High School vs North Warren (Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2768:7535143@northwest-jersey-athletic-conference
@@ -917,6 +917,23 @@ SUMMARY:Mountain Lakes High School at North Warren (Middle School Boys Bo
 DESCRIPTION:Middle School Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2768:7549772@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261006T160000
+DTEND;TZID=America/New_York:20261006T180000
+SUMMARY:North Warren vs Briarcliff Middle School (Middle School Boys Boys
+  Soccer)
+DESCRIPTION:Middle School Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2768:7673464@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261006T160000
+DTEND;TZID=America/New_York:20261006T180000
+SUMMARY:North Warren at Voorhees High School (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2768:7568795@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261006T160000
@@ -941,23 +958,6 @@ DTEND;TZID=America/New_York:20261006T180000
 SUMMARY:North Warren vs Vernon Township High School (Varsity Boys Boys Cr
  oss Country)
 DESCRIPTION:Varsity Boys Boys Cross Country - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2768:7549772@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261006T160000
-DTEND;TZID=America/New_York:20261006T180000
-SUMMARY:North Warren vs Briarcliff Middle School (Middle School Boys Boys
-  Soccer)
-DESCRIPTION:Middle School Boys Boys Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2768:7673464@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261006T160000
-DTEND;TZID=America/New_York:20261006T180000
-SUMMARY:North Warren at Voorhees High School (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2768:7577029@northwest-jersey-athletic-conference
@@ -1744,7 +1744,7 @@ SUMMARY:North Warren vs Bernardsville Middle School (Middle School Boys B
 DESCRIPTION:Middle School Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2768:7808025@northwest-jersey-athletic-conference
+UID:ds:2768:7535695@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261217T173000
 DTEND;TZID=America/New_York:20261217T193000
@@ -1825,15 +1825,6 @@ SUMMARY:Sussex County Tech High School at North Warren (Junior Varsity Gi
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2768:7808216@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261221T160000
-DTEND;TZID=America/New_York:20261221T180000
-SUMMARY:North Warren vs Pope John XXIII Middle School (Middle School Boys
-  Boys Basketball)
-DESCRIPTION:Middle School Boys Boys Basketball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2768:7808217@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261221T160000
@@ -1841,6 +1832,15 @@ DTEND;TZID=America/New_York:20261221T180000
 SUMMARY:North Warren at Pope John XXIII Middle School (Middle School Girl
  s Girls Basketball)
 DESCRIPTION:Middle School Girls Girls Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2768:7664932@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261221T160000
+DTEND;TZID=America/New_York:20261221T180000
+SUMMARY:North Warren vs Pope John XXIII Middle School (Middle School Boys
+  Boys Basketball)
+DESCRIPTION:Middle School Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2816:7808215@northwest-jersey-athletic-conference
@@ -2075,7 +2075,7 @@ SUMMARY:North Warren at Vernon Township High School (Middle School Boys B
 DESCRIPTION:Middle School Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2594:7655048@northwest-jersey-athletic-conference
+UID:ds:2594:7809037@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270111T170000
 DTEND;TZID=America/New_York:20270111T190000
