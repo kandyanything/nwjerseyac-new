@@ -561,20 +561,20 @@ SUMMARY:West Morris Mendham vs Roxbury High School (Varsity Girls Girls C
 DESCRIPTION:Varsity Girls Girls Cross Country - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2838:7532647@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260905T110000
-DTEND;TZID=America/New_York:20260905T130000
-SUMMARY:Roxbury High School at Montclair (Junior Varsity Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 11:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2838:7532646@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260905T110000
 DTEND;TZID=America/New_York:20260905T130000
 SUMMARY:Roxbury High School at Montclair (Varsity Boys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2838:7532647@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260905T110000
+DTEND;TZID=America/New_York:20260905T130000
+SUMMARY:Roxbury High School at Montclair (Junior Varsity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2838:7602977@northwest-jersey-athletic-conference
@@ -676,15 +676,6 @@ SUMMARY:Randolph High School vs Roxbury High School (Freshman Girls Girls
 DESCRIPTION:Freshman Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2825:7434300@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260909T160000
-DTEND;TZID=America/New_York:20260909T180000
-SUMMARY:Randolph High School vs Roxbury High School (Varsity Girls Girls 
- Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2825:7434301@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260909T160000
@@ -692,6 +683,15 @@ DTEND;TZID=America/New_York:20260909T180000
 SUMMARY:Randolph High School vs Roxbury High School (Junior Varsity Girls
   Girls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2825:7434300@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260909T160000
+DTEND;TZID=America/New_York:20260909T180000
+SUMMARY:Randolph High School vs Roxbury High School (Varsity Girls Girls 
+ Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2838:7460289@northwest-jersey-athletic-conference
@@ -1401,15 +1401,6 @@ SUMMARY:Pope John XXIII High School vs Roxbury High School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Cross Country - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2825:7527408@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260922T160000
-DTEND;TZID=America/New_York:20260922T180000
-SUMMARY:Randolph High School at Roxbury High School (Junior Varsity Boys 
- Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2825:7527409@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260922T160000
@@ -1417,6 +1408,15 @@ DTEND;TZID=America/New_York:20260922T180000
 SUMMARY:Randolph High School at Roxbury High School (Freshman Boys Boys S
  occer)
 DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2825:7527408@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260922T160000
+DTEND;TZID=America/New_York:20260922T180000
+SUMMARY:Randolph High School at Roxbury High School (Junior Varsity Boys 
+ Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2748:7487972@northwest-jersey-athletic-conference
@@ -1482,15 +1482,6 @@ SUMMARY:Roxbury High School at Vernon Township High School (Junior Varsit
 DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2634:7532790@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260924T160000
-DTEND;TZID=America/New_York:20260924T180000
-SUMMARY:Hackettstown High School vs Roxbury High School (Freshman Girls G
- irls Volleyball)
-DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2634:7535637@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260924T160000
@@ -1498,6 +1489,15 @@ DTEND;TZID=America/New_York:20260924T180000
 SUMMARY:Hackettstown High School at Roxbury High School (Varsity Girls Gi
  rls Volleyball)
 DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2634:7532790@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260924T160000
+DTEND;TZID=America/New_York:20260924T180000
+SUMMARY:Hackettstown High School vs Roxbury High School (Freshman Girls G
+ irls Volleyball)
+DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2816:7522523@northwest-jersey-athletic-conference
@@ -2810,15 +2810,6 @@ SUMMARY:Morris Hills High School at Roxbury High School (Varsity Girls Fi
 DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2564:7439131@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261029T160000
-DTEND;TZID=America/New_York:20261029T180000
-SUMMARY:Chatham High School vs Roxbury High School (Junior Varsity Girls 
- Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2564:7439066@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261029T160000
@@ -2826,6 +2817,15 @@ DTEND;TZID=America/New_York:20261029T180000
 SUMMARY:Chatham High School vs Roxbury High School (Freshman Girls Girls 
  Soccer)
 DESCRIPTION:Freshman Girls Girls Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2564:7439131@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261029T160000
+DTEND;TZID=America/New_York:20261029T180000
+SUMMARY:Chatham High School vs Roxbury High School (Junior Varsity Girls 
+ Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2564:7439202@northwest-jersey-athletic-conference
@@ -3203,7 +3203,7 @@ SUMMARY:Newton High School at Roxbury High School (Varsity Boys Boys Ice
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 6:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2748:7807669@northwest-jersey-athletic-conference
+UID:ds:2748:7610865@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261210T190000
 DTEND;TZID=America/New_York:20261210T210000
@@ -4095,7 +4095,7 @@ SUMMARY:Roxbury High School vs TBA NJAC (Varsity Coed Coed Indoor Track)
 DESCRIPTION:Varsity Coed Coed Indoor Track - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2838:7729590@northwest-jersey-athletic-conference
+UID:ds:2838:7808965@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270109T090000
 DTEND;TZID=America/New_York:20270109T110000
@@ -4104,21 +4104,21 @@ SUMMARY:Roxbury High School at Morristown High School (Varsity Coed Coed
 DESCRIPTION:Varsity Coed Coed Swimming - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2838:7729578@northwest-jersey-athletic-conference
+UID:ds:2838:7728185@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270111T163000
+DTEND;TZID=America/New_York:20270111T183000
+SUMMARY:Roxbury High School vs TBA NJAC (Varsity Coed Coed Indoor Track)
+DESCRIPTION:Varsity Coed Coed Indoor Track - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2838:7803158@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270111T163000
 DTEND;TZID=America/New_York:20270111T183000
 SUMMARY:Roxbury High School at Fair Lawn High School (Varsity Coed Coed S
  wimming)
 DESCRIPTION:Varsity Coed Coed Swimming - Away - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2838:7809034@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270111T163000
-DTEND;TZID=America/New_York:20270111T183000
-SUMMARY:Roxbury High School vs TBA NJAC (Varsity Coed Coed Indoor Track)
-DESCRIPTION:Varsity Coed Coed Indoor Track - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2594:7809054@northwest-jersey-athletic-conference
@@ -4354,7 +4354,7 @@ SUMMARY:Morristown High School vs Roxbury High School (Var-JV Coed Coed S
 DESCRIPTION:Var-JV Coed Coed Swimming - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2838:7729602@northwest-jersey-athletic-conference
+UID:ds:2838:7809418@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270116T090000
 DTEND;TZID=America/New_York:20270116T110000
@@ -4703,7 +4703,7 @@ SUMMARY:Mount Olive High School vs Roxbury High School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 2:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2634:7809901@northwest-jersey-athletic-conference
+UID:ds:2634:7735026@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270123T140000
 DTEND;TZID=America/New_York:20270123T160000
@@ -4918,7 +4918,7 @@ SUMMARY:Roxbury High School at Vernon Township High School (Varsity Girls
 DESCRIPTION:Varsity Girls Girls Wrestling - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2838:7538999@northwest-jersey-athletic-conference
+UID:ds:2838:7810218@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270130T130000
 DTEND;TZID=America/New_York:20270130T150000
@@ -4926,7 +4926,7 @@ SUMMARY:Roxbury High School vs TBA NJAC (Varsity Boys Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2838:7810238@northwest-jersey-athletic-conference
+UID:ds:2838:7718906@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270131T201500
 DTEND;TZID=America/New_York:20270131T221500
