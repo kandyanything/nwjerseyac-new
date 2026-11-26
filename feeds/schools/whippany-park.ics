@@ -725,15 +725,6 @@ SUMMARY:Mountain Lakes High School vs Whippany Park High School (Varsity
 DESCRIPTION:Varsity Coed Coed Cross Country - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2913:7487038@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260915T160000
-DTEND;TZID=America/New_York:20260915T180000
-SUMMARY:Villa Walsh Academy at Whippany Park High School (Varsity Girls G
- irls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2913:7512478@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260915T160000
@@ -741,6 +732,15 @@ DTEND;TZID=America/New_York:20260915T180000
 SUMMARY:Villa Walsh Academy vs Whippany Park High School (Junior Varsity 
  Girls Girls Tennis)
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2913:7487038@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260915T160000
+DTEND;TZID=America/New_York:20260915T180000
+SUMMARY:Villa Walsh Academy at Whippany Park High School (Varsity Girls G
+ irls Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2940:7612633@northwest-jersey-athletic-conference
@@ -2698,7 +2698,7 @@ SUMMARY:Whippany Park High School at Cedar Grove High School (Freshman Bo
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2940:7538860@northwest-jersey-athletic-conference
+UID:ds:2940:7807552@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261209T160000
 DTEND;TZID=America/New_York:20261209T180000
@@ -2770,7 +2770,7 @@ SUMMARY:Whippany Park High School at Park Regional (WP/HP) (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 7:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2748:7782846@northwest-jersey-athletic-conference
+UID:ds:2748:7782845@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261212T090000
 DTEND;TZID=America/New_York:20261212T110000
@@ -3614,7 +3614,7 @@ SUMMARY:Whippany Park High School at Hackettstown High School (Var-JV Boy
 DESCRIPTION:Var-JV Boys Boys Swimming - Away - 6:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2642:7809624@northwest-jersey-athletic-conference
+UID:ds:2642:7463518@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270119T190000
 DTEND;TZID=America/New_York:20270119T210000
@@ -3731,7 +3731,7 @@ SUMMARY:West Morris Mendham at Whippany Park High School (Junior Varsity
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2642:7582387@northwest-jersey-athletic-conference
+UID:ds:2642:7809982@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270126T160000
 DTEND;TZID=America/New_York:20270126T180000
@@ -3749,7 +3749,7 @@ SUMMARY:West Morris Mendham at Whippany Park High School (Varsity Girls G
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2642:7810016@northwest-jersey-athletic-conference
+UID:ds:2642:7582406@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270126T173000
 DTEND;TZID=America/New_York:20270126T193000
@@ -4433,16 +4433,6 @@ SUMMARY:Whippany Park High School vs Morristown Beard School (Junior Vars
 DESCRIPTION:Junior Varsity Boys Baseball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:MorristownBeardSchool:event_11086_20270331t200000zapi.veracross.c
- om@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270331T160000
-DTEND;TZID=America/New_York:20270331T180000
-SUMMARY:Morristown Beard School vs Whippany Park High School (Junior Vars
- ity Baseball)
-DESCRIPTION:Junior Varsity Baseball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ics:MorristownBeardSchool:event_11042_20270331t200000zapi.veracross.c
  om@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
@@ -4451,6 +4441,16 @@ DTEND;TZID=America/New_York:20270331T180000
 SUMMARY:Morristown Beard School at Whippany Park High School (Varsity Bas
  eball)
 DESCRIPTION:Varsity Baseball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:MorristownBeardSchool:event_11086_20270331t200000zapi.veracross.c
+ om@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270331T160000
+DTEND;TZID=America/New_York:20270331T180000
+SUMMARY:Morristown Beard School vs Whippany Park High School (Junior Vars
+ ity Baseball)
+DESCRIPTION:Junior Varsity Baseball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2940:7596599@northwest-jersey-athletic-conference
