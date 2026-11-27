@@ -461,15 +461,6 @@ SUMMARY:Morris Catholic High School at Parsippany High School (Varsity Gi
 DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:42130:7496768@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260908T160000
-DTEND;TZID=America/New_York:20260908T180000
-SUMMARY:Morris County School of Technology at Parsippany High School (Var
- sity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:42130:7496786@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260908T160000
@@ -477,6 +468,15 @@ DTEND;TZID=America/New_York:20260908T180000
 SUMMARY:Morris County School of Technology at Parsippany High School (Jun
  ior Varsity Boys Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:42130:7496768@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260908T160000
+DTEND;TZID=America/New_York:20260908T180000
+SUMMARY:Morris County School of Technology at Parsippany High School (Var
+ sity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2790:7510209@northwest-jersey-athletic-conference
@@ -779,6 +779,15 @@ SUMMARY:High Point High School at Parsippany High School (Varsity Girls G
 DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2790:7475227@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260916T160000
+DTEND;TZID=America/New_York:20260916T180000
+SUMMARY:Parsippany High School at Whippany Park High School (Varsity Boys
+  Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2790:7475228@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260916T160000
@@ -795,15 +804,6 @@ DTEND;TZID=America/New_York:20260916T180000
 SUMMARY:Parsippany High School at Boonton High School (Varsity Girls Girl
  s Tennis)
 DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2790:7475227@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260916T160000
-DTEND;TZID=America/New_York:20260916T180000
-SUMMARY:Parsippany High School at Whippany Park High School (Varsity Boys
-  Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2790:7514983@northwest-jersey-athletic-conference
@@ -1077,15 +1077,6 @@ SUMMARY:Morris County School of Technology vs Parsippany High School (Var
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2790:7514561@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260924T160000
-DTEND;TZID=America/New_York:20260924T180000
-SUMMARY:Parsippany High School vs Whippany Park High School (Varsity Girl
- s Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2790:7550681@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260924T160000
@@ -1093,6 +1084,15 @@ DTEND;TZID=America/New_York:20260924T180000
 SUMMARY:Parsippany High School at Academy of Saint Elizabeth (Junior Vars
  ity Girls Girls Tennis)
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2790:7514561@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260924T160000
+DTEND;TZID=America/New_York:20260924T180000
+SUMMARY:Parsippany High School vs Whippany Park High School (Varsity Girl
+ s Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2790:7541530@northwest-jersey-athletic-conference
@@ -2409,7 +2409,7 @@ SUMMARY:Parsippany High School at River Dell Regional High School (Freshm
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2790:7637767@northwest-jersey-athletic-conference
+UID:ds:2790:7782900@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20261214
 DTEND;VALUE=DATE:20261215
@@ -2418,7 +2418,7 @@ SUMMARY:Parsippany High School at Belvidere High School (Varsity Boys Boy
 DESCRIPTION:Varsity Boys Boys Wrestling - Away
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2790:7782900@northwest-jersey-athletic-conference
+UID:ds:2790:7637767@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20261214
 DTEND;VALUE=DATE:20261215
@@ -2544,7 +2544,7 @@ SUMMARY:Boonton High School vs Parsippany High School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2642:7456150@northwest-jersey-athletic-conference
+UID:ds:2642:7807963@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261216T190000
 DTEND;TZID=America/New_York:20261216T210000
@@ -2823,7 +2823,7 @@ SUMMARY:Montville High School at Parsippany High School (Varsity Boys Boy
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2790:7808240@northwest-jersey-athletic-conference
+UID:ds:2790:7637811@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261221T190000
 DTEND;TZID=America/New_York:20261221T210000
@@ -2877,7 +2877,7 @@ SUMMARY:Parsippany High School at Parsippany High School (Junior Varsity
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2791:7819717@northwest-jersey-athletic-conference
+UID:ds:2791:7819718@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261222T173000
 DTEND;TZID=America/New_York:20261222T193000
@@ -3237,7 +3237,7 @@ SUMMARY:Parsippany High School vs Bernards High School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2790:7776725@northwest-jersey-athletic-conference
+UID:ds:2790:7808805@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T170000
 DTEND;TZID=America/New_York:20270107T190000
@@ -3390,7 +3390,7 @@ SUMMARY:Parsippany High School at Passaic County Technical Institute (Var
 DESCRIPTION:Varsity Girls Girls Wrestling - Away - 9:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2790:7808994@northwest-jersey-athletic-conference
+UID:ds:2790:7646538@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270109T201500
 DTEND;TZID=America/New_York:20270109T221500
@@ -3590,7 +3590,7 @@ SUMMARY:Kittatinny High School vs Parsippany High School (Varsity Boys Bo
 DESCRIPTION:Varsity Boys Boys Swimming - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2790:7778357@northwest-jersey-athletic-conference
+UID:ds:2790:7788613@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T170000
 DTEND;TZID=America/New_York:20270114T190000
@@ -3618,7 +3618,7 @@ SUMMARY:Morristown Beard School at Parsippany High School (Junior Varsity
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2790:7809343@northwest-jersey-athletic-conference
+UID:ds:2790:7457485@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T190000
 DTEND;TZID=America/New_York:20270114T210000
@@ -3843,7 +3843,7 @@ SUMMARY:Parsippany High School at TBD (Junior Varsity Boys Boys Basketbal
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2790:7809697@northwest-jersey-athletic-conference
+UID:ds:2790:7777287@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270120T173000
 DTEND;TZID=America/New_York:20270120T193000
@@ -3870,7 +3870,7 @@ SUMMARY:Wallkill Valley High School at Parsippany High School (Junior Var
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2790:7561532@northwest-jersey-athletic-conference
+UID:ds:2790:7809725@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270120T190000
 DTEND;TZID=America/New_York:20270120T210000
@@ -3978,7 +3978,7 @@ SUMMARY:Parsippany Hills High School at Parsippany High School (Junior Va
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2790:7784702@northwest-jersey-athletic-conference
+UID:ds:2790:7687766@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270122T174500
 DTEND;TZID=America/New_York:20270122T194500
@@ -3996,7 +3996,7 @@ SUMMARY:Morris Catholic High School at Parsippany High School (Varsity Bo
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2790:7638535@northwest-jersey-athletic-conference
+UID:ds:2790:7809785@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270122
 DTEND;VALUE=DATE:20270123
@@ -4005,7 +4005,7 @@ SUMMARY:Parsippany High School at Mount Olive High School (Varsity Boys B
 DESCRIPTION:Varsity Boys Boys Wrestling - Away
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2790:7809785@northwest-jersey-athletic-conference
+UID:ds:2790:7638535@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270122
 DTEND;VALUE=DATE:20270123
@@ -4328,7 +4328,7 @@ SUMMARY:Parsippany High School vs Parsippany Hills High School (Varsity B
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2649:7810224@northwest-jersey-athletic-conference
+UID:ds:2649:7572182@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270130T180000
 DTEND;TZID=America/New_York:20270130T200000
@@ -5102,7 +5102,7 @@ SUMMARY:Boonton High School vs Parsippany High School (Varsity Girls Soft
 DESCRIPTION:Varsity Girls Softball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:MorristownBeardSchool:event_9964_20270413t200000zapi.veracross.co
+UID:ics:MorristownBeardSchool:event_9963_20270413t200000zapi.veracross.co
  m@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270413T160000
