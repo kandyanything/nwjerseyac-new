@@ -91,6 +91,7 @@
         if (active.p) select(active.p, active.b); else selectAll(active.b);
     }
 
+<<<<<<< HEAD
     // Instagram hands out several url shapes for the same post:
     //   instagram.com/p/<code>/        instagram.com/reel/<code>/
     //   instagram.com/<user>/p/<code>/ and any of them with query strings.
@@ -102,6 +103,8 @@
         return 'https://www.instagram.com/' + m[1].toLowerCase() + '/' + m[2] + '/embed/';
     }
 
+=======
+>>>>>>> 895f744a0 (Scores refresh 2026-10-31)
     function buildFeed(p) {
         var box = el('div', 'social-feed');
         box.setAttribute('data-platform', p.id);
@@ -138,6 +141,7 @@
         }
 
         if (p.id === 'instagram' && Array.isArray(p.posts) && p.posts.length) {
+<<<<<<< HEAD
             // Single-post embeds need no token. A profile FEED still does.
             var grid = el('div', 'social-posts');
             p.posts.forEach(function (u) {
@@ -157,6 +161,22 @@
                 box.appendChild(grid);
                 return box;
             }
+=======
+            // Single-post embeds still work without a token; a profile feed does not.
+            var grid = el('div', 'social-posts');
+            p.posts.forEach(function (u) {
+                var f = document.createElement('iframe');
+                f.src = u.replace(/\/?$/, '/') + 'embed';
+                f.title = 'Instagram post';
+                f.style.cssText = 'border:none;overflow:hidden;width:100%;aspect-ratio:1/1.25;';
+                f.scrolling = 'no';
+                f.frameBorder = '0';
+                f.loading = 'lazy';
+                grid.appendChild(f);
+            });
+            box.appendChild(grid);
+            return box;
+>>>>>>> 895f744a0 (Scores refresh 2026-10-31)
         }
 
         // Nothing embeddable yet — say so plainly instead of showing a dead frame.
