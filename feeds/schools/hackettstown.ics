@@ -512,15 +512,6 @@ SUMMARY:Hackettstown High School at Wallkill Valley High School (Junior V
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2634:7471850@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260910T160000
-DTEND;TZID=America/New_York:20260910T180000
-SUMMARY:Hackettstown High School vs Vernon Township High School (Varsity 
- Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2634:7471851@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260910T160000
@@ -528,6 +519,15 @@ DTEND;TZID=America/New_York:20260910T180000
 SUMMARY:Hackettstown High School vs Vernon Township High School (Junior V
  arsity Girls Girls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2634:7471850@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260910T160000
+DTEND;TZID=America/New_York:20260910T180000
+SUMMARY:Hackettstown High School vs Vernon Township High School (Varsity 
+ Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102078719@northwest-jersey-athletic-conference
@@ -1232,15 +1232,6 @@ SUMMARY:Hackettstown High School vs Wallkill Valley High School (Varsity
 DESCRIPTION:Varsity Coed Coed Cross Country - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2686:7472405@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260929T160000
-DTEND;TZID=America/New_York:20260929T180000
-SUMMARY:Kittatinny High School at Hackettstown High School (Varsity Girls
-  Girls Cross Country)
-DESCRIPTION:Varsity Girls Girls Cross Country - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2686:7472395@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260929T160000
@@ -1248,6 +1239,15 @@ DTEND;TZID=America/New_York:20260929T180000
 SUMMARY:Kittatinny High School at Hackettstown High School (Varsity Boys 
  Boys Cross Country)
 DESCRIPTION:Varsity Boys Boys Cross Country - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2686:7472405@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260929T160000
+DTEND;TZID=America/New_York:20260929T180000
+SUMMARY:Kittatinny High School at Hackettstown High School (Varsity Girls
+  Girls Cross Country)
+DESCRIPTION:Varsity Girls Girls Cross Country - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2919:7472405@northwest-jersey-athletic-conference
@@ -1457,13 +1457,13 @@ SUMMARY:Hackettstown High School vs Kinnelon High School (Junior Varsity
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2634:7570409@northwest-jersey-athletic-conference
+UID:ds:2634:7676369@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261007T160000
 DTEND;TZID=America/New_York:20261007T180000
-SUMMARY:Hackettstown High School at Vernon Township High School (Freshman
-  Girls Girls Volleyball)
-DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:00 PM
+SUMMARY:Hackettstown High School vs Voorhees High School (Freshman Boys B
+ oys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2634:7496076@northwest-jersey-athletic-conference
@@ -1475,13 +1475,13 @@ SUMMARY:Hackettstown High School vs Vernon Township High School (Varsity
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2634:7676369@northwest-jersey-athletic-conference
+UID:ds:2634:7570409@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261007T160000
 DTEND;TZID=America/New_York:20261007T180000
-SUMMARY:Hackettstown High School vs Voorhees High School (Freshman Boys B
- oys Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
+SUMMARY:Hackettstown High School at Vernon Township High School (Freshman
+  Girls Girls Volleyball)
+DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2634:7496365@northwest-jersey-athletic-conference
@@ -3360,7 +3360,7 @@ SUMMARY:Hackettstown High School at Morris Knolls High School (Varsity Bo
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 7:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2634:7505458@northwest-jersey-athletic-conference
+UID:ds:2634:7808846@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270108T160000
 DTEND;TZID=America/New_York:20270108T180000
@@ -3728,6 +3728,15 @@ SUMMARY:Hanover Park High School at Hackettstown High School (Var-JV Girl
 DESCRIPTION:Var-JV Girls Girls Swimming - Away - 6:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2940:7809614@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270119T181500
+DTEND;TZID=America/New_York:20270119T201500
+SUMMARY:Whippany Park High School at Hackettstown High School (Var-JV Boy
+ s Boys Swimming)
+DESCRIPTION:Var-JV Boys Boys Swimming - Away - 6:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2940:7600196@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270119T181500
@@ -3735,15 +3744,6 @@ DTEND;TZID=America/New_York:20270119T201500
 SUMMARY:Whippany Park High School at Hackettstown High School (Var-JV Gir
  ls Girls Swimming)
 DESCRIPTION:Var-JV Girls Girls Swimming - Away - 6:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2940:7809613@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270119T181500
-DTEND;TZID=America/New_York:20270119T201500
-SUMMARY:Whippany Park High School at Hackettstown High School (Var-JV Boy
- s Boys Swimming)
-DESCRIPTION:Var-JV Boys Boys Swimming - Away - 6:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:104319442@northwest-jersey-athletic-conference
@@ -3881,7 +3881,7 @@ SUMMARY:Hackettstown High School at Jefferson Township High School (Junio
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2634:7809854@northwest-jersey-athletic-conference
+UID:ds:2634:7457431@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270122T190000
 DTEND;TZID=America/New_York:20270122T210000
@@ -3890,7 +3890,7 @@ SUMMARY:Hackettstown High School at Jefferson Township High School (Varsi
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2634:7809901@northwest-jersey-athletic-conference
+UID:ds:2634:7735026@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270123T140000
 DTEND;TZID=America/New_York:20270123T160000
@@ -3953,7 +3953,7 @@ SUMMARY:Hackettstown High School vs Vernon Township High School (Junior V
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2634:7810024@northwest-jersey-athletic-conference
+UID:ds:2634:7760124@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270126T173000
 DTEND;TZID=America/New_York:20270126T193000
@@ -3971,15 +3971,6 @@ SUMMARY:Hackettstown High School vs Bayonne High School (Varsity Coed Coe
 DESCRIPTION:Varsity Coed Coed Fencing - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2634:7457434@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270126T190000
-DTEND;TZID=America/New_York:20270126T210000
-SUMMARY:Hackettstown High School at Vernon Township High School (Varsity 
- Boys Boys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2634:7457653@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270126T190000
@@ -3987,6 +3978,15 @@ DTEND;TZID=America/New_York:20270126T210000
 SUMMARY:Hackettstown High School vs Vernon Township High School (Varsity 
  Girls Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2634:7457434@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270126T190000
+DTEND;TZID=America/New_York:20270126T210000
+SUMMARY:Hackettstown High School at Vernon Township High School (Varsity 
+ Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2634:7678540@northwest-jersey-athletic-conference
