@@ -476,15 +476,6 @@ SUMMARY:Academy of Saint Elizabeth vs Hanover Park High School (Varsity G
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2913:7450870@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260908T160000
-DTEND;TZID=America/New_York:20260908T180000
-SUMMARY:Villa Walsh Academy at Hanover Park High School (Varsity Girls Gi
- rls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2913:7450806@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260908T160000
@@ -492,6 +483,15 @@ DTEND;TZID=America/New_York:20260908T180000
 SUMMARY:Villa Walsh Academy vs Hanover Park High School (Junior Varsity G
  irls Girls Tennis)
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2913:7450870@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260908T160000
+DTEND;TZID=America/New_York:20260908T180000
+SUMMARY:Villa Walsh Academy at Hanover Park High School (Varsity Girls Gi
+ rls Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2642:7522054@northwest-jersey-athletic-conference
@@ -629,6 +629,15 @@ SUMMARY:Morris County School of Technology at Hanover Park High School (V
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 3:45 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2642:7473734@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T160000
+DTEND;TZID=America/New_York:20260914T180000
+SUMMARY:Hanover Park High School at Whippany Park High School (Varsity Gi
+ rls Girls Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2642:7437609@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260914T160000
@@ -663,15 +672,6 @@ DTEND;TZID=America/New_York:20260914T180000
 SUMMARY:Morris County School of Technology at Hanover Park High School (J
  unior Varsity Boys Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2642:7473734@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260914T160000
-DTEND;TZID=America/New_York:20260914T180000
-SUMMARY:Hanover Park High School at Whippany Park High School (Varsity Gi
- rls Girls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:42130:7496959@northwest-jersey-athletic-conference
@@ -1017,15 +1017,6 @@ SUMMARY:Academy of Saint Elizabeth vs Hanover Park High School (Varsity G
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2642:7497099@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260928T163000
-DTEND;TZID=America/New_York:20260928T183000
-SUMMARY:Hanover Park High School vs Livingston High School (Varsity Girls
-  Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2642:7539295@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260928T163000
@@ -1033,6 +1024,15 @@ DTEND;TZID=America/New_York:20260928T183000
 SUMMARY:Hanover Park High School at Westwood Regional Senior High School 
  (Junior Varsity Boys Football)
 DESCRIPTION:Junior Varsity Boys Football - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2642:7497099@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260928T163000
+DTEND;TZID=America/New_York:20260928T183000
+SUMMARY:Hanover Park High School vs Livingston High School (Varsity Girls
+  Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:99567410@northwest-jersey-athletic-conference
@@ -2049,7 +2049,7 @@ SUMMARY:Hanover Park High School at Parsippany Hills High School (Varsity
 DESCRIPTION:Varsity Coed Coed Swimming - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2642:7807710@northwest-jersey-athletic-conference
+UID:ds:2642:7511211@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261211T190000
 DTEND;TZID=America/New_York:20261211T210000
@@ -2454,6 +2454,24 @@ SUMMARY:Hanover Park High School at Roxbury High School (Varsity Boys Boy
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2642:7604580@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270102
+DTEND;VALUE=DATE:20270103
+SUMMARY:Hanover Park High School at Newton High School (Varsity Boys Boys
+  Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2642:7793505@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270102
+DTEND;VALUE=DATE:20270103
+SUMMARY:Hanover Park High School at Newton High School (Varsity Boys Boys
+  Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Away
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2642:7793507@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270102
@@ -2500,24 +2518,6 @@ DESCRIPTION:Varsity Boys Boys Wrestling - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2642:7793511@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270102
-DTEND;VALUE=DATE:20270103
-SUMMARY:Hanover Park High School at Newton High School (Varsity Boys Boys
-  Wrestling)
-DESCRIPTION:Varsity Boys Boys Wrestling - Away
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2642:7604580@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270102
-DTEND;VALUE=DATE:20270103
-SUMMARY:Hanover Park High School at Newton High School (Varsity Boys Boys
-  Wrestling)
-DESCRIPTION:Varsity Boys Boys Wrestling - Away
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2642:7793505@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270102
 DTEND;VALUE=DATE:20270103
@@ -2589,15 +2589,6 @@ SUMMARY:Pequannock High School vs Hanover Park High School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2642:7602459@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270105T160000
-DTEND;TZID=America/New_York:20270105T180000
-SUMMARY:Hanover Park High School at Park Regional (WP/HP) (Var-JV Girls G
- irls Swimming)
-DESCRIPTION:Var-JV Girls Girls Swimming - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2642:7602355@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T160000
@@ -2605,6 +2596,15 @@ DTEND;TZID=America/New_York:20270105T180000
 SUMMARY:Hanover Park High School at Park Regional (WP/HP) (Var-JV Boys Bo
  ys Swimming)
 DESCRIPTION:Var-JV Boys Boys Swimming - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2642:7808614@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270105T160000
+DTEND;TZID=America/New_York:20270105T180000
+SUMMARY:Hanover Park High School at Park Regional (WP/HP) (Var-JV Girls G
+ irls Swimming)
+DESCRIPTION:Var-JV Girls Girls Swimming - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:104801169@northwest-jersey-athletic-conference
@@ -2625,7 +2625,7 @@ SUMMARY:Hanover Park High School at Madison High School (Junior Varsity B
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2642:7808653@northwest-jersey-athletic-conference
+UID:ds:2642:7456152@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T190000
 DTEND;TZID=America/New_York:20270105T210000
@@ -2706,6 +2706,15 @@ SUMMARY:West Morris Central at Hanover Park High School (Varsity Boys Boy
 DESCRIPTION:Varsity Boys Boys Swimming - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2642:7808827@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270107T190000
+DTEND;TZID=America/New_York:20270107T210000
+SUMMARY:Hanover Park High School vs Pequannock High School (Varsity Boys 
+ Boys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2642:7808833@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T190000
@@ -2715,16 +2724,7 @@ SUMMARY:Hanover Park High School vs West Morris Central (Var-JV Girls Gir
 DESCRIPTION:Var-JV Girls Girls Swimming - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2642:7456154@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270107T190000
-DTEND;TZID=America/New_York:20270107T210000
-SUMMARY:Hanover Park High School vs Pequannock High School (Varsity Boys 
- Boys Wrestling)
-DESCRIPTION:Varsity Boys Boys Wrestling - Home - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2642:7808831@northwest-jersey-athletic-conference
+UID:ds:2642:7732407@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T190000
 DTEND;TZID=America/New_York:20270107T210000
@@ -2895,7 +2895,7 @@ SUMMARY:Morris County School of Technology vs Hanover Park High School (V
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2642:7809287@northwest-jersey-athletic-conference
+UID:ds:2642:7765537@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T160000
 DTEND;TZID=America/New_York:20270114T180000
@@ -2922,7 +2922,7 @@ SUMMARY:Boonton High School vs Hanover Park High School (Varsity Boys Boy
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2642:7809393@northwest-jersey-athletic-conference
+UID:ds:2642:7456156@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270115T183000
 DTEND;TZID=America/New_York:20270115T203000
@@ -3003,7 +3003,7 @@ SUMMARY:Hanover Park High School at Hackettstown High School (Var-JV Girl
 DESCRIPTION:Var-JV Girls Girls Swimming - Away - 6:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2642:7809624@northwest-jersey-athletic-conference
+UID:ds:2642:7463518@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270119T190000
 DTEND;TZID=America/New_York:20270119T210000
@@ -3021,7 +3021,7 @@ SUMMARY:Boonton High School vs Hanover Park High School (Freshman Boys Bo
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2913:7809645@northwest-jersey-athletic-conference
+UID:ds:2913:7457817@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270120T160000
 DTEND;TZID=America/New_York:20270120T180000
@@ -3039,7 +3039,7 @@ SUMMARY:Boonton High School vs Hanover Park High School (Junior Varsity B
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2913:7572782@northwest-jersey-athletic-conference
+UID:ds:2913:7809691@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270120T173000
 DTEND;TZID=America/New_York:20270120T193000
@@ -3120,7 +3120,7 @@ SUMMARY:Pequannock High School at Hanover Park High School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2642:7803977@northwest-jersey-athletic-conference
+UID:ds:2642:7734169@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270123T103000
 DTEND;TZID=America/New_York:20270123T123000
@@ -3129,7 +3129,7 @@ SUMMARY:Hanover Park High School vs Clifton High School (Junior Varsity G
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 10:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2642:7734175@northwest-jersey-athletic-conference
+UID:ds:2642:7803992@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270123T120000
 DTEND;TZID=America/New_York:20270123T140000
@@ -3156,7 +3156,7 @@ SUMMARY:Madison High School vs Hanover Park High School (Varsity Girls Gi
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2642:7582387@northwest-jersey-athletic-conference
+UID:ds:2642:7809982@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270126T160000
 DTEND;TZID=America/New_York:20270126T180000
@@ -3174,7 +3174,7 @@ SUMMARY:Madison High School vs Hanover Park High School (Junior Varsity G
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2642:7810016@northwest-jersey-athletic-conference
+UID:ds:2642:7582406@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270126T173000
 DTEND;TZID=America/New_York:20270126T193000
