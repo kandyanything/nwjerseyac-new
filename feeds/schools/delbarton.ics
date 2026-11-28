@@ -441,37 +441,6 @@ SUMMARY:Mount Olive High School vs Delbarton School (Varsity Boys Boys So
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:DelbartonSchool:vcal_7519-delbartonathletics.org@northwest-jersey
- -athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261027T160000
-DTEND;TZID=America/New_York:20261027T180000
-SUMMARY:Delbarton School at Mount Olive High School (Freshman Boys [W] De
- lbarton School Soccer)
-DESCRIPTION:Freshman Boys [W] Delbarton School Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ics:DelbartonSchool:vcal_7178-delbartonathletics.org@northwest-jersey
- -athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261027T160000
-DTEND;TZID=America/New_York:20261027T180000
-SUMMARY:Delbarton School at Mount Olive High School (Varsity Boys [W] Del
- barton School Soccer)
-DESCRIPTION:Varsity Boys [W] Delbarton School Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ics:DelbartonSchool:vcal_7198-delbartonathletics.org@northwest-jersey
- -athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261027T160000
-DTEND;TZID=America/New_York:20261027T180000
-SUMMARY:Delbarton School at Mount Olive High School (Junior Varsity Boys 
- [W] Delbarton School Soccer)
-DESCRIPTION:Junior Varsity Boys [W] Delbarton School Soccer - Away - 4:00
-  PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ics:DelbartonSchool:vcal_7248-delbartonathletics.org@northwest-jersey
  -athletic-conference
 DTSTAMP:20250801T000000Z
@@ -512,17 +481,6 @@ DESCRIPTION:Junior Varsity Boys CANCELLED Delbarton School Soccer - Away
  - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ics:DelbartonSchool:vcal_7523-delbartonathletics.org@northwest-jersey
- -athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261030T160000
-DTEND;TZID=America/New_York:20261030T180000
-SUMMARY:Delbarton School vs Wharton (Middle School Boys [W] Delbarton Sch
- ool Soccer)
-DESCRIPTION:Middle School Boys [W] Delbarton School Soccer - Home - 4:00 
- PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ics:DelbartonSchool:vcal_7517-delbartonathletics.org@northwest-jersey
  -athletic-conference
 DTSTAMP:20250801T000000Z
@@ -542,6 +500,17 @@ SUMMARY:Delbarton School vs New Providence (Junior Varsity Boys [W] Delba
  rton School Soccer)
 DESCRIPTION:Junior Varsity Boys [W] Delbarton School Soccer - Home - 4:00
   PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ics:DelbartonSchool:vcal_7523-delbartonathletics.org@northwest-jersey
+ -athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261030T160000
+DTEND;TZID=America/New_York:20261030T180000
+SUMMARY:Delbarton School vs Wharton (Middle School Boys [W] Delbarton Sch
+ ool Soccer)
+DESCRIPTION:Middle School Boys [W] Delbarton School Soccer - Home - 4:00 
+ PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ics:DelbartonSchool:vcal_7242-delbartonathletics.org@northwest-jersey
@@ -1143,7 +1112,7 @@ SUMMARY:Morristown High School at Delbarton School (Freshman Boys Boys Ba
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2748:7807836@northwest-jersey-athletic-conference
+UID:ds:2748:7594738@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261215T160000
 DTEND;TZID=America/New_York:20261215T180000
@@ -1286,6 +1255,15 @@ SUMMARY:Kinnelon High School at Delbarton School (Varsity Coed Coed Bowli
 DESCRIPTION:Varsity Coed Coed Bowling - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ics:DelbartonSchool:vcal_7553-delbartonathletics.org@northwest-jersey
+ -athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261217T160000
+DTEND;TZID=America/New_York:20261217T180000
+SUMMARY:Delbarton School vs Kinnelon High School (Boys School Bowling)
+DESCRIPTION:Boys School Bowling - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ics:DelbartonSchool:vcal_7391-delbartonathletics.org@northwest-jersey
  -athletic-conference
 DTSTAMP:20250801T000000Z
@@ -1294,15 +1272,6 @@ DTEND;TZID=America/New_York:20261217T180000
 SUMMARY:Delbarton School at Chatham High School (Freshman Boys School Bas
  ketball)
 DESCRIPTION:Freshman Boys School Basketball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ics:DelbartonSchool:vcal_7553-delbartonathletics.org@northwest-jersey
- -athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261217T160000
-DTEND;TZID=America/New_York:20261217T180000
-SUMMARY:Delbarton School vs Kinnelon High School (Boys School Bowling)
-DESCRIPTION:Boys School Bowling - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2564:7808035@northwest-jersey-athletic-conference
@@ -2645,7 +2614,7 @@ SUMMARY:Kinnelon High School vs Delbarton School (Varsity Coed Coed Bowli
 DESCRIPTION:Varsity Coed Coed Bowling - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2748:7810097@northwest-jersey-athletic-conference
+UID:ds:2748:7570529@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270128T160000
 DTEND;TZID=America/New_York:20270128T180000
@@ -2691,7 +2660,7 @@ SUMMARY:Delbarton School at Brunswick School (Varsity Boys School Squash)
 DESCRIPTION:Varsity Boys School Squash - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2748:7568088@northwest-jersey-athletic-conference
+UID:ds:2748:7810119@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270128T173000
 DTEND;TZID=America/New_York:20270128T193000
