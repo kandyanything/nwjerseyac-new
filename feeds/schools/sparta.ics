@@ -1052,6 +1052,15 @@ SUMMARY:Randolph High School vs Sparta High School (Varsity Girls Girls S
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2825:7435987@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260917T160000
+DTEND;TZID=America/New_York:20260917T180000
+SUMMARY:Randolph High School vs Sparta High School (Freshman Girls Girls 
+ Soccer)
+DESCRIPTION:Freshman Girls Girls Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2825:7434017@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260917T160000
@@ -1068,15 +1077,6 @@ DTEND;TZID=America/New_York:20260917T180000
 SUMMARY:Randolph High School vs Sparta High School (Junior Varsity Girls 
  Girls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2825:7435987@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260917T160000
-DTEND;TZID=America/New_York:20260917T180000
-SUMMARY:Randolph High School vs Sparta High School (Freshman Girls Girls 
- Soccer)
-DESCRIPTION:Freshman Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2685:7540542@northwest-jersey-athletic-conference
@@ -1176,15 +1176,6 @@ SUMMARY:Sparta High School vs West Essex High School (Freshman Boys Footb
 DESCRIPTION:Freshman Boys Football - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2881:7461855@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260919T100000
-DTEND;TZID=America/New_York:20260919T120000
-SUMMARY:Sparta High School at Immaculate Heart Academy (Varsity Girls Gir
- ls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Away - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2881:7463041@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260919T100000
@@ -1192,6 +1183,15 @@ DTEND;TZID=America/New_York:20260919T120000
 SUMMARY:Sparta High School vs West Essex High School (Junior Varsity Boys
   Football)
 DESCRIPTION:Junior Varsity Boys Football - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2881:7461855@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T100000
+DTEND;TZID=America/New_York:20260919T120000
+SUMMARY:Sparta High School at Immaculate Heart Academy (Varsity Girls Gir
+ ls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2674:7454762@northwest-jersey-athletic-conference
@@ -1407,6 +1407,14 @@ SUMMARY:Sparta High School at Delbarton School (Junior Varsity Boys Boys
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2881:7457857@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260924T160000
+DTEND;TZID=America/New_York:20260924T180000
+SUMMARY:Sparta High School at Delbarton School (Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2881:7545430@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260924T160000
@@ -1432,14 +1440,6 @@ DTEND;TZID=America/New_York:20260924T180000
 SUMMARY:Sparta High School vs Vernon Township High School (Middle School 
  Coed Coed Cross Country)
 DESCRIPTION:Middle School Coed Coed Cross Country - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2881:7457857@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260924T160000
-DTEND;TZID=America/New_York:20260924T180000
-SUMMARY:Sparta High School at Delbarton School (Varsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101603382@northwest-jersey-athletic-conference
@@ -2812,20 +2812,20 @@ SUMMARY:Randolph High School vs Sparta High School (Varsity Boys Boys Soc
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2881:7594848@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261022T100000
-DTEND;TZID=America/New_York:20261022T120000
-SUMMARY:Sparta High School at TBD (Varsity Girls Girls Cross Country)
-DESCRIPTION:Varsity Girls Girls Cross Country - Away - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2881:7584549@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261022T100000
 DTEND;TZID=America/New_York:20261022T120000
 SUMMARY:Sparta High School at TBD (Varsity Boys Boys Cross Country)
 DESCRIPTION:Varsity Boys Boys Cross Country - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2881:7594848@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261022T100000
+DTEND;TZID=America/New_York:20261022T120000
+SUMMARY:Sparta High School at TBD (Varsity Girls Girls Cross Country)
+DESCRIPTION:Varsity Girls Girls Cross Country - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2825:7422573@northwest-jersey-athletic-conference
@@ -3841,7 +3841,7 @@ SUMMARY:Sparta High School vs Dover Middle School (Middle School Girls Gi
 DESCRIPTION:Middle School Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2791:7534606@northwest-jersey-athletic-conference
+UID:ds:2791:7808249@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261222T160000
 DTEND;TZID=America/New_York:20261222T180000
@@ -3868,7 +3868,7 @@ SUMMARY:Morris Knolls High School vs Sparta High School (Junior Varsity B
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2791:7534490@northwest-jersey-athletic-conference
+UID:ds:2791:7808279@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261222T173000
 DTEND;TZID=America/New_York:20261222T193000
@@ -3922,7 +3922,7 @@ SUMMARY:Sparta High School at Hackettstown High School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Swimming - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2791:7534314@northwest-jersey-athletic-conference
+UID:ds:2791:7808301@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261222T190000
 DTEND;TZID=America/New_York:20261222T210000
@@ -4262,7 +4262,7 @@ SUMMARY:Montville High School at Sparta High School (Junior Varsity Boys
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2816:7457549@northwest-jersey-athletic-conference
+UID:ds:2816:7808708@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270106T173000
 DTEND;TZID=America/New_York:20270106T193000
@@ -4325,7 +4325,7 @@ SUMMARY:Pope John XXIII High School at Sparta High School (Varsity Boys B
 DESCRIPTION:Varsity Boys Boys Swimming - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2881:7679228@northwest-jersey-athletic-conference
+UID:ds:2881:7808821@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T180000
 DTEND;TZID=America/New_York:20270107T200000
@@ -4352,15 +4352,6 @@ SUMMARY:Randolph High School at Sparta High School (Freshman Boys Boys Ba
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2881:7547124@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270108T160000
-DTEND;TZID=America/New_York:20270108T180000
-SUMMARY:Sparta High School at Pope John XXIII Middle School (Middle Schoo
- l Girls Girls Basketball)
-DESCRIPTION:Middle School Girls Girls Basketball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2881:7695008@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270108T160000
@@ -4379,6 +4370,15 @@ SUMMARY:Sparta High School vs Pope John XXIII Middle School (Middle Schoo
 DESCRIPTION:Middle School Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2881:7808857@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270108T160000
+DTEND;TZID=America/New_York:20270108T180000
+SUMMARY:Sparta High School at Pope John XXIII Middle School (Middle Schoo
+ l Girls Girls Basketball)
+DESCRIPTION:Middle School Girls Girls Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2825:7534322@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270108T173000
@@ -4388,7 +4388,7 @@ SUMMARY:Randolph High School at Sparta High School (Junior Varsity Boys B
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2881:7808916@northwest-jersey-athletic-conference
+UID:ds:2881:7697691@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270108T174500
 DTEND;TZID=America/New_York:20270108T194500
@@ -4406,7 +4406,7 @@ SUMMARY:Randolph High School at Sparta High School (Varsity Boys Boys Bas
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2881:7642145@northwest-jersey-athletic-conference
+UID:ds:2881:7808953@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270109T090000
 DTEND;TZID=America/New_York:20270109T110000
@@ -4423,7 +4423,7 @@ SUMMARY:Sparta High School at Southern Regional High School (Varsity Girl
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2881:7767465@northwest-jersey-athletic-conference
+UID:ds:2881:7809043@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270111T173000
 DTEND;TZID=America/New_York:20270111T193000
@@ -4570,7 +4570,7 @@ SUMMARY:Sparta High School at Pearl R Miller Middle School (Middle School
 DESCRIPTION:Middle School Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2881:7809186@northwest-jersey-athletic-conference
+UID:ds:2881:7547004@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270113T160000
 DTEND;TZID=America/New_York:20270113T180000
@@ -4921,7 +4921,7 @@ SUMMARY:Sparta High School vs Pequannock High School (Varsity Girls Girls
 DESCRIPTION:Varsity Girls Girls Swimming - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2838:7809610@northwest-jersey-athletic-conference
+UID:ds:2838:7570184@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270119T180000
 DTEND;TZID=America/New_York:20270119T200000
@@ -5074,7 +5074,7 @@ SUMMARY:Sparta High School vs Morris Knolls High School (Freshman Boys Bo
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 10:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2686:7809731@northwest-jersey-athletic-conference
+UID:ds:2686:7642531@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T090000
 DTEND;TZID=America/New_York:20270121T110000
@@ -5119,7 +5119,7 @@ SUMMARY:Sparta High School at Vernon Township High School (Middle School
 DESCRIPTION:Middle School Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2686:7570188@northwest-jersey-athletic-conference
+UID:ds:2686:7809766@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T180000
 DTEND;TZID=America/New_York:20270121T200000
@@ -5262,7 +5262,7 @@ SUMMARY:High Point High School vs Sparta High School (Varsity Coed Unifie
 DESCRIPTION:Varsity Coed Unified Sports Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2881:7784850@northwest-jersey-athletic-conference
+UID:ds:2881:7688326@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270126T160000
 DTEND;TZID=America/New_York:20270126T180000
@@ -5316,7 +5316,7 @@ SUMMARY:Newton High School at Sparta High School (Varsity Boys Boys Bowli
 DESCRIPTION:Varsity Boys Boys Bowling - Away - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2816:7777163@northwest-jersey-athletic-conference
+UID:ds:2816:7810109@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270128T160000
 DTEND;TZID=America/New_York:20270128T180000
@@ -5352,7 +5352,7 @@ SUMMARY:Pope John XXIII High School at Sparta High School (Junior Varsity
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2881:7810137@northwest-jersey-athletic-conference
+UID:ds:2881:7570191@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270128T180000
 DTEND;TZID=America/New_York:20270128T200000
@@ -5370,6 +5370,15 @@ SUMMARY:Pope John XXIII High School at Sparta High School (Varsity Boys B
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2881:7819738@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270128T190000
+DTEND;TZID=America/New_York:20270128T210000
+SUMMARY:Sparta High School at Jefferson-Sparta (Varsity Boys Boys Wrestli
+ ng)
+DESCRIPTION:Varsity Boys Boys Wrestling - Away - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2881:7612813@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270128T190000
@@ -5377,15 +5386,6 @@ DTEND;TZID=America/New_York:20270128T210000
 SUMMARY:Sparta High School at North Hunterdon High School (Varsity Girls 
  Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2881:7458059@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270128T190000
-DTEND;TZID=America/New_York:20270128T210000
-SUMMARY:Sparta High School at Jefferson-Sparta (Varsity Boys Boys Wrestli
- ng)
-DESCRIPTION:Varsity Boys Boys Wrestling - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2649:7702579@northwest-jersey-athletic-conference
@@ -5460,7 +5460,7 @@ SUMMARY:Sparta High School at Vernon Township High School (Varsity Girls
 DESCRIPTION:Varsity Girls Girls Wrestling - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2881:7570040@northwest-jersey-athletic-conference
+UID:ds:2881:7810204@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270130T091500
 DTEND;TZID=America/New_York:20270130T111500
