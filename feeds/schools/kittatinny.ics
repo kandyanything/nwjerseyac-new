@@ -213,6 +213,15 @@ SUMMARY:Kittatinny High School vs Newton High School (Varsity Girls Girls
 DESCRIPTION:Varsity Girls Girls Tennis - Home - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2649:7464107@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260904T183000
+DTEND;TZID=America/New_York:20260904T203000
+SUMMARY:High Point High School vs Kittatinny High School (Varsity Boys Fo
+ otball)
+DESCRIPTION:Varsity Boys Football - Home - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2649:7512492@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260904T183000
@@ -222,13 +231,13 @@ SUMMARY:High Point High School vs Kittatinny High School (Varsity Girls G
 DESCRIPTION:Varsity Girls Girls Cheerleading - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2649:7464107@northwest-jersey-athletic-conference
+UID:ds:2649:7465519@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260904T183000
-DTEND;TZID=America/New_York:20260904T203000
-SUMMARY:High Point High School vs Kittatinny High School (Varsity Boys Fo
- otball)
-DESCRIPTION:Varsity Boys Football - Home - 6:30 PM
+DTSTART;TZID=America/New_York:20260905T100000
+DTEND;TZID=America/New_York:20260905T120000
+SUMMARY:High Point High School at Kittatinny High School (Junior Varsity 
+ Boys Football)
+DESCRIPTION:Junior Varsity Boys Football - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2649:7469680@northwest-jersey-athletic-conference
@@ -249,15 +258,6 @@ SUMMARY:High Point High School vs Kittatinny High School (Junior Varsity
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2649:7465519@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260905T100000
-DTEND;TZID=America/New_York:20260905T120000
-SUMMARY:High Point High School at Kittatinny High School (Junior Varsity 
- Boys Football)
-DESCRIPTION:Junior Varsity Boys Football - Away - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2649:7461214@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260908T160000
@@ -265,6 +265,15 @@ DTEND;TZID=America/New_York:20260908T180000
 SUMMARY:High Point High School vs Kittatinny High School (Varsity Girls F
  ield Hockey)
 DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2649:7472402@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260908T160000
+DTEND;TZID=America/New_York:20260908T180000
+SUMMARY:High Point High School at Kittatinny High School (Varsity Girls G
+ irls Cross Country)
+DESCRIPTION:Varsity Girls Girls Cross Country - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2649:7472387@northwest-jersey-athletic-conference
@@ -285,15 +294,6 @@ SUMMARY:High Point High School at Kittatinny High School (Varsity Coed Co
 DESCRIPTION:Varsity Coed Coed Cross Country - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2649:7472402@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260908T160000
-DTEND;TZID=America/New_York:20260908T180000
-SUMMARY:High Point High School at Kittatinny High School (Varsity Girls G
- irls Cross Country)
-DESCRIPTION:Varsity Girls Girls Cross Country - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2686:7486627@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260908T160000
@@ -301,6 +301,24 @@ DTEND;TZID=America/New_York:20260908T180000
 SUMMARY:Kittatinny High School at Wallkill Valley High School (Junior Var
  sity Boys Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2686:7469683@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260908T160000
+DTEND;TZID=America/New_York:20260908T180000
+SUMMARY:Kittatinny High School at Wallkill Valley High School (Varsity Bo
+ ys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2686:7472402@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260908T160000
+DTEND;TZID=America/New_York:20260908T180000
+SUMMARY:Kittatinny High School vs Lenape Valley High School (Varsity Girl
+ s Girls Cross Country)
+DESCRIPTION:Varsity Girls Girls Cross Country - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2686:7469925@northwest-jersey-athletic-conference
@@ -337,24 +355,6 @@ DTEND;TZID=America/New_York:20260908T180000
 SUMMARY:Kittatinny High School vs Wallkill Valley High School (Junior Var
  sity Girls Girls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2686:7469683@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260908T160000
-DTEND;TZID=America/New_York:20260908T180000
-SUMMARY:Kittatinny High School at Wallkill Valley High School (Varsity Bo
- ys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2686:7472402@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260908T160000
-DTEND;TZID=America/New_York:20260908T180000
-SUMMARY:Kittatinny High School vs Lenape Valley High School (Varsity Girl
- s Girls Cross Country)
-DESCRIPTION:Varsity Girls Girls Cross Country - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2686:7470579@northwest-jersey-athletic-conference
@@ -447,15 +447,6 @@ SUMMARY:High Point High School at Kittatinny High School (Varsity Girls G
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2649:7476002@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260910T160000
-DTEND;TZID=America/New_York:20260910T180000
-SUMMARY:High Point High School at Kittatinny High School (Junior Varsity 
- Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2649:7470570@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260910T160000
@@ -463,6 +454,15 @@ DTEND;TZID=America/New_York:20260910T180000
 SUMMARY:High Point High School vs Kittatinny High School (Varsity Girls G
  irls Tennis)
 DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2649:7495250@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260910T160000
+DTEND;TZID=America/New_York:20260910T180000
+SUMMARY:High Point High School at Kittatinny High School (Junior Varsity 
+ Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2661:7471777@northwest-jersey-athletic-conference
@@ -600,7 +600,7 @@ SUMMARY:Kittatinny High School vs Hopatcong High School (Varsity Girls Gi
 DESCRIPTION:Varsity Girls Girls Cross Country - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2887:7591480@northwest-jersey-athletic-conference
+UID:ds:2887:7472389@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260915T160000
 DTEND;TZID=America/New_York:20260915T180000
@@ -634,15 +634,6 @@ DTEND;TZID=America/New_York:20260915T193000
 SUMMARY:Kittatinny High School vs Vernon Township High School (Junior Var
  sity Girls Field Hockey)
 DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2686:7469817@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260916T160000
-DTEND;TZID=America/New_York:20260916T180000
-SUMMARY:Kittatinny High School vs Sussex County Technical High School (Va
- rsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2686:7469862@northwest-jersey-athletic-conference
@@ -688,6 +679,15 @@ DTEND;TZID=America/New_York:20260916T180000
 SUMMARY:Kittatinny High School at North Warren (Junior Varsity Girls Girl
  s Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2686:7469817@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260916T160000
+DTEND;TZID=America/New_York:20260916T180000
+SUMMARY:Kittatinny High School vs Sussex County Technical High School (Va
+ rsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2887:7469817@northwest-jersey-athletic-conference
@@ -1060,15 +1060,6 @@ SUMMARY:Hopatcong High School at Kittatinny High School (Junior Varsity B
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2686:7472405@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260929T160000
-DTEND;TZID=America/New_York:20260929T180000
-SUMMARY:Kittatinny High School at Hackettstown High School (Varsity Girls
-  Girls Cross Country)
-DESCRIPTION:Varsity Girls Girls Cross Country - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2686:7472395@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260929T160000
@@ -1076,6 +1067,15 @@ DTEND;TZID=America/New_York:20260929T180000
 SUMMARY:Kittatinny High School at Hackettstown High School (Varsity Boys 
  Boys Cross Country)
 DESCRIPTION:Varsity Boys Boys Cross Country - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2686:7472405@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260929T160000
+DTEND;TZID=America/New_York:20260929T180000
+SUMMARY:Kittatinny High School at Hackettstown High School (Varsity Girls
+  Girls Cross Country)
+DESCRIPTION:Varsity Girls Girls Cross Country - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2649:7475983@northwest-jersey-athletic-conference
@@ -1096,15 +1096,6 @@ SUMMARY:Hopatcong High School vs Kittatinny High School (Varsity Boys Boy
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2686:7467096@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260930T154500
-DTEND;TZID=America/New_York:20260930T174500
-SUMMARY:Kittatinny High School vs Sussex County Charter School (Middle Sc
- hool Coed Coed Cross Country)
-DESCRIPTION:Middle School Coed Coed Cross Country - Home - 3:45 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2686:7465588@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260930T154500
@@ -1114,6 +1105,15 @@ SUMMARY:Kittatinny High School at Halsted Middle School (Middle School Gi
 DESCRIPTION:Middle School Girls Field Hockey - Away - 3:45 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2686:7467096@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260930T154500
+DTEND;TZID=America/New_York:20260930T174500
+SUMMARY:Kittatinny High School vs Sussex County Charter School (Middle Sc
+ hool Coed Coed Cross Country)
+DESCRIPTION:Middle School Coed Coed Cross Country - Home - 3:45 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2594:7568411@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260930T160000
@@ -1121,15 +1121,6 @@ DTEND;TZID=America/New_York:20260930T180000
 SUMMARY:Dover High School at Kittatinny High School (Middle School Boys B
  oys Soccer)
 DESCRIPTION:Middle School Boys Boys Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2686:7460639@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260930T160000
-DTEND;TZID=America/New_York:20260930T180000
-SUMMARY:Kittatinny High School vs Dover Middle School (Middle School Boys
-  Boys Soccer)
-DESCRIPTION:Middle School Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2686:7461276@northwest-jersey-athletic-conference
@@ -1148,6 +1139,15 @@ DTEND;TZID=America/New_York:20260930T180000
 SUMMARY:Kittatinny High School at Dover Middle School (Middle School Girl
  s Girls Soccer)
 DESCRIPTION:Middle School Girls Girls Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2686:7460639@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260930T160000
+DTEND;TZID=America/New_York:20260930T180000
+SUMMARY:Kittatinny High School vs Dover Middle School (Middle School Boys
+  Boys Soccer)
+DESCRIPTION:Middle School Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2686:7552450@northwest-jersey-athletic-conference
@@ -1554,15 +1554,6 @@ SUMMARY:Kittatinny High School vs TBA NJ (Varsity Girls Girls Cross Count
 DESCRIPTION:Varsity Girls Girls Cross Country - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2686:7462051@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261014T160000
-DTEND;TZID=America/New_York:20261014T180000
-SUMMARY:Kittatinny High School vs Briarcliff Middle School (Middle School
-  Girls Girls Soccer)
-DESCRIPTION:Middle School Girls Girls Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2686:7461976@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261014T160000
@@ -1570,6 +1561,15 @@ DTEND;TZID=America/New_York:20261014T180000
 SUMMARY:Kittatinny High School at Briarcliff Middle School (Middle School
   Boys Boys Soccer)
 DESCRIPTION:Middle School Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2686:7462051@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261014T160000
+DTEND;TZID=America/New_York:20261014T180000
+SUMMARY:Kittatinny High School vs Briarcliff Middle School (Middle School
+  Girls Girls Soccer)
+DESCRIPTION:Middle School Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2754:7462051@northwest-jersey-athletic-conference
@@ -1608,15 +1608,6 @@ SUMMARY:Kittatinny High School vs Dover Middle School (Middle School Girl
 DESCRIPTION:Middle School Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2686:7533117@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261015T160000
-DTEND;TZID=America/New_York:20261015T180000
-SUMMARY:Kittatinny High School vs Newton High School (Varsity Girls Girls
-  Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2686:7675862@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261015T160000
@@ -1624,6 +1615,15 @@ DTEND;TZID=America/New_York:20261015T180000
 SUMMARY:Kittatinny High School vs Newton High School (Varsity Girls Field
   Hockey)
 DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2686:7533117@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261015T160000
+DTEND;TZID=America/New_York:20261015T180000
+SUMMARY:Kittatinny High School vs Newton High School (Varsity Girls Girls
+  Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2686:7504529@northwest-jersey-athletic-conference
@@ -1635,7 +1635,7 @@ SUMMARY:Kittatinny High School at Sparta High School (Middle School Coed
 DESCRIPTION:Middle School Coed Coed Cross Country - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2686:7568406@northwest-jersey-athletic-conference
+UID:ds:2686:7462025@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261016T160000
 DTEND;TZID=America/New_York:20261016T180000
@@ -1716,6 +1716,15 @@ SUMMARY:Hackettstown High School at Kittatinny High School (Varsity Girls
 DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2686:7465524@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261019T160000
+DTEND;TZID=America/New_York:20261019T180000
+SUMMARY:Kittatinny High School vs Sussex County Technical High School (Ju
+ nior Varsity Boys Football)
+DESCRIPTION:Junior Varsity Boys Football - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2686:7457769@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261019T160000
@@ -1732,15 +1741,6 @@ DTEND;TZID=America/New_York:20261019T180000
 SUMMARY:Kittatinny High School at Central Middle School (Middle School Gi
  rls Girls Soccer)
 DESCRIPTION:Middle School Girls Girls Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2686:7465524@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261019T160000
-DTEND;TZID=America/New_York:20261019T180000
-SUMMARY:Kittatinny High School vs Sussex County Technical High School (Ju
- nior Varsity Boys Football)
-DESCRIPTION:Junior Varsity Boys Football - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2686:7469856@northwest-jersey-athletic-conference
@@ -1895,6 +1895,14 @@ SUMMARY:Kittatinny High School vs TBA NJ (Varsity Girls Girls Cross Count
 DESCRIPTION:Varsity Girls Girls Cross Country - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2686:7469849@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261022T160000
+DTEND;TZID=America/New_York:20261022T180000
+SUMMARY:Kittatinny High School vs North Warren (Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2686:7469870@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261022T160000
@@ -1902,14 +1910,6 @@ DTEND;TZID=America/New_York:20261022T180000
 SUMMARY:Kittatinny High School vs North Warren (Junior Varsity Boys Boys 
  Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2686:7469849@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261022T160000
-DTEND;TZID=America/New_York:20261022T180000
-SUMMARY:Kittatinny High School vs North Warren (Varsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2674:7695853@northwest-jersey-athletic-conference
@@ -2037,15 +2037,6 @@ SUMMARY:Kittatinny High School at Vernon Township High School (Varsity Gi
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2686:7465785@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261027T154500
-DTEND;TZID=America/New_York:20261027T174500
-SUMMARY:Kittatinny High School at Frankford Middle School (Middle School 
- Girls Field Hockey)
-DESCRIPTION:Middle School Girls Field Hockey - Away - 3:45 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2686:7467102@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261027T154500
@@ -2053,6 +2044,15 @@ DTEND;TZID=America/New_York:20261027T174500
 SUMMARY:Kittatinny High School at Glen Meadow Middle School (Middle Schoo
  l Coed Coed Cross Country)
 DESCRIPTION:Middle School Coed Coed Cross Country - Away - 3:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2686:7465785@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261027T154500
+DTEND;TZID=America/New_York:20261027T174500
+SUMMARY:Kittatinny High School at Frankford Middle School (Middle School 
+ Girls Field Hockey)
+DESCRIPTION:Middle School Girls Field Hockey - Away - 3:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2686:7562926@northwest-jersey-athletic-conference
@@ -2917,7 +2917,7 @@ SUMMARY:Kittatinny High School at Lenape Valley High School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2634:7808846@northwest-jersey-athletic-conference
+UID:ds:2634:7505458@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270108T160000
 DTEND;TZID=America/New_York:20270108T180000
@@ -2989,7 +2989,7 @@ SUMMARY:Hackettstown High School vs Kittatinny High School (Varsity Girls
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2686:7613892@northwest-jersey-athletic-conference
+UID:ds:2686:7808945@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270108T190000
 DTEND;TZID=America/New_York:20270108T210000
@@ -3052,7 +3052,7 @@ SUMMARY:Kittatinny High School at Blair Academy (Freshman Girls Girls Bas
 DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2649:7681282@northwest-jersey-athletic-conference
+UID:ds:2649:7809040@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270111T173000
 DTEND;TZID=America/New_York:20270111T193000
@@ -3331,7 +3331,7 @@ SUMMARY:Hackettstown High School vs Kittatinny High School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2686:7809625@northwest-jersey-athletic-conference
+UID:ds:2686:7475344@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270119T190000
 DTEND;TZID=America/New_York:20270119T210000
@@ -3385,7 +3385,7 @@ SUMMARY:Dover High School at Kittatinny High School (Varsity Boys Boys Ba
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2686:7642531@northwest-jersey-athletic-conference
+UID:ds:2686:7809731@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T090000
 DTEND;TZID=America/New_York:20270121T110000
@@ -3421,7 +3421,7 @@ SUMMARY:Jefferson Township High School at Kittatinny High School (Junior
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2674:7809767@northwest-jersey-athletic-conference
+UID:ds:2674:7692231@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T180000
 DTEND;TZID=America/New_York:20270121T200000
@@ -3430,7 +3430,7 @@ SUMMARY:Jefferson Township High School at Kittatinny High School (Varsity
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2686:7809766@northwest-jersey-athletic-conference
+UID:ds:2686:7570188@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T180000
 DTEND;TZID=America/New_York:20270121T200000
@@ -3475,7 +3475,7 @@ SUMMARY:Hopatcong High School at Kittatinny High School (Junior Varsity G
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2686:7809830@northwest-jersey-athletic-conference
+UID:ds:2686:7504491@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270122T173000
 DTEND;TZID=America/New_York:20270122T193000
@@ -3538,7 +3538,7 @@ SUMMARY:High Point High School at Kittatinny High School (Junior Varsity
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2649:7475349@northwest-jersey-athletic-conference
+UID:ds:2649:7809956@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270125T190000
 DTEND;TZID=America/New_York:20270125T210000
@@ -3610,15 +3610,6 @@ SUMMARY:Kittatinny High School vs Sussex County Technical High School (Ju
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2686:7475382@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270126T173000
-DTEND;TZID=America/New_York:20270126T193000
-SUMMARY:Kittatinny High School at Sussex County Technical High School (Ju
- nior Varsity Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2686:7666188@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270126T173000
@@ -3626,6 +3617,15 @@ DTEND;TZID=America/New_York:20270126T193000
 SUMMARY:Kittatinny High School at Ridge High School (Junior Varsity Boys 
  Boys Wrestling)
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2686:7810000@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270126T173000
+DTEND;TZID=America/New_York:20270126T193000
+SUMMARY:Kittatinny High School at Sussex County Technical High School (Ju
+ nior Varsity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2887:7810001@northwest-jersey-athletic-conference
@@ -3646,7 +3646,7 @@ SUMMARY:Sussex County Tech High School vs Kittatinny High School (Junior
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2686:7650361@northwest-jersey-athletic-conference
+UID:ds:2686:7784907@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270126T180000
 DTEND;TZID=America/New_York:20270126T200000
@@ -3718,7 +3718,7 @@ SUMMARY:Kittatinny High School vs Manville High School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2686:7810184@northwest-jersey-athletic-conference
+UID:ds:2686:7475354@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270129T190000
 DTEND;TZID=America/New_York:20270129T210000

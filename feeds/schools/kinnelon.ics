@@ -275,15 +275,6 @@ SUMMARY:Hanover Park High School at Kinnelon High School (Junior Varsity
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2642:7455678@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260902T160000
-DTEND;TZID=America/New_York:20260902T180000
-SUMMARY:Hanover Park High School vs Kinnelon High School (Varsity Girls G
- irls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2642:7604486@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260902T160000
@@ -291,6 +282,15 @@ DTEND;TZID=America/New_York:20260902T180000
 SUMMARY:Hanover Park High School at Kinnelon High School (Varsity Boys Bo
  ys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2642:7455678@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260902T160000
+DTEND;TZID=America/New_York:20260902T180000
+SUMMARY:Hanover Park High School vs Kinnelon High School (Varsity Girls G
+ irls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ics:MorristownBeardSchool:event_8079_20260902t200000zapi.veracross.co
@@ -1549,15 +1549,6 @@ SUMMARY:High Point High School vs Kinnelon High School (Junior Varsity Bo
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2685:7509669@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261008T160000
-DTEND;TZID=America/New_York:20261008T180000
-SUMMARY:Kinnelon High School vs Sparta High School (Varsity Girls Girls T
- ennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2685:7509670@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261008T160000
@@ -1574,6 +1565,15 @@ DTEND;TZID=America/New_York:20261008T180000
 SUMMARY:Kinnelon High School at Heritage Middle School (Middle School Coe
  d Coed Cross Country)
 DESCRIPTION:Middle School Coed Coed Cross Country - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2685:7509669@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261008T160000
+DTEND;TZID=America/New_York:20261008T180000
+SUMMARY:Kinnelon High School vs Sparta High School (Varsity Girls Girls T
+ ennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:100195005@northwest-jersey-athletic-conference
@@ -2339,7 +2339,7 @@ SUMMARY:Kinnelon High School at Morristown High School (Varsity Coed Coed
 DESCRIPTION:Varsity Coed Coed Bowling - Away - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2748:7705399@northwest-jersey-athletic-conference
+UID:ds:2748:7807468@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261208T153000
 DTEND;TZID=America/New_York:20261208T173000
@@ -3421,7 +3421,7 @@ SUMMARY:Kinnelon High School vs West Essex Middle School (Middle School B
 DESCRIPTION:Middle School Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2685:7803004@northwest-jersey-athletic-conference
+UID:ds:2685:7542416@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270108T160000
 DTEND;TZID=America/New_York:20270108T180000
@@ -3430,13 +3430,22 @@ SUMMARY:Kinnelon High School vs West Milford High School (Varsity Girls G
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2685:7808872@northwest-jersey-athletic-conference
+UID:ds:2685:7636502@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270108T160000
 DTEND;TZID=America/New_York:20270108T180000
 SUMMARY:Kinnelon High School at West Essex Middle School (Middle School G
  irls Girls Basketball)
 DESCRIPTION:Middle School Girls Girls Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2685:7808873@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270108T160000
+DTEND;TZID=America/New_York:20270108T180000
+SUMMARY:Kinnelon High School at East Hanover Middle School (Middle School
+  Coed Coed Wrestling)
+DESCRIPTION:Middle School Coed Coed Wrestling - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2685:7457933@northwest-jersey-athletic-conference
@@ -3448,16 +3457,7 @@ SUMMARY:Kinnelon High School at West Morris Central (Junior Varsity Girls
 DESCRIPTION:Junior Varsity Girls Girls Fencing - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2685:7636533@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270108T160000
-DTEND;TZID=America/New_York:20270108T180000
-SUMMARY:Kinnelon High School at East Hanover Middle School (Middle School
-  Coed Coed Wrestling)
-DESCRIPTION:Middle School Coed Coed Wrestling - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2685:7803019@northwest-jersey-athletic-conference
+UID:ds:2685:7705892@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270108T164000
 DTEND;TZID=America/New_York:20270108T184000
@@ -3520,7 +3520,7 @@ SUMMARY:Kinnelon High School at Montville High School (Var-JV Boys Boys W
 DESCRIPTION:Var-JV Boys Boys Wrestling - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2685:7680854@northwest-jersey-athletic-conference
+UID:ds:2685:7809019@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270111T160000
 DTEND;TZID=America/New_York:20270111T180000
@@ -3528,7 +3528,7 @@ SUMMARY:Kinnelon High School vs TBD (Varsity Boys Boys Fencing)
 DESCRIPTION:Varsity Boys Boys Fencing - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2685:7809019@northwest-jersey-athletic-conference
+UID:ds:2685:7680854@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270111T160000
 DTEND;TZID=America/New_York:20270111T180000
@@ -3543,15 +3543,6 @@ DTEND;TZID=America/New_York:20270111T180000
 SUMMARY:Chatham High School at Kinnelon High School (Varsity Coed Coed Fe
  ncing)
 DESCRIPTION:Varsity Coed Coed Fencing - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2685:7457939@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270111T160000
-DTEND;TZID=America/New_York:20270111T180000
-SUMMARY:Kinnelon High School vs Chatham High School (Junior Varsity Girls
-  Girls Fencing)
-DESCRIPTION:Junior Varsity Girls Girls Fencing - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2685:7636503@northwest-jersey-athletic-conference
@@ -3570,6 +3561,15 @@ DTEND;TZID=America/New_York:20270111T180000
 SUMMARY:Kinnelon High School vs Pequannock Valley MS (Middle School Coed 
  Coed Wrestling)
 DESCRIPTION:Middle School Coed Coed Wrestling - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2685:7457939@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270111T160000
+DTEND;TZID=America/New_York:20270111T180000
+SUMMARY:Kinnelon High School vs Chatham High School (Junior Varsity Girls
+  Girls Fencing)
+DESCRIPTION:Junior Varsity Girls Girls Fencing - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2685:7636455@northwest-jersey-athletic-conference
@@ -3662,7 +3662,7 @@ SUMMARY:Morris County School of Technology at Kinnelon High School (Junio
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2685:7788483@northwest-jersey-athletic-conference
+UID:ds:2685:7647388@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T190000
 DTEND;TZID=America/New_York:20270112T210000
@@ -3752,7 +3752,16 @@ SUMMARY:Kinnelon High School vs Ridgedale Middle School (Middle School Co
 DESCRIPTION:Middle School Coed Coed Wrestling - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2685:7674899@northwest-jersey-athletic-conference
+UID:ds:2685:7683935@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270114T160000
+DTEND;TZID=America/New_York:20270114T180000
+SUMMARY:Kinnelon High School at Rockaway Valley School (Middle School Boy
+ s Boys Basketball)
+DESCRIPTION:Middle School Boys Boys Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2685:7809278@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T160000
 DTEND;TZID=America/New_York:20270114T180000
@@ -3770,15 +3779,6 @@ SUMMARY:Kinnelon High School vs Rockaway Valley School (Middle School Gir
 DESCRIPTION:Middle School Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2685:7683935@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270114T160000
-DTEND;TZID=America/New_York:20270114T180000
-SUMMARY:Kinnelon High School at Rockaway Valley School (Middle School Boy
- s Boys Basketball)
-DESCRIPTION:Middle School Boys Boys Basketball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2748:7674899@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T160000
@@ -3788,7 +3788,7 @@ SUMMARY:Morristown High School vs Kinnelon High School (Var-JV Coed Coed
 DESCRIPTION:Var-JV Coed Coed Swimming - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2685:7809296@northwest-jersey-athletic-conference
+UID:ds:2685:7743114@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T163000
 DTEND;TZID=America/New_York:20270114T183000
@@ -4219,15 +4219,6 @@ SUMMARY:Kinnelon High School vs TBD (Varsity Girls Girls Fencing)
 DESCRIPTION:Varsity Girls Girls Fencing - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2685:7542375@northwest-jersey-athletic-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270122T160000
-DTEND;TZID=America/New_York:20270122T180000
-SUMMARY:Kinnelon High School at Newton High School (Varsity Boys Boys Bas
- ketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2685:7604741@northwest-jersey-athletic-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270122T160000
@@ -4235,6 +4226,15 @@ DTEND;TZID=America/New_York:20270122T180000
 SUMMARY:Kinnelon High School vs West Essex High School (Varsity Girls Gir
  ls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2685:7542375@northwest-jersey-athletic-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270122T160000
+DTEND;TZID=America/New_York:20270122T180000
+SUMMARY:Kinnelon High School at Newton High School (Varsity Boys Boys Bas
+ ketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2685:7809823@northwest-jersey-athletic-conference
